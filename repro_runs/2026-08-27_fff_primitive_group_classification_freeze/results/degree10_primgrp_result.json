@@ -1,0 +1,67 @@
+{
+  "catalogue_count": 9,
+  "checks": {
+    "catalogue_count_is_9": true,
+    "degree_is_10": true,
+    "gap_version_4_16_0": true,
+    "indices_are_1_through_9": true,
+    "last_two_are_A10_S10": true,
+    "orders_match_frozen_catalogue": true,
+    "primgrp_version_4_0_3": true
+  },
+  "degree": 10,
+  "evidence_boundary": "Exact query result for GAP 4.16.0/PrimGrp 4.0.3; catalogue correctness and completeness remain an external classification assumption.",
+  "gap_version": "4.16.0",
+  "groups": [
+    {
+      "catalogue_index": 1,
+      "order": 60,
+      "structure": "A5"
+    },
+    {
+      "catalogue_index": 2,
+      "order": 120,
+      "structure": "S5"
+    },
+    {
+      "catalogue_index": 3,
+      "order": 360,
+      "structure": "A6"
+    },
+    {
+      "catalogue_index": 4,
+      "order": 720,
+      "structure": "A6 : C2"
+    },
+    {
+      "catalogue_index": 5,
+      "order": 720,
+      "structure": "S6"
+    },
+    {
+      "catalogue_index": 6,
+      "order": 720,
+      "structure": "A6 . C2"
+    },
+    {
+      "catalogue_index": 7,
+      "order": 1440,
+      "structure": "(A6 : C2) : C2"
+    },
+    {
+      "catalogue_index": 8,
+      "order": 1814400,
+      "structure": "A10"
+    },
+    {
+      "catalogue_index": 9,
+      "order": 3628800,
+      "structure": "S10"
+    }
+  ],
+  "overall_pass": true,
+  "primgrp_version": "4.0.3",
+  "query": "NrPrimitiveGroups(10) and PrimitiveGroup(10,i)",
+  "raw_output_sha256": "84c629de4c32700e387c59b36ebe89d7b2568de1cdf7156eaf767d68150b4f5e",
+  "run_id": "2026-08-27_fff_primitive_group_classification_freeze"
+}

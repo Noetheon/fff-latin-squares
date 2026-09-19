@@ -1,0 +1,86 @@
+Manuscript computational theorem audit
+=======================================
+Computational theorem environments: 13
+Claims audited: 13
+All theorem-relevant checks pass: True
+All package files present: True
+Overall pass: True
+
+Small orders
+  evidence: repro_runs/2026-04-26_small_order_witness_reruns/results/latin_trade_results.json
+  sha256: dc3a9ce6bd8b5ba5c8bce6713c85922478803a6b7d7b9681a609861344eb1fde
+  checks pass: True
+  package complete: True
+  boundary: Complete reduced enumeration; extension to all squares uses isotopy invariance.
+Order-8 pattern census
+  evidence: repro_runs/2026-04-26_order8_core/results/order8_recheck_fullscan_results.json
+  sha256: 10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39
+  checks pass: True
+  package complete: True
+  boundary: Complete frozen ANU main-class census; completeness of the external census is cited.
+Subsquare census of the FFF classes
+  evidence: repro_runs/2026-08-09_fff_subsquare_congruence_obstructions/results/subsquare_congruence_validation.json
+  sha256: 7f38d4acebdbc129f99f881ded68b9d89e320601d7c9ab326d93f6922e773cb1
+  checks pass: True
+  package complete: True
+  boundary: Exact on the frozen 230 order-8 FFF representatives only.
+Affine cycle-profile saturation
+  evidence: repro_runs/2026-08-09_fff_cycle_profile_affine_span/results/cycle_profile_affine_span_audit.json
+  sha256: f18300d8bc5b0d717656f0d18d0872739362e724df4c0e5c31f526adcdcadb0f
+  checks pass: True
+  package complete: True
+  boundary: Exact finite-field row reduction on the complete frozen order-8 census.
+Order-8 rainbow-square classifier
+  evidence: repro_runs/2026-08-09_fff_flag_surface_audit/results/rainbow_square_classifier.json
+  sha256: 630904f964e324fa8e94f8e5db42e3859afdd1793121562d6487410e77f6a807
+  checks pass: True
+  package complete: True
+  boundary: Classifier only on the frozen 230 order-8 FFF representatives.
+Pair-label triangle classifier
+  evidence: repro_runs/2026-08-09_fff_labelled_flag_incidence/results/labelled_flag_incidence_audit.json
+  sha256: e51e3781aaaa4533d15716781943804f80a7be8d7b2d840116f0d1aca81d6b49
+  checks pass: True
+  package complete: True
+  boundary: Classifier only on the frozen 230 order-8 FFF representatives.
+Primitive one-view reduction
+  evidence: repro_runs/2026-08-09_fff_primitive_group_reduction/results/primitive_group_reduction_status.json
+  sha256: 57e466993200a2cd9695ba64b3bfed7b7d4106aa7439228ffc271049145464ff
+  checks pass: True
+  package complete: True
+  boundary: Finite exclusions are proof-checked; completeness of the standard degree-10 primitive-group classification is external.
+Order-8 holonomy profiles
+  evidence: repro_runs/2026-08-11_fff_color_parity_holonomy/results/color_parity_holonomy_audit.json
+  sha256: 8d5ca0f89338ddbf73024a08f13615e04640e5689e55ceac617aba3f8ecfc1b6
+  checks pass: True
+  package complete: True
+  boundary: Canonical profile only on the frozen 230 order-8 FFF representatives; not a complete classifier.
+Order-6 common-mode exchange lattice
+  evidence: repro_runs/2026-08-11_fff_common_mode_trade_lattice/results/common_mode_trade_lattice_audit.json
+  sha256: 80f06a33406642dc6cfe5fb97e98bb90e397ff5c2a572508b1a4c81ab09130e7
+  checks pass: True
+  package complete: True
+  boundary: Complete reduced order-6 census; no universal quotient or order-10 claim.
+Order-6 intrinsic exchange parity
+  evidence: repro_runs/2026-08-11_fff_intrinsic_exchange_parity/results/all_rank19_exchange_parity_audit.json
+  sha256: b5caf1fc270369af52cd75fd4f87379edea3c169697afbb04cdb56bc979dd0c8
+  checks pass: True
+  package complete: True
+  boundary: Complete order-6 main-class classification; no FFF or order-10 obstruction.
+Order-8 FFF exchange-parity controls
+  evidence: repro_runs/2026-08-11_fff_exchange_parity_controls/results/exchange_parity_controls_merged.json
+  sha256: 2260c58f70055abe4a0bc3c7f849f848a9aab1d8700e4d46e61fce0ee1bfda95
+  checks pass: True
+  package complete: True
+  boundary: Complete frozen order-8 FFF controls; the order-10 companion corpus is diagnostic only.
+Order-10 cycle-type palette exclusions
+  evidence: repro_runs/2026-08-14_fff_four_type_p20_search/results/p20_case_run_validation.json
+  sha256: acb533f4b56d62bcbf85d65fc177fd110d34885793902b136fe441bb94199012
+  checks pass: True
+  package complete: True
+  boundary: Complete for palettes of size at most five; C155/C156 handle the remaining palettes.
+Order-10 nonexistence
+  evidence: repro_runs/2026-08-26_fff_six_type_noninvolution_master_search/results/noninvolution_run_validation.json
+  sha256: 3c52a56bc9b3a4c89eaf4719496034f95fdcea522b29558afbd38efdcfa4f185
+  checks pass: True
+  package complete: True
+  boundary: Complete for order 10 only; C38 remains open beginning at order 12.

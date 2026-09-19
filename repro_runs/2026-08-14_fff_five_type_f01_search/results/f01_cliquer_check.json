@@ -1,0 +1,51 @@
+{
+  "command": [
+    "/tmp/order8_solver_tools/cliquer_1_21/cliquer-1.21/cl",
+    "-u",
+    "-m",
+    "8",
+    "-M",
+    "8",
+    "-r",
+    "unweighted-coloring",
+    "/tmp/order8_f01_graph.dimacs"
+  ],
+  "files": {
+    "cliquer_binary": {
+      "path": "/private/tmp/order8_solver_tools/cliquer_1_21/cliquer-1.21/cl",
+      "sha256": "a3dcbb1944985aeb439c92b7ad8abbe114f27458a62b8abcf1b9585ad8f3ffd3",
+      "size_bytes": 93056
+    },
+    "cliquer_source_tarball": {
+      "path": "/private/tmp/order8_solver_tools/cliquer_1_21/cliquer-1.21.tar.gz",
+      "sha256": "ff306d27eda82383c0257065e3ffab028415ac9af73bccfdd9c2405b797ed1f1",
+      "size_bytes": 100327
+    },
+    "dimacs": {
+      "path": "/private/tmp/order8_f01_graph.dimacs",
+      "sha256": "be4fb91894d0eef43d7832e69a3454c0eecf3669720b8e7ccf9f0592831f455a",
+      "size_bytes": 37145498
+    },
+    "graph": {
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f01/f01.bin",
+      "sha256": "6360189d6f4dc2e5730884b51e1662715cb48be0321593a0f86ed0eb60ed98af",
+      "size_bytes": 9417626
+    },
+    "stderr": {
+      "path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_cliquer.stderr",
+      "sha256": "a76512941ceaf5630a6471e98a6be207d4dab2111ea47065074fb6324747d839",
+      "size_bytes": 1248
+    },
+    "stdout": {
+      "path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_cliquer.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    }
+  },
+  "independence_note": "Cliquer 1.21 reads DIMACS and shares neither the project DFS nor its orbit task reduction.",
+  "maximum_seen_below_request": 2,
+  "requested_clique_size": 8,
+  "result": "no_clique_of_size_8",
+  "schema_version": "f01-independent-cliquer-check-v1",
+  "valid": true
+}

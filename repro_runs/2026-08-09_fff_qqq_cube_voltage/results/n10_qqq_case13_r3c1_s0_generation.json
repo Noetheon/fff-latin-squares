@@ -1,0 +1,45 @@
+{
+  "clauses": 2682916,
+  "cnf": {
+    "path": "/tmp/order8_n10_qqq_case13_r3c1_s0.cnf",
+    "sha256": "a636ef41622eb098f9742abff4da85099536792a41c86e728a3b6e6e3ee9240d",
+    "size_bytes": 54390284
+  },
+  "encoding_version": "qqq_power_fixedpoint_v2_guarded_transition_fixed_cell_cube_v1",
+  "fixed_cells": [
+    [
+      3,
+      1,
+      0
+    ]
+  ],
+  "fixed_row1_permutation": [
+    1,
+    2,
+    3,
+    4,
+    0,
+    6,
+    7,
+    5,
+    9,
+    8
+  ],
+  "mapping": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/n10_qqq_case13_r3c1_s0_mapping.json",
+    "sha256": "0773966fb39bbd5bda1ef3253195274af25b2cfdbd4869e4a06561c2f80a2d11"
+  },
+  "n": 10,
+  "reduced": true,
+  "upstream_base_cnf_sha256": "2ec7dce404e468eb24cbf70b5a5d0848c861b627f3088a581ed18cea66b8a3b7",
+  "upstream_generator": {
+    "path": "repro_runs/2026-08-09_fff_qqq_proof_encoding/scripts/generate_qqq_cnf.py",
+    "sha256": "0df17c9c229540ea578872f67a95785b64d7c284980b7a9f7a197cdcb63c978e"
+  },
+  "variables": 95500,
+  "views": [
+    "row",
+    "col",
+    "sym"
+  ]
+}

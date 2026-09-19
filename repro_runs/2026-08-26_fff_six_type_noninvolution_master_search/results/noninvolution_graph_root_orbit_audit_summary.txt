@@ -1,0 +1,10 @@
+Six-type master graph root-orbit audit
+
+case: noninvolution_master_6_types
+graph vertices: 172368
+full tasks/orbits: 18300/386
+residual group: 48
+orbit sizes: {12: 5, 24: 2, 48: 379}
+covered tasks: 18300
+checks passed: 10/10
+valid: true

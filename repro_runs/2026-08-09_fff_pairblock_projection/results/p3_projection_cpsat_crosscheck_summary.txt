@@ -1,0 +1,9 @@
+Independent pair-block projection CP-SAT cross-check
+
+p: 3
+degree: 6
+variables: 63
+constraints: 94
+result: unsat
+elapsed_seconds: 0.024061
+proof_certificate_available: false

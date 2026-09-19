@@ -1,0 +1,97 @@
+{
+  "audit_version": "exchange_parity_controls_merge_v1",
+  "claim_boundary": [
+    "Order-8 controls can falsify a universal implication FFF => q4=1.",
+    "Order-10 controls are diagnostic only and cannot decide C38."
+  ],
+  "codimension_one_forced_by_fff": false,
+  "error_count": 0,
+  "errors": [],
+  "order10_tracked_partial": {
+    "annihilator_mod_lines_dimension_distribution": {
+      "0": 135
+    },
+    "elapsed_seconds_range": [
+      6.934494417000678,
+      10.584222042001784
+    ],
+    "error_count": 0,
+    "exchange_count_range": [
+      2921,
+      4874
+    ],
+    "exchange_quotient_dimension_mod2_distribution": {
+      "0": 135
+    },
+    "exchange_rank_mod2_distribution": {
+      "72": 135
+    },
+    "group_isotopic_distribution": {
+      "False": 135
+    },
+    "line_rank_mod2_distribution": {
+      "28": 135
+    },
+    "pattern_distribution": {
+      "FFT": 127,
+      "FTT": 1,
+      "TFT": 2,
+      "TTT": 5
+    },
+    "table_count": 135,
+    "trade_dimension_mod2_distribution": {
+      "72": 135
+    },
+    "unique_table_count": 135
+  },
+  "order8_fff_complete": {
+    "annihilator_mod_lines_dimension_distribution": {
+      "0": 39,
+      "1": 147,
+      "2": 35,
+      "3": 9
+    },
+    "elapsed_seconds_range": [
+      1.4791044160010642,
+      2.0129581250002957
+    ],
+    "error_count": 0,
+    "exchange_count_range": [
+      1008,
+      6216
+    ],
+    "exchange_quotient_dimension_mod2_distribution": {
+      "0": 39,
+      "1": 147,
+      "2": 35,
+      "3": 9
+    },
+    "exchange_rank_mod2_distribution": {
+      "39": 1,
+      "40": 8,
+      "41": 46,
+      "42": 175
+    },
+    "group_isotopic_distribution": {
+      "False": 225,
+      "True": 5
+    },
+    "line_rank_mod2_distribution": {
+      "19": 1,
+      "20": 10,
+      "21": 156,
+      "22": 63
+    },
+    "pattern_distribution": {
+      "FFF": 230
+    },
+    "table_count": 230,
+    "trade_dimension_mod2_distribution": {
+      "42": 63,
+      "43": 156,
+      "44": 10,
+      "45": 1
+    },
+    "unique_table_count": 230
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "checker": {
+    "binary_sha256": "f58f63b0f76945d4c4c9ff6e87afaf870f579e67c0f7cca589492df8fc7ebd47",
+    "path": "/tmp/order8_solver_tools/drat-trim/drat-trim",
+    "source_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+  },
+  "cnf": {
+    "path": "/tmp/order8_pairblock_projection/p5_projection_triangles.cnf",
+    "sha256": "210c508606b29bd9cb3777505c127f317091252d3bcd6a54c6f55bf1768fe8c3"
+  },
+  "proof": {
+    "path": "/tmp/order8_pairblock_projection/p5_projection_triangles.drat",
+    "sha256": "fdfd3195fefe03bc157727158db79e656884fb17386712b505f093c7dc8dcc11",
+    "size_bytes": 1925461
+  },
+  "result": "verified",
+  "returncode": 0,
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_pairblock_projection/logs/p5_projection_triangles_drat_check.stderr.log",
+    "sha256": "7b9db5248c7c4912f106538a55f64a81cd95f212a27d28786b864a8c935b81f4"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_pairblock_projection/logs/p5_projection_triangles_drat_check.stdout.log",
+    "sha256": "034b146663f268a2125e06e1a27929b492aaf51bae2cc2b795f7922d7e1e58f1"
+  }
+}

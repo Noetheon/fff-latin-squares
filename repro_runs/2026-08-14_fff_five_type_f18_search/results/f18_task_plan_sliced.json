@@ -1,0 +1,236 @@
+{
+  "case": {
+    "case_id": "f18",
+    "filter_level": 2,
+    "palette_canonical": [
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+4",
+      "8+2"
+    ],
+    "root_type": "2+2+2+2+2"
+  },
+  "graph": {
+    "audit_binding_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_graph_audit_binding.json",
+    "audit_binding_sha256": "6faeb532d329920bc44701e7aae359407d1b92ad95e6815ce66bbf6e4d10b174",
+    "bucket_sizes": [
+      2520,
+      2520,
+      2520,
+      2520,
+      2520,
+      2520,
+      2520,
+      2520
+    ],
+    "canonical_root": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8
+    ],
+    "format": "O8HTv1-le",
+    "path_hint": "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+    "semantic_audit_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_complete_graph_audit.json",
+    "semantic_audit_sha256": "412c505c6b5bc398df339ef6b3dda9efbeaa545bf673137132ca2297a9f5360a",
+    "semantic_audit_valid": true,
+    "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+    "size_bytes": 51004826,
+    "structural_audit_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_structural_graph_audit.json",
+    "structural_audit_sha256": "c98ca867d46a940597124b6bb1f650939dbdd0e46a15285b4b30e527ac278e57",
+    "vertices": 20160,
+    "words": 315
+  },
+  "plan_payload_sha256": "2f229e8f79d82904d8988027fd554f89483b9a2e70f961ef2c781ba7ff5c9b5d",
+  "schema_version": "five-type-task-plan-v1",
+  "search": {
+    "binary_path_hint": "/private/tmp/order8_f18/search",
+    "binary_sha256": "183b305457cb85011a6c5289a2e0eb4ac3b0ca2f37824ab83dca5855fd41c3b2",
+    "compiler": "/usr/bin/clang++",
+    "compiler_version": "Apple clang 21.0.0 (clang-2100.1.1.101)",
+    "flags": [
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4"
+    ],
+    "source_bundle_sha256": "89890f1203cba6bbd65512fb27b18e700f9df3dc4eb96b6e14c9231f0424e337",
+    "sources": [
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f18_search/scripts/search_partite_fff.cpp",
+        "sha256": "ec541446455833b9c3044b140a280de162751933a98eefa2ad78104067a88652"
+      },
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f18_search/scripts/partial_cycle.hpp",
+        "sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82"
+      }
+    ]
+  },
+  "tasking": {
+    "full_initial_tasks": 2520,
+    "full_task_vertices_sha256": "5dd0154a2ee45ad869af923d2e982706a88c2eb34d543ff2ce90a2ecb29ad815",
+    "initial_bucket": 0,
+    "initial_bucket_value": 2,
+    "policy": "minimum_bucket_then_smallest_bucket_id",
+    "slice_width": 6,
+    "slices": [
+      {
+        "count": 6,
+        "end_exclusive": 6,
+        "ordinal": 0,
+        "slice_id": "s0000",
+        "start": 0,
+        "task_vertices_sha256": "658d35363bb93e76072869272c3862523da91a98e3057bfcc9aa80d1f7d825fd"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 12,
+        "ordinal": 1,
+        "slice_id": "s0001",
+        "start": 6,
+        "task_vertices_sha256": "3a52ce7ff078d0ff3f00cdf9b2e64d9f3a4b74c7e4370aeddc3b97135ccf5918"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 18,
+        "ordinal": 2,
+        "slice_id": "s0002",
+        "start": 12,
+        "task_vertices_sha256": "e88592b4a327bd18f25f39eb505d98f5884a07e3c57dbc94373b1b56054fd16c"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 24,
+        "ordinal": 3,
+        "slice_id": "s0003",
+        "start": 18,
+        "task_vertices_sha256": "4fa7822e592dad47e6d22244c3530b39b6cf1dd52150f03dfe1b034763a658bb"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 30,
+        "ordinal": 4,
+        "slice_id": "s0004",
+        "start": 24,
+        "task_vertices_sha256": "2bb009b5b17112e5890e1deae76e8eef55e82add10d5110b8f47310a8b28ee51"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 36,
+        "ordinal": 5,
+        "slice_id": "s0005",
+        "start": 30,
+        "task_vertices_sha256": "cccc73f6e78d6ec8d37a82e58e3e526a626e4d619a88ab6bbfc0762bb8a27103"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 42,
+        "ordinal": 6,
+        "slice_id": "s0006",
+        "start": 36,
+        "task_vertices_sha256": "8bd12695f38278f169f0e0a1c3f0b1574e8ef17592b3dc510b831803b7993753"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 48,
+        "ordinal": 7,
+        "slice_id": "s0007",
+        "start": 42,
+        "task_vertices_sha256": "cabe397b804de0e2089766d088457fdbb261493c01c8f977843026fda7cf2e45"
+      },
+      {
+        "count": 6,
+        "end_exclusive": 54,
+        "ordinal": 8,
+        "slice_id": "s0008",
+        "start": 48,
+        "task_vertices_sha256": "1bddfa07c7982fb6435b50a79ebbfed10eb94131c0f7e3f9124b4b919743dc4e"
+      },
+      {
+        "count": 4,
+        "end_exclusive": 58,
+        "ordinal": 9,
+        "slice_id": "s0009",
+        "start": 54,
+        "task_vertices_sha256": "9c3908b0322322bbc43fd9dcb2d5829b8fd7a52be2655e99a616995d3cb14064"
+      }
+    ],
+    "task_list_sha256": "b0aee9b5df60398c7cdf1357d7f18e6d8481e071bbe6e53c1f15cfd89baca4ae",
+    "task_reduction": {
+      "audit_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_graph_root_orbit_audit.json",
+      "audit_sha256": "792f2493d1ab01e552b9fe174c957a8f67e22ae9270d7dc97c174b1e2f5862c6",
+      "full_initial_tasks": 2520,
+      "selected_initial_tasks": 58,
+      "task_file_path": "repro_runs/2026-08-14_fff_five_type_f18_search/data/f18_task_ordinals.txt",
+      "task_file_sha256": "078bab363aada10ae2412fd652c9a0cfc697153769fdbde8c2e12495d5061f8f"
+    },
+    "task_vertices": [
+      0,
+      1,
+      96,
+      98,
+      144,
+      145,
+      240,
+      241,
+      256,
+      258,
+      259,
+      274,
+      275,
+      278,
+      298,
+      300,
+      308,
+      310,
+      318,
+      320,
+      321,
+      322,
+      326,
+      327,
+      366,
+      368,
+      370,
+      372,
+      386,
+      388,
+      389,
+      404,
+      406,
+      407,
+      428,
+      430,
+      432,
+      433,
+      434,
+      435,
+      440,
+      442,
+      443,
+      446,
+      448,
+      449,
+      452,
+      454,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465
+    ],
+    "total_initial_tasks": 58
+  }
+}

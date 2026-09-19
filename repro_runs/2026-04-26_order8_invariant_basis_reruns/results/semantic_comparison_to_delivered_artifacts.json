@@ -1,0 +1,104 @@
+{
+  "exact_failures": [
+    {
+      "name": "order8_loop_invariants_analysis_summary_exact_match",
+      "ok": false
+    },
+    {
+      "name": "order8_nongroup_cluster_analysis_json_exact_match",
+      "ok": false
+    },
+    {
+      "name": "order8_nongroup_cluster_analysis_summary_exact_match",
+      "ok": false
+    }
+  ],
+  "known_drifts": [
+    {
+      "detail": "fresh script writes a more verbose summary; result JSON is byte-identical",
+      "field": "summary.txt",
+      "kind": "display_text_drift",
+      "stem": "order8_loop_invariants_analysis"
+    },
+    {
+      "detail": "JSON objects are equal; fresh file has one trailing newline",
+      "field": "results.json",
+      "kind": "trailing_newline_only",
+      "stem": "order8_nongroup_cluster_analysis"
+    },
+    {
+      "detail": "summary renders Counter values as dicts in the fresh run; result JSON is semantically equal",
+      "field": "summary.txt",
+      "kind": "counter_display_drift",
+      "stem": "order8_nongroup_cluster_analysis"
+    }
+  ],
+  "overall_exact_artifact_match": false,
+  "overall_json_object_match": true,
+  "semantic_failures": [],
+  "summary": {
+    "order8_cluster_refinement_analysis": {
+      "delivered_json_sha256": "59d784027e6e86625f9a06291f88a0f21767fa7fc0eaabb2b2253cc5688124e2",
+      "delivered_summary_sha256": "47c77c566f1e49d27c90790637c69201ae9e24de4144e05592b273a3c2ede7c5",
+      "fresh_json_sha256": "59d784027e6e86625f9a06291f88a0f21767fa7fc0eaabb2b2253cc5688124e2",
+      "fresh_summary_sha256": "47c77c566f1e49d27c90790637c69201ae9e24de4144e05592b273a3c2ede7c5",
+      "json_exact_match": true,
+      "json_object_match": true,
+      "summary_exact_match": true
+    },
+    "order8_commutant_weakening_analysis": {
+      "delivered_json_sha256": "f126cf4758f6a529645a46b228e5033f48d83f44f30530c400950d91595643c1",
+      "delivered_summary_sha256": "75c3ef9c05500703986d341f50f913bfe4ad1575941581a211f055d336cefb81",
+      "fresh_json_sha256": "f126cf4758f6a529645a46b228e5033f48d83f44f30530c400950d91595643c1",
+      "fresh_summary_sha256": "75c3ef9c05500703986d341f50f913bfe4ad1575941581a211f055d336cefb81",
+      "json_exact_match": true,
+      "json_object_match": true,
+      "summary_exact_match": true
+    },
+    "order8_extended_nongroup_cluster_analysis": {
+      "delivered_json_sha256": "9c6430d24d9466240c4136d1fdad80ddbcd7a46f2396acbc57a76b3184fea59f",
+      "delivered_summary_sha256": "666f18c5e6a8ad49a07d6d23a8fdb6706eb88b831231950a9094afd315a7527d",
+      "fresh_json_sha256": "9c6430d24d9466240c4136d1fdad80ddbcd7a46f2396acbc57a76b3184fea59f",
+      "fresh_summary_sha256": "666f18c5e6a8ad49a07d6d23a8fdb6706eb88b831231950a9094afd315a7527d",
+      "json_exact_match": true,
+      "json_object_match": true,
+      "summary_exact_match": true
+    },
+    "order8_full_fff_basis_analysis": {
+      "delivered_json_sha256": "954ad0d1000b7367f67264f67c79ef767f9bf70275978a89610f672746c30dfd",
+      "delivered_summary_sha256": "92a30a87c47857971e8ac1df2c2005ecd92a773f2b03b327fd9a934c40217927",
+      "fresh_json_sha256": "954ad0d1000b7367f67264f67c79ef767f9bf70275978a89610f672746c30dfd",
+      "fresh_summary_sha256": "92a30a87c47857971e8ac1df2c2005ecd92a773f2b03b327fd9a934c40217927",
+      "json_exact_match": true,
+      "json_object_match": true,
+      "summary_exact_match": true
+    },
+    "order8_invariant_basis_minimization": {
+      "delivered_json_sha256": "bd2461d3133806821919e45b13b61faaa395da2a4784e06f307663c1258b3ba6",
+      "delivered_summary_sha256": "f045cba0b91317d42e9a171a0b40ee7ed5f3ca9e912644392ff528cff78e5a41",
+      "fresh_json_sha256": "bd2461d3133806821919e45b13b61faaa395da2a4784e06f307663c1258b3ba6",
+      "fresh_summary_sha256": "f045cba0b91317d42e9a171a0b40ee7ed5f3ca9e912644392ff528cff78e5a41",
+      "json_exact_match": true,
+      "json_object_match": true,
+      "summary_exact_match": true
+    },
+    "order8_loop_invariants_analysis": {
+      "delivered_json_sha256": "7341557bcd2c88cc29c465b8799c0225b84207f50562196efd641763d3746c9a",
+      "delivered_summary_sha256": "d1ed5850c9c252cefe95b2df8f55bba83f097a04529d7c033fe0fa5834a68ef6",
+      "fresh_json_sha256": "7341557bcd2c88cc29c465b8799c0225b84207f50562196efd641763d3746c9a",
+      "fresh_summary_sha256": "0b397c5d74474f9ce26fc04f481a06ebbc290f8a72a626a6ca3947aac5fa1827",
+      "json_exact_match": true,
+      "json_object_match": true,
+      "summary_exact_match": false
+    },
+    "order8_nongroup_cluster_analysis": {
+      "delivered_json_sha256": "9cb493399e40df9e1dc0fc13f730a11ac4cf06dc51d068e528a81b347029a151",
+      "delivered_summary_sha256": "783694e4fa943d2bd495cfd7f0b6f034ba265ff52314004c0f9ae3cbbdbdc3bb",
+      "fresh_json_sha256": "eb1d7ea3f59fd7b18f4f38d7894d613033c0442c95ce690b3de06c2f65fd20e9",
+      "fresh_summary_sha256": "8cb389fcaf431e9eecff10355f053ce2a6ccb3ef2da90aee6d892b98e7efeaf4",
+      "json_exact_match": false,
+      "json_object_match": true,
+      "summary_exact_match": false
+    }
+  }
+}

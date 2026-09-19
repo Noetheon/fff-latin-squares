@@ -1,0 +1,14 @@
+completed_tasks: true
+total_initial_tasks: true
+task_file_sha256: true
+task_list_sha256: true
+graph_sha256: true
+search_binary_sha256: true
+source_bundle_sha256: true
+search_nodes: true
+crossview_odd_cycle_prunes: true
+fff_found: true
+negative_search_complete: true
+complete_disjoint_cover: true
+status: true
+all checks passed: true

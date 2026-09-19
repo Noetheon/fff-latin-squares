@@ -1,0 +1,36 @@
+{
+  "comparisons": {
+    "order8_group_isotope_subgroup_criterion_results.json": {
+      "exact_json_object_match": true,
+      "matched_parts": {
+        "order8_fff_summary": true,
+        "theorem": true,
+        "transitive_species_profiles": true
+      }
+    },
+    "order8_near_closure_analysis_results.json": {
+      "exact_json_object_match": true,
+      "matched_parts": {
+        "order8_fff_summary": true,
+        "theorems": true,
+        "transitive_species_profiles": true
+      }
+    }
+  },
+  "overall_semantic_match": true,
+  "remaining_structure_generator_gaps": [
+    "order8_orbit_data_refinement_results.json",
+    "order8_coupled_full_ternary_classification_results.json",
+    "order8_full_fff_reference_catalog.json",
+    "order8_full_fff_reference_table.tsv",
+    "order8_full_fff_bridge_schema.json",
+    "order8_full_fff_bridge_schema.tsv",
+    "order8_nongroup_fff_classification_catalog.json",
+    "order8_nongroup_fff_classification_table.tsv"
+  ],
+  "scope": "Fresh reconstruction of the closure/group-isotope and near-closure outputs from the durable order-8 core JSON inputs.",
+  "supports_claims": [
+    "C14",
+    "C15"
+  ]
+}

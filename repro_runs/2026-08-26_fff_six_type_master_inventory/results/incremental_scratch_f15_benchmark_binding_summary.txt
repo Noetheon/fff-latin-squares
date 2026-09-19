@@ -1,0 +1,8 @@
+Incremental f15 search benchmark binding
+
+tasks/nodes/prunes: 25/146648523/103348583
+old/incremental seconds: 140.26/22.03
+speedup: 6.367x
+swaps: 0
+checks passed: 8/8
+all checks passed: true

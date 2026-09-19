@@ -1,0 +1,18 @@
+Order-8 paper external-input audit
+Overall OK: True
+
+ANU order-8 main-class file:
+  SHA-256: e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87
+  Exact online/local byte match: True
+  Nonempty records: 283657
+
+Wanless transitive order-8 file:
+  SHA-256: 1c777328c099e3c242a49f9f2019d83314d7ab800505c7d9291bdb16ef029146
+  Exact online/local byte match: True
+  Header: 8 8 11 ## The LS8 with transitive autotopism group. First 5 are groups, last 2 are sharply transitive
+
+ANU reduced order-6 cross-check:
+  Official unique tables: 9408
+  Freshly generated unique tables: 9408
+  Exact set match: True
+  Missing/extra: 0/0

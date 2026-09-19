@@ -1,0 +1,17 @@
+CaDiCaL solve summary
+
+label: n10_row1_case_10_z4_4_2_2_2_satsuma_cadical
+cnf: repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_fix_units.cnf
+cnf_sha256: 2485229ccdb297339f28c673f5b5c6efff79b3496b630eada9b23bf4afe218f2
+solver: /opt/homebrew/bin/cadical
+solver_version: 3.0.0
+command: /opt/homebrew/bin/cadical repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_fix_units.cnf
+timeout_seconds: 300.0
+result: timeout
+elapsed_seconds: 300.007890
+proof_log_available: False
+proof_log_sha256: None
+model_available: False
+model_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+stdout_sha256: f12d74520f6391dd6f988432749830bc344a629bda0974601a2eacc8ef041022
+stderr_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

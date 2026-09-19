@@ -1,0 +1,49 @@
+{
+  "binary": {
+    "path": "/private/tmp/order8_f15/enumerate_cliques",
+    "sha256": "26cfc77d53f963c6ae287427e048e836fe145aeee92aaace63094705a2249827",
+    "size_bytes": 60528
+  },
+  "command": [
+    "/tmp/order8_f15/enumerate_cliques",
+    "external/Order8_external_graphs/2026-08-25_five_type/f15/f15.bin",
+    "10",
+    "4+4+2",
+    "6+2+2",
+    "6+4",
+    "8+2",
+    "8",
+    "repro_runs/2026-08-25_fff_five_type_f15_search/results/f15_binary_clique_table_audit.json",
+    "repro_runs/2026-08-25_fff_five_type_f15_search/results/f15_binary_clique_table_audit_summary.txt"
+  ],
+  "complete": true,
+  "elapsed_seconds": 32550.763226,
+  "exit_code": 0,
+  "finished_at": "2026-08-26T09:56:24.630110+00:00",
+  "inputs": [
+    {
+      "path": "external/Order8_external_graphs/2026-08-25_five_type/f15/f15.bin",
+      "sha256": "5198afaece05822dd7812e6a0408acf79648d5de7ff714c81e916544dd2d6828",
+      "size_bytes": 2635089434
+    }
+  ],
+  "outputs": [
+    {
+      "path": "repro_runs/2026-08-25_fff_five_type_f15_search/results/f15_binary_clique_table_audit.json",
+      "sha256": "df0d7944258a8376bcc0e695c49542d468ff94dd57c37d31e5fc9d20fc68eccd",
+      "size_bytes": 362
+    },
+    {
+      "path": "repro_runs/2026-08-25_fff_five_type_f15_search/results/f15_binary_clique_table_audit_summary.txt",
+      "sha256": "42e26a78b78ec2f98ea29583625a789cc41522619c78ae959c1561e9ec1c9300",
+      "size_bytes": 212
+    }
+  ],
+  "schema_version": "bound-command-execution-v1",
+  "source": {
+    "path": "repro_runs/2026-08-25_fff_five_type_f15_search/scripts/enumerate_binary_graph_clique_tables.cpp",
+    "sha256": "df2b08c9109c619ef273cbd7ba5f57cbdca010225452b2a151f8826c97ac908c",
+    "size_bytes": 13906
+  },
+  "started_at": "2026-08-26T00:53:53.866884+00:00"
+}

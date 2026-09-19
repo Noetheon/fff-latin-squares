@@ -1,0 +1,88 @@
+Colour-parity holonomy audit
+
+audit version: color_parity_holonomy_v2
+tables: 9777
+atoms: 784315
+flags: 1918172
+boundary colour-count checks: 1568630
+components: 104645
+holonomy quotient fibre checks: 93662
+errors: 0
+
+Exact theorem audited:
+- the F2^3 colour-edge cochain is closed exactly for FFF;
+- each coordinate is closed exactly when the other two views are F;
+- the sum of the three colour classes is the orientation class w1;
+- exact colour masks determine the span rank of the three classes;
+- rank h gives 2^(3-h) equal flag fibres and flag divisibility;
+- every intercalate RP2 component has exact masks 000,011,101,110.
+
+order4_complete
+- tables: 4
+- patterns: {'FFF': 4}
+- coordinate-closed signatures: {'111': 4}
+- atoms / flags: 108 / 192
+- components: 27
+- FFF components: 27
+- orientable / nonorientable FFF components: 3 / 24
+- intercalate components: 24
+- colour-class span ranks: {'0': 3, '1': 24}
+- FFF table max-rank range: [1, 1]
+- canonical FFF holonomy signatures: 2
+- singleton / max-collision signatures: 1 / 3
+- signature collision histogram: {'1': 1, '3': 1}
+- errors: 0
+
+order6_complete
+- tables: 9408
+- patterns: {'FFT': 936, 'FTF': 936, 'TFF': 936, 'TTT': 6600}
+- coordinate-closed signatures: {'000': 6600, '001': 936, '010': 936, '100': 936}
+- atoms / flags: 695520 / 1693440
+- components: 89068
+- FFF components: 78220
+- orientable / nonorientable FFF components: 60 / 78160
+- intercalate components: 77760
+- colour-class span ranks: {'0': 60, '1': 78160}
+- FFF table max-rank range: None
+- canonical FFF holonomy signatures: 0
+- singleton / max-collision signatures: 0 / None
+- signature collision histogram: {}
+- errors: 0
+
+order8_fff_complete
+- tables: 230
+- patterns: {'FFF': 230}
+- coordinate-closed signatures: {'111': 230}
+- atoms / flags: 47160 / 103040
+- components: 9768
+- FFF components: 9768
+- orientable / nonorientable FFF components: 508 / 9260
+- intercalate components: 9050
+- colour-class span ranks: {'0': 507, '1': 9212, '2': 36, '3': 13}
+- FFF table max-rank range: [1, 3]
+- canonical FFF holonomy signatures: 152
+- singleton / max-collision signatures: 109 / 5
+- signature collision histogram: {'1': 109, '2': 22, '3': 12, '4': 4, '5': 5}
+- errors: 0
+
+order10_tracked_partial
+- tables: 135
+- patterns: {'FFT': 127, 'FTT': 1, 'TFT': 2, 'TTT': 5}
+- coordinate-closed signatures: {'000': 8, '001': 127}
+- atoms / flags: 41527 / 121500
+- components: 5782
+- FFF components: 5647
+- orientable / nonorientable FFF components: 9 / 5638
+- intercalate components: 5638
+- colour-class span ranks: {'0': 9, '1': 5638}
+- FFF table max-rank range: None
+- canonical FFF holonomy signatures: 0
+- singleton / max-collision signatures: 0 / None
+- signature collision histogram: {}
+- errors: 0
+
+Evidence boundary:
+- C85 is rigorous; this run is exact sanity evidence.
+- Nontrivial holonomy at order 2 mod 4 is necessary, not contradictory.
+- The order-10 corpus is tracked partial data, not an exhaustive census.
+- C38 remains open and C40 remains absent.

@@ -1,0 +1,11 @@
+Pair-block projection-voltage CNF
+
+p: 5
+degree: 10
+projections: 120
+selected projections implied: 10
+variables: 40980
+clauses: 167986
+odd-cycle voltage constraints: 10740
+CNF SHA-256: f13e3db94f8b3e99f623262ef88b2218b0c33d2f56bf8f3c2e59a18ad4470d72
+scope: pair-imprimitive row-F only; not full FFF

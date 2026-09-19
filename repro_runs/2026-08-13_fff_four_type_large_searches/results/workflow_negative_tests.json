@@ -1,0 +1,24 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "reject_appended_byte": true,
+    "reject_duplicate_vertex": true,
+    "reject_embedded_raw_mismatch_on_merge": true,
+    "reject_embedded_raw_mismatch_on_resume": true,
+    "reject_invalid_permutation": true,
+    "reject_magic_byte_6": true,
+    "reject_magic_byte_7": true,
+    "reject_nonzero_diagonal": true,
+    "reject_nonzero_padding": true,
+    "reject_stale_resume_checkpoint": true,
+    "reject_truncated_adjacency": true,
+    "reject_truncated_header": true,
+    "reject_truncated_vertices": true,
+    "reject_unsorted_vertices": true,
+    "reject_wrong_words": true,
+    "valid_control_accepted": true
+  },
+  "passed": 16,
+  "schema_version": "four-type-workflow-negative-tests-v1",
+  "total": 16
+}

@@ -1,0 +1,31 @@
+Five-type exact-palette intercalate audit
+
+case  min  max  possible-I-count
+f01   68  126   59
+f02    9  117  109
+f03   28  118   91
+f04   10  124  113
+f05   29  125   94
+f06    9  108   99
+f07    8   62   55
+f08   28   82   55
+f09    7   63   57
+f10    8   82   75
+f11    6  120  115
+f12   25  121   97
+f13    5  111  107
+f14    6  119  113
+f15    4   66   63
+f16   17  125  109
+f17   52  126   75
+f18   17  116   99
+f19   25  124   99
+f20   15   83   69
+f21   14  120  107
+
+incompatible view-palette pairs: f01/f07, f01/f09, f01/f15
+incompatible unordered view-palette triples: 60/1771
+all triple incompatibilities are explained by those pairs: true
+no individual five-type palette is excluded
+all checks passed: true
+C38 open; C40 absent

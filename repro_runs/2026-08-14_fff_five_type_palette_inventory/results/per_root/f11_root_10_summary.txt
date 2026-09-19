@@ -1,0 +1,6 @@
+f11 root 10
+unfiltered/level1 candidates: 83100/62520
+initial tasks: 6570
+residual group/orbits: 1/6570
+covered tasks: 6570
+valid: true

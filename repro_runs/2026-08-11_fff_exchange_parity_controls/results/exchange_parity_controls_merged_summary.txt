@@ -1,0 +1,8 @@
+Merged exchange-parity controls
+
+order-8 FFF quotient dimensions: {'0': 39, '1': 147, '2': 35, '3': 9}
+order-10 tracked quotient dimensions: {'0': 135}
+FFF forces q4=1 on the complete order-8 controls: False
+errors: 0
+
+Boundary: no order-10 claim; C38 remains open and C40 is absent.

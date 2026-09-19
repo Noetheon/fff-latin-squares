@@ -1,0 +1,115 @@
+{
+  "expect_reduced": true,
+  "fff": false,
+  "input": {
+    "input_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/lazy_cycle_cegar/n10_case12_maplechrono_300_best_table.json",
+    "source_kind": "table"
+  },
+  "latin": {
+    "column_failures": [],
+    "latin": true,
+    "order": 10,
+    "row_failures": []
+  },
+  "order": 10,
+  "pattern_has_odd_cycle": {
+    "col": true,
+    "row": true,
+    "sym": true
+  },
+  "pattern_name": "TTT",
+  "reduced": true,
+  "reduced_expectation_met": true,
+  "views": {
+    "col": {
+      "all_induced_permutations_even_or_fixed": false,
+      "cycle_length_histogram": {
+        "10": 15,
+        "2": 36,
+        "3": 5,
+        "4": 11,
+        "5": 2,
+        "6": 8,
+        "7": 1,
+        "8": 13
+      },
+      "first_odd_witness": {
+        "cycle_lengths": [
+          5,
+          2,
+          3
+        ],
+        "line_pair": [
+          0,
+          8
+        ],
+        "odd_cycle_lengths": [
+          5,
+          3
+        ]
+      },
+      "has_odd_cycle_witness": true,
+      "line_pair_count": 45,
+      "odd_witness_pair_count": 4
+    },
+    "row": {
+      "all_induced_permutations_even_or_fixed": false,
+      "cycle_length_histogram": {
+        "10": 11,
+        "2": 36,
+        "3": 10,
+        "4": 6,
+        "5": 8,
+        "6": 7,
+        "7": 4,
+        "8": 13
+      },
+      "first_odd_witness": {
+        "cycle_lengths": [
+          7,
+          3
+        ],
+        "line_pair": [
+          1,
+          4
+        ],
+        "odd_cycle_lengths": [
+          7,
+          3
+        ]
+      },
+      "has_odd_cycle_witness": true,
+      "line_pair_count": 45,
+      "odd_witness_pair_count": 11
+    },
+    "sym": {
+      "all_induced_permutations_even_or_fixed": false,
+      "cycle_length_histogram": {
+        "10": 15,
+        "2": 36,
+        "3": 2,
+        "4": 14,
+        "5": 8,
+        "6": 9,
+        "8": 9
+      },
+      "first_odd_witness": {
+        "cycle_lengths": [
+          5,
+          5
+        ],
+        "line_pair": [
+          1,
+          5
+        ],
+        "odd_cycle_lengths": [
+          5,
+          5
+        ]
+      },
+      "has_odd_cycle_witness": true,
+      "line_pair_count": 45,
+      "odd_witness_pair_count": 5
+    }
+  }
+}

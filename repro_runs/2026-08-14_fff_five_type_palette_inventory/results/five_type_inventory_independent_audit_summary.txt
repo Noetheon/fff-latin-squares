@@ -1,0 +1,7 @@
+Five-type inventory independent audit
+
+palettes: 21/21
+root records: 105/105
+class-product/bookkeeping errors: 0
+all checks passed: true
+claim boundary: no five-type palette excluded

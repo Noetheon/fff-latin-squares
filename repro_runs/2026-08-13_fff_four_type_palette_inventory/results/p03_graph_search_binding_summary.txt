@@ -1,0 +1,10 @@
+case: p03
+graph_sha256: 8bd4e55c1fda36531bd94b96b3b5416d715e89c9c446277c582e022eb9b29aff
+expected_source: established-by-this-run
+audit_sha256: 3fcdb26bc5fb6436537a7e2190eabda6a97bb3a228db1e20bc855fd41e85cba1
+search_sha256: 0bc2185690e394d5cf1f0591520145ad1ffabb714f98b80e57be3325b0cd4e02
+audit_valid: true
+reverse_edge_errors: 0
+search_complete: true
+fff_found: false
+all_checks_passed: true

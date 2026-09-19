@@ -1,0 +1,11 @@
+Independent binary-graph clique-table audit
+
+workers/tasks: 8/11892
+8-cliques: 8832
+exact palette tables: 8832
+FFF tables: 0
+Latin/row-F/palette-subset errors: 0/0/0
+FTT: 3840
+FTF: 2496
+FFT: 2496
+valid: true

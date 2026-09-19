@@ -1,0 +1,42 @@
+Order-8 loop invariant analysis for the residual non-group FFF cases
+
+Compared lines: 11 (C4xC2), 13 (C8), 19, 114, 1955, 10776, 85446
+
+line 13:
+  associative=True, commutative=True
+  nuclei L/M/R = [0, 1, 2, 3, 4, 5, 6, 7] / [0, 1, 2, 3, 4, 5, 6, 7] / [0, 1, 2, 3, 4, 5, 6, 7]
+  center = [0, 1, 2, 3, 4, 5, 6, 7]
+  LIP/RIP/IP = True / True / True
+  AAIP = True, flexible = True
+  |<L_x>| = 8, |<R_x>| = 8, |Mlt| = 8, |Inn| = 1, |Aut| = 4
+
+line 19:
+  associative=False, commutative=False
+  nuclei L/M/R = [0, 1, 2, 3] / [0, 1, 2, 3] / [0, 1, 2, 3]
+  center = [0, 1]
+  LIP/RIP/IP = False / False / False
+  AAIP = False, flexible = False
+  |<L_x>| = 16, |<R_x>| = 16, |Mlt| = 32, |Inn| = 4, |Aut| = 4
+
+line 11:
+  associative=True, commutative=True
+  nuclei L/M/R = [0, 1, 2, 3, 4, 5, 6, 7] / [0, 1, 2, 3, 4, 5, 6, 7] / [0, 1, 2, 3, 4, 5, 6, 7]
+  center = [0, 1, 2, 3, 4, 5, 6, 7]
+  LIP/RIP/IP = True / True / True
+  AAIP = True, flexible = True
+  |<L_x>| = 8, |<R_x>| = 8, |Mlt| = 8, |Inn| = 1, |Aut| = 8
+
+line 114:
+  associative=False, commutative=False
+  nuclei L/M/R = [0, 1, 2, 3] / [0, 1, 2, 3] / [0, 1, 2, 3]
+  center = [0, 2]
+  LIP/RIP/IP = False / False / False
+  AAIP = False, flexible = False
+  |<L_x>| = 16, |<R_x>| = 16, |Mlt| = 32, |Inn| = 4, |Aut| = 4
+
+Key exact conclusions:
+  - line 13 (C8): associative, commutative, full nucleus/center, IP, AAIP, flexible.
+  - line 11 (C4xC2): associative, commutative, full nucleus/center, IP, AAIP, flexible.
+  - line 19: trivial nucleus and center, not commutative, not IP, not flexible.
+  - line 114: trivial nucleus and center, not commutative, not IP, not flexible.
+  So the two residual “group-like” nongroup cases are cleanly separated from their group models by stronger loop invariants.

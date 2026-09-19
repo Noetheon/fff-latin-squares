@@ -1,0 +1,8 @@
+Candidate graph structural audit
+
+graph SHA-256: 09ac783d78c5762c283e61e19e2ab4c21a12fba9f5b16588d3eba9b9e2579ef7
+size actual/expected: 2219911226/2219911226
+vertices/words: 133200/2082
+diagonal/padding errors: 0/0
+errors: 0
+valid: true

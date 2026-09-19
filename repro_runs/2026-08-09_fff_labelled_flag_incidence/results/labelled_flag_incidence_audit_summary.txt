@@ -1,0 +1,78 @@
+Labelled flag-incidence audit
+
+audit version: labelled_flag_incidence_v2
+total tables: 9777
+total flag-label triples: 1918172
+pair-matrix entry checks: 7711917
+independent edge-lift entry checks: 7711917
+two-factor profile checks: 921954
+errors: 0
+
+order4_complete
+- tables: 4
+- patterns: {'FFF': 4}
+- intercalate range: [4, 12]
+- triangle-trace range: [128, 192]
+- distinct triangle traces: 2
+- distinct (intercalates, triangle trace): 2
+- label-hypergraph components: {'2': 3, '3': 1}
+- pair-matrix entries checked: 432
+- independent edge-lift entries checked: 432
+- two-factor profiles checked: 144
+- errors: 0
+- modular rank controls: 4
+
+order6_complete
+- tables: 9408
+- patterns: {'FFT': 936, 'FTF': 936, 'TFF': 936, 'TTT': 6600}
+- intercalate range: [0, 27]
+- triangle-trace range: [312, 648]
+- distinct triangle traces: 11
+- distinct (intercalates, triangle trace): 12
+- label-hypergraph components: {'1': 8748, '2': 600, '3': 60}
+- pair-matrix entries checked: 6350400
+- independent edge-lift entries checked: 6350400
+- two-factor profiles checked: 846720
+- errors: 0
+- modular rank controls: 8
+
+order8_fff_complete
+- tables: 230
+- patterns: {'FFF': 230}
+- intercalate range: [2, 112]
+- triangle-trace range: [704, 3584]
+- distinct triangle traces: 100
+- distinct (intercalates, triangle trace): 188
+- label-hypergraph components: {'1': 63, '2': 145, '3': 10, '4': 10, '5': 1, '7': 1}
+- pair-matrix entries checked: 540960
+- independent edge-lift entries checked: 540960
+- two-factor profiles checked: 38640
+- errors: 0
+- modular rank controls: 10
+
+- C70 distinct signatures: 226
+- distinct (C70, triangle trace): 230
+- remaining (C70, triangle trace) collisions: []
+- old C70 collision triangle traces: [{'sources': [4, 22], 'triangle_traces': [2112, 1856]}, {'sources': [11, 114], 'triangle_traces': [2560, 1536]}, {'sources': [13, 19], 'triangle_traces': [2048, 1536]}, {'sources': [117, 118], 'triangle_traces': [1792, 1920]}]
+
+order10_tracked_partial
+- tables: 135
+- patterns: {'FFT': 127, 'FTT': 1, 'TFT': 2, 'TTT': 5}
+- intercalate range: [25, 73]
+- triangle-trace range: [1808, 2520]
+- distinct triangle traces: 47
+- distinct (intercalates, triangle trace): 52
+- label-hypergraph components: {'1': 135}
+- pair-matrix entries checked: 820125
+- independent edge-lift entries checked: 820125
+- two-factor profiles checked: 36450
+- errors: 0
+- modular rank controls: 5
+
+Evidence boundary:
+- The matrix identities and two-factor formulation are rigorous.
+- The cycle-space reduction and coarse-C75 Schur collapse are rigorous.
+- The triangle trace is a rigorous main-class invariant; its order-8 separation count is exactly computed.
+- Prime-field ranks are exact only over GF(1000003) and are secondary diagnostics.
+- The audit does not construct or exclude an order-10 FFF Latin square.
+- C38 remains open and C40 remains absent.

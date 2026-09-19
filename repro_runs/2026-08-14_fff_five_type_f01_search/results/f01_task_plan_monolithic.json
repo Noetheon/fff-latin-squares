@@ -1,0 +1,134 @@
+{
+  "case": {
+    "case_id": "f01",
+    "filter_level": 2,
+    "palette_canonical": [
+      "10",
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+2+2"
+    ],
+    "root_type": "2+2+2+2+2"
+  },
+  "graph": {
+    "audit_binding_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_graph_audit_binding.json",
+    "audit_binding_sha256": "8a45534de139a868b1e5de4b5e68800bacacd5573392bfe681b49627799077bf",
+    "bucket_sizes": [
+      1080,
+      1080,
+      1080,
+      1080,
+      1080,
+      1080,
+      1080,
+      1080
+    ],
+    "canonical_root": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8
+    ],
+    "format": "O8HTv1-le",
+    "path_hint": "external/Order8_external_graphs/2026-08-14_five_type/f01/f01.bin",
+    "semantic_audit_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_complete_graph_audit.json",
+    "semantic_audit_sha256": "e12f7ca990624fb21eba3b3dd4895fde9d6e765984d04661fb10f6aa68ce3196",
+    "semantic_audit_valid": true,
+    "sha256": "6360189d6f4dc2e5730884b51e1662715cb48be0321593a0f86ed0eb60ed98af",
+    "size_bytes": 9417626,
+    "structural_audit_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_structural_graph_audit.json",
+    "structural_audit_sha256": "88ede577c3ef667e7c0a8bbde809bd7e0ded9853ebe7876b2a072578001d822f",
+    "vertices": 8640,
+    "words": 135
+  },
+  "plan_payload_sha256": "0fdc4f6f1665d950fd273fb230e6968482078aae2f5306bc5126500c4d5c9b05",
+  "schema_version": "five-type-task-plan-v1",
+  "search": {
+    "binary_path_hint": "/private/tmp/order8_f01_search",
+    "binary_sha256": "d516896f57628d1984dbd9dfe6f6e1aeb6abb8317a50eea37046567ff65dc667",
+    "compiler": "/usr/bin/clang++",
+    "compiler_version": "Apple clang 21.0.0 (clang-2100.1.1.101)",
+    "flags": [
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4"
+    ],
+    "source_bundle_sha256": "b15a9909113930133736dccd908be89b53856a66eb2089ff9bd2cd6b4d8a3724",
+    "sources": [
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f01_search/scripts/search_partite_fff.cpp",
+        "sha256": "ec541446455833b9c3044b140a280de162751933a98eefa2ad78104067a88652"
+      },
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f01_search/scripts/partial_cycle.hpp",
+        "sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82"
+      }
+    ]
+  },
+  "tasking": {
+    "full_initial_tasks": 1080,
+    "full_task_vertices_sha256": "e599f73bec6735d9785f466c71fb8012f7cd8f228821f080b496fbdab90ef485",
+    "initial_bucket": 0,
+    "initial_bucket_value": 2,
+    "policy": "minimum_bucket_then_smallest_bucket_id",
+    "slice_width": 28,
+    "slices": [
+      {
+        "count": 28,
+        "end_exclusive": 28,
+        "ordinal": 0,
+        "slice_id": "s0000",
+        "start": 0,
+        "task_vertices_sha256": "efe2c4dcdea96ba1614eb377e21e65b58f3eb118b71132f9311a0c962a60d24d"
+      }
+    ],
+    "task_list_sha256": "d9644185fb080c785d23a2dae149ad8581fd7747cd16c990906fd679c15c99f8",
+    "task_reduction": {
+      "audit_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_graph_root_orbit_audit.json",
+      "audit_sha256": "75b922607f71a1b93ef465bcca6ab9c0cfeacb105c8a408883d9ca8fcd9d40bf",
+      "full_initial_tasks": 1080,
+      "selected_initial_tasks": 28,
+      "task_file_path": "repro_runs/2026-08-14_fff_five_type_f01_search/data/f01_task_ordinals.txt",
+      "task_file_sha256": "b093a9e69e259ca877cbe2ddc2626222ad67d0fa18bd589a9429b1c80037f946"
+    },
+    "task_vertices": [
+      0,
+      2,
+      48,
+      50,
+      51,
+      52,
+      56,
+      58,
+      60,
+      98,
+      100,
+      102,
+      104,
+      118,
+      120,
+      122,
+      124,
+      132,
+      134,
+      136,
+      138,
+      139,
+      140,
+      141,
+      142,
+      148,
+      150,
+      151
+    ],
+    "total_initial_tasks": 28
+  }
+}

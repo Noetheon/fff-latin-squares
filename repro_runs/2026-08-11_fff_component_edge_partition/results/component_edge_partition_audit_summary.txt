@@ -1,0 +1,66 @@
+Component edge-partition audit
+
+table count: 9777
+component count: 104645
+flag count: 1918172
+component dual edge checks: 2877258
+component flag triangle checks: 5754516
+component cell degree checks: 2270112
+component cell gram checks: 15876164
+component connectedness checks: 104645
+component line graphical checks: 2011440
+erdos gallai inequality checks: 13230696
+global edge partition checks: 2877258
+intercalate matching checks: 277416
+c84 residual degree checks: 1100916
+dimension zero components: 8788
+dimension zero component cells: 324280
+dimension zero odd cell incidences: 179048
+error count: 0
+
+order4_complete
+- tables/components/flags: 4 / 27 / 192
+- dual-edge / degree / Gram checks: 288 / 432 / 1152
+- graphical line / Erdos-Gallai checks: 324 / 1296
+- global edge / C84 residual checks: 288 / 192
+- dimension-zero components / odd incidences: 0 / 0
+- dimension-zero support weights: {}
+- dimension-zero cell-support sizes: {}
+- errors: 0
+
+order6_complete
+- tables/components/flags: 9408 / 89068 / 1693440
+- dual-edge / degree / Gram checks: 2540160 / 1987200 / 13304520
+- graphical line / Erdos-Gallai checks: 1603224 / 9619344
+- global edge / C84 residual checks: 2540160 / 1016064
+- dimension-zero components / odd incidences: 8640 / 172800
+- dimension-zero support weights: {12: 1080, 16: 1620, 20: 2160, 24: 3780}
+- dimension-zero cell-support sizes: {35: 1080, 36: 7560}
+- errors: 0
+
+order8_fff_complete
+- tables/components/flags: 230 / 9768 / 103040
+- dual-edge / degree / Gram checks: 154560 / 173928 / 1130332
+- graphical line / Erdos-Gallai checks: 234432 / 1875456
+- global edge / C84 residual checks: 154560 / 44160
+- dimension-zero components / odd incidences: 13 / 376
+- dimension-zero support weights: {0: 3, 16: 1, 24: 1, 32: 4, 40: 1, 48: 1, 56: 1, 64: 1}
+- dimension-zero cell-support sizes: {64: 13}
+- errors: 0
+
+order10_tracked_partial
+- tables/components/flags: 135 / 5782 / 121500
+- dual-edge / degree / Gram checks: 182250 / 108552 / 1440160
+- graphical line / Erdos-Gallai checks: 173460 / 1734600
+- global edge / C84 residual checks: 182250 / 40500
+- dimension-zero components / odd incidences: 135 / 5872
+- dimension-zero support weights: {16: 4, 24: 10, 28: 6, 32: 15, 36: 2, 40: 10, 44: 14, 46: 1, 48: 25, 50: 7, 52: 26, 54: 2, 56: 4, 60: 6, 64: 3}
+- dimension-zero cell-support sizes: {96: 3, 100: 132}
+- errors: 0
+
+Boundary:
+- C94 is rigorous and exactly audited.
+- The three simple component graphs have the same degree vector and partition all Latin-line clique edges.
+- This strictly strengthens isolated C91 parity and applies to exact-space dimension zero.
+- It does not decide order 10.
+- C38 remains open and C40 absent.

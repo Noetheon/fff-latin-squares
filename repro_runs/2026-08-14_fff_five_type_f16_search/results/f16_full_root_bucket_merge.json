@@ -1,0 +1,24 @@
+{
+  "case_id": "f16",
+  "complete_disjoint_cover": true,
+  "completed_tasks": 1560,
+  "crossview_odd_cycle_prunes": 11148,
+  "errors": [],
+  "fff_found": false,
+  "graph_sha256": "de11a3cbd7e069cb53f1b5f4741ea08b1836e5e6af176db3e2c083272b1eec8f",
+  "negative_search_complete": true,
+  "plan_payload_sha256": "1d1c1122956de9eb904ec5d76f0c78fcac90ccd116c3ec1277f0b77a6e66a1cc",
+  "schema_version": "five-type-slice-merge-v1",
+  "search_binary_sha256": "183b305457cb85011a6c5289a2e0eb4ac3b0ca2f37824ab83dca5855fd41c3b2",
+  "search_nodes": 109728,
+  "slice_count_expected": 1,
+  "slice_count_present": 1,
+  "slice_wrapper_sha256": {
+    "s0000": "651b8ed21f446af281cb74bb98bbc8d3e09d6c3e753e190c42b9b4dc0726f828"
+  },
+  "source_bundle_sha256": "25da21a048592bbd9b1b8898fb9db8c0fc7745b2d074255ccca9d3659716c18b",
+  "status": "complete_negative",
+  "task_file_sha256": null,
+  "task_list_sha256": "2f3e2717895d9b1aa8333472de18b6375342315c6afa7feba2dfb79dd29cd9fd",
+  "total_initial_tasks": 1560
+}

@@ -1,0 +1,10 @@
+case: p07
+graph_sha256: 42ad121eb6e6b2772d5ff5a6be7711348a2982963420af28a26c6d71e7a2d05e
+expected_source: established-by-this-run
+audit_sha256: 3aeb6c9060bcd9c59df4c15589e33eb77b2ac231436c6cedaccbe679c14c48fe
+search_sha256: 7eb67d05e058bc65c7b7e70a6d9ac645d50fbf40cae262503c212fef9743c4bf
+audit_valid: true
+reverse_edge_errors: 0
+search_complete: true
+fff_found: false
+all_checks_passed: true

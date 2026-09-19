@@ -1,0 +1,50 @@
+{
+  "cnf": {
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_fix_units.cnf",
+    "sha256": "2485229ccdb297339f28c673f5b5c6efff79b3496b630eada9b23bf4afe218f2",
+    "size_bytes": 2788873
+  },
+  "elapsed_seconds": 300.0078899860382,
+  "environment": {
+    "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6"
+  },
+  "label": "n10_row1_case_10_z4_4_2_2_2_satsuma_cadical",
+  "model": {
+    "available": false,
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_cadical.model",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "proof": {
+    "available": false,
+    "formal_certificate_status": "no_formal_proof_certificate",
+    "format_note": "CaDiCaL proof trace; binary DRAT by default unless options changed.",
+    "path": null,
+    "requested": false,
+    "sha256": null,
+    "size_bytes": null
+  },
+  "result": "timeout",
+  "solver": {
+    "binary": "/opt/homebrew/bin/cadical",
+    "command": [
+      "/opt/homebrew/bin/cadical",
+      "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_fix_units.cnf"
+    ],
+    "returncode": null,
+    "version": "3.0.0"
+  },
+  "stderr": {
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_cadical.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_cadical.stdout.log",
+    "sha256": "f12d74520f6391dd6f988432749830bc344a629bda0974601a2eacc8ef041022",
+    "size_bytes": 72006
+  },
+  "timed_out": true,
+  "timeout_seconds": 300.0
+}

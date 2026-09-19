@@ -1,0 +1,26 @@
+{
+  "checker": {
+    "binary_sha256": "f58f63b0f76945d4c4c9ff6e87afaf870f579e67c0f7cca589492df8fc7ebd47",
+    "path": "/tmp/order8_solver_tools/drat-trim/drat-trim",
+    "source_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+  },
+  "cnf": {
+    "path": "/tmp/order8_primitive_group_reduction/pgl2_9_f_clique_upper.cnf",
+    "sha256": "1d5caea58880733cdec1728a2368f4445ba7685c1a17d77c6ee33093bf0a7352"
+  },
+  "proof": {
+    "path": "/tmp/order8_primitive_group_reduction/pgl2_9.drat",
+    "sha256": "a9899d48fd766e43cd913de79bfcb9b6be9b1b6511c1c5ca36198347ca2e1713",
+    "size_bytes": 2083
+  },
+  "result": "verified",
+  "returncode": 0,
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_primitive_group_reduction/logs/pgl2_9_drat_check.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_primitive_group_reduction/logs/pgl2_9_drat_check.stdout.txt",
+    "sha256": "67ec6752f29d0e32009f10cb268dc052afbde95ccc41f0229f94b4e6a239893e"
+  }
+}

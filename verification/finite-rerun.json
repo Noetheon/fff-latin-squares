@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 11.788,
+  "ignored_order8_fields": [
+    "input.path",
+    "scan.elapsed_seconds"
+  ],
+  "order10_exhaustive_search_rerun": false,
+  "order8_comparison": {
+    "all_scan_fields_except_runtime_match": true,
+    "complete_counterexample_list_matches": true,
+    "input_sha256_matches": true,
+    "input_size_matches": true
+  },
+  "order8_patterns": {
+    "FFF": 230,
+    "FFT": 81,
+    "FTF": 40,
+    "FTT": 315,
+    "TFF": 133,
+    "TFT": 209,
+    "TTF": 232,
+    "TTT": 282417
+  },
+  "order8_total": 283657,
+  "passed": true,
+  "scope": "Fresh supplied-generator/scanner reruns, not independent implementations or census completeness certification.",
+  "small_order_comparison_fields": [
+    "reduced_count",
+    "patterns_any_pairs"
+  ],
+  "small_orders": [
+    {
+      "generated": 1,
+      "latin_reduced_uniqueness_failures": 0,
+      "n": 2,
+      "passed": true,
+      "patterns": {
+        "(False, False, False)": 1
+      },
+      "tables_scanned": 1,
+      "unique": 1
+    },
+    {
+      "generated": 4,
+      "latin_reduced_uniqueness_failures": 0,
+      "n": 4,
+      "passed": true,
+      "patterns": {
+        "(False, False, False)": 4
+      },
+      "tables_scanned": 4,
+      "unique": 4
+    },
+    {
+      "generated": 9408,
+      "latin_reduced_uniqueness_failures": 0,
+      "n": 6,
+      "passed": true,
+      "patterns": {
+        "(False, False, True)": 936,
+        "(False, True, False)": 936,
+        "(True, False, False)": 936,
+        "(True, True, True)": 6600
+      },
+      "tables_scanned": 9408,
+      "unique": 9408
+    }
+  ]
+}

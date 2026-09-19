@@ -1,0 +1,12 @@
+Degree-10 primitive-group F-clique generation
+
+a5_on_2sets: order=60, F candidates=0, max clique with identity=1, upper CNF=0/1
+s5_on_2sets: order=120, F candidates=30, max clique with identity=2, upper CNF=86/521
+psl2_9: order=360, F candidates=0, max clique with identity=1, upper CNF=0/1
+pgl2_9: order=720, F candidates=180, max clique with identity=2, upper CNF=536/16646
+s6_psigmal2_9: order=720, F candidates=90, max clique with identity=2, upper CNF=266/4271
+m10: order=720, F candidates=180, max clique with identity=2, upper CNF=536/16646
+pgammal2_9: order=1440, F candidates=450, max clique with identity=4, upper CNF=2234/82551
+
+Classification consequence after proof checks: only A10 or S10 can remain as a primitive generated group.
+Scope: C38 open; C40 absent.

@@ -1,0 +1,7 @@
+Involution six-type master run validation
+
+checks passed: 15/15
+graph vertices/edges: 190080/2050329600
+full tasks/orbits: 23760/506
+FFF found: false
+all checks passed: true

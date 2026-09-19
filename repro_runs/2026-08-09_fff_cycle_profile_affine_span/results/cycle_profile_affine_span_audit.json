@@ -1,0 +1,1463 @@
+{
+  "abstract_n10_all_10_cycle_profile": {
+    "description": "45 induced 10-cycles in each view; an abstract FFF-supported aggregate profile",
+    "profile": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45
+    ],
+    "realizability_as_a_latin_square": "not claimed",
+    "satisfies_all_baseline_relations": {
+      "2": true,
+      "3": true,
+      "5": true,
+      "7": true
+    }
+  },
+  "claim_impact": {
+    "c38": "open",
+    "c40": "absent",
+    "conclusion": "Order 8 has no additional affine modular aggregate-cycle-profile relations over the four tested fields beyond the baseline. Order 6 has three extra GF(2) relations, while the augmented order-10 sample has none beyond baseline.",
+    "new_claim": "C67"
+  },
+  "evidence_labels": {
+    "baseline_identity_theorem": "rigorously proved in proof note",
+    "n10_existence": "open",
+    "n10_trade_refutation": "exactly computed counterexamples to corpus-only relations",
+    "n6_n8_span_saturation": "exactly computed"
+  },
+  "inputs": {
+    "n10_corpus": {
+      "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/defect_parity_audit.json",
+      "sha256": "147fa33c7e648df6f764941a520008f3cb971c970995e92cfa5287af1765e932"
+    },
+    "n6_generator": {
+      "path": "repro_runs/2026-04-26_small_order_witness_reruns/scripts/latin_trade_search.py",
+      "sha256": "242e06957ceb8f949fc7379a6542b8dde06ced0657e5aaf09d159cf559ace1e7"
+    },
+    "n8_census": {
+      "path": "latin_mc8.txt.gz",
+      "sha256": "e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87"
+    }
+  },
+  "n10_d10_intercalate_trade_augmentation": {
+    "all_samples_latin": true,
+    "gf2_rank_rise_witnesses": [
+      {
+        "aggregate_cycle_profile": [
+          77,
+          4,
+          18,
+          11,
+          5,
+          3,
+          2,
+          0,
+          9,
+          77,
+          6,
+          15,
+          5,
+          7,
+          1,
+          8,
+          0,
+          8,
+          77,
+          3,
+          19,
+          10,
+          7,
+          1,
+          4,
+          0,
+          8
+        ],
+        "compact_table": "0923456781123406789523891740563401289567481230567951476983206598710432765082194387659321049076543218",
+        "gf2_rank_after": 17,
+        "gf2_rank_before": 16,
+        "step": 4
+      },
+      {
+        "aggregate_cycle_profile": [
+          59,
+          4,
+          25,
+          10,
+          7,
+          4,
+          0,
+          0,
+          10,
+          59,
+          13,
+          21,
+          10,
+          7,
+          1,
+          5,
+          0,
+          7,
+          59,
+          4,
+          26,
+          3,
+          13,
+          1,
+          7,
+          0,
+          6
+        ],
+        "compact_table": "0926453781123406789523891740563401589267481230567951476983206598710432765082194387659321049073246518",
+        "gf2_rank_after": 18,
+        "gf2_rank_before": 17,
+        "step": 6
+      },
+      {
+        "aggregate_cycle_profile": [
+          50,
+          5,
+          24,
+          11,
+          7,
+          4,
+          3,
+          0,
+          9,
+          50,
+          18,
+          20,
+          13,
+          10,
+          1,
+          3,
+          0,
+          6,
+          50,
+          6,
+          22,
+          6,
+          9,
+          2,
+          7,
+          0,
+          9
+        ],
+        "compact_table": "0926753481123406789523891740567401589263481230567951476983206598410732365082194787659321049073246518",
+        "gf2_rank_after": 19,
+        "gf2_rank_before": 18,
+        "step": 8
+      }
+    ],
+    "prime_results": {
+      "2": {
+        "baseline_rank": 9,
+        "nullity": 9,
+        "nullspace_basis": [
+          "row_cycles_3 + row_cycles_5 + row_cycles_7 = 0 (mod 2)",
+          "row_cycles_9 = 0 (mod 2)",
+          "row_cycles_2 + col_cycles_2 = 0 (mod 2)",
+          "col_cycles_3 + col_cycles_5 + col_cycles_7 = 0 (mod 2)",
+          "col_cycles_9 = 0 (mod 2)",
+          "row_cycles_2 + sym_cycles_2 = 0 (mod 2)",
+          "sym_cycles_3 + sym_cycles_5 + sym_cycles_7 = 0 (mod 2)",
+          "sym_cycles_9 = 0 (mod 2)",
+          "row_cycles_2 + row_cycles_4 + row_cycles_6 + row_cycles_8 + row_cycles_10 + col_cycles_4 + col_cycles_6 + col_cycles_8 + col_cycles_10 + sym_cycles_4 + sym_cycles_6 + sym_cycles_8 + sym_cycles_10 + constant = 0 (mod 2)"
+        ],
+        "nullspace_equals_baseline_span": true,
+        "rank": 19
+      },
+      "3": {
+        "baseline_rank": 8,
+        "nullity": 8,
+        "nullspace_basis": [
+          "row_cycles_9 = 0 (mod 3)",
+          "2*row_cycles_2 + row_cycles_4 + 2*row_cycles_5 + row_cycles_7 + 2*row_cycles_8 + row_cycles_10 = 0 (mod 3)",
+          "2*row_cycles_2 + col_cycles_2 = 0 (mod 3)",
+          "col_cycles_9 = 0 (mod 3)",
+          "2*row_cycles_2 + col_cycles_4 + 2*col_cycles_5 + col_cycles_7 + 2*col_cycles_8 + col_cycles_10 = 0 (mod 3)",
+          "2*row_cycles_2 + sym_cycles_2 = 0 (mod 3)",
+          "sym_cycles_9 = 0 (mod 3)",
+          "2*row_cycles_2 + sym_cycles_4 + 2*sym_cycles_5 + sym_cycles_7 + 2*sym_cycles_8 + sym_cycles_10 = 0 (mod 3)"
+        ],
+        "nullspace_equals_baseline_span": true,
+        "rank": 20
+      },
+      "5": {
+        "baseline_rank": 8,
+        "nullity": 8,
+        "nullspace_basis": [
+          "4*row_cycles_2 + row_cycles_3 + 3*row_cycles_4 + 2*row_cycles_6 + 4*row_cycles_7 + row_cycles_8 = 0 (mod 5)",
+          "row_cycles_9 = 0 (mod 5)",
+          "4*row_cycles_2 + col_cycles_2 = 0 (mod 5)",
+          "4*row_cycles_2 + col_cycles_3 + 3*col_cycles_4 + 2*col_cycles_6 + 4*col_cycles_7 + col_cycles_8 = 0 (mod 5)",
+          "col_cycles_9 = 0 (mod 5)",
+          "4*row_cycles_2 + sym_cycles_2 = 0 (mod 5)",
+          "4*row_cycles_2 + sym_cycles_3 + 3*sym_cycles_4 + 2*sym_cycles_6 + 4*sym_cycles_7 + sym_cycles_8 = 0 (mod 5)",
+          "sym_cycles_9 = 0 (mod 5)"
+        ],
+        "nullspace_equals_baseline_span": true,
+        "rank": 20
+      },
+      "7": {
+        "baseline_rank": 8,
+        "nullity": 8,
+        "nullspace_basis": [
+          "row_cycles_9 = 0 (mod 7)",
+          "6*row_cycles_2 + col_cycles_2 = 0 (mod 7)",
+          "col_cycles_9 = 0 (mod 7)",
+          "6*row_cycles_3 + row_cycles_4 + 3*row_cycles_5 + 5*row_cycles_6 + 2*row_cycles_8 + 6*row_cycles_10 + col_cycles_3 + 6*col_cycles_4 + 4*col_cycles_5 + 2*col_cycles_6 + 5*col_cycles_8 + col_cycles_10 = 0 (mod 7)",
+          "6*row_cycles_2 + sym_cycles_2 = 0 (mod 7)",
+          "sym_cycles_9 = 0 (mod 7)",
+          "6*row_cycles_3 + row_cycles_4 + 3*row_cycles_5 + 5*row_cycles_6 + 2*row_cycles_8 + 6*row_cycles_10 + sym_cycles_3 + 6*sym_cycles_4 + 4*sym_cycles_5 + 2*sym_cycles_6 + 5*sym_cycles_8 + sym_cycles_10 = 0 (mod 7)",
+          "6*row_cycles_2 + 2*row_cycles_3 + 5*row_cycles_4 + row_cycles_5 + 4*row_cycles_6 + 3*row_cycles_8 + 2*row_cycles_10 + constant = 0 (mod 7)"
+        ],
+        "nullspace_equals_baseline_span": true,
+        "rank": 20
+      }
+    },
+    "sampled_tables": 500,
+    "seed": 20260809,
+    "steps": 1000
+  },
+  "orders": {
+    "10_tracked": {
+      "elapsed_seconds": 0.015938833937980235,
+      "name": "tracked order-10 partial-table corpus",
+      "order": 10,
+      "prime_results": {
+        "2": {
+          "baseline": {
+            "baseline_generator_count": 9,
+            "baseline_rank": 9,
+            "fixed_point_free_partitions": [
+              [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 23,
+          "observed_nullity": 12,
+          "observed_nullspace_basis": [
+            "row_cycles_3 + row_cycles_5 + row_cycles_7 = 0 (mod 2)",
+            "row_cycles_9 = 0 (mod 2)",
+            "row_cycles_2 + col_cycles_2 = 0 (mod 2)",
+            "row_cycles_6 + col_cycles_5 + col_cycles_6 = 0 (mod 2)",
+            "col_cycles_3 + col_cycles_5 + col_cycles_7 = 0 (mod 2)",
+            "col_cycles_9 = 0 (mod 2)",
+            "row_cycles_2 + sym_cycles_2 = 0 (mod 2)",
+            "row_cycles_3 + col_cycles_5 + sym_cycles_3 + sym_cycles_5 = 0 (mod 2)",
+            "row_cycles_3 + col_cycles_5 + sym_cycles_7 = 0 (mod 2)",
+            "sym_cycles_9 = 0 (mod 2)",
+            "row_cycles_3 + row_cycles_6 + row_cycles_10 + col_cycles_3 + col_cycles_5 + sym_cycles_4 + sym_cycles_6 + sym_cycles_8 + sym_cycles_10 = 0 (mod 2)",
+            "row_cycles_2 + row_cycles_3 + row_cycles_4 + row_cycles_6 + row_cycles_8 + col_cycles_3 + col_cycles_4 + col_cycles_8 + col_cycles_10 + constant = 0 (mod 2)"
+          ],
+          "observed_nullspace_equals_baseline_span": false,
+          "observed_rank": 16
+        },
+        "3": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 62,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "row_cycles_9 = 0 (mod 3)",
+            "2*row_cycles_2 + row_cycles_4 + 2*row_cycles_5 + row_cycles_7 + 2*row_cycles_8 + row_cycles_10 = 0 (mod 3)",
+            "2*row_cycles_2 + col_cycles_2 = 0 (mod 3)",
+            "col_cycles_9 = 0 (mod 3)",
+            "2*row_cycles_2 + col_cycles_4 + 2*col_cycles_5 + col_cycles_7 + 2*col_cycles_8 + col_cycles_10 = 0 (mod 3)",
+            "2*row_cycles_2 + sym_cycles_2 = 0 (mod 3)",
+            "sym_cycles_9 = 0 (mod 3)",
+            "2*row_cycles_2 + sym_cycles_4 + 2*sym_cycles_5 + sym_cycles_7 + 2*sym_cycles_8 + sym_cycles_10 = 0 (mod 3)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 20
+        },
+        "5": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 62,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "4*row_cycles_2 + row_cycles_3 + 3*row_cycles_4 + 2*row_cycles_6 + 4*row_cycles_7 + row_cycles_8 = 0 (mod 5)",
+            "row_cycles_9 = 0 (mod 5)",
+            "4*row_cycles_2 + col_cycles_2 = 0 (mod 5)",
+            "4*row_cycles_2 + col_cycles_3 + 3*col_cycles_4 + 2*col_cycles_6 + 4*col_cycles_7 + col_cycles_8 = 0 (mod 5)",
+            "col_cycles_9 = 0 (mod 5)",
+            "4*row_cycles_2 + sym_cycles_2 = 0 (mod 5)",
+            "4*row_cycles_2 + sym_cycles_3 + 3*sym_cycles_4 + 2*sym_cycles_6 + 4*sym_cycles_7 + sym_cycles_8 = 0 (mod 5)",
+            "sym_cycles_9 = 0 (mod 5)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 20
+        },
+        "7": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 62,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "row_cycles_9 = 0 (mod 7)",
+            "6*row_cycles_2 + col_cycles_2 = 0 (mod 7)",
+            "col_cycles_9 = 0 (mod 7)",
+            "6*row_cycles_3 + row_cycles_4 + 3*row_cycles_5 + 5*row_cycles_6 + 2*row_cycles_8 + 6*row_cycles_10 + col_cycles_3 + 6*col_cycles_4 + 4*col_cycles_5 + 2*col_cycles_6 + 5*col_cycles_8 + col_cycles_10 = 0 (mod 7)",
+            "6*row_cycles_2 + sym_cycles_2 = 0 (mod 7)",
+            "sym_cycles_9 = 0 (mod 7)",
+            "6*row_cycles_3 + row_cycles_4 + 3*row_cycles_5 + 5*row_cycles_6 + 2*row_cycles_8 + 6*row_cycles_10 + sym_cycles_3 + 6*sym_cycles_4 + 4*sym_cycles_5 + 2*sym_cycles_6 + 5*sym_cycles_8 + sym_cycles_10 = 0 (mod 7)",
+            "6*row_cycles_2 + 2*row_cycles_3 + 5*row_cycles_4 + row_cycles_5 + 4*row_cycles_6 + 3*row_cycles_8 + 2*row_cycles_10 + constant = 0 (mod 7)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 20
+        }
+      },
+      "table_count": 135
+    },
+    "6": {
+      "elapsed_seconds": 0.5743428750429302,
+      "name": "all reduced order-6 Latin squares",
+      "order": 6,
+      "prime_results": {
+        "2": {
+          "baseline": {
+            "baseline_generator_count": 9,
+            "baseline_rank": 9,
+            "fixed_point_free_partitions": [
+              [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 5,
+          "observed_nullity": 12,
+          "observed_nullspace_basis": [
+            "row_cycles_3 = 0 (mod 2)",
+            "row_cycles_5 = 0 (mod 2)",
+            "row_cycles_2 + col_cycles_2 = 0 (mod 2)",
+            "col_cycles_3 = 0 (mod 2)",
+            "col_cycles_5 = 0 (mod 2)",
+            "row_cycles_6 + col_cycles_6 = 0 (mod 2)",
+            "row_cycles_2 + sym_cycles_2 = 0 (mod 2)",
+            "sym_cycles_3 = 0 (mod 2)",
+            "row_cycles_4 + col_cycles_4 + sym_cycles_4 = 0 (mod 2)",
+            "sym_cycles_5 = 0 (mod 2)",
+            "row_cycles_6 + sym_cycles_6 = 0 (mod 2)",
+            "row_cycles_2 + row_cycles_6 + constant = 0 (mod 2)"
+          ],
+          "observed_nullspace_equals_baseline_span": false,
+          "observed_rank": 4
+        },
+        "3": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 16,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "2*row_cycles_2 + row_cycles_4 = 0 (mod 3)",
+            "row_cycles_5 = 0 (mod 3)",
+            "2*row_cycles_2 + col_cycles_2 = 0 (mod 3)",
+            "2*row_cycles_2 + col_cycles_4 = 0 (mod 3)",
+            "col_cycles_5 = 0 (mod 3)",
+            "2*row_cycles_2 + sym_cycles_2 = 0 (mod 3)",
+            "2*row_cycles_2 + sym_cycles_4 = 0 (mod 3)",
+            "sym_cycles_5 = 0 (mod 3)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 8
+        },
+        "5": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 18,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "row_cycles_5 = 0 (mod 5)",
+            "2*row_cycles_2 + 3*row_cycles_3 + 4*row_cycles_4 + row_cycles_6 = 0 (mod 5)",
+            "4*row_cycles_2 + col_cycles_2 = 0 (mod 5)",
+            "col_cycles_5 = 0 (mod 5)",
+            "2*row_cycles_2 + 3*col_cycles_3 + 4*col_cycles_4 + col_cycles_6 = 0 (mod 5)",
+            "4*row_cycles_2 + sym_cycles_2 = 0 (mod 5)",
+            "sym_cycles_5 = 0 (mod 5)",
+            "2*row_cycles_2 + 3*sym_cycles_3 + 4*sym_cycles_4 + sym_cycles_6 = 0 (mod 5)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 8
+        },
+        "7": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 21,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "row_cycles_5 = 0 (mod 7)",
+            "6*row_cycles_2 + col_cycles_2 = 0 (mod 7)",
+            "col_cycles_5 = 0 (mod 7)",
+            "3*row_cycles_3 + 4*row_cycles_4 + 6*row_cycles_6 + 4*col_cycles_3 + 3*col_cycles_4 + col_cycles_6 = 0 (mod 7)",
+            "6*row_cycles_2 + sym_cycles_2 = 0 (mod 7)",
+            "sym_cycles_5 = 0 (mod 7)",
+            "3*row_cycles_3 + 4*row_cycles_4 + 6*row_cycles_6 + 4*sym_cycles_3 + 3*sym_cycles_4 + sym_cycles_6 = 0 (mod 7)",
+            "2*row_cycles_2 + 3*row_cycles_3 + 4*row_cycles_4 + 6*row_cycles_6 + constant = 0 (mod 7)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 8
+        }
+      },
+      "table_count": 9408
+    },
+    "8": {
+      "elapsed_seconds": 23.100102875032462,
+      "name": "ANU order-8 main-class representatives",
+      "order": 8,
+      "prime_results": {
+        "2": {
+          "baseline": {
+            "baseline_generator_count": 9,
+            "baseline_rank": 9,
+            "fixed_point_free_partitions": [
+              [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 4096,
+          "observed_nullity": 9,
+          "observed_nullspace_basis": [
+            "row_cycles_3 + row_cycles_5 = 0 (mod 2)",
+            "row_cycles_7 = 0 (mod 2)",
+            "row_cycles_2 + col_cycles_2 = 0 (mod 2)",
+            "col_cycles_3 + col_cycles_5 = 0 (mod 2)",
+            "col_cycles_7 = 0 (mod 2)",
+            "row_cycles_2 + sym_cycles_2 = 0 (mod 2)",
+            "sym_cycles_3 + sym_cycles_5 = 0 (mod 2)",
+            "sym_cycles_7 = 0 (mod 2)",
+            "row_cycles_2 + row_cycles_4 + row_cycles_6 + row_cycles_8 + col_cycles_4 + col_cycles_6 + col_cycles_8 + sym_cycles_4 + sym_cycles_6 + sym_cycles_8 = 0 (mod 2)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 13
+        },
+        "3": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 228803,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "row_cycles_7 = 0 (mod 3)",
+            "2*row_cycles_2 + col_cycles_2 = 0 (mod 3)",
+            "col_cycles_7 = 0 (mod 3)",
+            "row_cycles_4 + 2*row_cycles_5 + 2*row_cycles_8 + 2*col_cycles_4 + col_cycles_5 + col_cycles_8 = 0 (mod 3)",
+            "2*row_cycles_2 + sym_cycles_2 = 0 (mod 3)",
+            "sym_cycles_7 = 0 (mod 3)",
+            "row_cycles_4 + 2*row_cycles_5 + 2*row_cycles_8 + 2*sym_cycles_4 + sym_cycles_5 + sym_cycles_8 = 0 (mod 3)",
+            "2*row_cycles_2 + row_cycles_4 + 2*row_cycles_5 + 2*row_cycles_8 + constant = 0 (mod 3)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 14
+        },
+        "5": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 282520,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "row_cycles_7 = 0 (mod 5)",
+            "4*row_cycles_2 + col_cycles_2 = 0 (mod 5)",
+            "col_cycles_7 = 0 (mod 5)",
+            "4*row_cycles_3 + 2*row_cycles_4 + 3*row_cycles_6 + 4*row_cycles_8 + col_cycles_3 + 3*col_cycles_4 + 2*col_cycles_6 + col_cycles_8 = 0 (mod 5)",
+            "4*row_cycles_2 + sym_cycles_2 = 0 (mod 5)",
+            "sym_cycles_7 = 0 (mod 5)",
+            "4*row_cycles_3 + 2*row_cycles_4 + 3*row_cycles_6 + 4*row_cycles_8 + sym_cycles_3 + 3*sym_cycles_4 + 2*sym_cycles_6 + sym_cycles_8 = 0 (mod 5)",
+            "2*row_cycles_2 + 3*row_cycles_3 + 4*row_cycles_4 + row_cycles_6 + 3*row_cycles_8 + constant = 0 (mod 5)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 14
+        },
+        "7": {
+          "baseline": {
+            "baseline_generator_count": 8,
+            "baseline_rank": 8,
+            "fixed_point_free_partitions": [
+              [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            ],
+            "local_affine_nullity": 2
+          },
+          "baseline_relations_valid": true,
+          "distinct_residue_profiles": 282711,
+          "observed_nullity": 8,
+          "observed_nullspace_basis": [
+            "row_cycles_7 = 0 (mod 7)",
+            "2*row_cycles_2 + 3*row_cycles_3 + 4*row_cycles_4 + 5*row_cycles_5 + 6*row_cycles_6 + row_cycles_8 = 0 (mod 7)",
+            "6*row_cycles_2 + col_cycles_2 = 0 (mod 7)",
+            "col_cycles_7 = 0 (mod 7)",
+            "2*row_cycles_2 + 3*col_cycles_3 + 4*col_cycles_4 + 5*col_cycles_5 + 6*col_cycles_6 + col_cycles_8 = 0 (mod 7)",
+            "6*row_cycles_2 + sym_cycles_2 = 0 (mod 7)",
+            "sym_cycles_7 = 0 (mod 7)",
+            "2*row_cycles_2 + 3*sym_cycles_3 + 4*sym_cycles_4 + 5*sym_cycles_5 + 6*sym_cycles_6 + sym_cycles_8 = 0 (mod 7)"
+          ],
+          "observed_nullspace_equals_baseline_span": true,
+          "observed_rank": 14
+        }
+      },
+      "table_count": 283657
+    }
+  },
+  "run_id": "2026-08-09_fff_cycle_profile_affine_span"
+}

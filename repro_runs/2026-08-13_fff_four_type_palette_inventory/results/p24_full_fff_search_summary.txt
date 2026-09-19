@@ -1,0 +1,10 @@
+Cross-view-pruned partite FFF search
+
+label/mode: p24/full
+total tasks: 1560
+slice: [0,1560)
+completed tasks: 1560
+search nodes: 64296
+cross-view odd-cycle prunes: 3520
+FFF found: false
+slice complete: true

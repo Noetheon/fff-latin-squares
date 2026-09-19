@@ -1,0 +1,3812 @@
+{
+  "cases": [
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_01_z10_10",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "source_case_id": "n10_row1_case_01_z10_10",
+      "zero_cycle_length": 10
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "source_case_id": "n10_row1_case_02_z8_8_2",
+      "zero_cycle_length": 8
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "source_case_id": "n10_row1_case_03_z2_8_2",
+      "zero_cycle_length": 2
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "source_case_id": "n10_row1_case_04_z6_6_4",
+      "zero_cycle_length": 6
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "source_case_id": "n10_row1_case_05_z4_6_4",
+      "zero_cycle_length": 4
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "source_case_id": "n10_row1_case_06_z6_6_2_2",
+      "zero_cycle_length": 6
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "source_case_id": "n10_row1_case_07_z2_6_2_2",
+      "zero_cycle_length": 2
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "source_case_id": "n10_row1_case_08_z4_4_4_2",
+      "zero_cycle_length": 4
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "source_case_id": "n10_row1_case_09_z2_4_4_2",
+      "zero_cycle_length": 2
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "source_case_id": "n10_row1_case_10_z4_4_2_2_2",
+      "zero_cycle_length": 4
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "source_case_id": "n10_row1_case_11_z2_4_2_2_2",
+      "zero_cycle_length": 2
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "source_case_id": "n10_row1_case_12_z2_2_2_2_2_2",
+      "zero_cycle_length": 2
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "source_case_id": null,
+      "zero_cycle_length": 5
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "source_case_id": null,
+      "zero_cycle_length": 3
+    },
+    {
+      "allowed_fixed_cell_symbols": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "cube_count": 7,
+      "fixed_cell": [
+        3,
+        1
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "source_case_id": null,
+      "zero_cycle_length": 2
+    }
+  ],
+  "complete": true,
+  "cube_count_distribution": {
+    "7": 15
+  },
+  "cubes": [
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_01_z10_10__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_01_z10_10",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "zero_cycle_length": 10
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_01_z10_10__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_01_z10_10",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "zero_cycle_length": 10
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_01_z10_10__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_01_z10_10",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "zero_cycle_length": 10
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_01_z10_10__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_01_z10_10",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "zero_cycle_length": 10
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_01_z10_10__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_01_z10_10",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "zero_cycle_length": 10
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_01_z10_10__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_01_z10_10",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "zero_cycle_length": 10
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_01_z10_10__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        10
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_01_z10_10",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "zero_cycle_length": 10
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_02_z8_8_2__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "zero_cycle_length": 8
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_02_z8_8_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "zero_cycle_length": 8
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_02_z8_8_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "zero_cycle_length": 8
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_02_z8_8_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "zero_cycle_length": 8
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_02_z8_8_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "zero_cycle_length": 8
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_02_z8_8_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "zero_cycle_length": 8
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_02_z8_8_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_02_z8_8_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        9,
+        8
+      ],
+      "zero_cycle_length": 8
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_03_z2_8_2__r3c1_s2",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_03_z2_8_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_03_z2_8_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_03_z2_8_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_03_z2_8_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_03_z2_8_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_03_z2_8_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        8,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_03_z2_8_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        2
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_04_z6_6_4__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_04_z6_6_4__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_04_z6_6_4__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_04_z6_6_4__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_04_z6_6_4__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_04_z6_6_4__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_04_z6_6_4__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_04_z6_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_05_z4_6_4__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_05_z4_6_4__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_05_z4_6_4__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_05_z4_6_4__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_05_z4_6_4__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_05_z4_6_4__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_05_z4_6_4__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        6,
+        4
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_05_z4_6_4",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        4
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_06_z6_6_2_2__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_06_z6_6_2_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_06_z6_6_2_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_06_z6_6_2_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_06_z6_6_2_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_06_z6_6_2_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_06_z6_6_2_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_06_z6_6_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 6
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_07_z2_6_2_2__r3c1_s2",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_07_z2_6_2_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_07_z2_6_2_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_07_z2_6_2_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_07_z2_6_2_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_07_z2_6_2_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_07_z2_6_2_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        6,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_07_z2_6_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        2,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_08_z4_4_4_2__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_08_z4_4_4_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_08_z4_4_4_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_08_z4_4_4_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_08_z4_4_4_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_08_z4_4_4_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_08_z4_4_4_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_08_z4_4_4_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        6,
+        7,
+        4,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_09_z2_4_4_2__r3c1_s2",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_09_z2_4_4_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_09_z2_4_4_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_09_z2_4_4_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_09_z2_4_4_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_09_z2_4_4_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_09_z2_4_4_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        4,
+        4,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_09_z2_4_4_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        8,
+        9,
+        6
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_10_z4_4_2_2_2__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_10_z4_4_2_2_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_10_z4_4_2_2_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_10_z4_4_2_2_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_10_z4_4_2_2_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_10_z4_4_2_2_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_10_z4_4_2_2_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_10_z4_4_2_2_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 4
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_11_z2_4_2_2_2__r3c1_s2",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_11_z2_4_2_2_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_11_z2_4_2_2_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_11_z2_4_2_2_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_11_z2_4_2_2_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_11_z2_4_2_2_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_11_z2_4_2_2_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_11_z2_4_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2__r3c1_s2",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qqq_only_not_row_f": false,
+      "row1_case_id": "n10_qqq_row1_case_12_z2_2_2_2_2_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_13_z5_5_3_2__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "zero_cycle_length": 5
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_13_z5_5_3_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "zero_cycle_length": 5
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_13_z5_5_3_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "zero_cycle_length": 5
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_13_z5_5_3_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "zero_cycle_length": 5
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_13_z5_5_3_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "zero_cycle_length": 5
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_13_z5_5_3_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "zero_cycle_length": 5
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_13_z5_5_3_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_13_z5_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6,
+        7,
+        5,
+        9,
+        8
+      ],
+      "zero_cycle_length": 5
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_14_z3_5_3_2__r3c1_s0",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "zero_cycle_length": 3
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_14_z3_5_3_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "zero_cycle_length": 3
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_14_z3_5_3_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "zero_cycle_length": 3
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_14_z3_5_3_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "zero_cycle_length": 3
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_14_z3_5_3_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "zero_cycle_length": 3
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_14_z3_5_3_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "zero_cycle_length": 3
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_14_z3_5_3_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_14_z3_5_3_2",
+      "row1_permutation": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        6,
+        7,
+        3,
+        9,
+        8
+      ],
+      "zero_cycle_length": 3
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_15_z2_5_3_2__r3c1_s2",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_15_z2_5_3_2__r3c1_s4",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          4
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_15_z2_5_3_2__r3c1_s5",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_15_z2_5_3_2__r3c1_s6",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          6
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_15_z2_5_3_2__r3c1_s7",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          7
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_15_z2_5_3_2__r3c1_s8",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          8
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "zero_cycle_length": 2
+    },
+    {
+      "coverage_note": "One disjoint L(3,1) branch inside the fixed Row1 case.",
+      "cube_id": "n10_qqq_row1_case_15_z2_5_3_2__r3c1_s9",
+      "fixed_cells": [
+        [
+          3,
+          1,
+          9
+        ]
+      ],
+      "partition": [
+        5,
+        3,
+        2
+      ],
+      "qqq_only_not_row_f": true,
+      "row1_case_id": "n10_qqq_row1_case_15_z2_5_3_2",
+      "row1_permutation": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6,
+        2,
+        8,
+        9,
+        7
+      ],
+      "zero_cycle_length": 2
+    }
+  ],
+  "fff_parent_case_count": 12,
+  "fff_second_level_cube_count": 84,
+  "important_correction": "The 12 even-cycle Row1 cases are complete for row-F/FFF, not for QQQ; QQQ adds three 5+3+2 cases.",
+  "n": 10,
+  "pairwise_disjoint": true,
+  "property": "QQQ",
+  "second_level_cube_count": 105,
+  "top_level_case_count": 15
+}

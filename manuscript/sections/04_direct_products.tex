@@ -1,0 +1,96 @@
+\section{Direct products}
+
+Let $L$ be a Latin square on $X$ and $K$ a Latin square on $Y$.  Their direct
+product $P=L\times K$ is the Latin square on $X\times Y$ defined by
+\[
+ P((x,y),(x',y'))=(L(x,x'),K(y,y')).
+\]
+
+\begin{lemma}[Product-cycle formula]\label{lem:product-cycle}
+Let $\pi$ and $\tau$ be permutations.  If $x$ lies on a $\pi$-cycle of
+length $m$ and $y$ lies on a $\tau$-cycle of length $n$, then $(x,y)$ lies on
+a cycle of length $\operatorname{lcm}(m,n)$ under $\pi\times\tau$.
+\end{lemma}
+
+\begin{proof}
+The pair returns after $t>0$ steps exactly when both $m\mid t$ and $n\mid t$.
+The least such $t$ is $\operatorname{lcm}(m,n)$.
+\end{proof}
+
+\begin{theorem}[Pattern product theorem]\label{thm:pattern-product}
+For arbitrary Latin squares $L$ and $K$,
+\[
+ \pat(L\times K)=\pat(L)\mathbin{\mathrm{OR}}\pat(K)
+\]
+componentwise.
+\end{theorem}
+
+\begin{proof}
+Rows of $P$ are indexed by $(a,\alpha)$, and their row maps are
+$r^P_{(a,\alpha)}=r^L_a\times r^K_\alpha$.  Hence the induced permutation
+between $(a,\alpha)$ and $(b,\beta)$ is
+\[
+ \rho^P_{(a,\alpha),(b,\beta)}
+   =\rho^L_{a,b}\times\rho^K_{\alpha,\beta}.
+\]
+If one coordinate of the two product rows is equal, the corresponding factor
+is the identity.  The identical calculation for column maps gives
+$\kappa^P=\kappa^L\times\kappa^K$.
+
+For the symbol view,
+\[
+ s^P_{(u,\eta)}(c,d)=(s^L_u(c),s^K_\eta(d)),
+\]
+and therefore $\sigma^P=\sigma^L\times\sigma^K$.  Thus the same argument
+applies in all three views.
+
+If a factor has a nontrivial odd cycle in one view, keep the other factor line
+fixed.  The identity contributes cycle length $1$, so the product contains
+the same odd cycle.  Conversely, suppose a product induced permutation has
+an odd cycle of length $\ell>1$.  By Lemma~\ref{lem:product-cycle},
+$\ell=\operatorname{lcm}(m,n)$ for factor cycle lengths $m,n$.  Both are odd,
+and at least one is greater than one.  That factor already has a nontrivial
+odd cycle in the same view.  This proves the Boolean OR formula in each view.
+\end{proof}
+
+\begin{corollary}\label{cor:fff-product}
+$L\times K$ is FFF if and only if both $L$ and $K$ are FFF.  In particular,
+product with a finite $2$-group table preserves the full pattern of the other
+factor.
+\end{corollary}
+
+\begin{proof}
+The first assertion is the all-$F$ case of
+Theorem~\ref{thm:pattern-product}.  For the second, combine the same theorem
+with Corollary~\ref{cor:group-fff}.
+\end{proof}
+
+\begin{theorem}[Group-isotopy product theorem]\label{thm:group-product}
+$L\times K$ is group-isotopic if and only if both $L$ and $K$ are
+group-isotopic.
+\end{theorem}
+
+\begin{proof}
+At a product base row $(b,c)$, the basis family factors as
+\[
+ H_{L\times K}(b,c)=H_L(b)\times H_K(c).
+\]
+If both factor families are closed, their Cartesian product is closed.
+Conversely, both factor families contain the identity.  If the product family
+is closed, then $(h_1,\mathrm{id})(h_2,\mathrm{id})$ lies in it for all
+$h_1,h_2\in H_L(b)$, proving closure of $H_L(b)$; using
+$(\mathrm{id},k_i)$ proves closure of $H_K(c)$.  Apply
+Proposition~\ref{prop:closure}.
+\end{proof}
+
+\begin{corollary}\label{cor:inflation}
+Let $L$ be a non-group-isotopic FFF Latin square of order $n$.  For every
+$m\geq0$, the product $L\times C_2^m$ is a non-group-isotopic FFF Latin
+square of order $n2^m$.
+\end{corollary}
+
+\begin{proof}
+The table of $C_2^m$ is FFF by Corollary~\ref{cor:group-fff}; apply
+Corollary~\ref{cor:fff-product} and
+Theorem~\ref{thm:group-product}.
+\end{proof}

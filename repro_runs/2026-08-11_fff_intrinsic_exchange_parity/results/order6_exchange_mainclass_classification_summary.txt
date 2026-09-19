@@ -1,0 +1,23 @@
+Order-6 exchange-lattice main-class classification
+
+reduced tables: 9408
+main classes: 12
+main-class sizes: {20: 1, 40: 1, 60: 1, 108: 1, 180: 1, 360: 1, 540: 1, 1080: 3, 1620: 1, 3240: 1}
+rank-19/r_Q=3 exceptional main classes: 1
+errors: 0
+
+Per-main-class profile:
+- 04d4056f22f0: size=1080, representative=012345103254240531354012425103531420, patterns={'TTT': 1080}, group={'False': 1080}, r_Q={2: 1080}, E4_rank={20: 1080}
+- 13bedf1c3f83: size=108, representative=012345103254240513354021435102521430, patterns={'FFT': 36, 'FTF': 36, 'TFF': 36}, group={'False': 108}, r_Q={1: 108}, E4_rank={20: 108}
+- 1d5da7434144: size=60, representative=012345103254234501325410450123541032, patterns={'TTT': 60}, group={'True': 60}, r_Q={3: 60}, E4_rank={20: 60}
+- 226dfdbe95f5: size=1080, representative=012345103254240513351420435102524031, patterns={'FFT': 360, 'FTF': 360, 'TFF': 360}, group={'False': 1080}, r_Q={1: 1080}, E4_rank={20: 1080}
+- 3e74cc36ede8: size=1080, representative=012345103452231504354120425013540231, patterns={'TTT': 1080}, group={'False': 1080}, r_Q={1: 1080}, E4_rank={20: 1080}
+- 53ba398fc4f9: size=1620, representative=012345103254240531354012435120521403, patterns={'FFT': 540, 'FTF': 540, 'TFF': 540}, group={'False': 1620}, r_Q={1: 1620}, E4_rank={20: 1620}
+- 5c2dd0f737ef: size=540, representative=012345103254240513351402425130534021, patterns={'TTT': 540}, group={'False': 540}, r_Q={1: 540}, E4_rank={19: 540}
+- 864300b7d3a6: size=3240, representative=012345103254234501345120451032520413, patterns={'TTT': 3240}, group={'False': 3240}, r_Q={1: 3240}, E4_rank={19: 3240}
+- b32f9fb9d495: size=20, representative=012345103254240513351402425031534120, patterns={'TTT': 20}, group={'True': 20}, r_Q={1: 20}, E4_rank={20: 20}
+- cbf241432314: size=180, representative=012345103254234501325410450132541023, patterns={'TTT': 180}, group={'False': 180}, r_Q={3: 180}, E4_rank={19: 180}
+- d3a24a55df9d: size=40, representative=012345120453201534354102435210543021, patterns={'TTT': 40}, group={'False': 40}, r_Q={1: 40}, E4_rank={20: 40}
+- ff59cdbe579b: size=360, representative=012345103254234501345012450123521430, patterns={'TTT': 360}, group={'False': 360}, r_Q={1: 360}, E4_rank={20: 360}
+
+Boundary: this is a complete order-6 main-class classification of the frozen census, not an order-10 result.

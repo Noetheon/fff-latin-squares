@@ -1,0 +1,6 @@
+f18 root 2+2+2+2+2
+unfiltered/level1 candidates: 20160/20160
+initial tasks: 2520
+residual group/orbits: 48/58
+covered tasks: 2520
+valid: true

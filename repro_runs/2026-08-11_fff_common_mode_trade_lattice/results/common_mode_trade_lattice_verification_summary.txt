@@ -1,0 +1,10 @@
+Independent Python-FLINT verification
+
+tables checked: 9408
+exceptional C99 tables checked: 1320
+modular rank checks: 28224
+mode checks: 1560
+saturated mode checks: 1320
+six-exchange completion checks: 180
+errors: 0
+overall_pass: True

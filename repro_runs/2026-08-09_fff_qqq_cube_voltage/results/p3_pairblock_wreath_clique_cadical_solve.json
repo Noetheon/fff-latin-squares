@@ -1,0 +1,40 @@
+{
+  "cnf": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/p3_pairblock_wreath_clique.cnf",
+    "sha256": "eb92171641c9850b36496f904f2dca8fbc64850a1dde57d6e5770f9b16734ef6",
+    "size_bytes": 9196
+  },
+  "elapsed_seconds": 0.006613016128540039,
+  "model": {
+    "available": false,
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/p3_pairblock_wreath_clique_cadical.model",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "proof": {
+    "complete_unsat_trace": true,
+    "independently_checked": false,
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/p3_pairblock_wreath_clique_cadical.drat",
+    "sha256": "aff02411a95769ef4fc8f4bbc4d2c005474a369ef13516d462361aea9fc69e67",
+    "size_bytes": 8794
+  },
+  "result": "unsat",
+  "returncode": 20,
+  "solver": {
+    "command": [
+      "/opt/homebrew/bin/cadical",
+      "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/p3_pairblock_wreath_clique.cnf",
+      "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/p3_pairblock_wreath_clique_cadical.drat"
+    ],
+    "path": "/opt/homebrew/bin/cadical",
+    "version": "3.0.0"
+  },
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/logs/p3_pairblock_wreath_clique_cadical.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/logs/p3_pairblock_wreath_clique_cadical.stdout.log",
+    "sha256": "b04a2d870f184b275a4cf0d5fb8098d7b08e6b316143fda8dcf283c6533a1b5a"
+  },
+  "timeout_seconds": 60.0
+}

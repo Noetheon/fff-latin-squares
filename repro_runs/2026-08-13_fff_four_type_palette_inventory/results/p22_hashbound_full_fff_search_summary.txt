@@ -1,0 +1,10 @@
+Cross-view-pruned partite FFF search
+
+label/mode: p22_hashbound/full
+total tasks: 600
+slice: [0,600)
+completed tasks: 600
+search nodes: 13976
+cross-view odd-cycle prunes: 1920
+FFF found: false
+slice complete: true

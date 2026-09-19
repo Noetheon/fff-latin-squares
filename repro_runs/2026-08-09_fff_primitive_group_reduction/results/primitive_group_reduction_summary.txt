@@ -1,0 +1,19 @@
+Degree-10 primitive-group reduction
+
+group constructions valid: True
+all nontrivial upper bounds proof-checked: True
+all seven small primitive groups exclude a 10-clique: True
+
+group	order	F candidates	max F clique including identity	proof status
+a5_on_2sets	60	0	1	direct enumeration
+s5_on_2sets	120	30	2	verified
+psl2_9	360	0	1	direct enumeration
+pgl2_9	720	180	2	verified
+s6_psigmal2_9	720	90	2	verified
+m10	720	180	2	verified
+pgammal2_9	1440	450	4	verified
+
+Classification consequence: every normalized degree-10 F-view generates A10 or S10.
+Three-view consequence: at least one view of a hypothetical order-10 FFF square generates S10.
+External boundary: completeness of the standard primitive degree-10 group classification.
+Scope: C38 remains open; C40 remains absent.

@@ -1,0 +1,9 @@
+p=3 pair-block compatibility graph audit
+
+candidates_excluding_identity: 21
+compatible_edges: 72
+clique_counts: {'1': 21, '2': 72, '3': 48, '4': 0, '5': 0}
+maximum_clique_size: 3
+maximum_family_size_including_identity: 4
+required_family_size: 6
+conclusion: no degree-6 row-F family preserving three pair blocks.

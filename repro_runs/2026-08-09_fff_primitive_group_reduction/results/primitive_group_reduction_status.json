@@ -1,0 +1,230 @@
+{
+  "all_nontrivial_upper_bounds_proof_checked": true,
+  "all_seven_small_groups_exclude_required_ten_clique": true,
+  "claim_boundary": "C38 open; C40 absent; no n=10 existence or nonexistence result",
+  "classification_dependency": "completeness of the standard primitive permutation group classification/library",
+  "classification_orders": [
+    60,
+    120,
+    360,
+    720,
+    720,
+    720,
+    1440,
+    1814400,
+    3628800
+  ],
+  "degree": 10,
+  "encoding_version": "degree10_primitive_group_f_clique_v1",
+  "group_constructions_valid": true,
+  "one_view_consequence": "Assuming the complete standard degree-10 primitive-group classification, every normalized degree-10 F-view generates A10 or S10.",
+  "remaining_generated_groups": [
+    "A10",
+    "S10"
+  ],
+  "small_primitive_groups": [
+    {
+      "closure_ok": true,
+      "compatibility_nonedges": 0,
+      "direct_exclusion": true,
+      "f_candidate_count": 0,
+      "f_candidate_cycle_types": [],
+      "group_id": "a5_on_2sets",
+      "group_order": 60,
+      "mapping_path": "repro_runs/2026-08-09_fff_primitive_group_reduction/results/a5_on_2sets_mapping.json",
+      "mapping_sha256": "869667aaee76793da749d922058e90b801b80cd486474ea688064acc444ec4c2",
+      "maximum_f_clique_including_identity": 1,
+      "primitive": true,
+      "proof_checked": "not_applicable",
+      "proof_sha256": null,
+      "transitive": true,
+      "upper_bound_cnf_clauses": 1,
+      "upper_bound_cnf_path": "/tmp/order8_primitive_group_reduction/a5_on_2sets_f_clique_upper.cnf",
+      "upper_bound_cnf_requires_candidate_clique": 1,
+      "upper_bound_cnf_sha256": "69ee12c3118a428a28f674ec24e362b721e0611c800f65afbcb8a48e778c1394",
+      "upper_bound_cnf_variables": 0,
+      "upper_bound_solve_result": "not_needed"
+    },
+    {
+      "closure_ok": true,
+      "compatibility_nonedges": 435,
+      "direct_exclusion": false,
+      "f_candidate_count": 30,
+      "f_candidate_cycle_types": [
+        [
+          4,
+          4,
+          2
+        ]
+      ],
+      "group_id": "s5_on_2sets",
+      "group_order": 120,
+      "mapping_path": "repro_runs/2026-08-09_fff_primitive_group_reduction/results/s5_on_2sets_mapping.json",
+      "mapping_sha256": "dace0d56e53f314b1f7f7bab57a4a76d7a1179bf98c64acce271fcaa74c04ba9",
+      "maximum_f_clique_including_identity": 2,
+      "primitive": true,
+      "proof_checked": "verified",
+      "proof_sha256": "173350eaaf45d5ebcd8a098e9a04120a2d5b39974b1c08d88e9b3d5d9d5b2aae",
+      "transitive": true,
+      "upper_bound_cnf_clauses": 521,
+      "upper_bound_cnf_path": "/tmp/order8_primitive_group_reduction/s5_on_2sets_f_clique_upper.cnf",
+      "upper_bound_cnf_requires_candidate_clique": 2,
+      "upper_bound_cnf_sha256": "8aea609085d94d62a06e66bd2f71c5ee18f9bba6a157146d08cb5d2e99f8b285",
+      "upper_bound_cnf_variables": 86,
+      "upper_bound_solve_result": "unsat"
+    },
+    {
+      "closure_ok": true,
+      "compatibility_nonedges": 0,
+      "direct_exclusion": true,
+      "f_candidate_count": 0,
+      "f_candidate_cycle_types": [],
+      "group_id": "psl2_9",
+      "group_order": 360,
+      "mapping_path": "repro_runs/2026-08-09_fff_primitive_group_reduction/results/psl2_9_mapping.json",
+      "mapping_sha256": "dc216d07d60061b2796ff626ae97ec397189309156938b89fd7b3cd443007ef4",
+      "maximum_f_clique_including_identity": 1,
+      "primitive": true,
+      "proof_checked": "not_applicable",
+      "proof_sha256": null,
+      "transitive": true,
+      "upper_bound_cnf_clauses": 1,
+      "upper_bound_cnf_path": "/tmp/order8_primitive_group_reduction/psl2_9_f_clique_upper.cnf",
+      "upper_bound_cnf_requires_candidate_clique": 1,
+      "upper_bound_cnf_sha256": "69ee12c3118a428a28f674ec24e362b721e0611c800f65afbcb8a48e778c1394",
+      "upper_bound_cnf_variables": 0,
+      "upper_bound_solve_result": "not_needed"
+    },
+    {
+      "closure_ok": true,
+      "compatibility_nonedges": 16110,
+      "direct_exclusion": false,
+      "f_candidate_count": 180,
+      "f_candidate_cycle_types": [
+        [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          10
+        ]
+      ],
+      "group_id": "pgl2_9",
+      "group_order": 720,
+      "mapping_path": "repro_runs/2026-08-09_fff_primitive_group_reduction/results/pgl2_9_mapping.json",
+      "mapping_sha256": "792287746fae924198165e36740f0627ee0ccda99c53c96d39cc8bdf54dab481",
+      "maximum_f_clique_including_identity": 2,
+      "primitive": true,
+      "proof_checked": "verified",
+      "proof_sha256": "a9899d48fd766e43cd913de79bfcb9b6be9b1b6511c1c5ca36198347ca2e1713",
+      "transitive": true,
+      "upper_bound_cnf_clauses": 16646,
+      "upper_bound_cnf_path": "/tmp/order8_primitive_group_reduction/pgl2_9_f_clique_upper.cnf",
+      "upper_bound_cnf_requires_candidate_clique": 2,
+      "upper_bound_cnf_sha256": "1d5caea58880733cdec1728a2368f4445ba7685c1a17d77c6ee33093bf0a7352",
+      "upper_bound_cnf_variables": 536,
+      "upper_bound_solve_result": "unsat"
+    },
+    {
+      "closure_ok": true,
+      "compatibility_nonedges": 4005,
+      "direct_exclusion": false,
+      "f_candidate_count": 90,
+      "f_candidate_cycle_types": [
+        [
+          4,
+          4,
+          2
+        ]
+      ],
+      "group_id": "s6_psigmal2_9",
+      "group_order": 720,
+      "mapping_path": "repro_runs/2026-08-09_fff_primitive_group_reduction/results/s6_psigmal2_9_mapping.json",
+      "mapping_sha256": "9343dbdcf2bbd6428ddbcc1a9f0c12592068c3caaa0dd464b75b09e4651623d8",
+      "maximum_f_clique_including_identity": 2,
+      "primitive": true,
+      "proof_checked": "verified",
+      "proof_sha256": "8eb9bfab037bedf1d14cb22b990d87b2a982469558440c947ccedb2ae07f8fa9",
+      "transitive": true,
+      "upper_bound_cnf_clauses": 4271,
+      "upper_bound_cnf_path": "/tmp/order8_primitive_group_reduction/s6_psigmal2_9_f_clique_upper.cnf",
+      "upper_bound_cnf_requires_candidate_clique": 2,
+      "upper_bound_cnf_sha256": "185ed2008633c7d89bc6dbf07d17a3011669f481b5fbd035c8118cec5465ccd9",
+      "upper_bound_cnf_variables": 266,
+      "upper_bound_solve_result": "unsat"
+    },
+    {
+      "closure_ok": true,
+      "compatibility_nonedges": 16110,
+      "direct_exclusion": false,
+      "f_candidate_count": 180,
+      "f_candidate_cycle_types": [
+        [
+          8,
+          2
+        ]
+      ],
+      "group_id": "m10",
+      "group_order": 720,
+      "mapping_path": "repro_runs/2026-08-09_fff_primitive_group_reduction/results/m10_mapping.json",
+      "mapping_sha256": "0ca9eb09ed23b59c35f146acab62c1612e6d90bb9c633c0f81bb3fb9f6b0d2d3",
+      "maximum_f_clique_including_identity": 2,
+      "primitive": true,
+      "proof_checked": "verified",
+      "proof_sha256": "a9899d48fd766e43cd913de79bfcb9b6be9b1b6511c1c5ca36198347ca2e1713",
+      "transitive": true,
+      "upper_bound_cnf_clauses": 16646,
+      "upper_bound_cnf_path": "/tmp/order8_primitive_group_reduction/m10_f_clique_upper.cnf",
+      "upper_bound_cnf_requires_candidate_clique": 2,
+      "upper_bound_cnf_sha256": "1d5caea58880733cdec1728a2368f4445ba7685c1a17d77c6ee33093bf0a7352",
+      "upper_bound_cnf_variables": 536,
+      "upper_bound_solve_result": "unsat"
+    },
+    {
+      "closure_ok": true,
+      "compatibility_nonedges": 79425,
+      "direct_exclusion": false,
+      "f_candidate_count": 450,
+      "f_candidate_cycle_types": [
+        [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          4,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10
+        ]
+      ],
+      "group_id": "pgammal2_9",
+      "group_order": 1440,
+      "mapping_path": "repro_runs/2026-08-09_fff_primitive_group_reduction/results/pgammal2_9_mapping.json",
+      "mapping_sha256": "da1b2477bef3cb58b2aaaea71928741af6f02649fcf8bd39286ec60b968896fc",
+      "maximum_f_clique_including_identity": 4,
+      "primitive": true,
+      "proof_checked": "verified",
+      "proof_sha256": "9023f79150daa310343851ad1ab019899c7d57417cbd3a6be23f8cd259ff39ad",
+      "transitive": true,
+      "upper_bound_cnf_clauses": 82551,
+      "upper_bound_cnf_path": "/tmp/order8_primitive_group_reduction/pgammal2_9_f_clique_upper.cnf",
+      "upper_bound_cnf_requires_candidate_clique": 4,
+      "upper_bound_cnf_sha256": "925404dad9c67714e2acc03817d1ce90134de0db935a6bfe45b797fffa6c53d3",
+      "upper_bound_cnf_variables": 2234,
+      "upper_bound_solve_result": "unsat"
+    }
+  ],
+  "three_view_consequence": "Combining the one-view result with C60, every hypothetical order-10 FFF square has A10/S10 generated groups in all views and at least one S10 view."
+}

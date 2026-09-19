@@ -1,0 +1,14 @@
+{
+  "cell_variable_formula": "1 + (row*n + col)*n + symbol",
+  "cell_variable_range": [
+    1,
+    1000
+  ],
+  "encoding_version": "qqq_power_fixedpoint_v2_guarded_transition",
+  "n": 10,
+  "views": [
+    "row",
+    "col",
+    "sym"
+  ]
+}

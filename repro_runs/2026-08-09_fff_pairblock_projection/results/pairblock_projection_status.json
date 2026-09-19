@@ -1,0 +1,66 @@
+{
+  "claim_effect": {
+    "C38": "open",
+    "C40": "absent",
+    "C58": "rigorous",
+    "C59": "A+B checked",
+    "C61": "A+B checked finite classification",
+    "C62": "A+B checked three-class strengthening"
+  },
+  "p3": {
+    "cadical_result": "unsat",
+    "clauses": 229,
+    "proof_checked": "verified",
+    "variables": 63
+  },
+  "p5": {
+    "cadical_result": "unsat",
+    "cadical_seconds": 17.57205891609192,
+    "clauses": 167986,
+    "cnf_sha256": "f13e3db94f8b3e99f623262ef88b2218b0c33d2f56bf8f3c2e59a18ad4470d72",
+    "compact_triangle_classification": {
+      "all_forbidden_triangle_union": 29440,
+      "cadical_result": "unsat",
+      "cadical_seconds": 0.7372689247131348,
+      "clauses": 33841,
+      "cnf_sha256": "210c508606b29bd9cb3777505c127f317091252d3bcd6a54c6f55bf1768fe8c3",
+      "common_three_cycle_forbidden_triangles_total": 1600,
+      "forbidden_triangle_overlap": 400,
+      "global_odd_cycle_forbidden_triangles": 28240,
+      "proof_checked": "verified",
+      "proof_sha256": "fdfd3195fefe03bc157727158db79e656884fb17386712b505f093c7dc8dcc11",
+      "selected_forbidden_triangle_union": 29440,
+      "variables": 2320
+    },
+    "cpsat_eight_workers": "timeout",
+    "cpsat_one_worker": "timeout",
+    "kissat_result": "unsat",
+    "kissat_seconds": 20.32181692123413,
+    "proof_checked": "verified",
+    "proof_sha256": "66d691c6b1354878826ae2ad9b037f9d375da2cddecdfba89603992a06f7698c",
+    "three_class_triangle_classification": {
+      "cadical_result": "unsat",
+      "cadical_seconds": 0.5357260704040527,
+      "clauses": 23841,
+      "cnf_sha256": "dc16c501ceab015a57aa5a7203da9f7b91373c44e737097b06ee55e261d3abbf",
+      "proof_checked": "verified",
+      "proof_sha256": "768908324607cf235613eb4bc81ad8ccb4a1be2a6d7da15423a5d6e922ddcad7",
+      "selected_forbidden_triangle_union": 19440,
+      "selected_three_class_counts": {
+        "all_5_cycles": 3840,
+        "common_3_support_mixed": 1200,
+        "two_5_cycles_and_one_3_1_1": 14400
+      },
+      "variables": 2320
+    },
+    "variables": 40980
+  },
+  "scope_warning": "One-view normalized primitivity is not a full n=10 FFF existence or nonexistence result.",
+  "theorem_boundary": {
+    "degree10_one_view_primitivity": "proof-checked computational consequence plus rigorous block-size-5 lemma",
+    "full_n10_fff": "open",
+    "p3_pairblock_row_f": "unsat with independently checked DRAT",
+    "p5_pairblock_row_f": "unsat with independently checked DRAT",
+    "projection_injectivity": "rigorously proved"
+  }
+}

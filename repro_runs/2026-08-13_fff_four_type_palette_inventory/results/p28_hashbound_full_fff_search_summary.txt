@@ -1,0 +1,10 @@
+Cross-view-pruned partite FFF search
+
+label/mode: p28_hashbound/full
+total tasks: 2264
+slice: [0,2264)
+completed tasks: 2264
+search nodes: 2217424
+cross-view odd-cycle prunes: 437997
+FFF found: false
+slice complete: true

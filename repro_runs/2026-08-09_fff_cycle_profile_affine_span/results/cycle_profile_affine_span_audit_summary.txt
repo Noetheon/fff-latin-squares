@@ -1,0 +1,31 @@
+FFF aggregate cycle-profile affine-span audit
+
+n=6 exhaustive tables: 9408
+n=8 ANU main-class representatives: 283657
+n=10 tracked partial tables: 135
+n=10 D10 trade-walk samples: 500
+
+Order 6 exact span saturation:
+  GF(2): rank=4, nullity=12, baseline_rank=9, exact_match=False
+  GF(3): rank=8, nullity=8, baseline_rank=8, exact_match=True
+  GF(5): rank=8, nullity=8, baseline_rank=8, exact_match=True
+  GF(7): rank=8, nullity=8, baseline_rank=8, exact_match=True
+Order 8 exact span saturation:
+  GF(2): rank=13, nullity=9, baseline_rank=9, exact_match=True
+  GF(3): rank=14, nullity=8, baseline_rank=8, exact_match=True
+  GF(5): rank=14, nullity=8, baseline_rank=8, exact_match=True
+  GF(7): rank=14, nullity=8, baseline_rank=8, exact_match=True
+
+Order 10 tracked-corpus versus trade-walk GF(2):
+  tracked rank/nullity: 16/12
+  augmented rank/nullity: 19/9
+  rank-rise witnesses: 3
+  augmented nullspace equals baseline span: True
+
+Conclusion:
+  The full n=8 data have no affine relations over GF(2), GF(3), GF(5), or GF(7) beyond the proved baseline generators.
+  The full n=6 data match baseline over GF(3), GF(5), and GF(7), but have three additional Latin-specific GF(2) relations.
+  Those three n=6 relations do not by themselves contradict an abstract FFF-supported cycle profile.
+  Three extra GF(2) relations in the tracked n=10 corpus are sampling artifacts refuted by explicit Latin trade-walk tables.
+  The baseline relations admit an abstract all-10-cycle FFF profile, so they cannot alone exclude order 10.
+  C38 remains open; C40 remains absent.

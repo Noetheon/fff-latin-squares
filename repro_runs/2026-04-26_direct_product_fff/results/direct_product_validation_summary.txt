@@ -1,0 +1,71 @@
+Direct-product FFF validation summary
+
+Input fullscan: repro_runs/2026-04-26_order8_core/results/order8_recheck_fullscan_results.json
+Fullscan SHA-256: 10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39
+Input main classes: repro_runs/2026-04-26_order8_core/data/latin_mc8.txt.gz
+Main-class SHA-256: e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87
+Order-8 all eight patterns nonempty: True
+Selected examples: 2
+Selected pattern examples: ['FFF', 'FFT', 'FTF', 'FTT', 'TFF', 'TFT', 'TTF', 'TTT']
+Product cases: 6
+All product cases Latin: True
+All product cases FFF: True
+All product permutation formulas checked: True
+All product lcm checks passed: True
+Non-group products row-closure false: True
+All pattern OR cases passed: True
+All C2 pattern-inflation cases passed: True
+All group-isotopy equivalence cases passed: True
+Non-group FFF C2/C2xC2 family checks passed: True
+
+Order-8 pattern counts:
+- FFF: 230
+- FFT: 81
+- FTF: 40
+- FTT: 315
+- TFF: 133
+- TFT: 209
+- TTF: 232
+- TTT: 282417
+
+First example per pattern:
+- FFF: source_index=1, line_number=1
+- FFT: source_index=25, line_number=25
+- FTF: source_index=31, line_number=31
+- FTT: source_index=34, line_number=34
+- TFF: source_index=39, line_number=39
+- TFT: source_index=101, line_number=101
+- TTF: source_index=86, line_number=86
+- TTT: source_index=24, line_number=24
+
+FFF x 2-group cases:
+- order8_group_isotopic_fff x C2: order 16, FFF=True, row_closure=True, expected_group_isotopic=True
+- order8_group_isotopic_fff x C2xC2: order 32, FFF=True, row_closure=True, expected_group_isotopic=True
+- order8_group_isotopic_fff x C4: order 32, FFF=True, row_closure=True, expected_group_isotopic=True
+- order8_nongroup_fff x C2: order 16, FFF=True, row_closure=False, expected_group_isotopic=False
+- order8_nongroup_fff x C2xC2: order 32, FFF=True, row_closure=False, expected_group_isotopic=False
+- order8_nongroup_fff x C4: order 32, FFF=True, row_closure=False, expected_group_isotopic=False
+
+Pattern OR cases:
+- FFF x TFF: expected TFF, actual TFF, ok=True
+- TFF x FTF: expected TTF, actual TTF, ok=True
+- FTF x FFT: expected FTT, actual FTT, ok=True
+
+C2 pattern-inflation cases:
+- FFF x C2: expected FFF, actual FFF, ok=True
+- FFT x C2: expected FFT, actual FFT, ok=True
+- FTF x C2: expected FTF, actual FTF, ok=True
+- FTT x C2: expected FTT, actual FTT, ok=True
+- TFF x C2: expected TFF, actual TFF, ok=True
+- TFT x C2: expected TFT, actual TFT, ok=True
+- TTF x C2: expected TTF, actual TTF, ok=True
+- TTT x C2: expected TTT, actual TTT, ok=True
+
+Group-isotopy equivalence cases:
+- order8_group_isotopic_fff x order8_group_isotopic_fff: expected True, row_closure=True, ok=True
+- order8_group_isotopic_fff x order8_nongroup_fff: expected False, row_closure=False, ok=True
+- order8_nongroup_fff x order8_nongroup_fff: expected False, row_closure=False, ok=True
+
+Non-group FFF C2-family checks:
+- order8_nongroup_fff x C2: order 16, FFF=True, row_closure_closed=False, ok=True
+- order8_nongroup_fff x C2xC2: order 32, FFF=True, row_closure_closed=False, ok=True

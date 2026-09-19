@@ -1,0 +1,60 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_lines_parsed": true,
+    "all_row_palettes_subsets_of_f18": true,
+    "all_tables_latin": true,
+    "cliques_unique": true,
+    "enumeration_count_exact": true,
+    "graph_envelope_valid": true,
+    "no_exact_f18_row_palette": true,
+    "no_fff_completion": true,
+    "one_vertex_per_bucket": true,
+    "vertices_valid": true
+  },
+  "clique_stdout_sha256": "92e82f76fc0e2f41de7602cd18f044b0510af432cd11e300451a095f4d3f38f6",
+  "cliquer_stderr_sha256": "abc1eab99db18dbc057e2ba4767cabae585ac3559c781700cdcbf46ba39cc7ff",
+  "error_counts": {
+    "bucket_errors": 0,
+    "latin_errors": 0,
+    "malformed_lines": 0,
+    "palette_subset_errors": 0,
+    "vertex_errors": 0
+  },
+  "exact_f18_palette_count": 0,
+  "expected_clique_count": 1920,
+  "fff_count": 0,
+  "graph_sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+  "parsed_clique_count": 1920,
+  "pattern_counts": {
+    "FFT": 960,
+    "FTF": 960
+  },
+  "pattern_examples_one_based_vertices": {
+    "FFT": [
+      279,
+      3391,
+      5229,
+      8038,
+      12177,
+      14990,
+      16792,
+      19909
+    ],
+    "FTF": [
+      279,
+      3254,
+      5660,
+      7761,
+      12469,
+      14515,
+      17008,
+      19875
+    ]
+  },
+  "row_palette_counts": {
+    "6+4|4+4+2|2+2+2+2+2": 1920
+  },
+  "schema_version": "f18-all-clique-completion-audit-v1",
+  "unique_clique_count": 1920
+}

@@ -1,0 +1,182 @@
+{
+  "case": {
+    "case_id": "f01",
+    "filter_level": 2,
+    "palette_canonical": [
+      "10",
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+2+2"
+    ],
+    "root_type": "2+2+2+2+2"
+  },
+  "graph": {
+    "audit_binding_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_graph_audit_binding.json",
+    "audit_binding_sha256": "8a45534de139a868b1e5de4b5e68800bacacd5573392bfe681b49627799077bf",
+    "bucket_sizes": [
+      1080,
+      1080,
+      1080,
+      1080,
+      1080,
+      1080,
+      1080,
+      1080
+    ],
+    "canonical_root": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8
+    ],
+    "format": "O8HTv1-le",
+    "path_hint": "external/Order8_external_graphs/2026-08-14_five_type/f01/f01.bin",
+    "semantic_audit_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_complete_graph_audit.json",
+    "semantic_audit_sha256": "e12f7ca990624fb21eba3b3dd4895fde9d6e765984d04661fb10f6aa68ce3196",
+    "semantic_audit_valid": true,
+    "sha256": "6360189d6f4dc2e5730884b51e1662715cb48be0321593a0f86ed0eb60ed98af",
+    "size_bytes": 9417626,
+    "structural_audit_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_structural_graph_audit.json",
+    "structural_audit_sha256": "88ede577c3ef667e7c0a8bbde809bd7e0ded9853ebe7876b2a072578001d822f",
+    "vertices": 8640,
+    "words": 135
+  },
+  "plan_payload_sha256": "ad6024247e12912dd6d892f2d57acf7c92986c19c289ef91165f21567455e231",
+  "schema_version": "five-type-task-plan-v1",
+  "search": {
+    "binary_path_hint": "/private/tmp/order8_f01_search",
+    "binary_sha256": "d516896f57628d1984dbd9dfe6f6e1aeb6abb8317a50eea37046567ff65dc667",
+    "compiler": "/usr/bin/clang++",
+    "compiler_version": "Apple clang 21.0.0 (clang-2100.1.1.101)",
+    "flags": [
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4"
+    ],
+    "source_bundle_sha256": "b15a9909113930133736dccd908be89b53856a66eb2089ff9bd2cd6b4d8a3724",
+    "sources": [
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f01_search/scripts/search_partite_fff.cpp",
+        "sha256": "ec541446455833b9c3044b140a280de162751933a98eefa2ad78104067a88652"
+      },
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f01_search/scripts/partial_cycle.hpp",
+        "sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82"
+      }
+    ]
+  },
+  "tasking": {
+    "full_initial_tasks": 1080,
+    "full_task_vertices_sha256": "e599f73bec6735d9785f466c71fb8012f7cd8f228821f080b496fbdab90ef485",
+    "initial_bucket": 0,
+    "initial_bucket_value": 2,
+    "policy": "minimum_bucket_then_smallest_bucket_id",
+    "slice_width": 4,
+    "slices": [
+      {
+        "count": 4,
+        "end_exclusive": 4,
+        "ordinal": 0,
+        "slice_id": "s0000",
+        "start": 0,
+        "task_vertices_sha256": "e3c52ab4c95e2076dc658bc5be6a44fced358bf672a6e3aea256ab14adff774a"
+      },
+      {
+        "count": 4,
+        "end_exclusive": 8,
+        "ordinal": 1,
+        "slice_id": "s0001",
+        "start": 4,
+        "task_vertices_sha256": "58c4fe2fb0b9c67a108260d8ae01ed0feae90ea77e0a421dcaf8b29e645b4e25"
+      },
+      {
+        "count": 4,
+        "end_exclusive": 12,
+        "ordinal": 2,
+        "slice_id": "s0002",
+        "start": 8,
+        "task_vertices_sha256": "6fc74bbf6d8e3d582373465ffa733dc8f54b8d42d30d16acc91111186309a016"
+      },
+      {
+        "count": 4,
+        "end_exclusive": 16,
+        "ordinal": 3,
+        "slice_id": "s0003",
+        "start": 12,
+        "task_vertices_sha256": "49c5b73e6ba30bb54dc4cb38d00f45803ced4c787d9840a888584055ae099f1a"
+      },
+      {
+        "count": 4,
+        "end_exclusive": 20,
+        "ordinal": 4,
+        "slice_id": "s0004",
+        "start": 16,
+        "task_vertices_sha256": "ba7b25c9df549a389e45e2ca908e6cfb2958c84375b696994592094ccdfc3fc1"
+      },
+      {
+        "count": 4,
+        "end_exclusive": 24,
+        "ordinal": 5,
+        "slice_id": "s0005",
+        "start": 20,
+        "task_vertices_sha256": "7cf789efcf1ee0b55ec603a4d7bf67fc7f10535b7a21966e12d21bc3af0ff698"
+      },
+      {
+        "count": 4,
+        "end_exclusive": 28,
+        "ordinal": 6,
+        "slice_id": "s0006",
+        "start": 24,
+        "task_vertices_sha256": "21f4831f7b4e77b251d6deb953a1cba36c616c0d1d1e2b4d9063961024caf7cb"
+      }
+    ],
+    "task_list_sha256": "d9644185fb080c785d23a2dae149ad8581fd7747cd16c990906fd679c15c99f8",
+    "task_reduction": {
+      "audit_path": "repro_runs/2026-08-14_fff_five_type_f01_search/results/f01_graph_root_orbit_audit.json",
+      "audit_sha256": "75b922607f71a1b93ef465bcca6ab9c0cfeacb105c8a408883d9ca8fcd9d40bf",
+      "full_initial_tasks": 1080,
+      "selected_initial_tasks": 28,
+      "task_file_path": "repro_runs/2026-08-14_fff_five_type_f01_search/data/f01_task_ordinals.txt",
+      "task_file_sha256": "b093a9e69e259ca877cbe2ddc2626222ad67d0fa18bd589a9429b1c80037f946"
+    },
+    "task_vertices": [
+      0,
+      2,
+      48,
+      50,
+      51,
+      52,
+      56,
+      58,
+      60,
+      98,
+      100,
+      102,
+      104,
+      118,
+      120,
+      122,
+      124,
+      132,
+      134,
+      136,
+      138,
+      139,
+      140,
+      141,
+      142,
+      148,
+      150,
+      151
+    ],
+    "total_initial_tasks": 28
+  }
+}

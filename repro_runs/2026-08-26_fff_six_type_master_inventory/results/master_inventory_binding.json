@@ -1,0 +1,85 @@
+{
+  "all_checks_passed": true,
+  "cases": {
+    "involution_master_all_7_types": {
+      "bucket_counts": [
+        0,
+        0,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760
+      ],
+      "class_allowed_candidates": 190080,
+      "dense_graph_size_bytes": 4518201626,
+      "orbit_count": 506,
+      "orbit_size_counts": {
+        "12": 12,
+        "24": 4,
+        "48": 490
+      },
+      "residual_group_size": 48,
+      "root_task_count": 23760,
+      "triple_filtered_candidates": 190080
+    },
+    "noninvolution_master_6_types": {
+      "bucket_counts": [
+        0,
+        0,
+        18300,
+        18300,
+        22628,
+        22628,
+        22628,
+        22628,
+        22628,
+        22628
+      ],
+      "class_allowed_candidates": 196560,
+      "dense_graph_size_bytes": 3716598842,
+      "orbit_count": 386,
+      "orbit_size_counts": {
+        "12": 5,
+        "24": 2,
+        "48": 379
+      },
+      "residual_group_size": 48,
+      "root_task_count": 18300,
+      "triple_filtered_candidates": 172368
+    }
+  },
+  "checks": {
+    "case_ids_exact": true,
+    "cpp_matches_frozen_counts": true,
+    "implementations_match_exactly": true,
+    "involution_bucket_sum": true,
+    "noninvolution_bucket_sum": true,
+    "orbit_cover_involution": true,
+    "orbit_cover_noninvolution": true,
+    "python_matches_frozen_counts": true
+  },
+  "evidence_boundary": "Exact candidate, bucket, residual-group, orbit, and dense-size inventory only; no compatibility graph or FFF exclusion is claimed.",
+  "files": {
+    "cpp_output": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/results/master_inventory_cpp.txt",
+      "sha256": "8f82aab5b7fef8d25cc0bf3c3c88aed09d01c20a28fe554ae7ca7e845ec6bee7"
+    },
+    "cpp_source": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/scripts/enumerate_master_inventory.cpp",
+      "sha256": "930cde6b99a8d5bd120ed164b38995c2ad9029def453951b3e0de514e119f761"
+    },
+    "python_output": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/results/master_inventory_python.json",
+      "sha256": "91afaf96d87ad26710ba21f2c7d1347d1867c75f8f72e2616df782e4056009e0"
+    },
+    "python_source": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/scripts/audit_master_inventory.py",
+      "sha256": "139843f642e1493b753bdc7034dba2297e7089a321180910097e4d41bf9298d7"
+    }
+  },
+  "schema_version": "six-type-master-inventory-binding-v1"
+}

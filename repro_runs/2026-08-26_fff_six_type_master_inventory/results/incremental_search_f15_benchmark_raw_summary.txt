@@ -1,0 +1,11 @@
+Cross-view-pruned partite FFF search
+
+label/mode: incremental_search_f15_benchmark/slice
+full initial tasks: 14952
+total tasks: 1872
+slice: [0,25)
+completed tasks: 25
+search nodes: 146648523
+cross-view odd-cycle prunes: 103348583
+FFF found: false
+slice complete: true

@@ -1,0 +1,47 @@
+{
+  "content_checks": {
+    "latin_mc8_count_matches": true,
+    "latin_mc8_expected_lines": 283657,
+    "latin_mc8_nonempty_lines": 283657,
+    "transitive8_header": "8 8 11 ## The LS8 with transitive autotopism group. First 5 are groups, last 2 are sharply transitive",
+    "transitive8_header_declares_11": true
+  },
+  "environment": {
+    "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6"
+  },
+  "file_audits": {
+    "latin_mc8": {
+      "downloaded_sha256": "e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87",
+      "downloaded_size_bytes": 5140393,
+      "exact_byte_match": true,
+      "local_path": "repro_runs/2026-04-26_order8_core/data/latin_mc8.txt.gz",
+      "local_sha256": "e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87",
+      "local_size_bytes": 5140393,
+      "url": "https://users.cecs.anu.edu.au/~bdm/data/latin_mc8.txt.gz"
+    },
+    "transitive8": {
+      "downloaded_sha256": "1c777328c099e3c242a49f9f2019d83314d7ab800505c7d9291bdb16ef029146",
+      "downloaded_size_bytes": 905,
+      "exact_byte_match": true,
+      "local_path": "repro_runs/2026-04-26_order8_core/data/transitive8.txt",
+      "local_sha256": "1c777328c099e3c242a49f9f2019d83314d7ab800505c7d9291bdb16ef029146",
+      "local_size_bytes": 905,
+      "url": "https://users.monash.edu.au/~iwanless/data/autotopisms/transitive/transitive8"
+    }
+  },
+  "overall_ok": true,
+  "reduced6_audit": {
+    "downloaded_sha256": "0b40fc665f601211c203e9d27da57a7d845d9c3f373368af36adc567a2c7ea13",
+    "downloaded_size_bytes": 395136,
+    "extra_in_generated": 0,
+    "generated_unique_count": 9408,
+    "generator_path": "repro_runs/2026-04-26_small_order_witness_reruns/scripts/latin_trade_search.py",
+    "generator_sha256": "242e06957ceb8f949fc7379a6542b8dde06ced0657e5aaf09d159cf559ace1e7",
+    "missing_from_generated": 0,
+    "official_unique_count": 9408,
+    "set_exact_match": true,
+    "url": "https://users.cecs.anu.edu.au/~bdm/data/reduced6.txt"
+  },
+  "schema_version": 1
+}

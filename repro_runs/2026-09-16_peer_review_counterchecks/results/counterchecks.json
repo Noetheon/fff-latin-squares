@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "independent_local_checks": {
+    "ranks": [
+      {
+        "n": 2,
+        "flags": 4,
+        "rank_K": 1,
+        "rank_C": 0,
+        "rank_B": 4,
+        "projected_Schur_rank": 0,
+        "rank_formula_rhs": 4
+      },
+      {
+        "n": 3,
+        "flags": 18,
+        "rank_K": 7,
+        "rank_C": 0,
+        "rank_B": 7,
+        "projected_Schur_rank": 6,
+        "rank_formula_rhs": 7
+      },
+      {
+        "n": 4,
+        "flags": 48,
+        "rank_K": 14,
+        "rank_C": 4,
+        "rank_B": 16,
+        "projected_Schur_rank": 13,
+        "rank_formula_rhs": 14
+      },
+      {
+        "n": 4,
+        "flags": 48,
+        "rank_K": 12,
+        "rank_C": 2,
+        "rank_B": 16,
+        "projected_Schur_rank": 11,
+        "rank_formula_rhs": 12
+      }
+    ],
+    "tensor_C3_fiber": {
+      "(0, 2)": 1,
+      "(0, 1)": 1
+    },
+    "tensor_fibers_checked": 90,
+    "intercalate_masks": [
+      {
+        "tuple_RCS": "011",
+        "integer_code": 6,
+        "pushforward": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "marginals": [
+          [
+            2,
+            -2
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "tuple_RCS": "101",
+        "integer_code": 5,
+        "pushforward": [
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "marginals": [
+          [
+            0,
+            0
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "tuple_RCS": "110",
+        "integer_code": 3,
+        "pushforward": [
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "marginals": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            -2
+          ]
+        ]
+      }
+    ],
+    "zero_monomial_examples": [
+      {
+        "flags": 32,
+        "mask_RCS": "111",
+        "pushforward": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "charge_nonzero": true,
+        "evaluated_value_gauge_invariant": true
+      }
+    ]
+  },
+  "external_audit_reruns_verified": false,
+  "master_task_selection": [
+    {
+      "kind": "involution",
+      "graph_sha256": "b878a2feddc48629401864c675af6ec6f792290b75df343edd95411fd2326047",
+      "graph_bytes": 4518201626,
+      "vertices": 190080,
+      "q1": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "bucket_sizes": [
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760
+      ],
+      "initial_bucket": 0,
+      "root_tasks": 23760,
+      "selected_orbits": 506,
+      "all_task_ordinals_equal_vertex_ids": true,
+      "historical_predicate_accepts_actual_file": true,
+      "task_file_sha256": "7ff85d11365ea1018bf098c41a42134f420887067b9c769736389bec10a4b191",
+      "scope": "Task selection only; no edge enumeration or DFS rerun."
+    },
+    {
+      "kind": "noninvolution",
+      "graph_sha256": "3e023c53194d6a60b24ad2f37e746b05b9d7e55c53dec8fcfe3cd8fb6cd09376",
+      "graph_bytes": 3716598842,
+      "vertices": 172368,
+      "q1": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "bucket_sizes": [
+        18300,
+        18300,
+        22628,
+        22628,
+        22628,
+        22628,
+        22628,
+        22628
+      ],
+      "initial_bucket": 0,
+      "root_tasks": 18300,
+      "selected_orbits": 386,
+      "all_task_ordinals_equal_vertex_ids": true,
+      "historical_predicate_accepts_actual_file": true,
+      "task_file_sha256": "0e0bd22e253faddbf874d7315744c3039f5df9bf044d79848d8320a7012a7304",
+      "scope": "Task selection only; no edge enumeration or DFS rerun."
+    }
+  ]
+}

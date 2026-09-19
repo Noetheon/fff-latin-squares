@@ -1,0 +1,21 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "completed_tasks": true,
+    "crossview_odd_cycle_prunes": true,
+    "fff_found": true,
+    "negative_search_complete": true,
+    "search_nodes": true
+  },
+  "label": "p35_worker_equivalence",
+  "left_sha256": "b8fdcef291cf6e62af807d63c9f61c894c651b0c9b8250002cadcedd0004c5f9",
+  "right_sha256": "b407cf827d0da5547345f066d8a81a7e14bc32547e974b8617b63ed7dc374bae",
+  "schema_version": "four-type-search-merge-equivalence-v1",
+  "values": {
+    "completed_tasks": 3656,
+    "crossview_odd_cycle_prunes": 8399725,
+    "fff_found": false,
+    "negative_search_complete": true,
+    "search_nodes": 22449129
+  }
+}

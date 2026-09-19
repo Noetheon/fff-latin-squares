@@ -1,0 +1,4 @@
+Five-type source generalization audit
+
+checks passed: 10/10
+all checks passed: true

@@ -1,0 +1,14 @@
+Pair-block projection-voltage result
+
+Projection injectivity: rigorously proved
+p=3: UNSAT, DRAT VERIFIED
+p=5 formula: 40980 variables, 167986 clauses
+p=5 CaDiCaL: UNSAT in 17.572059s
+p=5 Kissat: UNSAT in 20.321817s
+p=5 DRAT: VERIFIED
+Compact p=5 projection classification: 2320 variables, 33841 clauses; CaDiCaL UNSAT in 0.737269s; DRAT VERIFIED
+Three-class strengthening: 2320 variables, 23841 clauses; 19440 selected triples; CaDiCaL UNSAT in 0.535726s; DRAT VERIFIED
+Consequence: every normalized row-F, col-F, or sym-F family of degree 10 preserves no nontrivial block system
+Scope: one-view primitivity only; n=10 FFF remains open
+C38: open
+C40: absent

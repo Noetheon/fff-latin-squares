@@ -1,0 +1,41 @@
+Joint atom/cell incidence rank audit
+
+table count: 9777
+component count: 104645
+flag count: 1918172
+integer witness count: 1113
+exceptional component count: 1093
+error count: 0
+
+order4_complete
+- tables/components/flags: 4 / 27 / 192
+- s_Q distribution: {'1': 27}
+- (q,s_Q) distribution: {'1,1': 27}
+- integer witnesses / exceptional components: 0 / 0
+- errors: 0
+
+order6_complete
+- tables/components/flags: 9408 / 89068 / 1693440
+- s_Q distribution: {'1': 87988, '2': 1080}
+- (q,s_Q) distribution: {'1,1': 85828, '1,2': 1080, '3,1': 2160}
+- integer witnesses / exceptional components: 1080 / 1080
+- errors: 0
+
+order8_fff_complete
+- tables/components/flags: 230 / 9768 / 103040
+- s_Q distribution: {'1': 9755, '13': 1, '2': 5, '3': 5, '4': 2}
+- (q,s_Q) distribution: {'1,1': 9754, '1,13': 1, '1,2': 5, '1,3': 5, '1,4': 2, '2,1': 1}
+- integer witnesses / exceptional components: 33 / 13
+- errors: 0
+
+order10_tracked_partial
+- tables/components/flags: 135 / 5782 / 121500
+- s_Q distribution: {'1': 5782}
+- (q,s_Q) distribution: {'1,1': 5782}
+- integer witnesses / exceptional components: 0 / 0
+- errors: 0
+
+Boundary:
+- The joint-rank formula is rigorous; finite distributions are exactly certified corpus facts.
+- This does not decide order 10.
+- C38 remains open and C40 absent.

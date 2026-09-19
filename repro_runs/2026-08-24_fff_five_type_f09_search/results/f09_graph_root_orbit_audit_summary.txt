@@ -1,0 +1,8 @@
+Five-type f09 graph root-orbit audit
+
+graph SHA-256: 8ebf555e63f51e0fad9d24f71fc12e47ac057ff55ed22b640f4d7c954f0d878e
+group size: 48
+full tasks/orbits: 18840/398
+orbit sizes: {12: 6, 24: 2, 48: 390}
+covered tasks: 18840
+valid: true

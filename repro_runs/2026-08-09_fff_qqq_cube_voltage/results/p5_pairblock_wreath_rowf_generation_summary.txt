@@ -1,0 +1,13 @@
+Pair-block wreath row-F CNF
+
+p: 5
+n: 10
+full_wreath_order: 3840
+candidates_including_identity: 1546
+variables: 1546
+clauses: 2092721
+compatible_pairs: 424905
+incompatible_pairs: 769380
+cnf_sha256: 0c536c7ff17a280ddb420868261efacf5354f1f16d2d12d7912c55baae8c2ad3
+elapsed_seconds: 2.713251
+scope: common pair-block imprimitive row-F model; not a global FFF model.

@@ -1,0 +1,24 @@
+QQQ cube and pair-block voltage summary
+
+Rigorous/exact Row1 cover:
+- Complete QQQ top-level Row1 cases: 15.
+- Complete QQQ L(3,1) cubes: 105.
+- Complete FFF-exclusion cover: 12 even-cycle parents / 84 cubes.
+- The older 12-parent cover was complete for FFF, not for QQQ.
+
+Pair-block wreath model:
+- p=3 graph: 21 candidates, 72 edges, clique number 3.
+- p=3 sharp and clique CNFs: UNSAT; both DRAT traces independently VERIFIED.
+- p=5: 1546 candidates including identity, 769380 incompatible pairs.
+- p=5 CaDiCaL status: timeout at 300s.
+
+n=10 QQQ pilots:
+- New 5+3+2 parent case13: timeout at 60s.
+- case13 with L(3,1)=0: timeout at 120s.
+- No decoded n=10 table; no FFF validation; no n=10 case excluded.
+
+Claim status:
+- C38 remains open.
+- C40 remains absent.
+- C49 records the rigorous complete QQQ/FFF cube covers.
+- C50 records only the certified degree-6 common-pair-block obstruction.

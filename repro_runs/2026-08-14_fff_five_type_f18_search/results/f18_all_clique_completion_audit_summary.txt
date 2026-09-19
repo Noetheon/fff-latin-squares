@@ -1,0 +1,9 @@
+Independent f18 all-clique completion audit
+
+parsed/unique 8-cliques: 1920/1920
+Latin tables: 1920
+exact f18 row palettes: 0
+row palette counts: {'6+4|4+4+2|2+2+2+2+2': 1920}
+pattern counts: {'FFT': 960, 'FTF': 960}
+FFF completions: 0
+all checks passed: true

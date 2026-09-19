@@ -1,0 +1,11 @@
+Filtered variable-palette candidate graph
+
+label: involution_master_all_7_types
+palette: 10 2+2+2+2+2 4+2+2+2 4+4+2 6+2+2 6+4 8+2
+root: 2+2+2+2+2
+cross-view filter level: 2
+workers: 8
+unfiltered candidates: 190080
+stored vertices: 190080
+bucket counts: 23760 23760 23760 23760 23760 23760 23760 23760
+edges: 2050329600

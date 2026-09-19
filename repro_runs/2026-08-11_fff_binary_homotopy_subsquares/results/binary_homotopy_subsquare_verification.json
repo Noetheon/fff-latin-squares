@@ -1,0 +1,46 @@
+{
+  "boundary": "Semantic verification of exact outputs; theorem proof is in the proof note.",
+  "checks": 48901,
+  "datasets": {
+    "order10_tracked_partial": {
+      "delta_subsquare_pairs": {
+        "0,0": 135
+      },
+      "table_count": 135
+    },
+    "order2_reduced_complete": {
+      "delta_subsquare_pairs": {
+        "1,4": 1
+      },
+      "table_count": 1
+    },
+    "order4_reduced_complete": {
+      "delta_subsquare_pairs": {
+        "1,4": 3,
+        "2,12": 1
+      },
+      "table_count": 4
+    },
+    "order6_reduced_complete": {
+      "delta_subsquare_pairs": {
+        "0,0": 8928,
+        "1,4": 480
+      },
+      "table_count": 9408
+    },
+    "order8_fff_complete": {
+      "delta_subsquare_pairs": {
+        "0,0": 63,
+        "1,4": 156,
+        "2,12": 10,
+        "3,28": 1
+      },
+      "table_count": 230
+    }
+  },
+  "error_count": 0,
+  "errors": [],
+  "overall_ok": true,
+  "prior_C44_order8_distribution_match": true,
+  "verification_version": "binary_homotopy_subsquares_semantic_v1"
+}

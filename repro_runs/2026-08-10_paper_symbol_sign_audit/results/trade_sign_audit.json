@@ -1,0 +1,124 @@
+{
+  "evidence_label": "exact exhaustive computation",
+  "source_generator": "repro_runs/2026-04-26_small_order_witness_reruns/scripts/latin_trade_search.py",
+  "orders": {
+    "2": {
+      "reduced_squares": 1,
+      "col_trades": 1,
+      "even_support": 3,
+      "row_trades": 1,
+      "sym_trades": 1,
+      "trades": 3
+    },
+    "4": {
+      "reduced_squares": 4,
+      "col_trades": 48,
+      "even_support": 144,
+      "row_trades": 48,
+      "sym_trades": 48,
+      "trades": 144
+    },
+    "6": {
+      "reduced_squares": 9408,
+      "col_trades": 342720,
+      "even_support": 889920,
+      "odd_support": 138240,
+      "row_trades": 342720,
+      "sym_trades": 342720,
+      "trades": 1028160
+    }
+  },
+  "total_trades_checked": 1028307,
+  "failure_count": 0,
+  "failures": [],
+  "old_unqualified_symbol_sign_claim_counterexample": {
+    "n": 6,
+    "table_index": 0,
+    "table": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        3,
+        5,
+        0,
+        2,
+        4
+      ],
+      [
+        2,
+        5,
+        1,
+        4,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        4,
+        5,
+        1,
+        2
+      ],
+      [
+        4,
+        2,
+        3,
+        1,
+        5,
+        0
+      ],
+      [
+        5,
+        4,
+        0,
+        2,
+        3,
+        1
+      ]
+    ],
+    "symbol_pair": [
+      0,
+      3
+    ],
+    "support_columns": [
+      0,
+      1,
+      3
+    ],
+    "line_signs_before_R_C_S": [
+      -1,
+      1,
+      1
+    ],
+    "line_signs_after_R_C_S": [
+      1,
+      -1,
+      1
+    ],
+    "line_sign_ratios_R_C_S": [
+      -1,
+      -1,
+      1
+    ],
+    "pair_sign_ratios_RC_RS_CS": [
+      1,
+      -1,
+      -1
+    ],
+    "usual_epsilon_RC_ratio": 1
+  },
+  "all_checks_pass": true,
+  "claim_boundary": {
+    "usual_epsilon_RC": "odd row/column trades reverse; odd symbol trades preserve",
+    "parastrophic_products": "every odd trade reverses the two products containing its view label",
+    "fff_results_affected": false
+  }
+}

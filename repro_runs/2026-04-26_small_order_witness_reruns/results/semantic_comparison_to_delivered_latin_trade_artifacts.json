@@ -1,0 +1,20 @@
+{
+  "claims": {
+    "C06_n2_fff": true,
+    "C06_n4_all_4_reduced_fff": true,
+    "C06_n6_all_9408_have_positive_view": true,
+    "C07_n6_first_factor_negative_count": true
+  },
+  "delivered": {
+    "latin_trade_results.json": "dc3a9ce6bd8b5ba5c8bce6713c85922478803a6b7d7b9681a609861344eb1fde",
+    "latin_trade_summary.txt": "1b8d5b1efcf0fd6f6c87a8edef8eebcea86a7f4745e8a5e4dddc785079d60915"
+  },
+  "fresh": {
+    "latin_trade_results.json": "dc3a9ce6bd8b5ba5c8bce6713c85922478803a6b7d7b9681a609861344eb1fde",
+    "latin_trade_summary.txt": "1b8d5b1efcf0fd6f6c87a8edef8eebcea86a7f4745e8a5e4dddc785079d60915",
+    "small_order_claims.json": "265f2c396169108672aca2de31f40c5c24161654b956504c380ee844be3c1751"
+  },
+  "overall_json_object_match": true,
+  "overall_summary_exact_match": true,
+  "semantic_failure_count": 0
+}

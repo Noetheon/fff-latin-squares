@@ -1,0 +1,43 @@
+\section{Discussion and open problems}
+
+Kobayashi and Nakamura studied the stricter condition that every pair of
+factors in a $1$-factorization of $K_{n,n}$ forms only $4$-cycles; such a
+factorization exists precisely in power-of-two orders~\cite{KobayashiNakamura1994}.
+Our F condition permits arbitrary even induced cycle lengths, but requires the
+condition simultaneously in all three coordinate views.  The neighbouring
+classification, the odd-order obstruction, the order-$6$ computation, and the
+power-of-two constructions motivate the following conjecture.
+
+\begin{conjecture}[Power-of-two FFF conjecture]\label{conj:power-two}
+For $n>1$, an FFF Latin square of order $n$ exists if and only if $n$ is a
+power of two.
+\end{conjecture}
+
+The positive direction follows from Corollary~\ref{cor:group-fff}.  The
+negative direction is proved for odd $n$ by Proposition~\ref{prop:odd-order}
+and computed for $n=6$ by Computational Theorem~\ref{cthm:small-orders}.
+The accompanying complete report excludes order $10$ by exhaustive
+cycle-palette master searches.  The first undecided even non-power-of-two
+order is therefore $12$.
+
+Corollary~\ref{cor:2p-simple} provides a structural reduction at order $10$:
+every order-$10$ FFF candidate would have to be congruence-simple
+in every isotope.  Hence no central extension, binary extension, or other
+congruence-imprimitive construction can settle the positive direction.  This
+compact-paper theorem alone does not exclude simple quasigroups; the companion
+report's exhaustive computation does.
+
+Three concrete questions remain:
+\begin{enumerate}
+\item Decide the conjecture at order $12$ or prove a uniform obstruction for
+even non-powers of two.
+\item Find an order-independent obstruction coupling all three link
+factorizations more strongly than their common intercalate count.
+\item Determine when direct products preserve distinctions between isotopy or
+main classes.  No such injectivity is asserted here.
+\end{enumerate}
+
+These questions concern one local odd-cycle obstruction.  They must not be
+conflated with the global Alon--Tarsi conjecture, whose resolution would
+require substantially more than existence or absence of this trade
+primitive~\cite{AlonTarsi1992}.

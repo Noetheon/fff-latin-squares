@@ -1,0 +1,186 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_eight_patterns_present": true,
+    "all_pattern_channel_controls_match": true,
+    "fff_positive_channel_control": true,
+    "graph_hash_frozen": true,
+    "raw_complete_negative": true,
+    "raw_counts_frozen": true,
+    "raw_interval_full": true,
+    "raw_matches_historical_search": true,
+    "reference_complete_negative": true
+  },
+  "evidence_boundary": "Search-implementation equivalence and channel-semantics control only; no six-/seven-type graph or search result.",
+  "f18_counts": {
+    "completed_tasks": 2520,
+    "crossview_odd_cycle_prunes": 796328,
+    "fff_found": false,
+    "search_nodes": 2658008
+  },
+  "files": {
+    "binary": {
+      "path": "/private/tmp/order8_six_type_master_inventory/search_incremental_scratch",
+      "sha256": "10f4a031ad28ca23e2462ed23e238868c868c4490ce822d409f09f01abb3776a"
+    },
+    "graph": {
+      "path": "/private/tmp/order8_six_type_master_inventory/f18_dynamic_control.bin",
+      "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510"
+    },
+    "pattern_reference": {
+      "path": "repro_runs/2026-04-26_direct_product_fff/results/direct_product_validation_results.json",
+      "sha256": "6ed73d01d072cd1e9be44ee78645ea98e562ab0986684b793ac6619c8b154f03"
+    },
+    "raw_result": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/results/incremental_scratch_f18_control_raw.json",
+      "sha256": "a44b6ae04601ad8b88e2c8db0555a07c52a916b9531890a666397001fe1dfd86"
+    },
+    "reference_merge": {
+      "path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_full_root_bucket_merge.json",
+      "sha256": "6cd6e0b9131a2e893cbbcea7dd4c0ce5e123e34b63bedb8feb83dfce9afaf6f6"
+    },
+    "source": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/scripts/search_partite_fff_incremental_scratch.cpp",
+      "sha256": "6a88a79fef8065169add1f0e9d7ec712a9446bd2dd4033e3d9223262f62f847b"
+    }
+  },
+  "pattern_controls": [
+    {
+      "direct_col_sym_f": [
+        true,
+        true
+      ],
+      "expected_col_sym_f": [
+        true,
+        true
+      ],
+      "incremental_col_sym_f": [
+        true,
+        true
+      ],
+      "match": true,
+      "pattern": "FFF",
+      "source_index": 1
+    },
+    {
+      "direct_col_sym_f": [
+        true,
+        false
+      ],
+      "expected_col_sym_f": [
+        true,
+        false
+      ],
+      "incremental_col_sym_f": [
+        true,
+        false
+      ],
+      "match": true,
+      "pattern": "FFT",
+      "source_index": 25
+    },
+    {
+      "direct_col_sym_f": [
+        false,
+        true
+      ],
+      "expected_col_sym_f": [
+        false,
+        true
+      ],
+      "incremental_col_sym_f": [
+        false,
+        true
+      ],
+      "match": true,
+      "pattern": "FTF",
+      "source_index": 31
+    },
+    {
+      "direct_col_sym_f": [
+        false,
+        false
+      ],
+      "expected_col_sym_f": [
+        false,
+        false
+      ],
+      "incremental_col_sym_f": [
+        false,
+        false
+      ],
+      "match": true,
+      "pattern": "FTT",
+      "source_index": 34
+    },
+    {
+      "direct_col_sym_f": [
+        true,
+        true
+      ],
+      "expected_col_sym_f": [
+        true,
+        true
+      ],
+      "incremental_col_sym_f": [
+        true,
+        true
+      ],
+      "match": true,
+      "pattern": "TFF",
+      "source_index": 39
+    },
+    {
+      "direct_col_sym_f": [
+        true,
+        false
+      ],
+      "expected_col_sym_f": [
+        true,
+        false
+      ],
+      "incremental_col_sym_f": [
+        true,
+        false
+      ],
+      "match": true,
+      "pattern": "TFT",
+      "source_index": 101
+    },
+    {
+      "direct_col_sym_f": [
+        false,
+        true
+      ],
+      "expected_col_sym_f": [
+        false,
+        true
+      ],
+      "incremental_col_sym_f": [
+        false,
+        true
+      ],
+      "match": true,
+      "pattern": "TTF",
+      "source_index": 86
+    },
+    {
+      "direct_col_sym_f": [
+        false,
+        false
+      ],
+      "expected_col_sym_f": [
+        false,
+        false
+      ],
+      "incremental_col_sym_f": [
+        false,
+        false
+      ],
+      "match": true,
+      "pattern": "TTT",
+      "source_index": 24
+    }
+  ],
+  "schema_version": "incremental-partial-channel-search-control-v1"
+}

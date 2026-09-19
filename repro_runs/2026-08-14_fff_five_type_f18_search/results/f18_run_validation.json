@@ -1,0 +1,45 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_clique_enumeration_audited": true,
+    "external_graph_hash_frozen": true,
+    "full_root_bucket_complete_negative": true,
+    "full_root_plan_bound": true,
+    "graph_audit_binding": true,
+    "independent_cliquer_witness": true,
+    "orbit_cover_exact": true,
+    "orbit_dimension_binding": true,
+    "reduced_decompositions_equivalent": true,
+    "reduced_monolithic_complete_negative": true,
+    "reduced_plans_bound": true,
+    "reduced_sliced_complete_negative": true,
+    "search_implementations_bound": true,
+    "semantic_error_counts_zero": true,
+    "semantic_graph_audit": true,
+    "source_generalization_audit": true,
+    "structural_graph_audit": true,
+    "task_file_bound": true
+  },
+  "result": {
+    "all_graph_cliques": 1920,
+    "case_id": "f18",
+    "clique_size_8_found": true,
+    "edges": 11689920,
+    "exact_f18_row_palettes": 0,
+    "fff_found": false,
+    "full_root_nodes": 2658008,
+    "full_tasks": 2520,
+    "graph_sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+    "orbits": 58,
+    "palette": [
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+4",
+      "8+2"
+    ],
+    "reduced_nodes": 67063,
+    "vertices": 20160
+  },
+  "schema_version": "five-type-f18-run-validation-v1"
+}

@@ -1,0 +1,805 @@
+{
+  "audit_version": "paper_semantic_release_gate_v3",
+  "checks": {
+    "all_eight_patterns_present": true,
+    "all_eight_real_controls_pass": true,
+    "claim_register_order10_status_is_current": true,
+    "closedness_map_is_not_injective": true,
+    "forbidden_overstatement_absent": true,
+    "four_multifailure_patterns_collapse_to_000": true,
+    "no_public_internal_claim_ids": true,
+    "order10_status_is_globally_consistent": true,
+    "ordinary_claims_have_following_proofs": true,
+    "public_tex_has_no_absolute_user_paths": true,
+    "required_corrective_language_present": true,
+    "risk_inventory_separates_all_tiers": true
+  },
+  "control_errors": [],
+  "coordinate_closedness_collision_groups": {
+    "000": [
+      "FTT",
+      "TFT",
+      "TTF",
+      "TTT"
+    ],
+    "001": [
+      "FFT"
+    ],
+    "010": [
+      "FTF"
+    ],
+    "100": [
+      "TFF"
+    ],
+    "111": [
+      "FFF"
+    ]
+  },
+  "evidence_boundary": "This is an adversarial semantic and real-control release gate. It does not replace the written general proof or independent expert review.",
+  "inputs": {
+    "claims_register": "Ordnung_8_Projekt_Export/research_consolidation/registers/claims_register.md",
+    "claims_register_sha256": "3f78dff78d667d860c3ad67b516dbf559ae27e28cb642b348fe7cd8370cb94f8",
+    "direct_product_examples": "repro_runs/2026-04-26_direct_product_fff/results/direct_product_validation_results.json",
+    "direct_product_examples_sha256": "6ed73d01d072cd1e9be44ee78645ea98e562ab0986684b793ac6619c8b154f03",
+    "holonomy_script": "repro_runs/2026-08-11_fff_color_parity_holonomy/scripts/audit_color_parity_holonomy.py",
+    "holonomy_script_sha256": "a26215f83c679dcf450bbee2ae56444c51fc7b75dfd10638d9073fdb863476be"
+  },
+  "manuscript_checks": {
+    "absolute_user_path_hits": [],
+    "forbidden_phrase_hits": [],
+    "public_internal_claim_id_hits": [],
+    "required_phrase_presence": {
+      "ANU record $j-1$": true,
+      "Cell-local cycle-incidence signature": true,
+      "Equivariant gauge-selection rule": true,
+      "Exact masks and compatible potentials": true,
+      "Global three-view sign identity": true,
+      "There is no FFF Latin square of order $10$.": true,
+      "author-hosted article copy": true,
+      "colour-stratified coboundary detects the full view pattern": true,
+      "first undecided even non-power-of-two order is $12$": true,
+      "local source line": true,
+      "pairwise conjunctions of the F-view bits": true,
+      "separate erratum listing": true
+    },
+    "stale_claim_register_order10_hits": [],
+    "stale_order10_status_hits": []
+  },
+  "ordinary_environment_proof_audit": {
+    "environment_count": 56,
+    "missing_proof_count": 0,
+    "missing_proofs": []
+  },
+  "overall_pass": true,
+  "risky_equivalence_statement_inventory": {
+    "counts_by_tier": {
+      "computational_theorem_statement": 6,
+      "immediate_consequence": 2,
+      "interpretation_or_exposition": 59,
+      "open_conjecture": 2,
+      "theorem_statement": 20
+    },
+    "entries": [
+      {
+        "line": 20,
+        "path": "manuscript/sections/01_introduction.tex",
+        "text": "odd-cycle move in any view; equivalently, it avoids this trade primitive for",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 61,
+        "path": "manuscript/sections/01_introduction.tex",
+        "text": "pair.  It is equivalent to the even-cycle condition at degree $6$ and leaves",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 67,
+        "path": "manuscript/sections/01_introduction.tex",
+        "text": "permutation has only even cycles exactly when it preserves no odd-cardinality",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 69,
+        "path": "manuscript/sections/01_introduction.tex",
+        "text": "therefore gives a zero-one matrix for every relevant odd $k$ exactly when the",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 116,
+        "path": "manuscript/sections/01_introduction.tex",
+        "text": "that the product construction is injective on isotopy classes or main classes.",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 17,
+        "path": "manuscript/sections/01_introduction_core.tex",
+        "text": "square is FFF when all three answers are negative.  Equivalently, every union",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 22,
+        "path": "manuscript/sections/01_introduction_core.tex",
+        "text": "whereas the Cayley table of a finite group is FFF exactly when the group is a",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 51,
+        "path": "manuscript/sections/01_introduction_core.tex",
+        "text": "and a product is group-isotopic exactly when both factors are.  These theorems",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 65,
+        "path": "manuscript/sections/01_introduction_core.tex",
+        "text": "do not claim that the product construction is injective on isotopy or main",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 9,
+        "path": "manuscript/sections/02_definitions.tex",
+        "text": "s_u(c)=\\text{the unique }a\\text{ such that }L(a,c)=u.",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 115,
+        "path": "manuscript/sections/02_definitions.tex",
+        "text": "associated link factors.  Hence $L$ is FFF if and only if every two-factor",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 161,
+        "path": "manuscript/sections/02_definitions.tex",
+        "text": "which is equivalent to the claimed identity.",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 216,
+        "path": "manuscript/sections/02_definitions.tex",
+        "text": "Thus $P_{ij}$ is odd exactly when the endpoint signs differ.  These pairs",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 51,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "Latinness gives $c\\ne d$ and $s\\ne u$, and the coloured incidences recover",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 69,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "two flags exactly when they share one row, column, or symbol, proving the",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 249,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "one, or two.  Equivalently, $W^{RC}$ is the sum over symbols of the",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 304,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "the row permutation $c\\mapsto L(r,c)$.  Cyclic contractions recover the",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 306,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "faithful for $n\\geq3$, the fixed-coordinate map $L\\mapsto T(L)$ is injective.",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 310,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "Fix a row pair and a column pair.  A flag exists exactly when a diagonal of",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 325,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "exactly when $2\\ell$ is divisible by four; the omitted intercalate cycles",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 329,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "$\\{L(r,c),L(r,d)\\}$ is the unique symbol-pair label of contracted",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 359,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "Consequently a Latin square is FFF if and only if this expression is zero for",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 366,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "Equivalently, define $N_e(f,g)=1$ when $T_e(f,g)>0$ and zero otherwise.  A",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 367,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "Latin square is FFF if and only if every $N_e$ in all three directions is",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 368,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "totally unimodular; equivalently, every such matrix is balanced.  We use the",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 410,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "values on the Latin incidence positions recover the cellwise intercalate",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 439,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "exactly when the face contains $x$.  The four flags of an intercalate have",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 457,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "Then $\\omega$ is a cocycle if and only if $L$ is FFF.",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 459,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "More precisely, the coordinate cochain $\\omega_R$ is closed exactly when the",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 503,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "colours, so each coordinate evaluates nontrivially on the unique nonzero",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 522,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "on the flags of $F$ with $\\delta p_m=\\omega_m$, equivalently",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 599,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "each cell $x$ is omitted by a unique flag $f_x$.  A potential for a nonzero",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 782,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "$\\prod_m u_m^{e_m}$ is gauge invariant exactly when",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 1221,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "Equivalently, the signed sum of each cochain vanishes around every cycle of",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 1283,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "$(U\\cap W)/(U\\cap T)\\hookrightarrow W/T$ is injective.  Taking dimensions",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1373,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "The Gram spectrum in Theorem~\\ref{thm:flag-surface} makes $B$ injective for",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1457,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "kernel coordinates determine the rank, saturation, containment, and quotient",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1489,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "The unique nonzero class evaluates on $\\mathcal T_L$ independently of its",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1491,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "vectors.  It is the unique binary character of",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1636,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "unique $g$ at which the contraction has value at least two.  The dominant",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1650,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "is the pair-label tensor of a Latin square if and only if the following hold:",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 1670,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "has unique dominant endpoints $a(x),b(x),c(x)$ in its three edge labels.",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1681,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "injective, since $(a,b,g)$ recovers $f$ and $e$ through the two bijective",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1724,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "the unique order-$2$ Latin square.",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 1729,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "$n=3$ or $n\\geq5$, then $M$ is the two-subset action of a unique point",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 1730,
+        "path": "manuscript/sections/02_flag_surface.tex",
+        "text": "bijection $U\\to W$ if and only if it preserves edge intersection.  If $n=4$,",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 37,
+        "path": "manuscript/sections/03_structural_results.tex",
+        "text": "The Cayley table of a finite group $G$ is FFF if and only if $G$ is a",
+        "tier": "immediate_consequence"
+      },
+      {
+        "line": 57,
+        "path": "manuscript/sections/03_structural_results.tex",
+        "text": "A Latin square $L$ is isotopic to a group table if and only if $H_L(b)$ is",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 70,
+        "path": "manuscript/sections/03_structural_results.tex",
+        "text": "action to identify every column $z$ with the unique $h_z\\in H$ satisfying",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 72,
+        "path": "manuscript/sections/03_structural_results.tex",
+        "text": "way.  The entry in row $h_x$ and column $h_z$ is represented by the unique",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 82,
+        "path": "manuscript/sections/03_structural_results.tex",
+        "text": "The same criterion can equivalently be written in the column or symbol view,",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 18,
+        "path": "manuscript/sections/04_congruence_obstructions.tex",
+        "text": "unique column of $C_0$.  Its restriction is precisely the induced row",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 23,
+        "path": "manuscript/sections/04_congruence_obstructions.tex",
+        "text": "row, the unique occurrence of $v$ lies in a column $d\\in C_0$.  Hence",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 62,
+        "path": "manuscript/sections/04_congruence_obstructions.tex",
+        "text": "Equivalently, the nonzero classes in",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 225,
+        "path": "manuscript/sections/04_congruence_obstructions.tex",
+        "text": "The unique form of a binary Latin square gives a function",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 38,
+        "path": "manuscript/sections/04_cycle_parity.tex",
+        "text": "The Q condition rejects exactly $3+3$, so QQQ is equivalent to FFF at order",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 44,
+        "path": "manuscript/sections/04_cycle_parity.tex",
+        "text": "Equivalently, Q-admissibility in degree $10$ excludes precisely",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 16,
+        "path": "manuscript/sections/04_direct_products.tex",
+        "text": "The pair returns after $t>0$ steps exactly when both $m\\mid t$ and $n\\mid t$.",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 57,
+        "path": "manuscript/sections/04_direct_products.tex",
+        "text": "$L\\times K$ is FFF if and only if both $L$ and $K$ are FFF.  In particular,",
+        "tier": "immediate_consequence"
+      },
+      {
+        "line": 69,
+        "path": "manuscript/sections/04_direct_products.tex",
+        "text": "$L\\times K$ is group-isotopic if and only if both $L$ and $K$ are",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 9,
+        "path": "manuscript/sections/04_odd_subset_lifts.tex",
+        "text": "A permutation of a finite set has only even cycles if and only if it preserves",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 43,
+        "path": "manuscript/sections/04_odd_subset_lifts.tex",
+        "text": "Consequently, a Latin square of even order is FFF if and only if this",
+        "tier": "theorem_statement"
+      },
+      {
+        "line": 59,
+        "path": "manuscript/sections/04_odd_subset_lifts.tex",
+        "text": "cycle if and only if it preserves an odd-cardinality subset.  Since two",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 62,
+        "path": "manuscript/sections/04_odd_subset_lifts.tex",
+        "text": "invariant if and only if its complement is invariant, and the two sets have",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 30,
+        "path": "manuscript/sections/04_primitive_degree10.tex",
+        "text": "The projection $g\\mapsto\\phi_g$ is injective on the normalized F-family.",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 8,
+        "path": "manuscript/sections/05_computational_core.tex",
+        "text": "The unique reduced Latin square of order $2$ is FFF, and all four reduced",
+        "tier": "computational_theorem_statement"
+      },
+      {
+        "line": 45,
+        "path": "manuscript/sections/05_computational_core.tex",
+        "text": "line $10776$ is the unique minimum class and is not group-isotopic, while line",
+        "tier": "computational_theorem_statement"
+      },
+      {
+        "line": 46,
+        "path": "manuscript/sections/05_computational_core.tex",
+        "text": "$1$ is the unique maximum class and is group-isotopic.  No representative",
+        "tier": "computational_theorem_statement"
+      },
+      {
+        "line": 8,
+        "path": "manuscript/sections/05_computational_results.tex",
+        "text": "The unique reduced Latin square of order $2$ is FFF, and all four reduced",
+        "tier": "computational_theorem_statement"
+      },
+      {
+        "line": 51,
+        "path": "manuscript/sections/05_computational_results.tex",
+        "text": "source line $10776$ (ANU record $10775$) is the unique minimum class and is not",
+        "tier": "computational_theorem_statement"
+      },
+      {
+        "line": 52,
+        "path": "manuscript/sections/05_computational_results.tex",
+        "text": "group-isotopic, while local source line $1$ (ANU record $0$) is the unique",
+        "tier": "computational_theorem_statement"
+      },
+      {
+        "line": 19,
+        "path": "manuscript/sections/06_reproducibility_core.tex",
+        "text": "and unique.  The generated order-$6$ set agrees exactly with the official ANU",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 12,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "Equivalently, view a Latin square as a triangle decomposition of",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 23,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "For $n>1$, an FFF Latin square of order $n$ exists if and only if $n$ is a",
+        "tier": "open_conjecture"
+      },
+      {
+        "line": 131,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "Theorem~\\ref{cthm:order10-palettes} forces the unique six-type palette",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 194,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "finite invariant is strong but does not determine algebraic closure.  Before",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 225,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "the resulting Schur matrix is positive semidefinite exactly when the common",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 247,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "$\\mathbb Z/2$ torsion factors of its integral slices, and FFF is equivalent",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 257,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "Latin-cell values recover intercalate degrees, while all one-dimensional",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 273,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "holonomy.  This is a genuine global restriction, but it is still equivalent",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 387,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "corpus identity $p_F=q_F$, the unique observed sheet-only component, and the",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 401,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "Latin tables, two diagonal-equality bits determine each fibre type and all",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 427,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "fixed-point-free permutation has only even cycles if and only if its points",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 477,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "\\item Determine whether the palette lower bound and two-root reduction have",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 479,
+        "path": "manuscript/sections/07_open_problems.tex",
+        "text": "\\item Determine whether the direct-product construction yields distinct",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 12,
+        "path": "manuscript/sections/07_open_problems_core.tex",
+        "text": "For $n>1$, an FFF Latin square of order $n$ exists if and only if $n$ is a",
+        "tier": "open_conjecture"
+      },
+      {
+        "line": 36,
+        "path": "manuscript/sections/07_open_problems_core.tex",
+        "text": "\\item Determine when direct products preserve distinctions between isotopy or",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 66,
+        "path": "manuscript/main.tex",
+        "text": "failure patterns and are group-isotopic exactly when both factors are,",
+        "tier": "interpretation_or_exposition"
+      },
+      {
+        "line": 89,
+        "path": "manuscript/main_core.tex",
+        "text": "componentwise, and show that $L\\times K$ is group-isotopic exactly when both",
+        "tier": "interpretation_or_exposition"
+      }
+    ]
+  },
+  "truth_table_controls": [
+    {
+      "atom_count": 336,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "FFF",
+      "compact_square_sha256": "dfb6ca900d2544766c235dd3dcc048eb152b2ef759e3fd63a3feffb24d3e2f59",
+      "coordinate_closed_actual": [
+        true,
+        true,
+        true
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        true,
+        true,
+        true
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "FFF",
+      "latin": true,
+      "pattern": "FFF",
+      "source_index": 1,
+      "source_line_number": 1,
+      "vector_closed": true
+    },
+    {
+      "atom_count": 178,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "FFT",
+      "compact_square_sha256": "d5cc9a302c9cc0bfbf2ea78e9a078f9d325301c8fff69102f391b3583e381c62",
+      "coordinate_closed_actual": [
+        false,
+        false,
+        true
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        false,
+        false,
+        true
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "FFT",
+      "latin": true,
+      "pattern": "FFT",
+      "source_index": 25,
+      "source_line_number": 25,
+      "vector_closed": false
+    },
+    {
+      "atom_count": 180,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "FTF",
+      "compact_square_sha256": "4b851667424cf6c1f4187be4aa9bcc5f7ae14a9356864a02b0f25de7bc063449",
+      "coordinate_closed_actual": [
+        false,
+        true,
+        false
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        false,
+        true,
+        false
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "FTF",
+      "latin": true,
+      "pattern": "FTF",
+      "source_index": 31,
+      "source_line_number": 31,
+      "vector_closed": false
+    },
+    {
+      "atom_count": 188,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "FTT",
+      "compact_square_sha256": "bfb2b482fc5f36fd674bf07f37703bb7b51aae4ec242d2254c76ca7748358fde",
+      "coordinate_closed_actual": [
+        false,
+        false,
+        false
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        false,
+        false,
+        false
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "FTT",
+      "latin": true,
+      "pattern": "FTT",
+      "source_index": 34,
+      "source_line_number": 34,
+      "vector_closed": false
+    },
+    {
+      "atom_count": 228,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "TFF",
+      "compact_square_sha256": "9b25f077b756fc6ad62ba85bf181e0be7e448b6c32ebedaf5276f5e83ef93d10",
+      "coordinate_closed_actual": [
+        true,
+        false,
+        false
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        true,
+        false,
+        false
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "TFF",
+      "latin": true,
+      "pattern": "TFF",
+      "source_index": 39,
+      "source_line_number": 39,
+      "vector_closed": false
+    },
+    {
+      "atom_count": 196,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "TFT",
+      "compact_square_sha256": "616ab99b079f0c15671e7145963eb9a09d4173612331671e44d135986836e657",
+      "coordinate_closed_actual": [
+        false,
+        false,
+        false
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        false,
+        false,
+        false
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "TFT",
+      "latin": true,
+      "pattern": "TFT",
+      "source_index": 101,
+      "source_line_number": 101,
+      "vector_closed": false
+    },
+    {
+      "atom_count": 178,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "TTF",
+      "compact_square_sha256": "e683a5e521074740bcf1f3b3c723294efa6a9378187eec58a4f77405e9bfedac",
+      "coordinate_closed_actual": [
+        false,
+        false,
+        false
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        false,
+        false,
+        false
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "TTF",
+      "latin": true,
+      "pattern": "TTF",
+      "source_index": 86,
+      "source_line_number": 86,
+      "vector_closed": false
+    },
+    {
+      "atom_count": 216,
+      "atomwise_error_count": 0,
+      "coboundary_detected_pattern": "TTT",
+      "compact_square_sha256": "e554570c7a1556e6b34f5bc8489eeed416ea3ca76f8b903b522b0003035209b6",
+      "coordinate_closed_actual": [
+        false,
+        false,
+        false
+      ],
+      "coordinate_closed_expected_pairwise_conjunction": [
+        false,
+        false,
+        false
+      ],
+      "holonomy_error_count": 0,
+      "independent_pattern": "TTT",
+      "latin": true,
+      "pattern": "TTT",
+      "source_index": 24,
+      "source_line_number": 24,
+      "vector_closed": false
+    }
+  ]
+}

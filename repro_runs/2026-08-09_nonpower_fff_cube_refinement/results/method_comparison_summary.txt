@@ -1,0 +1,31 @@
+n=10 obstruction-refinement method comparison
+
+Defect parity audit:
+- proposed general per-view parity: disproved
+- explicit frozen n=8 counterexample vector: (4,2,5)
+- tracked n=10 minimum: 4, observational only
+
+Fixed-cell complete cube pilot, Row1 case 12:
+- cubes: 7
+- CaDiCaL timeout 120s: 7
+- SAT/UNSAT: 0/0
+
+Lazy odd-cycle CEGAR, Row1 case 12:
+- solver: MapleChrono
+- timeout: 300s
+- iterations: 209
+- blockers: 13234
+- best failed pairs: 20
+- final status: timeout
+
+Satsuma symmetry fixing, balanced Row1 cases 09-12:
+- solver jobs: 8 (CaDiCaL and Kissat)
+- timeout: 300s each
+- timeout: 8
+- SAT/UNSAT: 0/0
+
+Claim status:
+- C38 open
+- C40 not created
+- no n=10 FFF table
+- no n=10 non-existence result

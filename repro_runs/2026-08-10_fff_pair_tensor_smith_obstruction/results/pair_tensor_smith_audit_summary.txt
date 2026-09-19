@@ -1,0 +1,59 @@
+Pair-tensor Smith obstruction audit
+
+audit version: pair_tensor_smith_v1
+odd rank field: GF(1000003)
+tables: 9777
+pair-label slices: 460977
+errors: 0
+
+Exact theorem audited:
+- coker(slice) = Z^q + (Z/2)^o + (Z/4)^t, up to unit factors.
+- rank_odd - rank_GF2 = intercalate cycles + odd cycles.
+- a square is FFF iff rank_odd-rank_GF2 equals the number of 4-entries in every slice.
+- equivalently, every normalized positive-support slice is totally unimodular/balanced.
+
+order4_complete
+- tables: 4
+- patterns: {'FFF': 4}
+- slices: 72
+- rank gaps: {'0': 36, '2': 36}
+- odd-cycle counts per slice: {'0': 72}
+- Smith-factor totals: {'four': 72, 'two': 0, 'unit': 108, 'zero': 36}
+- binary flattening rank range: [0, 3]
+- errors: 0
+
+order6_complete
+- tables: 9408
+- patterns: {'FFT': 936, 'FTF': 936, 'TFF': 936, 'TTT': 6600}
+- slices: 423360
+- rank gaps: {'0': 181440, '1': 142560, '2': 69120, '3': 30240}
+- odd-cycle counts per slice: {'0': 354240, '2': 69120}
+- Smith-factor totals: {'four': 233280, 'two': 138240, 'unit': 1611360, 'zero': 324000}
+- binary flattening rank range: [4, 14]
+- errors: 0
+
+order8_fff_complete
+- tables: 230
+- patterns: {'FFF': 230}
+- slices: 19320
+- rank gaps: {'0': 6930, '1': 3912, '2': 5337, '4': 3141}
+- odd-cycle counts per slice: {'0': 19320}
+- Smith-factor totals: {'four': 27150, 'two': 0, 'unit': 80250, 'zero': 20010}
+- binary flattening rank range: [0, 27]
+- errors: 0
+
+order10_tracked_partial
+- tables: 135
+- patterns: {'FFT': 127, 'FTT': 1, 'TFT': 2, 'TTT': 5}
+- slices: 18225
+- rank gaps: {'0': 6936, '1': 5720, '2': 3051, '3': 1033, '4': 722, '5': 763}
+- odd-cycle counts per slice: {'0': 15870, '2': 2355}
+- Smith-factor totals: {'four': 16914, 'two': 4710, 'unit': 123809, 'zero': 19903}
+- binary flattening rank range: [39, 44]
+- errors: 0
+
+Evidence boundary:
+- The Smith/rank characterization is rigorous; this run is exact sanity evidence.
+- Global binary flattening ranks are exploratory and no corpus range is a theorem.
+- The order-10 corpus is tracked partial data, not an exhaustive census.
+- C38 remains open and C40 remains absent.

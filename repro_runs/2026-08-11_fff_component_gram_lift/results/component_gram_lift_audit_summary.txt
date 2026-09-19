@@ -1,0 +1,51 @@
+Component Gram-lift and equivariant-anchor audit
+
+table count: 9777
+component count: 104645
+nontrivial quadratic components: 93647
+dimension zero odd cell incidences: 179048
+component cell pair fourier checks: 15876164
+component quadratic gauge checks: 8302924
+component mod2 checks: 1211540
+gram entry mod2 checks: 43457616
+gram kernel checks: 13710864
+gram symmetry checks: 43457616
+error count: 0
+equivariant anchor no-go errors: 0
+no-go gauge shifts: {'3': [1], '5': [1], '6': [0]}
+no-go component flag map: {'0': 1, '1': 0, '12': 13, '13': 12}
+
+order4_complete
+- tables/components: 4 / 27
+- off-diagonal Fourier checks: 1152
+- Gram mod-2 / kernel checks: 3072 / 1536
+- dimension-zero odd cell incidences: 0
+- errors: 0
+
+order6_complete
+- tables/components: 9408 / 89068
+- off-diagonal Fourier checks: 13304520
+- Gram mod-2 / kernel checks: 36578304 / 12192768
+- dimension-zero odd cell incidences: 172800
+- errors: 0
+
+order8_fff_complete
+- tables/components: 230 / 9768
+- off-diagonal Fourier checks: 1130332
+- Gram mod-2 / kernel checks: 2826240 / 706560
+- dimension-zero odd cell incidences: 376
+- errors: 0
+
+order10_tracked_partial
+- tables/components: 135 / 5782
+- off-diagonal Fourier checks: 1440160
+- Gram mod-2 / kernel checks: 4050000 / 810000
+- dimension-zero odd cell incidences: 5872
+- errors: 0
+
+Boundary:
+- C93 is rigorous and exactly audited.
+- The Klein-four autotopism rules out a universal isotopy-equivariant C79-derived gauge anchor.
+- The off-diagonal Fourier/Gram identity is the canonical quadratic replacement.
+- It does not decide order 10.
+- C38 remains open and C40 absent.

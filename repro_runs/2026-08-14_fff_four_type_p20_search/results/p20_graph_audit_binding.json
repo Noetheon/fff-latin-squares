@@ -1,0 +1,49 @@
+{
+  "all_checks_passed": true,
+  "audit_command": [
+    "/tmp/order8_four_type_p20/audit",
+    "10",
+    "6+2+2",
+    "6+4",
+    "8+2",
+    "6+2+2",
+    "2",
+    "external/Order8_external_graphs/2026-08-13_four_type_large/p20_root_6_2_2/p20.bin"
+  ],
+  "auditor_binary_sha256": "52c692520d896d308f9a2921e55bc87379f947859ddb7361f9f47e863be49dc4",
+  "auditor_source_sha256": "2a2d944af72f437f5644b70932658797d1f9380fc864ee7fcbda60934f3b00bc",
+  "build_command": [
+    "/tmp/order8_four_type_p20/build",
+    "10",
+    "6+2+2",
+    "6+4",
+    "8+2",
+    "6+2+2",
+    "2",
+    "external/Order8_external_graphs/2026-08-13_four_type_large/p20_root_6_2_2/p20.bin"
+  ],
+  "builder_binary_sha256": "8581feea8aaea38e4e8b0670bbaed173fe71c23f5818ad7dd237bec0866e0ff6",
+  "builder_source_sha256": "2b9f6e71400f726c254da087da1e93dc87f691681d26943d2fed48cced60312a",
+  "checks": {
+    "candidate_list_errors_zero": true,
+    "diagonal_errors_zero": true,
+    "edge_errors_zero": true,
+    "format_errors_zero": true,
+    "padding_errors_zero": true,
+    "pair_count_complete": true,
+    "reverse_edge_errors_zero": true,
+    "semantic_valid": true,
+    "structural_graph_hash_matches": true,
+    "structural_valid": true,
+    "vertex_counts_match": true
+  },
+  "graph_path": "external/Order8_external_graphs/2026-08-13_four_type_large/p20_root_6_2_2/p20.bin",
+  "graph_sha256": "165df10b50bf85bb33d25654ec1cd9e489f3f8f64538eafef7e946cb564808cf",
+  "graph_size_bytes": 2317715354,
+  "partial_cycle_source_sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82",
+  "schema_version": "four-type-graph-audit-binding-v1",
+  "semantic_audit_path": "repro_runs/2026-08-14_fff_four_type_p20_search/results/p20_complete_graph_audit.json",
+  "semantic_audit_sha256": "9988d2ab60189e7d45e620a13bbd1f443494646e693111a259779a441d7c3e21",
+  "structural_audit_path": "repro_runs/2026-08-14_fff_four_type_p20_search/results/p20_structural_graph_audit.json",
+  "structural_audit_sha256": "7e7b6ef4ec87f4dbdac81730ecdad667a94d670df79fa9e814cfb59b2e18f3b1"
+}

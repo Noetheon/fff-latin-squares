@@ -1,0 +1,10 @@
+case: p29
+graph_sha256: e240e51735da5c75be127e4e2c5fc4d16173d6b2f42799b8ba86781006670048
+expected_source: established-by-this-run
+audit_sha256: 1454d9f84747484a0d091838b2cdaf471fdac5c0f467ad348c5ee795e0ec3252
+search_sha256: 5820d956ca554139b0c53d8ada7aa40c349dfb73095f78720f2ece2f21c7ecb4
+audit_valid: true
+reverse_edge_errors: 0
+search_complete: true
+fff_found: false
+all_checks_passed: true

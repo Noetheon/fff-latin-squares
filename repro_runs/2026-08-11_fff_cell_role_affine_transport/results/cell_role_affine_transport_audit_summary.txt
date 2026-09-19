@@ -1,0 +1,41 @@
+Cell-role affine transport audit
+
+table count: 9777
+component count: 104645
+role transport checks: 6119748
+equal role checks: 756704
+delta invariance checks: 2039916
+divisibility checks: 756704
+delta nonzero cells: 38264
+orientable cells: 34960
+error count: 0
+incidence distribution: {3: 369888, 6: 54171, 9: 61005, 12: 134840, 15: 122608, 18: 3066, 21: 4268, 24: 5467, 27: 1391}
+
+order4_complete
+- tables/components: 4 / 27
+- role transports: 2304
+- delta-nonzero/orientable cells: 48 / 48
+- errors: 0
+
+order6_complete
+- tables/components: 9408 / 89068
+- role transports: 5023080
+- delta-nonzero/orientable cells: 29160 / 25920
+- errors: 0
+
+order8_fff_complete
+- tables/components: 230 / 9768
+- role transports: 779820
+- delta-nonzero/orientable cells: 8912 / 8848
+- errors: 0
+
+order10_tracked_partial
+- tables/components: 135 / 5782
+- role transports: 314544
+- delta-nonzero/orientable cells: 144 / 144
+- errors: 0
+
+Boundary:
+- C90 is rigorous and exactly audited.
+- It remains componentwise and does not decide order 10.
+- C38 remains open and C40 absent.

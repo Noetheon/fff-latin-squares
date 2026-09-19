@@ -1,0 +1,9 @@
+Three-parity two-line trade audit
+=================================
+
+orders: 2,4,6; total trades checked: 1028307
+failures: 0; all checks pass: True
+line-sign ratios (R,C,S): row=(1,d,d), col=(d,1,d), sym=(d,d,1)
+pair ratios (RC,RS,CS): row=(d,d,1), col=(d,1,d), sym=(1,d,d)
+The first odd symbol trade preserves the usual RC sign and reverses RS and CS.
+FFF, census, product, congruence, and solver claims are unaffected.

@@ -1,0 +1,58 @@
+Cross-component cell-parity audit
+
+table count: 9777
+component count: 104645
+component cell checks: 756704
+component line parity checks: 2011440
+component line incidence checks: 2011440
+global edge budget checks: 178962
+delta even checks: 38264
+intercalate component cell checks: 369888
+cell checks: 366972
+cross parity checks: 366972
+intercalate refinement checks: 366972
+x layer parity checks: 366972
+odd zero component incidences: 559160
+odd nonintercalate zero incidences: 189272
+even iota forced cells: 189224
+odd iota cells: 177748
+error count: 0
+exact-space dimensions: {0: 8788, 1: 2244, 2: 93034, 3: 579}
+cell intercalate-degree distribution: {0: 128465, 1: 148135, 2: 59037, 3: 25967, 4: 1670, 5: 3376, 6: 52, 7: 262, 9: 8}
+odd delta-zero component-count distribution: {1: 276576, 3: 85028, 5: 5046, 7: 314, 9: 8}
+odd nonintercalate delta-zero component-count distribution: {0: 177724, 1: 189224, 2: 24}
+
+order4_complete
+- tables/components: 4 / 27
+- component-cell / cell checks: 144 / 64
+- even-iota forced cells: 0
+- odd nonintercalate delta-zero incidences: 0
+- errors: 0
+
+order6_complete
+- tables/components: 9408 / 89068
+- component-cell / cell checks: 662400 / 338688
+- even-iota forced cells: 178560
+- odd nonintercalate delta-zero incidences: 178560
+- errors: 0
+
+order8_fff_complete
+- tables/components: 230 / 9768
+- component-cell / cell checks: 57976 / 14720
+- even-iota forced cells: 4792
+- odd nonintercalate delta-zero incidences: 4840
+- errors: 0
+
+order10_tracked_partial
+- tables/components: 135 / 5782
+- component-cell / cell checks: 36184 / 13500
+- even-iota forced cells: 5872
+- odd nonintercalate delta-zero incidences: 5872
+- errors: 0
+
+Boundary:
+- C91 is rigorous and exactly audited.
+- It is the first explicit cross-component cell gluing law after C90.
+- It decomposes the C84 X endpoint parity but not component gauges.
+- It does not decide order 10.
+- C38 remains open and C40 absent.

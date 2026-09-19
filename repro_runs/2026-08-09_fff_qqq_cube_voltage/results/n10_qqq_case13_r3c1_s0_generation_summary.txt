@@ -1,0 +1,10 @@
+QQQ fixed-cell cube CNF
+
+n: 10
+views: row,col,sym
+fixed_row1: [1, 2, 3, 4, 0, 6, 7, 5, 9, 8]
+fixed_cells: [[3, 1, 0]]
+variables: 95500
+clauses: 2682916
+cnf_sha256: a636ef41622eb098f9742abff4da85099536792a41c86e728a3b6e6e3ee9240d
+upstream_generator_sha256: 0df17c9c229540ea578872f67a95785b64d7c284980b7a9f7a197cdcb63c978e

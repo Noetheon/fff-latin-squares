@@ -1,0 +1,20 @@
+Order-8 C97 joint-rank profile audit
+
+tables: 230
+distinct signatures: 201
+singleton signatures: 176
+maximum collision size: 3
+collision histogram: {1: 176, 2: 21, 3: 4}
+combined C86/C97 signatures: 202
+combined C86/C97 singleton signatures: 178
+combined C86/C97 maximum collision size: 3
+combined C86/C97 collision histogram: {1: 178, 2: 20, 3: 4}
+tables with epsilon_Q > 0: 12
+exceptional source indices: [5, 7, 114, 119, 1177, 1955, 3961, 68761, 85446, 96609, 111090, 270299]
+errors: 0
+
+Boundary:
+- Exact finite invariant only; no main-class or isotopy classification is claimed.
+- Combining C86 and C97 remains a frozen-corpus statement only.
+- No universal upper bound on s_Q is claimed.
+- C38 remains open and C40 absent.

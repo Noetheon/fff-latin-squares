@@ -1,0 +1,14 @@
+{
+  "constraints": 43256,
+  "degree": 10,
+  "elapsed_seconds": 120.321690959041,
+  "encoding": "independent_pairblock_projection_cpsat_v1",
+  "odd_cycle_voltage_constraints": 10740,
+  "p": 5,
+  "proof_certificate_available": false,
+  "result": "timeout",
+  "solver_stats": "CpSolverResponse summary:\nstatus: UNKNOWN\nobjective: 0\nbest_bound: 0\nintegers: 119\nbooleans: 31153\nconflicts: 60925\nbranches: 153602\npropagations: 264055428\ninteger_propagations: 946108\nrestarts: 293\nlp_iterations: 0\nwalltime: 120.306\nusertime: 120.306\ndeterministic_time: 525.134\ngap_integral: 0\n",
+  "timeout_seconds": 120.0,
+  "variables": 32580,
+  "workers": 8
+}

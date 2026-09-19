@@ -1,0 +1,54 @@
+Global common-mode audit
+
+table count: 9777
+component count: 104645
+flag count: 1918172
+dual edge count: 2877258
+nonconstant table count: 1320
+integer witness count: 1560
+line balanced witness count: 1560
+endpoint identity witness count: 1560
+centered identity witness count: 1560
+atom only nullity table count: 9777
+error count: 0
+
+order10_tracked_partial
+- tables/components/flags: 135 / 5782 / 121500
+- r_Q distribution: {'1': 135}
+- nonconstant tables: 0
+- integer witnesses: 0
+- line-balanced witnesses: 0 / 0
+- max r_Q: 1
+- errors: 0
+
+order4_complete
+- tables/components/flags: 4 / 27 / 192
+- r_Q distribution: {'1': 4}
+- nonconstant tables: 0
+- integer witnesses: 0
+- line-balanced witnesses: 0 / 0
+- max r_Q: 1
+- errors: 0
+
+order6_complete
+- tables/components/flags: 9408 / 89068 / 1693440
+- r_Q distribution: {'1': 8088, '2': 1080, '3': 240}
+- nonconstant tables: 1320
+- integer witnesses: 1560
+- line-balanced witnesses: 1560 / 1560
+- max r_Q: 3
+- errors: 0
+
+order8_fff_complete
+- tables/components/flags: 230 / 9768 / 103040
+- r_Q distribution: {'1': 230}
+- nonconstant tables: 0
+- integer witnesses: 0
+- line-balanced witnesses: 0 / 0
+- max r_Q: 1
+- errors: 0
+
+Boundary:
+- C99 is a rigorous global intersection/Schur theorem; distributions are frozen-corpus facts.
+- The endpoint contraction, line balance, centering, and atom-only kernel formula are rigorous.
+- The tracked order-10 corpus is partial; C38 remains open and C40 absent.

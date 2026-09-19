@@ -1,0 +1,13 @@
+p=5 projection forbidden-triangle CNF
+
+variables: 2320
+clauses: 33841
+base cover clauses: 4401
+global odd-cycle triangles: 28240
+common 3-cycle triangles total: 1600
+overlap: 400
+all-class union: 29440
+classification mode: full
+selected forbidden triangles: 29440
+selected three-class counts: {"all_5_cycles": 3840, "common_3_support_mixed": 1200, "two_5_cycles_and_one_3_1_1": 14400}
+CNF SHA-256: 210c508606b29bd9cb3777505c127f317091252d3bcd6a54c6f55bf1768fe8c3

@@ -1,0 +1,10 @@
+Order-8 loop invariant analysis for the residual non-group FFF cases
+
+Compared lines: 11 (C4xC2), 13 (C8), 19, 114, 1955, 10776, 85446
+
+line 13: associative, commutative, full nuclei and full center, IP, AAIP, flexible, |<L_x>|=|<R_x>|=|Mlt|=8, |Inn|=1, |Aut|=4
+line 11: associative, commutative, full nuclei and full center, IP, AAIP, flexible, |<L_x>|=|<R_x>|=|Mlt|=8, |Inn|=1, |Aut|=8
+line 19: nonassociative, noncommutative, nuclei = [0,1,2,3], center = [0,1], not IP, not AAIP, not flexible, |<L_x>|=|<R_x>|=16, |Mlt|=32, |Inn|=4, |Aut|=4
+line 114: nonassociative, noncommutative, nuclei = [0,1,2,3], center = [0,2], not IP, not AAIP, not flexible, |<L_x>|=|<R_x>|=16, |Mlt|=32, |Inn|=4, |Aut|=4
+
+Key exact conclusion: lines 19 and 114 remain cycle-pure and even have nontrivial nuclei, but they are cleanly separated from the group lines 13 and 11 by associativity, commutativity, inverse properties, flexibility, and translation/multiplication-group sizes.

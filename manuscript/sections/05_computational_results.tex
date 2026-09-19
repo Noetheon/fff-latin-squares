@@ -1,0 +1,130 @@
+\section{Computational results}
+
+The following statements are exhaustive finite computations.  Their inputs,
+programs, commands, and outputs are specified in
+Section~\ref{sec:reproducibility}.
+
+\begin{computationaltheorem}[Small orders]\label{cthm:small-orders}
+The unique reduced Latin square of order $2$ is FFF, and all four reduced
+Latin squares of order $4$ are FFF.  None of the $9408$ reduced Latin squares
+of order $6$ is FFF.  More precisely, their patterns are
+\[
+ 6600\,\TTT,\qquad 936\,\mathsf{TFF},\qquad
+ 936\,\mathsf{FTF},\qquad 936\,\mathsf{FFT}.
+\]
+\end{computationaltheorem}
+
+The generator constructs reduced Latin squares by exact cover and loads no
+cached square list.  Every generated square was checked to be Latin and
+reduced, all $9408$ table strings were distinct, and the generated set agrees
+exactly with the ANU reduced-order-$6$ data file~\cite{McKayLatinData}.
+Proposition~\ref{prop:invariance} therefore extends the nonexistence statement
+from reduced squares to all Latin squares of order $6$.
+
+For all order-$8$ record references below, ``local source line'' means the
+one-based physical line number in the frozen file consumed by the scanner.
+The ANU catalogue numbers its records from zero, so local source line $j$
+corresponds to ANU record $j-1$.
+
+\begin{computationaltheorem}[Order-$8$ pattern census]\label{cthm:order8}
+Across the $283657$ order-$8$ main-class representatives, the pattern
+distribution is
+\begin{center}
+\begin{tabular}{cr@{\qquad}cr@{\qquad}cr@{\qquad}cr}
+\toprule
+Pattern & Count & Pattern & Count & Pattern & Count & Pattern & Count\\
+\midrule
+$\FFF$ & 230 & $\mathsf{FFT}$ & 81 & $\mathsf{FTF}$ & 40 &
+$\mathsf{FTT}$ & 315\\
+$\mathsf{TFF}$ & 133 & $\mathsf{TFT}$ & 209 & $\mathsf{TTF}$ & 232 &
+$\TTT$ & 282417\\
+\bottomrule
+\end{tabular}
+\end{center}
+Among the $230$ FFF main classes, exactly $5$ are group-isotopic and $225$
+are not group-isotopic.
+\end{computationaltheorem}
+
+\begin{computationaltheorem}[Subsquare census of the FFF classes]
+Among the $230$ FFF representatives, the number of intercalates ranges from
+$2$ to $112$.  Each endpoint is attained by exactly one representative: local
+source line $10776$ (ANU record $10775$) is the unique minimum class and is not
+group-isotopic, while local source line $1$ (ANU record $0$) is the unique
+maximum class and is group-isotopic.  No representative
+contains an order-$3$ subsquare.  The distribution of the number of
+order-$4$ subsquares is
+\[
+  0^{63},\qquad 4^{156},\qquad 12^{10},\qquad 28^1,
+\]
+where exponents count representatives.
+\end{computationaltheorem}
+
+The cycle-parity obstruction of Proposition~\ref{prop:q-obstruction} is also
+scanned on the complete order-$8$ input.  Exactly $1285$ representatives are
+QQQ: the $230$ FFF representatives and $1055$ non-FFF representatives.  This
+is an exact census fact and demonstrates that QQQ is necessary but not
+sufficient for FFF.
+
+\begin{computationaltheorem}[Affine cycle-profile saturation]
+\label{cthm:affine-profile-saturation}
+Over each of $\operatorname{GF}(2)$, $\operatorname{GF}(3)$,
+$\operatorname{GF}(5)$, and $\operatorname{GF}(7)$, every affine relation
+among the aggregate cycle profiles of all $283657$ order-$8$ main-class
+representatives lies in the span of the relations in
+Proposition~\ref{prop:aggregate-profile-baseline}.
+\end{computationaltheorem}
+
+Incremental finite-field row reduction includes a constant coordinate and
+processes the complete census directly.  The analogous order-$6$ audit
+matches the baseline over the three odd fields but has three additional
+Latin-specific relations over $\operatorname{GF}(2)$.  Conversely, three
+extra binary relations visible in the tracked $135$-table order-$10$ partial
+corpus are refuted by explicit Latin squares obtained from a deterministic
+intercalate-trade walk on the $D_{10}$ table.  Thus those order-$10$
+relations were sampling artifacts.  This does not constitute an exhaustive
+order-$10$ classification.
+
+The associated validator checks every order-$2$, order-$3$, and order-$4$
+subsquare and finds no violation of
+Theorem~\ref{thm:subsquare-monotonicity}.  The multiples of four in the
+order-$4$ distribution also follow directly: an order-$m$ subsquare inside
+an order-$2m$ square forces the three complementary blocks to be Latin
+subsquares, so half-order subsquares occur in complementary quartets.
+
+The non-symmetric labels in the table refer to the particular representatives
+in the cited ANU file.  Parastrophy permutes the three bits, so, for example,
+an ordered label such as $\mathsf{FFT}$ is not itself a main-class invariant.
+The FFF count, the existence of every pattern, and the group-isotopy split are
+unaffected by this distinction.
+
+The scan tests every unordered pair of lines in all three views.  A separate
+closure-family computation reproduces the $5/225$ split using
+Proposition~\ref{prop:closure}.  The input is the ANU/McKay main-class file,
+whose stated size and equivalence convention are given on the data
+page~\cite{McKayLatinData}; our frozen copy is an exact byte match to the file
+served by that URL on August 9, 2026.
+
+\begin{corollary}\label{cor:all-patterns}
+For every $m\geq3$, Latin squares of order $2^m$ realize all eight patterns.
+Every such order also contains a non-group-isotopic FFF Latin square.
+\end{corollary}
+
+\begin{proof}
+Computational Theorem~\ref{cthm:order8} supplies one order-$8$ square of each
+pattern.  Take direct products with the FFF group table of $C_2^{m-3}$.
+The pattern statement follows from Theorem~\ref{thm:pattern-product}.  For
+the second assertion, instead start from the explicit loop in
+Theorem~\ref{thm:explicit-nongroup-loop}; non-group-isotopicity is preserved
+by Theorem~\ref{thm:group-product}.
+\end{proof}
+
+This is an existence result only.  It neither counts higher-order main
+classes nor asserts that direct products of distinct order-$8$ classes remain
+distinct.
+
+As an additional check, Wanless' complete online list of order-$8$ species
+with transitive autotopism group contains $11$ squares~\cite{WanlessTransitiveData}.
+The frozen local input is a byte-for-byte match to the online file (SHA-256
+\nolinkurl{1c777328c099e3c242a49f9f2019d83314d7ab800505c7d9291bdb16ef029146}).
+All $11$ have pattern FFF; $5$ are group-isotopic and $6$ are not.  This
+secondary computation is not needed for Corollary~\ref{cor:all-patterns}.

@@ -1,0 +1,49 @@
+{
+  "all_checks_passed": true,
+  "audit_command": [
+    "/tmp/order8_four_type_large_v2/audit_complete_four_type",
+    "10",
+    "2+2+2+2+2",
+    "6+2+2",
+    "8+2",
+    "2+2+2+2+2",
+    "2",
+    "external/Order8_external_graphs/2026-08-13_four_type_large/p09_involution_root/p09_involution_root.bin"
+  ],
+  "auditor_binary_sha256": "7813622fe27f10a9addf50648576b8b822e50fd3619bc4717113a7f293259d3c",
+  "auditor_source_sha256": "2a2d944af72f437f5644b70932658797d1f9380fc864ee7fcbda60934f3b00bc",
+  "build_command": [
+    "/tmp/order8_four_type_large_v2/build_filtered_four_type",
+    "10",
+    "2+2+2+2+2",
+    "6+2+2",
+    "8+2",
+    "2+2+2+2+2",
+    "2",
+    "external/Order8_external_graphs/2026-08-13_four_type_large/p09_involution_root/p09_involution_root.bin"
+  ],
+  "builder_binary_sha256": "f66e277c9700d59e41de3d2f5e0efdfef4b68642946b1970274634f84db219ba",
+  "builder_source_sha256": "2b9f6e71400f726c254da087da1e93dc87f691681d26943d2fed48cced60312a",
+  "checks": {
+    "candidate_list_errors_zero": true,
+    "diagonal_errors_zero": true,
+    "edge_errors_zero": true,
+    "format_errors_zero": true,
+    "padding_errors_zero": true,
+    "pair_count_complete": true,
+    "reverse_edge_errors_zero": true,
+    "semantic_valid": true,
+    "structural_graph_hash_matches": true,
+    "structural_valid": true,
+    "vertex_counts_match": true
+  },
+  "graph_path": "external/Order8_external_graphs/2026-08-13_four_type_large/p09_involution_root/p09_involution_root.bin",
+  "graph_sha256": "5277ec91414b304bcb2078dc4d1566029f6aba7674c44458cf6a706a764a5873",
+  "graph_size_bytes": 1247001626,
+  "partial_cycle_source_sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82",
+  "schema_version": "four-type-graph-audit-binding-v1",
+  "semantic_audit_path": "repro_runs/2026-08-13_fff_four_type_large_searches/results/p09_involution_root_complete_graph_audit.json",
+  "semantic_audit_sha256": "5866b766df0df1430953ee1e511e658ea792ab00eb17ed84f47373c5b09f7813",
+  "structural_audit_path": "repro_runs/2026-08-13_fff_four_type_large_searches/results/p09_involution_root_structural_graph_audit.json",
+  "structural_audit_sha256": "aac36e20e9ab0178d138b3822f981da64ee3695032b6982d28596488823bb59a"
+}

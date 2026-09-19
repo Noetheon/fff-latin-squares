@@ -1,0 +1,79 @@
+\noindent\textbf{Historical reproducibility record.} This section describes the underlying research collection, not a promise that every named artifact is in this public export. See the dossier scope statement and the public reproducibility guide for availability.
+\medskip
+
+\section{Computational reproducibility}\label{sec:reproducibility}
+
+The historical research collection separates proofs, frozen data, programs, commands, logs, and
+SHA-256 manifests.  A companion reproducibility quickstart supplies the
+complete command-to-output map.  The compact paper uses the following
+packages.
+
+\begin{description}
+\item[Trade parity]
+\nolinkurl{repro_runs/2026-08-10_paper_symbol_sign_audit/}.
+The exact control checks $1028307$ row-, column-, and symbol-view trades on all
+reduced Latin squares of orders $2$, $4$, and $6$, with zero failures.  The
+proof, not this computation, establishes the general theorem.
+
+\item[Small orders]
+\nolinkurl{repro_runs/2026-04-26_small_order_witness_reruns/}.
+The exact-cover generator freshly enumerates $1$, $4$, and $9408$ reduced
+squares of orders $2$, $4$, and $6$.  Every table is checked Latin, reduced,
+and unique.  The generated order-$6$ set agrees exactly with the official ANU
+file.
+
+\item[Order-$8$ census]
+\nolinkurl{repro_runs/2026-04-26_order8_core/}.
+The frozen $5140393$-byte input has SHA-256
+\nolinkurl{e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87}.
+The theorem-relevant output
+\nolinkurl{results/order8_recheck_fullscan_results.json} has SHA-256
+\nolinkurl{10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39}.
+
+\item[Group-isotopy closure]
+\nolinkurl{repro_runs/2026-04-26_order8_closure_reconstruction/}.
+This independently reconstructs the basis-family closure scan and reproduces
+the $5/225$ split.
+
+\item[Direct products]
+\nolinkurl{repro_runs/2026-04-26_direct_product_fff/}.
+The validator checks the product-permutation formula in all three views and
+tests the group-isotopy equivalence on group and non-group examples.
+
+\item[Subsquare and congruence obstructions]
+\nolinkurl{repro_runs/2026-08-09_fff_subsquare_congruence_obstructions/}.
+The package scans all subsquares of the $230$ frozen FFF representatives,
+exhausts the binary twists used as controls, and validates the explicit
+twisted order-$8$ loop.
+
+\item[Binary line kernel and half-order subsquares]
+\nolinkurl{repro_runs/2026-08-11_fff_binary_homotopy_subsquares/}.
+The package compares the subsquares constructed from every nonuniversal
+binary line dependency with an independent direct enumeration on $9778$
+tables.  All predicted and observed sets agree exactly, and the semantic
+verifier reproduces the frozen order-$8$ distribution with zero errors.
+
+\item[Prime-field line quotients]
+\nolinkurl{repro_runs/2026-08-11_fff_prime_field_line_quotients/}.
+The audit checks five prime fields on $9778$ tables, verifies all $1160$
+nonuniversal quotient classes, and independently reconstructs $48890$
+modular ranks with zero errors.  The theorem itself is proved separately.
+
+\item[External-input release audit]
+\nolinkurl{repro_runs/2026-08-09_paper_release_audit/}.
+It downloads the cited ANU and Wanless inputs afresh and verifies exact byte
+matches to the frozen files.  As with any computational theorem based on an
+external census, completeness of the published enumeration remains a cited
+scientific dependency.
+\end{description}
+
+Every package contains a README, exact commands, environment record, input
+and output manifests, and a package-level SHA-256 manifest.  The command
+\begin{center}
+\small\texttt{python3 }\nolinkurl{repro_runs/2026-08-10_paper_symbol_sign_audit/scripts/audit_manuscript_computational_claims.py}
+\end{center}
+cross-checks the computational statements in the long companion manuscript;
+the three computational theorems retained here are a subset of that audit.
+
+Solver binaries, virtual environments and non-research source material are not included in the public export.  No timeout, partial solver model,
+or order-$10$ diagnostic is used as evidence in this compact paper.

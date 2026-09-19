@@ -1,0 +1,35 @@
+FFF cycle-component overlap refinement
+
+tables: 230
+C70 distinct signatures: 226
+C70 collision groups: 4
+component-overlap distinct signatures: 226
+joint distinct signatures: 226
+joint collision groups: 4
+structural-overlap distinct signatures: 229
+structural joint distinct signatures: 229
+structural joint collision groups: 1
+overlap marginal errors: 0
+
+C70 collisions before refinement:
+- [13, 19]
+- [11, 114]
+- [117, 118]
+- [4, 22]
+
+Collisions after joint refinement:
+- [4, 22]
+- [117, 118]
+- [13, 19]
+- [11, 114]
+
+Collisions after structural overlap refinement:
+- [13, 19]
+
+Remaining collision diagnostics:
+- source 13: group_isotopic=True, triple_overlap=df66e9d6c3299cb4ced7e7e7fbd954fdc5fc7e233c52c2408ecc0f421cc9c2cc, cell_atom_1WL=333acb51ffb50915d07c51d45d9dab35eb2a297b6f07d68d744a3ca02bf57770
+- source 19: group_isotopic=False, triple_overlap=df66e9d6c3299cb4ced7e7e7fbd954fdc5fc7e233c52c2408ecc0f421cc9c2cc, cell_atom_1WL=333acb51ffb50915d07c51d45d9dab35eb2a297b6f07d68d744a3ca02bf57770
+
+Conservative conclusion:
+- This is an exact order-8 classification invariant, not an order-10 theorem.
+- C38 remains open and C40 remains absent.

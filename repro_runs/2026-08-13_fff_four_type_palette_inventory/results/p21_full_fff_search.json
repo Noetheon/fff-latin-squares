@@ -1,0 +1,13 @@
+{
+  "label": "p21",
+  "mode": "full",
+  "workers": 8,
+  "total_initial_tasks": 120,
+  "task_start": 0,
+  "task_end_exclusive": 120,
+  "completed_tasks": 120,
+  "search_nodes": 216,
+  "crossview_odd_cycle_prunes": 0,
+  "fff_found": false,
+  "slice_complete": true
+}

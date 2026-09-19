@@ -1,0 +1,6 @@
+Independent all-pattern truth-table audit
+
+patterns: FFF,FFT,FTF,FTT,TFF,TFT,TTF,TTT
+examples: 8
+checks passed: 4/4
+all checks passed: true

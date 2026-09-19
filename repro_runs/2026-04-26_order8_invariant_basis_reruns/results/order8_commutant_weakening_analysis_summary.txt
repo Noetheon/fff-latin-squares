@@ -1,0 +1,36 @@
+Order-8 FFF commutant-weakening analysis
+
+Original minimal separating bases on all 230 FFF cases:
+  - commutant, left_translation_cycle_types, left_inverse_map
+  - commutant, left_translation_cycle_types, right_inverse_map
+
+Minimal separating size with the original 18-feature family but WITHOUT full commutant: 4
+Number of such minimal subsets: 4
+
+Minimal separating size in the weaker replacement family: 3
+Number of minimal subsets there: 9
+
+Selected weakening tests around the original minimal triple:
+  - commutant_size,left_translation_cycle_types,left_inverse_map: 229 clusters; separates=False
+  - commutant_size,left_translation_cycle_types,right_inverse_map: 229 clusters; separates=False
+  - center,left_translation_cycle_types,left_inverse_map: 225 clusters; separates=False
+  - center,left_translation_cycle_types,right_inverse_map: 225 clusters; separates=False
+  - right_nucleus,left_translation_cycle_types,left_inverse_map: 226 clusters; separates=False
+  - right_nucleus,left_translation_cycle_types,right_inverse_map: 226 clusters; separates=False
+  - right_translation_cycle_types,left_translation_cycle_types,left_inverse_map: 228 clusters; separates=False
+  - right_translation_cycle_types,left_translation_cycle_types,right_inverse_map: 228 clusters; separates=False
+
+Top triples without full commutant:
+  - left_translation_cycle_types, right_translation_cycle_types, right_inverse_map: 228 clusters
+  - left_translation_cycle_types, right_translation_cycle_types, left_inverse_map: 228 clusters
+  - right_nucleus, right_translation_cycle_types, right_inverse_map: 227 clusters
+  - right_nucleus, right_translation_cycle_types, left_inverse_map: 227 clusters
+  - right_nucleus, left_translation_cycle_types, right_inverse_map: 226 clusters
+  - right_nucleus, left_translation_cycle_types, left_inverse_map: 226 clusters
+  - middle_nucleus, left_translation_cycle_types, right_inverse_map: 226 clusters
+  - middle_nucleus, left_translation_cycle_types, left_inverse_map: 226 clusters
+  - left_nucleus, left_translation_cycle_types, right_inverse_map: 226 clusters
+  - left_nucleus, left_translation_cycle_types, left_inverse_map: 226 clusters
+
+Key collision for commutant_size + left_translation_cycle_types + left_inverse_map:
+  - lines [10, 1955]

@@ -1,0 +1,25 @@
+Complete n=10 QQQ Row1/cell cube cover
+
+top_level_cases: 15
+second_level_cubes: 105
+cube_count_distribution: 15 cases x 7 cubes
+fff_cover: 12 parents x 7 cubes = 84 cubes
+complete: true
+pairwise_disjoint: true
+correction: 12 even-cycle cases do not cover QQQ; 5+3+2 adds 3 cases.
+
+n10_qqq_row1_case_01_z10_10: partition=10, zero_cycle=10, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_02_z8_8_2: partition=8+2, zero_cycle=8, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_03_z2_8_2: partition=8+2, zero_cycle=2, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_04_z6_6_4: partition=6+4, zero_cycle=6, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_05_z4_6_4: partition=6+4, zero_cycle=4, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_06_z6_6_2_2: partition=6+2+2, zero_cycle=6, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_07_z2_6_2_2: partition=6+2+2, zero_cycle=2, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_08_z4_4_4_2: partition=4+4+2, zero_cycle=4, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_09_z2_4_4_2: partition=4+4+2, zero_cycle=2, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_10_z4_4_2_2_2: partition=4+2+2+2, zero_cycle=4, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_11_z2_4_2_2_2: partition=4+2+2+2, zero_cycle=2, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_12_z2_2_2_2_2_2: partition=2+2+2+2+2, zero_cycle=2, cubes=7, qqq_only_not_row_f=false
+n10_qqq_row1_case_13_z5_5_3_2: partition=5+3+2, zero_cycle=5, cubes=7, qqq_only_not_row_f=true
+n10_qqq_row1_case_14_z3_5_3_2: partition=5+3+2, zero_cycle=3, cubes=7, qqq_only_not_row_f=true
+n10_qqq_row1_case_15_z2_5_3_2: partition=5+3+2, zero_cycle=2, cubes=7, qqq_only_not_row_f=true

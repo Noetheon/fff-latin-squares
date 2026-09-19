@@ -1,0 +1,11 @@
+FFF cell-local cycle-incidence census
+
+Exact audits:
+- n=6: 9408 tables, patterns={'FFT': 936, 'FTF': 936, 'TFF': 936, 'TTT': 6600}, identity_errors=0, sign_cut_errors=0.
+- n=8: 283657 tables, patterns={'FFF': 230, 'FFT': 81, 'FTF': 40, 'FTT': 315, 'TFF': 133, 'TFT': 209, 'TTF': 232, 'TTT': 282417}, FFF=230, distinct_FFF_incidence_signatures=226, identity_errors=0, sign_cut_errors=0.
+- tracked n=10: 135 tables, patterns={'FFT': 127, 'FTT': 1, 'TFT': 2, 'TTT': 5}, kept=127, distinct_kept_incidence_signatures=48, identity_errors=0, sign_cut_errors=0.
+
+Conservative conclusion:
+- C70 identities and the full line-pair sign cut hold on every scanned table.
+- Finite incidence-signature variation is census evidence, not an order-10 theorem.
+- C38 remains open and C40 remains absent.

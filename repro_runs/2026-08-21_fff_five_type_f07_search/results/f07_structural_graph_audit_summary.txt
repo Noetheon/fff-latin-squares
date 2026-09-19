@@ -1,0 +1,8 @@
+Four-type graph structural audit
+
+graph SHA-256: 08eba5ca2739afa594c620bd6ba620f3b16c96805f9929f969e44e398e97ff12
+size actual/expected: 549129626/549129626
+vertices/words: 66240/1035
+diagonal/padding errors: 0/0
+errors: 0
+valid: true

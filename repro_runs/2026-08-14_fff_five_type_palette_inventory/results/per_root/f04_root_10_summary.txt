@@ -1,0 +1,6 @@
+f04 root 10
+unfiltered/level1 candidates: 73800/55340
+initial tasks: 5839
+residual group/orbits: 1/5839
+covered tasks: 5839
+valid: true

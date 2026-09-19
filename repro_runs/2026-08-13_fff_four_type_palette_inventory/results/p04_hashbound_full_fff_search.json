@@ -1,0 +1,13 @@
+{
+  "label": "p04_hashbound",
+  "mode": "full",
+  "workers": 5,
+  "total_initial_tasks": 6946,
+  "task_start": 0,
+  "task_end_exclusive": 6946,
+  "completed_tasks": 6946,
+  "search_nodes": 268447083,
+  "crossview_odd_cycle_prunes": 130062962,
+  "fff_found": false,
+  "slice_complete": true
+}

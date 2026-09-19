@@ -1,0 +1,9 @@
+Independent pair-block projection CP-SAT cross-check
+
+p: 5
+degree: 10
+variables: 32580
+constraints: 43256
+result: timeout
+elapsed_seconds: 120.010168
+proof_certificate_available: false

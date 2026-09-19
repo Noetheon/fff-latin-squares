@@ -1,0 +1,16 @@
+{
+  "stored_vertices": 101952,
+  "independently_enumerated_vertices": 101952,
+  "candidate_list_errors": 0,
+  "pairs_checked": 5197054176,
+  "edges": 410235456,
+  "edge_errors": 0,
+  "reverse_edge_errors": 0,
+  "format_errors": 0,
+  "diagonal_errors": 0,
+  "padding_errors": 0,
+  "canonical_root_errors": 0,
+  "crossview_filter_level": 2,
+  "workers": 8,
+  "valid": true
+}

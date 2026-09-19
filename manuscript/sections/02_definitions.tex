@@ -1,0 +1,248 @@
+\section{Definitions and invariance}
+
+Let $X$ be a set of size $n$.  A \emph{Latin square} on $X$ is a map
+$L\colon X\times X\to X$ such that every row and every column is a bijection.
+For $a,c,u\in X$, define the row, column, and symbol-line bijections
+\[
+ r_a(c)=L(a,c),\qquad
+ q_c(a)=L(a,c),\qquad
+ s_u(c)=\text{the unique }a\text{ such that }L(a,c)=u.
+\]
+For two lines in the corresponding view, put
+\[
+ \rho_{a,b}=r_b^{-1}r_a,\qquad
+ \kappa_{c,d}=q_d^{-1}q_c,\qquad
+ \sigma_{u,v}=s_v^{-1}s_u.
+\]
+All three permutations act on an $n$-element complementary coordinate set.
+
+\begin{lemma}\label{lem:fixed-point-free}
+If the two lines are distinct, the corresponding induced permutation is
+fixed-point-free.
+\end{lemma}
+
+\begin{proof}
+A fixed point of $\rho_{a,b}$ would give $L(a,c)=L(b,c)$ in one column,
+contrary to the Latin property.  The column case is identical.  A fixed point
+of $\sigma_{u,v}$ would say that the same cell contains the two distinct
+symbols $u$ and $v$.
+\end{proof}
+
+\begin{definition}
+A view of $L$ \emph{fails} if one of its induced two-line permutations has an
+odd cycle of length greater than one.  Write
+\[
+ \pat(L)=(\rowv(L),\colv(L),\symv(L))\in\{F,T\}^3,
+\]
+where $T$ means that the view fails.  A square is \emph{FFF} if
+$\pat(L)=\FFF$.
+\end{definition}
+
+The terminology ``fails'' is chosen from the perspective of the local-trade
+program: a $T$ view supplies an odd-cycle trade, while an $F$ view does not.
+
+\begin{definition}
+Fix two rows $a\ne b$ and a union $C$ of cycles of $\rho_{a,b}$.  The
+associated \emph{two-line trade} swaps the entries in rows $a,b$ in precisely
+the columns in $C$.  Column- and symbol-view trades are defined by permuting
+the coordinate roles.
+\end{definition}
+
+\begin{proposition}\label{prop:trade}
+A two-line trade produces another Latin square.  Define the three line-sign
+products
+\[
+ R(L)=\prod_a\operatorname{sgn}(r_a),\qquad
+ C(L)=\prod_c\operatorname{sgn}(q_c),\qquad
+ S(L)=\prod_u\operatorname{sgn}(s_u),
+\]
+and put
+\[
+ \epsilon_{RC}=RC,\qquad \epsilon_{RS}=RS,\qquad \epsilon_{CS}=CS.
+\]
+The first is the conventional row--column Latin sign, while the other two
+are its parastrophic companions.  If a trade has support size $k$ and
+$\delta=(-1)^k$, then its sign ratios are
+\[
+\begin{array}{c|ccc|ccc}
+\text{trade view} & R'/R&C'/C&S'/S&
+ \epsilon'_{RC}/\epsilon_{RC}&\epsilon'_{RS}/\epsilon_{RS}&
+ \epsilon'_{CS}/\epsilon_{CS}\\
+\hline
+\rowv    &1&\delta&\delta&\delta&\delta&1\\
+\colv    &\delta&1&\delta&\delta&1&\delta\\
+\symv    &\delta&\delta&1&1&\delta&\delta
+\end{array}
+\]
+Consequently an odd row- or column-view trade reverses the conventional
+$\epsilon_{RC}$, whereas an odd symbol-view trade preserves $\epsilon_{RC}$
+and reverses $\epsilon_{RS}$ and $\epsilon_{CS}$.
+\end{proposition}
+
+\begin{proof}
+Write $\pi=\rho_{a,b}$.  Since $r_a(c)=r_b(\pi(c))$ and $C$ is
+$\pi$-invariant, the two rows contain the same symbol set on $C$.  Swapping
+those entries therefore preserves both row symbol sets, while each affected
+column merely swaps two entries.  Thus the result is Latin.
+
+Extend $\pi|_C$ by the identity outside $C$.  The two changed row
+permutations are obtained by precomposition with $\pi$ and $\pi^{-1}$, so
+their sign changes cancel and $R'/R=1$.  Each of the $|C|$ affected column
+permutations is composed with a transposition, so $C'/C=(-1)^{|C|}$.  The
+same support contains the same $|C|$ symbols in the two rows; each associated
+symbol-position permutation swaps those two rows, giving
+$S'/S=(-1)^{|C|}$.  This proves the first table row.  Exchanging rows and
+columns proves the second.
+
+For a symbol-view trade, each support column swaps the two selected symbols,
+and the cycle relation pairs the affected cells in exactly the same number of
+rows.  Hence $R'/R=C'/C=(-1)^{|C|}$.  The two changed symbol-position
+permutations differ from their predecessors by mutually inverse
+permutations on the support, so their sign changes cancel and $S'/S=1$.
+Multiplying the appropriate line-sign ratios proves the last three columns.
+\end{proof}
+
+\begin{proposition}[Tripartite link formulation]
+\label{prop:tripartite-links}
+Regard the cells of $L$ as the triangle decomposition
+\[
+ \bigl\{\{a,c,L(a,c)\}:a,c\in X\bigr\}
+\]
+of the complete tripartite graph on the row, column, and symbol copies of
+$X$.  The links of the vertices in each part form a 1-factorization between
+the other two parts.  An induced two-line cycle of length $\ell$ corresponds
+bijectively to an alternating cycle of length $2\ell$ in the union of the two
+associated link factors.  Hence $L$ is FFF if and only if every two-factor
+union in all three link factorizations has only cycle lengths divisible by
+four.
+
+Furthermore, the total number of $4$-cycles among the two-factor unions is
+the same in all three views and equals the number of intercalates of $L$.
+\end{proposition}
+
+\begin{proof}
+For a row $a$, its incident triangles give the perfect matching
+$M_a=\{\{c,r_a(c)\}:c\in X\}$ between columns and symbols.  For distinct
+rows $a,b$, alternately following an edge of $M_a$ and an edge of $M_b$
+sends a column $c$ to $r_b^{-1}r_a(c)=\rho_{a,b}(c)$.  Thus an $\ell$-cycle
+of $\rho_{a,b}$ is exactly one alternating $2\ell$-cycle of
+$M_a\cup M_b$.  Cyclically permuting the three coordinate classes proves the
+column and symbol statements and the FFF equivalence.
+
+A $4$-cycle in $M_a\cup M_b$ is exactly a $2$-cycle of $\rho_{a,b}$, hence a
+$2$-by-$2$ Latin subsquare on two rows, two columns, and two symbols.  This is
+an intercalate.  The same intercalate is counted once by its row pair, once by
+its column pair, and once by its symbol pair, proving the three equalities.
+\end{proof}
+
+\begin{lemma}[Global three-view sign identity]
+\label{lem:global-three-view-sign}
+For every Latin square of order $n$,
+\[
+ R(L)C(L)S(L)=(-1)^{\binom n2}.
+\]
+\end{lemma}
+
+\begin{proof}
+Give each coordinate copy of $X$ the same fixed order, and let
+$\tau(x,y)=(y,x)$ on $X^2$.  The $\binom n2$ off-diagonal pairs are the
+transpositions of $\tau$, so
+$\operatorname{sgn}(\tau)=(-1)^{\binom n2}$.
+
+The row-entry map $A(r,c)=(r,L(r,c))$ is block diagonal by rows and has sign
+$R(L)$.  The map $B(r,c)=(c,L(r,c))$ is a coordinate transposition followed
+by the block-diagonal family of column permutations, so its sign is
+$(-1)^{\binom n2}C(L)$.  Likewise, $D(c,s)=(s,s_s(c))$ has sign
+$(-1)^{\binom n2}S(L)$.  Since $A=\tau\circ D\circ B$, taking signs gives
+\[
+ R(L)=(-1)^{3\binom n2}S(L)C(L)
+      =(-1)^{\binom n2}S(L)C(L),
+\]
+which is equivalent to the claimed identity.
+\end{proof}
+
+For later comparison, let $C_{v,k}$ denote the total number of $k$-cycles
+among all induced line-pair permutations in view $v$.
+
+\begin{proposition}[Aggregate cycle-profile baseline]
+\label{prop:aggregate-profile-baseline}
+Let $n$ be even and let $p$ be prime.  If
+\[
+ \sum_{k=2}^n a_kx_k+b=0\pmod p
+\]
+for every cycle-count vector $(x_2,\ldots,x_n)$ of a fixed-point-free
+permutation of degree $n$, then, separately for each view $v$,
+\[
+ \sum_{k=2}^n a_k C_{v,k}+\binom n2 b=0\pmod p.
+\]
+Moreover,
+\[
+ C_{\rowv,2}=C_{\colv,2}=C_{\symv,2}
+\]
+and
+\[
+ \sum_{v\in\{\rowv,\colv,\symv\}}\ \sum_{\substack{2\leq k\leq n\\k\text{ even}}}
+ C_{v,k}=\frac{n(n-1)}2\pmod2.
+\]
+\end{proposition}
+
+\begin{proof}
+The aggregate profile in one view is the sum of the
+$\binom n2$ fixed-point-free line-pair profiles, proving the first identity.
+The second identity is the intercalate bijection from
+Proposition~\ref{prop:tripartite-links}.  For the last identity, the sign of
+a fixed-point-free permutation of even degree is $(-1)^e$, where $e$ is its
+number of even cycles.  Multiplying relative-permutation signs over all line
+pairs in a view gives the product of its line signs.
+Lemma~\ref{lem:global-three-view-sign} gives the product over the three views as
+$(-1)^{n(n-1)/2}$, which proves the congruence.
+\end{proof}
+
+\begin{proposition}[Line-pair sign cut]\label{prop:line-sign-cut}
+Fix one view and write its line bijections as $\lambda_i$.  For
+$P_{ij}=\lambda_j^{-1}\lambda_i$, the pairs for which $P_{ij}$ is odd form
+a cut of the complete graph on the lines.  If $n$ is even and the view is
+F, then the pairs for which $P_{ij}$ has an odd number of cycles form the
+same cut.  Consequently, for even $n>2$, no view can have every induced
+line-pair permutation equal to one $n$-cycle.
+\end{proposition}
+
+\begin{proof}
+Put $\varepsilon_i=\operatorname{sgn}(\lambda_i)$.  Since sign is a
+homomorphism,
+\[
+ \operatorname{sgn}(P_{ij})=\varepsilon_i\varepsilon_j.
+\]
+Thus $P_{ij}$ is odd exactly when the endpoint signs differ.  These pairs
+are the edges of the cut between positive and negative lines.
+
+In an F view of even degree, every cycle of $P_{ij}$ has even length and
+therefore negative sign.  Hence
+$\operatorname{sgn}(P_{ij})=(-1)^{c(P_{ij})}$, where $c(P_{ij})$ is the
+number of cycles.  Finally, if all relative permutations were $n$-cycles,
+every edge would be negative.  A triangle of three lines would then cross
+the sign cut three times, whereas every cut meets a cycle evenly.
+\end{proof}
+
+An \emph{isotopy} independently permutes rows, columns, and symbols.  A
+\emph{parastrophy} permutes the three coordinate roles.  Their combined
+orbits are the \emph{main classes} (also called species).
+
+\begin{proposition}\label{prop:invariance}
+Under isotopy, each of the three view bits is invariant.  Under parastrophy,
+the three bits are permuted.  Consequently, being FFF and having at least one
+failing view are main-class invariants.
+\end{proposition}
+
+\begin{proof}
+Let an isotopy act by permutations $\alpha,\beta,\gamma$ of rows, columns,
+and symbols.  The transformed row maps satisfy
+$r'_{\alpha(a)}=\gamma r_a\beta^{-1}$, and hence
+\[
+ (r'_{\alpha(b)})^{-1}r'_{\alpha(a)}
+   =\beta(r_b^{-1}r_a)\beta^{-1}.
+\]
+Thus row cycle lengths are unchanged.  The column calculation conjugates by
+$\alpha$, and the symbol calculation conjugates by $\beta$.  Parastrophy
+only permutes which coordinate pair is called row, column, or symbol.
+\end{proof}

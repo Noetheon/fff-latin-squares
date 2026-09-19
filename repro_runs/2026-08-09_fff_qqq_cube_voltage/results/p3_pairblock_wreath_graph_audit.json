@@ -1,0 +1,73 @@
+{
+  "candidate_count_excluding_identity": 21,
+  "clique_counts_through_required_size": {
+    "1": 21,
+    "2": 72,
+    "3": 48,
+    "4": 0,
+    "5": 0
+  },
+  "compatible_edge_count": 72,
+  "conclusion": "No row-F sharply transitive family preserving three blocks of size two exists.",
+  "full_wreath_order": 48,
+  "maximum_clique_size": 3,
+  "maximum_family_size_including_identity": 4,
+  "p": 3,
+  "required_family_size": 6,
+  "witnesses": {
+    "1": [
+      [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4
+      ]
+    ],
+    "2": [
+      [
+        1,
+        0,
+        4,
+        5,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        1,
+        0,
+        5,
+        4
+      ]
+    ],
+    "3": [
+      [
+        1,
+        0,
+        4,
+        5,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        1,
+        0,
+        5,
+        4
+      ],
+      [
+        3,
+        2,
+        5,
+        4,
+        1,
+        0
+      ]
+    ]
+  }
+}

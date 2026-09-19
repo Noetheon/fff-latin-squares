@@ -1,0 +1,522 @@
+\noindent\textbf{Historical reproducibility record.} This section describes the underlying research collection, not a promise that every named artifact is in this public export. See the dossier scope statement and the public reproducibility guide for availability.
+\medskip
+
+\section{Computational reproducibility}\label{sec:reproducibility}
+
+The historical research collection separates proofs, frozen data,
+programs, commands, logs, and output manifests.  The principal packages are:
+
+For a compact command-to-output map, the source archive includes
+\nolinkurl{manuscript/REPRODUCIBILITY_QUICKSTART.md}.  It gives one exact
+rerun command and one authoritative output hash for each computational
+theorem.  The command
+\begin{center}
+\small\texttt{python3 }\nolinkurl{repro_runs/2026-08-10_paper_symbol_sign_audit/scripts/audit_manuscript_computational_claims.py}
+\end{center}
+cross-checks all thirteen computational theorem environments against those
+frozen outputs and must report \nolinkurl{overall_pass=true}.
+
+\begin{description}
+\item[Small orders]
+\nolinkurl{repro_runs/2026-04-26_small_order_witness_reruns/}.
+The exact-cover generator freshly enumerates the $1$, $4$, and $9408$ reduced
+squares of orders $2$, $4$, and $6$.  The generation validator confirms
+Latin, reduced, and uniqueness properties and full scan coverage.
+
+\item[Order-$8$ census]
+\nolinkurl{repro_runs/2026-04-26_order8_core/}.
+The full scan completed in $9.67$ wall-clock seconds in the recorded
+environment.  The frozen $5{,}140{,}393$-byte input has SHA-256
+\nolinkurl{e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87}.
+The theorem-relevant output is
+\nolinkurl{results/order8_recheck_fullscan_results.json}, with SHA-256
+\nolinkurl{10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39}.
+
+\item[Group-isotopy closure]
+\nolinkurl{repro_runs/2026-04-26_order8_closure_reconstruction/}.
+It reconstructs the basis-family closure scan and matches the previously
+delivered result objects, including the $5/225$ split.
+
+\item[Direct products]
+\nolinkurl{repro_runs/2026-04-26_direct_product_fff/}.
+In addition to the proof note, the validation checks product permutations and
+least-common-multiple cycle lengths in all views, verifies the OR formula on
+selected products, and checks the group-isotopy equivalence on group/group,
+group/non-group, and non-group/non-group examples.
+
+\item[Subsquare and congruence obstructions]
+\nolinkurl{repro_runs/2026-08-09_fff_subsquare_congruence_obstructions/}.
+The validator scans subsquares of all $230$ frozen FFF representatives,
+exhausts all $512$ binary twists over the cyclic quotient of order $3$, and
+checks all $9408$ reduced order-$6$ squares for congruences.  Exactly $660$
+order-$6$ representatives are congruence-imprimitive, and all $660$ have
+pattern TTT, in agreement with Theorem~\ref{thm:congruence-obstructions}.
+The same package validates the explicit twisted order-$8$ loop as Latin,
+FFF, nonassociative, and not closed at the identity basis.
+
+\item[Cycle-parity obstruction]
+\nolinkurl{repro_runs/2026-08-09_fff_cycle_parity_obstruction/}.
+It scans all $9408$ reduced order-$6$ squares and all $283657$ frozen
+order-$8$ census representatives, checks the degree-$10$ cycle-partition
+classification, and independently validates a frozen low-Q-defect order-$10$
+table.  The heuristic origin of that table is not treated as exhaustive
+evidence.
+
+\item[Primitive degree-$10$ reduction]
+\nolinkurl{repro_runs/2026-08-09_fff_primitive_group_reduction/}.
+The package constructs the seven small primitive degree-$10$ actions and
+checks their exact orders, closure, transitivity, and primitivity.  It
+computes their maximum F-cliques including the identity as
+$1,2,1,2,2,2,4$.  The five nontrivial upper bounds are CaDiCaL-UNSAT and all
+five DRAT traces are independently verified.  The two remaining entries have
+no eligible nonidentity element.  Completeness of the nine-group primitive
+classification remains a cited external mathematical dependency.
+
+\item[Primitive degree-$10$ catalogue freeze]
+\nolinkurl{repro_runs/2026-08-27_fff_primitive_group_classification_freeze/}.
+A GAP 4.16.0/PrimGrp 4.0.3 query records all nine catalogue entries, their
+orders and structure descriptions, together with source-archive hashes and
+dependency commits.  This freezes the invoked catalogue version; correctness
+and completeness of PrimGrp remain the explicit external classification
+assumption.
+
+\item[Order-$10$ cycle-type palettes]
+The lower bound of five types uses the complete palette-exclusion chain
+through
+\nolinkurl{repro_runs/2026-08-14_fff_four_type_p20_search/}.
+The $21$ exact five-type palettes and all $105$ root choices are independently
+audited in
+\nolinkurl{repro_runs/2026-08-14_fff_five_type_palette_inventory/}.
+The twenty-one excluded palettes have separate packages
+\nolinkurl{repro_runs/2026-08-14_fff_five_type_f01_search/},
+\nolinkurl{repro_runs/2026-08-14_fff_five_type_f16_search/},
+\nolinkurl{repro_runs/2026-08-14_fff_five_type_f17_search/},
+\nolinkurl{repro_runs/2026-08-14_fff_five_type_f18_search/},
+\nolinkurl{repro_runs/2026-08-14_fff_five_type_f19_search/},
+\nolinkurl{repro_runs/2026-08-20_fff_five_type_f20_search/},
+\nolinkurl{repro_runs/2026-08-20_fff_five_type_f21_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f02_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f07_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f04_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f03_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f05_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f11_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f06_search/},
+\nolinkurl{repro_runs/2026-08-21_fff_five_type_f12_search/},
+\nolinkurl{repro_runs/2026-08-22_fff_five_type_f08_search/},
+\nolinkurl{repro_runs/2026-08-22_fff_five_type_f13_search/},
+\nolinkurl{repro_runs/2026-08-23_fff_five_type_f14_search/},
+\nolinkurl{repro_runs/2026-08-24_fff_five_type_f09_search/},
+\nolinkurl{repro_runs/2026-08-24_fff_five_type_f10_search/}, and
+\nolinkurl{repro_runs/2026-08-25_fff_five_type_f15_search/}.
+Every package binds its root-orbit cover, graph audit, reduced and unreduced
+searches, and independent clique census to SHA-256 manifests.  Large graph
+and checkpoint files remain outside Git and are hash-bound in the tracked
+reports. These computations exclude all exact five-type palettes; all exact
+six- and seven-type palettes are handled by the following master packages.
+
+\item[Order-$10$ master exclusions]
+\nolinkurl{repro_runs/2026-08-26_fff_six_type_master_inventory/}
+independently inventories the two disjoint normalized families in C++ and
+Python.  The dedicated packages
+\nolinkurl{repro_runs/2026-08-26_fff_six_type_noninvolution_master_search/}
+and
+\nolinkurl{repro_runs/2026-08-26_fff_six_type_involution_master_search/}
+bind the dense graph bytes, complete semantic graph audits, residual-group
+orbit covers, two differently sliced full searches of each representative
+file, exact merge comparisons, positive controls, and fail-closed validators.
+The noninvolution package checks $14855277528$ candidate pairs and searches
+$386$ representatives; the involution package checks $18065108160$ pairs and
+searches $506$ representatives.  Both are complete negative.  Their central
+validators pass $15/15$ checks and their mutation audits $13/13$ checks.  The
+external graphs and checkpoints are retained outside Git and bound by SHA-256
+manifests.
+
+\item[Local Hamming-neighborhood exclusion]
+\nolinkurl{repro_runs/2026-08-09_fff_hamming_neighborhood_obstruction/}.
+The exact V9 FFF encoding is augmented by a sequential counter for cell
+Hamming distance from the best tracked $131/135$ near-model.  The radius-$20$
+formula is CaDiCaL-UNSAT and its DRAT trace is independently verified.  This
+excludes only one fixed-coordinate neighborhood; it is not an order-$10$
+nonexistence result.
+
+\item[Residual column-$1$ symmetry]
+\nolinkurl{repro_runs/2026-08-09_fff_col1_lexleader_symmetry/}.
+After a canonical second row is fixed, the remaining simultaneous
+conjugations act on column $1$.  Lex-leader constraints reduce the previously
+enumerated $27634$ row/column orbit formulas to twelve equisatisfiable
+fixed-row formulas.  An exhaustive comparison checks all $132300$ compatible
+columns and recovers exactly the archived orbit representatives.  All four
+order-$6$ parent formulas are UNSAT with independently verified DRAT traces,
+and a fixed order-$8$ FFF table remains SAT and validates independently.  Two
+bounded order-$10$ pilots time out, so no performance or existence claim is
+drawn from this reduction.
+
+\item[Conditional stabilizer refinement]
+The exhaustive $S_4$ truth audit,
+four checked order-$6$ DRAT gates, and bounded order-$10$ comparison are in
+\nolinkurl{repro_runs/2026-08-09_fff_conditional_row2_lexleader/}.
+
+\item[Cell-local incidence and component overlaps]
+\nolinkurl{repro_runs/2026-08-09_fff_cell_local_incidence_census/}.
+The package checks the cell-local cycle-incidence identities and the
+line-pair sign cut on all $9408$ reduced
+order-$6$ squares, all $283657$ frozen order-$8$ representatives, and the
+tracked 135-table order-$10$ corpus.  It then evaluates cycle-component
+support-overlap invariants on all 230 order-$8$ FFF representatives.  The
+weighted structural $1$-WL fingerprint has 229 values; this is an exact
+finite invariant, not a complete graph-isomorphism or order-$10$ result.
+
+\item[Three-coloured flag surface]
+\nolinkurl{repro_runs/2026-08-09_fff_flag_surface_audit/}.
+The package checks all flag-edge, link, Euler, Gram, and dual-word identities
+on all $9408$ reduced order-$6$ squares, all $283657$ frozen order-$8$
+representatives, and the tracked 135-table order-$10$ partial corpus.  The
+order-$8$ census uses eight independent workers and reports zero identity
+errors.  A second implementation independently recomputes the rainbow-square
+trace on all 230 FFF representatives with zero mismatches.  Together with
+the cell-local cycle-incidence signature, this trace gives 230 distinct
+values on the frozen FFF
+census; no higher-order completeness is inferred.
+
+\item[Exact flag-realizability projection]
+\nolinkurl{repro_runs/2026-08-09_fff_flag_realizability_projection/}.
+The package checks the exact atom Gram rank controls, integral Schur formula,
+forced kernels, one- and two-atom PSD consequences, mixed-word topology, and
+FFF Euler/sign-cut consequences.  It covers all four reduced order-$4$
+squares, all $9408$ reduced order-$6$ squares, all 230 frozen order-$8$ FFF
+representatives, and 135 tracked order-$10$ partial tables: $37871017$ atom
+pairs give zero errors.  The associated size audit stops the naive
+atom-support SAT architecture.  A separate exact constructor gives the
+decoupled $900$-flag aggregate consistency witness described in Section~2.
+It lacks compatible line-pair/flag-incidence labels as well as common
+cell-coordinate support.  The witness is not a Latin square and the package
+is not an order-$10$ decision.
+
+\item[Global common modes and exact Schur nullity]
+\nolinkurl{repro_runs/2026-08-11_fff_global_common_mode/}.
+The package computes the global atom/cell intersection independently from
+the joint incidence matrix and the stacked component-gradient system over
+two large prime fields.  Integer witnesses certify every nonconstant
+rational direction.  It also checks the endpoint-contraction, line-balance,
+trade-space centering, and atom-only kernel identities on all stored basis
+witnesses and verifies the predicted atom-only nullity on every audited
+table.  The $135$ order-$10$ inputs are a tracked diagnostic corpus, not an
+exhaustive census.
+
+\item[Labelled line-pair incidence]
+\nolinkurl{repro_runs/2026-08-09_fff_labelled_flag_incidence/}.
+The package reconstructs $1918172$ flag-label triples on all four reduced
+order-$4$ squares, all $9408$ reduced order-$6$ squares, all 230 frozen
+order-$8$ FFF representatives, and 135 tracked order-$10$ partial tables.
+It checks $7711917$ pair-matrix entries against an independent edge-lift
+construction, $921954$ two-factor profiles, and selected direct Gram ranks
+and traces, with zero errors.  It also computes the exact 230-class
+pair-triangle classifier in Computational
+Theorem~\ref{cthm:pair-triangle-classifier}.  Neither the tracked order-$10$
+sample nor the pair-label conditions constitute an order-$10$ decision.
+
+\item[Common-mode occupied-cell exchange lattice]
+\nolinkurl{repro_runs/2026-08-11_fff_common_mode_trade_lattice/}.
+The package enumerates all balanced $3+3$ and $4+4$ exchanges on all $9408$
+reduced order-$6$ Latin squares.  SymPy computes exact Smith/Hermite forms in
+saturated kernel coordinates; an independent Python-FLINT implementation
+recomputes ambient normal forms and three modular ranks.  A separate
+saturation audit removes dependence on the stored global-common-mode
+certificate basis and
+verifies the $180$ index-two common-mode quotients.  All $180$ stored
+$6+6$ completions are checked independently.  This is an order-$6$ census,
+not an order-$10$ decision.
+
+\item[Intrinsic occupied-cell exchange parity]
+\nolinkurl{repro_runs/2026-08-11_fff_intrinsic_exchange_parity/}.
+The package canonically partitions all $9408$ reduced order-$6$ squares into
+$12$ main classes and audits the intrinsic binary covector on all $3960$
+rank-$19$ tables using eight workers.  The three rank-$19$ main classes have
+distinct minimum-weight/count signatures $7/12$, $9/80$, and $9/160$.  A
+separate implementation rebuilds the balanced $4+4$ supports and binary
+elimination on each class representative, checks the complete source
+partition, and reports zero errors.  The 180 common-mode exceptions form
+exactly the final class.  This is an order-$6$ classification, not an
+order-$10$ decision.
+
+\item[Exchange-parity controls]
+\nolinkurl{repro_runs/2026-08-11_fff_exchange_parity_controls/}.
+The primary implementation enumerates every balanced $4+4$ occupied-cell
+exchange on all $230$ frozen order-$8$ FFF representatives and all $135$
+tracked order-$10$ diagnostic tables.  It uses eight workers for the
+order-$8$ jobs and two workers for the measured memory-heavy order-$10$ jobs.
+A separate packed-profile implementation recomputes all $230$ order-$8$
+records and four order-$10$ pattern representatives with independent binary
+elimination and zero discrepancies.  The order-$8$ quotient distribution is
+$q_4=0:39,1:147,2:35,3:9$; source line $170$ is stored as an explicit FFF
+$q_4=0$ witness.  The order-$10$ records are diagnostic only.
+
+\item[Binary line kernel and half-order subsquares]
+\nolinkurl{repro_runs/2026-08-11_fff_binary_homotopy_subsquares/}.
+With eight independent table workers, the audit constructs every nonzero
+binary line-kernel quotient class and its four predicted half-order
+subsquares, then independently enumerates all half-order subsquares by
+row/column subsets.  The two sets agree exactly on all $9778$ tested tables:
+the complete reduced orders $2$, $4$, and $6$, all $230$ frozen order-$8$
+FFF representatives, and the $135$ tracked order-$10$ diagnostics.  A
+separate semantic verifier reproduces the earlier order-$8$ subsquare
+distribution and reports zero errors.  The theorem is proved independently;
+the order-$10$ corpus remains partial and supplies no existence decision.
+
+\item[Prime-field line quotients]
+\nolinkurl{repro_runs/2026-08-11_fff_prime_field_line_quotients/}.
+The eight-worker audit computes ranks over five prime fields on $9778$
+tables and checks all $1160$ nonuniversal quotient classes for balanced
+fibres, occupied-cell equations, and the predicted normalized-view block
+transports.  A separately implemented sparse elimination rebuilds all
+$48890$ modular ranks.  Both implementations report zero errors.  All $135$
+tracked order-$10$ diagnostics are already saturated; this is a control, not
+an existence or nonexistence result.
+
+\item[Full pair-label tensor]
+\nolinkurl{repro_runs/2026-08-09_fff_pair_label_tensor/}.
+The audit checks $7711917$ complete two-label fibers against the exact
+$0/[1,1]/[4]$ completion law and compares $460977$ pair-label vertex links
+with independently reconstructed two-line cycle profiles.  A further
+$2877258$ endpoint-contraction fibers reconstruct $1100916$ named row,
+column, and symbol line entries exactly.  It covers all
+four reduced order-$4$ squares, all $9408$ reduced order-$6$ squares, all
+230 frozen order-$8$ FFF representatives, and the tracked 135-table
+order-$10$ partial corpus, with zero errors.  The final corpus is diagnostic,
+not exhaustive.
+
+\item[Endpoint-contraction characterization]
+\nolinkurl{repro_runs/2026-08-09_fff_endpoint_contraction_gates/}.
+The package encodes the abstract fibre and endpoint axioms without Latin-cell
+variables.  Free orders $3$, $4$, and $5$ decode to a common Latin square and
+reproduce their tensor exactly.  Canonical negations of sharp transitivity,
+row/column compatibility, and row/symbol compatibility are UNSAT through
+order $6$; their DRAT traces are independently checked.  These finite checks
+audit Theorem~\ref{thm:endpoint-characterization}; the theorem itself is
+proved combinatorially, and the dense small-order formulas are not an
+order-$10$ search architecture.
+
+\item[Pair-tensor Smith obstruction]
+\nolinkurl{repro_runs/2026-08-10_fff_pair_tensor_smith_obstruction/}.
+The package independently computes every active tensor-slice rank over
+$\mathbb F_2$ and $\mathbb F_{1000003}$ on $9777$ frozen tables.  All
+$460977$ slices satisfy the Smith rank-gap formula and reproduce the direct
+three-view failure pattern, with zero errors.  The global binary flattening
+ranks are diagnostic only, and the tracked order-$10$ sample is not
+exhaustive.
+
+\item[Triple endpoint contraction]
+\nolinkurl{repro_runs/2026-08-11_fff_triple_endpoint_parity/}.
+The package constructs $D$ independently from the aggregated pair-label
+tensor of Proposition~\ref{prop:pair-label-tensor} and
+from a direct ordered-flag enumeration.  Across $9777$ frozen tables it
+checks $1100916$ endpoint lines, $366972$ Latin-cell values, and $366972$
+complementary masses, with zero errors.  The binary support and mode-rank
+distributions of the tracked order-$10$ partial corpus are diagnostic only.
+
+\item[Sparse endpoint-record overlay]
+\nolinkurl{repro_runs/2026-08-09_fff_sparse_endpoint_record_overlay/}.
+The package extracts the complete local fibre records from all three
+conjugate Latin tables and verifies their common pair-label tensor.  The order-$6$
+negative and fixed order-$8$ negative gates have independently checked DRAT
+traces; two fixed order-$8$ positive gates are decoded and validated in all
+three orientations, including a cyclic example that exercises the
+multiplicity-one completion branch.  Its exact size audit shows that this
+definitional layer is larger than the direct line-pair colouring encoding,
+so the package contains no
+order-$10$ solver run.
+
+\item[Intrinsic endpoint edge-lift recognition]
+\nolinkurl{repro_runs/2026-08-10_fff_intrinsic_edge_lift_recognition/}.
+The package enumerates every automorphism of $L(K_n)$ through order $8$,
+checks $178914$ endpoint maps reconstructed directly from pair-label-tensor
+contractions,
+and verifies the sharp order-$4$ complement exception against all $576$
+labelled order-$4$ Latin squares.  The proof of
+Proposition~\ref{prop:intrinsic-edge-lift} is combinatorial.  A transparent
+size comparison shows that the naive intrinsic order-$10$ one-hot translation
+has many more clauses than the explicit point-lift layer, so no solver run is
+started from it.
+
+\item[Odd-subset collision characterization]
+\nolinkurl{repro_runs/2026-08-10_fff_odd_subset_collision_encoding/}.
+The corpus audit checks Theorem~\ref{thm:odd-subset-collision} on $9773$
+Latin squares, $29319$ views, and $2998860$ induced subset images, with no
+equivalence mismatch.  The plain and redundant-colour order-$6$ formulas are
+CaDiCaL-UNSAT and both DRAT traces are independently verified.  A fixed
+order-$8$ FFF table is SAT in both formulations and independently validates
+as Latin, reduced, and FFF; a fixed non-FFF table is UNSAT with an
+independently verified DRAT trace.  In one fixed order-$10$ row/column split,
+the plain and redundant-colour formulas both time out under CaDiCaL and
+Kissat at $300$ seconds.  These four timeouts are engineering measurements,
+not mathematical evidence for unsatisfiability.
+
+The same package computes the full scalar irreducible character table of
+$S_{10}$ and audits the associated normal-Cayley relaxation.  The standard
+character gives only the sharp-transitivity bound $|S|\leq10$, attained by
+every Latin line family.  An exact one-view profile from the frozen
+order-$10$ diagnostic corpus remains feasible when copied into all three
+views and combined with the known sign-parity and intercalate-equality
+aggregates.  Thus those scalar character inequalities and aggregates do not
+decide order $10$; the witness is not an FFF Latin square.
+
+\item[Colour-parity holonomy]
+\nolinkurl{repro_runs/2026-08-11_fff_color_parity_holonomy/}.
+The package constructs the dual flag cellulation on all four reduced
+order-$4$ squares, all $9408$ reduced order-$6$ squares, all $230$ frozen
+order-$8$ FFF representatives, and all $135$ tracked order-$10$ partial
+tables.  It checks $784315$ atoms, $1918172$ flags, $1568630$ boundary
+colour counts, and $93662$ FFF-component holonomy quotients with no error.
+The same run computes the canonical main-class holonomy profile: it has
+$152$ values on the $230$ order-$8$ FFF representatives, of which $109$ are
+singletons.  The order-$10$ records are diagnostic only.
+
+\item[Holonomy-to-cell intercalate coupling]
+\nolinkurl{repro_runs/2026-08-11_fff_holonomy_cell_intercalate/}.
+The package independently reconstructs all $92472$ intercalate components
+in the same $9777$ frozen tables.  It checks $277416$ oriented cell vectors,
+$369888$ pointwise product values, and $366972$ cell-degree identities with
+no error.  This audits the complete multiplicity-four layer of
+Theorem~\ref{thm:holonomy-cell-lift}; the order-$10$ records remain
+diagnostic only.
+
+\item[Exact-mask cell pushforwards]
+\nolinkurl{repro_runs/2026-08-11_fff_exact_mask_cell_pushforward/}.
+Across all $104645$ flag components in the frozen $9777$ tables, the package
+checks $8631774$ cell-role involutions, $285399$ exact-mask pushforwards, and
+$571632$ forced zero marginals with no error.  The order-$10$ records remain
+diagnostic only.
+
+\item[Cellwise holonomy Fourier transform]
+\nolinkurl{repro_runs/2026-08-11_fff_cellwise_holonomy_fourier/}.
+The package checks $390044$ compatible potentials, $756704$ component-cell
+incidences, $2039916$ transforms, the same number of inversions, and $756704$
+Parseval identities with no error.  The order-$10$ records remain diagnostic.
+
+\item[Affine cell-role transport]
+\nolinkurl{repro_runs/2026-08-11_fff_cell_role_affine_transport/}.
+The package checks $6119748$ affine role transports, $2039916$ orientation-
+displacement invariances, and $756704$ local divisibility conditions with no
+error.  The order-$10$ records remain diagnostic.
+
+\item[Cross-component cell parity]
+\nolinkurl{repro_runs/2026-08-11_fff_cross_component_cell_parity/}.
+The package checks $2011440$ exact component-line/dual-edge identities and
+their parity consequences, plus $366972$ each of the global cell cover,
+intercalate refinement, and multiplicity-one endpoint parity decomposition,
+with no error.  The order-$10$ records remain diagnostic.
+
+\item[Gauge-invariant cell lift]
+\nolinkurl{repro_runs/2026-08-11_fff_gauge_invariant_cell_lift/}.
+The package checks $6119748$ role-Fourier identities, $71672$ pointwise
+odd-mask zero values, $403122$ cubic congruences, and $1612488$ gauge
+transformations with no theorem error.  It also records $25828$ exact
+counterexamples to the naive global cubic sum; the order-$10$ records remain
+diagnostic.
+
+\item[Quadratic Gram lift and gauge obstruction]
+\nolinkurl{repro_runs/2026-08-11_fff_component_gram_lift/}.
+The package checks $15876164$ off-diagonal Fourier identities, $43457616$
+Gram-entry parity identities, $13710864$ line-kernel identities, and the
+explicit Klein-four equivariant-anchor obstruction with no error.  It records
+$179048$ odd dimension-zero component-cell incidences as the exact blind
+layer of nontrivial mask lifts; the order-$10$ records remain diagnostic.
+
+\item[Component cell-edge partition]
+\nolinkurl{repro_runs/2026-08-11_fff_component_edge_partition/}.
+The package checks $15876164$ component cell-Gram entries, $13230696$
+Erdos--Gallai inequalities, $2877258$ dual-edge/global edge-partition
+incidences, and $1100916$ triple-endpoint residual degrees on all $9777$
+frozen control
+tables with no error.  It includes all $8788$ exact-mask dimension-zero
+components; the order-$10$ records remain diagnostic.
+
+\item[Orientable cell-companion surfaces]
+\nolinkurl{repro_runs/2026-08-11_fff_cell_companion_surface/}.
+The package checks $2877258$ opposite face orientations, $5754516$ local
+link degrees and colour-neighbour sets, $858970$ three-periodic link cycles,
+$104645$ normalized genus formulas, and $92472$ intercalate spheres on the
+$9777$ frozen control tables with no error.  The order-$10$ records remain
+diagnostic.
+
+\item[Normalized cell-incidence rank]
+\nolinkurl{repro_runs/2026-08-11_fff_normalized_cell_rank/}.
+The package independently compares normalized corner orbits with the
+cell-link components of Theorem~\ref{thm:cell-companion-surface} and checks
+$104645$ exact binary ranks, $14142187$
+normalized Gram entries, $1918172$ row factorizations, and $8316434$ Gram
+aggregations on all $9777$ frozen control tables with no error.  It records
+$2160$ order-$6$ components with $q_F=3$ and one order-$8$ FFF component with
+$q_F=2$; these are corpus observations, while the rank theorem is proved
+independently.
+
+\item[Joint atom/cell incidence rank]
+\nolinkurl{repro_runs/2026-08-11_fff_joint_atom_cell_rank/}.
+The package certifies the rational intersection dimensions of the exact atom
+and normalized-cell face-signal spaces from
+Theorems~\ref{thm:flag-atom-projection} and
+\ref{thm:normalized-cell-rank} on all $104645$ components of the
+$9777$ frozen tables.  It stores $1113$ explicit integer nonconstant common
+face-mode witnesses and reports no certification error.  On the $230$
+order-$8$ FFF representatives its component profile has $201$ values, $176$
+singletons, and maximum collision size three; combining it with the canonical
+holonomy profile of Computational Theorem~\ref{cthm:holonomy-profile} gives
+$202$ values and $178$ singletons.  The $135$ tracked order-$10$ tables are
+diagnostic only.
+
+\item[Common-mode gradient characterization]
+\nolinkurl{repro_runs/2026-08-11_fff_common_mode_gradient/}.
+The package constructs the three atom-transition multigraphs and the
+normalized and coarse opposite-potential edge systems on all $104645$
+components of the $9777$ frozen tables.  It checks $2877258$ dual edges,
+certifies $1111$ nonconstant integer coarse common-mode witnesses, and
+reports no error.  All $1080$ exceptional order-$6$ components are coarse;
+exactly one observed order-$8$ component has positive sheet-only quotient
+dimension, namely source $1955$, component $4$, with $(s_F,t_F,\eta_F)=(3,1,2)$.
+These finite uniqueness and $p_F=q_F$ observations are not universal claims,
+and the $135$ order-$10$ tables remain diagnostic only.
+
+\item[External-input release audit]
+\nolinkurl{repro_runs/2026-08-09_paper_release_audit/}.
+It downloads the three cited ANU/Wanless inputs afresh, compares them with the
+frozen files, and compares the independently generated order-$6$ set with the
+official $9408$-square file.
+
+\item[Paper sign and theorem audit]
+\nolinkurl{repro_runs/2026-08-10_paper_symbol_sign_audit/}.
+It exhaustively checks $1028307$ two-line trades on all reduced Latin squares
+of orders $2$, $4$, and $6$, with zero sign-table failures.  It also supplies
+an explicit odd symbol-view trade that preserves the conventional
+row--column sign, and independently checks every computational theorem in
+this manuscript against its frozen result object.
+\end{description}
+
+Every package contains a README, exact commands, an environment record, input
+and output manifests, and a package-level SHA-256 manifest.  Paths and elapsed
+times are treated as volatile comparison fields; pattern counts, witness
+sets, group-isotopy flags, and input hashes are not normalized away.
+
+The computations use ordinary Python integer and permutation operations; no
+random sampling enters Computational Theorems~\ref{cthm:small-orders}
+or~\ref{cthm:order8}.  The repository also contains direct SAT/CP existence
+investigations of order $10$, but those particular runs are deliberately
+excluded from the theorem set because they end in timeouts rather than a
+validated FFF model or a complete unsatisfiability certificate.  Order-$10$
+nonexistence is established instead by the two complete cycle-palette master
+searches in Computational Theorem~\ref{cthm:order10-nonexistence}.  The bounded
+primitive-group clique computations are different again: their small finite
+formulas are decided and independently proof-checked.
+
+\subsection*{Data and code availability}
+The historical collection retains the custom source programs, frozen small
+inputs, solver commands, validation outputs, proof-check logs, and SHA-256
+manifests used for the stated computational theorems.  The two large generated
+order-$10$ graph files and their checkpoint trees are retained outside Git;
+their hashes, sizes, builders, complete semantic graph audits, and path-configurable
+rebuild commands are recorded in the corresponding repro packages.  The
+external ANU and Wanless census files remain available from the cited data
+pages; the exact frozen copies used here are identified by cryptographic
+hashes and by the release audit above.  Solver binaries and third-party software environments are not included in the public export.  A
+persistent DOI archive containing or durably linking the large external graph
+artifacts has not yet been deposited and remains a pre-submission task.

@@ -1,0 +1,39 @@
+{
+  "cnf": {
+    "path": "/tmp/order8_n10_qqq_case13_r3c1_s0.cnf",
+    "sha256": "a636ef41622eb098f9742abff4da85099536792a41c86e728a3b6e6e3ee9240d",
+    "size_bytes": 54390284
+  },
+  "elapsed_seconds": 120.0085859298706,
+  "model": {
+    "available": false,
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/n10_qqq_case13_r3c1_s0_cadical.model",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "proof": {
+    "complete_unsat_trace": false,
+    "independently_checked": false,
+    "path": null,
+    "sha256": null,
+    "size_bytes": null
+  },
+  "result": "timeout",
+  "returncode": null,
+  "solver": {
+    "command": [
+      "/opt/homebrew/bin/cadical",
+      "/tmp/order8_n10_qqq_case13_r3c1_s0.cnf"
+    ],
+    "path": "/opt/homebrew/bin/cadical",
+    "version": "3.0.0"
+  },
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/logs/n10_qqq_case13_r3c1_s0_cadical.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/logs/n10_qqq_case13_r3c1_s0_cadical.stdout.log",
+    "sha256": "ed8466dc40a6271e4999c7877a7b218c9ab8054707ab69dce043fa56a679aab6"
+  },
+  "timeout_seconds": 120.0
+}

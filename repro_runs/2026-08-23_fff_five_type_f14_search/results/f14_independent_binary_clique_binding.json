@@ -1,0 +1,85 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "f14_complete_task_cover": true,
+    "f14_exact_palette_count_bounded": true,
+    "f14_graph_hash": true,
+    "f14_no_fff": true,
+    "f14_pattern_partition": true,
+    "f14_result_valid": true,
+    "f18_control_counts": true,
+    "f18_control_valid": true,
+    "f18_graph_hash": true,
+    "f18_matches_independent_cliquer_audit": true
+  },
+  "commands": {
+    "compile": [
+      "/usr/bin/clang++",
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4",
+      "repro_runs/2026-08-23_fff_five_type_f14_search/scripts/enumerate_binary_graph_clique_tables.cpp",
+      "-o",
+      "/tmp/order8_f14/enumerate_cliques"
+    ],
+    "f14_run": [
+      "/tmp/order8_f14/enumerate_cliques",
+      "external/Order8_external_graphs/2026-08-23_five_type/f14/f14.bin",
+      "10",
+      "4+2+2+2",
+      "6+2+2",
+      "6+4",
+      "8+2",
+      "8"
+    ],
+    "f18_control": [
+      "/tmp/order8_f14/enumerate_cliques",
+      "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+4",
+      "8+2",
+      "8"
+    ]
+  },
+  "files": {
+    "binary": {
+      "path": "/private/tmp/order8_f14/enumerate_cliques",
+      "sha256": "26cfc77d53f963c6ae287427e048e836fe145aeee92aaace63094705a2249827",
+      "size_bytes": 60528
+    },
+    "f14_graph": {
+      "path": "external/Order8_external_graphs/2026-08-23_five_type/f14/f14.bin",
+      "sha256": "18bae6616c5ff5ae053761d4baae826b506510cab6a1098e361e472cec25bf88",
+      "size_bytes": 2823610586
+    },
+    "f14_result": {
+      "path": "repro_runs/2026-08-23_fff_five_type_f14_search/results/f14_binary_clique_table_audit.json",
+      "sha256": "93a8f0c3008467bc50ba9f8ac96ed8f6964124aec6d7496ae57a049b57098db9",
+      "size_bytes": 361
+    },
+    "f18_graph": {
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+      "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+      "size_bytes": 51004826
+    },
+    "f18_reference_audit": {
+      "path": "repro_runs/2026-08-23_fff_five_type_f14_search/data/f18_binary_enumerator_control_reference.json",
+      "sha256": "b3bd6730844b00a850233cf02ac6eb69a41865a377586f024810f7c8fdcb98a5",
+      "size_bytes": 1421
+    },
+    "f18_result": {
+      "path": "repro_runs/2026-08-23_fff_five_type_f14_search/results/f18_binary_enumerator_control.json",
+      "sha256": "15cd3558ddb489fa04e560c2f661ea4e3ab4d67b8ee954298193c1ae0493a370",
+      "size_bytes": 335
+    },
+    "source": {
+      "path": "repro_runs/2026-08-23_fff_five_type_f14_search/scripts/enumerate_binary_graph_clique_tables.cpp",
+      "sha256": "df2b08c9109c619ef273cbd7ba5f57cbdca010225452b2a151f8826c97ac908c",
+      "size_bytes": 13906
+    }
+  },
+  "schema_version": "f14-independent-binary-clique-audit-binding-v1"
+}

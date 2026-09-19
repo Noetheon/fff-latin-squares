@@ -1,0 +1,185 @@
+{
+  "base_clause_count": 13830,
+  "best": {
+    "iteration": 31,
+    "profile": {
+      "col": {
+        "failed_pairs": 4,
+        "odd_cycles": 8
+      },
+      "row": {
+        "failed_pairs": 11,
+        "odd_cycles": 22
+      },
+      "sym": {
+        "failed_pairs": 5,
+        "odd_cycles": 10
+      }
+    },
+    "table": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      [
+        2,
+        8,
+        7,
+        0,
+        9,
+        1,
+        4,
+        3,
+        6,
+        5
+      ],
+      [
+        3,
+        4,
+        6,
+        1,
+        2,
+        0,
+        8,
+        9,
+        5,
+        7
+      ],
+      [
+        4,
+        9,
+        1,
+        8,
+        0,
+        7,
+        5,
+        2,
+        3,
+        6
+      ],
+      [
+        5,
+        6,
+        9,
+        7,
+        3,
+        8,
+        0,
+        1,
+        4,
+        2
+      ],
+      [
+        6,
+        2,
+        0,
+        5,
+        1,
+        9,
+        3,
+        8,
+        7,
+        4
+      ],
+      [
+        7,
+        5,
+        8,
+        9,
+        6,
+        2,
+        1,
+        4,
+        0,
+        3
+      ],
+      [
+        8,
+        3,
+        5,
+        4,
+        7,
+        6,
+        9,
+        0,
+        2,
+        1
+      ],
+      [
+        9,
+        7,
+        4,
+        6,
+        8,
+        3,
+        2,
+        5,
+        1,
+        0
+      ]
+    ],
+    "total_failed_pairs": 20
+  },
+  "claim_impact": {
+    "C38": "open",
+    "C40": "not_created"
+  },
+  "elapsed_seconds": 300.0997024590033,
+  "encoding_proof": "proof_notes/fff_lazy_odd_cycle_blocking.md",
+  "equality_variable_count": 3448,
+  "final_clause_count": 147944,
+  "final_cnf": {
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/lazy_cycle_cegar/n10_case12_maplechrono_300.cnf",
+    "sha256": "efa0df78731e56b17893cce304bae462c61f0f8a48977e567042bc8c80f2ae93"
+  },
+  "final_variable_count": 7044,
+  "independent_validation": {
+    "fff": false,
+    "latin": true,
+    "pattern": "TTT",
+    "reduced": true,
+    "sha256": "37346d7cef3026e0fecc72654581a52289f5bd5775b25681447d708f85249c7b"
+  },
+  "iterations": 209,
+  "method": "incremental lazy concrete odd-cycle blocking",
+  "odd_cycle_blocker_count": 13234,
+  "proof_certificate": null,
+  "row1_case_id": "n10_row1_case_12_z2_2_2_2_2_2",
+  "row1_permutation": [
+    1,
+    0,
+    3,
+    2,
+    5,
+    4,
+    7,
+    6,
+    9,
+    8
+  ],
+  "run_id": "2026-08-09_nonpower_fff_cube_refinement",
+  "same_row_variable_count": 2596,
+  "solver": "maplechrono",
+  "status": "timeout",
+  "timeout_seconds": 300.0
+}

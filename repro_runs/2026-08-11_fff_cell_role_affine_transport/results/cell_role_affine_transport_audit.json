@@ -1,0 +1,115 @@
+{
+  "audit_version": "cell_role_affine_transport_v1",
+  "claim_boundary": [
+    "C90 is rigorous and componentwise.",
+    "It does not decide order 10.",
+    "C38 remains open and C40 absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "component_count": 5782,
+      "delta_invariance_checks": 104848,
+      "delta_nonzero_cells": 144,
+      "divisibility_checks": 36184,
+      "equal_role_checks": 36184,
+      "error_count": 0,
+      "errors": [],
+      "incidence_distribution": {
+        "3": 22552,
+        "6": 152,
+        "9": 52,
+        "12": 305,
+        "15": 503,
+        "18": 1836,
+        "21": 3926,
+        "24": 5467,
+        "27": 1391
+      },
+      "name": "order10_tracked_partial",
+      "orientable_cells": 144,
+      "role_transport_checks": 314544,
+      "table_count": 135
+    },
+    "order4_complete": {
+      "component_count": 27,
+      "delta_invariance_checks": 768,
+      "delta_nonzero_cells": 48,
+      "divisibility_checks": 144,
+      "equal_role_checks": 144,
+      "error_count": 0,
+      "errors": [],
+      "incidence_distribution": {
+        "3": 96,
+        "6": 48
+      },
+      "name": "order4_complete",
+      "orientable_cells": 48,
+      "role_transport_checks": 2304,
+      "table_count": 4
+    },
+    "order6_complete": {
+      "component_count": 89068,
+      "delta_invariance_checks": 1674360,
+      "delta_nonzero_cells": 29160,
+      "divisibility_checks": 662400,
+      "equal_role_checks": 662400,
+      "error_count": 0,
+      "errors": [],
+      "incidence_distribution": {
+        "3": 311040,
+        "6": 43200,
+        "9": 57600,
+        "12": 129600,
+        "15": 120960
+      },
+      "name": "order6_complete",
+      "orientable_cells": 25920,
+      "role_transport_checks": 5023080,
+      "table_count": 9408
+    },
+    "order8_fff_complete": {
+      "component_count": 9768,
+      "delta_invariance_checks": 259940,
+      "delta_nonzero_cells": 8912,
+      "divisibility_checks": 57976,
+      "equal_role_checks": 57976,
+      "error_count": 0,
+      "errors": [],
+      "incidence_distribution": {
+        "3": 36200,
+        "6": 10771,
+        "9": 3353,
+        "12": 4935,
+        "15": 1145,
+        "18": 1230,
+        "21": 342
+      },
+      "name": "order8_fff_complete",
+      "orientable_cells": 8848,
+      "role_transport_checks": 779820,
+      "table_count": 230
+    }
+  },
+  "totals": {
+    "component_count": 104645,
+    "delta_invariance_checks": 2039916,
+    "delta_nonzero_cells": 38264,
+    "divisibility_checks": 756704,
+    "equal_role_checks": 756704,
+    "error_count": 0,
+    "incidence_distribution": {
+      "3": 369888,
+      "6": 54171,
+      "9": 61005,
+      "12": 134840,
+      "15": 122608,
+      "18": 3066,
+      "21": 4268,
+      "24": 5467,
+      "27": 1391
+    },
+    "orientable_cells": 34960,
+    "role_transport_checks": 6119748,
+    "table_count": 9777
+  }
+}

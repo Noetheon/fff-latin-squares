@@ -1,0 +1,182 @@
+{
+  "case_ids": [
+    "n10_row1_case_09_z2_4_4_2",
+    "n10_row1_case_10_z4_4_2_2_2",
+    "n10_row1_case_11_z2_4_2_2_2"
+  ],
+  "claim_impact": {
+    "C38": "open",
+    "C40": "not_created"
+  },
+  "decided_cases": [],
+  "max_workers": 6,
+  "method": "Satsuma 1.4 symmetry fixing with reduced assignments retained",
+  "preprocessed_cases": [
+    {
+      "case_id": "n10_row1_case_09_z2_4_4_2",
+      "command": [
+        "/tmp/order8_solver_tools/satsuma/build/satsuma",
+        "fix",
+        "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_09_z2_4_4_2.cnf",
+        "--out-file",
+        "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_09_z2_4_4_2_satsuma_fix_units.cnf",
+        "--add-reduced-as-unit"
+      ],
+      "elapsed_seconds": 0.8071653330116533,
+      "preprocessed": {
+        "clauses": 119584,
+        "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_09_z2_4_4_2_satsuma_fix_units.cnf",
+        "sha256": "c5dd1a628123141ba315a571e97ec54ee0007b2fc1d9c3859eb821545a88c140",
+        "variables": 2350
+      },
+      "source": {
+        "clauses": 340665,
+        "path": "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_09_z2_4_4_2.cnf",
+        "sha256": "0998612cb906c69980101da25b7946757cef9c8e133656144d057d444aa411fd",
+        "variables": 2350
+      },
+      "stderr_sha256": "54590f9690d37659b685491adb49ae41406dd93193e32d6760767348379c95e0",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case_id": "n10_row1_case_10_z4_4_2_2_2",
+      "command": [
+        "/tmp/order8_solver_tools/satsuma/build/satsuma",
+        "fix",
+        "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_10_z4_4_2_2_2.cnf",
+        "--out-file",
+        "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_fix_units.cnf",
+        "--add-reduced-as-unit"
+      ],
+      "elapsed_seconds": 1.0040804170421325,
+      "preprocessed": {
+        "clauses": 116319,
+        "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_fix_units.cnf",
+        "sha256": "2485229ccdb297339f28c673f5b5c6efff79b3496b630eada9b23bf4afe218f2",
+        "variables": 2350
+      },
+      "source": {
+        "clauses": 340665,
+        "path": "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_10_z4_4_2_2_2.cnf",
+        "sha256": "f81918274625f05a5fae8a8470f474d355dab0f83e2a338a4ac8242c32b7f472",
+        "variables": 2350
+      },
+      "stderr_sha256": "a0ca1f19dd79e0e49c8b9855ace0c3363a4ad413874018ef5c59ba70ae4de29b",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case_id": "n10_row1_case_11_z2_4_2_2_2",
+      "command": [
+        "/tmp/order8_solver_tools/satsuma/build/satsuma",
+        "fix",
+        "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_11_z2_4_2_2_2.cnf",
+        "--out-file",
+        "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_11_z2_4_2_2_2_satsuma_fix_units.cnf",
+        "--add-reduced-as-unit"
+      ],
+      "elapsed_seconds": 0.7806471660151146,
+      "preprocessed": {
+        "clauses": 118487,
+        "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_11_z2_4_2_2_2_satsuma_fix_units.cnf",
+        "sha256": "39de57ad95e3230629166572fd03c08fb86d781e14cc56d809804cd1f7709fa9",
+        "variables": 2350
+      },
+      "source": {
+        "clauses": 340665,
+        "path": "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_11_z2_4_2_2_2.cnf",
+        "sha256": "ab3a52c7b79b25d4be4b0e60ba38df4d11f5b4e0e8d2bc833430b25a86e25480",
+        "variables": 2350
+      },
+      "stderr_sha256": "c9b8227164428fb223f9790e40a7bd1df9e037d2baf82ed49f416bdaa888881d",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "result_counts": {
+    "timeout": 6
+  },
+  "run_id": "2026-08-09_nonpower_fff_cube_refinement",
+  "satsuma_binary": "/tmp/order8_solver_tools/satsuma/build/satsuma",
+  "satsuma_version": "",
+  "solver_runs": [
+    {
+      "case_id": "n10_row1_case_09_z2_4_4_2",
+      "cnf_sha256": "c5dd1a628123141ba315a571e97ec54ee0007b2fc1d9c3859eb821545a88c140",
+      "elapsed_seconds": 300.0088710784912,
+      "metadata_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_09_z2_4_4_2_satsuma_cadical_solve.json",
+      "metadata_sha256": "9c660bc275fef7a96b207c9fb187692aaf47917cace5373414838145f605992f",
+      "model_available": false,
+      "proof_available": false,
+      "result": "timeout",
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "timeout_seconds": 300.0
+    },
+    {
+      "case_id": "n10_row1_case_09_z2_4_4_2",
+      "cnf_sha256": "c5dd1a628123141ba315a571e97ec54ee0007b2fc1d9c3859eb821545a88c140",
+      "elapsed_seconds": 300.0074350833893,
+      "metadata_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_09_z2_4_4_2_satsuma_kissat_solve.json",
+      "metadata_sha256": "c025877fc215e11dad55a1ddfec18609ce76b83287e41e1b6703efe44a473eeb",
+      "model_available": false,
+      "proof_available": false,
+      "result": "timeout",
+      "solver": "/opt/homebrew/bin/kissat",
+      "solver_version": "4.0.4",
+      "timeout_seconds": 300.0
+    },
+    {
+      "case_id": "n10_row1_case_10_z4_4_2_2_2",
+      "cnf_sha256": "2485229ccdb297339f28c673f5b5c6efff79b3496b630eada9b23bf4afe218f2",
+      "elapsed_seconds": 300.0078899860382,
+      "metadata_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_cadical_solve.json",
+      "metadata_sha256": "7ff41d87cdaaa85b99f28b699b7542ccf0e2f60bdd670b68ab81d953fe0044cb",
+      "model_available": false,
+      "proof_available": false,
+      "result": "timeout",
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "timeout_seconds": 300.0
+    },
+    {
+      "case_id": "n10_row1_case_10_z4_4_2_2_2",
+      "cnf_sha256": "2485229ccdb297339f28c673f5b5c6efff79b3496b630eada9b23bf4afe218f2",
+      "elapsed_seconds": 300.00699496269226,
+      "metadata_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_10_z4_4_2_2_2_satsuma_kissat_solve.json",
+      "metadata_sha256": "d0d443a247c3df9487fc0acd9457759e567c624980e4eaf9462545b001a23602",
+      "model_available": false,
+      "proof_available": false,
+      "result": "timeout",
+      "solver": "/opt/homebrew/bin/kissat",
+      "solver_version": "4.0.4",
+      "timeout_seconds": 300.0
+    },
+    {
+      "case_id": "n10_row1_case_11_z2_4_2_2_2",
+      "cnf_sha256": "39de57ad95e3230629166572fd03c08fb86d781e14cc56d809804cd1f7709fa9",
+      "elapsed_seconds": 300.00748109817505,
+      "metadata_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_11_z2_4_2_2_2_satsuma_cadical_solve.json",
+      "metadata_sha256": "38e988067c05bfc5489452ac1638a149f261f33fab628426dad4f19dee32e1fe",
+      "model_available": false,
+      "proof_available": false,
+      "result": "timeout",
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "timeout_seconds": 300.0
+    },
+    {
+      "case_id": "n10_row1_case_11_z2_4_2_2_2",
+      "cnf_sha256": "39de57ad95e3230629166572fd03c08fb86d781e14cc56d809804cd1f7709fa9",
+      "elapsed_seconds": 300.0098180770874,
+      "metadata_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_11_z2_4_2_2_2_satsuma_kissat_solve.json",
+      "metadata_sha256": "bb7aad7ba55fca8f584422d693e56ec153d5477e2b8fe66a7119e62476e997e0",
+      "model_available": false,
+      "proof_available": false,
+      "result": "timeout",
+      "solver": "/opt/homebrew/bin/kissat",
+      "solver_version": "4.0.4",
+      "timeout_seconds": 300.0
+    }
+  ],
+  "timeout_seconds": 300.0,
+  "transformation_proof": null
+}

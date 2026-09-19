@@ -1,0 +1,11 @@
+Complete independent four-type graph audit
+
+stored/enumerated vertices: 136128/136128
+candidate-list errors: 0
+pairs/edges: 9265348128/929166384
+edge errors: 0
+reverse-edge errors: 0
+format/diagonal/padding errors: 0/0/0
+cross-view filter level: 2
+workers: 8
+valid: true

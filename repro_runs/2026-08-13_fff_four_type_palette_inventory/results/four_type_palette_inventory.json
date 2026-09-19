@@ -1,0 +1,793 @@
+{
+  "all_checks_passed": true,
+  "candidate_count_errors": [],
+  "cases": [
+    {
+      "bucket_counts": [
+        772,
+        1043,
+        977,
+        983,
+        983,
+        977,
+        1043,
+        772
+      ],
+      "candidate_vertices": 7550,
+      "case_id": "p01",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "4+4+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        792,
+        1071,
+        1037,
+        1075,
+        1075,
+        1037,
+        1071,
+        792
+      ],
+      "candidate_vertices": 7950,
+      "case_id": "p02",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "6+2+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        7200,
+        7200,
+        7200,
+        7200,
+        7200,
+        7200,
+        7200,
+        7200
+      ],
+      "candidate_vertices": 57600,
+      "case_id": "p03",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "6+4"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        10768,
+        11010,
+        10940,
+        10957,
+        10957,
+        10940,
+        11010,
+        10768
+      ],
+      "candidate_vertices": 87350,
+      "case_id": "p04",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "8+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_vertices": 0,
+      "case_id": "p05",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "4+4+2",
+        "6+2+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": "all_four_types_odd_sign_contradicts_sign_cut_triangles"
+    },
+    {
+      "bucket_counts": [
+        6840,
+        6840,
+        6840,
+        6840,
+        6840,
+        6840,
+        6840,
+        6840
+      ],
+      "candidate_vertices": 54720,
+      "case_id": "p06",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "4+4+2",
+        "6+4"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        11535,
+        11696,
+        11713,
+        11781,
+        11781,
+        11713,
+        11696,
+        11535
+      ],
+      "candidate_vertices": 93450,
+      "case_id": "p07",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "4+4+2",
+        "8+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        7680,
+        7680,
+        7680,
+        7680,
+        7680,
+        7680,
+        7680,
+        7680
+      ],
+      "candidate_vertices": 61440,
+      "case_id": "p08",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "6+2+2",
+        "6+4"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        11835,
+        12188,
+        12409,
+        12393,
+        12393,
+        12409,
+        12188,
+        11835
+      ],
+      "candidate_vertices": 97650,
+      "case_id": "p09",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "6+2+2",
+        "8+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        16320,
+        16320,
+        16320,
+        16320,
+        16320,
+        16320,
+        16320,
+        16320
+      ],
+      "candidate_vertices": 130560,
+      "case_id": "p10",
+      "palette": [
+        "10",
+        "2+2+2+2+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        982,
+        982,
+        1192,
+        1192,
+        1192,
+        1192,
+        1122,
+        1122
+      ],
+      "candidate_vertices": 8976,
+      "case_id": "p11",
+      "palette": [
+        "10",
+        "4+2+2+2",
+        "4+4+2",
+        "6+2+2"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        9048,
+        9048,
+        8484,
+        8484,
+        8484,
+        8484,
+        8672,
+        8672
+      ],
+      "candidate_vertices": 69376,
+      "case_id": "p12",
+      "palette": [
+        "10",
+        "4+2+2+2",
+        "4+4+2",
+        "6+4"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        12291,
+        12709,
+        12658,
+        12727,
+        12727,
+        12658,
+        12709,
+        12291
+      ],
+      "candidate_vertices": 100770,
+      "case_id": "p13",
+      "palette": [
+        "10",
+        "4+2+2+2",
+        "4+4+2",
+        "8+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        9200,
+        8976,
+        8976,
+        9200,
+        9044,
+        9044,
+        9044,
+        9044
+      ],
+      "candidate_vertices": 72528,
+      "case_id": "p14",
+      "palette": [
+        "10",
+        "4+2+2+2",
+        "6+2+2",
+        "6+4"
+      ],
+      "recommended_root": "6+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        12611,
+        13229,
+        13414,
+        13431,
+        13431,
+        13414,
+        13229,
+        12611
+      ],
+      "candidate_vertices": 105370,
+      "case_id": "p15",
+      "palette": [
+        "10",
+        "4+2+2+2",
+        "6+2+2",
+        "8+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        17532,
+        17532,
+        17484,
+        17484,
+        17484,
+        17484,
+        17484,
+        17484
+      ],
+      "candidate_vertices": 139968,
+      "case_id": "p16",
+      "palette": [
+        "10",
+        "4+2+2+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "4+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        9392,
+        8776,
+        8776,
+        9392,
+        8952,
+        8952,
+        8952,
+        8952
+      ],
+      "candidate_vertices": 72144,
+      "case_id": "p17",
+      "palette": [
+        "10",
+        "4+4+2",
+        "6+2+2",
+        "6+4"
+      ],
+      "recommended_root": "6+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        13260,
+        13748,
+        13984,
+        14028,
+        14028,
+        13984,
+        13748,
+        13260
+      ],
+      "candidate_vertices": 110040,
+      "case_id": "p18",
+      "palette": [
+        "10",
+        "4+4+2",
+        "6+2+2",
+        "8+2"
+      ],
+      "recommended_root": "10",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        19584,
+        19584,
+        19320,
+        19320,
+        19320,
+        19320,
+        19408,
+        19408
+      ],
+      "candidate_vertices": 155264,
+      "case_id": "p19",
+      "palette": [
+        "10",
+        "4+4+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        20376,
+        20240,
+        20240,
+        20376,
+        20372,
+        20372,
+        20372,
+        20372
+      ],
+      "candidate_vertices": 162720,
+      "case_id": "p20",
+      "palette": [
+        "10",
+        "6+2+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "6+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "candidate_vertices": 960,
+      "case_id": "p21",
+      "palette": [
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "4+4+2",
+        "6+2+2"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "candidate_vertices": 4800,
+      "case_id": "p22",
+      "palette": [
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "4+4+2",
+        "6+4"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        1480,
+        1480,
+        1864,
+        1864,
+        1864,
+        1864,
+        1736,
+        1736
+      ],
+      "candidate_vertices": 13888,
+      "case_id": "p23",
+      "palette": [
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "4+4+2",
+        "8+2"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        1560,
+        1560,
+        1560,
+        1560,
+        1560,
+        1560,
+        1560,
+        1560
+      ],
+      "candidate_vertices": 12480,
+      "case_id": "p24",
+      "palette": [
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "6+2+2",
+        "6+4"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        2194,
+        2588,
+        2588,
+        2194,
+        2568,
+        2568,
+        2568,
+        2568
+      ],
+      "candidate_vertices": 19836,
+      "case_id": "p25",
+      "palette": [
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "6+2+2",
+        "8+2"
+      ],
+      "recommended_root": "6+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "candidate_vertices": 0,
+      "case_id": "p26",
+      "palette": [
+        "2+2+2+2+2",
+        "4+2+2+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": "involution_only_odd_type_contradicts_sign_cut_plus_C109_matching"
+    },
+    {
+      "bucket_counts": [
+        2040,
+        2040,
+        2040,
+        2040,
+        2040,
+        2040,
+        2040,
+        2040
+      ],
+      "candidate_vertices": 16320,
+      "case_id": "p27",
+      "palette": [
+        "2+2+2+2+2",
+        "4+4+2",
+        "6+2+2",
+        "6+4"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        3000,
+        3000,
+        4188,
+        4188,
+        4188,
+        4188,
+        3792,
+        3792
+      ],
+      "candidate_vertices": 30336,
+      "case_id": "p28",
+      "palette": [
+        "2+2+2+2+2",
+        "4+4+2",
+        "6+2+2",
+        "8+2"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        2520,
+        2520,
+        2520,
+        2520,
+        2520,
+        2520,
+        2520,
+        2520
+      ],
+      "candidate_vertices": 20160,
+      "case_id": "p29",
+      "palette": [
+        "2+2+2+2+2",
+        "4+4+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "2+2+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        3320,
+        3976,
+        3976,
+        3320,
+        3768,
+        3768,
+        3768,
+        3768
+      ],
+      "candidate_vertices": 29664,
+      "case_id": "p30",
+      "palette": [
+        "2+2+2+2+2",
+        "6+2+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "6+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        2796,
+        2796,
+        2580,
+        2580,
+        2580,
+        2580,
+        2580,
+        2580
+      ],
+      "candidate_vertices": 21072,
+      "case_id": "p31",
+      "palette": [
+        "4+2+2+2",
+        "4+4+2",
+        "6+2+2",
+        "6+4"
+      ],
+      "recommended_root": "4+2+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        3198,
+        3198,
+        4464,
+        4464,
+        4464,
+        4464,
+        4042,
+        4042
+      ],
+      "candidate_vertices": 32336,
+      "case_id": "p32",
+      "palette": [
+        "4+2+2+2",
+        "4+4+2",
+        "6+2+2",
+        "8+2"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        2616,
+        2616,
+        2760,
+        2760,
+        2760,
+        2760,
+        2712,
+        2712
+      ],
+      "candidate_vertices": 21696,
+      "case_id": "p33",
+      "palette": [
+        "4+2+2+2",
+        "4+4+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        3440,
+        4128,
+        4128,
+        3440,
+        3920,
+        3920,
+        3920,
+        3920
+      ],
+      "candidate_vertices": 30816,
+      "case_id": "p34",
+      "palette": [
+        "4+2+2+2",
+        "6+2+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "6+2+2",
+      "rigorous_exclusion": null
+    },
+    {
+      "bucket_counts": [
+        5472,
+        5472,
+        6444,
+        6444,
+        6444,
+        6444,
+        6120,
+        6120
+      ],
+      "candidate_vertices": 48960,
+      "case_id": "p35",
+      "palette": [
+        "4+4+2",
+        "6+2+2",
+        "6+4",
+        "8+2"
+      ],
+      "recommended_root": "4+4+2",
+      "rigorous_exclusion": null
+    }
+  ],
+  "checks": {
+    "case_count_35": true,
+    "class_product_candidate_counts_match": true,
+    "four_roots_per_case": true,
+    "root_record_count_140": true
+  },
+  "claim_boundary": "dimensioning and rigorous abstract exclusions only; no FFF existence decision",
+  "counts": {
+    "palettes": 35,
+    "rigorous_exclusions": 2,
+    "root_records": 140
+  },
+  "inputs": {
+    "class_products_sha256": "9770792b4a081f415f74e315f4ba6da6cd16a93322561cd9d53b75b047668d53",
+    "dimensions_sha256": "4cb6ba6a10350ac1f676b21b6da6ed9d58398be2f04cf0602950f3790aedc79b"
+  },
+  "result_version": "degree10-four-type-palette-inventory-v1"
+}

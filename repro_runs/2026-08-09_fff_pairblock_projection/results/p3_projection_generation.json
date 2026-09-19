@@ -1,0 +1,105 @@
+{
+  "cardinality_auxiliary_variable_range": [
+    25,
+    24
+  ],
+  "clauses": 229,
+  "cnf_path": "/tmp/order8_pairblock_projection/p3.cnf",
+  "cnf_sha256": "67ccc1f44f0b486a0ddcc62142c0403e4f0efa73fd461c74087852c623c6e634",
+  "degree": 6,
+  "encoding_version": "pairblock_projection_voltage_v1_exact",
+  "identity_projection_index": 0,
+  "odd_cycle_voltage_constraints": 15,
+  "p": 3,
+  "parity_auxiliary_variables": 39,
+  "projection_count": 6,
+  "projection_mapping": [
+    {
+      "flip_variables": [
+        7,
+        8,
+        9
+      ],
+      "index": 0,
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "select_variable": 1
+    },
+    {
+      "flip_variables": [
+        10,
+        11,
+        12
+      ],
+      "index": 1,
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "select_variable": 2
+    },
+    {
+      "flip_variables": [
+        13,
+        14,
+        15
+      ],
+      "index": 2,
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "select_variable": 3
+    },
+    {
+      "flip_variables": [
+        16,
+        17,
+        18
+      ],
+      "index": 3,
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "select_variable": 4
+    },
+    {
+      "flip_variables": [
+        19,
+        20,
+        21
+      ],
+      "index": 4,
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "select_variable": 5
+    },
+    {
+      "flip_variables": [
+        22,
+        23,
+        24
+      ],
+      "index": 5,
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "select_variable": 6
+    }
+  ],
+  "scope": "pair-imprimitive row-F sharply transitive families only; not full FFF",
+  "selected_projection_count_implied": 6,
+  "variables": 63
+}

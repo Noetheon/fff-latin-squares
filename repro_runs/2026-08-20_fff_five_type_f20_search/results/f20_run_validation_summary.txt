@@ -1,0 +1,10 @@
+Five-type f20 run validation
+
+checks passed: 17/17
+graph vertices/edges: 50880/95413440
+full tasks/orbits: 6360/138
+reduced/full-root nodes: 2084371/94079536
+independent transversal 8-cliques: 23040
+independent exact-palette cliques: 19200
+FFF found: false
+all checks passed: true

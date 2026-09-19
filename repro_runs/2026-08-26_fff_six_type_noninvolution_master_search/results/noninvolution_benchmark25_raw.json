@@ -1,0 +1,14 @@
+{
+  "label": "noninvolution_benchmark25",
+  "mode": "slice",
+  "workers": 10,
+  "full_initial_tasks": 18300,
+  "total_initial_tasks": 386,
+  "task_start": 0,
+  "task_end_exclusive": 25,
+  "completed_tasks": 25,
+  "search_nodes": 282218590,
+  "crossview_odd_cycle_prunes": 203135698,
+  "fff_found": false,
+  "slice_complete": true
+}

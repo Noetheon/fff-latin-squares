@@ -1,0 +1,6 @@
+Primitive-group F-clique DRAT proof check
+
+result: verified
+checker_source_commit: 2e3b2dc0ecf938addbd779d42877b6ed69d9a985
+cnf_sha256: 925404dad9c67714e2acc03817d1ce90134de0db935a6bfe45b797fffa6c53d3
+proof_sha256: 9023f79150daa310343851ad1ab019899c7d57417cbd3a6be23f8cd259ff39ad

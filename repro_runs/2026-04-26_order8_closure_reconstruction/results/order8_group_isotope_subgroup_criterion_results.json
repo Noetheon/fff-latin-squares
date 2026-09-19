@@ -1,0 +1,113 @@
+{
+  "theorem": "A Latin square is group-isotopic iff the base-row family {r_0^{-1} r_x} is closed under composition. Equivalently with columns or symbols.",
+  "transitive_species_profiles": [
+    [
+      1,
+      true,
+      {
+        "row": true,
+        "col": true,
+        "sym": true
+      }
+    ],
+    [
+      2,
+      true,
+      {
+        "row": true,
+        "col": true,
+        "sym": true
+      }
+    ],
+    [
+      3,
+      true,
+      {
+        "row": true,
+        "col": true,
+        "sym": true
+      }
+    ],
+    [
+      4,
+      true,
+      {
+        "row": true,
+        "col": true,
+        "sym": true
+      }
+    ],
+    [
+      5,
+      true,
+      {
+        "row": true,
+        "col": true,
+        "sym": true
+      }
+    ],
+    [
+      6,
+      false,
+      {
+        "row": false,
+        "col": false,
+        "sym": false
+      }
+    ],
+    [
+      7,
+      false,
+      {
+        "row": false,
+        "col": false,
+        "sym": false
+      }
+    ],
+    [
+      8,
+      false,
+      {
+        "row": false,
+        "col": false,
+        "sym": false
+      }
+    ],
+    [
+      9,
+      false,
+      {
+        "row": false,
+        "col": false,
+        "sym": false
+      }
+    ],
+    [
+      10,
+      false,
+      {
+        "row": false,
+        "col": false,
+        "sym": false
+      }
+    ],
+    [
+      11,
+      false,
+      {
+        "row": false,
+        "col": false,
+        "sym": false
+      }
+    ]
+  ],
+  "order8_fff_summary": {
+    "total_fff": 230,
+    "group_isotopic": 5,
+    "non_group_isotopic": 225,
+    "counts_by_groupflag_and_profile": {
+      "(True, (True, True, True))": 5,
+      "(False, (False, False, False))": 225
+    }
+  }
+}

@@ -1,0 +1,16 @@
+Lazy odd-cycle CEGAR summary
+
+row1_case: n10_row1_case_12_z2_2_2_2_2_2
+solver: maplechrono
+timeout_seconds: 300.0
+status: timeout
+iterations: 209
+odd_cycle_blockers: 13234
+equality_variables: 3448
+same_row_variables: 2596
+best_failed_pairs: 20
+best_profile: {'row': {'failed_pairs': 11, 'odd_cycles': 22}, 'col': {'failed_pairs': 4, 'odd_cycles': 8}, 'sym': {'failed_pairs': 5, 'odd_cycles': 10}}
+best_validation: {'latin': True, 'reduced': True, 'pattern': 'TTT', 'fff': False, 'sha256': '37346d7cef3026e0fecc72654581a52289f5bd5775b25681447d708f85249c7b'}
+final_cnf_sha256: efa0df78731e56b17893cce304bae462c61f0f8a48977e567042bc8c80f2ae93
+C38: open
+C40: not_created

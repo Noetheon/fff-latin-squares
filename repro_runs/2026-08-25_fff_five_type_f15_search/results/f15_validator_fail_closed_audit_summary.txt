@@ -1,0 +1,6 @@
+Five-type f15 validator fail-closed audit
+
+checks passed: 10/10
+baseline complete-negative record accepted: true
+all single-field invalidating mutations rejected: true
+all checks passed: true

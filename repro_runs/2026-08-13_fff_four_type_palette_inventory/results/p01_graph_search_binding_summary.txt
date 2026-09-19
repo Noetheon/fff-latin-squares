@@ -1,0 +1,10 @@
+case: p01
+graph_sha256: f19d49dee16d37f5b3f29b44e570936feefa5ee7555dd337cf80f059f9ddb2c1
+expected_source: established-by-this-run
+audit_sha256: b7ee9aba3b02bed68a75c69562b24c033c8c679e5a89f8e9cb4f3cf8d38d168c
+search_sha256: 98245e05e89aa7f9a9db76a9a37060c3d7e7efee78b8b9a5283e0b92ea53c92b
+audit_valid: true
+reverse_edge_errors: 0
+search_complete: true
+fff_found: false
+all_checks_passed: true

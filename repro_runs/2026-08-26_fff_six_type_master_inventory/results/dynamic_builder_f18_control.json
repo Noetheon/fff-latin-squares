@@ -1,0 +1,83 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "byte_sizes_frozen": true,
+    "canonical_root_frozen": true,
+    "envelope_dimensions_frozen": true,
+    "envelopes_equal": true,
+    "files_byte_identical": true,
+    "generated_hash_frozen": true,
+    "reference_hash_frozen": true,
+    "semantic_audit_valid": true,
+    "semantic_edges_frozen": true,
+    "semantic_error_counters_zero": true,
+    "semantic_pairs_frozen": true,
+    "semantic_vertices_frozen": true
+  },
+  "evidence_boundary": "Builder generalization control only; no six-/seven-type graph was built.",
+  "generated": {
+    "envelope": {
+      "magic_hex": "4f38485476310000",
+      "root": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "vertices": 20160,
+      "words": 315
+    },
+    "path": "/private/tmp/order8_six_type_master_inventory/f18_dynamic_control.bin",
+    "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+    "size_bytes": 51004826
+  },
+  "reference": {
+    "envelope": {
+      "magic_hex": "4f38485476310000",
+      "root": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "vertices": 20160,
+      "words": 315
+    },
+    "path": "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+    "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+    "size_bytes": 51004826
+  },
+  "schema_version": "dynamic-master-builder-f18-control-v1",
+  "semantic_audit": {
+    "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/results/dynamic_builder_f18_complete_audit.json",
+    "result": {
+      "candidate_list_errors": 0,
+      "canonical_root_errors": 0,
+      "crossview_filter_level": 2,
+      "diagonal_errors": 0,
+      "edge_errors": 0,
+      "edges": 11689920,
+      "format_errors": 0,
+      "independently_enumerated_vertices": 20160,
+      "padding_errors": 0,
+      "pairs_checked": 203202720,
+      "reverse_edge_errors": 0,
+      "stored_vertices": 20160,
+      "valid": true,
+      "workers": 8
+    },
+    "sha256": "412c505c6b5bc398df339ef6b3dda9efbeaa545bf673137132ca2297a9f5360a"
+  }
+}

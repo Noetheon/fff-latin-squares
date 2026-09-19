@@ -1,0 +1,27 @@
+{
+  "actual_size_bytes": 701175866,
+  "diagonal_nonzero": 0,
+  "errors": [],
+  "expected_size_bytes": 701175866,
+  "expected_words": 1170,
+  "graph_path": "external/Order8_external_graphs/2026-08-20_five_type/f21/f21.bin",
+  "graph_sha256": "35fac04cc7566d4fe6aa0be5a96c0e06a6c92804936de60311324a76372f7a4e",
+  "magic_hex": "4f38485476310000",
+  "padding_nonzero_rows": 0,
+  "root_permutation": [
+    1,
+    2,
+    3,
+    0,
+    5,
+    4,
+    7,
+    6,
+    9,
+    8
+  ],
+  "schema_version": "four-type-graph-structural-audit-v1",
+  "valid": true,
+  "vertices": 74832,
+  "words": 1170
+}

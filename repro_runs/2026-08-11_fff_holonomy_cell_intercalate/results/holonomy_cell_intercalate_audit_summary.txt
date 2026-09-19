@@ -1,0 +1,37 @@
+Holonomy-to-cell intercalate audit
+
+tables: 9777
+intercalates/components: 92472
+oriented vectors: 277416
+triple-product cell checks: 369888
+cell-degree checks: 366972
+errors: 0
+
+order4_complete
+- tables: 4
+- intercalates: 24
+- oriented vectors: 72
+- errors: 0
+
+order6_complete
+- tables: 9408
+- intercalates: 77760
+- oriented vectors: 233280
+- errors: 0
+
+order8_fff_complete
+- tables: 230
+- intercalates: 9050
+- oriented vectors: 27150
+- errors: 0
+
+order10_tracked_partial
+- tables: 135
+- intercalates: 5638
+- oriented vectors: 16914
+- errors: 0
+
+Boundary:
+- C87 is rigorous and exactly audited.
+- Only the C84 multiplicity-four Y layer is coupled.
+- C38 remains open and C40 absent.

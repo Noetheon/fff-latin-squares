@@ -1,0 +1,24 @@
+{
+  "case_id": "f17",
+  "complete_disjoint_cover": true,
+  "completed_tasks": 3372,
+  "crossview_odd_cycle_prunes": 3815302,
+  "errors": [],
+  "fff_found": false,
+  "graph_sha256": "8958816838da8c47f29af21230c1bfb2bb78d2597f57d80fff48c85ab8f7bd78",
+  "negative_search_complete": true,
+  "plan_payload_sha256": "a6a14bc660439982fbf8402f4de4aabf21f88671f12e20d303f37c2d30eceb4d",
+  "schema_version": "five-type-slice-merge-v1",
+  "search_binary_sha256": "183b305457cb85011a6c5289a2e0eb4ac3b0ca2f37824ab83dca5855fd41c3b2",
+  "search_nodes": 14233220,
+  "slice_count_expected": 1,
+  "slice_count_present": 1,
+  "slice_wrapper_sha256": {
+    "s0000": "f6e18a0c288d18d0ed70f76fd47c8330bc74fa211fd3a002fdc70170a975b51f"
+  },
+  "source_bundle_sha256": "09a08a6b7e950102cf2c5694968b022602e56681b5aebd1360900257dbb86b9a",
+  "status": "complete_negative",
+  "task_file_sha256": null,
+  "task_list_sha256": "5a9715e40895859e7db06909b9c2c99a537db41d83811edbd14928ebe04340e9",
+  "total_initial_tasks": 3372
+}

@@ -1,0 +1,10 @@
+Complete independent three-type graph audit
+
+stored/enumerated vertices: 17676/17676
+candidate-list errors: 0
+pairs/edges: 156211650/9030876
+edge errors: 0
+reverse-edge errors: 0
+cross-view filter level: 2
+workers: 8
+valid: true

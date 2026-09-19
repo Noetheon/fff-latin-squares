@@ -1,0 +1,4759 @@
+{
+  "coarse_cluster_count": 71,
+  "coarse_cluster_size_distribution": {
+    "1": 44,
+    "16": 1,
+    "2": 13,
+    "3": 6,
+    "4": 1,
+    "41": 1,
+    "5": 2,
+    "52": 1,
+    "6": 1,
+    "8": 1
+  },
+  "coarse_clusters": [
+    {
+      "lines": [
+        37,
+        60,
+        73,
+        75,
+        93,
+        116,
+        119,
+        140,
+        159,
+        161,
+        219,
+        1182,
+        1962,
+        1963,
+        2356,
+        2929,
+        3439,
+        3440,
+        3954,
+        9685,
+        9686,
+        9752,
+        9753,
+        9963,
+        10408,
+        19770,
+        29201,
+        39795,
+        46854,
+        46856,
+        48636,
+        51403,
+        51645,
+        52123,
+        56316,
+        57545,
+        71661,
+        78628,
+        100718,
+        126802,
+        130668,
+        136423,
+        166550,
+        191805,
+        196079,
+        198890,
+        206903,
+        225881,
+        233746,
+        251254,
+        256405,
+        260988
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1152,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 52
+    },
+    {
+      "lines": [
+        286,
+        639,
+        1389,
+        1716,
+        1759,
+        1845,
+        2630,
+        3303,
+        10407,
+        10776,
+        15258,
+        24528,
+        28831,
+        38249,
+        51256,
+        52567,
+        54511,
+        56098,
+        68787,
+        68950,
+        83309,
+        88145,
+        97643,
+        108473,
+        123523,
+        129315,
+        130243,
+        147354,
+        149500,
+        160620,
+        185259,
+        192366,
+        193784,
+        195134,
+        196715,
+        197102,
+        252375,
+        253056,
+        258609,
+        259257,
+        281470
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        40320,
+        40320,
+        40320,
+        5040,
+        1
+      ],
+      "size": 41
+    },
+    {
+      "lines": [
+        76,
+        92,
+        141,
+        150,
+        151,
+        152,
+        2412,
+        2994,
+        3960,
+        10405,
+        51373,
+        52122,
+        52566,
+        95813,
+        243029,
+        270853
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1152,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 16
+    },
+    {
+      "lines": [
+        1916,
+        3966,
+        10854,
+        51270,
+        135087,
+        152624,
+        189621,
+        224864
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        128,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 8
+    },
+    {
+      "lines": [
+        1028,
+        3887,
+        52105,
+        179976,
+        201144,
+        245578
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1152,
+        1152,
+        1152,
+        144,
+        4
+      ],
+      "size": 6
+    },
+    {
+      "lines": [
+        115,
+        51404,
+        143390,
+        176527,
+        191613
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 5
+    },
+    {
+      "lines": [
+        3957,
+        55617,
+        72580,
+        150345,
+        154968
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        192,
+        40320,
+        40320,
+        5040,
+        1
+      ],
+      "size": 5
+    },
+    {
+      "lines": [
+        74,
+        164,
+        10853,
+        24529
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        128,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 4
+    },
+    {
+      "lines": [
+        4,
+        16,
+        22
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        false,
+        false,
+        false,
+        64,
+        64,
+        64,
+        8,
+        4
+      ],
+      "size": 3
+    },
+    {
+      "lines": [
+        46,
+        242571,
+        267980
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        1152,
+        1152,
+        144,
+        4
+      ],
+      "size": 3
+    },
+    {
+      "lines": [
+        120,
+        121,
+        224860
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        true,
+        false,
+        1152,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "lines": [
+        133,
+        10852,
+        33977
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        64,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "lines": [
+        142,
+        143,
+        1921
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        true,
+        1152,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "lines": [
+        1956,
+        59339,
+        239704
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1152,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 3
+    },
+    {
+      "lines": [
+        2,
+        20
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        false,
+        false,
+        true,
+        64,
+        64,
+        64,
+        8,
+        8
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        5,
+        6
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        1,
+        false,
+        false,
+        false,
+        128,
+        128,
+        1152,
+        144,
+        2
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        10,
+        17
+      ],
+      "profile": [
+        2,
+        2,
+        4,
+        2,
+        false,
+        false,
+        false,
+        16,
+        32,
+        64,
+        8,
+        8
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        19,
+        114
+      ],
+      "profile": [
+        4,
+        4,
+        4,
+        2,
+        false,
+        false,
+        false,
+        16,
+        16,
+        32,
+        4,
+        4
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        163,
+        52124
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1152,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        1684,
+        2712
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        true,
+        false,
+        40320,
+        40320,
+        40320,
+        5040,
+        1
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        1964,
+        261034
+      ],
+      "profile": [
+        1,
+        1,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        576,
+        1152,
+        144,
+        2
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        3573,
+        270299
+      ],
+      "profile": [
+        1,
+        1,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        576,
+        1152,
+        144,
+        4
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        10851,
+        241191
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        51370,
+        239703
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        128,
+        1152,
+        1152,
+        144,
+        4
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        51643,
+        51644
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        false,
+        false,
+        false,
+        32,
+        64,
+        64,
+        8,
+        2
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        51875,
+        275769
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        40320,
+        20160,
+        40320,
+        5040,
+        1
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        189568,
+        248871
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        20160,
+        40320,
+        40320,
+        5040,
+        1
+      ],
+      "size": 2
+    },
+    {
+      "lines": [
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1152,
+        576,
+        1152,
+        144,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        7
+      ],
+      "profile": [
+        2,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        128,
+        128,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        8
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        1,
+        false,
+        false,
+        false,
+        128,
+        128,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        9
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        false,
+        false,
+        false,
+        32,
+        32,
+        64,
+        8,
+        4
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        12
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        true,
+        1152,
+        1152,
+        1152,
+        144,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        14
+      ],
+      "profile": [
+        2,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        128,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        15
+      ],
+      "profile": [
+        2,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        128,
+        1152,
+        144,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        21
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        false,
+        false,
+        true,
+        64,
+        64,
+        64,
+        8,
+        24
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        23
+      ],
+      "profile": [
+        2,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1152,
+        128,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        40
+      ],
+      "profile": [
+        2,
+        2,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        48,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        117
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        false,
+        false,
+        false,
+        64,
+        64,
+        64,
+        8,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        118
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        false,
+        false,
+        true,
+        64,
+        64,
+        64,
+        8,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        162
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        64,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        170
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        192,
+        20160,
+        20160,
+        2520,
+        3
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        172
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        192,
+        20160,
+        20160,
+        2520,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        1166
+      ],
+      "profile": [
+        2,
+        2,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        64,
+        1152,
+        144,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        1173
+      ],
+      "profile": [
+        2,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        64,
+        1152,
+        144,
+        4
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        1177
+      ],
+      "profile": [
+        2,
+        4,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        24,
+        96,
+        12,
+        3
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        1955
+      ],
+      "profile": [
+        2,
+        2,
+        4,
+        2,
+        false,
+        false,
+        false,
+        16,
+        32,
+        64,
+        8,
+        4
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        1960
+      ],
+      "profile": [
+        2,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        64,
+        64,
+        576,
+        72,
+        4
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        2372
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        true,
+        40320,
+        40320,
+        40320,
+        5040,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        2596
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        true,
+        40320,
+        40320,
+        40320,
+        5040,
+        3
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        3210
+      ],
+      "profile": [
+        1,
+        1,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        96,
+        192,
+        24,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        3959
+      ],
+      "profile": [
+        1,
+        1,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        96,
+        288,
+        36,
+        4
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        3961
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        192,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        18434
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        true,
+        20160,
+        20160,
+        20160,
+        2520,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        36202
+      ],
+      "profile": [
+        1,
+        1,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        576,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        36815
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        true,
+        1152,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        51874
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        192,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        52327
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        58364
+      ],
+      "profile": [
+        1,
+        4,
+        1,
+        1,
+        false,
+        false,
+        false,
+        576,
+        576,
+        576,
+        72,
+        4
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        58852
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        192,
+        20160,
+        40320,
+        5040,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        65841
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        1,
+        false,
+        false,
+        false,
+        96,
+        96,
+        1344,
+        168,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        66354
+      ],
+      "profile": [
+        2,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        40320,
+        192,
+        40320,
+        5040,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        68761
+      ],
+      "profile": [
+        2,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        192,
+        64,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        75148
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        96,
+        96,
+        576,
+        72,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        75149
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        96,
+        96,
+        288,
+        36,
+        3
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        85446
+      ],
+      "profile": [
+        4,
+        2,
+        2,
+        2,
+        false,
+        false,
+        false,
+        32,
+        16,
+        64,
+        8,
+        4
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        85461
+      ],
+      "profile": [
+        1,
+        2,
+        1,
+        1,
+        false,
+        false,
+        false,
+        1344,
+        1344,
+        20160,
+        2520,
+        3
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        89059
+      ],
+      "profile": [
+        1,
+        1,
+        2,
+        1,
+        false,
+        false,
+        false,
+        96,
+        1344,
+        1344,
+        168,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        96609
+      ],
+      "profile": [
+        1,
+        2,
+        2,
+        1,
+        false,
+        false,
+        false,
+        64,
+        96,
+        1152,
+        144,
+        2
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        98103
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        false,
+        20160,
+        20160,
+        20160,
+        2520,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        111090
+      ],
+      "profile": [
+        1,
+        1,
+        4,
+        1,
+        false,
+        false,
+        false,
+        32,
+        192,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        119984
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        false,
+        false,
+        true,
+        1152,
+        1152,
+        1152,
+        144,
+        1
+      ],
+      "size": 1
+    }
+  ],
+  "cycle_pure_lines": [
+    19,
+    114,
+    1955,
+    10776,
+    85446
+  ],
+  "cycle_pure_positions": {
+    "10776": {
+      "coarse_cluster_lines": [
+        286,
+        639,
+        1389,
+        1716,
+        1759,
+        1845,
+        2630,
+        3303,
+        10407,
+        10776,
+        15258,
+        24528,
+        28831,
+        38249,
+        51256,
+        52567,
+        54511,
+        56098,
+        68787,
+        68950,
+        83309,
+        88145,
+        97643,
+        108473,
+        123523,
+        129315,
+        130243,
+        147354,
+        149500,
+        160620,
+        185259,
+        192366,
+        193784,
+        195134,
+        196715,
+        197102,
+        252375,
+        253056,
+        258609,
+        259257,
+        281470
+      ],
+      "coarse_cluster_size": 41,
+      "fine_cluster_lines": [
+        286,
+        639,
+        1389,
+        1716,
+        1759,
+        1845,
+        2630,
+        3303,
+        10407,
+        10776,
+        15258,
+        24528,
+        28831,
+        38249,
+        51256,
+        52567,
+        54511,
+        56098,
+        68787,
+        68950,
+        83309,
+        88145,
+        97643,
+        108473,
+        123523,
+        129315,
+        130243,
+        147354,
+        149500,
+        160620,
+        185259,
+        192366,
+        193784,
+        195134,
+        196715,
+        197102,
+        252375,
+        253056,
+        258609,
+        259257,
+        281470
+      ],
+      "fine_cluster_size": 41,
+      "record": {
+        "associative": false,
+        "coarse_profile": [
+          1,
+          1,
+          1,
+          1,
+          false,
+          false,
+          false,
+          40320,
+          40320,
+          40320,
+          5040,
+          1
+        ],
+        "commutative": false,
+        "fine_profile": {
+          "antiautomorphic_inverse_property": false,
+          "automorphism_group_size": 1,
+          "center": [
+            0
+          ],
+          "flexible": false,
+          "inner_mapping_group_size": 5040,
+          "inverse_property": false,
+          "left_nucleus": [
+            0
+          ],
+          "left_translation_group_size": 40320,
+          "middle_nucleus": [
+            0
+          ],
+          "multiplication_group_size": 40320,
+          "right_nucleus": [
+            0
+          ],
+          "right_translation_group_size": 40320
+        },
+        "index": 10776,
+        "line_number": 10776
+      }
+    },
+    "114": {
+      "coarse_cluster_lines": [
+        19,
+        114
+      ],
+      "coarse_cluster_size": 2,
+      "fine_cluster_lines": [
+        114
+      ],
+      "fine_cluster_size": 1,
+      "record": {
+        "associative": false,
+        "coarse_profile": [
+          4,
+          4,
+          4,
+          2,
+          false,
+          false,
+          false,
+          16,
+          16,
+          32,
+          4,
+          4
+        ],
+        "commutative": false,
+        "fine_profile": {
+          "antiautomorphic_inverse_property": false,
+          "automorphism_group_size": 4,
+          "center": [
+            0,
+            2
+          ],
+          "flexible": false,
+          "inner_mapping_group_size": 4,
+          "inverse_property": false,
+          "left_nucleus": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "left_translation_group_size": 16,
+          "middle_nucleus": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "multiplication_group_size": 32,
+          "right_nucleus": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "right_translation_group_size": 16
+        },
+        "index": 114,
+        "line_number": 114
+      }
+    },
+    "19": {
+      "coarse_cluster_lines": [
+        19,
+        114
+      ],
+      "coarse_cluster_size": 2,
+      "fine_cluster_lines": [
+        19
+      ],
+      "fine_cluster_size": 1,
+      "record": {
+        "associative": false,
+        "coarse_profile": [
+          4,
+          4,
+          4,
+          2,
+          false,
+          false,
+          false,
+          16,
+          16,
+          32,
+          4,
+          4
+        ],
+        "commutative": false,
+        "fine_profile": {
+          "antiautomorphic_inverse_property": false,
+          "automorphism_group_size": 4,
+          "center": [
+            0,
+            1
+          ],
+          "flexible": false,
+          "inner_mapping_group_size": 4,
+          "inverse_property": false,
+          "left_nucleus": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "left_translation_group_size": 16,
+          "middle_nucleus": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "multiplication_group_size": 32,
+          "right_nucleus": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "right_translation_group_size": 16
+        },
+        "index": 19,
+        "line_number": 19
+      }
+    },
+    "1955": {
+      "coarse_cluster_lines": [
+        1955
+      ],
+      "coarse_cluster_size": 1,
+      "fine_cluster_lines": [
+        1955
+      ],
+      "fine_cluster_size": 1,
+      "record": {
+        "associative": false,
+        "coarse_profile": [
+          2,
+          2,
+          4,
+          2,
+          false,
+          false,
+          false,
+          16,
+          32,
+          64,
+          8,
+          4
+        ],
+        "commutative": false,
+        "fine_profile": {
+          "antiautomorphic_inverse_property": false,
+          "automorphism_group_size": 4,
+          "center": [
+            0,
+            7
+          ],
+          "flexible": false,
+          "inner_mapping_group_size": 8,
+          "inverse_property": false,
+          "left_nucleus": [
+            0,
+            7
+          ],
+          "left_translation_group_size": 16,
+          "middle_nucleus": [
+            0,
+            7
+          ],
+          "multiplication_group_size": 64,
+          "right_nucleus": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "right_translation_group_size": 32
+        },
+        "index": 1955,
+        "line_number": 1955
+      }
+    },
+    "85446": {
+      "coarse_cluster_lines": [
+        85446
+      ],
+      "coarse_cluster_size": 1,
+      "fine_cluster_lines": [
+        85446
+      ],
+      "fine_cluster_size": 1,
+      "record": {
+        "associative": false,
+        "coarse_profile": [
+          4,
+          2,
+          2,
+          2,
+          false,
+          false,
+          false,
+          32,
+          16,
+          64,
+          8,
+          4
+        ],
+        "commutative": false,
+        "fine_profile": {
+          "antiautomorphic_inverse_property": false,
+          "automorphism_group_size": 4,
+          "center": [
+            0,
+            6
+          ],
+          "flexible": false,
+          "inner_mapping_group_size": 8,
+          "inverse_property": false,
+          "left_nucleus": [
+            0,
+            3,
+            4,
+            6
+          ],
+          "left_translation_group_size": 32,
+          "middle_nucleus": [
+            0,
+            6
+          ],
+          "multiplication_group_size": 64,
+          "right_nucleus": [
+            0,
+            6
+          ],
+          "right_translation_group_size": 16
+        },
+        "index": 85446,
+        "line_number": 85446
+      }
+    }
+  },
+  "fine_cluster_count": 85,
+  "fine_cluster_size_distribution": {
+    "1": 60,
+    "16": 1,
+    "2": 15,
+    "3": 5,
+    "41": 1,
+    "5": 1,
+    "52": 1,
+    "6": 1
+  },
+  "fine_clusters": [
+    {
+      "lines": [
+        37,
+        60,
+        73,
+        75,
+        93,
+        116,
+        119,
+        140,
+        159,
+        161,
+        219,
+        1182,
+        1962,
+        1963,
+        2356,
+        2929,
+        3439,
+        3440,
+        3954,
+        9685,
+        9686,
+        9752,
+        9753,
+        9963,
+        10408,
+        19770,
+        29201,
+        39795,
+        46854,
+        46856,
+        48636,
+        51403,
+        51645,
+        52123,
+        56316,
+        57545,
+        71661,
+        78628,
+        100718,
+        126802,
+        130668,
+        136423,
+        166550,
+        191805,
+        196079,
+        198890,
+        206903,
+        225881,
+        233746,
+        251254,
+        256405,
+        260988
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 52
+    },
+    {
+      "lines": [
+        286,
+        639,
+        1389,
+        1716,
+        1759,
+        1845,
+        2630,
+        3303,
+        10407,
+        10776,
+        15258,
+        24528,
+        28831,
+        38249,
+        51256,
+        52567,
+        54511,
+        56098,
+        68787,
+        68950,
+        83309,
+        88145,
+        97643,
+        108473,
+        123523,
+        129315,
+        130243,
+        147354,
+        149500,
+        160620,
+        185259,
+        192366,
+        193784,
+        195134,
+        196715,
+        197102,
+        252375,
+        253056,
+        258609,
+        259257,
+        281470
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 40320,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 41
+    },
+    {
+      "lines": [
+        76,
+        92,
+        141,
+        150,
+        151,
+        152,
+        2412,
+        2994,
+        3960,
+        10405,
+        51373,
+        52122,
+        52566,
+        95813,
+        243029,
+        270853
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 16
+    },
+    {
+      "lines": [
+        1028,
+        3887,
+        52105,
+        179976,
+        201144,
+        245578
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 6
+    },
+    {
+      "lines": [
+        115,
+        51404,
+        143390,
+        176527,
+        191613
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 5
+    },
+    {
+      "lines": [
+        4,
+        16,
+        22
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 3
+    },
+    {
+      "lines": [
+        46,
+        242571,
+        267980
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 3
+    },
+    {
+      "lines": [
+        120,
+        121,
+        224860
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": true,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 3
+    },
+    {
+      "lines": [
+        142,
+        143,
+        1921
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 3
+    },
+    {
+      "lines": [
+        55617,
+        72580,
+        150345
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0,
+          5
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 3
+    },
+    {
+      "lines": [
+        2,
+        20
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 8,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        5,
+        6
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 128
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        10,
+        17
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 8,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 16,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "right_translation_group_size": 32
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        74,
+        164
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        1684,
+        2712
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": true,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 40320,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        1916,
+        224864
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          6
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        1964,
+        261034
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "right_translation_group_size": 576
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        10851,
+        241191
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        10852,
+        33977
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          2
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        10853,
+        24529
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          2
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        10854,
+        51270
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          2
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        51643,
+        51644
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0,
+          3
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          3
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0,
+          3
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          3
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        51875,
+        275769
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 40320,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 20160
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        152624,
+        189621
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          5
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        189568,
+        248871
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 20160,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 2
+    },
+    {
+      "lines": [
+        3
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 576
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        7
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 128
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        8
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0,
+          6
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 128
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        9
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 32
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        12
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        14
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 128
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        15
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 128
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        19
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 4,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "left_translation_group_size": 16,
+        "middle_nucleus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "multiplication_group_size": 32,
+        "right_nucleus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "right_translation_group_size": 16
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        21
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 24,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        23
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 128
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        40
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "right_translation_group_size": 48
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        114
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0,
+          2
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 4,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "left_translation_group_size": 16,
+        "middle_nucleus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "multiplication_group_size": 32,
+        "right_nucleus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "right_translation_group_size": 16
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        117
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        118
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0,
+          1
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        133
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        162
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        163
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        170
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 3,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 2520,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 20160,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 20160
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        172
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 2520,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 20160,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 20160
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        1166
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        1173
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        1177
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 3,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 12,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "multiplication_group_size": 96,
+        "right_nucleus": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "right_translation_group_size": 24
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        1955
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0,
+          7
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          7
+        ],
+        "left_translation_group_size": 16,
+        "middle_nucleus": [
+          0,
+          7
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "right_translation_group_size": 32
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        1956
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          1
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        1960
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 72,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          1
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 576,
+        "right_nucleus": [
+          0,
+          7
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        2372
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 40320,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        2596
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 3,
+        "center": [
+          0
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 40320,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        3210
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 24,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 192,
+        "right_nucleus": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "right_translation_group_size": 96
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        3573
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "right_translation_group_size": 576
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        3957
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0,
+          4
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        3959
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 36,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 288,
+        "right_nucleus": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "right_translation_group_size": 96
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        3961
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        3966
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        18434
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 2520,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 20160,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 20160,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 20160
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        36202
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "right_translation_group_size": 576
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        36815
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          6
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        51370
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          2
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        51874
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0,
+          3
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        52124
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          3
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        52327
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0,
+          3
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        58364
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 72,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 576,
+        "middle_nucleus": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "multiplication_group_size": 576,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 576
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        58852
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0,
+          7
+        ],
+        "right_translation_group_size": 20160
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        59339
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          5
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        65841
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 168,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          7
+        ],
+        "left_translation_group_size": 96,
+        "middle_nucleus": [
+          0,
+          4
+        ],
+        "multiplication_group_size": 1344,
+        "right_nucleus": [
+          0,
+          6
+        ],
+        "right_translation_group_size": 96
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        66354
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          4
+        ],
+        "left_translation_group_size": 40320,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 192
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        68761
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          3
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 64
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        75148
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 72,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 96,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 576,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 96
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        75149
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 3,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 36,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 96,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 288,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 96
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        85446
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0,
+          6
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 8,
+        "inverse_property": false,
+        "left_nucleus": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0,
+          6
+        ],
+        "multiplication_group_size": 64,
+        "right_nucleus": [
+          0,
+          6
+        ],
+        "right_translation_group_size": 16
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        85461
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 3,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 2520,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1344,
+        "middle_nucleus": [
+          0,
+          4
+        ],
+        "multiplication_group_size": 20160,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1344
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        89059
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 168,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 96,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1344,
+        "right_nucleus": [
+          0,
+          7
+        ],
+        "right_translation_group_size": 1344
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        96609
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 64,
+        "middle_nucleus": [
+          0,
+          7
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          5
+        ],
+        "right_translation_group_size": 96
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        98103
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 2520,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 20160,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 20160,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 20160
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        111090
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "right_translation_group_size": 192
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        119984
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": true,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        135087
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 2,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          4
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        154968
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 5040,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 192,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 40320,
+        "right_nucleus": [
+          0,
+          7
+        ],
+        "right_translation_group_size": 40320
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        239703
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 128,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          7
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        239704
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 1,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 1152,
+        "middle_nucleus": [
+          0,
+          7
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0
+        ],
+        "right_translation_group_size": 1152
+      },
+      "size": 1
+    },
+    {
+      "lines": [
+        270299
+      ],
+      "profile": {
+        "antiautomorphic_inverse_property": false,
+        "automorphism_group_size": 4,
+        "center": [
+          0
+        ],
+        "flexible": false,
+        "inner_mapping_group_size": 144,
+        "inverse_property": false,
+        "left_nucleus": [
+          0
+        ],
+        "left_translation_group_size": 32,
+        "middle_nucleus": [
+          0
+        ],
+        "multiplication_group_size": 1152,
+        "right_nucleus": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "right_translation_group_size": 576
+      },
+      "size": 1
+    }
+  ],
+  "global_invariant_distributions": {
+    "associative": {
+      "False": 225
+    },
+    "automorphism_group_size": {
+      "1": 138,
+      "2": 52,
+      "24": 1,
+      "3": 5,
+      "4": 25,
+      "8": 4
+    },
+    "center_size": {
+      "1": 208,
+      "2": 17
+    },
+    "commutative": {
+      "False": 213,
+      "True": 12
+    },
+    "inner_mapping_group_size": {
+      "12": 1,
+      "144": 138,
+      "168": 2,
+      "24": 1,
+      "2520": 5,
+      "36": 2,
+      "4": 2,
+      "5040": 56,
+      "72": 3,
+      "8": 15
+    },
+    "inverse_property": {
+      "False": 225
+    },
+    "left_nucleus_size": {
+      "1": 193,
+      "2": 29,
+      "4": 3
+    },
+    "left_translation_group_size": {
+      "1152": 90,
+      "128": 18,
+      "1344": 1,
+      "16": 5,
+      "192": 11,
+      "20160": 4,
+      "32": 15,
+      "40320": 48,
+      "576": 15,
+      "64": 14,
+      "96": 4
+    },
+    "middle_nucleus_size": {
+      "1": 186,
+      "2": 35,
+      "4": 4
+    },
+    "multiplication_group_size": {
+      "1152": 138,
+      "1344": 2,
+      "192": 1,
+      "20160": 5,
+      "288": 2,
+      "32": 2,
+      "40320": 56,
+      "576": 3,
+      "64": 15,
+      "96": 1
+    },
+    "right_nucleus_size": {
+      "1": 163,
+      "2": 46,
+      "4": 16
+    },
+    "right_translation_group_size": {
+      "1152": 119,
+      "128": 7,
+      "1344": 2,
+      "16": 3,
+      "192": 2,
+      "20160": 7,
+      "24": 1,
+      "32": 4,
+      "40320": 52,
+      "48": 1,
+      "576": 7,
+      "64": 14,
+      "96": 6
+    }
+  },
+  "nongroup_case_count": 225
+}

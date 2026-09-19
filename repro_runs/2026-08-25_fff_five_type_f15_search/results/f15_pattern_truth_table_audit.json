@@ -1,0 +1,112 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_eight_patterns_present": true,
+    "all_examples_latin": true,
+    "all_patterns_reproduced": true,
+    "fff_truth_value_reproduced": true
+  },
+  "expected_patterns": [
+    "FFF",
+    "FFT",
+    "FTF",
+    "FTT",
+    "TFF",
+    "TFT",
+    "TTF",
+    "TTT"
+  ],
+  "records": [
+    {
+      "actual": {
+        "fff": true,
+        "latin": true,
+        "pattern": "FFF"
+      },
+      "expected_pattern": "FFF",
+      "label": "order8_pattern_FFF",
+      "passed": true,
+      "source_line_number": 1
+    },
+    {
+      "actual": {
+        "fff": false,
+        "latin": true,
+        "pattern": "FFT"
+      },
+      "expected_pattern": "FFT",
+      "label": "order8_pattern_FFT",
+      "passed": true,
+      "source_line_number": 25
+    },
+    {
+      "actual": {
+        "fff": false,
+        "latin": true,
+        "pattern": "FTF"
+      },
+      "expected_pattern": "FTF",
+      "label": "order8_pattern_FTF",
+      "passed": true,
+      "source_line_number": 31
+    },
+    {
+      "actual": {
+        "fff": false,
+        "latin": true,
+        "pattern": "FTT"
+      },
+      "expected_pattern": "FTT",
+      "label": "order8_pattern_FTT",
+      "passed": true,
+      "source_line_number": 34
+    },
+    {
+      "actual": {
+        "fff": false,
+        "latin": true,
+        "pattern": "TFF"
+      },
+      "expected_pattern": "TFF",
+      "label": "order8_pattern_TFF",
+      "passed": true,
+      "source_line_number": 39
+    },
+    {
+      "actual": {
+        "fff": false,
+        "latin": true,
+        "pattern": "TFT"
+      },
+      "expected_pattern": "TFT",
+      "label": "order8_pattern_TFT",
+      "passed": true,
+      "source_line_number": 101
+    },
+    {
+      "actual": {
+        "fff": false,
+        "latin": true,
+        "pattern": "TTF"
+      },
+      "expected_pattern": "TTF",
+      "label": "order8_pattern_TTF",
+      "passed": true,
+      "source_line_number": 86
+    },
+    {
+      "actual": {
+        "fff": false,
+        "latin": true,
+        "pattern": "TTT"
+      },
+      "expected_pattern": "TTT",
+      "label": "order8_pattern_TTT",
+      "passed": true,
+      "source_line_number": 24
+    }
+  ],
+  "reference_path": "repro_runs/2026-04-26_direct_product_fff/results/direct_product_validation_results.json",
+  "reference_sha256": "6ed73d01d072cd1e9be44ee78645ea98e562ab0986684b793ac6619c8b154f03",
+  "schema_version": "all-pattern-truth-table-audit-v1"
+}

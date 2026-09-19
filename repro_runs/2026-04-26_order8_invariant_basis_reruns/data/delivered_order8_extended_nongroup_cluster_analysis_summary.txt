@@ -1,0 +1,8 @@
+Order-8 extended nongroup-FFF clustering
+
+nongroup cases: 225
+extended cluster count: 225
+extended cluster size distribution: {'1': 225}
+singletons: 225
+10776-cluster under extended profile: [10776]
+commutative lines: [2, 12, 21, 118, 142, 143, 1921, 2372, 2596, 18434, 36815, 119984]

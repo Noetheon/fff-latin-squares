@@ -1,0 +1,340 @@
+\section{Subsquare and congruence obstructions}
+
+The FFF property is hereditary for Latin subsquares in a stronger,
+componentwise sense.
+
+\begin{theorem}[Subsquare monotonicity]\label{thm:subsquare-monotonicity}
+If $M$ is a Latin subsquare of $L$, then
+\[
+  \pat(M)\leq \pat(L)
+\]
+componentwise, with $F<T$.
+\end{theorem}
+
+\begin{proof}
+Let the rows, columns, and symbols of $M$ be $R_0,C_0,S_0$.  For
+$a,b\in R_0$, the ambient row permutation $r_b^{-1}r_a$ preserves $C_0$:
+if $c\in C_0$, then $L(a,c)\in S_0$, and row $b$ contains this symbol at a
+unique column of $C_0$.  Its restriction is precisely the induced row
+permutation of $M$.  Thus every odd row cycle of $M$ is also an odd row
+cycle of $L$.  Interchanging rows and columns proves the column statement.
+
+For $u,v\in S_0$ and $c\in C_0$, the row $s_u(c)$ lies in $R_0$.  In that
+row, the unique occurrence of $v$ lies in a column $d\in C_0$.  Hence
+$s_v^{-1}s_u$ preserves $C_0$ and restricts to the symbol permutation of
+$M$.  This proves the symbol statement.
+\end{proof}
+
+\begin{corollary}\label{cor:no-odd-subsquare}
+Every Latin subsquare of an FFF square is FFF.  In particular, an FFF square
+contains no subsquare of odd order greater than one.
+\end{corollary}
+
+\begin{proof}
+The first assertion is Theorem~\ref{thm:subsquare-monotonicity} with
+$\pat(L)=\FFF$.  The second follows from Proposition~\ref{prop:odd-order}.
+\end{proof}
+
+Together with Computational Theorem~\ref{cthm:small-orders}, the same implication
+excludes order-$6$ subsquares; that additional exclusion inherits the
+computational status of the order-$6$ theorem.
+
+There is an exact linear-algebraic description of all half-order
+subsquares.  Let $M_L$ be the $3n$-by-$n^2$ binary incidence matrix whose
+rows are the row, column, and symbol lines and whose columns are the occupied
+cells of $L$.  Let
+\[
+ U=\{(\alpha\mathbf1_R,\beta\mathbf1_C,\gamma\mathbf1_S):
+       \alpha+\beta+\gamma=0\}
+ \subseteq\ker M_L^{\mathsf T}
+\]
+and put
+\[
+ \delta_2(L)=(3n-2)-\operatorname{rank}_{\mathbb F_2}M_L.
+\]
+
+\begin{theorem}[Binary line kernel and half-order subsquares]
+\label{thm:binary-kernel-subsquares}
+Individual embedded half-order Latin subsquares of $L$ are in bijection with
+\[
+ \ker M_L^{\mathsf T}\setminus U.
+\]
+Equivalently, the nonzero classes in
+$\ker M_L^{\mathsf T}/U$ parametrize their complementary four-packs.  Thus
+their number is exactly
+\begin{equation}
+ 4\bigl(2^{\delta_2(L)}-1\bigr).\label{eq:half-order-count}
+\end{equation}
+If $n=2m$, where $m>1$ is odd, then any one F-view forces
+\begin{equation}
+ \operatorname{rank}_{\mathbb F_2}M_L=3n-2.\label{eq:fff-binary-line-rank}
+\end{equation}
+In particular, \eqref{eq:fff-binary-line-rank} holds for every FFF square of order congruent to $2$
+modulo $4$ and greater than $2$.
+\end{theorem}
+
+\begin{proof}
+A left-kernel vector is a triple $(a,b,c)$ satisfying
+\begin{equation}
+ a_r+b_j+c_{L(r,j)}=0.\label{eq:binary-line-dependency}
+\end{equation}
+If one coordinate, say $a$, is constant, then fixing a
+column and varying its rows shows that $c$ is constant; fixing a row then
+makes $b$ constant.  Hence every vector outside $U$ has all three
+coordinates nonconstant.
+
+Fix a row $r$.  Since that row permutes the symbols,
+\eqref{eq:binary-line-dependency} identifies the
+multiset of $c$-values with that of $a_r+b$.  Choosing rows with $a_r=0$
+and $a_r=1$ gives
+\[
+ \operatorname{wt}(c)=\operatorname{wt}(b)
+ =n-\operatorname{wt}(b).
+\]
+Thus $n=2m$ and $b,c$ each have weight $m$.  The analogous fixed-column
+argument gives $\operatorname{wt}(a)=m$.  For their binary fibres
+$A_x,B_y,C_z$, equation~\eqref{eq:binary-line-dependency} now gives
+\[
+ L(A_x,B_y)\subseteq C_{x+y}\qquad(x,y\in\mathbb F_2).
+\]
+Every set has size $m$; Latinness makes each of the four displayed blocks an
+order-$m$ Latin subsquare.
+
+Adding an element of $U$ complements zero or two of the three partitions and
+selects a different block in the same four-pack.  Conversely, if
+$R_0\times C_0$ is a half-order subsquare with symbol set $S_0$, row and
+column counting forces the complementary pattern
+\[
+ R_0\times C_0,\ R_1\times C_1\longrightarrow S_0,
+ \qquad R_0\times C_1,\ R_1\times C_0\longrightarrow S_1.
+\]
+The three complement indicators satisfy
+\eqref{eq:binary-line-dependency}, and the chosen block recovers
+them uniquely.  This proves both bijections.  Since $U$ has dimension two
+and the quotient has dimension $\delta_2(L)$, counting its nonzero classes
+proves the counting formula.
+
+Finally suppose that $m>1$ is odd and $\delta_2(L)>0$.  The preceding
+construction gives an order-$m$ subsquare.  Two distinct rows inside it
+induce a fixed-point-free permutation preserving its $m$ columns.  Such a
+permutation on an odd set has a nontrivial odd cycle, contradicting an F row
+view.  The two parastrophes give the same conclusion for either other view,
+which proves the rank formula.  The exception $m=1$ is real: the order-$2$ FFF square has
+four singleton subsquares and $\delta_2=1$.
+\end{proof}
+
+The complete finite audit independently constructs both sides of the
+bijection on $9778$ tables and obtains exact set equality in every case.  In
+particular, the $230$ order-$8$ FFF representatives have
+\[
+ \delta_2=0,1,2,3\quad\text{with multiplicities}\quad63,156,10,1,
+\]
+which explains their half-order-subsquare distribution
+$0^{63}4^{156}12^{10}28^1$.  A hypothetical order-$10$ FFF square must have
+binary line rank $28$ and no order-$5$ subsquare.  This condition is not
+sufficient: all $135$ tracked order-$10$ diagnostic tables already satisfy
+it, none is FFF, and that corpus is not exhaustive.
+
+The same kernel equation has a uniform interpretation over every prime
+field, now in terms of quotient homotopies rather than individual
+subsquares.  Moorhouse's character formula for loop-coordinatized
+$3$-nets gives the general identity
+$\operatorname{rank}_{p}M_L=3n-2-\dim\operatorname{Hom}(G,\mathbb F_p)$
+and identifies its defect with elementary-abelian quotient
+characters~\cite[Theorem~4.2]{Moorhouse1991BruckNets}.  We record a direct
+three-sorted proof in our notation because the individual cyclic quotient is
+the input needed for the FFF corollary below.
+The author's publication page flags an erratum for the original article; the
+reference entry therefore points to the author-hosted article copy and the
+separate erratum listing.  The direct proof given here, rather than an unexamined appeal
+to the original pagination, is the logical basis for the specialization used
+below.
+
+\begin{theorem}[Prime-field line quotients]
+\label{thm:prime-field-line-quotients}
+Let $p$ be prime and let
+$(a,b,c)\in\ker_{\mathbb F_p}M_L^{\mathsf T}$ be nonconstant modulo the
+two-dimensional constant subspace.  Then $p\mid n$, each of $a,b,c$ takes
+every value exactly $n/p$ times, and their fibres satisfy
+\[
+ L(R_x,C_y)\subseteq S_{-x-y}\qquad(x,y\in\mathbb F_p).
+\]
+After a suitable isotopy these three fibre partitions become one quasigroup
+congruence with $p$ blocks of size $n/p$ and quotient isotopic to $C_p$.
+
+Over characteristic zero, $M_L$ has rank $3n-2$.  Every prime dividing a
+nonzero Smith invariant factor of the integer matrix $M_L$ divides $n$.
+\end{theorem}
+
+\begin{proof}
+If one of $a,b,c$ is constant, fixing a line in either other sort and using
+Latinness makes the remaining two constant.  Let $\mu_b(t)$ and $\mu_c(t)$
+be value multiplicities.  Since every row permutes the symbols,
+equation~\eqref{eq:binary-line-dependency}, now read in $\mathbb F_p$, gives
+\[
+ \mu_c(t)=\mu_b(-a_r-t).
+\]
+Comparing rows with $a_r-a_{r'}\ne0$ makes $\mu_b$ invariant under a nonzero
+translation.  That translation generates the additive group of
+$\mathbb F_p$, so $\mu_b$ is uniform.  Thus $p\mid n$ and both $b,c$ are
+balanced; the column argument balances $a$.  The displayed fibre rule is the
+kernel equation itself.
+
+Choose bijections from one partitioned $n$-set to the row, column, and symbol
+sets, matching equally labelled fibres.  Transporting $L$ by these three
+bijections gives an isotope whose block operation is $x*y=-x-y$ on
+$\mathbb F_p$.  It is Latin and isotopic to addition, so block equivalence is
+compatible with multiplication and both divisions and is a quasigroup
+congruence.
+
+In characteristic zero a finite nonempty multiset cannot be invariant under
+a nonzero translation, because its iterated translates would have infinite
+support.  Hence only the two constant dependencies remain.  Finally, if a
+prime divides a nonzero Smith invariant factor, reduction modulo that prime
+lowers the rank; the first part then forces the prime to divide $n$.
+\end{proof}
+
+An eight-worker audit checks this theorem over
+$\mathbb F_2,\mathbb F_3,\mathbb F_5,\mathbb F_7,\mathbb F_{11}$ on $9778$
+tables.  It verifies all $1160$ nonuniversal quotient classes and a separate
+implementation reconstructs $48890$ modular ranks, with no errors.
+
+We next use congruences in the quasigroup algebra with multiplication and the
+two division operations.  All congruence blocks have equal size and form a
+Latin quotient.
+
+\begin{theorem}[Congruence obstructions]\label{thm:congruence-obstructions}
+Let $L$ be a finite Latin square.
+\begin{enumerate}[label=(\roman*)]
+\item If $L$ has a congruence with odd block size greater than one, then
+  $\pat(L)=\TTT$.
+\item If the congruence blocks have size two and the quotient is $Q$, then
+  $\pat(L)=\pat(Q)$ componentwise.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+For (i), choose distinct rows $x,x'$ in one congruence block $A$ and any
+column block $B$.  The two left translations map $B$ bijectively onto the
+same product block.  Thus $L_{x'}^{-1}L_x$ preserves $B$ and is
+fixed-point-free there.  Since $|B|$ is odd, its restriction has a
+nontrivial odd cycle.  Applying the same argument to the two relevant
+parastrophes proves the column and symbol bits.
+
+For (ii), label every two-element block by $(i,0),(i,1)$, where $i\in Q$.
+The unique form of a binary Latin square gives a function
+$f\colon Q^2\to\mathbb F_2$ such that
+\[
+  (i,a)*(j,b)=(i*j,a+b+f(i,j)).
+\]
+Rows in the same quotient block induce only transpositions inside the column
+fibres.  For rows in different quotient blocks, the lift above a quotient
+cycle of length $\ell$ is either two cycles of length $\ell$ or one cycle of
+length $2\ell$, according to its binary voltage.  Thus an ambient odd cycle
+can occur only above an odd quotient cycle.
+
+Conversely, suppose quotient rows $i,i'$ induce an odd cycle $C$ of length
+$\ell>1$.
+Above a quotient column $j\in C$, the lifted row permutation comparing
+$(i,a)$ with $(i',a')$ has the form
+\[
+ (j,b)\longmapsto
+ \bigl(\pi(j),b+a+a'+f(i,j)+f(i',\pi(j))\bigr).
+\]
+Its voltage around $C$ is $a+a'+S$, because $\ell$ is odd, where $S$ is
+independent of $a,a'$.  Choose $a+a'=S$.  The voltage is then zero, so the
+lift of $C$ consists of two cycles of the same odd length $\ell$.  Hence a
+quotient row witness lifts to an ambient row witness.  This proves equality
+of the row bits.  The same complete argument in the parastrophes proves
+equality of the column and symbol bits.
+\end{proof}
+
+\begin{corollary}[Order-$2p$ simplicity]\label{cor:2p-simple}
+Let $p$ be an odd prime.  Every quasigroup of order $2p$ with at least one
+F view is congruence-simple, and every isotope of it is congruence-simple.
+\end{corollary}
+
+\begin{proof}
+A nontrivial congruence has block-size/quotient-order pair $(p,2)$ or
+$(2,p)$.  The first is excluded by
+Theorem~\ref{thm:congruence-obstructions}(i).  In the second, the quotient
+has pattern TTT by Proposition~\ref{prop:odd-order}, so (ii) excludes it.
+Both congruence cases force TTT, contradicting even one F view.
+Finally, the full view pattern is isotopy invariant by
+Proposition~\ref{prop:invariance}, and the same argument applies to every isotope.
+\end{proof}
+
+\begin{corollary}[Order-$2p$ line-incidence saturation]
+\label{cor:2p-line-saturation}
+Let $p>1$ be an odd prime and let $L$ have order $2p$.  If even one view of
+$L$ is F, then $M_L$ has rank $6p-2$ over every field, all its nonzero Smith
+invariant factors are $1$, and
+\[
+ \mathbb Z^{6p}/\operatorname{im}_{\mathbb Z}M_L\cong\mathbb Z^2.
+\]
+In particular, this holds for every hypothetical order-$10$ FFF square.
+\end{corollary}
+
+\begin{proof}
+By Theorem~\ref{thm:prime-field-line-quotients}, a torsion prime must divide
+$2p$.  A characteristic-two defect yields, after isotopy, a congruence with
+two blocks of odd size $p$, so
+Theorem~\ref{thm:congruence-obstructions}(i) gives pattern TTT.  A
+characteristic-$p$ defect yields blocks of size two; part (ii) identifies the
+pattern with that of the odd-order quotient, again TTT by
+Proposition~\ref{prop:odd-order}.  Isotopy invariance contradicts the assumed
+F view in either case.  Thus no Smith prime remains, proving saturation and
+the displayed cokernel.
+\end{proof}
+
+Thus a hypothetical order-$10$ FFF square must be isotopically
+congruence-simple.  This removes every congruence-imprimitive quasigroup
+construction, but it does not rule out simple quasigroups and therefore does
+not decide order $10$.
+
+The binary equality iterates through congruence series.
+
+\begin{corollary}[Prime-factor congruence series]
+\label{cor:prime-congruence-series}
+Suppose that a quasigroup admits a chain of congruence quotients ending in the
+one-element quasigroup, with every congruence block size prime.  It is FFF if
+all those primes are $2$, and it has pattern TTT if at least one is odd.
+\end{corollary}
+
+\begin{proof}
+A binary step preserves the entire pattern by
+Theorem~\ref{thm:congruence-obstructions}(ii).  At an odd step,
+Theorem~\ref{thm:congruence-obstructions}(i) gives TTT independently of the
+lower quotient.  Iterating proves both statements.
+\end{proof}
+
+This proves the power-of-two conjecture for this congruence-decomposable
+class, but leaves congruence-simple quasigroups outside its scope.
+
+The same theorem also gives a census-free nongroup example.
+
+\begin{theorem}[Explicit nongroup FFF loop]
+\label{thm:explicit-nongroup-loop}
+On $\mathbb Z_4\times\mathbb F_2$, define
+\[
+ (i,a)*(j,b)=
+ \bigl(i+j,\,a+b+\mathbf 1_{(i,j)=(1,1)}\bigr),
+\]
+with coordinates taken modulo $4$ and $2$, respectively.  This is an FFF
+loop of order $8$ that is not group-isotopic.
+\end{theorem}
+
+\begin{proof}
+The identity is $(0,0)$, and the first-coordinate fibres form a congruence
+with quotient $C_4$.  The quotient is FFF by
+Corollary~\ref{cor:group-fff}, so binary pattern equality makes the loop
+FFF.  It is not associative because
+\[
+ ((1,0)*(1,0))*(2,0)=(0,1),\qquad
+ (1,0)*((1,0)*(2,0))=(0,0).
+\]
+At the identity base row, the basis family in
+Proposition~\ref{prop:closure} is the family of left translations.
+Closure would force $L_xL_y=L_{x*y}$ and hence associativity.  The displayed
+failure is therefore a closure failure, so the loop is not group-isotopic.
+\end{proof}

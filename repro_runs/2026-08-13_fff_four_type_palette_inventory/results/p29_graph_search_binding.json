@@ -1,0 +1,34 @@
+{
+  "all_checks_passed": true,
+  "audit_path": "repro_runs/2026-08-13_fff_four_type_palette_inventory/results/p29_hashbound_complete_graph_audit.json",
+  "audit_sha256": "1454d9f84747484a0d091838b2cdaf471fdac5c0f467ad348c5ee795e0ec3252",
+  "audit_summary": {
+    "edges": 11206080,
+    "pairs_checked": 203202720,
+    "stored_vertices": 20160
+  },
+  "case_id": "p29",
+  "checks": {
+    "audit_valid": true,
+    "candidate_list_errors_zero": true,
+    "edge_errors_zero": true,
+    "graph_sha256_matches_expected": true,
+    "reverse_edge_errors_zero": true,
+    "search_complete": true,
+    "search_found_no_fff": true
+  },
+  "expected_graph_sha256": "e240e51735da5c75be127e4e2c5fc4d16173d6b2f42799b8ba86781006670048",
+  "expected_graph_sha256_source": "established-by-this-run",
+  "graph_path_during_run": "/tmp/order8_four_type_inventory/p29_hashbound.bin",
+  "graph_sha256": "e240e51735da5c75be127e4e2c5fc4d16173d6b2f42799b8ba86781006670048",
+  "result_version": "graph-search-binding-v1",
+  "search_path": "repro_runs/2026-08-13_fff_four_type_palette_inventory/results/p29_hashbound_full_fff_search.json",
+  "search_sha256": "5820d956ca554139b0c53d8ada7aa40c349dfb73095f78720f2ece2f21c7ecb4",
+  "search_summary": {
+    "completed_tasks": 2520,
+    "crossview_odd_cycle_prunes": 608600,
+    "fff_found": false,
+    "search_nodes": 2113648,
+    "total_initial_tasks": 2520
+  }
+}

@@ -1,0 +1,5390 @@
+{
+  "input": {
+    "path": "repro_runs/2026-04-26_order8_core/data/transitive8.txt",
+    "sha256": "1c777328c099e3c242a49f9f2019d83314d7ab800505c7d9291bdb16ef029146",
+    "size_bytes": 905
+  },
+  "species": [
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123456710325476231067543201764545672310547632016754103276450123",
+      "group_isotopic": true,
+      "group_isotopy_witness": {
+        "left_identity_row": 0,
+        "loop_identity": 0,
+        "right_identity_column": 0
+      },
+      "index": 1,
+      "original_rows_letters": [
+        "abcdefgh",
+        "badcfehg",
+        "cdbaghfe",
+        "dcabhgef",
+        "efghcdba",
+        "fehgdcab",
+        "ghfebadc",
+        "hgefabcd"
+      ],
+      "original_rows_numeric": [
+        "01234567",
+        "10325476",
+        "23106754",
+        "32017645",
+        "45672310",
+        "54763201",
+        "67541032",
+        "76450123"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123456710325476230167453210765445671032547601236745321076542301",
+      "group_isotopic": true,
+      "group_isotopy_witness": {
+        "left_identity_row": 0,
+        "loop_identity": 0,
+        "right_identity_column": 0
+      },
+      "index": 2,
+      "original_rows_letters": [
+        "abcdefgh",
+        "badcfehg",
+        "cdabghef",
+        "dcbahgfe",
+        "efghbadc",
+        "fehgabcd",
+        "ghefdcba",
+        "hgfecdab"
+      ],
+      "original_rows_numeric": [
+        "01234567",
+        "10325476",
+        "23016745",
+        "32107654",
+        "45671032",
+        "54760123",
+        "67453210",
+        "76542301"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123456710325476230167453210765445670123547610326745230176543210",
+      "group_isotopic": true,
+      "group_isotopy_witness": {
+        "left_identity_row": 0,
+        "loop_identity": 0,
+        "right_identity_column": 0
+      },
+      "index": 3,
+      "original_rows_letters": [
+        "abcdefgh",
+        "badcfehg",
+        "cdabghef",
+        "dcbahgfe",
+        "efghabcd",
+        "fehgbadc",
+        "ghefcdab",
+        "hgfedcba"
+      ],
+      "original_rows_numeric": [
+        "01234567",
+        "10325476",
+        "23016745",
+        "32107654",
+        "45670123",
+        "54761032",
+        "67452301",
+        "76543210"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123456710325476230176543210674545670123547610326745321076542301",
+      "group_isotopic": true,
+      "group_isotopy_witness": {
+        "left_identity_row": 0,
+        "loop_identity": 0,
+        "right_identity_column": 0
+      },
+      "index": 4,
+      "original_rows_letters": [
+        "abcdefgh",
+        "badcfehg",
+        "cdabhgfe",
+        "dcbaghef",
+        "efghabcd",
+        "fehgbadc",
+        "ghefdcba",
+        "hgfecdab"
+      ],
+      "original_rows_numeric": [
+        "01234567",
+        "10325476",
+        "23017654",
+        "32106745",
+        "45670123",
+        "54761032",
+        "67453210",
+        "76542301"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123456710325476231076453201675445671032547601236754231076453201",
+      "group_isotopic": true,
+      "group_isotopy_witness": {
+        "left_identity_row": 0,
+        "loop_identity": 0,
+        "right_identity_column": 0
+      },
+      "index": 5,
+      "original_rows_letters": [
+        "abcdefgh",
+        "badcfehg",
+        "cdbahgef",
+        "dcabghfe",
+        "efghbadc",
+        "fehgabcd",
+        "ghfecdba",
+        "hgefdcab"
+      ],
+      "original_rows_numeric": [
+        "01234567",
+        "10325476",
+        "23107645",
+        "32016754",
+        "45671032",
+        "54760123",
+        "67542310",
+        "76453201"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123475610327465230165743210564745673021547603127654213067451203",
+      "group_isotopic": false,
+      "group_isotopy_witness": null,
+      "index": 6,
+      "original_rows_letters": [
+        "abcdehfg",
+        "badchegf",
+        "cdabgfhe",
+        "dcbafgeh",
+        "efghdacb",
+        "fehgadbc",
+        "hgfecbda",
+        "ghefbcad"
+      ],
+      "original_rows_numeric": [
+        "01234756",
+        "10327465",
+        "23016574",
+        "32105647",
+        "45673021",
+        "54760312",
+        "76542130",
+        "67451203"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123475610327465231056743201654747652301745632106574013256471023",
+      "group_isotopic": false,
+      "group_isotopy_witness": null,
+      "index": 7,
+      "original_rows_letters": [
+        "abcdehfg",
+        "badchegf",
+        "cdbafghe",
+        "dcabgfeh",
+        "ehgfcdab",
+        "hefgdcba",
+        "gfheabdc",
+        "fgehbacd"
+      ],
+      "original_rows_numeric": [
+        "01234756",
+        "10327465",
+        "23105674",
+        "32016547",
+        "47652301",
+        "74563210",
+        "65740132",
+        "56471023"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0123657410324756250471634250163737165042637104257465230156473210",
+      "group_isotopic": false,
+      "group_isotopy_witness": null,
+      "index": 8,
+      "original_rows_letters": [
+        "abcdgfhe",
+        "badcehfg",
+        "cfaehbgd",
+        "ecfabgdh",
+        "dhbgfaec",
+        "gdhbaecf",
+        "hegfcdab",
+        "fgehdcba"
+      ],
+      "original_rows_numeric": [
+        "01236574",
+        "10324756",
+        "25047163",
+        "42501637",
+        "37165042",
+        "63710425",
+        "74652301",
+        "56473210"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0132547612034657402715632465730153160742375461206570321476412035",
+      "group_isotopic": false,
+      "group_isotopy_witness": null,
+      "index": 9,
+      "original_rows_letters": [
+        "abdcfehg",
+        "bcadegfh",
+        "eachbfgd",
+        "cegfhdab",
+        "fdbgahec",
+        "dhfegbca",
+        "gfhadcbe",
+        "hgebcadf"
+      ],
+      "original_rows_numeric": [
+        "01325476",
+        "12034657",
+        "40271563",
+        "24657301",
+        "53160742",
+        "37546120",
+        "65703214",
+        "76412035"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "4213570605327641316024751027635457064213764105322475316063541027",
+      "group_isotopic": false,
+      "group_isotopy_witness": null,
+      "index": 10,
+      "original_rows_letters": [
+        "ecbdfhag",
+        "afdchgeb",
+        "dbgacehf",
+        "bachgdfe",
+        "fhagecbd",
+        "hgebafdc",
+        "cehfdbga",
+        "gdfebach"
+      ],
+      "original_rows_numeric": [
+        "42135706",
+        "05327641",
+        "31602475",
+        "10276354",
+        "57064213",
+        "76410532",
+        "24753160",
+        "63541027"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    },
+    {
+      "column_swap_failures": [],
+      "column_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ],
+      "compact_numeric": "0375146261043257572140362643751014620375325761044036572175102643",
+      "group_isotopic": false,
+      "group_isotopy_witness": null,
+      "index": 11,
+      "original_rows_letters": [
+        "adhfbegc",
+        "gbaedcfh",
+        "fhcbeadg",
+        "cgedhfba",
+        "begcadhf",
+        "dcfhgbae",
+        "eadgfhcb",
+        "hfbacged"
+      ],
+      "original_rows_numeric": [
+        "03751462",
+        "61043257",
+        "57214036",
+        "26437510",
+        "14620375",
+        "32576104",
+        "40365721",
+        "75102643"
+      ],
+      "pattern": "FFF",
+      "pattern_detail": {
+        "col": false,
+        "row": false,
+        "sym": false
+      },
+      "row_swap_failures": [],
+      "row_swaps": [
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            1
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            0,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            2
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            1,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            3
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            2,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            4
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            3,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            5
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            4,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            6
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            5,
+            7
+          ],
+          "pattern": "FFF"
+        },
+        {
+          "has_any_odd_cycle": false,
+          "pair": [
+            6,
+            7
+          ],
+          "pattern": "FFF"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "all_column_swaps_preserve_fff": true,
+    "all_patterns_are_fff": true,
+    "all_row_swaps_preserve_fff": true,
+    "column_swap_failure_count": 0,
+    "group_isotopic": 5,
+    "non_group_isotopic": 6,
+    "row_swap_failure_count": 0,
+    "species_count": 11
+  },
+  "transitive_file": {
+    "declared_alphabet_size": 8,
+    "declared_order": 8,
+    "declared_species_count": 11
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "p06",
+  "mode": "full",
+  "workers": 8,
+  "total_initial_tasks": 6840,
+  "task_start": 0,
+  "task_end_exclusive": 6840,
+  "completed_tasks": 6840,
+  "search_nodes": 62369480,
+  "crossview_odd_cycle_prunes": 24980296,
+  "fff_found": false,
+  "slice_complete": true
+}

@@ -1,0 +1,26 @@
+{
+  "checker": {
+    "binary_sha256": "f58f63b0f76945d4c4c9ff6e87afaf870f579e67c0f7cca589492df8fc7ebd47",
+    "path": "/tmp/order8_solver_tools/drat-trim/drat-trim",
+    "source_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+  },
+  "cnf": {
+    "path": "/tmp/order8_primitive_group_reduction/pgammal2_9_f_clique_upper.cnf",
+    "sha256": "925404dad9c67714e2acc03817d1ce90134de0db935a6bfe45b797fffa6c53d3"
+  },
+  "proof": {
+    "path": "/tmp/order8_primitive_group_reduction/pgammal2_9.drat",
+    "sha256": "9023f79150daa310343851ad1ab019899c7d57417cbd3a6be23f8cd259ff39ad",
+    "size_bytes": 7221667
+  },
+  "result": "verified",
+  "returncode": 0,
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_primitive_group_reduction/logs/pgammal2_9_drat_check.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_primitive_group_reduction/logs/pgammal2_9_drat_check.stdout.txt",
+    "sha256": "9a7a9669e6d01aa7039200050207ed77a7eb8e7fca64b075bee17d4936108fcb"
+  }
+}

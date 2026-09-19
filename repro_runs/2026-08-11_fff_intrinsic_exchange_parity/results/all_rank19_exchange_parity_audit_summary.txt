@@ -1,0 +1,14 @@
+All rank-19 order-6 exchange-parity audit
+
+tables: 3960
+main classes: 3
+parity signatures: 3
+minimum weights: {7: 3240, 9: 720}
+errors: 0
+
+Per-main-class signatures:
+- 5c2dd0f737ef: tables=540, r_Q={1: 540}, signatures=1, min_weights={9: 540}, min_counts={80: 540}
+- 864300b7d3a6: tables=3240, r_Q={1: 3240}, signatures=1, min_weights={7: 3240}, min_counts={12: 3240}
+- cbf241432314: tables=180, r_Q={3: 180}, signatures=1, min_weights={9: 180}, min_counts={160: 180}
+
+Boundary: complete for the three rank-19 main classes of order 6; no order-10 conclusion.

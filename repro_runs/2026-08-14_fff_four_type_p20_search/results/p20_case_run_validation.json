@@ -1,0 +1,50 @@
+{
+  "all_checks_passed": true,
+  "case_id": "p20",
+  "checks": {
+    "all_graph_error_counts_zero": true,
+    "audit_hash_bindings_exact": true,
+    "common_sources_match_hardened_c125": true,
+    "graph_audit_binding_valid": true,
+    "graph_counts_exact": true,
+    "graph_hash_frozen": true,
+    "monolithic_complete_negative": true,
+    "orbit_cover_valid": true,
+    "plan_bindings_exact": true,
+    "search_counts_exact": true,
+    "search_decompositions_equal": true,
+    "semantic_valid": true,
+    "sliced_complete_negative": true,
+    "structural_valid": true,
+    "task_file_bound": true
+  },
+  "graph_path": "external/Order8_external_graphs/2026-08-13_four_type_large/p20_root_6_2_2/p20.bin",
+  "monolithic_plan_sha256": "b67a1b2053c4ad0cd65dfb7fdf7289ea2f08c0d59dc4417498624a9916436ac6",
+  "reference_scripts": "repro_runs/2026-08-13_fff_four_type_large_searches/scripts",
+  "result": {
+    "edges": 929166384,
+    "fff_found": false,
+    "full_tasks": 14648,
+    "graph_sha256": "165df10b50bf85bb33d25654ec1cd9e489f3f8f64538eafef7e946cb564808cf",
+    "nodes": 2739812181,
+    "orbits": 1831,
+    "pairs": 9265348128,
+    "prunes": 1843691097,
+    "vertices": 136128
+  },
+  "schema_version": "four-type-case-run-validation-v1",
+  "sliced_plan_sha256": "40485a4589923f6aec49edfb546f631d1f79f9fd69ed796f773fbdf43f5096aa",
+  "source_matches": {
+    "audit_complete_four_type_candidate_graph.cpp": true,
+    "audit_graph_structure.py": true,
+    "bind_graph_audits.py": true,
+    "build_filtered_four_type_candidate_graph.cpp": true,
+    "compare_search_merges.py": true,
+    "create_task_plan.py": true,
+    "merge_task_slices.py": true,
+    "partial_cycle.hpp": true,
+    "run_task_plan.py": true,
+    "search_partite_fff.cpp": true
+  },
+  "task_file_sha256": "0ac59dead773a131adbb86fd79a39a440a9103f4f9f3f1fd0b07552d86c3a6eb"
+}

@@ -1,0 +1,43 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "external_graph_hash_frozen": true,
+    "full_root_bucket_complete_negative": true,
+    "full_root_plan_bound": true,
+    "graph_audit_binding": true,
+    "independent_binary_clique_audit": true,
+    "orbit_cover_exact": true,
+    "orbit_dimension_binding": true,
+    "reduced_decompositions_equivalent": true,
+    "reduced_monolithic_complete_negative": true,
+    "reduced_plans_bound": true,
+    "reduced_sliced_complete_negative": true,
+    "search_implementations_bound": true,
+    "semantic_error_counts_zero": true,
+    "semantic_graph_audit": true,
+    "source_generalization_audit": true,
+    "structural_graph_audit": true,
+    "task_file_bound": true
+  },
+  "result": {
+    "case_id": "f11",
+    "edges": 335750544,
+    "exact_palette_clique_count": 384,
+    "fff_found": false,
+    "full_root_nodes": 531789710,
+    "full_tasks": 12300,
+    "graph_sha256": "d5b53aa9ddaf6ccdde118cb079020d431ae10abc39916d1e864a074f381e1f54",
+    "orbits": 261,
+    "palette": [
+      "10",
+      "4+2+2+2",
+      "4+4+2",
+      "6+2+2",
+      "6+4"
+    ],
+    "reduced_nodes": 12250519,
+    "transversal_clique_count": 384,
+    "vertices": 113616
+  },
+  "schema_version": "five-type-f11-run-validation-v1"
+}

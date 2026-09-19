@@ -1,0 +1,124 @@
+\documentclass[11pt]{article}
+
+\ifdefined\pdftrailerid
+  \pdftrailerid{}
+\fi
+
+\usepackage[a4paper,margin=30mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,
+  urlcolor=blue!55!black]{hyperref}
+\hypersetup{
+  pdftitle={AI-generated Research Dossier - Odd-Cycle-Free Latin Squares: Products, an Order-8 Census, and Nonexistence at Order 10},
+  pdfauthor={},
+  pdfsubject={Latin squares with no odd-cycle two-line witness},
+  pdfkeywords={Latin squares, quasigroups, Latin trades, subset actions, direct products}
+}
+
+\title{Odd-Cycle-Free Latin Squares:\\
+  Products, an Order-$8$ Census, and Nonexistence at Order $10$}
+\author{}
+\date{\small Preserved technical manuscript; read the preceding provenance statement}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{computationaltheorem}[theorem]{Computational Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\pat}{\operatorname{pat}}
+\newcommand{\rowv}{\mathrm{row}}
+\newcommand{\colv}{\mathrm{col}}
+\newcommand{\symv}{\mathrm{sym}}
+\newcommand{\FFF}{\mathsf{FFF}}
+\newcommand{\TTT}{\mathsf{TTT}}
+
+\newcommand{\DossierVariant}{Full technical record}
+\begin{document}
+\input{dossier_frontmatter}
+
+
+\maketitle
+
+\begin{abstract}
+For a pair of rows, columns, or symbols of a Latin square, the corresponding
+two-line permutation is fixed-point-free.  We call a view failing if one of
+these permutations has a nontrivial odd cycle, and call the square
+\emph{FFF} if none of its three views fails.  Such odd cycles support local
+Latin trades.  We prove the exact three-parity rule: row- and column-view odd
+trades reverse the conventional row--column sign, while symbol-view odd
+trades preserve it and reverse the two parastrophic companion signs.
+
+We prove subsquare monotonicity and exact pattern preservation across
+two-element congruence blocks; odd block size forces all three views to fail.
+Hence every FFF quasigroup of order $2p$, for odd prime $p$, is
+congruence-simple in every isotope.  We give an explicit non-group-isotopic
+FFF loop of order $8$.  Direct products take the componentwise Boolean OR of
+failure patterns and are group-isotopic exactly when both factors are,
+producing infinite non-group-isotopic FFF families in power-of-two orders.
+Binary line-rank defects correspond exactly to complementary four-packs of
+half-order subsquares.  A direct specialization of known $3$-net character
+theory also shows that one F view at order $2p$ forces a saturated integer
+line-incidence lattice.
+
+An exhaustive reproducible scan of the $283657$ order-$8$ main classes finds
+$230$ FFF classes, of which $225$ are not group-isotopic; all eight failure
+patterns occur.  No FFF square of order $6$ exists.  Consequently every order
+$2^m$, $m\geq3$, realizes all eight patterns and contains a non-group-isotopic
+FFF square.
+
+At order $10$, we characterize an F-view by collision-free
+odd-subset lifts and by total unimodularity of normalized pair-tensor slices.
+The colour-stratified coboundary detects the full view pattern on the dual
+flag surface.
+Every normalized order-$10$ F-view generates $A_{10}$ or $S_{10}$, and at
+least one view of a hypothetical FFF square generates $S_{10}$.  A complete
+cycle-type palette audit proves that every view uses at least six of the seven
+even derangement types by excluding all twenty-one exact five-type palettes.
+Two exhaustive master searches then exclude all six-type palettes and the
+seven-type palette.  Hence no FFF Latin square of order $10$ exists.  This
+settles the second even non-power-of-two order after $6$, but the conjecture
+that nontrivial FFF Latin squares exist exactly in power-of-two orders remains
+open beginning at order $12$.
+\end{abstract}
+
+\noindent\textbf{Keywords.}
+Latin square; quasigroup congruence; Latin subsquare; Latin trade; cycle
+parity; flag surface; cohomology; subset action; direct product;
+computational enumeration.
+
+\medskip
+\noindent\textbf{2020 Mathematics Subject Classification.}
+Primary 05B15; Secondary 20N05, 05C70.
+
+\input{sections/00_status_note}
+\input{sections/01_introduction}
+\input{sections/02_definitions}
+\input{sections/03_structural_results}
+\input{sections/04_congruence_obstructions}
+\input{sections/04_direct_products}
+\input{sections/04_cycle_parity}
+\input{sections/05_computational_results}
+\input{sections/04_odd_subset_lifts}
+\input{sections/04_primitive_degree10}
+\input{sections/02_flag_surface}
+\input{sections/06_reproducibility}
+\input{sections/07_open_problems}
+
+\footnotesize
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\end{document}

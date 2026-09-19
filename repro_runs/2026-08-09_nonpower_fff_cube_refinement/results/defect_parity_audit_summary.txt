@@ -1,0 +1,24 @@
+FFF defect-count and parity audit
+
+Exact datasets:
+- n=6 reduced exhaustive: 9408 tables
+- n=8 main-class census: 283657 tables
+- n=10 distinct tracked valid tables: 135 tables
+
+Decisive counterexample to the proposed global parity rule:
+- n=8 census line: 66
+- defect vector (row,col,sym): [4, 2, 5]
+- total failed pairs: 11
+- compact table: 0123456710325476271460533605724145761320546731026241073573502614
+- Therefore neither per-view nor total failed-pair parity is a general even-order invariant.
+
+Exact minima in the audited datasets:
+- n=6 minimum total defects: 4 with vector [4, 0, 0]
+- n=8 minimum total defects: 0 with vector [0, 0, 0]
+- tracked n=10 minimum total defects: 4 with vector [2, 0, 2]
+
+Rigorous/check boundary:
+- The even number of odd cycles inside each failed pair is rigorous (existing proof note).
+- The number of failed line pairs in a view need not be even; this audit gives an explicit counterexample.
+- The tracked n=10 minimum is only a finite search observation, not a lower-bound theorem.
+- C38 remains open and C40 is not created.

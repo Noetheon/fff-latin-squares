@@ -1,0 +1,251 @@
+{
+  "case": {
+    "case_id": "f17",
+    "filter_level": 2,
+    "palette_canonical": [
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+2+2",
+      "8+2"
+    ],
+    "root_type": "4+2+2+2"
+  },
+  "graph": {
+    "audit_binding_path": "repro_runs/2026-08-14_fff_five_type_f17_search/results/f17_graph_audit_binding.json",
+    "audit_binding_sha256": "37a6a4b50bd6f791ad7349b61d54eea8a7c26ac6e44bca219bb279bbb89e3655",
+    "bucket_sizes": [
+      3372,
+      3372,
+      4828,
+      4828,
+      4828,
+      4828,
+      4828,
+      4828
+    ],
+    "canonical_root": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8
+    ],
+    "format": "O8HTv1-le",
+    "path_hint": "external/Order8_external_graphs/2026-08-14_five_type/f17/f17.bin",
+    "semantic_audit_path": "repro_runs/2026-08-14_fff_five_type_f17_search/results/f17_complete_graph_audit.json",
+    "semantic_audit_sha256": "3f0c6c15a97b5b9149bf5ff89b476f34ae81986bb37d621da89df3479f6bef57",
+    "semantic_audit_valid": true,
+    "sha256": "8958816838da8c47f29af21230c1bfb2bb78d2597f57d80fff48c85ab8f7bd78",
+    "size_bytes": 159775514,
+    "structural_audit_path": "repro_runs/2026-08-14_fff_five_type_f17_search/results/f17_structural_graph_audit.json",
+    "structural_audit_sha256": "decaaac854b699b863c2ef86b9ca4ca52f10cd29a072bf4c57127aabb16dac8f",
+    "vertices": 35712,
+    "words": 558
+  },
+  "plan_payload_sha256": "209040dad83740f627f7d4564860491f05838d9897e2fb96a0f4dc551cbf788d",
+  "schema_version": "five-type-task-plan-v1",
+  "search": {
+    "binary_path_hint": "/private/tmp/order8_f17/search",
+    "binary_sha256": "183b305457cb85011a6c5289a2e0eb4ac3b0ca2f37824ab83dca5855fd41c3b2",
+    "compiler": "/usr/bin/clang++",
+    "compiler_version": "Apple clang 21.0.0 (clang-2100.1.1.101)",
+    "flags": [
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4"
+    ],
+    "source_bundle_sha256": "09a08a6b7e950102cf2c5694968b022602e56681b5aebd1360900257dbb86b9a",
+    "sources": [
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f17_search/scripts/search_partite_fff.cpp",
+        "sha256": "ec541446455833b9c3044b140a280de162751933a98eefa2ad78104067a88652"
+      },
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f17_search/scripts/partial_cycle.hpp",
+        "sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82"
+      }
+    ]
+  },
+  "tasking": {
+    "full_initial_tasks": 3372,
+    "full_task_vertices_sha256": "6fea42f45aab8c054c76507bfce2992de7ad255edbb7f9f8efafe19f2b859070",
+    "initial_bucket": 0,
+    "initial_bucket_value": 2,
+    "policy": "minimum_bucket_then_smallest_bucket_id",
+    "slice_width": 8,
+    "slices": [
+      {
+        "count": 8,
+        "end_exclusive": 8,
+        "ordinal": 0,
+        "slice_id": "s0000",
+        "start": 0,
+        "task_vertices_sha256": "8ce43af0836a34fcc6551aa5e2233df9e6d95309de46e010157b4b58b2da1ef9"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 16,
+        "ordinal": 1,
+        "slice_id": "s0001",
+        "start": 8,
+        "task_vertices_sha256": "29d88f492c8f3fc3d877eb5bccee351c7a3c960b0534ac9a9c69c45724c4dbb6"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 24,
+        "ordinal": 2,
+        "slice_id": "s0002",
+        "start": 16,
+        "task_vertices_sha256": "f29a0f0ecf5420ade916b633d180485ffae4a1682bcb1b36ffe5b15a30d8aa2b"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 32,
+        "ordinal": 3,
+        "slice_id": "s0003",
+        "start": 24,
+        "task_vertices_sha256": "3c5075b8c72a22a326ff98aa524a98d3535842ee6c1d625137d4998963e9f74e"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 40,
+        "ordinal": 4,
+        "slice_id": "s0004",
+        "start": 32,
+        "task_vertices_sha256": "36c9103aee012ce1b9ceca5b3cc717bbdf9bd9973312a9baab2b0238c5250bc7"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 48,
+        "ordinal": 5,
+        "slice_id": "s0005",
+        "start": 40,
+        "task_vertices_sha256": "c4b52224511fbe008d35912af51716b1c53f7451ded08738978ac669678687a7"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 56,
+        "ordinal": 6,
+        "slice_id": "s0006",
+        "start": 48,
+        "task_vertices_sha256": "05a5ec2fd57011180933cbc43867edd5b7446dec4af9ce196459a405736ba72b"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 64,
+        "ordinal": 7,
+        "slice_id": "s0007",
+        "start": 56,
+        "task_vertices_sha256": "8a5daab727b2aa30d73a068684a3bc690916bdeb94980fff5499de74956dc291"
+      },
+      {
+        "count": 8,
+        "end_exclusive": 72,
+        "ordinal": 8,
+        "slice_id": "s0008",
+        "start": 64,
+        "task_vertices_sha256": "5e6a42a335c252d18d3ef322f85c008d6d028e44ac62ab5df23f70875ca5e2a4"
+      },
+      {
+        "count": 1,
+        "end_exclusive": 73,
+        "ordinal": 9,
+        "slice_id": "s0009",
+        "start": 72,
+        "task_vertices_sha256": "840e8c46fb2aac0476d9c22ecd85767c179af3cfb54396e8cd3d3d1670af7fae"
+      }
+    ],
+    "task_list_sha256": "d6abb1002105da8e3326285c63866d3daf86f8b25146593b808b1dc81759248b",
+    "task_reduction": {
+      "audit_path": "repro_runs/2026-08-14_fff_five_type_f17_search/results/f17_graph_root_orbit_audit.json",
+      "audit_sha256": "e4ae08bed0ad5d60e418683ec4d4eebc5fed7c8171b599497b3d2aed1b1ff914",
+      "full_initial_tasks": 3372,
+      "selected_initial_tasks": 73,
+      "task_file_path": "repro_runs/2026-08-14_fff_five_type_f17_search/data/f17_task_ordinals.txt",
+      "task_file_sha256": "a4cfe176d11945a67001d6f99b31de873ba8bd3c1e62453fd60d40dc94d77072"
+    },
+    "task_vertices": [
+      0,
+      24,
+      25,
+      120,
+      121,
+      136,
+      138,
+      146,
+      154,
+      156,
+      158,
+      468,
+      469,
+      484,
+      486,
+      494,
+      496,
+      497,
+      518,
+      520,
+      522,
+      523,
+      526,
+      527,
+      528,
+      529,
+      530,
+      590,
+      592,
+      600,
+      608,
+      610,
+      611,
+      614,
+      616,
+      648,
+      650,
+      652,
+      654,
+      655,
+      658,
+      660,
+      662,
+      663,
+      664,
+      668,
+      670,
+      672,
+      673,
+      676,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      706
+    ],
+    "total_initial_tasks": 73
+  }
+}

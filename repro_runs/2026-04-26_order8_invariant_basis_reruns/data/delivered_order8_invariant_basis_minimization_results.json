@@ -1,0 +1,887 @@
+{
+  "block_combo_results": {
+    "inverse_maps": {
+      "cluster_count": 171,
+      "feature_count": 2,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 146,
+        "13": 1,
+        "2": 14,
+        "3": 6,
+        "4": 2,
+        "5": 1,
+        "7": 1
+      }
+    },
+    "logic": {
+      "cluster_count": 9,
+      "feature_count": 9,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 3,
+        "12": 1,
+        "146": 1,
+        "2": 1,
+        "49": 1,
+        "5": 1,
+        "8": 1
+      }
+    },
+    "logic + inverse_maps": {
+      "cluster_count": 183,
+      "feature_count": 11,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 157,
+        "2": 17,
+        "3": 4,
+        "4": 3,
+        "5": 2
+      }
+    },
+    "logic + nuclei_center": {
+      "cluster_count": 88,
+      "feature_count": 14,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 59,
+        "12": 1,
+        "2": 11,
+        "3": 12,
+        "4": 1,
+        "6": 2,
+        "7": 1,
+        "73": 1
+      }
+    },
+    "logic + nuclei_center + inverse_maps": {
+      "cluster_count": 217,
+      "feature_count": 16,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 209,
+        "2": 8
+      }
+    },
+    "logic + nuclei_center + translation_types": {
+      "cluster_count": 211,
+      "feature_count": 16,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 200,
+        "2": 8,
+        "3": 3
+      }
+    },
+    "logic + nuclei_center + translation_types + inverse_maps": {
+      "cluster_count": 225,
+      "feature_count": 18,
+      "min_separating_size": 3,
+      "num_min_subsets": 2,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ],
+      "size_distribution": {
+        "1": 225
+      }
+    },
+    "logic + translation_types": {
+      "cluster_count": 190,
+      "feature_count": 11,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 163,
+        "2": 20,
+        "3": 6,
+        "4": 1
+      }
+    },
+    "logic + translation_types + inverse_maps": {
+      "cluster_count": 225,
+      "feature_count": 13,
+      "min_separating_size": 4,
+      "num_min_subsets": 4,
+      "sample_subsets": [
+        [
+          "commutative",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutative",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ],
+        [
+          "flexible",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "flexible",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ],
+      "size_distribution": {
+        "1": 225
+      }
+    },
+    "nuclei_center": {
+      "cluster_count": 70,
+      "feature_count": 5,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 46,
+        "11": 1,
+        "2": 9,
+        "3": 4,
+        "4": 5,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "9": 1,
+        "91": 1
+      }
+    },
+    "nuclei_center + inverse_maps": {
+      "cluster_count": 215,
+      "feature_count": 7,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 206,
+        "2": 8,
+        "3": 1
+      }
+    },
+    "nuclei_center + translation_types": {
+      "cluster_count": 206,
+      "feature_count": 7,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 193,
+        "2": 9,
+        "3": 2,
+        "4": 2
+      }
+    },
+    "nuclei_center + translation_types + inverse_maps": {
+      "cluster_count": 225,
+      "feature_count": 9,
+      "min_separating_size": 3,
+      "num_min_subsets": 2,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ],
+      "size_distribution": {
+        "1": 225
+      }
+    },
+    "translation_types": {
+      "cluster_count": 162,
+      "feature_count": 2,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 128,
+        "2": 19,
+        "3": 8,
+        "4": 4,
+        "5": 2,
+        "9": 1
+      }
+    },
+    "translation_types + inverse_maps": {
+      "cluster_count": 223,
+      "feature_count": 4,
+      "min_separating_size": null,
+      "num_min_subsets": 0,
+      "sample_subsets": [],
+      "size_distribution": {
+        "1": 221,
+        "2": 2
+      }
+    }
+  },
+  "feature_names": [
+    "commutative",
+    "left_inverse_property",
+    "right_inverse_property",
+    "inverse_property",
+    "inverse_coincide",
+    "antiautomorphic_inverse_property",
+    "left_alternative",
+    "right_alternative",
+    "flexible",
+    "left_nucleus",
+    "middle_nucleus",
+    "right_nucleus",
+    "commutant",
+    "center",
+    "left_translation_cycle_types",
+    "right_translation_cycle_types",
+    "left_inverse_map",
+    "right_inverse_map"
+  ],
+  "forbid_feature_min_size": {
+    "antiautomorphic_inverse_property": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "center": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "commutant": {
+      "min_size_without_feature": 4,
+      "sample_subsets": [
+        [
+          "commutative",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutative",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ],
+        [
+          "flexible",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "flexible",
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "commutative": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "flexible": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "inverse_coincide": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "inverse_property": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "left_alternative": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "left_inverse_map": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "left_inverse_property": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "left_nucleus": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "left_translation_cycle_types": {
+      "min_size_without_feature": 4,
+      "sample_subsets": [
+        [
+          "left_inverse_property",
+          "commutant",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "left_inverse_property",
+          "commutant",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "middle_nucleus": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "right_alternative": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "right_inverse_map": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      ]
+    },
+    "right_inverse_property": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "right_nucleus": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    },
+    "right_translation_cycle_types": {
+      "min_size_without_feature": 3,
+      "sample_subsets": [
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ],
+        [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      ]
+    }
+  },
+  "inclusion_minimal_separating_subsets": [
+    [
+      "commutant",
+      "left_translation_cycle_types",
+      "left_inverse_map"
+    ],
+    [
+      "commutant",
+      "left_translation_cycle_types",
+      "right_inverse_map"
+    ],
+    [
+      "commutative",
+      "left_translation_cycle_types",
+      "right_translation_cycle_types",
+      "left_inverse_map"
+    ],
+    [
+      "commutative",
+      "left_translation_cycle_types",
+      "right_translation_cycle_types",
+      "right_inverse_map"
+    ],
+    [
+      "flexible",
+      "left_translation_cycle_types",
+      "right_translation_cycle_types",
+      "left_inverse_map"
+    ],
+    [
+      "flexible",
+      "left_translation_cycle_types",
+      "right_translation_cycle_types",
+      "right_inverse_map"
+    ],
+    [
+      "left_inverse_property",
+      "commutant",
+      "right_translation_cycle_types",
+      "left_inverse_map"
+    ],
+    [
+      "left_inverse_property",
+      "commutant",
+      "right_translation_cycle_types",
+      "right_inverse_map"
+    ],
+    [
+      "commutative",
+      "left_inverse_property",
+      "right_nucleus",
+      "right_translation_cycle_types",
+      "left_inverse_map"
+    ],
+    [
+      "commutative",
+      "left_inverse_property",
+      "right_nucleus",
+      "right_translation_cycle_types",
+      "right_inverse_map"
+    ],
+    [
+      "left_inverse_property",
+      "flexible",
+      "right_nucleus",
+      "right_translation_cycle_types",
+      "left_inverse_map"
+    ],
+    [
+      "left_inverse_property",
+      "flexible",
+      "right_nucleus",
+      "right_translation_cycle_types",
+      "right_inverse_map"
+    ]
+  ],
+  "minimal_separating_subset_size": 3,
+  "minimal_separating_subsets": [
+    [
+      "commutant",
+      "left_translation_cycle_types",
+      "left_inverse_map"
+    ],
+    [
+      "commutant",
+      "left_translation_cycle_types",
+      "right_inverse_map"
+    ]
+  ],
+  "minimal_subset_core": [
+    "commutant",
+    "left_translation_cycle_types"
+  ],
+  "minimal_subset_union": [
+    "commutant",
+    "left_translation_cycle_types",
+    "left_inverse_map",
+    "right_inverse_map"
+  ],
+  "no_subset_without_inverse_maps_separates": true,
+  "nongroup_case_count": 225,
+  "separating_subset_count_by_size": {
+    "1": 0,
+    "10": 17625,
+    "11": 16542,
+    "12": 11837,
+    "13": 6413,
+    "14": 2586,
+    "15": 752,
+    "16": 149,
+    "17": 18,
+    "18": 1,
+    "2": 0,
+    "3": 2,
+    "4": 35,
+    "5": 273,
+    "6": 1268,
+    "7": 3944,
+    "8": 8739,
+    "9": 14296
+  },
+  "top_cluster_counts_by_size": {
+    "1": [
+      {
+        "cluster_count": 171,
+        "subset": [
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 171,
+        "subset": [
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 67,
+        "subset": [
+          "left_translation_cycle_types"
+        ]
+      },
+      {
+        "cluster_count": 64,
+        "subset": [
+          "right_translation_cycle_types"
+        ]
+      },
+      {
+        "cluster_count": 16,
+        "subset": [
+          "commutant"
+        ]
+      },
+      {
+        "cluster_count": 15,
+        "subset": [
+          "right_nucleus"
+        ]
+      },
+      {
+        "cluster_count": 10,
+        "subset": [
+          "middle_nucleus"
+        ]
+      },
+      {
+        "cluster_count": 7,
+        "subset": [
+          "left_nucleus"
+        ]
+      },
+      {
+        "cluster_count": 6,
+        "subset": [
+          "center"
+        ]
+      },
+      {
+        "cluster_count": 2,
+        "subset": [
+          "right_alternative"
+        ]
+      }
+    ],
+    "2": [
+      {
+        "cluster_count": 218,
+        "subset": [
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 218,
+        "subset": [
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 218,
+        "subset": [
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 218,
+        "subset": [
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 198,
+        "subset": [
+          "commutant",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 198,
+        "subset": [
+          "commutant",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 188,
+        "subset": [
+          "right_nucleus",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 188,
+        "subset": [
+          "right_nucleus",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 182,
+        "subset": [
+          "middle_nucleus",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 182,
+        "subset": [
+          "middle_nucleus",
+          "left_inverse_map"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "cluster_count": 225,
+        "subset": [
+          "commutant",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 225,
+        "subset": [
+          "commutant",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 224,
+        "subset": [
+          "commutant",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 224,
+        "subset": [
+          "commutant",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 223,
+        "subset": [
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 223,
+        "subset": [
+          "left_translation_cycle_types",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 222,
+        "subset": [
+          "right_nucleus",
+          "right_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 222,
+        "subset": [
+          "right_nucleus",
+          "right_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 221,
+        "subset": [
+          "right_nucleus",
+          "left_translation_cycle_types",
+          "right_inverse_map"
+        ]
+      },
+      {
+        "cluster_count": 221,
+        "subset": [
+          "right_nucleus",
+          "left_translation_cycle_types",
+          "left_inverse_map"
+        ]
+      }
+    ]
+  }
+}

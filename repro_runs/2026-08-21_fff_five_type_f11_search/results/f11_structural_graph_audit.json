@@ -1,0 +1,27 @@
+{
+  "actual_size_bytes": 1615392314,
+  "diagonal_nonzero": 0,
+  "errors": [],
+  "expected_size_bytes": 1615392314,
+  "expected_words": 1776,
+  "graph_path": "external/Order8_external_graphs/2026-08-21_five_type/f11/f11.bin",
+  "graph_sha256": "d5b53aa9ddaf6ccdde118cb079020d431ae10abc39916d1e864a074f381e1f54",
+  "magic_hex": "4f38485476310000",
+  "padding_nonzero_rows": 0,
+  "root_permutation": [
+    1,
+    2,
+    3,
+    0,
+    5,
+    4,
+    7,
+    6,
+    9,
+    8
+  ],
+  "schema_version": "four-type-graph-structural-audit-v1",
+  "valid": true,
+  "vertices": 113616,
+  "words": 1776
+}

@@ -1,0 +1,7 @@
+Incremental partite-search control
+
+f18 tasks/nodes/prunes: 2520/2658008/796328
+f18 result matches historical search: true
+pattern channel controls: 8/8
+checks passed: 9/9
+all checks passed: true

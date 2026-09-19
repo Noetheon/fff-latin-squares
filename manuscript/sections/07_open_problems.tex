@@ -1,0 +1,531 @@
+\section{The order-10 computational exclusion}
+
+The strict local condition studied by Kobayashi and Nakamura requires every
+pair of factors in a $1$-factorization of $K_{n,n}$ to form only $4$-cycles;
+such a $4$-semiregular factorization exists precisely in power-of-two
+orders~\cite{KobayashiNakamura1994}.  In one Latin-square view, that condition
+forces every induced two-line cycle to have length $2$.  Our F condition is
+weaker: induced cycles may have any even length, and FFF requires the weaker
+condition simultaneously in all three coordinate views.  The nearby strict
+classification nevertheless makes the following conjecture natural.
+
+Equivalently, view a Latin square as a triangle decomposition of
+$K_{n,n,n}$.  The links of the vertices in each part form a 1-factorization
+between the other two parts.  A two-line permutation cycle of length $\ell$
+corresponds to an alternating link-union cycle of length $2\ell$.  Thus FFF
+asks that all pair-union components in all three coupled link factorizations
+have length divisible by four.  Moreover, the total number of 4-cycles in
+each of the three link families is the same: in every view it is exactly the
+number of intercalates of the Latin square.  This identity is a baseline
+three-view coupling, although it is not by itself an obstruction.
+
+\begin{conjecture}[Power-of-two FFF conjecture]\label{conj:power-two}
+For $n>1$, an FFF Latin square of order $n$ exists if and only if $n$ is a
+power of two.
+\end{conjecture}
+
+The positive direction follows from Corollary~\ref{cor:group-fff}.  The
+negative direction is proved here for odd $n$ by
+Proposition~\ref{prop:odd-order} and computed for $n=6$ by
+Computational Theorem~\ref{cthm:small-orders}.  Even non-power-of-two orders,
+including $6$ and $10$, are excluded by the computational theorems below.
+The first undecided even non-power-of-two order is $12$.
+
+Corollary~\ref{cor:2p-simple} was the first structural reduction for order
+$10$: every order-$10$
+FFF candidate must be congruence-simple in every isotope.  Thus central,
+binary-extension, and other congruence-imprimitive constructions cannot
+produce a counterexample.  This reduction alone is structural rather than an
+existence decision; the complete palette computation below closes the case.
+
+Computational Theorem~\ref{cthm:primitive-view} sharpens this again at the
+level of each line action: every normalized view must generate $A_{10}$ or
+$S_{10}$, and Corollary~\ref{cor:at-least-one-s10} forces at least one
+$S_{10}$ view.  This is a separate necessary-condition reduction, not an
+assumption used to discard candidates in the two master computations below.
+Those computations cover their full normalized permutation families without
+a primitive-group filter.
+
+There is also an exact cycle-type reduction.  The seven possible cycle types
+of a fixed-point-free permutation of degree $10$ with no odd cycle are
+\[
+ \mathcal T=\{10,8+2,6+4,6+2+2,4+4+2,
+                 4+2+2+2,2+2+2+2+2\}.
+\]
+For one view, call the set of types occurring among its $45$ relative
+two-line permutations its \emph{exact palette}.
+
+\begin{computationaltheorem}[Order-$10$ cycle-type palette exclusions]
+\label{cthm:order10-palettes}
+Every view of a hypothetical order-$10$ FFF Latin square has an exact palette
+containing at least six members of $\mathcal T$.  None of the $21$ five-member
+subsets of $\mathcal T$ can occur as the exact palette of any view:
+\begingroup
+\small
+\setlength{\jot}{1pt}
+\begin{align*}
+ &\{10,2^5,4+2+2+2,4+4+2,6+2+2\},\\
+ &\{10,2^5,4+2+2+2,4+4+2,6+4\},\\
+ &\{10,2^5,4+2+2+2,4+4+2,8+2\},\\
+ &\{10,2^5,4+2+2+2,6+2+2,6+4\},\\
+ &\{10,2^5,4+2+2+2,6+2+2,8+2\},\\
+ &\{10,2^5,4+2+2+2,6+4,8+2\},\\
+ &\{10,2^5,4+4+2,6+2+2,8+2\},\\
+ &\{10,2^5,4+4+2,6+4,8+2\},\\
+ &\{10,2^5,6+2+2,6+4,8+2\},\\
+ &\{10,4+2+2+2,4+4+2,6+2+2,6+4\},\\
+ &\{10,4+2+2+2,4+4+2,6+2+2,8+2\},\\
+ &\{10,4+2+2+2,4+4+2,6+4,8+2\},\\
+ &\{10,4+2+2+2,6+2+2,6+4,8+2\},\\
+ &\{10,4+4+2,6+2+2,6+4,8+2\},\\
+ &\{10,2^5,4+4+2,6+2+2,6+4\},\\
+ &\{2^5,4+2+2+2,4+4+2,6+2+2,6+4\},\\
+ &\{2^5,4+2+2+2,4+4+2,6+2+2,8+2\},\\
+ &\{2^5,4+2+2+2,4+4+2,6+4,8+2\},\\
+ &\{2^5,4+2+2+2,6+2+2,6+4,8+2\},\\
+ &\{2^5,4+4+2,6+2+2,6+4,8+2\},\\
+ &\{4+2+2+2,4+4+2,6+2+2,6+4,8+2\}.
+\end{align*}
+\endgroup
+Here $2^5$ abbreviates $2+2+2+2+2$.
+\end{computationaltheorem}
+
+The lower bound combines complete exclusions of every exact palette of size
+at most four.  Each of the twenty-one additional exclusions uses a complete
+root-orbit cover, a fully audited compatibility graph, reduced and
+unreduced searches, and an independent clique check.  Several compatibility
+graphs contain Latin completions: f18 and f19 each have $1920$, f20 has
+$23040$, including $19200$ with the exact f20 row palette, f21 has $1920$
+with no exact f21 row palette, and f02 has $101760$, including $99840$ with
+the exact f02 row palette, while f07 has $1920$ with no exact f07 row palette.
+The f03 graph has $768$ cliques, split as $384$ FFT and $384$ FTF, with no
+exact f03 row palette; the f04 graph has no bucket-transversal $8$-clique.
+The f05 graph has $8832$ exact-f05 tables, split as $3840$ FTT, $2496$ FTF,
+and $2496$ FFT.  The f11 graph has $384$ exact-f11 tables, all with pattern
+FTT.  The f06 graph has $2880$ candidate tables, none with the exact f06 row
+palette, split as $1152$ FTT, $864$ FTF, and $864$ FFT.  The f12 graph has
+$1920$ candidate tables, of which $1152$ have the exact f12 row palette; in
+aggregate they split as $1152$ FTT, $384$ FTF, and $384$ FFT.
+The f08 graph has $21120$ candidate tables, none with the exact f08 row
+palette; they split as $7680$ FTT, $6720$ FTF, and $6720$ FFT.  The f13
+graph has $17280$ candidate tables, of which $13632$ have the exact f13 row
+palette; they split as $9600$ FTT, $3840$ FTF, and $3840$ FFT.  Direct
+three-view validation, not pairwise compatibility alone, excludes FFF.  The
+f14 graph has $21312$ candidate tables, of which $18432$ have the exact f14
+row palette; they split as $13056$ FTT, $4128$ FTF, and $4128$ FFT, with zero
+FFF.  The f09 graph has $23040$ candidate tables, of which $21120$ have the
+exact f09 row palette; they split equally as $7680$ FTT, $7680$ FTF, and
+$7680$ FFT, with zero FFF.  The f10 graph has $55680$ candidate tables, of
+which $34560$ have the exact f10 row palette; they split as $26880$ FTT,
+$14400$ FTF, and $14400$ FFT, with zero FFF.  Only f15 among the exact
+five-type palettes remained at that stage. The f15 graph has $32896$
+candidate tables, including $13504$ with the exact f15 row palette; they
+split as $6208$ FTT, $13344$ FTF, and $13344$ FFT, with zero FFF. Thus every
+exact five-type palette is excluded.
+
+The remaining palettes reduce to two disjoint normalized master families.
+If the involution type $2^5$ occurs, one such line pair can be normalized and
+the master permits all seven types.  This covers the six exact six-type
+palettes containing $2^5$ and the exact seven-type palette.  If $2^5$ does not
+occur, the lower bound in Computational
+Theorem~\ref{cthm:order10-palettes} forces the unique six-type palette
+\[
+ \{10,4+2+2+2,4+4+2,6+2+2,6+4,8+2\},
+\]
+and an occurring $4+2+2+2$ pair is normalized instead.  Simultaneous
+conjugation preserves all three F conditions, and exact residual-group orbit
+covers reduce the two searches from $18300$ and $23760$ root tasks to $386$
+and $506$ representatives.
+
+\begin{computationaltheorem}[Nonexistence at order $10$]
+\label{cthm:order10-nonexistence}
+There is no FFF Latin square of order $10$.
+\end{computationaltheorem}
+
+For the noninvolution master, a complete semantic audit checks all
+$14855277528$ unordered pairs among $172368$ candidates and reconstructs
+$1650487056$ graph edges with zero errors.  Two complete decompositions of
+the $386$ orbit representatives agree exactly at $2514104197$ search nodes
+and $1769153203$ cross-view prunes, with no FFF completion.  For the
+involution/all-seven master, the corresponding figures are $190080$
+candidates, $18065108160$ audited pairs, $2050329600$ edges, $506$ orbit
+representatives, $5001728282$ nodes, and $3586770865$ prunes, again with no
+FFF completion.  The orbit identities cover every root task, and both package
+validators and fail-closed mutation audits pass.  The two decompositions in
+each package use the same frozen search binary and control slicing and merge
+determinism; independent model checks are supplied by separate inventory
+implementations, complete graph auditors, orbit reconstruction, and positive
+order-$8$ controls.
+
+By the lower bound, every hypothetical FFF view lies in exactly one of these
+two masters.  Their complete exclusion proves the theorem.  This confirms
+Conjecture~\ref{conj:power-two} at order $10$, not in general.
+
+\paragraph{Completeness bridge.}
+The two-master reduction fixes the identity row and a canonical second row
+$\rho$: an involution of type $2^5$, or a permutation of type $4+2+2+2$.
+Every further row is a permutation of ten symbols.  The candidate list
+enumerates all such permutations, retaining exactly those whose relative
+row types lie in the master palette and whose three-row partial table has
+no already closed odd column or symbol cycle.  Candidate vertices are
+adjacent exactly when their relative row type is allowed and their joint
+four-row partial table passes the same cross-view check.  The eight parts
+are the possible first-column images $2,\ldots,9$.  A completion therefore
+selects one candidate from each part, with pairwise graph compatibility.
+
+Write $q_r(c)=L(r,c)$ for the permutation of row $r$.  For columns $c\ne d$,
+each chosen row contributes the partial map on symbols
+$L(r,c)\mapsto L(r,d)$.  For symbols $u\ne v$, it contributes the
+partial map on columns $q_r^{-1}(u)\mapsto q_r^{-1}(v)$.  Latin compatibility
+makes every such partial map injective.  A closed odd cycle already present
+in one map cannot be broken by adding rows: all its incoming and outgoing
+edges are fixed.  Rejecting it is consequently sound.  At completion, the
+column maps are conjugate to the usual two-column permutations and the
+symbol maps are the usual two-symbol permutations, so these tests are exact.
+
+The search branches over every remaining candidate in a selected part and
+intersects the remaining parts with its graph neighbours.  An empty part
+or a closed odd cross-view cycle cannot contain a completion.  Induction on
+the number of unfilled parts shows that all other transversal choices are
+visited.  At depth eight, the two fixed rows and eight selected rows form
+a Latin square, with every row, column and symbol test enforced.  Finally,
+the recorded residual conjugation actions preserve these tests and the
+chosen root part; their complete orbit covers account for every initial
+task.  This establishes the mathematical reduction from full FFF to the
+recorded exhaustive searches.  Executable correctness and completed coverage
+remain computational evidence obligations, not consequences of the
+candidate counts alone.
+
+\section{Discussion and open problems}
+
+Order $10$ is computationally excluded by
+Computational Theorem~\ref{cthm:order10-nonexistence}; a conceptual,
+order-independent explanation is still sought.  The next undecided even
+non-power-of-two order is $12$.  The order-$10$ encodings, proposed next
+steps and diagnostic failures discussed below are historical routes and
+possible sources of general principles, not a reopened existence decision.
+
+Computational Theorem~\ref{cthm:affine-profile-saturation} also rules out a
+simple continuation of the aggregate-count approach: at order $8$, over four
+small prime fields, the complete affine relation space contains nothing
+beyond fixed-point-free partition identities, intercalate equality, and the
+global sign relation.  The same baseline admits the formal order-$10$
+profile in which every line pair is a $10$-cycle.
+Proposition~\ref{prop:line-sign-cut} now shows that this profile is not
+realizable even in one view: all $45$ relative permutations would be odd,
+whereas the odd pairs must form a cut.  The formal profile remains useful
+only as evidence that aggregate affine congruences do not see this
+obstruction.  A successful general obstruction must therefore retain pair
+incidence or use nonlinear compatibility among the three link
+factorizations.
+
+There is a canonical cell-local refinement.  For a cell $t$, let
+$a^V_\ell(t)$ count the other lines in view $V$ whose induced cycle through
+$t$ has length $\ell$.  Then $\sum_\ell a^V_\ell(t)=n-1$, and, pointwise,
+\[
+ a^R_2(t)=a^C_2(t)=a^S_2(t),
+\]
+because all three quantities count the intercalates containing $t$.  Hence
+the cross tensors
+$M^{VW}_{\ell m}=\sum_t a^V_\ell(t)a^W_m(t)$ have exact cycle-count
+marginals and retain the alignment of the three views at the same cells.
+This is strictly finer than the aggregate data above.  A complete order-$8$
+census gives $226$ such signatures among the $230$ FFF main classes.  Adding
+weighted overlaps between individual cycle-component supports gives $229$
+deterministic $1$-WL fingerprints.  The remaining pair contains one
+group-isotopic and one non-group-isotopic square, and even their audited
+triple-overlap and full cell/cycle-atom $1$-WL fingerprints agree.  Thus this
+  finite invariant is strong but does not determine algebraic closure.  Before
+the master exclusion, this pointed to sign-cut-compatible mixed profiles
+rather than the already impossible all-$10$ profile; it remains useful for
+possible order-independent arguments.
+
+The flag surface of Section~\ref{sec:flag-surface} supplies such a genuinely
+three-view refinement.  In the complete order-$8$ FFF census, adding only
+$\operatorname{Fix}(\beta^2)$ to the cell-local signature separates all 230
+main classes.  This does not classify another order: the unresolved task is
+to convert the exact link, Gram, or mixed-word constraints into an
+order-independent obstruction for sign-cut-compatible degree-$10$ profiles.
+The exact atom projection of Theorem~\ref{thm:flag-atom-projection} removes
+the large cell Gram inverse, but a verbatim order-$10$ support encoding would
+already need at least $19500$ binary support entries, versus $2350$ variables
+in the direct colouring model.  The next viable step must therefore eliminate
+the support matrix through a genuinely compressed rank or minor consequence;
+renaming all support bits is not a smaller model.
+Moreover, an exact abstract construction at the order-$10$ totals satisfies
+the flag count, all-even atom lengths, intercalate equality, three valid sign
+cuts, Euler parity, and the componentwise atom-Gram rank simultaneously.
+It deliberately decouples the formal line-pair labels from the flag
+incidence and lacks the common $100$-cell support and Schur realization.
+Thus no contradiction can use only those aggregate layers; a stronger
+condition may retain pair-label/flag-incidence compatibility or genuine
+cell-coordinate compatibility.
+
+Theorem~\ref{thm:labelled-pair-gram} now makes the first of these intermediate
+layers exact.  Its three ternary pair matrices retain every labelled
+two-factor and all common flag-label codegrees.  The nontrivial Gram data
+live only on three copies of the cycle space of $K_n$.  However, projecting
+these labels through the coarse flag-by-cell incidence adds no condition:
+the resulting Schur matrix is positive semidefinite exactly when the common
+pair Gram is.  The pair-label triangle trace is highly discriminating at
+order $8$---together with the cell-local signature it separates all 230 FFF
+classes---but this finite classification is not an order-$10$ obstruction.
+The next compression must therefore retain finer common cell support than
+$B^{\mathsf T}Z$, or expose another nonlinear compatibility among the three
+edge-lift sums.  Repeating the coarse Schur projection cannot succeed.
+
+Proposition~\ref{prop:pair-label-tensor} retains the full sparse common
+triple data, and Theorem~\ref{thm:endpoint-characterization} now closes its
+logical realizability problem: the fibre laws and the three point-induced
+endpoint edge-lift families already force sharp transitivity, one common
+Latin table, and the original tensor.  Together with link divisibility this
+is an exact abstract characterization of FFF Latin tensors.
+Proposition~\ref{prop:intrinsic-edge-lift} makes the remaining lift condition
+intrinsic: except for the explicit order-$4$ complement coset, bijectivity
+and preservation of pair-label intersection recognize exactly the point
+lifts.  The order-$4$ boundary also shows that local fibre and completion
+geometry without global star information is insufficient.
+
+Theorem~\ref{thm:pair-tensor-smith} gives a matrix-valued local
+characterization inside this common tensor.  Odd cycles are exactly the
+$\mathbb Z/2$ torsion factors of its integral slices, and FFF is equivalent
+to total unimodularity of every normalized slice.  This identifies the exact
+minor obstruction rather than another scalar aggregate.  It still acts one
+slice at a time: a successful order-$10$ argument must couple these balanced
+slices through their shared tensor entries or endpoint contractions.  The
+observed global flattening ranks in the tracked partial corpus are therefore
+reported only as exploratory data.
+
+Theorem~\ref{thm:triple-endpoint-parity} supplies the first explicit
+contraction that couples all slices on actual coordinate triples.  Its exact
+Latin-cell values recover intercalate degrees, while all one-dimensional
+binary fibres have even weight.  This closes the simplest common-cell
+parity calculation, but not the order-$10$ problem: the endpoint map is onto
+the even-sum point space, and the tracked partial corpus already attains mode
+rank $n-1$.  A useful obstruction must therefore combine these cell values
+with the balanced-slice minors of
+Theorem~\ref{thm:pair-tensor-smith} or with nonlinear endpoint-lift
+compatibility; line parity or flattening rank alone cannot provide the
+required contradiction.
+
+Theorem~\ref{thm:colour-parity-holonomy} completes the proposed gluing step
+at the topological level.  It turns every local alternating slice
+bipartition from Theorem~\ref{thm:pair-tensor-smith} into one global
+$\mathbb F_2^3$ cocycle, identifies the sum of the
+three colour classes with $w_1$, and forces equal quotient-colour fibres.
+For order $n\equiv2\pmod4$, at least one component must have nontrivial
+holonomy.  This is a genuine global restriction, but it is still equivalent
+to the FFF condition rather than a contradiction.  The order-$8$ holonomy
+profile is also not complete: it has $152$ values on $230$ FFF main classes.
+Theorem~\ref{thm:holonomy-cell-lift} now performs the first such coupling:
+on every intercalate component the three exact holonomy potentials push
+forward to oriented Latin-cell vectors whose common absolute support is
+exactly the multiplicity-four layer of
+Theorem~\ref{thm:triple-endpoint-parity}.  This completely accounts for the
+$Y$-attachment, but leaves the multiplicity-one layer $X$ untouched.  The
+next obstruction must therefore couple those oriented $Y$ columns to $X$, or
+transport the potentials through the endpoint lifts of
+Theorem~\ref{thm:endpoint-characterization}; component topology
+and the intercalate layer alone do not decide order $10$.
+
+Theorem~\ref{thm:exact-mask-cell-pushforward} extends the cell construction
+to every component, including the multiplicity-one surface: each set bit of
+an exact colour mask forces the corresponding complete family of cell
+marginals to vanish.  This closes the simplest linear extension of
+Theorem~\ref{thm:holonomy-cell-lift}.
+It still acts one component and one exact mask at a time.  A decisive
+obstruction must relate different components, force additional masks to be
+exact, or impose a genuinely joint equation on the $X$ and $Y$ layers.
+
+Theorem~\ref{thm:cellwise-holonomy-fourier} now gives the complete coupling
+among all exact masks at one component-cell incidence: their pushforwards are
+the Fourier transform of nonnegative integral flag-label multiplicities.
+Thus the separate exact-mask vectors obey exact inverse-cone and
+quadratic-energy
+constraints.  Gauge choices and disconnectedness still leave different
+components independent.  The next missing relation must glue their label
+systems through shared Latin cells or through
+Theorem~\ref{thm:endpoint-characterization}.
+
+Theorem~\ref{thm:cell-role-affine-transport} also retains all three cell
+roles.  It forces equal role totals and local six-divisibility whenever the
+orientation displacement is nonzero, in particular on orientable components.
+Theorem~\ref{thm:cross-component-cell-parity} now glues the resulting parity
+supports across all components sharing a cell and identifies their
+nonintercalate sum with the multiplicity-one endpoint parity from
+Theorem~\ref{thm:triple-endpoint-parity}.  This closes
+the binary support layer.  It still forgets the nonzero Fourier labels,
+integer masses, character signs, and relative gauges.  At this stage the
+missing step was an integral or signed lift of this cover, or a canonical
+comparison through the endpoint maps of
+Theorem~\ref{thm:endpoint-characterization}.
+
+Theorem~\ref{thm:gauge-invariant-cell-lift} closes the first of these routes
+at the unanchored linear level: independent component gauges forbid genuine
+linear signed cancellation, and odd-weight exact masks vanish pointwise.  Its
+canonical cubic invariant is integral, but the explicit order-$4$
+counterexample shows that the naive global cubic sum is not determined by
+the intercalate degree.  Repeating unanchored sign sums cannot succeed.
+
+Theorem~\ref{thm:quadratic-gram-gauge-obstruction} closes the proposed
+endpoint-origin alternative as a universal invariant: a Klein-four
+autotopism stabilizes one component while complementing two of its exact-mask
+potentials, even though the full endpoint data of
+Theorem~\ref{thm:endpoint-characterization} are present.  The
+off-diagonal Fourier/Gram kernel is the canonical quadratic replacement and
+lifts the pairwise support overlaps of
+Theorem~\ref{thm:cross-component-cell-parity} integrally.  It misses
+components whose
+exact-mask space has dimension zero; the frozen controls contain $179048$
+odd component-cell incidences of precisely this kind.
+Theorem~\ref{thm:component-cell-edge-partition} now reaches that blind layer
+without gauges: every component supplies three actual simple cell graphs
+with a common degree vector, full line-clique edge partitions, and integral
+Gram/Laplacian identities.  This also exposes the next boundary.  Separate
+line graphicality does not force the three graphs to admit compatible
+rainbow flag triangles or a common Latin-square realization.  A further
+obstruction must therefore constrain this simultaneous cross-view
+realization, not select gauges or merely repeat degree-sequence tests.
+Theorem~\ref{thm:cell-companion-surface} supplies the first such coupling:
+the rainbow triangles force three-periodic local links and an orientable
+normalized surface with an exact genus formula.  What remains is to connect
+this cell-companion topology back to the atom links of
+Theorem~\ref{thm:flag-surface} or the pair-label tensor and endpoint lifts of
+Proposition~\ref{prop:pair-label-tensor} and
+Theorem~\ref{thm:endpoint-characterization} strongly enough to characterize,
+or obstruct, a common Latin
+realization.
+Theorem~\ref{thm:normalized-cell-rank} now determines the complete linear
+kernel of its normalized cell incidence and identifies the component
+cell-edge Gram from Theorem~\ref{thm:component-cell-edge-partition} as its
+coarse positive-semidefinite aggregation.  Nontrivial values $q_F=2,3$ show
+that this refinement is not vacuous, but rank and positivity alone still do
+not couple the normalized sheets to the atom or endpoint labels.  The next
+useful target is therefore a mixed atom/cell rank, Schur, or endpoint
+compatibility relation, not another isolated incidence moment.
+Theorem~\ref{thm:joint-atom-cell-rank} carries out that mixed-rank step and
+shows that the overlap can be highly nonconstant: one frozen order-$8$
+component has twelve independent excess common face modes.  The new gap is
+therefore structural rather than numerical.
+Theorem~\ref{thm:common-mode-gradient} now gives the missing local
+description: the common modes are exactly potentials whose three
+opposite-value cochains are gradients on connected atom-transition graphs,
+and it separates coarse cell modes from a normalization-only quotient.
+Theorem~\ref{thm:global-common-mode} also resolves the global linear coupling:
+all line sums agree, the centered modes lie in the rational Latin-trade
+space, and the atom-only operator $\mathcal D_L$ gives the exact remaining
+Schur nullity.  Computational
+Theorem~\ref{cthm:order6-common-mode-lattice} resolves the first integral
+order-$6$ layer after distinguishing occupied-cell dependencies from
+classical Latin bitrades: $180$ complete-census exceptions carry a genuine
+index-two common-mode quotient beyond all balanced $4+4$ exchanges.  The
+intrinsic parity description is supplied by Computational
+Theorem~\ref{cthm:order6-intrinsic-exchange-parity}, which also shows that the
+$180$ exceptions form one precise TTT, non-group-isotopic main class.  The
+complete order-$8$ FFF controls in Computational
+Theorem~\ref{cthm:order8-exchange-parity-controls} close that proposed route:
+FFF realizes $q_4=0,1,2,3$, including $39$ representatives with no binary
+exchange quotient.  Any further obstruction must therefore retain endpoint,
+cycle, or flag compatibility discarded by the bare exchange lattice, rather
+than merely refine its quotient dimension.  The observed maximum $s_F=13$, the
+corpus identity $p_F=q_F$, the unique observed sheet-only component, and the
+baseline value on the partial tracked order-$10$ corpus are not universal
+bounds or an order-$10$ obstruction.
+
+The remaining issue is computational rather than logical.  For fixed pair
+marginals only $mn^2$ tensor positions can be nonzero, at most $4500$ when
+$n=10$, while a realized tensor has at most $900$ nonzero entries.  A dense
+$m^3$ translation nevertheless loses this sparsity, and recognizing all edge
+lifts still carries the information of the Latin table.  A useful
+proof-producing implementation must store fibre types and completions
+sparsely and demonstrate a genuine propagation or size advantage over the
+direct colouring encoding, rather than merely rename its variables.
+
+We tested the transparent version of that proposal.  In the three conjugate
+Latin tables, two diagonal-equality bits determine each fibre type and all
+completion labels, so the resulting record layer is a definitional extension
+of the direct colouring model.  With $m=\binom n2$ it adds exactly $15m^2$
+variables and $(18n+30)m^2$ clauses.  At order $10$ this changes the direct
+balanced/gauged model from $2350$ variables and $340655$ clauses to $32725$
+variables and $765905$ clauses.  Certified order-$6$ and fixed order-$8$
+gates confirm semantic correctness, but the size comparison stops this
+particular architecture before an order-$10$ run.  This is not a lower bound
+for non-definitional eliminations; it narrows the next target to a genuinely
+new compatibility relation among the three primitive line families.
+
+The transparent intrinsic edge-map translation is not that relation.  At
+order $10$, beyond the common edge-map variables and input one-hot clauses,
+the existing explicit point-lift layer adds $3000$ variables and $149100$
+clauses.  A direct one-hot encoding of edge-map bijectivity and all
+intersection mismatches adds no point variables but $28553850$ clauses.
+This is not a lower bound for optimized extended formulations, but it rules
+out the naive intrinsic CNF as the next computation.
+
+Corollary~\ref{cor:prime-congruence-series} proves the conjecture for every
+quasigroup admitting a prime-factor congruence series.  Thus any counterexample
+in a non-power-of-two order must lie outside this congruence-decomposable
+class.  Proposition~\ref{prop:q-obstruction} gives a second reduction: at
+order $10$, a QQQ candidate can fail FFF only through cycle type $5+3+2$.
+
+A useful exact encoding follows from a basic cycle-coloring fact.  A
+fixed-point-free permutation has only even cycles if and only if its points
+admit a $2$-coloring that toggles along every permutation edge.  Applying one
+such coloring to every line pair in every view yields a finite SAT/CP model
+for FFF existence.  The repository records complete proofs of this encoding,
+symmetry-breaking lemmas, and independently checked order-$6$ DRAT traces.
+For order $10$, however, the complete direct SAT/CP models and all rigorously
+complete symmetry splits attempted in this encoding time out.  Partial models
+satisfy at most $131$ of the $135$ line-pair conditions in the best
+independently validated incumbent, but that number is heuristic evidence, not
+an impossibility proof.  These timeout runs are not used in Computational
+Theorem~\ref{cthm:order10-nonexistence}; that theorem is proved instead by the
+two complete cycle-palette master searches above.
+An exact local follow-up excludes every reduced FFF table within cell-Hamming
+distance $20$ of that incumbent, with an independently checked DRAT trace.
+Thus no reduced FFF table lies in that radius-$20$ neighbourhood of the
+incumbent.  This local diagnostic is compatible with, but logically unnecessary
+for, the global nonexistence theorem and supplies no lower bound between
+isotopy classes.
+Residual column symmetry can be compressed to twelve fixed-row formulas by
+column lex leaders.  A further exact tie-breaker under the stabilizer of the
+chosen first column also passes the order-$6$ proof gates and an order-$8$
+positive gate, but enlarges the tested formulas and gives no measured
+order-$10$ speedup.  We therefore do not treat longer repetitions of that
+encoding as evidence.
+
+Theorem~\ref{thm:odd-subset-collision} gives an exact alternative that removes
+the colouring variables.  At order $10$ it forbids collisions in the induced
+actions on $3$-subsets and complementary-paired $5$-subsets.  Its complete
+order-$6$ negative and fixed order-$8$ positive/negative gates are
+proof-checked, but a bounded fixed order-$10$ split times out in both the
+plain and redundant-colour formulations.  The theorem is therefore a new
+structural characterization, not an order-$10$ decision or a demonstrated
+solver speedup.
+
+Scalar representation theory also reaches a precise boundary.  In the normal
+Cayley graph on $S_{10}$ whose connection classes have all-even cycle type,
+the standard character gives $|S|\leq10$, exactly the derangement bound
+already attained by every Latin line family.  The full scalar-character audit
+finds an exact F-view profile that remains feasible after imposing the known
+three-view sign-parity and equal-intercalate aggregates.  Hence repeating
+scalar Delsarte bounds or traces could not settle order $10$ at this level of
+coupling.  A general representation-theoretic route must retain
+matrix-valued or common-cell information across the three views.
+
+Four concrete problems remain:
+\begin{enumerate}
+\item Decide Conjecture~\ref{conj:power-two} at order $12$, or prove a uniform
+obstruction for even non-powers of two.
+\item Find a structural explanation of the order-$10$ master exclusions that
+couples the three views without exhaustive graph search.
+\item Determine whether the palette lower bound and two-root reduction have
+useful analogues in order $2p$ for odd primes $p>5$.
+\item Determine whether the direct-product construction yields distinct
+isotopy or main classes under additional hypotheses.  No such injectivity is
+asserted in this paper.
+\end{enumerate}
+
+The first two questions concern existence of local odd-cycle obstructions.
+They should not be conflated with the global Alon--Tarsi conjecture, whose
+resolution would require substantially more than the existence or absence of
+this particular local move~\cite{AlonTarsi1992}.

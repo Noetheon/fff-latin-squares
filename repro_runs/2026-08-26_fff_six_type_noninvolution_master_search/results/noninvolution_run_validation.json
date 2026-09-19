@@ -1,0 +1,40 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "control_complete_negative": true,
+    "external_graph_hash_frozen": true,
+    "graph_audit_binding": true,
+    "incremental_scratch_positive_controls": true,
+    "master_inventory_bound": true,
+    "orbit_cover_exact": true,
+    "plans_bound": true,
+    "reduced_complete_negative": true,
+    "reduced_control_exact_match": true,
+    "search_implementation_bound": true,
+    "semantic_errors_zero": true,
+    "semantic_graph_audit": true,
+    "structural_graph_audit": true,
+    "task_file_bound": true,
+    "validator_fail_closed": true
+  },
+  "result": {
+    "case_id": "noninvolution_master_6_types",
+    "control_nodes": 2514104197,
+    "edges": 1650487056,
+    "fff_found": false,
+    "full_tasks": 18300,
+    "graph_sha256": "3e023c53194d6a60b24ad2f37e746b05b9d7e55c53dec8fcfe3cd8fb6cd09376",
+    "orbits": 386,
+    "palette": [
+      "10",
+      "4+2+2+2",
+      "4+4+2",
+      "6+2+2",
+      "6+4",
+      "8+2"
+    ],
+    "reduced_nodes": 2514104197,
+    "vertices": 172368
+  },
+  "schema_version": "noninvolution-six-type-master-run-validation-v1"
+}

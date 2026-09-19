@@ -1,0 +1,8 @@
+Four-type p20 run validation
+
+checks passed: 15/15
+graph pairs/edges: 9265348128/929166384
+full tasks/orbits: 14648/1831
+nodes/prunes: 2739812181/1843691097
+FFF found: false
+all checks passed: true

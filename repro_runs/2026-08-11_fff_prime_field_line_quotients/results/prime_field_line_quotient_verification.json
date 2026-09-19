@@ -1,0 +1,14 @@
+{
+  "audit_sha256": "4899bc4b3e8d5320617853d5d18ca21776ae8a88c6b71f53075c9fb34be369c8",
+  "distribution_checks": 7,
+  "error_count": 0,
+  "errors": [],
+  "independent_rank_checks": 48890,
+  "order6_p3_defect_count": 240,
+  "order6_p3_defect_patterns": {
+    "TTT": 240
+  },
+  "overall_ok": true,
+  "table_count": 9778,
+  "verification_version": "prime_field_line_quotients_independent_v1"
+}

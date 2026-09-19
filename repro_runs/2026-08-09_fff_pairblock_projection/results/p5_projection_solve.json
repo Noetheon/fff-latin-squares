@@ -1,0 +1,40 @@
+{
+  "cnf": {
+    "path": "/tmp/order8_pairblock_projection/p5.cnf",
+    "sha256": "f13e3db94f8b3e99f623262ef88b2218b0c33d2f56bf8f3c2e59a18ad4470d72",
+    "size_bytes": 3067950
+  },
+  "elapsed_seconds": 17.57205891609192,
+  "model": {
+    "available": false,
+    "path": "/tmp/order8_pairblock_projection/p5.model",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "proof": {
+    "complete_unsat_trace": true,
+    "independently_checked": false,
+    "path": "/tmp/order8_pairblock_projection/p5.drat",
+    "sha256": "66d691c6b1354878826ae2ad9b037f9d375da2cddecdfba89603992a06f7698c",
+    "size_bytes": 37782137
+  },
+  "result": "unsat",
+  "returncode": 20,
+  "solver": {
+    "command": [
+      "/opt/homebrew/bin/cadical",
+      "/tmp/order8_pairblock_projection/p5.cnf",
+      "/tmp/order8_pairblock_projection/p5.drat"
+    ],
+    "path": "/opt/homebrew/bin/cadical",
+    "version": "3.0.0"
+  },
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_pairblock_projection/logs/p5_cadical.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_pairblock_projection/logs/p5_cadical.stdout.log",
+    "sha256": "8f552f5d56e46900517477f47bc4cf82ea51efd3ada96e887e9bb0cf94580d8b"
+  },
+  "timeout_seconds": 300.0
+}

@@ -1,0 +1,5 @@
+Actual four-type candidate dimensions
+
+cases: 35
+root records: 140
+elapsed seconds: 4.21075

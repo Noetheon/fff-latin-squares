@@ -1,0 +1,10 @@
+Independent exchange-parity control verification
+
+order-8 tables verified: 230
+order-10 representatives verified: 4
+order-10 patterns represented: ['FFT', 'FTT', 'TFT', 'TTT']
+order-8 q4 distribution: {'0': 39, '1': 147, '2': 35, '3': 9}
+explicit FFF q4=0 source: 170
+errors: 0
+
+Boundary: FFF does not force q4=1; no order-10 existence conclusion.

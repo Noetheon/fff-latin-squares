@@ -1,0 +1,8 @@
+Prime-field line quotient independent verification
+
+overall_ok: True
+tables: 9778
+independent modular-rank checks: 48890
+distribution checks: 7
+order-6 p=3 defects/patterns: 240 / {'TTT': 240}
+errors: 0

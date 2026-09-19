@@ -1,0 +1,16 @@
+{
+  "candidate_count_including_identity": 1546,
+  "clauses": 2092721,
+  "cnf_sha256": "0c536c7ff17a280ddb420868261efacf5354f1f16d2d12d7912c55baae8c2ad3",
+  "compatible_pair_count": 424905,
+  "elapsed_seconds": 2.7132511138916016,
+  "encoding_version": "pairblock_wreath_row_f_selection_v1",
+  "full_wreath_order": 3840,
+  "incompatible_pair_clause_count": 769380,
+  "mapping_sha256": "8da0b22aae0b5aef51e0f75d446e394826a5450334f1f3943565758391e6d7aa",
+  "n": 10,
+  "p": 5,
+  "scope": "Common p-blocks-of-size-2 row-F sharply transitive families only.",
+  "sharp_transitivity_clause_count": 1323340,
+  "variables": 1546
+}

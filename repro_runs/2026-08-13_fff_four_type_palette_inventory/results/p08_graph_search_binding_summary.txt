@@ -1,0 +1,10 @@
+case: p08
+graph_sha256: 335f4399def183a29cb98c1165afac417b08bb29d3468cc4d69ecc80cac6a9e1
+expected_source: established-by-this-run
+audit_sha256: a0352a5838c8ed0d67ff32afceb0ed5e73a19edfecfd61853d47e2cf60fe5975
+search_sha256: c8b1483a3c02c85eea3153b5c90111ce40e59322415d3dd4a17879fb0247e034
+audit_valid: true
+reverse_edge_errors: 0
+search_complete: true
+fff_found: false
+all_checks_passed: true

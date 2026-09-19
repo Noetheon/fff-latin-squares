@@ -1,0 +1,6 @@
+Five-type orbit inventory validation
+
+records checked: 105/105
+record checks passed: 105/105
+best roots passed: 21/21
+all checks passed: true

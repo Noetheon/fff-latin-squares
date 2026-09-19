@@ -1,0 +1,13 @@
+{
+  "schema_version": "independent-binary-graph-clique-table-audit-v1",
+  "workers": 8,
+  "initial_tasks": 3372,
+  "clique_count": 0,
+  "exact_palette_count": 0,
+  "fff_count": 0,
+  "latin_errors": 0,
+  "row_not_f_errors": 0,
+  "palette_subset_errors": 0,
+  "pattern_counts": {  },
+  "valid": true
+}

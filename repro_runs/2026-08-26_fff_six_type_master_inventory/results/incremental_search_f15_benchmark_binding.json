@@ -1,0 +1,78 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "complete_negative": true,
+    "graph_hash_frozen": true,
+    "incremental_not_slower_on_control": true,
+    "reference_valid": true,
+    "semantic_projection_exact": true,
+    "task_file_has_expected_size": true,
+    "ten_workers_recorded": true,
+    "time_log_zero_swaps": true
+  },
+  "evidence_boundary": "Implementation-equivalence and hardware-specific performance control only; no new FFF exclusion.",
+  "files": {
+    "binary": {
+      "path": "/private/tmp/order8_six_type_master_inventory/search_incremental",
+      "sha256": "9076f4d88d734e17b34aab684b2ea67c16357c9f2a341507197fb873228cb147"
+    },
+    "graph": {
+      "path": "external/Order8_external_graphs/2026-08-25_five_type/f15/f15.bin",
+      "sha256": "5198afaece05822dd7812e6a0408acf79648d5de7ff714c81e916544dd2d6828"
+    },
+    "raw_result": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/results/incremental_search_f15_benchmark_raw.json",
+      "sha256": "0f2890bcd8134c415f2fb62f7b903f8c2d5f457b21ffe973dfb825ccb536fdc6"
+    },
+    "reference": {
+      "path": "repro_runs/2026-08-25_fff_five_type_f15_search/results/f15_worker_benchmark.json",
+      "sha256": "efc0e4e07a6ddc184d96ef26afc58f886d973958cdae5d3cf36eee1ebc4b79b4"
+    },
+    "source": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/scripts/search_partite_fff_incremental.cpp",
+      "sha256": "c425db02d0b6a98b6515ad99240ad5efaab95d358357517a2c29045685cbab20"
+    },
+    "task_ordinals": {
+      "path": "repro_runs/2026-08-25_fff_five_type_f15_search/data/f15_task_ordinals.txt",
+      "sha256": "3c0d1db9fc4c0ce534d4cebf4f089074d53ecd0be7ed9914b8ff6f80fe68e7a6"
+    },
+    "time_log": {
+      "path": "repro_runs/2026-08-26_fff_six_type_master_inventory/logs/incremental_search_f15_benchmark.time_stderr",
+      "sha256": "d42a99be604b7480afbda4309f222be90b1aa11401943075b31f0262ad03d31b"
+    }
+  },
+  "incremental_search": {
+    "elapsed_seconds": 90.61,
+    "maximum_resident_set_size": 3194814464,
+    "semantic_projection": {
+      "completed_tasks": 25,
+      "crossview_odd_cycle_prunes": 103348583,
+      "fff_found": false,
+      "full_initial_tasks": 14952,
+      "search_nodes": 146648523,
+      "slice_complete": true,
+      "task_end_exclusive": 25,
+      "task_start": 0,
+      "total_initial_tasks": 1872
+    },
+    "swaps": 0,
+    "workers": 10
+  },
+  "old_search": {
+    "elapsed_seconds": 140.26,
+    "semantic_projection": {
+      "completed_tasks": 25,
+      "crossview_odd_cycle_prunes": 103348583,
+      "fff_found": false,
+      "full_initial_tasks": 14952,
+      "search_nodes": 146648523,
+      "slice_complete": true,
+      "task_end_exclusive": 25,
+      "task_start": 0,
+      "total_initial_tasks": 1872
+    },
+    "workers": 10
+  },
+  "schema_version": "incremental-f15-search-benchmark-binding-v1",
+  "speedup_old_over_incremental": 1.5479527645955191
+}

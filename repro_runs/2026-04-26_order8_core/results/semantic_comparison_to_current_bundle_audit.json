@@ -1,0 +1,38 @@
+{
+  "fullscan": {
+    "counterexamples_match": true,
+    "group_split": {
+      "group_isotopic": 5,
+      "non_group_isotopic": 225
+    },
+    "new_elapsed_seconds": 9.618126,
+    "pattern_counts": {
+      "FFF": 230,
+      "FFT": 81,
+      "FTF": 40,
+      "FTT": 315,
+      "TFF": 133,
+      "TFT": 209,
+      "TTF": 232,
+      "TTT": 282417
+    },
+    "previous_elapsed_seconds": 9.781516,
+    "scan_without_elapsed_match": true
+  },
+  "overall_semantic_match": true,
+  "transitive": {
+    "species_match": true,
+    "summary": {
+      "all_column_swaps_preserve_fff": true,
+      "all_patterns_are_fff": true,
+      "all_row_swaps_preserve_fff": true,
+      "column_swap_failure_count": 0,
+      "group_isotopic": 5,
+      "non_group_isotopic": 6,
+      "row_swap_failure_count": 0,
+      "species_count": 11
+    },
+    "summary_match": true,
+    "transitive_file_match": true
+  }
+}

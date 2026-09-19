@@ -1,0 +1,7 @@
+Independent rainbow-square trace validation
+
+tables: 230
+Fix(beta)=4I errors: 0
+Fix(beta^2) mismatches: 0
+
+Result: PASS

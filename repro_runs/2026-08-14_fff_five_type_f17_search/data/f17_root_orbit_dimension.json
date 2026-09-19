@@ -1,0 +1,20 @@
+{
+  "schema_version": "five-type-root-orbit-dimension-v1",
+  "case_id": "f17",
+  "palette": ["2+2+2+2+2","4+2+2+2","4+4+2","6+2+2","8+2"],
+  "root_type": "4+2+2+2",
+  "unfiltered_candidates": 40224,
+  "level1_candidates": 35712,
+  "bucket_sizes": [3372,3372,4828,4828,4828,4828,4828,4828],
+  "initial_bucket": 0,
+  "initial_image": 2,
+  "residual_group_size": 48,
+  "full_initial_tasks": 3372,
+  "orbit_count": 73,
+  "orbit_size_counts": {"12":3,"24":1,"48":69},
+  "covered_tasks": 3372,
+  "orbit_union_total": 3372,
+  "orbit_escape": false,
+  "representative_task_ordinals": [0,24,25,120,121,136,138,146,154,156,158,468,469,484,486,494,496,497,518,520,522,523,526,527,528,529,530,590,592,600,608,610,611,614,616,648,650,652,654,655,658,660,662,663,664,668,670,672,673,676,678,679,680,681,682,683,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706],
+  "valid": true
+}

@@ -1,0 +1,9 @@
+Four-type large-search validation
+
+checks passed: 18/18
+p35 exact historical control: true
+p09 graph pairs/edges: 4983962880/431078400
+p09 full tasks/orbits: 12480/260
+p09 nodes/prunes: 57708321/32587444
+p09 FFF found: false
+all checks passed: true

@@ -1,0 +1,19 @@
+Degree-10 PrimGrp classification freeze
+========================================
+GAP: 4.16.0
+PrimGrp: 4.0.3
+catalogue entries: 9
+overall pass: True
+raw output SHA-256: 84c629de4c32700e387c59b36ebe89d7b2568de1cdf7156eaf767d68150b4f5e
+
+- 1: order 60, A5
+- 2: order 120, S5
+- 3: order 360, A6
+- 4: order 720, A6 : C2
+- 5: order 720, S6
+- 6: order 720, A6 . C2
+- 7: order 1440, (A6 : C2) : C2
+- 8: order 1814400, A10
+- 9: order 3628800, S10
+
+Boundary: Exact query result for GAP 4.16.0/PrimGrp 4.0.3; catalogue correctness and completeness remain an external classification assumption.

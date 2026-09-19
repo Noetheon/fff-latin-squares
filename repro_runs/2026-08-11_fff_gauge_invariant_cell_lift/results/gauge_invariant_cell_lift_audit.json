@@ -1,0 +1,801 @@
+{
+  "audit_version": "gauge_invariant_cell_lift_v1",
+  "claim_boundary": [
+    "C92 is rigorous and exactly audited.",
+    "Independent component gauges forbid an intrinsic linear signed gluing.",
+    "The cubic lift is componentwise gauge invariant but its naive global sum is not fixed by intercalate degree.",
+    "C38 remains open and C40 absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "aggregate_cell_checks": 13500,
+      "component_count": 5782,
+      "cubic_by_dimension": {
+        "(2, 1, 1)": 22552,
+        "(3, 2, 8)": 144
+      },
+      "cubic_by_mass": {
+        "(1, 1, True)": 22552,
+        "(2, 8, False)": 144
+      },
+      "cubic_cell_checks": 22696,
+      "cubic_congruence_checks": 22696,
+      "cubic_gauge_checks": 90784,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_cell_checks": 104848,
+      "exact_space_dimension_counts": {
+        "0": 135,
+        "2": 5638,
+        "3": 9
+      },
+      "intercalate_cubic_checks": 22552,
+      "naive_global_difference": {
+        "0": 13368,
+        "32": 4,
+        "8": 128
+      },
+      "naive_global_failure_witness": {
+        "cell": [
+          0,
+          0,
+          0
+        ],
+        "cell_index": 0,
+        "component_contributions": [
+          {
+            "component_id": 0,
+            "cubic": 1,
+            "exact_dimension": 2,
+            "intercalate": true,
+            "pushforwards_3_5_6": [
+              1,
+              -1,
+              1
+            ],
+            "role_mass": 1
+          },
+          {
+            "component_id": 5,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          },
+          {
+            "component_id": 8,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          },
+          {
+            "component_id": 10,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          },
+          {
+            "component_id": 12,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          }
+        ],
+        "cubic_sum": 33,
+        "difference": 32,
+        "intercalate_degree": 1,
+        "table": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            8
+          ],
+          [
+            2,
+            3,
+            1,
+            0,
+            7,
+            9,
+            8,
+            5,
+            4,
+            6
+          ],
+          [
+            3,
+            2,
+            0,
+            1,
+            9,
+            7,
+            5,
+            8,
+            6,
+            4
+          ],
+          [
+            4,
+            5,
+            8,
+            6,
+            1,
+            0,
+            3,
+            9,
+            7,
+            2
+          ],
+          [
+            5,
+            4,
+            6,
+            8,
+            0,
+            1,
+            9,
+            3,
+            2,
+            7
+          ],
+          [
+            6,
+            7,
+            4,
+            9,
+            8,
+            2,
+            1,
+            0,
+            5,
+            3
+          ],
+          [
+            7,
+            6,
+            9,
+            4,
+            2,
+            8,
+            0,
+            1,
+            3,
+            5
+          ],
+          [
+            8,
+            9,
+            7,
+            5,
+            3,
+            6,
+            2,
+            4,
+            1,
+            0
+          ],
+          [
+            9,
+            8,
+            5,
+            7,
+            6,
+            3,
+            4,
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      "naive_global_identity_failures": 132,
+      "name": "order10_tracked_partial",
+      "odd_mask_zero_checks": 576,
+      "role_fourier_checks": 314544,
+      "selection_rule_checks": 104848,
+      "table_count": 135
+    },
+    "order4_complete": {
+      "aggregate_cell_checks": 64,
+      "component_count": 27,
+      "cubic_by_dimension": {
+        "(2, 1, 1)": 96,
+        "(3, 2, 8)": 48
+      },
+      "cubic_by_mass": {
+        "(1, 1, True)": 96,
+        "(2, 8, False)": 48
+      },
+      "cubic_cell_checks": 144,
+      "cubic_congruence_checks": 144,
+      "cubic_gauge_checks": 576,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_cell_checks": 768,
+      "exact_space_dimension_counts": {
+        "2": 24,
+        "3": 3
+      },
+      "intercalate_cubic_checks": 96,
+      "naive_global_difference": {
+        "0": 16,
+        "8": 48
+      },
+      "naive_global_failure_witness": {
+        "cell": [
+          0,
+          0,
+          0
+        ],
+        "cell_index": 0,
+        "component_contributions": [
+          {
+            "component_id": 0,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          },
+          {
+            "component_id": 1,
+            "cubic": 1,
+            "exact_dimension": 2,
+            "intercalate": true,
+            "pushforwards_3_5_6": [
+              1,
+              -1,
+              1
+            ],
+            "role_mass": 1
+          }
+        ],
+        "cubic_sum": 9,
+        "difference": 8,
+        "intercalate_degree": 1,
+        "table": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ]
+        ]
+      },
+      "naive_global_identity_failures": 48,
+      "name": "order4_complete",
+      "odd_mask_zero_checks": 192,
+      "role_fourier_checks": 2304,
+      "selection_rule_checks": 768,
+      "table_count": 4
+    },
+    "order6_complete": {
+      "aggregate_cell_checks": 338688,
+      "component_count": 89068,
+      "cubic_by_dimension": {
+        "(2, 1, 1)": 311040,
+        "(2, 2, 8)": 6480,
+        "(2, 3, 27)": 5760,
+        "(3, 2, 8)": 2160
+      },
+      "cubic_by_mass": {
+        "(1, 1, True)": 311040,
+        "(2, 8, False)": 8640,
+        "(3, 27, False)": 5760
+      },
+      "cubic_cell_checks": 325440,
+      "cubic_congruence_checks": 325440,
+      "cubic_gauge_checks": 1301760,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_cell_checks": 1674360,
+      "exact_space_dimension_counts": {
+        "0": 8640,
+        "1": 2208,
+        "2": 78160,
+        "3": 60
+      },
+      "intercalate_cubic_checks": 311040,
+      "naive_global_difference": {
+        "0": 324288,
+        "27": 5760,
+        "8": 8640
+      },
+      "naive_global_failure_witness": {
+        "cell": [
+          0,
+          0,
+          0
+        ],
+        "cell_index": 0,
+        "component_contributions": [
+          {
+            "component_id": 2,
+            "cubic": 1,
+            "exact_dimension": 2,
+            "intercalate": true,
+            "pushforwards_3_5_6": [
+              1,
+              -1,
+              1
+            ],
+            "role_mass": 1
+          },
+          {
+            "component_id": 3,
+            "cubic": 8,
+            "exact_dimension": 2,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          }
+        ],
+        "cubic_sum": 9,
+        "difference": 8,
+        "intercalate_degree": 1,
+        "table": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4
+          ],
+          [
+            2,
+            5,
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            0,
+            4,
+            1,
+            5,
+            2
+          ],
+          [
+            4,
+            2,
+            1,
+            5,
+            3,
+            0
+          ],
+          [
+            5,
+            4,
+            3,
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      "naive_global_identity_failures": 14400,
+      "name": "order6_complete",
+      "odd_mask_zero_checks": 35640,
+      "role_fourier_checks": 5023080,
+      "selection_rule_checks": 1674360,
+      "table_count": 9408
+    },
+    "order8_fff_complete": {
+      "aggregate_cell_checks": 14720,
+      "component_count": 9768,
+      "cubic_by_dimension": {
+        "(2, 1, 1)": 36200,
+        "(2, 2, 8)": 2541,
+        "(2, 3, 27)": 3206,
+        "(2, 4, 0)": 124,
+        "(2, 4, 64)": 3517,
+        "(2, 5, 125)": 41,
+        "(2, 5, 5)": 177,
+        "(2, 6, -8)": 36,
+        "(2, 6, 0)": 28,
+        "(2, 6, 216)": 114,
+        "(2, 6, 24)": 44,
+        "(2, 7, -9)": 14,
+        "(2, 7, 63)": 16,
+        "(3, 2, 8)": 8128,
+        "(3, 4, 64)": 656
+      },
+      "cubic_by_mass": {
+        "(1, 1, True)": 36200,
+        "(2, 8, False)": 10669,
+        "(3, 27, False)": 3206,
+        "(4, 0, False)": 124,
+        "(4, 64, False)": 4173,
+        "(5, 125, False)": 41,
+        "(5, 5, False)": 177,
+        "(6, -8, False)": 36,
+        "(6, 0, False)": 28,
+        "(6, 216, False)": 114,
+        "(6, 24, False)": 44,
+        "(7, -9, False)": 14,
+        "(7, 63, False)": 16
+      },
+      "cubic_cell_checks": 54842,
+      "cubic_congruence_checks": 54842,
+      "cubic_gauge_checks": 219368,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_cell_checks": 259940,
+      "exact_space_dimension_counts": {
+        "0": 13,
+        "1": 36,
+        "2": 9212,
+        "3": 507
+      },
+      "intercalate_cubic_checks": 36200,
+      "naive_global_difference": {
+        "-8": 36,
+        "-9": 14,
+        "0": 3472,
+        "125": 41,
+        "16": 1862,
+        "216": 114,
+        "24": 284,
+        "27": 1094,
+        "35": 2096,
+        "5": 177,
+        "54": 8,
+        "63": 16,
+        "64": 1377,
+        "72": 2796,
+        "8": 1333
+      },
+      "naive_global_failure_witness": {
+        "cell": [
+          0,
+          0,
+          0
+        ],
+        "cell_index": 0,
+        "component_contributions": [
+          {
+            "component_id": 0,
+            "cubic": 1,
+            "exact_dimension": 2,
+            "intercalate": true,
+            "pushforwards_3_5_6": [
+              1,
+              -1,
+              1
+            ],
+            "role_mass": 1
+          },
+          {
+            "component_id": 4,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          },
+          {
+            "component_id": 9,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          },
+          {
+            "component_id": 11,
+            "cubic": 8,
+            "exact_dimension": 3,
+            "intercalate": false,
+            "pushforwards_3_5_6": [
+              2,
+              -2,
+              2
+            ],
+            "role_mass": 2
+          }
+        ],
+        "cubic_sum": 25,
+        "difference": 24,
+        "intercalate_degree": 1,
+        "table": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6
+          ],
+          [
+            2,
+            3,
+            1,
+            0,
+            6,
+            7,
+            4,
+            5
+          ],
+          [
+            3,
+            2,
+            0,
+            1,
+            7,
+            6,
+            5,
+            4
+          ],
+          [
+            4,
+            5,
+            6,
+            7,
+            1,
+            0,
+            3,
+            2
+          ],
+          [
+            5,
+            4,
+            7,
+            6,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            6,
+            7,
+            4,
+            5,
+            3,
+            2,
+            1,
+            0
+          ],
+          [
+            7,
+            6,
+            5,
+            4,
+            2,
+            3,
+            0,
+            1
+          ]
+        ]
+      },
+      "naive_global_identity_failures": 11248,
+      "name": "order8_fff_complete",
+      "odd_mask_zero_checks": 35264,
+      "role_fourier_checks": 779820,
+      "selection_rule_checks": 259940,
+      "table_count": 230
+    }
+  },
+  "invariant_monomial_audit": {
+    "checks": 1060,
+    "errors": []
+  },
+  "totals": {
+    "aggregate_cell_checks": 366972,
+    "component_count": 104645,
+    "cubic_by_mass": {
+      "(1, 1, True)": 369888,
+      "(2, 8, False)": 19501,
+      "(3, 27, False)": 8966,
+      "(4, 0, False)": 124,
+      "(4, 64, False)": 4173,
+      "(5, 125, False)": 41,
+      "(5, 5, False)": 177,
+      "(6, -8, False)": 36,
+      "(6, 0, False)": 28,
+      "(6, 216, False)": 114,
+      "(6, 24, False)": 44,
+      "(7, -9, False)": 14,
+      "(7, 63, False)": 16
+    },
+    "cubic_cell_checks": 403122,
+    "cubic_congruence_checks": 403122,
+    "cubic_gauge_checks": 1612488,
+    "error_count": 0,
+    "exact_mask_cell_checks": 2039916,
+    "exact_space_dimension_counts": {
+      "0": 8788,
+      "1": 2244,
+      "2": 93034,
+      "3": 579
+    },
+    "intercalate_cubic_checks": 369888,
+    "invariant_monomial_checks": 1060,
+    "invariant_monomial_error_count": 0,
+    "naive_global_difference": {
+      "-8": 36,
+      "-9": 14,
+      "0": 341144,
+      "125": 41,
+      "16": 1862,
+      "216": 114,
+      "24": 284,
+      "27": 6854,
+      "32": 4,
+      "35": 2096,
+      "5": 177,
+      "54": 8,
+      "63": 16,
+      "64": 1377,
+      "72": 2796,
+      "8": 10149
+    },
+    "naive_global_failure_witness": {
+      "cell": [
+        0,
+        0,
+        0
+      ],
+      "cell_index": 0,
+      "component_contributions": [
+        {
+          "component_id": 0,
+          "cubic": 8,
+          "exact_dimension": 3,
+          "intercalate": false,
+          "pushforwards_3_5_6": [
+            2,
+            -2,
+            2
+          ],
+          "role_mass": 2
+        },
+        {
+          "component_id": 1,
+          "cubic": 1,
+          "exact_dimension": 2,
+          "intercalate": true,
+          "pushforwards_3_5_6": [
+            1,
+            -1,
+            1
+          ],
+          "role_mass": 1
+        }
+      ],
+      "cubic_sum": 9,
+      "difference": 8,
+      "intercalate_degree": 1,
+      "table": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    "naive_global_identity_failures": 25828,
+    "odd_mask_zero_checks": 71672,
+    "role_fourier_checks": 6119748,
+    "selection_rule_checks": 2039916,
+    "table_count": 9777
+  }
+}

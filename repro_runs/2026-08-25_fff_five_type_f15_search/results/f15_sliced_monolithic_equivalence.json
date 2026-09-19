@@ -1,0 +1,21 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "completed_tasks": true,
+    "crossview_odd_cycle_prunes": true,
+    "fff_found": true,
+    "negative_search_complete": true,
+    "search_nodes": true
+  },
+  "label": "f15_sliced_vs_monolithic",
+  "left_sha256": "5fa81795333bf925b5f1d0e0c514afb4f73fc3c86ffc699ac120ae0b1f42d98a",
+  "right_sha256": "701f2141e5e6b8ed3f36ad89d219b32282ab5ea0c783eabc3899a90f7a5f36aa",
+  "schema_version": "five-type-search-merge-equivalence-v1",
+  "values": {
+    "completed_tasks": 1872,
+    "crossview_odd_cycle_prunes": 3743909857,
+    "fff_found": false,
+    "negative_search_complete": true,
+    "search_nodes": 5433616575
+  }
+}

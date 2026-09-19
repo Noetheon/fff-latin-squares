@@ -1,0 +1,9 @@
+SAT solver QQQ solve
+
+result: unsat
+elapsed_seconds: 17.572059
+timeout_seconds: 300.0
+solver: 3.0.0
+cnf_sha256: f13e3db94f8b3e99f623262ef88b2218b0c33d2f56bf8f3c2e59a18ad4470d72
+proof_complete_unsat_trace: True
+model_available: False

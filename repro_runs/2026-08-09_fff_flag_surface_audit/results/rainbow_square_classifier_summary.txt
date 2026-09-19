@@ -1,0 +1,14 @@
+C70 plus rainbow-square trace classifier
+
+tables: 230
+C70 distinct: 226
+C70 collision groups: [[4, 22], [11, 114], [13, 19], [117, 118]]
+rainbow-square value counts: {64: 1, 128: 2, 160: 1, 176: 1, 184: 1, 192: 3, 200: 1, 204: 1, 216: 2, 224: 4, 232: 2, 238: 1, 240: 5, 244: 1, 248: 3, 252: 2, 256: 9, 260: 1, 264: 5, 268: 1, 272: 5, 276: 2, 280: 5, 284: 2, 286: 2, 288: 14, 290: 1, 292: 4, 294: 1, 296: 8, 300: 4, 302: 2, 304: 15, 306: 1, 308: 2, 312: 13, 316: 4, 318: 1, 320: 15, 322: 1, 324: 1, 326: 1, 328: 11, 330: 1, 336: 10, 340: 5, 344: 2, 346: 1, 348: 2, 350: 1, 352: 9, 356: 1, 360: 3, 364: 2, 366: 1, 368: 5, 376: 4, 380: 1, 384: 3, 388: 1, 396: 1, 400: 1, 404: 1, 408: 1, 448: 12}
+joint distinct: 230
+remaining joint collisions: []
+old collision resolutions: [{'source_indices': [4, 22], 'rainbow_square_values': [352, 288]}, {'source_indices': [11, 114], 'rainbow_square_values': [448, 192]}, {'source_indices': [13, 19], 'rainbow_square_values': [448, 192]}, {'source_indices': [117, 118], 'rainbow_square_values': [288, 352]}]
+
+Conservative conclusion:
+- The joint invariant is exact and complete on the frozen 230-class order-8 FFF census.
+- It is not a higher-order classification theorem.
+- C38 remains open and C40 remains absent.

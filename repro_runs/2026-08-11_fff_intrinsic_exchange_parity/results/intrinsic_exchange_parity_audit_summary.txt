@@ -1,0 +1,17 @@
+Intrinsic exchange-parity audit
+
+tables: 180
+E4 mod-2 ranks: {19: 180}
+parity-class dimensions modulo lines: {1: 180}
+minimum covector weights: {9: 180}
+minimum covector counts: {160: 180}
+main classes: 1
+main-class sizes in this reduced corpus: [180]
+patterns: {'TTT': 180}
+group-isotopy flags: {'False': 180}
+common-mode lattices parity-even: 180
+6+6 completions parity-odd: 180
+errors: 0
+
+The nonzero class is intrinsic in Ann(E4)/LineCovectors and is relabelling-covariant.
+This is a complete audit of the 180 order-6 rank-19 cases, not an order-10 obstruction.

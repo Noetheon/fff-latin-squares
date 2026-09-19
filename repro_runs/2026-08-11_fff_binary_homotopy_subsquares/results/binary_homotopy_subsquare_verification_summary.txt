@@ -1,0 +1,8 @@
+Binary homotopy subsquare semantic verification
+
+overall_ok: True
+checks: 48901
+prior C44 distribution match: True
+errors: 0
+
+C38 remains open; C40 is absent.

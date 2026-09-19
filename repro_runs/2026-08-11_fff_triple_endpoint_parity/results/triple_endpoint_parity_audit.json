@@ -1,0 +1,220 @@
+{
+  "audit_version": "triple_endpoint_parity_v2",
+  "claim_boundary": [
+    "C84 is a rigorous multi-slice/common-cell consequence of C78.",
+    "The endpoint line-parity space alone does not decide Latin realizability or FFF.",
+    "No order-10 existence or nonexistence result is claimed.",
+    "C38 remains open and C40 remains absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "binary_flattening_rank_range": [
+        7,
+        9
+      ],
+      "binary_flattening_rank_triples": {
+        "9,9,7": 3,
+        "9,9,8": 9,
+        "9,9,9": 123
+      },
+      "binary_line_checks": 40500,
+      "binary_support_range": [
+        320,
+        448
+      ],
+      "binary_zero_tensor_count": 0,
+      "complementary_mass_checks": 13500,
+      "endpoint_total_mass_values": [
+        7200
+      ],
+      "error_count": 0,
+      "errors": [],
+      "latin_cell_checks": 13500,
+      "latin_cell_parity_one_range": [
+        16,
+        64
+      ],
+      "line_checks": 40500,
+      "multiplicity_split_cell_checks": 13500,
+      "name": "order10_tracked_partial",
+      "pattern_counts": {
+        "FFT": 127,
+        "FTT": 1,
+        "TFT": 2,
+        "TTT": 5
+      },
+      "table_count": 135
+    },
+    "order4_complete": {
+      "binary_flattening_rank_range": [
+        0,
+        0
+      ],
+      "binary_flattening_rank_triples": {
+        "0,0,0": 4
+      },
+      "binary_line_checks": 192,
+      "binary_support_range": [
+        0,
+        0
+      ],
+      "binary_zero_tensor_count": 4,
+      "complementary_mass_checks": 64,
+      "endpoint_total_mass_values": [
+        384
+      ],
+      "error_count": 0,
+      "errors": [],
+      "latin_cell_checks": 64,
+      "latin_cell_parity_one_range": [
+        0,
+        0
+      ],
+      "line_checks": 192,
+      "multiplicity_split_cell_checks": 64,
+      "name": "order4_complete",
+      "pattern_counts": {
+        "FFF": 4
+      },
+      "table_count": 4
+    },
+    "order6_complete": {
+      "binary_flattening_rank_range": [
+        0,
+        5
+      ],
+      "binary_flattening_rank_triples": {
+        "0,0,0": 240,
+        "2,4,4": 120,
+        "4,2,4": 120,
+        "4,4,2": 120,
+        "4,4,4": 60,
+        "4,5,5": 1116,
+        "5,4,5": 1116,
+        "5,5,4": 1116,
+        "5,5,5": 5400
+      },
+      "binary_line_checks": 1016064,
+      "binary_support_range": [
+        0,
+        120
+      ],
+      "binary_zero_tensor_count": 240,
+      "complementary_mass_checks": 338688,
+      "endpoint_total_mass_values": [
+        1440
+      ],
+      "error_count": 0,
+      "errors": [],
+      "latin_cell_checks": 338688,
+      "latin_cell_parity_one_range": [
+        0,
+        36
+      ],
+      "line_checks": 1016064,
+      "multiplicity_split_cell_checks": 338688,
+      "name": "order6_complete",
+      "pattern_counts": {
+        "FFT": 936,
+        "FTF": 936,
+        "TFF": 936,
+        "TTT": 6600
+      },
+      "table_count": 9408
+    },
+    "order8_fff_complete": {
+      "binary_flattening_rank_range": [
+        0,
+        7
+      ],
+      "binary_flattening_rank_triples": {
+        "0,0,0": 24,
+        "1,1,1": 3,
+        "1,2,2": 8,
+        "1,4,4": 4,
+        "2,1,2": 1,
+        "2,2,1": 3,
+        "2,2,2": 8,
+        "2,2,3": 1,
+        "2,3,2": 1,
+        "2,3,3": 7,
+        "2,3,4": 1,
+        "2,4,4": 8,
+        "2,6,6": 1,
+        "3,2,2": 1,
+        "3,3,2": 4,
+        "3,3,3": 13,
+        "3,4,4": 12,
+        "3,5,5": 2,
+        "3,5,6": 1,
+        "3,6,6": 4,
+        "4,2,4": 1,
+        "4,3,2": 1,
+        "4,3,4": 1,
+        "4,4,1": 2,
+        "4,4,2": 6,
+        "4,4,3": 8,
+        "4,4,4": 3,
+        "4,4,5": 1,
+        "4,5,5": 8,
+        "4,5,6": 1,
+        "4,6,4": 1,
+        "4,6,6": 8,
+        "4,7,7": 8,
+        "5,4,4": 2,
+        "5,4,5": 1,
+        "5,5,5": 8,
+        "5,5,6": 1,
+        "5,6,4": 2,
+        "5,6,6": 1,
+        "5,7,7": 18,
+        "6,4,4": 3,
+        "6,5,5": 4,
+        "6,5,6": 1,
+        "6,6,2": 2,
+        "6,6,3": 3,
+        "6,6,4": 3,
+        "6,6,6": 5,
+        "6,7,7": 3,
+        "7,7,3": 4,
+        "7,7,4": 3,
+        "7,7,5": 3,
+        "7,7,6": 1,
+        "7,7,7": 6
+      },
+      "binary_line_checks": 44160,
+      "binary_support_range": [
+        0,
+        256
+      ],
+      "binary_zero_tensor_count": 24,
+      "complementary_mass_checks": 14720,
+      "endpoint_total_mass_values": [
+        3584
+      ],
+      "error_count": 0,
+      "errors": [],
+      "latin_cell_checks": 14720,
+      "latin_cell_parity_one_range": [
+        0,
+        64
+      ],
+      "line_checks": 44160,
+      "multiplicity_split_cell_checks": 14720,
+      "name": "order8_fff_complete",
+      "pattern_counts": {
+        "FFF": 230
+      },
+      "table_count": 230
+    }
+  },
+  "totals": {
+    "binary_line_checks": 1100916,
+    "complementary_mass_checks": 366972,
+    "errors": 0,
+    "latin_cell_checks": 366972,
+    "line_checks": 1100916,
+    "multiplicity_split_cell_checks": 366972,
+    "tables": 9777
+  }
+}

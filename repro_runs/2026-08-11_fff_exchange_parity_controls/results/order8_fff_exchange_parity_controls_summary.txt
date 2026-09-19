@@ -1,0 +1,16 @@
+Exchange-parity control audit
+
+dataset: order8_fff_complete
+workers: 8
+tables: 230
+unique tables: 230
+patterns: {'FFF': 230}
+group-isotopic: {'False': 225, 'True': 5}
+line ranks mod 2: {'19': 1, '20': 10, '21': 156, '22': 63}
+E4 ranks mod 2: {'39': 1, '40': 8, '41': 46, '42': 175}
+quotient dimensions mod 2: {'0': 39, '1': 147, '2': 35, '3': 9}
+exchange-count range: [1008, 6216]
+elapsed range seconds: [1.4791044160010642, 2.0129581250002957]
+errors: 0
+
+Boundary: finite control corpus only; tracked order-10 tables are not exhaustive and do not decide C38.

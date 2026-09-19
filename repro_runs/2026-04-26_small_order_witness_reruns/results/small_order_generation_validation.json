@@ -1,0 +1,50 @@
+{
+  "orders": [
+    {
+      "all_latin": true,
+      "all_reduced": true,
+      "all_unique": true,
+      "count_matches_expected": true,
+      "duplicate_table_strings": 0,
+      "expected_reduced_count": 1,
+      "generated_total_count": 1,
+      "generated_unique_count": 1,
+      "latin_failures": 0,
+      "n": 2,
+      "reduced_failures": 0
+    },
+    {
+      "all_latin": true,
+      "all_reduced": true,
+      "all_unique": true,
+      "count_matches_expected": true,
+      "duplicate_table_strings": 0,
+      "expected_reduced_count": 4,
+      "generated_total_count": 4,
+      "generated_unique_count": 4,
+      "latin_failures": 0,
+      "n": 4,
+      "reduced_failures": 0
+    },
+    {
+      "all_latin": true,
+      "all_reduced": true,
+      "all_unique": true,
+      "count_matches_expected": true,
+      "duplicate_table_strings": 0,
+      "expected_reduced_count": 9408,
+      "generated_total_count": 9408,
+      "generated_unique_count": 9408,
+      "latin_failures": 0,
+      "n": 6,
+      "reduced_failures": 0
+    }
+  ],
+  "overall_ok": true,
+  "source": "fresh enumeration by scripts/latin_trade_search.py; no cached list of reduced squares is loaded",
+  "witness_scan_coverage": {
+    "n6_generator_validation_unique_count": 9408,
+    "n6_reduced_square_count_in_latin_trade_results": 9408,
+    "scan_covers_all_9408": true
+  }
+}

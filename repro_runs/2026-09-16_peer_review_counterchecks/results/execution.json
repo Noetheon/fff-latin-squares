@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-09-16T15:51:39.572422+00:00",
+  "baseline_commit": "withheld-development-revision",
+  "command": [
+    "bash",
+    "repro_runs/2026-09-16_peer_review_counterchecks/commands.sh"
+  ],
+  "graphs_root": "external/Order8_external_graphs/2026-08-26_six_type_master",
+  "output_dir": ".audit/peer-review-2026-09-16",
+  "exit_code": 0,
+  "elapsed_seconds": 6.881,
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "binaries_tracked": false,
+  "exhaustive_search_executed": false
+}

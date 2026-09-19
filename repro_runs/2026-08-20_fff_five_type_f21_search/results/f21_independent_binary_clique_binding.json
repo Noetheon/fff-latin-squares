@@ -1,0 +1,82 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "f18_control_counts": true,
+    "f18_control_valid": true,
+    "f18_graph_hash": true,
+    "f18_matches_independent_cliquer_audit": true,
+    "f21_complete_counts": true,
+    "f21_graph_hash": true,
+    "f21_result_valid": true
+  },
+  "commands": {
+    "compile": [
+      "/usr/bin/clang++",
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4",
+      "repro_runs/2026-08-20_fff_five_type_f21_search/scripts/enumerate_binary_graph_clique_tables.cpp",
+      "-o",
+      "/tmp/order8_f21/enumerate_cliques"
+    ],
+    "f18_control": [
+      "/tmp/order8_f21/enumerate_cliques",
+      "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+4",
+      "8+2",
+      "8"
+    ],
+    "f21_run": [
+      "/tmp/order8_f21/enumerate_cliques",
+      "external/Order8_external_graphs/2026-08-20_five_type/f21/f21.bin",
+      "4+2+2+2",
+      "4+4+2",
+      "6+2+2",
+      "6+4",
+      "8+2",
+      "8"
+    ]
+  },
+  "files": {
+    "binary": {
+      "path": "/private/tmp/order8_f21/enumerate_cliques",
+      "sha256": "73ae384dc46f3a2ed0a2e9e52495441c51030d0b2ae8fc9e1b0523e538420b01",
+      "size_bytes": 60256
+    },
+    "f18_graph": {
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+      "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+      "size_bytes": 51004826
+    },
+    "f18_reference_audit": {
+      "path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_all_clique_completion_audit.json",
+      "sha256": "b3bd6730844b00a850233cf02ac6eb69a41865a377586f024810f7c8fdcb98a5",
+      "size_bytes": 1421
+    },
+    "f18_result": {
+      "path": "repro_runs/2026-08-20_fff_five_type_f21_search/results/f18_binary_enumerator_control.json",
+      "sha256": "15cd3558ddb489fa04e560c2f661ea4e3ab4d67b8ee954298193c1ae0493a370",
+      "size_bytes": 335
+    },
+    "f21_graph": {
+      "path": "external/Order8_external_graphs/2026-08-20_five_type/f21/f21.bin",
+      "sha256": "35fac04cc7566d4fe6aa0be5a96c0e06a6c92804936de60311324a76372f7a4e",
+      "size_bytes": 701175866
+    },
+    "f21_result": {
+      "path": "repro_runs/2026-08-20_fff_five_type_f21_search/results/f21_binary_clique_table_audit.json",
+      "sha256": "e5ad868a21608b381f189629ffce339bbfe0371baae9d4bf6b7a0f05529aaa84",
+      "size_bytes": 351
+    },
+    "source": {
+      "path": "repro_runs/2026-08-20_fff_five_type_f21_search/scripts/enumerate_binary_graph_clique_tables.cpp",
+      "sha256": "08040a558453cc944c0b6720d35daf99a96ccd72865786ce2712fdf51a854c93",
+      "size_bytes": 12639
+    }
+  },
+  "schema_version": "f21-independent-binary-clique-audit-binding-v1"
+}

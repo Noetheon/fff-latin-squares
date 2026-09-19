@@ -1,0 +1,57 @@
+Gauge-invariant cell-lift audit
+
+table count: 9777
+component count: 104645
+exact mask cell checks: 2039916
+role fourier checks: 6119748
+selection rule checks: 2039916
+odd mask zero checks: 71672
+cubic cell checks: 403122
+cubic gauge checks: 1612488
+cubic congruence checks: 403122
+intercalate cubic checks: 369888
+aggregate cell checks: 366972
+naive global identity failures: 25828
+error count: 0
+invariant monomial checks: 1060
+invariant monomial errors: 0
+exact-space dimensions: {0: 8788, 1: 2244, 2: 93034, 3: 579}
+cubic-by-mass distribution: {'(1, 1, True)': 369888, '(2, 8, False)': 19501, '(3, 27, False)': 8966, '(4, 0, False)': 124, '(4, 64, False)': 4173, '(5, 125, False)': 41, '(5, 5, False)': 177, '(6, -8, False)': 36, '(6, 0, False)': 28, '(6, 216, False)': 114, '(6, 24, False)': 44, '(7, -9, False)': 14, '(7, 63, False)': 16}
+naive global difference distribution: {'-8': 36, '-9': 14, '0': 341144, '125': 41, '16': 1862, '216': 114, '24': 284, '27': 6854, '32': 4, '35': 2096, '5': 177, '54': 8, '63': 16, '64': 1377, '72': 2796, '8': 10149}
+first naive global failure witness: {'table': ((0, 1, 2, 3), (1, 3, 0, 2), (2, 0, 3, 1), (3, 2, 1, 0)), 'cell_index': 0, 'cell': [0, 0, 0], 'cubic_sum': 9, 'intercalate_degree': 1, 'difference': 8, 'component_contributions': [{'component_id': 0, 'exact_dimension': 3, 'role_mass': 2, 'pushforwards_3_5_6': [2, -2, 2], 'cubic': 8, 'intercalate': False}, {'component_id': 1, 'exact_dimension': 2, 'role_mass': 1, 'pushforwards_3_5_6': [1, -1, 1], 'cubic': 1, 'intercalate': True}]}
+
+order4_complete
+- tables/components: 4 / 27
+- role-Fourier / odd-mask-zero checks: 2304 / 192
+- cubic / gauge / congruence checks: 144 / 576 / 144
+- naive global identity failures: 48 / 64
+- errors: 0
+
+order6_complete
+- tables/components: 9408 / 89068
+- role-Fourier / odd-mask-zero checks: 5023080 / 35640
+- cubic / gauge / congruence checks: 325440 / 1301760 / 325440
+- naive global identity failures: 14400 / 338688
+- errors: 0
+
+order8_fff_complete
+- tables/components: 230 / 9768
+- role-Fourier / odd-mask-zero checks: 779820 / 35264
+- cubic / gauge / congruence checks: 54842 / 219368 / 54842
+- naive global identity failures: 11248 / 14720
+- errors: 0
+
+order10_tracked_partial
+- tables/components: 135 / 5782
+- role-Fourier / odd-mask-zero checks: 314544 / 576
+- cubic / gauge / congruence checks: 22696 / 90784 / 22696
+- naive global identity failures: 132 / 13500
+- errors: 0
+
+Boundary:
+- C92 is rigorous and exactly audited.
+- Odd-weight exact masks have zero cell pushforward pointwise.
+- There is no intrinsic linear cross-component signed gluing without extra gauge anchors.
+- The cubic invariant is an integral component lift, but its naive global sum is falsified on the recorded cells.
+- It does not decide order 10.
+- C38 remains open and C40 absent.

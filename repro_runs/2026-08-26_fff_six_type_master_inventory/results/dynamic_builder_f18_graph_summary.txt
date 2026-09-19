@@ -1,0 +1,11 @@
+Filtered variable-palette candidate graph
+
+label: f18_dynamic_control
+palette: 2+2+2+2+2 4+2+2+2 4+4+2 6+4 8+2
+root: 2+2+2+2+2
+cross-view filter level: 2
+workers: 8
+unfiltered candidates: 20160
+stored vertices: 20160
+bucket counts: 2520 2520 2520 2520 2520 2520 2520 2520
+edges: 11689920

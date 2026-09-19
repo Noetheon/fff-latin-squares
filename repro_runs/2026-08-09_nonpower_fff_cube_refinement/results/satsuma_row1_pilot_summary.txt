@@ -1,0 +1,10 @@
+Satsuma-balanced-Row1 pilot
+
+cases: 3
+solver runs: 6
+timeout per run: 300.0
+result counts: {'timeout': 6}
+decided cases: []
+transformation proof: not generated in this bounded pilot
+C38: open
+C40: not_created

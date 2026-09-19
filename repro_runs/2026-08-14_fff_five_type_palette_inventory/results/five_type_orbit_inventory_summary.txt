@@ -1,0 +1,25 @@
+Five-type root-orbit inventory
+
+f01 10/2+2+2+2+2/4+2+2+2/4+4+2/6+2+2: root=2+2+2+2+2 vertices=8640 tasks=1080 group=48 orbits=28
+f16 2+2+2+2+2/4+2+2+2/4+4+2/6+2+2/6+4: root=4+2+2+2 vertices=16128 tasks=1560 group=48 orbits=38
+f18 2+2+2+2+2/4+2+2+2/4+4+2/6+4/8+2: root=2+2+2+2+2 vertices=20160 tasks=2520 group=48 orbits=58
+f17 2+2+2+2+2/4+2+2+2/4+4+2/6+2+2/8+2: root=4+2+2+2 vertices=35712 tasks=3372 group=48 orbits=73
+f19 2+2+2+2+2/4+2+2+2/6+2+2/6+4/8+2: root=2+2+2+2+2 vertices=31680 tasks=3960 group=48 orbits=88
+f20 2+2+2+2+2/4+4+2/6+2+2/6+4/8+2: root=2+2+2+2+2 vertices=50880 tasks=6360 group=48 orbits=138
+f21 4+2+2+2/4+4+2/6+2+2/6+4/8+2: root=4+2+2+2 vertices=74832 tasks=7548 group=48 orbits=162
+f02 10/2+2+2+2+2/4+2+2+2/4+4+2/6+4: root=2+2+2+2+2 vertices=62400 tasks=7800 group=48 orbits=168
+f07 10/2+2+2+2+2/4+4+2/6+2+2/6+4: root=2+2+2+2+2 vertices=66240 tasks=8280 group=48 orbits=178
+f04 10/2+2+2+2+2/4+2+2+2/6+2+2/6+4: root=2+2+2+2+2 vertices=70080 tasks=8760 group=48 orbits=188
+f03 10/2+2+2+2+2/4+2+2+2/4+4+2/8+2: root=4+2+2+2 vertices=101952 tasks=10896 group=48 orbits=227
+f05 10/2+2+2+2+2/4+2+2+2/6+2+2/8+2: root=4+2+2+2 vertices=111504 tasks=11892 group=48 orbits=250
+f11 10/4+2+2+2/4+4+2/6+2+2/6+4: root=4+2+2+2 vertices=113616 tasks=12300 group=48 orbits=261
+f06 10/2+2+2+2+2/4+2+2+2/6+4/8+2: root=4+2+2+2 vertices=122496 tasks=13116 group=48 orbits=276
+f12 10/4+2+2+2/4+4+2/6+2+2/8+2: root=4+2+2+2 vertices=133200 tasks=14112 group=48 orbits=296
+f08 10/2+2+2+2+2/4+4+2/6+2+2/8+2: root=2+2+2+2+2 vertices=115200 tasks=14400 group=48 orbits=300
+f13 10/4+2+2+2/4+4+2/6+4/8+2: root=4+2+2+2 vertices=140736 tasks=15036 group=48 orbits=316
+f14 10/4+2+2+2/6+2+2/6+4/8+2: root=4+2+2+2 vertices=150240 tasks=16020 group=48 orbits=338
+f09 10/2+2+2+2+2/4+4+2/6+4/8+2: root=2+2+2+2+2 vertices=150720 tasks=18840 group=48 orbits=398
+f10 10/2+2+2+2+2/6+2+2/6+4/8+2: root=2+2+2+2+2 vertices=161280 tasks=20160 group=48 orbits=420
+f15 10/4+4+2/6+2+2/6+4/8+2: root=4+4+2 vertices=145152 tasks=14952 group=8 orbits=1872
+
+records valid: 105/105

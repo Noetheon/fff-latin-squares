@@ -1,0 +1,70 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "auditor_exact_mechanical_generalization": true,
+    "builder_exact_mechanical_generalization": true,
+    "comparison_schema_only_generalization": true,
+    "merger_schema_only_generalization": true,
+    "runner_schema_only_generalization": true,
+    "task_plan_exact_mechanical_generalization": true,
+    "unchanged_audit_graph_structure.py": true,
+    "unchanged_bind_graph_audits.py": true,
+    "unchanged_partial_cycle.hpp": true,
+    "unchanged_search_partite_fff.cpp": true
+  },
+  "details": {
+    "auditor_exact_mechanical_generalization": {
+      "reference_path": "repro_runs/2026-08-14_fff_four_type_p20_search/scripts/audit_complete_four_type_candidate_graph.cpp",
+      "reference_sha256": "2a2d944af72f437f5644b70932658797d1f9380fc864ee7fcbda60934f3b00bc",
+      "target_path": "repro_runs/2026-08-21_fff_five_type_f03_search/scripts/audit_complete_five_type_candidate_graph.cpp",
+      "target_sha256": "3ef06e071523a5b2c7843de6d10ef396a83c1fc8ee17120a1ff5120a04d42c2e"
+    },
+    "builder_exact_mechanical_generalization": {
+      "reference_path": "repro_runs/2026-08-14_fff_four_type_p20_search/scripts/build_filtered_four_type_candidate_graph.cpp",
+      "reference_sha256": "2b9f6e71400f726c254da087da1e93dc87f691681d26943d2fed48cced60312a",
+      "target_path": "repro_runs/2026-08-21_fff_five_type_f03_search/scripts/build_filtered_five_type_candidate_graph.cpp",
+      "target_sha256": "9c708f8160b0d5b7077f3965c49c0c62ecfae393b8894883964ea3dccb4f5520"
+    },
+    "comparison_schema_only_generalization": {
+      "reference_path": "repro_runs/2026-08-14_fff_four_type_p20_search/scripts/compare_search_merges.py",
+      "reference_sha256": "7176f29f1f1df7d2b313f4771601cae8a0c6a89860d348a368892890503608d8",
+      "target_path": "repro_runs/2026-08-21_fff_five_type_f03_search/scripts/compare_search_merges.py",
+      "target_sha256": "b99570ff3908c515e000dfbbdca386edf411e0b14538ce85997c30957a65f5c6"
+    },
+    "merger_schema_only_generalization": {
+      "reference_path": "repro_runs/2026-08-14_fff_four_type_p20_search/scripts/merge_task_slices.py",
+      "reference_sha256": "d5e5b86154ddf01ead6f2d978d5d79df12767941ea65d70b9264751bbf75b18e",
+      "target_path": "repro_runs/2026-08-21_fff_five_type_f03_search/scripts/merge_task_slices.py",
+      "target_sha256": "dd0da8789b92f7d5b497bb7808f6083ca009620219a360d7c3586288bd5636a4"
+    },
+    "runner_schema_only_generalization": {
+      "reference_path": "repro_runs/2026-08-14_fff_four_type_p20_search/scripts/run_task_plan.py",
+      "reference_sha256": "5a8ebf300d22643b707e5e2c491300dfa7bca77af838b759b09d87910a1dfbdf",
+      "target_path": "repro_runs/2026-08-21_fff_five_type_f03_search/scripts/run_task_plan.py",
+      "target_sha256": "4788c861050e113426fc37aaee85a6df047336dc3552a62ba4a02e95c98025ab"
+    },
+    "task_plan_exact_mechanical_generalization": {
+      "reference_path": "repro_runs/2026-08-14_fff_four_type_p20_search/scripts/create_task_plan.py",
+      "reference_sha256": "c9fabe5116abe78ce70b79d8ae8c7d2c7af2ba919159ca27b29fa5517194e23d",
+      "target_path": "repro_runs/2026-08-21_fff_five_type_f03_search/scripts/create_task_plan.py",
+      "target_sha256": "8b440715d18cf9e8ef1a4529dbf753811318c4aed34592fe0abb362bb0ca82dc"
+    },
+    "unchanged_audit_graph_structure.py": {
+      "reference_sha256": "2aebaf514e3233cd9d7dc1022dea2809e955f3b6336948bcd3fcf8d988741dfc",
+      "target_sha256": "2aebaf514e3233cd9d7dc1022dea2809e955f3b6336948bcd3fcf8d988741dfc"
+    },
+    "unchanged_bind_graph_audits.py": {
+      "reference_sha256": "003406cc7a90920dff177156cea0e38b85e32e2173e1877196ba971e8a2543f7",
+      "target_sha256": "003406cc7a90920dff177156cea0e38b85e32e2173e1877196ba971e8a2543f7"
+    },
+    "unchanged_partial_cycle.hpp": {
+      "reference_sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82",
+      "target_sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82"
+    },
+    "unchanged_search_partite_fff.cpp": {
+      "reference_sha256": "ec541446455833b9c3044b140a280de162751933a98eefa2ad78104067a88652",
+      "target_sha256": "ec541446455833b9c3044b140a280de162751933a98eefa2ad78104067a88652"
+    }
+  },
+  "schema_version": "five-type-source-generalization-audit-v1"
+}

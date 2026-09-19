@@ -1,0 +1,11 @@
+Filtered five-type candidate graph
+
+label: f07
+palette: 10 + 2+2+2+2+2 + 4+4+2 + 6+2+2 + 6+4
+root: 2+2+2+2+2
+cross-view filter level: 2
+workers: 8
+unfiltered candidates: 66240
+stored vertices: 66240
+bucket counts: 8280 8280 8280 8280 8280 8280 8280 8280
+edges: 161880000

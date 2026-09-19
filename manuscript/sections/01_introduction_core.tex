@@ -1,0 +1,75 @@
+\section{Introduction}
+
+An odd cycle in the permutation induced by two lines of a Latin square
+supports a simple trade: swap the two lines on that cycle.  The move preserves
+the Latin property.  In the row and column views it reverses the conventional
+row--column Latin sign; in the symbol view it preserves that sign and reverses
+the two parastrophically transported signs.  This local operation is therefore
+a natural primitive in parity-based approaches related to the Alon--Tarsi
+setting, but its three sign conventions must be kept distinct.  B\'erczi's
+experimental program studies such local corrections as ingredients for
+global constructions~\cite{Berczi2026}; it does not supply the theorems proved
+here.
+
+We isolate the underlying existence question.  For each of the row, column,
+and symbol views, ask whether some pair of lines induces a permutation with a
+nontrivial odd cycle.  The three answers form a pattern in $\{F,T\}^3$.  A
+square is FFF when all three answers are negative.  Equivalently, every union
+of two link factors in the tripartite representation has component lengths
+divisible by four.
+
+Our first contribution is structural.  Every odd-order Latin square is TTT,
+whereas the Cayley table of a finite group is FFF exactly when the group is a
+$2$-group.  A basis-family closure criterion detects group isotopy.  We then
+show that failure patterns are monotone from Latin subsquares and analyze
+quasigroup congruences: odd block size forces TTT, while two-element blocks
+preserve the quotient pattern exactly.  Thus a hypothetical FFF quasigroup of
+order $2p$, for odd prime $p$, must be congruence-simple in every isotope.
+This excludes all congruence-imprimitive constructions at order $10$ but does
+not by itself decide the simple case.
+
+The remaining binary line-incidence defect also has an exact subsquare
+meaning.  Nonuniversal vectors in the left binary line kernel are in
+bijection with half-order subsquares, and the quotient classes group them
+into complementary four-packs.  This yields a closed counting formula and
+forces maximal binary line rank for every FFF order congruent to $2$ modulo
+$4$ and greater than $2$.  At order $10$ this is necessary, not sufficient.
+
+More generally, Moorhouse's $3$-net character formula specializes as follows:
+a nonuniversal line dependency over a prime field is a
+balanced cyclic quotient homotopy, and after isotopy its fibres form a
+quasigroup congruence.  Consequently every Smith torsion prime divides the
+order.  For order $2p$, with $p$ odd prime, the congruence obstruction shows
+that even one F view forces a saturated integer line-incidence lattice.
+
+The group construction is not the whole phenomenon.  A twisted binary
+extension of $C_4$ gives an explicit non-group-isotopic FFF loop of order $8$.
+Moreover, direct products satisfy the exact componentwise formula
+\[
+  \pat(L\times K)=\pat(L)\mathbin{\mathrm{OR}}\pat(K),
+\]
+and a product is group-isotopic exactly when both factors are.  These theorems
+turn one order-$8$ example into infinite power-of-two families.
+
+Our computational contribution is exhaustive.  McKay, Meynert, and Myrvold
+enumerated the main classes of small Latin squares~\cite{McKayMeynertMyrvold2007};
+the associated ANU file contains one representative of each of the $283657$
+order-$8$ main classes~\cite{McKayLatinData}.  Our scan finds exactly $230$
+FFF main classes.  Only $5$ are group-isotopic and $225$ are not, and all
+eight ordered failure patterns occur.  Independently, fresh exact-cover
+generation of all $9408$ reduced order-$6$ squares finds no FFF square and
+matches the official ANU set exactly.
+
+Combining theory and computation proves that every order $2^m$, $m\geq3$,
+realizes all eight patterns and contains a non-group-isotopic FFF square.  We
+do not claim that the product construction is injective on isotopy or main
+classes.  We also do not prove the Alon--Tarsi conjecture.  The accompanying
+complete research report proves by exhaustive master searches that order $10$
+has no FFF square; that computation is outside this compact paper's theorem
+scope.  The resulting open conjecture is narrower: nontrivial FFF Latin
+squares may exist exactly in power-of-two orders.
+
+The longer companion research report in the repository develops additional
+cycle-parity, subset-action, primitive-group, and flag-surface machinery
+and proves nonexistence at order $10$.  None of that machinery is needed for
+the results in this compact paper.

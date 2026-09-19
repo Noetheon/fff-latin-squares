@@ -1,0 +1,10 @@
+case: p23
+graph_sha256: 1d5525acec52d71d7ef4b2bfc28b193cb8f0485eba518363da3bb8bcc5b1a312
+expected_source: established-by-this-run
+audit_sha256: 3f96443197c95227a2ece7b51ebc73a094acdd6227a548dbc109e97a40c25b19
+search_sha256: b5bb2a1c1c14c70ce6ff2c8c9de8fd327d192e7d1da58c8d2ba2bb10fa45898d
+audit_valid: true
+reverse_edge_errors: 0
+search_complete: true
+fff_found: false
+all_checks_passed: true

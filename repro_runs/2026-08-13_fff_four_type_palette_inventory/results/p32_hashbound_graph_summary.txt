@@ -1,0 +1,11 @@
+Filtered three-type candidate graph
+
+label: p32_hashbound
+palette: 4+2+2+2 + 4+4+2 + 6+2+2 + 8+2
+root: 4+4+2
+cross-view filter level: 2
+workers: 5
+unfiltered candidates: 32336
+stored vertices: 27408
+bucket counts: 2374 2374 3952 3952 3952 3952 3426 3426
+edges: 22017040

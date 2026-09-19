@@ -1,0 +1,10 @@
+Six-type master graph root-orbit audit
+
+case: involution_master_all_7_types
+graph vertices: 190080
+full tasks/orbits: 23760/506
+residual group: 48
+orbit sizes: {12: 12, 24: 4, 48: 490}
+covered tasks: 23760
+checks passed: 10/10
+valid: true

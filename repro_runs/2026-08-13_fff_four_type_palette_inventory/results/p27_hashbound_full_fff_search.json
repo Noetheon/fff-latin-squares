@@ -1,0 +1,13 @@
+{
+  "label": "p27_hashbound",
+  "mode": "full",
+  "workers": 5,
+  "total_initial_tasks": 2040,
+  "task_start": 0,
+  "task_end_exclusive": 2040,
+  "completed_tasks": 2040,
+  "search_nodes": 233376,
+  "crossview_odd_cycle_prunes": 35080,
+  "fff_found": false,
+  "slice_complete": true
+}

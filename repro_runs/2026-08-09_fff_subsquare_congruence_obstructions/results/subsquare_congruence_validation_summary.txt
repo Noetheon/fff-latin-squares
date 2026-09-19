@@ -1,0 +1,33 @@
+FFF subsquare and congruence obstruction validation
+
+Overall OK: True
+
+Order-8 FFF subsquare census (exact over 230 frozen representatives):
+- pattern-monotonicity failures: 0
+- order-3 subsquares: 0
+- intercalate range: 2..112
+- intercalate distribution: {2: 1, 12: 1, 16: 9, 20: 7, 21: 1, 24: 10, 25: 3, 26: 4, 27: 2, 28: 12, 30: 9, 32: 27, 33: 2, 34: 4, 35: 2, 36: 18, 37: 1, 38: 2, 39: 1, 40: 30, 41: 1, 42: 3, 44: 10, 46: 3, 48: 27, 51: 1, 52: 6, 56: 14, 60: 1, 64: 12, 68: 1, 72: 1, 80: 2, 88: 1, 112: 1}
+- order-4 subsquare distribution: {0: 63, 4: 156, 12: 10, 28: 1}
+- extremal entries: [{'line_number': 1, 'group_isotopic': True, 'subsquare_counts': {'2': 112, '3': 0, '4': 28}}, {'line_number': 10776, 'group_isotopic': False, 'subsquare_counts': {'2': 2, '3': 0, '4': 0}}]
+
+Order-6 congruence census (exact over 9,408 reduced squares):
+- congruence-imprimitive squares: 660
+- counts: {'blocks_2:TTT': 180, 'blocks_2_3:TTT': 60, 'blocks_3:TTT': 420}
+- non-TTT congruence examples: 0
+
+Binary extensions of odd cyclic quotients:
+- order-3 quotient: exhaustive 512/512 twists, {'TTT': 512}
+- order-5 quotient: deterministic 4096-twist sample, {'TTT': 4096}
+
+Explicit theoretical order-8 loop:
+- Latin/identity/pattern: True/True/FFF
+- associative: False
+- identity-basis closure: False
+
+Tracked order-10 tables:
+- distinct valid tables: 136
+- stored-operation congruence counts: {'simple': 136}
+
+Claim boundary:
+- The proof excludes congruence-imprimitive FFF quasigroups of order 2p.
+- It does not decide simple quasigroups of order 10; C38 remains open.

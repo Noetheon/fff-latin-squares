@@ -1,0 +1,6 @@
+QQQ DRAT proof check
+
+result: verified
+checker_source_commit: 2e3b2dc0ecf938addbd779d42877b6ed69d9a985
+cnf_sha256: eb92171641c9850b36496f904f2dca8fbc64850a1dde57d6e5770f9b16734ef6
+proof_sha256: aff02411a95769ef4fc8f4bbc4d2c005474a369ef13516d462361aea9fc69e67

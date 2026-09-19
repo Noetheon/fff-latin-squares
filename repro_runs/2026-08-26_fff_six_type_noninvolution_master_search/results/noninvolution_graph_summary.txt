@@ -1,0 +1,11 @@
+Filtered variable-palette candidate graph
+
+label: noninvolution_master_6_types
+palette: 10 4+2+2+2 4+4+2 6+2+2 6+4 8+2
+root: 4+2+2+2
+cross-view filter level: 2
+workers: 8
+unfiltered candidates: 196560
+stored vertices: 172368
+bucket counts: 18300 18300 22628 22628 22628 22628 22628 22628
+edges: 1650487056

@@ -1,0 +1,13 @@
+{
+  "label": "p24",
+  "mode": "full",
+  "workers": 8,
+  "total_initial_tasks": 1560,
+  "task_start": 0,
+  "task_end_exclusive": 1560,
+  "completed_tasks": 1560,
+  "search_nodes": 64296,
+  "crossview_odd_cycle_prunes": 3520,
+  "fff_found": false,
+  "slice_complete": true
+}

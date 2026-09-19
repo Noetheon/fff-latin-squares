@@ -1,0 +1,1808 @@
+{
+  "all_checks_passed": true,
+  "claim_boundary": "independent dimension and orbit-bookkeeping audit only; no five-type palette exclusion",
+  "counts": {
+    "palettes": 21,
+    "record_errors": 0,
+    "root_records": 105
+  },
+  "errors": [],
+  "global_checks": {
+    "all_record_checks": true,
+    "five_roots_per_palette": true,
+    "palette_count": true,
+    "record_count": true
+  },
+  "inputs": {
+    "class_products_sha256": "9770792b4a081f415f74e315f4ba6da6cd16a93322561cd9d53b75b047668d53",
+    "inventory_sha256": "640edfa734b82b9a919bbe597202d5d69647dec6ace46968c7fd4e0c6e4d6194"
+  },
+  "record_checks": [
+    {
+      "case_id": "f01",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f01",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f01",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f01",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f01",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f02",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f02",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f02",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f02",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f02",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f03",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f03",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f03",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f03",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f03",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f04",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f04",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f04",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f04",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f04",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f05",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f05",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f05",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f05",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f05",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f06",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f06",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f06",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f06",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f06",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f07",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f07",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f07",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f07",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f07",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f08",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f08",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f08",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f08",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f08",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f09",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f09",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f09",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f09",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f09",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f10",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f10",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f10",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f10",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f10",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f11",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f11",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f11",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f11",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f11",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f12",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f12",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f12",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f12",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f12",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f13",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f13",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f13",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f13",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f13",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f14",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f14",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f14",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f14",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f14",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f15",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f15",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f15",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f15",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f15",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "10"
+    },
+    {
+      "case_id": "f16",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f16",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f16",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f16",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f16",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f17",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f17",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f17",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f17",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f17",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f18",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f18",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f18",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f18",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f18",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f19",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f19",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f19",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f19",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f19",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f20",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "2+2+2+2+2"
+    },
+    {
+      "case_id": "f20",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f20",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f20",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f20",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    },
+    {
+      "case_id": "f21",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+2+2+2"
+    },
+    {
+      "case_id": "f21",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "4+4+2"
+    },
+    {
+      "case_id": "f21",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+2+2"
+    },
+    {
+      "case_id": "f21",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "6+4"
+    },
+    {
+      "case_id": "f21",
+      "checks": {
+        "bucket_sum": true,
+        "canonical_palette": true,
+        "class_product_count": true,
+        "level1_not_larger_than_unfiltered": true,
+        "minimal_bucket_selected": true,
+        "no_orbit_escape": true,
+        "orbit_partition": true,
+        "orbit_size_sum": true,
+        "root_in_palette": true,
+        "task_bucket": true,
+        "valid": true
+      },
+      "root_type": "8+2"
+    }
+  ],
+  "schema_version": "five-type-inventory-independent-audit-v1"
+}

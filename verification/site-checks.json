@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "language": "en",
+      "horizontalOverflow": false,
+      "images": [
+        {
+          "loaded": true,
+          "width": 536
+        }
+      ],
+      "links": [
+        {
+          "text": "Compact reading version (PDF)",
+          "href": "papers/FFF_Compact_Research_Dossier.pdf"
+        },
+        {
+          "text": "Full technical record (PDF)",
+          "href": "papers/FFF_Long_Research_Dossier.pdf"
+        },
+        {
+          "text": "Sources, evidence and reproducibility on GitHub",
+          "href": "https://github.com/Noetheon/fff-latin-squares"
+        },
+        {
+          "text": "First page of the compact research dossier, including the AI-origin and review disclosure.",
+          "href": "papers/FFF_Compact_Research_Dossier.pdf"
+        },
+        {
+          "text": "Report an issue",
+          "href": "https://github.com/Noetheon/fff-latin-squares/issues"
+        },
+        {
+          "text": "Discuss the evidence",
+          "href": "https://github.com/Noetheon/fff-latin-squares/discussions"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "language": "en",
+      "horizontalOverflow": false,
+      "images": [
+        {
+          "loaded": true,
+          "width": 536
+        }
+      ],
+      "links": [
+        {
+          "text": "Compact reading version (PDF)",
+          "href": "papers/FFF_Compact_Research_Dossier.pdf"
+        },
+        {
+          "text": "Full technical record (PDF)",
+          "href": "papers/FFF_Long_Research_Dossier.pdf"
+        },
+        {
+          "text": "Sources, evidence and reproducibility on GitHub",
+          "href": "https://github.com/Noetheon/fff-latin-squares"
+        },
+        {
+          "text": "First page of the compact research dossier, including the AI-origin and review disclosure.",
+          "href": "papers/FFF_Compact_Research_Dossier.pdf"
+        },
+        {
+          "text": "Report an issue",
+          "href": "https://github.com/Noetheon/fff-latin-squares/issues"
+        },
+        {
+          "text": "Discuss the evidence",
+          "href": "https://github.com/Noetheon/fff-latin-squares/discussions"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

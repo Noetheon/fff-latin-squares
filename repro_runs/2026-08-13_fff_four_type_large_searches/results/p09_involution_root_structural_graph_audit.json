@@ -1,0 +1,27 @@
+{
+  "actual_size_bytes": 1247001626,
+  "diagonal_nonzero": 0,
+  "errors": [],
+  "expected_size_bytes": 1247001626,
+  "expected_words": 1560,
+  "graph_path": "external/Order8_external_graphs/2026-08-13_four_type_large/p09_involution_root/p09_involution_root.bin",
+  "graph_sha256": "5277ec91414b304bcb2078dc4d1566029f6aba7674c44458cf6a706a764a5873",
+  "magic_hex": "4f38485476310000",
+  "padding_nonzero_rows": 0,
+  "root_permutation": [
+    1,
+    0,
+    3,
+    2,
+    5,
+    4,
+    7,
+    6,
+    9,
+    8
+  ],
+  "schema_version": "four-type-graph-structural-audit-v1",
+  "valid": true,
+  "vertices": 99840,
+  "words": 1560
+}

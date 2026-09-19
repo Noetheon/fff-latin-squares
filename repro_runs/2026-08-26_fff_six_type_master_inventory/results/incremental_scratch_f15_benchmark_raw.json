@@ -1,0 +1,14 @@
+{
+  "label": "incremental_scratch_f15_benchmark",
+  "mode": "slice",
+  "workers": 10,
+  "full_initial_tasks": 14952,
+  "total_initial_tasks": 1872,
+  "task_start": 0,
+  "task_end_exclusive": 25,
+  "completed_tasks": 25,
+  "search_nodes": 146648523,
+  "crossview_odd_cycle_prunes": 103348583,
+  "fff_found": false,
+  "slice_complete": true
+}

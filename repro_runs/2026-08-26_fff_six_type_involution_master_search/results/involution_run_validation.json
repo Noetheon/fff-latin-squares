@@ -1,0 +1,41 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "control_complete_negative": true,
+    "external_graph_hash_frozen": true,
+    "graph_audit_binding": true,
+    "incremental_scratch_positive_controls": true,
+    "master_inventory_bound": true,
+    "orbit_cover_exact": true,
+    "plans_bound": true,
+    "reduced_complete_negative": true,
+    "reduced_control_exact_match": true,
+    "search_implementation_bound": true,
+    "semantic_errors_zero": true,
+    "semantic_graph_audit": true,
+    "structural_graph_audit": true,
+    "task_file_bound": true,
+    "validator_fail_closed": true
+  },
+  "result": {
+    "case_id": "involution_master_all_7_types",
+    "control_nodes": 5001728282,
+    "edges": 2050329600,
+    "fff_found": false,
+    "full_tasks": 23760,
+    "graph_sha256": "b878a2feddc48629401864c675af6ec6f792290b75df343edd95411fd2326047",
+    "orbits": 506,
+    "palette": [
+      "10",
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+2+2",
+      "6+4",
+      "8+2"
+    ],
+    "reduced_nodes": 5001728282,
+    "vertices": 190080
+  },
+  "schema_version": "involution-six-seven-type-master-run-validation-v1"
+}

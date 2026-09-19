@@ -1,0 +1,11 @@
+Filtered three-type candidate graph
+
+label: p14
+palette: 10 + 4+2+2+2 + 6+2+2 + 6+4
+root: 6+2+2
+cross-view filter level: 2
+workers: 8
+unfiltered candidates: 72528
+stored vertices: 59904
+bucket counts: 6432 8312 8312 6432 7604 7604 7604 7604
+edges: 124159536

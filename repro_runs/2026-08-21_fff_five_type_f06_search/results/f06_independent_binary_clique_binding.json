@@ -1,0 +1,82 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "f06_complete_counts": true,
+    "f06_graph_hash": true,
+    "f06_result_valid": true,
+    "f18_control_counts": true,
+    "f18_control_valid": true,
+    "f18_graph_hash": true,
+    "f18_matches_independent_cliquer_audit": true
+  },
+  "commands": {
+    "compile": [
+      "/usr/bin/clang++",
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4",
+      "repro_runs/2026-08-21_fff_five_type_f06_search/scripts/enumerate_binary_graph_clique_tables.cpp",
+      "-o",
+      "/tmp/order8_f06/enumerate_cliques"
+    ],
+    "f06_run": [
+      "/tmp/order8_f06/enumerate_cliques",
+      "external/Order8_external_graphs/2026-08-21_five_type/f06/f06.bin",
+      "10",
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "6+4",
+      "8+2",
+      "8"
+    ],
+    "f18_control": [
+      "/tmp/order8_f06/enumerate_cliques",
+      "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+4",
+      "8+2",
+      "8"
+    ]
+  },
+  "files": {
+    "binary": {
+      "path": "/private/tmp/order8_f06/enumerate_cliques",
+      "sha256": "73ae384dc46f3a2ed0a2e9e52495441c51030d0b2ae8fc9e1b0523e538420b01",
+      "size_bytes": 60256
+    },
+    "f06_graph": {
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f06/f06.bin",
+      "sha256": "8fe34d2fdd3bc8e9eec6fb8cab01ba316ef54c4750413c74d4bf7ce35fb342bb",
+      "size_bytes": 1876883738
+    },
+    "f06_result": {
+      "path": "repro_runs/2026-08-21_fff_five_type_f06_search/results/f06_binary_clique_table_audit.json",
+      "sha256": "277cb3552c7b61ea1f9c52c23e0da2b57b2efadb968f55658aca308c73653dbc",
+      "size_bytes": 353
+    },
+    "f18_graph": {
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+      "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+      "size_bytes": 51004826
+    },
+    "f18_reference_audit": {
+      "path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_all_clique_completion_audit.json",
+      "sha256": "b3bd6730844b00a850233cf02ac6eb69a41865a377586f024810f7c8fdcb98a5",
+      "size_bytes": 1421
+    },
+    "f18_result": {
+      "path": "repro_runs/2026-08-21_fff_five_type_f06_search/results/f18_binary_enumerator_control.json",
+      "sha256": "15cd3558ddb489fa04e560c2f661ea4e3ab4d67b8ee954298193c1ae0493a370",
+      "size_bytes": 335
+    },
+    "source": {
+      "path": "repro_runs/2026-08-21_fff_five_type_f06_search/scripts/enumerate_binary_graph_clique_tables.cpp",
+      "sha256": "08040a558453cc944c0b6720d35daf99a96ccd72865786ce2712fdf51a854c93",
+      "size_bytes": 12639
+    }
+  },
+  "schema_version": "f06-independent-binary-clique-audit-binding-v1"
+}

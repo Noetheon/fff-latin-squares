@@ -1,0 +1,49 @@
+{
+  "all_checks_passed": true,
+  "audit_command": [
+    "/tmp/order8_four_type_large_v2/audit_complete_four_type",
+    "4+4+2",
+    "6+2+2",
+    "6+4",
+    "8+2",
+    "4+4+2",
+    "2",
+    "external/Order8_external_graphs/2026-08-13_four_type_large/p35/p35.bin"
+  ],
+  "auditor_binary_sha256": "7813622fe27f10a9addf50648576b8b822e50fd3619bc4717113a7f293259d3c",
+  "auditor_source_sha256": "2a2d944af72f437f5644b70932658797d1f9380fc864ee7fcbda60934f3b00bc",
+  "build_command": [
+    "/tmp/order8_four_type_large_v2/build_filtered_four_type",
+    "4+4+2",
+    "6+2+2",
+    "6+4",
+    "8+2",
+    "4+4+2",
+    "2",
+    "external/Order8_external_graphs/2026-08-13_four_type_large/p35/p35.bin"
+  ],
+  "builder_binary_sha256": "f66e277c9700d59e41de3d2f5e0efdfef4b68642946b1970274634f84db219ba",
+  "builder_source_sha256": "2b9f6e71400f726c254da087da1e93dc87f691681d26943d2fed48cced60312a",
+  "checks": {
+    "candidate_list_errors_zero": true,
+    "diagonal_errors_zero": true,
+    "edge_errors_zero": true,
+    "format_errors_zero": true,
+    "padding_errors_zero": true,
+    "pair_count_complete": true,
+    "reverse_edge_errors_zero": true,
+    "semantic_valid": true,
+    "structural_graph_hash_matches": true,
+    "structural_valid": true,
+    "vertex_counts_match": true
+  },
+  "graph_path": "external/Order8_external_graphs/2026-08-13_four_type_large/p35/p35.bin",
+  "graph_sha256": "e1d9db20dd6fd9e8468d9069c32357d80dd49c3721ea3fa19611d97e716751ef",
+  "graph_size_bytes": 192158234,
+  "partial_cycle_source_sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82",
+  "schema_version": "four-type-graph-audit-binding-v1",
+  "semantic_audit_path": "repro_runs/2026-08-13_fff_four_type_large_searches/results/p35_complete_graph_audit.json",
+  "semantic_audit_sha256": "e246c013de19c1ead15bb8e98ba5e430ff8e53be78b946409efec17b1b998bcb",
+  "structural_audit_path": "repro_runs/2026-08-13_fff_four_type_large_searches/results/p35_structural_graph_audit.json",
+  "structural_audit_sha256": "50c63c080e56250aa69c8e9d0c241b5037561723fb208e92568c54bcdd021a92"
+}

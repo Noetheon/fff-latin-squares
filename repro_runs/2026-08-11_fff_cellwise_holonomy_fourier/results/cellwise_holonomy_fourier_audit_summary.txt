@@ -1,0 +1,40 @@
+Cellwise holonomy Fourier audit
+
+table count: 9777
+component count: 104645
+compatible potential checks: 390044
+component cell checks: 756704
+transform checks: 2039916
+inversion checks: 2039916
+parseval checks: 756704
+error count: 0
+exact-space dimensions: {0: 8788, 1: 2244, 2: 93034, 3: 579}
+
+order4_complete
+- tables/components: 4 / 27
+- component-cell checks: 144
+- transform/inversion/Parseval: 768 / 768 / 144
+- errors: 0
+
+order6_complete
+- tables/components: 9408 / 89068
+- component-cell checks: 662400
+- transform/inversion/Parseval: 1674360 / 1674360 / 662400
+- errors: 0
+
+order8_fff_complete
+- tables/components: 230 / 9768
+- component-cell checks: 57976
+- transform/inversion/Parseval: 259940 / 259940 / 57976
+- errors: 0
+
+order10_tracked_partial
+- tables/components: 135 / 5782
+- component-cell checks: 36184
+- transform/inversion/Parseval: 104848 / 104848 / 36184
+- errors: 0
+
+Boundary:
+- C89 is rigorous and exactly audited.
+- It is componentwise and does not decide order 10.
+- C38 remains open and C40 absent.

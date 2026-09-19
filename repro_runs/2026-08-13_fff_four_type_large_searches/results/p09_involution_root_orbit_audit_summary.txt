@@ -1,0 +1,10 @@
+p09 involution-root orbit audit
+
+graph SHA-256: 5277ec91414b304bcb2078dc4d1566029f6aba7674c44458cf6a706a764a5873
+residual group size: 48
+full initial tasks: 12480
+orbit representatives: 260
+orbit sizes: {48: 260}
+covered tasks: 12480
+root-task reduction factor: 48.000000
+valid: true

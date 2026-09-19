@@ -1,0 +1,39 @@
+{
+  "cnf": {
+    "path": "/tmp/order8_pairblock_projection/p5.cnf",
+    "sha256": "f13e3db94f8b3e99f623262ef88b2218b0c33d2f56bf8f3c2e59a18ad4470d72",
+    "size_bytes": 3067950
+  },
+  "elapsed_seconds": 20.32181692123413,
+  "model": {
+    "available": false,
+    "path": "/tmp/order8_pairblock_projection/p5_kissat.model",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "proof": {
+    "complete_unsat_trace": false,
+    "independently_checked": false,
+    "path": null,
+    "sha256": null,
+    "size_bytes": null
+  },
+  "result": "unsat",
+  "returncode": 20,
+  "solver": {
+    "command": [
+      "/opt/homebrew/bin/kissat",
+      "/tmp/order8_pairblock_projection/p5.cnf"
+    ],
+    "path": "/opt/homebrew/bin/kissat",
+    "version": "4.0.4"
+  },
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_pairblock_projection/logs/p5_kissat.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_pairblock_projection/logs/p5_kissat.stdout.log",
+    "sha256": "58527100463e32e36c8956142340ae769d7857cc6465e4e09b11d76dac59f0a2"
+  },
+  "timeout_seconds": 120.0
+}

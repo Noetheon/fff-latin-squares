@@ -1,0 +1,13 @@
+FFF table validation summary
+
+Input: repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/lazy_cycle_cegar/n10_case12_maplechrono_300_best_table.json
+Order: 10
+Latin: True
+Reduced: True
+Pattern: TTT
+FFF: False
+
+Views:
+- row: has_odd_cycle=True, odd_pair_count=11, all_even_or_fixed=False
+- col: has_odd_cycle=True, odd_pair_count=4, all_even_or_fixed=False
+- sym: has_odd_cycle=True, odd_pair_count=5, all_even_or_fixed=False

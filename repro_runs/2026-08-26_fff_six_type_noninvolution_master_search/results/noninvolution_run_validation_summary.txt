@@ -1,0 +1,7 @@
+Noninvolution six-type master run validation
+
+checks passed: 15/15
+graph vertices/edges: 172368/1650487056
+full tasks/orbits: 18300/386
+FFF found: false
+all checks passed: true

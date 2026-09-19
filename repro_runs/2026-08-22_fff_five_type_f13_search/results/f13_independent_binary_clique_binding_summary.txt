@@ -1,0 +1,7 @@
+Independent binary clique audit binding
+
+checks passed: 7/7
+f18 control cliques/patterns: 1920/{'FTF': 960, 'FFT': 960}
+f13 cliques/patterns: 17280/{'FTT': 9600, 'FTF': 3840, 'FFT': 3840}
+f13 exact-palette/FFF: 13632/0
+all checks passed: true

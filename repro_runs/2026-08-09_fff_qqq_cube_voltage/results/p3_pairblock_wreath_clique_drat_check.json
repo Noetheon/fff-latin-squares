@@ -1,0 +1,26 @@
+{
+  "checker": {
+    "binary_sha256": "f58f63b0f76945d4c4c9ff6e87afaf870f579e67c0f7cca589492df8fc7ebd47",
+    "path": "/tmp/order8_solver_tools/drat-trim/drat-trim",
+    "source_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+  },
+  "cnf": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/p3_pairblock_wreath_clique.cnf",
+    "sha256": "eb92171641c9850b36496f904f2dca8fbc64850a1dde57d6e5770f9b16734ef6"
+  },
+  "proof": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/p3_pairblock_wreath_clique_cadical.drat",
+    "sha256": "aff02411a95769ef4fc8f4bbc4d2c005474a369ef13516d462361aea9fc69e67",
+    "size_bytes": 8794
+  },
+  "result": "verified",
+  "returncode": 0,
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/logs/p3_pairblock_wreath_clique_drat_trim.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/logs/p3_pairblock_wreath_clique_drat_trim.stdout.log",
+    "sha256": "011470717e52d2a9cc7d5c9d1c9452dac5280c9babd829b6be664621a897f514"
+  }
+}

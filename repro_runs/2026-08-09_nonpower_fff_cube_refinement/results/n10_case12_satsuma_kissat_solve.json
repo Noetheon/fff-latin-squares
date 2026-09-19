@@ -1,0 +1,50 @@
+{
+  "cnf": {
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/n10_case12_satsuma_fix_units.cnf",
+    "sha256": "3af5a1f9e99c489421b73f9e756ccc3de7ad550b95e2c87e35ff3e17de4377fa",
+    "size_bytes": 2818521
+  },
+  "elapsed_seconds": 299.96185302734375,
+  "environment": {
+    "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6"
+  },
+  "label": "n10_case12_satsuma_kissat",
+  "model": {
+    "available": false,
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/n10_case12_satsuma_kissat.model",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "proof": {
+    "available": false,
+    "formal_certificate_status": "no_formal_proof_certificate",
+    "format_note": "CaDiCaL proof trace; binary DRAT by default unless options changed.",
+    "path": null,
+    "requested": false,
+    "sha256": null,
+    "size_bytes": null
+  },
+  "result": "timeout",
+  "solver": {
+    "binary": "/opt/homebrew/bin/kissat",
+    "command": [
+      "/opt/homebrew/bin/kissat",
+      "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/n10_case12_satsuma_fix_units.cnf"
+    ],
+    "returncode": null,
+    "version": "4.0.4"
+  },
+  "stderr": {
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/n10_case12_satsuma_kissat.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/n10_case12_satsuma_kissat.stdout.log",
+    "sha256": "2b7d2d706ee4fa1fc08f59c09c23027494a8c2511dbde504d111f08306f55da2",
+    "size_bytes": 88469
+  },
+  "timed_out": true,
+  "timeout_seconds": 300.0
+}

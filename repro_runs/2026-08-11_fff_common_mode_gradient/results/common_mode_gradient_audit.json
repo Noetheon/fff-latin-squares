@@ -1,0 +1,178 @@
+{
+  "audit_version": "common_mode_gradient_v1",
+  "c97_input": "repro_runs/2026-08-11_fff_joint_atom_cell_rank/results/joint_atom_cell_rank_audit.json",
+  "claim_boundary": [
+    "C98 is a rigorous gradient/cycle characterization with exact corpus sanity checks.",
+    "The finite equality p_F=q_F is observed, not asserted universally.",
+    "The observed 1 sheet-only component(s) are not a universal classification.",
+    "The tracked order-10 corpus is partial; C38 remains open and C40 absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "coarse_integer_witness_count": 0,
+      "coarse_witness_gradient_check_count": 0,
+      "component_count": 5782,
+      "dual_edge_count": 182250,
+      "error_count": 0,
+      "errors": [],
+      "eta_Q_distribution": {
+        "0": 5782
+      },
+      "flag_count": 121500,
+      "name": "order10_tracked_partial",
+      "normalized_witness_gradient_check_count": 0,
+      "p_equals_q_count": 5782,
+      "p_q_distribution": {
+        "1,1": 5782
+      },
+      "s_Q_distribution": {
+        "1": 5782
+      },
+      "sheet_only_component_count": 0,
+      "sheet_only_components": [],
+      "t_Q_distribution": {
+        "1": 5782
+      },
+      "table_count": 135
+    },
+    "order4_complete": {
+      "coarse_integer_witness_count": 0,
+      "coarse_witness_gradient_check_count": 0,
+      "component_count": 27,
+      "dual_edge_count": 288,
+      "error_count": 0,
+      "errors": [],
+      "eta_Q_distribution": {
+        "0": 27
+      },
+      "flag_count": 192,
+      "name": "order4_complete",
+      "normalized_witness_gradient_check_count": 0,
+      "p_equals_q_count": 27,
+      "p_q_distribution": {
+        "1,1": 27
+      },
+      "s_Q_distribution": {
+        "1": 27
+      },
+      "sheet_only_component_count": 0,
+      "sheet_only_components": [],
+      "t_Q_distribution": {
+        "1": 27
+      },
+      "table_count": 4
+    },
+    "order6_complete": {
+      "coarse_integer_witness_count": 1080,
+      "coarse_witness_gradient_check_count": 220320,
+      "component_count": 89068,
+      "dual_edge_count": 2540160,
+      "error_count": 0,
+      "errors": [],
+      "eta_Q_distribution": {
+        "0": 89068
+      },
+      "flag_count": 1693440,
+      "name": "order6_complete",
+      "normalized_witness_gradient_check_count": 220320,
+      "p_equals_q_count": 89068,
+      "p_q_distribution": {
+        "1,1": 86908,
+        "3,3": 2160
+      },
+      "s_Q_distribution": {
+        "1": 87988,
+        "2": 1080
+      },
+      "sheet_only_component_count": 0,
+      "sheet_only_components": [],
+      "t_Q_distribution": {
+        "1": 87988,
+        "2": 1080
+      },
+      "table_count": 9408
+    },
+    "order8_fff_complete": {
+      "coarse_integer_witness_count": 31,
+      "coarse_witness_gradient_check_count": 9864,
+      "component_count": 9768,
+      "dual_edge_count": 154560,
+      "error_count": 0,
+      "errors": [],
+      "eta_Q_distribution": {
+        "0": 9767,
+        "2": 1
+      },
+      "flag_count": 103040,
+      "name": "order8_fff_complete",
+      "normalized_witness_gradient_check_count": 10632,
+      "p_equals_q_count": 9768,
+      "p_q_distribution": {
+        "1,1": 9767,
+        "2,2": 1
+      },
+      "s_Q_distribution": {
+        "1": 9755,
+        "13": 1,
+        "2": 5,
+        "3": 5,
+        "4": 2
+      },
+      "sheet_only_component_count": 1,
+      "sheet_only_components": [
+        {
+          "atom_count": 64,
+          "coarse_cell_count": 64,
+          "coarse_gradient_t_by_prime": {
+            "1000003": 1,
+            "1000033": 1
+          },
+          "coarse_incidence_rank_GF2": 64,
+          "coarse_integer_witness_count": 0,
+          "coarse_witness_gradient_check_count": 0,
+          "component_id": 4,
+          "dual_edge_count": 384,
+          "errors": [],
+          "eta_Q": 2,
+          "eta_upper_bound": 32,
+          "flag_count": 256,
+          "normalized_gradient_s_by_prime": {
+            "1000003": 3,
+            "1000033": 3
+          },
+          "normalized_vertex_count": 96,
+          "normalized_witness_gradient_check_count": 768,
+          "p_coarse": 1,
+          "q_normalized": 1,
+          "s_Q": 3,
+          "source_index": 1955,
+          "t_Q": 1,
+          "transition_graph_component_count": 3
+        }
+      ],
+      "t_Q_distribution": {
+        "1": 9756,
+        "13": 1,
+        "2": 5,
+        "3": 4,
+        "4": 2
+      },
+      "table_count": 230
+    }
+  },
+  "prime_fields": [
+    1000003,
+    1000033
+  ],
+  "totals": {
+    "coarse_integer_witness_count": 1111,
+    "coarse_witness_gradient_check_count": 230184,
+    "component_count": 104645,
+    "dual_edge_count": 2877258,
+    "error_count": 0,
+    "flag_count": 1918172,
+    "normalized_witness_gradient_check_count": 230952,
+    "sheet_only_component_count": 1,
+    "table_count": 9777
+  }
+}

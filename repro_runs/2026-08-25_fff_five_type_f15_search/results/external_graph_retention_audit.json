@@ -1,0 +1,178 @@
+{
+  "all_current_files_match_manifests": true,
+  "errors": [],
+  "files": [
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_large_searches/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p09_involution_root/p09_involution_root.bin",
+      "sha256": "5277ec91414b304bcb2078dc4d1566029f6aba7674c44458cf6a706a764a5873",
+      "size_bytes": 1247001626
+    },
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_p10_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p10_root_2_2_2_2_2/p10.bin",
+      "sha256": "1701726a0c61ac35499c3a57bf48b09330451e1db5e4519c97de09fc87e338a9",
+      "size_bytes": 2132044826
+    },
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_p13_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p13_root_4_2_2_2/p13.bin",
+      "sha256": "f7b5f77ad7e43ae19bc3b0fa7aa6ac519752858e0dc1806556a8361b92d0febd",
+      "size_bytes": 1290523034
+    },
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_p15_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p15_root_4_2_2_2/p15.bin",
+      "sha256": "947bf189c951168f3760f85c599cfb00e857e45716ab3936136ecdfaef7d4e01",
+      "size_bytes": 1543678682
+    },
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_p16_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p16_root_4_2_2_2/p16.bin",
+      "sha256": "84ef1389d46234bbfdadaceb8d3b797f82b79b2895183883618638fdd89b9958",
+      "size_bytes": 1865138714
+    },
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_p18_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p18_root_4_4_2/p18.bin",
+      "sha256": "6683f992044e5f10e61c414617fff0d9da905bc63f698c2caf0c67742f758a30",
+      "size_bytes": 1030398234
+    },
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_p19_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p19_root_4_4_2/p19.bin",
+      "sha256": "5c658da57c8ab5de28c36ac70e612750c30fdb711da0de7f2dd0175e849d4295",
+      "size_bytes": 1853430554
+    },
+    {
+      "manifest": "repro_runs/2026-08-14_fff_four_type_p20_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p20_root_6_2_2/p20.bin",
+      "sha256": "165df10b50bf85bb33d25654ec1cd9e489f3f8f64538eafef7e946cb564808cf",
+      "size_bytes": 2317715354
+    },
+    {
+      "manifest": "repro_runs/2026-08-13_fff_four_type_large_searches/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-13_four_type_large/p35/p35.bin",
+      "sha256": "e1d9db20dd6fd9e8468d9069c32357d80dd49c3721ea3fa19611d97e716751ef",
+      "size_bytes": 192158234
+    },
+    {
+      "manifest": "repro_runs/2026-08-14_fff_five_type_f01_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f01/f01.bin",
+      "sha256": "6360189d6f4dc2e5730884b51e1662715cb48be0321593a0f86ed0eb60ed98af",
+      "size_bytes": 9417626
+    },
+    {
+      "manifest": "repro_runs/2026-08-14_fff_five_type_f16_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f16/f16.bin",
+      "sha256": "de11a3cbd7e069cb53f1b5f4741ea08b1836e5e6af176db3e2c083272b1eec8f",
+      "size_bytes": 32675354
+    },
+    {
+      "manifest": "repro_runs/2026-08-14_fff_five_type_f17_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f17/f17.bin",
+      "sha256": "8958816838da8c47f29af21230c1bfb2bb78d2597f57d80fff48c85ab8f7bd78",
+      "size_bytes": 159775514
+    },
+    {
+      "manifest": "repro_runs/2026-08-14_fff_five_type_f19_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-14_five_type/f19/f19.bin",
+      "sha256": "de95738a09826c3f37f72a4c090acdb632dfdee7d6c7521d567e8899ee024aa2",
+      "size_bytes": 125769626
+    },
+    {
+      "manifest": "repro_runs/2026-08-20_fff_five_type_f20_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-20_five_type/f20/f20.bin",
+      "sha256": "a6a744038dd1cde7372214f9bc0f373aba32af8fdd37b8ba3b70bd1beca31282",
+      "size_bytes": 324105626
+    },
+    {
+      "manifest": "repro_runs/2026-08-20_fff_five_type_f21_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-20_five_type/f21/f21.bin",
+      "sha256": "35fac04cc7566d4fe6aa0be5a96c0e06a6c92804936de60311324a76372f7a4e",
+      "size_bytes": 701175866
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f02_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f02/f02.bin",
+      "sha256": "2b7ccaf271e84f5d6d5270e808606722cbf3b1fe70503e607813c28684ff299e",
+      "size_bytes": 487344026
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f03_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f03/f03.bin",
+      "sha256": "0dd0d6924c2544f8d3c69d744e7adb0a0d871d2833c5edd969a2668a7ae803fe",
+      "size_bytes": 1300295834
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f04_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f04/f04.bin",
+      "sha256": "e3c41c65e3a3dcb7a14d2870ede2173b2ab39cfa57924f727a867287b70ed953",
+      "size_bytes": 614601626
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f05_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f05/f05.bin",
+      "sha256": "7ac03b6431e39070b334c3d8cfd4a12b58180226f5e0319c175547ebca1ac5c4",
+      "size_bytes": 1555926842
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f06_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f06/f06.bin",
+      "sha256": "8fe34d2fdd3bc8e9eec6fb8cab01ba316ef54c4750413c74d4bf7ce35fb342bb",
+      "size_bytes": 1876883738
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f07_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f07/f07.bin",
+      "sha256": "08eba5ca2739afa594c620bd6ba620f3b16c96805f9929f969e44e398e97ff12",
+      "size_bytes": 549129626
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f11_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f11/f11.bin",
+      "sha256": "d5b53aa9ddaf6ccdde118cb079020d431ae10abc39916d1e864a074f381e1f54",
+      "size_bytes": 1615392314
+    },
+    {
+      "manifest": "repro_runs/2026-08-21_fff_five_type_f12_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-21_five_type/f12/f12.bin",
+      "sha256": "09ac783d78c5762c283e61e19e2ab4c21a12fba9f5b16588d3eba9b9e2579ef7",
+      "size_bytes": 2219911226
+    },
+    {
+      "manifest": "repro_runs/2026-08-22_fff_five_type_f08_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-22_five_type/f08/f08.bin",
+      "sha256": "092f118e43e0cf755a5ae4264c28f0070b25e17fe69d14297dda10d45d2099cc",
+      "size_bytes": 1660032026
+    },
+    {
+      "manifest": "repro_runs/2026-08-22_fff_five_type_f13_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-22_five_type/f13/f13.bin",
+      "sha256": "ee0ab9100c65773e365648db8f902bd757c4af79379c88dbff021eada0955542",
+      "size_bytes": 2477235098
+    },
+    {
+      "manifest": "repro_runs/2026-08-23_fff_five_type_f14_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-23_five_type/f14/f14.bin",
+      "sha256": "18bae6616c5ff5ae053761d4baae826b506510cab6a1098e361e472cec25bf88",
+      "size_bytes": 2823610586
+    },
+    {
+      "manifest": "repro_runs/2026-08-24_fff_five_type_f09_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-24_five_type/f09/f09.bin",
+      "sha256": "8ebf555e63f51e0fad9d24f71fc12e47ac057ff55ed22b640f4d7c954f0d878e",
+      "size_bytes": 2841072026
+    },
+    {
+      "manifest": "repro_runs/2026-08-24_fff_five_type_f10_search/external_artifacts_manifest.tsv",
+      "path": "external/Order8_external_graphs/2026-08-24_five_type/f10/f10.bin",
+      "sha256": "3be70282184b508938c8fea80a0767be6fe58715ca35a50d0dcc00efaa635f97",
+      "size_bytes": 3253017626
+    }
+  ],
+  "policy": "delete only inactive graph files whose current size and SHA-256 exactly match a tracked external_artifacts_manifest.tsv row; retain active f15, shared f18 control, and all unmanifested files",
+  "schema_version": "external-graph-retention-audit-v1",
+  "selected_count": 28,
+  "selected_size_bytes": 38099461464
+}

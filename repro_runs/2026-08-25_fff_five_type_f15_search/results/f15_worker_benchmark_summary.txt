@@ -1,0 +1,9 @@
+f15 identical-slice worker benchmark
+
+elapsed 1/8/10: 676.27/148.86/140.26 seconds
+speedup 10 vs 1: 4.822x
+speedup 10 vs 8: 1.061x
+semantic counts identical: true
+swaps 1/8/10: 0/0/0
+accepted workers: 10
+valid: true

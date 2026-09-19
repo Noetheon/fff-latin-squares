@@ -1,0 +1,47 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "negative_tests_pass": true,
+    "p09_binding_valid": true,
+    "p09_exact_counts": true,
+    "p09_graph_hash_frozen": true,
+    "p09_monolithic_complete": true,
+    "p09_orbit_cover_valid": true,
+    "p09_semantic_valid": true,
+    "p09_sliced_complete": true,
+    "p09_sliced_monolithic_equal": true,
+    "p09_structural_valid": true,
+    "p35_binding_valid": true,
+    "p35_exact_counts": true,
+    "p35_graph_hash_historical": true,
+    "p35_historical_counts": true,
+    "p35_merge_complete": true,
+    "p35_semantic_valid": true,
+    "p35_structural_valid": true,
+    "p35_worker_equivalence": true
+  },
+  "evidence_sha256": {
+    "p09_final_bound_monolithic_merge.json": "967cb71efeee8cd3228824746b4176c4619d1024187e296bb29c035523a86c94",
+    "p09_final_bound_sliced_merge.json": "78a0e13b427882035559cc4938850bdf8d36345a3875c5aa2579c71cfed5b522",
+    "p09_involution_root_graph_audit_binding.json": "badcf52836b869bd887ec67a36748355acf6b199887dab743638303eebfaa47f",
+    "p09_involution_root_orbit_audit.json": "a644885c2b93ff6e60cb09ece0eaba1dad06b04115a7488ce3cd06396b252554"
+  },
+  "p09": {
+    "completed_tasks": 260,
+    "crossview_odd_cycle_prunes": 32587444,
+    "fff_found": false,
+    "full_initial_tasks": 12480,
+    "graph_edges": 431078400,
+    "graph_pairs_audited": 4983962880,
+    "graph_vertices": 99840,
+    "orbit_representatives": 260,
+    "search_nodes": 57708321
+  },
+  "p35": {
+    "completed_tasks": 3656,
+    "crossview_odd_cycle_prunes": 8399725,
+    "fff_found": false,
+    "search_nodes": 22449129
+  },
+  "schema_version": "four-type-large-run-validation-v1"
+}

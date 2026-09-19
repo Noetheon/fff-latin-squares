@@ -1,0 +1,21 @@
+{
+  "all_forbidden_triangle_union": 29440,
+  "base_cover_clauses": 4401,
+  "classification_mode": "three-class",
+  "clauses": 23841,
+  "cnf_sha256": "dc16c501ceab015a57aa5a7203da9f7b91373c44e737097b06ee55e261d3abbf",
+  "common_three_cycle_forbidden_triangles_total": 1600,
+  "encoding_version": "p5_projection_forbidden_triangle_classification_v2",
+  "forbidden_triangle_overlap": 400,
+  "global_odd_cycle_forbidden_triangles": 28240,
+  "projection_count": 120,
+  "scope": "finite projection classification supporting the p=5 pair-block obstruction only",
+  "selected_forbidden_triangle_union": 19440,
+  "selected_projection_count_implied": 10,
+  "selected_three_class_counts": {
+    "all_5_cycles": 3840,
+    "common_3_support_mixed": 1200,
+    "two_5_cycles_and_one_3_1_1": 14400
+  },
+  "variables": 2320
+}

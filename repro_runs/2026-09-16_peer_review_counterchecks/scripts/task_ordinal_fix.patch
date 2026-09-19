@@ -1,0 +1,19 @@
+--- frozen/search_partite_fff_incremental_scratch.cpp
++++ successor/search_partite_fff_fixed_ordinals.cpp
+@@ -14,0 +15 @@
++#include "task_ordinals.hpp"
+@@ -276,13 +277 @@
+-    std::vector<uint32_t> selected;
+-    uint32_t ordinal;
+-    while (task_input >> ordinal) {
+-      if (ordinal >= tasks.size()) throw std::runtime_error("task ordinal out of range");
+-      if (!selected.empty() && ordinal <= selected.back()) {
+-        throw std::runtime_error("task ordinals not strictly increasing");
+-      }
+-      selected.push_back(tasks[ordinal]);
+-    }
+-    if (!task_input.eof() || selected.empty()) {
+-      throw std::runtime_error("invalid or empty task ordinal file");
+-    }
+-    tasks = std::move(selected);
++    tasks = select_task_ordinals(tasks, task_input);

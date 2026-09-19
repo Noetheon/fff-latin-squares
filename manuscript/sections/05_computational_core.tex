@@ -1,0 +1,88 @@
+\section{Computational results}
+
+The following statements are exhaustive finite computations.  Their frozen
+inputs, programs, commands, outputs, and hashes are specified in
+Section~\ref{sec:reproducibility}.
+
+\begin{computationaltheorem}[Small orders]\label{cthm:small-orders}
+The unique reduced Latin square of order $2$ is FFF, and all four reduced
+Latin squares of order $4$ are FFF.  None of the $9408$ reduced Latin squares
+of order $6$ is FFF.  More precisely, their patterns are
+\[
+ 6600\,\TTT,\qquad 936\,\mathsf{TFF},\qquad
+ 936\,\mathsf{FTF},\qquad 936\,\mathsf{FFT}.
+\]
+\end{computationaltheorem}
+
+The exact-cover generator loads no cached square list.  Every generated square
+was checked to be Latin and reduced, all $9408$ table strings were distinct,
+and the generated set agrees exactly with the ANU reduced-order-$6$ data
+file~\cite{McKayLatinData}.  Proposition~\ref{prop:invariance} therefore
+extends nonexistence from reduced squares to all Latin squares of order $6$.
+
+\begin{computationaltheorem}[Order-$8$ pattern census]\label{cthm:order8}
+Across the $283657$ order-$8$ main-class representatives, the pattern
+distribution is
+\begin{center}
+\begin{tabular}{cr@{\qquad}cr@{\qquad}cr@{\qquad}cr}
+\toprule
+Pattern & Count & Pattern & Count & Pattern & Count & Pattern & Count\\
+\midrule
+$\FFF$ & 230 & $\mathsf{FFT}$ & 81 & $\mathsf{FTF}$ & 40 &
+$\mathsf{FTT}$ & 315\\
+$\mathsf{TFF}$ & 133 & $\mathsf{TFT}$ & 209 & $\mathsf{TTF}$ & 232 &
+$\TTT$ & 282417\\
+\bottomrule
+\end{tabular}
+\end{center}
+Among the $230$ FFF main classes, exactly $5$ are group-isotopic and $225$
+are not group-isotopic.
+\end{computationaltheorem}
+
+\begin{computationaltheorem}[Subsquare census of the FFF classes]
+Among the $230$ FFF representatives, the number of intercalates ranges from
+$2$ to $112$.  Each endpoint is attained by exactly one representative: local
+source line $10776$ (ANU record $10775$) is the unique minimum class and is not
+group-isotopic, while local line $1$ (ANU record $0$) is the unique maximum
+class and is group-isotopic.  Local physical lines are numbered from one;
+ANU records are numbered from zero.  No representative
+contains an order-$3$ subsquare.  The distribution of the number of order-$4$
+subsquares is
+\[
+  0^{63},\qquad 4^{156},\qquad 12^{10},\qquad 28^1,
+\]
+where exponents count representatives.
+\end{computationaltheorem}
+
+The subsquare validator finds no violation of
+Theorem~\ref{thm:subsquare-monotonicity}.  The multiples of four in the last
+distribution also follow directly: an order-$m$ subsquare inside an
+order-$2m$ square forces the three complementary blocks to be Latin
+subsquares, so half-order subsquares occur in complementary quartets.
+
+The ordered non-symmetric labels refer to the representatives in the cited
+ANU file.  Parastrophy permutes the three bits, so labels such as
+$\mathsf{FFT}$ are not themselves main-class invariants.  The FFF count, the
+existence of every pattern, and the group-isotopy split are unaffected.
+
+The scan tests every unordered pair of lines in all three views.  A separate
+closure-family computation reproduces the $5/225$ split using
+Proposition~\ref{prop:closure}.  The frozen ANU input is an exact byte match to
+the file served by the cited URL on August 9, 2026.
+
+\begin{corollary}\label{cor:all-patterns}
+For every $m\geq3$, Latin squares of order $2^m$ realize all eight patterns.
+Every such order also contains a non-group-isotopic FFF Latin square.
+\end{corollary}
+
+\begin{proof}
+Computational Theorem~\ref{cthm:order8} supplies one order-$8$ square of each
+pattern.  Take direct products with the FFF group table of $C_2^{m-3}$ and use
+Theorem~\ref{thm:pattern-product}.  For the second assertion, start from the
+explicit loop in Theorem~\ref{thm:explicit-nongroup-loop}; non-group-isotopy
+is preserved by Theorem~\ref{thm:group-product}.
+\end{proof}
+
+This is an existence result only.  It neither counts higher-order main
+classes nor asserts that products of distinct order-$8$ classes remain
+distinct.

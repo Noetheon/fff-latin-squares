@@ -1,0 +1,108 @@
+{
+  "audit_version": "exact_mask_cell_pushforward_v1",
+  "claim_boundary": [
+    "C88 is a rigorous necessary identity for exact masks.",
+    "It reaches all flag components but is not an order-10 obstruction by itself.",
+    "C38 remains open and C40 absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "cell_role_involution_checks": 546750,
+      "component_count": 5782,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_counts": {
+        "1": 9,
+        "2": 9,
+        "3": 5647,
+        "4": 9,
+        "5": 5647,
+        "6": 5647,
+        "7": 9
+      },
+      "fff_component_count": 5647,
+      "name": "order10_tracked_partial",
+      "predicted_zero_marginal_checks": 33936,
+      "pushforward_checks": 16977,
+      "table_count": 135
+    },
+    "order4_complete": {
+      "cell_role_involution_checks": 864,
+      "component_count": 27,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_counts": {
+        "1": 3,
+        "2": 3,
+        "3": 27,
+        "4": 3,
+        "5": 27,
+        "6": 27,
+        "7": 3
+      },
+      "fff_component_count": 27,
+      "name": "order4_complete",
+      "predicted_zero_marginal_checks": 180,
+      "pushforward_checks": 93,
+      "table_count": 4
+    },
+    "order6_complete": {
+      "cell_role_involution_checks": 7620480,
+      "component_count": 89068,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_counts": {
+        "1": 96,
+        "2": 96,
+        "3": 78220,
+        "4": 96,
+        "5": 78220,
+        "6": 78220,
+        "7": 2160
+      },
+      "fff_component_count": 78220,
+      "name": "order6_complete",
+      "predicted_zero_marginal_checks": 476088,
+      "pushforward_checks": 237108,
+      "table_count": 9408
+    },
+    "order8_fff_complete": {
+      "cell_role_involution_checks": 463680,
+      "component_count": 9768,
+      "error_count": 0,
+      "errors": [],
+      "exact_mask_counts": {
+        "1": 507,
+        "2": 507,
+        "3": 9729,
+        "4": 508,
+        "5": 9719,
+        "6": 9743,
+        "7": 508
+      },
+      "fff_component_count": 9768,
+      "name": "order8_fff_complete",
+      "predicted_zero_marginal_checks": 61428,
+      "pushforward_checks": 31221,
+      "table_count": 230
+    }
+  },
+  "totals": {
+    "cell_role_involution_checks": 8631774,
+    "component_count": 104645,
+    "error_count": 0,
+    "exact_mask_counts": {
+      "1": 615,
+      "2": 615,
+      "3": 93623,
+      "4": 616,
+      "5": 93613,
+      "6": 93637,
+      "7": 2680
+    },
+    "fff_component_count": 93662,
+    "predicted_zero_marginal_checks": 571632,
+    "pushforward_checks": 285399,
+    "table_count": 9777
+  }
+}

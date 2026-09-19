@@ -1,0 +1,8 @@
+case: f03
+status: complete_negative
+slices: 10/10
+tasks: 227/227
+nodes/prunes: 41084120/22908867
+FFF found: false
+complete disjoint cover: true
+negative search complete: true

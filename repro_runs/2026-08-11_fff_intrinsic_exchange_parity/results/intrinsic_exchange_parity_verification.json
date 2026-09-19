@@ -1,0 +1,99 @@
+{
+  "checks": {
+    "classified_source_count": 9408,
+    "exceptional_source_count": 180,
+    "independent_signatures": [
+      {
+        "covector_coset_weight_distribution": {
+          "11": 976,
+          "13": 4928,
+          "15": 11328,
+          "17": 15456,
+          "19": 15456,
+          "21": 11328,
+          "23": 4928,
+          "25": 976,
+          "27": 80,
+          "9": 80
+        },
+        "exchange_mod2_rank": 19,
+        "line_covector_rank": 16,
+        "mainclass_id": "5c2dd0f737ef211353da9ccc8aeb629aecf8aa312ba6f65436542355d70da83f",
+        "matches_stored_signature": true,
+        "minimum_covector_count": 80,
+        "minimum_covector_weight": 9,
+        "minimum_line_degree_profiles": {
+          "((0, 0, 1, 2, 3, 3), (0, 0, 1, 2, 3, 3), (0, 0, 1, 2, 3, 3))": 4,
+          "((0, 0, 1, 2, 3, 3), (0, 1, 1, 2, 2, 3), (0, 1, 1, 2, 2, 3))": 12,
+          "((0, 0, 1, 2, 3, 3), (1, 1, 1, 2, 2, 2), (1, 1, 1, 2, 2, 2))": 24,
+          "((0, 1, 1, 2, 2, 3), (0, 1, 1, 2, 2, 3), (1, 1, 1, 2, 2, 2))": 12,
+          "((1, 1, 1, 2, 2, 2), (1, 1, 1, 2, 2, 2), (1, 1, 1, 2, 2, 2))": 28
+        },
+        "parity_class_dimension_mod_lines": 1
+      },
+      {
+        "covector_coset_weight_distribution": {
+          "11": 1028,
+          "13": 4540,
+          "15": 11000,
+          "17": 16008,
+          "19": 16008,
+          "21": 11000,
+          "23": 4540,
+          "25": 1028,
+          "27": 180,
+          "29": 12,
+          "7": 12,
+          "9": 180
+        },
+        "exchange_mod2_rank": 19,
+        "line_covector_rank": 16,
+        "mainclass_id": "864300b7d3a6d312d185f0a3d50858a922456f82adff951ced117c8d1320971b",
+        "matches_stored_signature": true,
+        "minimum_covector_count": 12,
+        "minimum_covector_weight": 7,
+        "minimum_line_degree_profiles": {
+          "((0, 0, 1, 1, 2, 3), (0, 0, 1, 1, 2, 3), (0, 1, 1, 1, 2, 2))": 4,
+          "((0, 0, 1, 1, 2, 3), (0, 1, 1, 1, 2, 2), (0, 1, 1, 1, 2, 2))": 8
+        },
+        "parity_class_dimension_mod_lines": 1
+      },
+      {
+        "covector_coset_weight_distribution": {
+          "11": 1056,
+          "13": 4608,
+          "15": 11008,
+          "17": 15936,
+          "19": 15936,
+          "21": 11008,
+          "23": 4608,
+          "25": 1056,
+          "27": 160,
+          "9": 160
+        },
+        "exchange_mod2_rank": 19,
+        "line_covector_rank": 16,
+        "mainclass_id": "cbf241432314e56fc2ff3515b20198c432124d5f2802902b761546f1b62c36e5",
+        "matches_stored_signature": true,
+        "minimum_covector_count": 160,
+        "minimum_covector_weight": 9,
+        "minimum_line_degree_profiles": {
+          "((0, 0, 1, 2, 3, 3), (0, 0, 1, 2, 3, 3), (0, 0, 1, 2, 3, 3))": 12,
+          "((0, 0, 1, 2, 3, 3), (0, 1, 1, 2, 2, 3), (0, 1, 1, 2, 2, 3))": 36,
+          "((0, 0, 1, 2, 3, 3), (1, 1, 1, 2, 2, 2), (1, 1, 1, 2, 2, 2))": 72,
+          "((0, 1, 1, 2, 2, 3), (0, 1, 1, 2, 2, 3), (1, 1, 1, 2, 2, 2))": 36,
+          "((1, 1, 1, 2, 2, 2), (1, 1, 1, 2, 2, 2), (1, 1, 1, 2, 2, 2))": 4
+        },
+        "parity_class_dimension_mod_lines": 1
+      }
+    ],
+    "mainclass_count": 12,
+    "rank19_mainclass_count": 3,
+    "rank19_source_count": 3960
+  },
+  "claim_boundary": "Independent finite verification only; no order-10 conclusion.",
+  "error_count": 0,
+  "errors": [],
+  "overall_pass": true,
+  "verification_version": "intrinsic_exchange_parity_independent_v1"
+}

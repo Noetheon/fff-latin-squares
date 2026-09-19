@@ -1,0 +1,8 @@
+case: p35
+status: complete_negative
+slices: 15/15
+tasks: 3656/3656
+nodes/prunes: 22449129/8399725
+FFF found: false
+complete disjoint cover: true
+negative search complete: true

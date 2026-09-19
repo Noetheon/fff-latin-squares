@@ -1,0 +1,27 @@
+{
+  "case_id": "noninvolution_master_6_types",
+  "complete_disjoint_cover": true,
+  "completed_tasks": 386,
+  "crossview_odd_cycle_prunes": 1769153203,
+  "errors": [],
+  "fff_found": false,
+  "graph_sha256": "3e023c53194d6a60b24ad2f37e746b05b9d7e55c53dec8fcfe3cd8fb6cd09376",
+  "negative_search_complete": true,
+  "plan_payload_sha256": "4b8e85e3c619665cc1a680f9bc6b926bd2248d3be5482e58af62d15c6502739c",
+  "schema_version": "master-task-slice-merge-v1",
+  "search_binary_sha256": "6499a92ba0405a30ec175cfc18a89c53f160830e9a77bd4f7e4686ddeea42208",
+  "search_nodes": 2514104197,
+  "slice_count_expected": 4,
+  "slice_count_present": 4,
+  "slice_wrapper_sha256": {
+    "s0000": "8d6266f228042f6ef4e6121ffec498a26f965f1138785b64e902dd7e7db2f472",
+    "s0001": "0ea7e35f28b7f43f86aca728625fc71b41876c2c1fbdcbf74f76f2d93c0810ac",
+    "s0002": "e025b4c4bb2a9873a74b339c292d634ca1d942cee5fc0ec2642e2c6be2c71fee",
+    "s0003": "5a8da1c2c4a787ee52d3d60bae6fed5ba3d3ba940e43a1d755fade758339fbd1"
+  },
+  "source_bundle_sha256": "cf9856c206dd6e0140fa056fff381e9b8bab37c55f1922738b96b72e9d1cbbe7",
+  "status": "complete_negative",
+  "task_file_sha256": "0e0bd22e253faddbf874d7315744c3039f5df9bf044d79848d8320a7012a7304",
+  "task_list_sha256": "734cb65def44dafb87b3cc2fffdfb20bf888d968d25e67111b6b8693f85e0172",
+  "total_initial_tasks": 386
+}

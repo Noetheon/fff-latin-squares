@@ -1,0 +1,2181 @@
+{
+  "cardinality_auxiliary_variable_range": [
+    721,
+    9120
+  ],
+  "clauses": 167986,
+  "cnf_path": "/tmp/order8_pairblock_projection/p5.cnf",
+  "cnf_sha256": "f13e3db94f8b3e99f623262ef88b2218b0c33d2f56bf8f3c2e59a18ad4470d72",
+  "degree": 10,
+  "encoding_version": "pairblock_projection_voltage_v1_exact",
+  "identity_projection_index": 0,
+  "odd_cycle_voltage_constraints": 10740,
+  "p": 5,
+  "parity_auxiliary_variables": 31860,
+  "projection_count": 120,
+  "projection_mapping": [
+    {
+      "flip_variables": [
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "index": 0,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "select_variable": 1
+    },
+    {
+      "flip_variables": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "index": 1,
+      "permutation": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "select_variable": 2
+    },
+    {
+      "flip_variables": [
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      "index": 2,
+      "permutation": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "select_variable": 3
+    },
+    {
+      "flip_variables": [
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "index": 3,
+      "permutation": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "select_variable": 4
+    },
+    {
+      "flip_variables": [
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
+      "index": 4,
+      "permutation": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "select_variable": 5
+    },
+    {
+      "flip_variables": [
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "index": 5,
+      "permutation": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "select_variable": 6
+    },
+    {
+      "flip_variables": [
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "index": 6,
+      "permutation": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "select_variable": 7
+    },
+    {
+      "flip_variables": [
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "index": 7,
+      "permutation": [
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      "select_variable": 8
+    },
+    {
+      "flip_variables": [
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "index": 8,
+      "permutation": [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      "select_variable": 9
+    },
+    {
+      "flip_variables": [
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "index": 9,
+      "permutation": [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "select_variable": 10
+    },
+    {
+      "flip_variables": [
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "index": 10,
+      "permutation": [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "select_variable": 11
+    },
+    {
+      "flip_variables": [
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "index": 11,
+      "permutation": [
+        0,
+        2,
+        4,
+        3,
+        1
+      ],
+      "select_variable": 12
+    },
+    {
+      "flip_variables": [
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "index": 12,
+      "permutation": [
+        0,
+        3,
+        1,
+        2,
+        4
+      ],
+      "select_variable": 13
+    },
+    {
+      "flip_variables": [
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "index": 13,
+      "permutation": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "select_variable": 14
+    },
+    {
+      "flip_variables": [
+        191,
+        192,
+        193,
+        194,
+        195
+      ],
+      "index": 14,
+      "permutation": [
+        0,
+        3,
+        2,
+        1,
+        4
+      ],
+      "select_variable": 15
+    },
+    {
+      "flip_variables": [
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "index": 15,
+      "permutation": [
+        0,
+        3,
+        2,
+        4,
+        1
+      ],
+      "select_variable": 16
+    },
+    {
+      "flip_variables": [
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "index": 16,
+      "permutation": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "select_variable": 17
+    },
+    {
+      "flip_variables": [
+        206,
+        207,
+        208,
+        209,
+        210
+      ],
+      "index": 17,
+      "permutation": [
+        0,
+        3,
+        4,
+        2,
+        1
+      ],
+      "select_variable": 18
+    },
+    {
+      "flip_variables": [
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "index": 18,
+      "permutation": [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "select_variable": 19
+    },
+    {
+      "flip_variables": [
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "index": 19,
+      "permutation": [
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      "select_variable": 20
+    },
+    {
+      "flip_variables": [
+        221,
+        222,
+        223,
+        224,
+        225
+      ],
+      "index": 20,
+      "permutation": [
+        0,
+        4,
+        2,
+        1,
+        3
+      ],
+      "select_variable": 21
+    },
+    {
+      "flip_variables": [
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "index": 21,
+      "permutation": [
+        0,
+        4,
+        2,
+        3,
+        1
+      ],
+      "select_variable": 22
+    },
+    {
+      "flip_variables": [
+        231,
+        232,
+        233,
+        234,
+        235
+      ],
+      "index": 22,
+      "permutation": [
+        0,
+        4,
+        3,
+        1,
+        2
+      ],
+      "select_variable": 23
+    },
+    {
+      "flip_variables": [
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "index": 23,
+      "permutation": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "select_variable": 24
+    },
+    {
+      "flip_variables": [
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "index": 24,
+      "permutation": [
+        1,
+        0,
+        2,
+        3,
+        4
+      ],
+      "select_variable": 25
+    },
+    {
+      "flip_variables": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "index": 25,
+      "permutation": [
+        1,
+        0,
+        2,
+        4,
+        3
+      ],
+      "select_variable": 26
+    },
+    {
+      "flip_variables": [
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "index": 26,
+      "permutation": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "select_variable": 27
+    },
+    {
+      "flip_variables": [
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "index": 27,
+      "permutation": [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      "select_variable": 28
+    },
+    {
+      "flip_variables": [
+        261,
+        262,
+        263,
+        264,
+        265
+      ],
+      "index": 28,
+      "permutation": [
+        1,
+        0,
+        4,
+        2,
+        3
+      ],
+      "select_variable": 29
+    },
+    {
+      "flip_variables": [
+        266,
+        267,
+        268,
+        269,
+        270
+      ],
+      "index": 29,
+      "permutation": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "select_variable": 30
+    },
+    {
+      "flip_variables": [
+        271,
+        272,
+        273,
+        274,
+        275
+      ],
+      "index": 30,
+      "permutation": [
+        1,
+        2,
+        0,
+        3,
+        4
+      ],
+      "select_variable": 31
+    },
+    {
+      "flip_variables": [
+        276,
+        277,
+        278,
+        279,
+        280
+      ],
+      "index": 31,
+      "permutation": [
+        1,
+        2,
+        0,
+        4,
+        3
+      ],
+      "select_variable": 32
+    },
+    {
+      "flip_variables": [
+        281,
+        282,
+        283,
+        284,
+        285
+      ],
+      "index": 32,
+      "permutation": [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      "select_variable": 33
+    },
+    {
+      "flip_variables": [
+        286,
+        287,
+        288,
+        289,
+        290
+      ],
+      "index": 33,
+      "permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "select_variable": 34
+    },
+    {
+      "flip_variables": [
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "index": 34,
+      "permutation": [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "select_variable": 35
+    },
+    {
+      "flip_variables": [
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "index": 35,
+      "permutation": [
+        1,
+        2,
+        4,
+        3,
+        0
+      ],
+      "select_variable": 36
+    },
+    {
+      "flip_variables": [
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "index": 36,
+      "permutation": [
+        1,
+        3,
+        0,
+        2,
+        4
+      ],
+      "select_variable": 37
+    },
+    {
+      "flip_variables": [
+        306,
+        307,
+        308,
+        309,
+        310
+      ],
+      "index": 37,
+      "permutation": [
+        1,
+        3,
+        0,
+        4,
+        2
+      ],
+      "select_variable": 38
+    },
+    {
+      "flip_variables": [
+        311,
+        312,
+        313,
+        314,
+        315
+      ],
+      "index": 38,
+      "permutation": [
+        1,
+        3,
+        2,
+        0,
+        4
+      ],
+      "select_variable": 39
+    },
+    {
+      "flip_variables": [
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "index": 39,
+      "permutation": [
+        1,
+        3,
+        2,
+        4,
+        0
+      ],
+      "select_variable": 40
+    },
+    {
+      "flip_variables": [
+        321,
+        322,
+        323,
+        324,
+        325
+      ],
+      "index": 40,
+      "permutation": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "select_variable": 41
+    },
+    {
+      "flip_variables": [
+        326,
+        327,
+        328,
+        329,
+        330
+      ],
+      "index": 41,
+      "permutation": [
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      "select_variable": 42
+    },
+    {
+      "flip_variables": [
+        331,
+        332,
+        333,
+        334,
+        335
+      ],
+      "index": 42,
+      "permutation": [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "select_variable": 43
+    },
+    {
+      "flip_variables": [
+        336,
+        337,
+        338,
+        339,
+        340
+      ],
+      "index": 43,
+      "permutation": [
+        1,
+        4,
+        0,
+        3,
+        2
+      ],
+      "select_variable": 44
+    },
+    {
+      "flip_variables": [
+        341,
+        342,
+        343,
+        344,
+        345
+      ],
+      "index": 44,
+      "permutation": [
+        1,
+        4,
+        2,
+        0,
+        3
+      ],
+      "select_variable": 45
+    },
+    {
+      "flip_variables": [
+        346,
+        347,
+        348,
+        349,
+        350
+      ],
+      "index": 45,
+      "permutation": [
+        1,
+        4,
+        2,
+        3,
+        0
+      ],
+      "select_variable": 46
+    },
+    {
+      "flip_variables": [
+        351,
+        352,
+        353,
+        354,
+        355
+      ],
+      "index": 46,
+      "permutation": [
+        1,
+        4,
+        3,
+        0,
+        2
+      ],
+      "select_variable": 47
+    },
+    {
+      "flip_variables": [
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "index": 47,
+      "permutation": [
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "select_variable": 48
+    },
+    {
+      "flip_variables": [
+        361,
+        362,
+        363,
+        364,
+        365
+      ],
+      "index": 48,
+      "permutation": [
+        2,
+        0,
+        1,
+        3,
+        4
+      ],
+      "select_variable": 49
+    },
+    {
+      "flip_variables": [
+        366,
+        367,
+        368,
+        369,
+        370
+      ],
+      "index": 49,
+      "permutation": [
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      "select_variable": 50
+    },
+    {
+      "flip_variables": [
+        371,
+        372,
+        373,
+        374,
+        375
+      ],
+      "index": 50,
+      "permutation": [
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "select_variable": 51
+    },
+    {
+      "flip_variables": [
+        376,
+        377,
+        378,
+        379,
+        380
+      ],
+      "index": 51,
+      "permutation": [
+        2,
+        0,
+        3,
+        4,
+        1
+      ],
+      "select_variable": 52
+    },
+    {
+      "flip_variables": [
+        381,
+        382,
+        383,
+        384,
+        385
+      ],
+      "index": 52,
+      "permutation": [
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "select_variable": 53
+    },
+    {
+      "flip_variables": [
+        386,
+        387,
+        388,
+        389,
+        390
+      ],
+      "index": 53,
+      "permutation": [
+        2,
+        0,
+        4,
+        3,
+        1
+      ],
+      "select_variable": 54
+    },
+    {
+      "flip_variables": [
+        391,
+        392,
+        393,
+        394,
+        395
+      ],
+      "index": 54,
+      "permutation": [
+        2,
+        1,
+        0,
+        3,
+        4
+      ],
+      "select_variable": 55
+    },
+    {
+      "flip_variables": [
+        396,
+        397,
+        398,
+        399,
+        400
+      ],
+      "index": 55,
+      "permutation": [
+        2,
+        1,
+        0,
+        4,
+        3
+      ],
+      "select_variable": 56
+    },
+    {
+      "flip_variables": [
+        401,
+        402,
+        403,
+        404,
+        405
+      ],
+      "index": 56,
+      "permutation": [
+        2,
+        1,
+        3,
+        0,
+        4
+      ],
+      "select_variable": 57
+    },
+    {
+      "flip_variables": [
+        406,
+        407,
+        408,
+        409,
+        410
+      ],
+      "index": 57,
+      "permutation": [
+        2,
+        1,
+        3,
+        4,
+        0
+      ],
+      "select_variable": 58
+    },
+    {
+      "flip_variables": [
+        411,
+        412,
+        413,
+        414,
+        415
+      ],
+      "index": 58,
+      "permutation": [
+        2,
+        1,
+        4,
+        0,
+        3
+      ],
+      "select_variable": 59
+    },
+    {
+      "flip_variables": [
+        416,
+        417,
+        418,
+        419,
+        420
+      ],
+      "index": 59,
+      "permutation": [
+        2,
+        1,
+        4,
+        3,
+        0
+      ],
+      "select_variable": 60
+    },
+    {
+      "flip_variables": [
+        421,
+        422,
+        423,
+        424,
+        425
+      ],
+      "index": 60,
+      "permutation": [
+        2,
+        3,
+        0,
+        1,
+        4
+      ],
+      "select_variable": 61
+    },
+    {
+      "flip_variables": [
+        426,
+        427,
+        428,
+        429,
+        430
+      ],
+      "index": 61,
+      "permutation": [
+        2,
+        3,
+        0,
+        4,
+        1
+      ],
+      "select_variable": 62
+    },
+    {
+      "flip_variables": [
+        431,
+        432,
+        433,
+        434,
+        435
+      ],
+      "index": 62,
+      "permutation": [
+        2,
+        3,
+        1,
+        0,
+        4
+      ],
+      "select_variable": 63
+    },
+    {
+      "flip_variables": [
+        436,
+        437,
+        438,
+        439,
+        440
+      ],
+      "index": 63,
+      "permutation": [
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "select_variable": 64
+    },
+    {
+      "flip_variables": [
+        441,
+        442,
+        443,
+        444,
+        445
+      ],
+      "index": 64,
+      "permutation": [
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      "select_variable": 65
+    },
+    {
+      "flip_variables": [
+        446,
+        447,
+        448,
+        449,
+        450
+      ],
+      "index": 65,
+      "permutation": [
+        2,
+        3,
+        4,
+        1,
+        0
+      ],
+      "select_variable": 66
+    },
+    {
+      "flip_variables": [
+        451,
+        452,
+        453,
+        454,
+        455
+      ],
+      "index": 66,
+      "permutation": [
+        2,
+        4,
+        0,
+        1,
+        3
+      ],
+      "select_variable": 67
+    },
+    {
+      "flip_variables": [
+        456,
+        457,
+        458,
+        459,
+        460
+      ],
+      "index": 67,
+      "permutation": [
+        2,
+        4,
+        0,
+        3,
+        1
+      ],
+      "select_variable": 68
+    },
+    {
+      "flip_variables": [
+        461,
+        462,
+        463,
+        464,
+        465
+      ],
+      "index": 68,
+      "permutation": [
+        2,
+        4,
+        1,
+        0,
+        3
+      ],
+      "select_variable": 69
+    },
+    {
+      "flip_variables": [
+        466,
+        467,
+        468,
+        469,
+        470
+      ],
+      "index": 69,
+      "permutation": [
+        2,
+        4,
+        1,
+        3,
+        0
+      ],
+      "select_variable": 70
+    },
+    {
+      "flip_variables": [
+        471,
+        472,
+        473,
+        474,
+        475
+      ],
+      "index": 70,
+      "permutation": [
+        2,
+        4,
+        3,
+        0,
+        1
+      ],
+      "select_variable": 71
+    },
+    {
+      "flip_variables": [
+        476,
+        477,
+        478,
+        479,
+        480
+      ],
+      "index": 71,
+      "permutation": [
+        2,
+        4,
+        3,
+        1,
+        0
+      ],
+      "select_variable": 72
+    },
+    {
+      "flip_variables": [
+        481,
+        482,
+        483,
+        484,
+        485
+      ],
+      "index": 72,
+      "permutation": [
+        3,
+        0,
+        1,
+        2,
+        4
+      ],
+      "select_variable": 73
+    },
+    {
+      "flip_variables": [
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "index": 73,
+      "permutation": [
+        3,
+        0,
+        1,
+        4,
+        2
+      ],
+      "select_variable": 74
+    },
+    {
+      "flip_variables": [
+        491,
+        492,
+        493,
+        494,
+        495
+      ],
+      "index": 74,
+      "permutation": [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      "select_variable": 75
+    },
+    {
+      "flip_variables": [
+        496,
+        497,
+        498,
+        499,
+        500
+      ],
+      "index": 75,
+      "permutation": [
+        3,
+        0,
+        2,
+        4,
+        1
+      ],
+      "select_variable": 76
+    },
+    {
+      "flip_variables": [
+        501,
+        502,
+        503,
+        504,
+        505
+      ],
+      "index": 76,
+      "permutation": [
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "select_variable": 77
+    },
+    {
+      "flip_variables": [
+        506,
+        507,
+        508,
+        509,
+        510
+      ],
+      "index": 77,
+      "permutation": [
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "select_variable": 78
+    },
+    {
+      "flip_variables": [
+        511,
+        512,
+        513,
+        514,
+        515
+      ],
+      "index": 78,
+      "permutation": [
+        3,
+        1,
+        0,
+        2,
+        4
+      ],
+      "select_variable": 79
+    },
+    {
+      "flip_variables": [
+        516,
+        517,
+        518,
+        519,
+        520
+      ],
+      "index": 79,
+      "permutation": [
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      "select_variable": 80
+    },
+    {
+      "flip_variables": [
+        521,
+        522,
+        523,
+        524,
+        525
+      ],
+      "index": 80,
+      "permutation": [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      "select_variable": 81
+    },
+    {
+      "flip_variables": [
+        526,
+        527,
+        528,
+        529,
+        530
+      ],
+      "index": 81,
+      "permutation": [
+        3,
+        1,
+        2,
+        4,
+        0
+      ],
+      "select_variable": 82
+    },
+    {
+      "flip_variables": [
+        531,
+        532,
+        533,
+        534,
+        535
+      ],
+      "index": 82,
+      "permutation": [
+        3,
+        1,
+        4,
+        0,
+        2
+      ],
+      "select_variable": 83
+    },
+    {
+      "flip_variables": [
+        536,
+        537,
+        538,
+        539,
+        540
+      ],
+      "index": 83,
+      "permutation": [
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "select_variable": 84
+    },
+    {
+      "flip_variables": [
+        541,
+        542,
+        543,
+        544,
+        545
+      ],
+      "index": 84,
+      "permutation": [
+        3,
+        2,
+        0,
+        1,
+        4
+      ],
+      "select_variable": 85
+    },
+    {
+      "flip_variables": [
+        546,
+        547,
+        548,
+        549,
+        550
+      ],
+      "index": 85,
+      "permutation": [
+        3,
+        2,
+        0,
+        4,
+        1
+      ],
+      "select_variable": 86
+    },
+    {
+      "flip_variables": [
+        551,
+        552,
+        553,
+        554,
+        555
+      ],
+      "index": 86,
+      "permutation": [
+        3,
+        2,
+        1,
+        0,
+        4
+      ],
+      "select_variable": 87
+    },
+    {
+      "flip_variables": [
+        556,
+        557,
+        558,
+        559,
+        560
+      ],
+      "index": 87,
+      "permutation": [
+        3,
+        2,
+        1,
+        4,
+        0
+      ],
+      "select_variable": 88
+    },
+    {
+      "flip_variables": [
+        561,
+        562,
+        563,
+        564,
+        565
+      ],
+      "index": 88,
+      "permutation": [
+        3,
+        2,
+        4,
+        0,
+        1
+      ],
+      "select_variable": 89
+    },
+    {
+      "flip_variables": [
+        566,
+        567,
+        568,
+        569,
+        570
+      ],
+      "index": 89,
+      "permutation": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "select_variable": 90
+    },
+    {
+      "flip_variables": [
+        571,
+        572,
+        573,
+        574,
+        575
+      ],
+      "index": 90,
+      "permutation": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "select_variable": 91
+    },
+    {
+      "flip_variables": [
+        576,
+        577,
+        578,
+        579,
+        580
+      ],
+      "index": 91,
+      "permutation": [
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "select_variable": 92
+    },
+    {
+      "flip_variables": [
+        581,
+        582,
+        583,
+        584,
+        585
+      ],
+      "index": 92,
+      "permutation": [
+        3,
+        4,
+        1,
+        0,
+        2
+      ],
+      "select_variable": 93
+    },
+    {
+      "flip_variables": [
+        586,
+        587,
+        588,
+        589,
+        590
+      ],
+      "index": 93,
+      "permutation": [
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "select_variable": 94
+    },
+    {
+      "flip_variables": [
+        591,
+        592,
+        593,
+        594,
+        595
+      ],
+      "index": 94,
+      "permutation": [
+        3,
+        4,
+        2,
+        0,
+        1
+      ],
+      "select_variable": 95
+    },
+    {
+      "flip_variables": [
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "index": 95,
+      "permutation": [
+        3,
+        4,
+        2,
+        1,
+        0
+      ],
+      "select_variable": 96
+    },
+    {
+      "flip_variables": [
+        601,
+        602,
+        603,
+        604,
+        605
+      ],
+      "index": 96,
+      "permutation": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "select_variable": 97
+    },
+    {
+      "flip_variables": [
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "index": 97,
+      "permutation": [
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      "select_variable": 98
+    },
+    {
+      "flip_variables": [
+        611,
+        612,
+        613,
+        614,
+        615
+      ],
+      "index": 98,
+      "permutation": [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      "select_variable": 99
+    },
+    {
+      "flip_variables": [
+        616,
+        617,
+        618,
+        619,
+        620
+      ],
+      "index": 99,
+      "permutation": [
+        4,
+        0,
+        2,
+        3,
+        1
+      ],
+      "select_variable": 100
+    },
+    {
+      "flip_variables": [
+        621,
+        622,
+        623,
+        624,
+        625
+      ],
+      "index": 100,
+      "permutation": [
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "select_variable": 101
+    },
+    {
+      "flip_variables": [
+        626,
+        627,
+        628,
+        629,
+        630
+      ],
+      "index": 101,
+      "permutation": [
+        4,
+        0,
+        3,
+        2,
+        1
+      ],
+      "select_variable": 102
+    },
+    {
+      "flip_variables": [
+        631,
+        632,
+        633,
+        634,
+        635
+      ],
+      "index": 102,
+      "permutation": [
+        4,
+        1,
+        0,
+        2,
+        3
+      ],
+      "select_variable": 103
+    },
+    {
+      "flip_variables": [
+        636,
+        637,
+        638,
+        639,
+        640
+      ],
+      "index": 103,
+      "permutation": [
+        4,
+        1,
+        0,
+        3,
+        2
+      ],
+      "select_variable": 104
+    },
+    {
+      "flip_variables": [
+        641,
+        642,
+        643,
+        644,
+        645
+      ],
+      "index": 104,
+      "permutation": [
+        4,
+        1,
+        2,
+        0,
+        3
+      ],
+      "select_variable": 105
+    },
+    {
+      "flip_variables": [
+        646,
+        647,
+        648,
+        649,
+        650
+      ],
+      "index": 105,
+      "permutation": [
+        4,
+        1,
+        2,
+        3,
+        0
+      ],
+      "select_variable": 106
+    },
+    {
+      "flip_variables": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "index": 106,
+      "permutation": [
+        4,
+        1,
+        3,
+        0,
+        2
+      ],
+      "select_variable": 107
+    },
+    {
+      "flip_variables": [
+        656,
+        657,
+        658,
+        659,
+        660
+      ],
+      "index": 107,
+      "permutation": [
+        4,
+        1,
+        3,
+        2,
+        0
+      ],
+      "select_variable": 108
+    },
+    {
+      "flip_variables": [
+        661,
+        662,
+        663,
+        664,
+        665
+      ],
+      "index": 108,
+      "permutation": [
+        4,
+        2,
+        0,
+        1,
+        3
+      ],
+      "select_variable": 109
+    },
+    {
+      "flip_variables": [
+        666,
+        667,
+        668,
+        669,
+        670
+      ],
+      "index": 109,
+      "permutation": [
+        4,
+        2,
+        0,
+        3,
+        1
+      ],
+      "select_variable": 110
+    },
+    {
+      "flip_variables": [
+        671,
+        672,
+        673,
+        674,
+        675
+      ],
+      "index": 110,
+      "permutation": [
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "select_variable": 111
+    },
+    {
+      "flip_variables": [
+        676,
+        677,
+        678,
+        679,
+        680
+      ],
+      "index": 111,
+      "permutation": [
+        4,
+        2,
+        1,
+        3,
+        0
+      ],
+      "select_variable": 112
+    },
+    {
+      "flip_variables": [
+        681,
+        682,
+        683,
+        684,
+        685
+      ],
+      "index": 112,
+      "permutation": [
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "select_variable": 113
+    },
+    {
+      "flip_variables": [
+        686,
+        687,
+        688,
+        689,
+        690
+      ],
+      "index": 113,
+      "permutation": [
+        4,
+        2,
+        3,
+        1,
+        0
+      ],
+      "select_variable": 114
+    },
+    {
+      "flip_variables": [
+        691,
+        692,
+        693,
+        694,
+        695
+      ],
+      "index": 114,
+      "permutation": [
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      "select_variable": 115
+    },
+    {
+      "flip_variables": [
+        696,
+        697,
+        698,
+        699,
+        700
+      ],
+      "index": 115,
+      "permutation": [
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      "select_variable": 116
+    },
+    {
+      "flip_variables": [
+        701,
+        702,
+        703,
+        704,
+        705
+      ],
+      "index": 116,
+      "permutation": [
+        4,
+        3,
+        1,
+        0,
+        2
+      ],
+      "select_variable": 117
+    },
+    {
+      "flip_variables": [
+        706,
+        707,
+        708,
+        709,
+        710
+      ],
+      "index": 117,
+      "permutation": [
+        4,
+        3,
+        1,
+        2,
+        0
+      ],
+      "select_variable": 118
+    },
+    {
+      "flip_variables": [
+        711,
+        712,
+        713,
+        714,
+        715
+      ],
+      "index": 118,
+      "permutation": [
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "select_variable": 119
+    },
+    {
+      "flip_variables": [
+        716,
+        717,
+        718,
+        719,
+        720
+      ],
+      "index": 119,
+      "permutation": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "select_variable": 120
+    }
+  ],
+  "scope": "pair-imprimitive row-F sharply transitive families only; not full FFF",
+  "selected_projection_count_implied": 10,
+  "variables": 40980
+}

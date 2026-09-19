@@ -1,0 +1,55 @@
+Normalized cell-incidence rank audit
+
+table count: 9777
+component count: 104645
+flag count: 1918172
+normalized vertex checks: 858970
+link partition checks: 104645
+opposite edge checks: 2877258
+face profile checks: 1918172
+gf2 rank checks: 104645
+gram entry checks: 14142187
+coarse factor checks: 1918172
+gram aggregation checks: 8316434
+error count: 0
+
+order4_complete
+- tables/components/flags: 4 / 27 / 192
+- vertices/link partitions/opposite edges/face profiles: 144 / 27 / 288 / 192
+- GF2 ranks / Gram / coarse-factor / Gram-aggregation checks: 27 / 648 / 192 / 648
+- q distribution: {1: 27}
+- dimension-zero q distribution: {}
+- nontrivial-q components: 0
+- errors: 0
+
+order6_complete
+- tables/components/flags: 9408 / 89068 / 1693440
+- vertices/link partitions/opposite edges/face profiles: 748800 / 89068 / 2540160 / 1693440
+- GF2 ranks / Gram / coarse-factor / Gram-aggregation checks: 89068 / 10783440 / 1693440 / 6983460
+- q distribution: {1: 86908, 3: 2160}
+- dimension-zero q distribution: {1: 8640}
+- nontrivial-q components: 2160
+- errors: 0
+
+order8_fff_complete
+- tables/components/flags: 230 / 9768 / 103040
+- vertices/link partitions/opposite edges/face profiles: 62516 / 9768 / 154560 / 103040
+- GF2 ranks / Gram / coarse-factor / Gram-aggregation checks: 9768 / 982646 / 103040 / 594154
+- q distribution: {1: 9767, 2: 1}
+- dimension-zero q distribution: {1: 13}
+- nontrivial-q components: 1
+- errors: 0
+
+order10_tracked_partial
+- tables/components/flags: 135 / 5782 / 121500
+- vertices/link partitions/opposite edges/face profiles: 47510 / 5782 / 182250 / 121500
+- GF2 ranks / Gram / coarse-factor / Gram-aggregation checks: 5782 / 2375453 / 121500 / 738172
+- q distribution: {1: 5782}
+- dimension-zero q distribution: {1: 135}
+- nontrivial-q components: 0
+- errors: 0
+
+Boundary:
+- C96 is rigorous and exactly audited.
+- It is a normalized-cell Gram/rank lift, not an order-10 decision.
+- C38 remains open and C40 absent.

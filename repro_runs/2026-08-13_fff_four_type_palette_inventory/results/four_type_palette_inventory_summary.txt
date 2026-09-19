@@ -1,0 +1,44 @@
+Degree-10 four-type palette inventory
+
+palettes/root records: 35/140
+rigorous sign/matching exclusions: 2
+candidate count errors: 0
+all checks passed: True
+
+p01 10 + 2+2+2+2+2 + 4+2+2+2 + 4+4+2 root=10 candidates=7550 status=open
+p02 10 + 2+2+2+2+2 + 4+2+2+2 + 6+2+2 root=10 candidates=7950 status=open
+p03 10 + 2+2+2+2+2 + 4+2+2+2 + 6+4 root=2+2+2+2+2 candidates=57600 status=open
+p04 10 + 2+2+2+2+2 + 4+2+2+2 + 8+2 root=10 candidates=87350 status=open
+p05 10 + 2+2+2+2+2 + 4+4+2 + 6+2+2 root=10 candidates=0 status=all_four_types_odd_sign_contradicts_sign_cut_triangles
+p06 10 + 2+2+2+2+2 + 4+4+2 + 6+4 root=2+2+2+2+2 candidates=54720 status=open
+p07 10 + 2+2+2+2+2 + 4+4+2 + 8+2 root=10 candidates=93450 status=open
+p08 10 + 2+2+2+2+2 + 6+2+2 + 6+4 root=2+2+2+2+2 candidates=61440 status=open
+p09 10 + 2+2+2+2+2 + 6+2+2 + 8+2 root=10 candidates=97650 status=open
+p10 10 + 2+2+2+2+2 + 6+4 + 8+2 root=2+2+2+2+2 candidates=130560 status=open
+p11 10 + 4+2+2+2 + 4+4+2 + 6+2+2 root=4+4+2 candidates=8976 status=open
+p12 10 + 4+2+2+2 + 4+4+2 + 6+4 root=4+4+2 candidates=69376 status=open
+p13 10 + 4+2+2+2 + 4+4+2 + 8+2 root=10 candidates=100770 status=open
+p14 10 + 4+2+2+2 + 6+2+2 + 6+4 root=6+2+2 candidates=72528 status=open
+p15 10 + 4+2+2+2 + 6+2+2 + 8+2 root=10 candidates=105370 status=open
+p16 10 + 4+2+2+2 + 6+4 + 8+2 root=4+2+2+2 candidates=139968 status=open
+p17 10 + 4+4+2 + 6+2+2 + 6+4 root=6+2+2 candidates=72144 status=open
+p18 10 + 4+4+2 + 6+2+2 + 8+2 root=10 candidates=110040 status=open
+p19 10 + 4+4+2 + 6+4 + 8+2 root=4+4+2 candidates=155264 status=open
+p20 10 + 6+2+2 + 6+4 + 8+2 root=6+2+2 candidates=162720 status=open
+p21 2+2+2+2+2 + 4+2+2+2 + 4+4+2 + 6+2+2 root=2+2+2+2+2 candidates=960 status=open
+p22 2+2+2+2+2 + 4+2+2+2 + 4+4+2 + 6+4 root=2+2+2+2+2 candidates=4800 status=open
+p23 2+2+2+2+2 + 4+2+2+2 + 4+4+2 + 8+2 root=4+4+2 candidates=13888 status=open
+p24 2+2+2+2+2 + 4+2+2+2 + 6+2+2 + 6+4 root=2+2+2+2+2 candidates=12480 status=open
+p25 2+2+2+2+2 + 4+2+2+2 + 6+2+2 + 8+2 root=6+2+2 candidates=19836 status=open
+p26 2+2+2+2+2 + 4+2+2+2 + 6+4 + 8+2 root=2+2+2+2+2 candidates=0 status=involution_only_odd_type_contradicts_sign_cut_plus_C109_matching
+p27 2+2+2+2+2 + 4+4+2 + 6+2+2 + 6+4 root=2+2+2+2+2 candidates=16320 status=open
+p28 2+2+2+2+2 + 4+4+2 + 6+2+2 + 8+2 root=4+4+2 candidates=30336 status=open
+p29 2+2+2+2+2 + 4+4+2 + 6+4 + 8+2 root=2+2+2+2+2 candidates=20160 status=open
+p30 2+2+2+2+2 + 6+2+2 + 6+4 + 8+2 root=6+2+2 candidates=29664 status=open
+p31 4+2+2+2 + 4+4+2 + 6+2+2 + 6+4 root=4+2+2+2 candidates=21072 status=open
+p32 4+2+2+2 + 4+4+2 + 6+2+2 + 8+2 root=4+4+2 candidates=32336 status=open
+p33 4+2+2+2 + 4+4+2 + 6+4 + 8+2 root=4+4+2 candidates=21696 status=open
+p34 4+2+2+2 + 6+2+2 + 6+4 + 8+2 root=6+2+2 candidates=30816 status=open
+p35 4+4+2 + 6+2+2 + 6+4 + 8+2 root=4+4+2 candidates=48960 status=open
+
+C38 open; C40 absent

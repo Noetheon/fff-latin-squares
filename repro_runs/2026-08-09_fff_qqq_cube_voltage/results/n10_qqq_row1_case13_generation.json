@@ -1,0 +1,1548 @@
+{
+  "clause_stats": {
+    "fixed_row1": 10,
+    "latin_cell": 4600,
+    "latin_col_symbol": 4600,
+    "latin_row_symbol": 4600,
+    "permutation_definition": 135000,
+    "permutation_exactly_one": 124200,
+    "power_guarded_transition": 1620000,
+    "power_result_exactly_one": 745200,
+    "q_bound_power_3": 28350,
+    "q_bound_power_5": 135,
+    "q_bound_power_7": 16200,
+    "reduced": 20
+  },
+  "clauses": 2682915,
+  "cnf": {
+    "path": "/tmp/order8_n10_qqq_row1_case13.cnf",
+    "sha256": "2ec7dce404e468eb24cbf70b5a5d0848c861b627f3088a581ed18cea66b8a3b7",
+    "size_bytes": 54390278
+  },
+  "elapsed_seconds": 1.3367860317230225,
+  "encoding_version": "qqq_power_fixedpoint_v2_guarded_transition",
+  "fixed_row1_permutation": [
+    1,
+    2,
+    3,
+    4,
+    0,
+    6,
+    7,
+    5,
+    9,
+    8
+  ],
+  "fixed_table": null,
+  "line_pairs": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "variable_range": [
+        1001,
+        1700
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "variable_range": [
+        1701,
+        2400
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "variable_range": [
+        2401,
+        3100
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        4
+      ],
+      "variable_range": [
+        3101,
+        3800
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        5
+      ],
+      "variable_range": [
+        3801,
+        4500
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        6
+      ],
+      "variable_range": [
+        4501,
+        5200
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        7
+      ],
+      "variable_range": [
+        5201,
+        5900
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        8
+      ],
+      "variable_range": [
+        5901,
+        6600
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        9
+      ],
+      "variable_range": [
+        6601,
+        7300
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "variable_range": [
+        7301,
+        8000
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "variable_range": [
+        8001,
+        8700
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "variable_range": [
+        8701,
+        9400
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "variable_range": [
+        9401,
+        10100
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        6
+      ],
+      "variable_range": [
+        10101,
+        10800
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        7
+      ],
+      "variable_range": [
+        10801,
+        11500
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        8
+      ],
+      "variable_range": [
+        11501,
+        12200
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        1,
+        9
+      ],
+      "variable_range": [
+        12201,
+        12900
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "variable_range": [
+        12901,
+        13600
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "variable_range": [
+        13601,
+        14300
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "variable_range": [
+        14301,
+        15000
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "variable_range": [
+        15001,
+        15700
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "variable_range": [
+        15701,
+        16400
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        2,
+        8
+      ],
+      "variable_range": [
+        16401,
+        17100
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        2,
+        9
+      ],
+      "variable_range": [
+        17101,
+        17800
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "variable_range": [
+        17801,
+        18500
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "variable_range": [
+        18501,
+        19200
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        3,
+        6
+      ],
+      "variable_range": [
+        19201,
+        19900
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "variable_range": [
+        19901,
+        20600
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        3,
+        8
+      ],
+      "variable_range": [
+        20601,
+        21300
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        3,
+        9
+      ],
+      "variable_range": [
+        21301,
+        22000
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "variable_range": [
+        22001,
+        22700
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        4,
+        6
+      ],
+      "variable_range": [
+        22701,
+        23400
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        4,
+        7
+      ],
+      "variable_range": [
+        23401,
+        24100
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        4,
+        8
+      ],
+      "variable_range": [
+        24101,
+        24800
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        4,
+        9
+      ],
+      "variable_range": [
+        24801,
+        25500
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "variable_range": [
+        25501,
+        26200
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "variable_range": [
+        26201,
+        26900
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        5,
+        8
+      ],
+      "variable_range": [
+        26901,
+        27600
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        5,
+        9
+      ],
+      "variable_range": [
+        27601,
+        28300
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "variable_range": [
+        28301,
+        29000
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        6,
+        8
+      ],
+      "variable_range": [
+        29001,
+        29700
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        6,
+        9
+      ],
+      "variable_range": [
+        29701,
+        30400
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        7,
+        8
+      ],
+      "variable_range": [
+        30401,
+        31100
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        7,
+        9
+      ],
+      "variable_range": [
+        31101,
+        31800
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        8,
+        9
+      ],
+      "variable_range": [
+        31801,
+        32500
+      ],
+      "view": "row"
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "variable_range": [
+        32501,
+        33200
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "variable_range": [
+        33201,
+        33900
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "variable_range": [
+        33901,
+        34600
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        4
+      ],
+      "variable_range": [
+        34601,
+        35300
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        5
+      ],
+      "variable_range": [
+        35301,
+        36000
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        6
+      ],
+      "variable_range": [
+        36001,
+        36700
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        7
+      ],
+      "variable_range": [
+        36701,
+        37400
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        8
+      ],
+      "variable_range": [
+        37401,
+        38100
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        9
+      ],
+      "variable_range": [
+        38101,
+        38800
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "variable_range": [
+        38801,
+        39500
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "variable_range": [
+        39501,
+        40200
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "variable_range": [
+        40201,
+        40900
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "variable_range": [
+        40901,
+        41600
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        6
+      ],
+      "variable_range": [
+        41601,
+        42300
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        7
+      ],
+      "variable_range": [
+        42301,
+        43000
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        8
+      ],
+      "variable_range": [
+        43001,
+        43700
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        1,
+        9
+      ],
+      "variable_range": [
+        43701,
+        44400
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "variable_range": [
+        44401,
+        45100
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "variable_range": [
+        45101,
+        45800
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "variable_range": [
+        45801,
+        46500
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "variable_range": [
+        46501,
+        47200
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "variable_range": [
+        47201,
+        47900
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        2,
+        8
+      ],
+      "variable_range": [
+        47901,
+        48600
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        2,
+        9
+      ],
+      "variable_range": [
+        48601,
+        49300
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "variable_range": [
+        49301,
+        50000
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "variable_range": [
+        50001,
+        50700
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        3,
+        6
+      ],
+      "variable_range": [
+        50701,
+        51400
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "variable_range": [
+        51401,
+        52100
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        3,
+        8
+      ],
+      "variable_range": [
+        52101,
+        52800
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        3,
+        9
+      ],
+      "variable_range": [
+        52801,
+        53500
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "variable_range": [
+        53501,
+        54200
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        4,
+        6
+      ],
+      "variable_range": [
+        54201,
+        54900
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        4,
+        7
+      ],
+      "variable_range": [
+        54901,
+        55600
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        4,
+        8
+      ],
+      "variable_range": [
+        55601,
+        56300
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        4,
+        9
+      ],
+      "variable_range": [
+        56301,
+        57000
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "variable_range": [
+        57001,
+        57700
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "variable_range": [
+        57701,
+        58400
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        5,
+        8
+      ],
+      "variable_range": [
+        58401,
+        59100
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        5,
+        9
+      ],
+      "variable_range": [
+        59101,
+        59800
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "variable_range": [
+        59801,
+        60500
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        6,
+        8
+      ],
+      "variable_range": [
+        60501,
+        61200
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        6,
+        9
+      ],
+      "variable_range": [
+        61201,
+        61900
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        7,
+        8
+      ],
+      "variable_range": [
+        61901,
+        62600
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        7,
+        9
+      ],
+      "variable_range": [
+        62601,
+        63300
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        8,
+        9
+      ],
+      "variable_range": [
+        63301,
+        64000
+      ],
+      "view": "col"
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "variable_range": [
+        64001,
+        64700
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "variable_range": [
+        64701,
+        65400
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "variable_range": [
+        65401,
+        66100
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        4
+      ],
+      "variable_range": [
+        66101,
+        66800
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        5
+      ],
+      "variable_range": [
+        66801,
+        67500
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        6
+      ],
+      "variable_range": [
+        67501,
+        68200
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        7
+      ],
+      "variable_range": [
+        68201,
+        68900
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        8
+      ],
+      "variable_range": [
+        68901,
+        69600
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        0,
+        9
+      ],
+      "variable_range": [
+        69601,
+        70300
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "variable_range": [
+        70301,
+        71000
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "variable_range": [
+        71001,
+        71700
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "variable_range": [
+        71701,
+        72400
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "variable_range": [
+        72401,
+        73100
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        6
+      ],
+      "variable_range": [
+        73101,
+        73800
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        7
+      ],
+      "variable_range": [
+        73801,
+        74500
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        8
+      ],
+      "variable_range": [
+        74501,
+        75200
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        1,
+        9
+      ],
+      "variable_range": [
+        75201,
+        75900
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "variable_range": [
+        75901,
+        76600
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "variable_range": [
+        76601,
+        77300
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "variable_range": [
+        77301,
+        78000
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "variable_range": [
+        78001,
+        78700
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "variable_range": [
+        78701,
+        79400
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        2,
+        8
+      ],
+      "variable_range": [
+        79401,
+        80100
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        2,
+        9
+      ],
+      "variable_range": [
+        80101,
+        80800
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "variable_range": [
+        80801,
+        81500
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "variable_range": [
+        81501,
+        82200
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        3,
+        6
+      ],
+      "variable_range": [
+        82201,
+        82900
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "variable_range": [
+        82901,
+        83600
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        3,
+        8
+      ],
+      "variable_range": [
+        83601,
+        84300
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        3,
+        9
+      ],
+      "variable_range": [
+        84301,
+        85000
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "variable_range": [
+        85001,
+        85700
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        4,
+        6
+      ],
+      "variable_range": [
+        85701,
+        86400
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        4,
+        7
+      ],
+      "variable_range": [
+        86401,
+        87100
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        4,
+        8
+      ],
+      "variable_range": [
+        87101,
+        87800
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        4,
+        9
+      ],
+      "variable_range": [
+        87801,
+        88500
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "variable_range": [
+        88501,
+        89200
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "variable_range": [
+        89201,
+        89900
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        5,
+        8
+      ],
+      "variable_range": [
+        89901,
+        90600
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        5,
+        9
+      ],
+      "variable_range": [
+        90601,
+        91300
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "variable_range": [
+        91301,
+        92000
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        6,
+        8
+      ],
+      "variable_range": [
+        92001,
+        92700
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        6,
+        9
+      ],
+      "variable_range": [
+        92701,
+        93400
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        7,
+        8
+      ],
+      "variable_range": [
+        93401,
+        94100
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        7,
+        9
+      ],
+      "variable_range": [
+        94101,
+        94800
+      ],
+      "view": "sym"
+    },
+    {
+      "pair": [
+        8,
+        9
+      ],
+      "variable_range": [
+        94801,
+        95500
+      ],
+      "view": "sym"
+    }
+  ],
+  "mapping": {
+    "cell_variable_formula": "1 + (row*n + col)*n + symbol",
+    "cell_variable_range": [
+      1,
+      1000
+    ]
+  },
+  "mapping_file": {
+    "path": "repro_runs/2026-08-09_fff_qqq_cube_voltage/results/n10_qqq_row1_case13_mapping.json",
+    "sha256": "0773966fb39bbd5bda1ef3253195274af25b2cfdbd4869e4a06561c2f80a2d11"
+  },
+  "n": 10,
+  "reduced": true,
+  "thresholds": {
+    "3": 5,
+    "5": 9,
+    "7": 6
+  },
+  "variables": 95500,
+  "views": [
+    "row",
+    "col",
+    "sym"
+  ]
+}

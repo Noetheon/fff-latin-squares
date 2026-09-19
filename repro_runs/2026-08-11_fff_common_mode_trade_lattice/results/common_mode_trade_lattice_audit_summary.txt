@@ -1,0 +1,18 @@
+Order-6 common-mode trade-lattice audit
+
+tables: 9408
+line-incidence ranks: {'16': 9408}
+E4 ranks: {'19': 3960, '20': 5448}
+E4 rank by r_Q: {'r=1,rank=19': 3780, 'r=1,rank=20': 4308, 'r=2,rank=20': 1080, 'r=3,rank=19': 180, 'r=3,rank=20': 60}
+E4 saturated: 9408 / 9408
+3+3 lattice contained in E4: 9408 / 9408
+rank-19 r_Q=3 tables: 180
+rank-19 r_Q=3 mode index pairs: {'(2, 2)': 60, '(2, 4)': 120}
+rank-19 r_Q=3 common-mode subgroup index 2: 180
+6+6 primitive completions: 180
+errors: 0
+
+Boundary:
+- The balanced cell-dependency lattice is not the same object as a classical Latin bitrade.
+- The rank/index distributions are complete order-6 census facts.
+- No order-10 conclusion follows; C38 remains open and C40 is absent.

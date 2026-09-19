@@ -1,0 +1,71 @@
+Triple endpoint parity tensor audit
+
+audit version: triple_endpoint_parity_v2
+tables: 9777
+endpoint lines checked: 1100916
+Latin cells checked: 366972
+complementary masses checked: 366972
+multiplicity-split cells checked: 366972
+errors: 0
+
+Exact theorem audited:
+- every integer endpoint line has sum 8(n-1);
+- D(r,c,L(r,c)) = 3(n-1) + cell intercalate degree;
+- the complementary line mass is 5(n-1) minus that degree;
+- for T=X+4Y, the endpoint contractions on a Latin cell are
+  X: 3(n-1-iota) and Y: iota;
+- H=D mod 2 has even one-dimensional fibers and flattening rank at most n-1.
+
+order4_complete
+- tables: 4
+- patterns: {'FFF': 4}
+- total-mass values: [384]
+- zero binary tensors: 4
+- binary support range: [0, 0]
+- Latin-cell parity-one range: [0, 0]
+- binary flattening rank range: [0, 0]
+- line checks: 192
+- Latin-cell checks: 64
+- errors: 0
+
+order6_complete
+- tables: 9408
+- patterns: {'FFT': 936, 'FTF': 936, 'TFF': 936, 'TTT': 6600}
+- total-mass values: [1440]
+- zero binary tensors: 240
+- binary support range: [0, 120]
+- Latin-cell parity-one range: [0, 36]
+- binary flattening rank range: [0, 5]
+- line checks: 1016064
+- Latin-cell checks: 338688
+- errors: 0
+
+order8_fff_complete
+- tables: 230
+- patterns: {'FFF': 230}
+- total-mass values: [3584]
+- zero binary tensors: 24
+- binary support range: [0, 256]
+- Latin-cell parity-one range: [0, 64]
+- binary flattening rank range: [0, 7]
+- line checks: 44160
+- Latin-cell checks: 14720
+- errors: 0
+
+order10_tracked_partial
+- tables: 135
+- patterns: {'FFT': 127, 'FTT': 1, 'TFT': 2, 'TTT': 5}
+- total-mass values: [7200]
+- zero binary tensors: 0
+- binary support range: [320, 448]
+- Latin-cell parity-one range: [16, 64]
+- binary flattening rank range: [7, 9]
+- line checks: 40500
+- Latin-cell checks: 13500
+- errors: 0
+
+Evidence boundary:
+- C84 is rigorous; this run is exact sanity evidence.
+- H is a genuine common-cell contraction but its ambient line-parity condition is weak.
+- The order-10 corpus is tracked partial data, not an exhaustive census.
+- C38 remains open and C40 remains absent.

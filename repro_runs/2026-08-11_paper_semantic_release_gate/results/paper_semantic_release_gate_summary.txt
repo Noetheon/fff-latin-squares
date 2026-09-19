@@ -1,0 +1,30 @@
+Paper semantic release gate
+===========================
+overall pass: True
+real pattern controls: 8/8
+control errors: []
+coordinate-closedness collision groups: {'000': ['FTT', 'TFT', 'TTF', 'TTT'], '001': ['FFT'], '010': ['FTF'], '100': ['TFF'], '111': ['FFF']}
+ordinary claim environments: 56
+missing following proofs: 0
+risky statement counts by tier: {'computational_theorem_statement': 6, 'immediate_consequence': 2, 'interpretation_or_exposition': 59, 'open_conjecture': 2, 'theorem_statement': 20}
+forbidden phrase hits: []
+stale order-10 status hits: []
+stale claim-register order-10 hits: []
+absolute user-path hits: []
+public internal claim-ID hits: []
+
+Truth table:
+- FFF: coordinate_closed=111, coboundary_pattern=FFF, errors=0
+- FFT: coordinate_closed=001, coboundary_pattern=FFT, errors=0
+- FTF: coordinate_closed=010, coboundary_pattern=FTF, errors=0
+- FTT: coordinate_closed=000, coboundary_pattern=FTT, errors=0
+- TFF: coordinate_closed=100, coboundary_pattern=TFF, errors=0
+- TFT: coordinate_closed=000, coboundary_pattern=TFT, errors=0
+- TTF: coordinate_closed=000, coboundary_pattern=TTF, errors=0
+- TTT: coordinate_closed=000, coboundary_pattern=TTT, errors=0
+
+Boundary:
+- The atomwise coboundary recovers all eight real view patterns.
+- Global coordinate closedness is not injective: FTT/TFT/TTF/TTT map to 000.
+- This gate inventories theorem statements, immediate consequences, and exposition separately.
+- It is a release gate and sanity audit, not a proof-assistant certificate.

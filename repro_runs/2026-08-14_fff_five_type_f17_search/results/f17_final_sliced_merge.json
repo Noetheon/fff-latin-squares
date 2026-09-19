@@ -1,0 +1,33 @@
+{
+  "case_id": "f17",
+  "complete_disjoint_cover": true,
+  "completed_tasks": 73,
+  "crossview_odd_cycle_prunes": 81617,
+  "errors": [],
+  "fff_found": false,
+  "graph_sha256": "8958816838da8c47f29af21230c1bfb2bb78d2597f57d80fff48c85ab8f7bd78",
+  "negative_search_complete": true,
+  "plan_payload_sha256": "209040dad83740f627f7d4564860491f05838d9897e2fb96a0f4dc551cbf788d",
+  "schema_version": "five-type-slice-merge-v1",
+  "search_binary_sha256": "183b305457cb85011a6c5289a2e0eb4ac3b0ca2f37824ab83dca5855fd41c3b2",
+  "search_nodes": 305164,
+  "slice_count_expected": 10,
+  "slice_count_present": 10,
+  "slice_wrapper_sha256": {
+    "s0000": "d85d2eedcd10f15385650356b2aa10037c2a88dec49f801c6c3d86ba0dddc8ff",
+    "s0001": "57c00c6b072399331dc6eac380d9c52f6ae4d69367e9f57d516f8345864e75d0",
+    "s0002": "573f8cbc0282166d9720f37d90eec2d5f3c4c41f4ea319c9d88fa0f9615fed7e",
+    "s0003": "1c804d3c43d1e99fb973dc06ba2169200afd45a683b4525b8d13527efe452ed6",
+    "s0004": "a3e18ae26bd3d1f3b0e6f444acc9fb348dbc6417020b85568ad42aac62aaf0d1",
+    "s0005": "0e9505faf989e0b3fff3b2649d72784fe9661a6beb970d665f986a260193503c",
+    "s0006": "3823d3a8dc59934a249b8d348e43f805d1ae7cba4bb5851db595cbaadc968244",
+    "s0007": "80d21beee5b6b349be60a50cb9dc35683a37c8022c546d29a3900d0663dd64e9",
+    "s0008": "81afb4c0063c16406589f3e014d2921c46b0839c78e8c10a93ba1182b1789aa6",
+    "s0009": "db6a25b58b02c3f5d4c9b495c4b8213da4a8131646891edae9caf3c5978e773c"
+  },
+  "source_bundle_sha256": "09a08a6b7e950102cf2c5694968b022602e56681b5aebd1360900257dbb86b9a",
+  "status": "complete_negative",
+  "task_file_sha256": "a4cfe176d11945a67001d6f99b31de873ba8bd3c1e62453fd60d40dc94d77072",
+  "task_list_sha256": "d6abb1002105da8e3326285c63866d3daf86f8b25146593b808b1dc81759248b",
+  "total_initial_tasks": 73
+}

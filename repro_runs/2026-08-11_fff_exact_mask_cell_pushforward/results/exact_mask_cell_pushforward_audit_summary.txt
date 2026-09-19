@@ -1,0 +1,43 @@
+Exact-mask cell-pushforward audit
+
+tables: 9777
+components: 104645
+FFF components: 93662
+cell-role involution checks: 8631774
+exact-mask pushforwards: 285399
+predicted zero marginals: 571632
+exact-mask counts: {1: 615, 2: 615, 3: 93623, 4: 616, 5: 93613, 6: 93637, 7: 2680}
+errors: 0
+
+order4_complete
+- tables: 4
+- components: 27
+- pushforwards: 93
+- zero marginals: 180
+- errors: 0
+
+order6_complete
+- tables: 9408
+- components: 89068
+- pushforwards: 237108
+- zero marginals: 476088
+- errors: 0
+
+order8_fff_complete
+- tables: 230
+- components: 9768
+- pushforwards: 31221
+- zero marginals: 61428
+- errors: 0
+
+order10_tracked_partial
+- tables: 135
+- components: 5782
+- pushforwards: 16977
+- zero marginals: 33936
+- errors: 0
+
+Boundary:
+- C88 is rigorous and exactly audited.
+- It supplies necessary linear marginals, not an n=10 decision.
+- C38 remains open and C40 absent.

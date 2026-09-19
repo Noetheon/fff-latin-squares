@@ -1,0 +1,146 @@
+{
+  "cases": [
+    {
+      "allowed_types": [
+        [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          4,
+          2
+        ],
+        [
+          6,
+          2,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10
+        ]
+      ],
+      "bucket_counts": [
+        0,
+        0,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760,
+        23760
+      ],
+      "case_id": "involution_master_all_7_types",
+      "class_allowed_candidates": 190080,
+      "dense_graph_size_bytes": 4518201626,
+      "orbit_count": 506,
+      "orbit_size_counts": {
+        "12": 12,
+        "24": 4,
+        "48": 490
+      },
+      "residual_group_size": 48,
+      "root": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "root_task_count": 23760,
+      "triple_filtered_candidates": 190080
+    },
+    {
+      "allowed_types": [
+        [
+          4,
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          4,
+          2
+        ],
+        [
+          6,
+          2,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          10
+        ]
+      ],
+      "bucket_counts": [
+        0,
+        0,
+        18300,
+        18300,
+        22628,
+        22628,
+        22628,
+        22628,
+        22628,
+        22628
+      ],
+      "case_id": "noninvolution_master_6_types",
+      "class_allowed_candidates": 196560,
+      "dense_graph_size_bytes": 3716598842,
+      "orbit_count": 386,
+      "orbit_size_counts": {
+        "12": 5,
+        "24": 2,
+        "48": 379
+      },
+      "residual_group_size": 48,
+      "root": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8
+      ],
+      "root_task_count": 18300,
+      "triple_filtered_candidates": 172368
+    }
+  ],
+  "schema_version": "six-type-master-inventory-independent-audit-v1"
+}

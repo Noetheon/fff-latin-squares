@@ -1,0 +1,14 @@
+{
+  "label": "involution_benchmark25",
+  "mode": "slice",
+  "workers": 10,
+  "full_initial_tasks": 23760,
+  "total_initial_tasks": 506,
+  "task_start": 0,
+  "task_end_exclusive": 25,
+  "completed_tasks": 25,
+  "search_nodes": 360999071,
+  "crossview_odd_cycle_prunes": 263564364,
+  "fff_found": false,
+  "slice_complete": true
+}

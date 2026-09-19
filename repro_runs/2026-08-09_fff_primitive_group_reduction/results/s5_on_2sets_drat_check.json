@@ -1,0 +1,26 @@
+{
+  "checker": {
+    "binary_sha256": "f58f63b0f76945d4c4c9ff6e87afaf870f579e67c0f7cca589492df8fc7ebd47",
+    "path": "/tmp/order8_solver_tools/drat-trim/drat-trim",
+    "source_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+  },
+  "cnf": {
+    "path": "/tmp/order8_primitive_group_reduction/s5_on_2sets_f_clique_upper.cnf",
+    "sha256": "8aea609085d94d62a06e66bd2f71c5ee18f9bba6a157146d08cb5d2e99f8b285"
+  },
+  "proof": {
+    "path": "/tmp/order8_primitive_group_reduction/s5_on_2sets.drat",
+    "sha256": "173350eaaf45d5ebcd8a098e9a04120a2d5b39974b1c08d88e9b3d5d9d5b2aae",
+    "size_bytes": 283
+  },
+  "result": "verified",
+  "returncode": 0,
+  "stderr": {
+    "path": "repro_runs/2026-08-09_fff_primitive_group_reduction/logs/s5_on_2sets_drat_check.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "path": "repro_runs/2026-08-09_fff_primitive_group_reduction/logs/s5_on_2sets_drat_check.stdout.txt",
+    "sha256": "b88f614f9b83b3181ab8b9c04a2bd6d23437f38673d24753f2886baedd89569a"
+  }
+}

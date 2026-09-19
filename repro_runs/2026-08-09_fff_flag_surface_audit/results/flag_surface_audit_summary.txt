@@ -1,0 +1,55 @@
+Three-coloured cycle-flag surface audit
+
+mixed word orbits through length 10: 41
+
+order6_complete:
+- tables: 9408
+- patterns: {'FFT': 936, 'FTF': 936, 'TFF': 936, 'TTT': 6600}
+- identity errors: 0
+- distinct surface signatures: 12
+- zero-intercalate tables: 40
+- zero-intercalate with nonorientable component: 40
+- elapsed seconds: 17.555508
+
+order8_complete:
+- tables: 283657
+- patterns: {'FFF': 230, 'FFT': 81, 'FTF': 40, 'FTT': 315, 'TFF': 133, 'TFT': 209, 'TTF': 232, 'TTT': 282417}
+- identity errors: 0
+- distinct surface signatures: 279562
+- zero-intercalate tables: 3
+- zero-intercalate with nonorientable component: 3
+- elapsed seconds: 357.350297
+
+order8_fff:
+- tables: 230
+- patterns: {'FFF': 230}
+- identity errors: 0
+- distinct surface signatures: 193
+- zero-intercalate tables: 0
+- zero-intercalate with nonorientable component: 0
+- elapsed seconds: 4.546726
+
+order10_tracked:
+- tables: 135
+- patterns: {'FFT': 127, 'FTT': 1, 'TFT': 2, 'TTT': 5}
+- identity errors: 0
+- distinct surface signatures: 53
+- zero-intercalate tables: 0
+- zero-intercalate with nonorientable component: 0
+- elapsed seconds: 5.526882
+
+Order-8 FFF refinements:
+- distinct mixed-trace signatures: 227
+- surface collision groups: [[4, 22], [8, 1916], [10, 113], [11, 17], [12, 143, 51270], [60, 2994], [75, 10405], [92, 10854, 52124], [93, 9686], [117, 118], [119, 51373, 52566, 179976], [141, 135087, 224864], [162, 10851, 51404, 270853], [163, 239703], [164, 152624, 189621], [1028, 95813, 201144], [1389, 130243], [1960, 96609], [3210, 3959], [3887, 36815], [3966, 51370], [9685, 52105, 243029], [9752, 52123], [36202, 261034], [56316, 225881], [75148, 75149], [241191, 267980]]
+- mixed-trace collision groups: [[10, 113], [11, 17], [114, 65841]]
+- sources 13/19 surface equal: False
+- sources 13/19 mixed traces equal: False
+- C70 + surface distinct: 228
+- C70 + mixed traces distinct: 230
+- C72 structural + mixed traces distinct: 230
+- C70 + trace cutoff counts: {'3': 226, '4': 226, '5': 226, '6': 230, '7': 230, '8': 230, '9': 230, '10': 230}
+- shortest words separating old C70 collisions: [{'source_indices': [4, 22], 'first_distinguishing_word': '012012', 'left_trace_orbit': [352, 352, 352, 352, 352, 352], 'right_trace_orbit': [288, 288, 288, 288, 288, 288]}, {'source_indices': [11, 114], 'first_distinguishing_word': '012012', 'left_trace_orbit': [448, 448, 448, 448, 448, 448], 'right_trace_orbit': [192, 192, 192, 192, 192, 192]}, {'source_indices': [13, 19], 'first_distinguishing_word': '012012', 'left_trace_orbit': [448, 448, 448, 448, 448, 448], 'right_trace_orbit': [192, 192, 192, 192, 192, 192]}, {'source_indices': [117, 118], 'first_distinguishing_word': '012012', 'left_trace_orbit': [288, 288, 288, 288, 288, 288], 'right_trace_orbit': [352, 352, 352, 352, 352, 352]}]
+
+Claim boundary:
+- C38 remains open and C40 remains absent.
+- Finite trace separation is an exact invariant, not an order-10 theorem.

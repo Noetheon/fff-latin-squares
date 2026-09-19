@@ -1,0 +1,83 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "baseline_accepts": true,
+    "comparison_baseline_accepts": true,
+    "comparison_failed_field_rejects": true,
+    "comparison_wrong_nodes_rejects": true,
+    "incomplete_cover_rejects": true,
+    "incomplete_search_rejects": true,
+    "missing_tasks_rejects": true,
+    "positive_candidate_rejects": true,
+    "recorded_error_rejects": true,
+    "wrong_nodes_rejects": true,
+    "wrong_prunes_rejects": true,
+    "wrong_status_rejects": true,
+    "wrong_total_rejects": true
+  },
+  "observations": {
+    "baseline_accepts": {
+      "actual": true,
+      "expected": true,
+      "field": null,
+      "value": null
+    },
+    "incomplete_cover_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "complete_disjoint_cover",
+      "value": false
+    },
+    "incomplete_search_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "negative_search_complete",
+      "value": false
+    },
+    "missing_tasks_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "completed_tasks",
+      "value": 385
+    },
+    "positive_candidate_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "fff_found",
+      "value": true
+    },
+    "recorded_error_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "errors",
+      "value": [
+        "synthetic"
+      ]
+    },
+    "wrong_nodes_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "search_nodes",
+      "value": 123456790
+    },
+    "wrong_prunes_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "crossview_odd_cycle_prunes",
+      "value": 98765433
+    },
+    "wrong_status_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "status",
+      "value": "invalid"
+    },
+    "wrong_total_rejects": {
+      "actual": false,
+      "expected": false,
+      "field": "total_initial_tasks",
+      "value": 387
+    }
+  },
+  "schema_version": "noninvolution-master-validator-fail-closed-v1"
+}

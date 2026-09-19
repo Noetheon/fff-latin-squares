@@ -1,0 +1,8 @@
+case: involution_master_all_7_types
+status: complete_negative
+slices: 4/4
+tasks: 506/506
+nodes/prunes: 5001728282/3586770865
+FFF found: false
+complete disjoint cover: true
+negative search complete: true

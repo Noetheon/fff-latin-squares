@@ -1,0 +1,224 @@
+{
+  "audit_version": "component_gram_lift_v1",
+  "claim_boundary": [
+    "C93 is rigorous and exactly audited.",
+    "No universal isotopy-equivariant C79-derived gauge selection exists.",
+    "The quadratic Gram/Fourier lift is canonical but does not decide order 10.",
+    "C38 remains open and C40 absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "aggregate_gram_traces": {
+        "3": 23128,
+        "5": 23128,
+        "6": 23128
+      },
+      "component_cell_pair_fourier_checks": 1440160,
+      "component_count": 5782,
+      "component_mod2_checks": 68088,
+      "component_quadratic_gauge_checks": 277536,
+      "dimension_zero_odd_cell_incidences": 5872,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "0": 135,
+        "2": 5638,
+        "3": 9
+      },
+      "gram_entry_mod2_checks": 4050000,
+      "gram_kernel_checks": 810000,
+      "gram_symmetry_checks": 4050000,
+      "name": "order10_tracked_partial",
+      "nontrivial_quadratic_components": 5647,
+      "table_count": 135
+    },
+    "order4_complete": {
+      "aggregate_gram_traces": {
+        "3": 288,
+        "5": 288,
+        "6": 288
+      },
+      "component_cell_pair_fourier_checks": 1152,
+      "component_count": 27,
+      "component_mod2_checks": 432,
+      "component_quadratic_gauge_checks": 3456,
+      "dimension_zero_odd_cell_incidences": 0,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "2": 24,
+        "3": 3
+      },
+      "gram_entry_mod2_checks": 3072,
+      "gram_kernel_checks": 1536,
+      "gram_symmetry_checks": 3072,
+      "name": "order4_complete",
+      "nontrivial_quadratic_components": 27,
+      "table_count": 4
+    },
+    "order6_complete": {
+      "aggregate_gram_traces": {
+        "3": 397440,
+        "5": 397440,
+        "6": 397440
+      },
+      "component_cell_pair_fourier_checks": 13304520,
+      "component_count": 89068,
+      "component_mod2_checks": 976320,
+      "component_quadratic_gauge_checks": 5093280,
+      "dimension_zero_odd_cell_incidences": 172800,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "0": 8640,
+        "1": 2208,
+        "2": 78160,
+        "3": 60
+      },
+      "gram_entry_mod2_checks": 36578304,
+      "gram_kernel_checks": 12192768,
+      "gram_symmetry_checks": 36578304,
+      "name": "order6_complete",
+      "nontrivial_quadratic_components": 78220,
+      "table_count": 9408
+    },
+    "order8_fff_complete": {
+      "aggregate_gram_traces": {
+        "3": 192434,
+        "5": 183390,
+        "6": 206280
+      },
+      "component_cell_pair_fourier_checks": 1130332,
+      "component_count": 9768,
+      "component_mod2_checks": 166700,
+      "component_quadratic_gauge_checks": 2928652,
+      "dimension_zero_odd_cell_incidences": 376,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "0": 13,
+        "1": 36,
+        "2": 9212,
+        "3": 507
+      },
+      "gram_entry_mod2_checks": 2826240,
+      "gram_kernel_checks": 706560,
+      "gram_symmetry_checks": 2826240,
+      "name": "order8_fff_complete",
+      "nontrivial_quadratic_components": 9753,
+      "table_count": 230
+    }
+  },
+  "equivariant_anchor_no_go": {
+    "column_permutation": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "component_stable": true,
+    "error_count": 0,
+    "errors": [],
+    "flag_map_on_component": {
+      "0": 1,
+      "1": 0,
+      "12": 13,
+      "13": 12
+    },
+    "gauge_shifts": {
+      "3": [
+        1
+      ],
+      "5": [
+        1
+      ],
+      "6": [
+        0
+      ]
+    },
+    "normalized_potentials": {
+      "3": {
+        "0": 0,
+        "1": 1,
+        "12": 1,
+        "13": 0
+      },
+      "5": {
+        "0": 0,
+        "1": 1,
+        "12": 0,
+        "13": 1
+      },
+      "6": {
+        "0": 0,
+        "1": 0,
+        "12": 1,
+        "13": 1
+      }
+    },
+    "row_permutation": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "symbol_permutation": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "table": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "target_component_cells": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "target_component_flags": [
+      0,
+      1,
+      12,
+      13
+    ]
+  },
+  "totals": {
+    "component_cell_pair_fourier_checks": 15876164,
+    "component_count": 104645,
+    "component_mod2_checks": 1211540,
+    "component_quadratic_gauge_checks": 8302924,
+    "dimension_zero_odd_cell_incidences": 179048,
+    "equivariant_anchor_no_go_error_count": 0,
+    "error_count": 0,
+    "gram_entry_mod2_checks": 43457616,
+    "gram_kernel_checks": 13710864,
+    "gram_symmetry_checks": 43457616,
+    "nontrivial_quadratic_components": 93647,
+    "table_count": 9777
+  }
+}

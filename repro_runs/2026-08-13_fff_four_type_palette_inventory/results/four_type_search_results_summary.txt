@@ -1,0 +1,37 @@
+Degree-10 four-type exact exclusions
+
+rigorous/searched exclusions: 2/25
+palettes excluded/remaining: 27/8
+pairs audited: 17898136340
+search nodes/prunes: 1190296996/547760199
+all checks passed: True
+
+p05 rigorous all_four_types_odd_sign_contradicts_sign_cut_triangles
+p26 rigorous involution_only_odd_type_contradicts_sign_cut_plus_C109_matching
+p01 vertices=6590 tasks=608 nodes=15132 FFF=False
+p02 vertices=6990 tasks=632 nodes=19411 FFF=False
+p03 vertices=57600 tasks=7200 nodes=54538616 FFF=False
+p04 vertices=67110 tasks=6946 nodes=268447083 FFF=False
+p06 vertices=54720 tasks=6840 nodes=62369480 FFF=False
+p07 vertices=71610 tasks=7413 nodes=454656961 FFF=False
+p08 vertices=61440 tasks=7680 nodes=81693760 FFF=False
+p11 vertices=7632 tasks=734 nodes=29494 FFF=False
+p12 vertices=52416 tasks=5632 nodes=48911292 FFF=False
+p14 vertices=59904 tasks=6432 nodes=90968438 FFF=False
+p17 vertices=58560 tasks=6400 nodes=83806818 FFF=False
+p21 vertices=960 tasks=120 nodes=216 FFF=False
+p22 vertices=4800 tasks=600 nodes=13976 FFF=False
+p23 vertices=11520 tasks=1072 nodes=119358 FFF=False
+p24 vertices=12480 tasks=1560 nodes=64296 FFF=False
+p25 vertices=17676 tasks=1762 nodes=812696 FFF=False
+p27 vertices=16320 tasks=2040 nodes=233376 FFF=False
+p28 vertices=25984 tasks=2264 nodes=2217424 FFF=False
+p29 vertices=20160 tasks=2520 nodes=2113648 FFF=False
+p30 vertices=25824 tasks=2552 nodes=5305770 FFF=False
+p31 vertices=16080 tasks=1548 nodes=106356 FFF=False
+p32 vertices=27408 tasks=2374 nodes=2868554 FFF=False
+p33 vertices=16256 tasks=1600 nodes=838956 FFF=False
+p34 vertices=26736 tasks=2624 nodes=7696756 FFF=False
+p35 vertices=39168 tasks=3656 nodes=22449129 FFF=False
+
+C38 open; C40 absent

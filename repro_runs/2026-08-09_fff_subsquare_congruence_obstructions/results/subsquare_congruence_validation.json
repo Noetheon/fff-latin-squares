@@ -1,0 +1,136 @@
+{
+  "binary_extensions": {
+    "cyclic_quotient_order3": {
+      "pattern_counts": {
+        "TTT": 512
+      },
+      "status": "exhaustive",
+      "twist_function_count": 512
+    },
+    "cyclic_quotient_order5": {
+      "full_twist_space_size": 33554432,
+      "pattern_counts": {
+        "TTT": 4096
+      },
+      "seed": 20260809,
+      "status": "deterministic sample; theorem does not depend on sample",
+      "twist_function_sample_count": 4096
+    },
+    "explicit_nongroup_fff_loop": {
+      "associative": false,
+      "compact_table": "0123456710325476235467013245761045670123547610326701234576103254",
+      "identity_basis_closed": false,
+      "identity_zero": true,
+      "latin": true,
+      "left_associativity_value": 1,
+      "pattern": "FFF",
+      "right_associativity_value": 0
+    }
+  },
+  "evidence_labels": {
+    "computations": "exactly computed except explicitly labelled deterministic q5 sample",
+    "theorems": "rigorously proved in proof note"
+  },
+  "inputs": {
+    "core_json": {
+      "path": "repro_runs/2026-04-26_order8_core/results/order8_recheck_fullscan_results.json",
+      "sha256": "10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39"
+    },
+    "small_order_generator": {
+      "path": "repro_runs/2026-04-26_small_order_witness_reruns/scripts/latin_trade_search.py",
+      "sha256": "242e06957ceb8f949fc7379a6542b8dde06ced0657e5aaf09d159cf559ace1e7"
+    }
+  },
+  "order6_congruence_census": {
+    "congruence_imprimitive_total": 660,
+    "congruence_pattern_counts": {
+      "blocks_2:TTT": 180,
+      "blocks_2_3:TTT": 60,
+      "blocks_3:TTT": 420
+    },
+    "non_ttt_congruence_example_count": 0,
+    "non_ttt_congruence_examples": [],
+    "reduced_square_count": 9408
+  },
+  "order8_fff_subsquare_census": {
+    "extremal_entries": [
+      {
+        "group_isotopic": true,
+        "line_number": 1,
+        "subsquare_counts": {
+          "2": 112,
+          "3": 0,
+          "4": 28
+        }
+      },
+      {
+        "group_isotopic": false,
+        "line_number": 10776,
+        "subsquare_counts": {
+          "2": 2,
+          "3": 0,
+          "4": 0
+        }
+      }
+    ],
+    "fff_square_count": 230,
+    "half_order_counts_are_multiples_of_four": true,
+    "intercalate_count_distribution": {
+      "2": 1,
+      "12": 1,
+      "16": 9,
+      "20": 7,
+      "21": 1,
+      "24": 10,
+      "25": 3,
+      "26": 4,
+      "27": 2,
+      "28": 12,
+      "30": 9,
+      "32": 27,
+      "33": 2,
+      "34": 4,
+      "35": 2,
+      "36": 18,
+      "37": 1,
+      "38": 2,
+      "39": 1,
+      "40": 30,
+      "41": 1,
+      "42": 3,
+      "44": 10,
+      "46": 3,
+      "48": 27,
+      "51": 1,
+      "52": 6,
+      "56": 14,
+      "60": 1,
+      "64": 12,
+      "68": 1,
+      "72": 1,
+      "80": 2,
+      "88": 1,
+      "112": 1
+    },
+    "maximum_intercalates": 112,
+    "minimum_intercalates": 2,
+    "order3_subsquare_total": 0,
+    "order4_subsquare_count_distribution": {
+      "0": 63,
+      "4": 156,
+      "12": 10,
+      "28": 1
+    },
+    "pattern_monotonicity_failure_count": 0,
+    "pattern_monotonicity_failures": []
+  },
+  "overall_ok": true,
+  "tracked_order10_tables": {
+    "distinct_valid_table_count": 136,
+    "imprimitive_examples": [],
+    "representative_operation_congruence_counts": {
+      "simple": 136
+    },
+    "scope_note": "This checks the stored operation only, not every isotope, and proves no existence result."
+  }
+}

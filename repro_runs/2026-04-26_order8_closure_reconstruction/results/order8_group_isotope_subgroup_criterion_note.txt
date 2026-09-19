@@ -1,0 +1,10 @@
+Order-8 group-isotope closure criterion reconstruction
+
+A Latin square is group-isotopic iff the base-row family {r_0^{-1} r_x} is closed under composition. Equivalently with columns or symbols.
+
+Total FFF classes: 230
+Group-isotopic: 5
+Non-group-isotopic: 225
+Closure profile counts: {'(True, (True, True, True))': 5, '(False, (False, False, False))': 225}
+
+Interpretation: in the order-8 FFF census, closure in all three views matches the stored group-isotopy flag exactly.

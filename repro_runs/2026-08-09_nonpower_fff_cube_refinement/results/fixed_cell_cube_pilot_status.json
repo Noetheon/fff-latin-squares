@@ -1,0 +1,303 @@
+{
+  "allowed_symbols": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base_cnf": {
+    "path": "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_12_z2_2_2_2_2_2.cnf",
+    "sha256": "29b760a10120828699c13f903ad843bedcb8b0ee5cc89a871417181afec23db6"
+  },
+  "case_excluded": false,
+  "claim_impact": {
+    "C38": "open",
+    "C40": "not_created"
+  },
+  "coverage": "rigorously complete and pairwise disjoint by proof_notes/fff_fixed_cell_cube_partition.md",
+  "cube_count": 7,
+  "cube_runs": [
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "command_template": [
+        "/opt/homebrew/bin/cadical",
+        "<deterministically reconstructed cube CNF>"
+      ],
+      "decoded_table_sha256": null,
+      "derived_cnf": {
+        "clauses": 340666,
+        "reconstruction": "base CNF plus unit clause 214 0",
+        "sha256": "774ab69d3778ac9dbf35e249caa52f9dbfaaefd2f849d32bf533dcd2a0ef27e5",
+        "stored": false,
+        "variables": 2350
+      },
+      "elapsed_seconds": 120.00598087505205,
+      "model_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_3_cadical.model",
+      "model_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_checked": "not_applicable",
+      "proof_log": false,
+      "result": "timeout",
+      "returncode": null,
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "stderr_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_3_cadical.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_3_cadical.stdout.log",
+      "stdout_sha256": "1e386b33ca9e2e8032a2754daa360576ac6e877518042700155126fa2015d80c",
+      "symbol": 3,
+      "timeout_seconds": 120.0,
+      "unit_variable": 214,
+      "validation": null
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "command_template": [
+        "/opt/homebrew/bin/cadical",
+        "<deterministically reconstructed cube CNF>"
+      ],
+      "decoded_table_sha256": null,
+      "derived_cnf": {
+        "clauses": 340666,
+        "reconstruction": "base CNF plus unit clause 215 0",
+        "sha256": "f14cf5cc84361f4c7a1b2d7633f0a966f889449238cdc841a918f96f06807cef",
+        "stored": false,
+        "variables": 2350
+      },
+      "elapsed_seconds": 120.00670091604115,
+      "model_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_4_cadical.model",
+      "model_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_checked": "not_applicable",
+      "proof_log": false,
+      "result": "timeout",
+      "returncode": null,
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "stderr_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_4_cadical.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_4_cadical.stdout.log",
+      "stdout_sha256": "ed979d5e9b7296fa9f6bb79dcb8ebe50a053e774458b538aa8e9fe6ee6b0907e",
+      "symbol": 4,
+      "timeout_seconds": 120.0,
+      "unit_variable": 215,
+      "validation": null
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "command_template": [
+        "/opt/homebrew/bin/cadical",
+        "<deterministically reconstructed cube CNF>"
+      ],
+      "decoded_table_sha256": null,
+      "derived_cnf": {
+        "clauses": 340666,
+        "reconstruction": "base CNF plus unit clause 216 0",
+        "sha256": "98702b51fd6674ee7d999186c9f6a9946e9655d318fc7e71d0cc2a2a3ebb459f",
+        "stored": false,
+        "variables": 2350
+      },
+      "elapsed_seconds": 120.00528587505687,
+      "model_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_5_cadical.model",
+      "model_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_checked": "not_applicable",
+      "proof_log": false,
+      "result": "timeout",
+      "returncode": null,
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "stderr_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_5_cadical.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_5_cadical.stdout.log",
+      "stdout_sha256": "82080f0cfca1b2cdcbe1043ac75dc0d7713ae7850bc54bc2ef64df4d47badf64",
+      "symbol": 5,
+      "timeout_seconds": 120.0,
+      "unit_variable": 216,
+      "validation": null
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "command_template": [
+        "/opt/homebrew/bin/cadical",
+        "<deterministically reconstructed cube CNF>"
+      ],
+      "decoded_table_sha256": null,
+      "derived_cnf": {
+        "clauses": 340666,
+        "reconstruction": "base CNF plus unit clause 217 0",
+        "sha256": "8e97dd3b2b85d6f1dd6337a19b39c103bbc47342ff41f806cedf6e2e9ad25275",
+        "stored": false,
+        "variables": 2350
+      },
+      "elapsed_seconds": 120.00805575004779,
+      "model_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_6_cadical.model",
+      "model_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_checked": "not_applicable",
+      "proof_log": false,
+      "result": "timeout",
+      "returncode": null,
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "stderr_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_6_cadical.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_6_cadical.stdout.log",
+      "stdout_sha256": "ab0fde08bd87de0ae24d826dc3612447e3a0f45aacf235ff7fa3b3134eaa6a11",
+      "symbol": 6,
+      "timeout_seconds": 120.0,
+      "unit_variable": 217,
+      "validation": null
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "command_template": [
+        "/opt/homebrew/bin/cadical",
+        "<deterministically reconstructed cube CNF>"
+      ],
+      "decoded_table_sha256": null,
+      "derived_cnf": {
+        "clauses": 340666,
+        "reconstruction": "base CNF plus unit clause 218 0",
+        "sha256": "f6ec450077e8477b8a809bbd7df4483d93e868211be5e5839a50e142e88c41c7",
+        "stored": false,
+        "variables": 2350
+      },
+      "elapsed_seconds": 120.00783212500392,
+      "model_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_7_cadical.model",
+      "model_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_checked": "not_applicable",
+      "proof_log": false,
+      "result": "timeout",
+      "returncode": null,
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "stderr_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_7_cadical.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_7_cadical.stdout.log",
+      "stdout_sha256": "a1cb35a80958a992fd5af488a8c2ba644cb36242210439a499ba57a560920fdf",
+      "symbol": 7,
+      "timeout_seconds": 120.0,
+      "unit_variable": 218,
+      "validation": null
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "command_template": [
+        "/opt/homebrew/bin/cadical",
+        "<deterministically reconstructed cube CNF>"
+      ],
+      "decoded_table_sha256": null,
+      "derived_cnf": {
+        "clauses": 340666,
+        "reconstruction": "base CNF plus unit clause 219 0",
+        "sha256": "cf5dda9cc7e9bac4de6115419cec9012538bacce73077c9a09e7cf10da78cd6a",
+        "stored": false,
+        "variables": 2350
+      },
+      "elapsed_seconds": 120.007104874996,
+      "model_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_8_cadical.model",
+      "model_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_checked": "not_applicable",
+      "proof_log": false,
+      "result": "timeout",
+      "returncode": null,
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "stderr_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_8_cadical.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_8_cadical.stdout.log",
+      "stdout_sha256": "d224b9849922592619cec1d4d0613636136b42e2092ac24314fec75c8b0f537e",
+      "symbol": 8,
+      "timeout_seconds": 120.0,
+      "unit_variable": 219,
+      "validation": null
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "command_template": [
+        "/opt/homebrew/bin/cadical",
+        "<deterministically reconstructed cube CNF>"
+      ],
+      "decoded_table_sha256": null,
+      "derived_cnf": {
+        "clauses": 340666,
+        "reconstruction": "base CNF plus unit clause 220 0",
+        "sha256": "a6b0e3dcee0a9e1d9afb3de54ddff943bbd8b7820e7d1c03575511d3390999b3",
+        "stored": false,
+        "variables": 2350
+      },
+      "elapsed_seconds": 120.00896262499737,
+      "model_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_9_cadical.model",
+      "model_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_checked": "not_applicable",
+      "proof_log": false,
+      "result": "timeout",
+      "returncode": null,
+      "solver": "/opt/homebrew/bin/cadical",
+      "solver_version": "3.0.0",
+      "stderr_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_9_cadical.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "repro_runs/2026-08-09_nonpower_fff_cube_refinement/logs/fixed_cell_cube_pilot/n10_row1_case_12_z2_2_2_2_2_2_cell_2_1_eq_9_cadical.stdout.log",
+      "stdout_sha256": "bbdac450cc22d678ef4d2650fbb5aee54416848a73055a399698c3563a2faf4e",
+      "symbol": 9,
+      "timeout_seconds": 120.0,
+      "unit_variable": 220,
+      "validation": null
+    }
+  ],
+  "excluded_symbols": [
+    0,
+    1,
+    2
+  ],
+  "fixed_cell": [
+    2,
+    1
+  ],
+  "max_workers": 4,
+  "result_counts": {
+    "timeout": 7
+  },
+  "row1_case_id": "n10_row1_case_12_z2_2_2_2_2_2",
+  "row1_permutation": [
+    1,
+    0,
+    3,
+    2,
+    5,
+    4,
+    7,
+    6,
+    9,
+    8
+  ],
+  "run_id": "2026-08-09_nonpower_fff_cube_refinement",
+  "timeout_seconds_per_cube": 120.0,
+  "validated_full_fff_candidate_found": false,
+  "var_map": {
+    "path": "repro_runs/2026-04-27_nonpower_fff_solver_runs/results/n10_full_row1case_colorgauge_colorbalance_n10_row1_case_12_z2_2_2_2_2_2_var_map.json",
+    "sha256": "b2b7d9cd6bebce088cee38195256238f1faa5b6d07d6f5b0e72f956d8b85ad8d"
+  },
+  "wall_elapsed_seconds": 240.232851415989
+}

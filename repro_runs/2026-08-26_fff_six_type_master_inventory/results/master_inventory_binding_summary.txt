@@ -1,0 +1,8 @@
+Six-type master inventory binding
+
+checks passed: 8/8
+involution master: 190080 candidates, 23760 tasks, 506 orbits
+noninvolution master: 172368 candidates, 18300 tasks, 386 orbits
+dense graph sizes: 4518201626 / 3716598842 bytes
+all checks passed: true
+boundary: inventory only; no palette exclusion

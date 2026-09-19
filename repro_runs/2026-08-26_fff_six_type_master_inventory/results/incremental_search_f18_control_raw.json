@@ -1,0 +1,14 @@
+{
+  "label": "incremental_search_f18_control",
+  "mode": "full",
+  "workers": 1,
+  "full_initial_tasks": 2520,
+  "total_initial_tasks": 2520,
+  "task_start": 0,
+  "task_end_exclusive": 2520,
+  "completed_tasks": 2520,
+  "search_nodes": 2658008,
+  "crossview_odd_cycle_prunes": 796328,
+  "fff_found": false,
+  "slice_complete": true
+}

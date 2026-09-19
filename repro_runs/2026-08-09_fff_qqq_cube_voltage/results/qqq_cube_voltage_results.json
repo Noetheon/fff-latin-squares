@@ -1,0 +1,47 @@
+{
+  "claim_effect": {
+    "C38": "open",
+    "C40": "absent",
+    "new_claims": [
+      "C49",
+      "C50"
+    ]
+  },
+  "evidence_labels": {
+    "n10_qqq_status": "open; bounded solver timeouts",
+    "p3_pairblock_obstruction": "exactly computed with independently checked DRAT traces",
+    "p5_pairblock_status": "open; bounded solver timeout",
+    "row1_cube_cover": "rigorously proved and exactly enumerated"
+  },
+  "n10_qqq_cube_cover": {
+    "complete_fff_cubes": 84,
+    "complete_qqq_cubes": 105,
+    "correction": "The 12 even-cycle Row1 cases are complete for row-F/FFF, not for QQQ; QQQ adds three 5+3+2 cases.",
+    "top_level_cases": 15
+  },
+  "n10_qqq_pilots": {
+    "case13_r3c1_s0_cube": "timeout",
+    "decoded_table_available": false,
+    "fff_validated": false,
+    "new_5_3_2_parent_case13": "timeout"
+  },
+  "p3_pairblock": {
+    "candidates_excluding_identity": 21,
+    "clique_encoding_proof_checked": true,
+    "clique_encoding_result": "unsat",
+    "compatible_edges": 72,
+    "maximum_clique_size": 3,
+    "maximum_family_size_including_identity": 4,
+    "required_family_size": 6,
+    "sharp_encoding_proof_checked": true,
+    "sharp_encoding_result": "unsat"
+  },
+  "p5_pairblock": {
+    "candidates_including_identity": 1546,
+    "cnf_sha256": "0c536c7ff17a280ddb420868261efacf5354f1f16d2d12d7912c55baae8c2ad3",
+    "compatible_pairs": 424905,
+    "incompatible_pairs": 769380,
+    "solver_result": "timeout",
+    "timeout_seconds": 300.0
+  }
+}

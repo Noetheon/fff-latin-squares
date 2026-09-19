@@ -1,0 +1,17 @@
+CaDiCaL solve summary
+
+label: n10_row1_case_09_z2_4_4_2_satsuma_kissat
+cnf: repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_09_z2_4_4_2_satsuma_fix_units.cnf
+cnf_sha256: c5dd1a628123141ba315a571e97ec54ee0007b2fc1d9c3859eb821545a88c140
+solver: /opt/homebrew/bin/kissat
+solver_version: 4.0.4
+command: /opt/homebrew/bin/kissat repro_runs/2026-08-09_nonpower_fff_cube_refinement/results/satsuma_row1_pilot/n10_row1_case_09_z2_4_4_2_satsuma_fix_units.cnf
+timeout_seconds: 300.0
+result: timeout
+elapsed_seconds: 300.007435
+proof_log_available: False
+proof_log_sha256: None
+model_available: False
+model_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+stdout_sha256: 80f1370610930c295c755ddc258ab1b2b5b2445c07bb6c3345403647284bad1c
+stderr_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

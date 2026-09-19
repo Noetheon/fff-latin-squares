@@ -1,0 +1,14 @@
+Pair-block wreath row-F clique CNF
+
+p: 3
+n: 6
+full_wreath_order: 48
+candidates_excluding_identity: 21
+target_clique_size: 5
+variables: 209
+clauses: 748
+compatible_pairs: 72
+incompatible_pairs: 138
+cnf_sha256: eb92171641c9850b36496f904f2dca8fbc64850a1dde57d6e5770f9b16734ef6
+elapsed_seconds: 0.001633
+scope: common pair-block imprimitive row-F model; not a global FFF model.

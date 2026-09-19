@@ -1,0 +1,13 @@
+{
+  "label": "p35",
+  "mode": "full",
+  "workers": 8,
+  "total_initial_tasks": 3656,
+  "task_start": 0,
+  "task_end_exclusive": 3656,
+  "completed_tasks": 3656,
+  "search_nodes": 22449129,
+  "crossview_odd_cycle_prunes": 8399725,
+  "fff_found": false,
+  "slice_complete": true
+}

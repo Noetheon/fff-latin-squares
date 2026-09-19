@@ -1,0 +1,338 @@
+{
+  "orders": [
+    {
+      "n": 2,
+      "reduced_count": 1,
+      "patterns_any_pairs": {
+        "(False, False, False)": 1
+      },
+      "patterns_first_factor_only": {
+        "(False, False, False)": 1
+      },
+      "parity_by_pattern": {
+        "(False, False, False)": {
+          "(-1, -1, -1)": 1
+        }
+      },
+      "examples": {
+        "(False, False, False)": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "reduced_count": 4,
+      "patterns_any_pairs": {
+        "(False, False, False)": 4
+      },
+      "patterns_first_factor_only": {
+        "(False, False, False)": 4
+      },
+      "parity_by_pattern": {
+        "(False, False, False)": {
+          "(1, 1, 1)": 4
+        }
+      },
+      "examples": {
+        "(False, False, False)": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            0,
+            2
+          ],
+          [
+            2,
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "reduced_count": 9408,
+      "patterns_any_pairs": {
+        "(True, True, True)": 6600,
+        "(True, False, False)": 936,
+        "(False, True, False)": 936,
+        "(False, False, True)": 936
+      },
+      "patterns_first_factor_only": {
+        "(True, False, False)": 1600,
+        "(False, False, True)": 1728,
+        "(True, True, True)": 864,
+        "(False, True, False)": 1600,
+        "(False, False, False)": 2192,
+        "(False, True, True)": 432,
+        "(True, True, False)": 560,
+        "(True, False, True)": 432
+      },
+      "parity_by_pattern": {
+        "(True, True, True)": {
+          "(-1, 1, 1)": 1200,
+          "(1, 1, -1)": 1200,
+          "(-1, -1, -1)": 3000,
+          "(1, -1, 1)": 1200
+        },
+        "(True, False, False)": {
+          "(-1, 1, 1)": 576,
+          "(-1, -1, -1)": 360
+        },
+        "(False, True, False)": {
+          "(1, -1, 1)": 576,
+          "(-1, -1, -1)": 360
+        },
+        "(False, False, True)": {
+          "(-1, -1, -1)": 360,
+          "(1, 1, -1)": 576
+        }
+      },
+      "examples": {
+        "(True, True, True)": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4
+          ],
+          [
+            2,
+            5,
+            1,
+            4,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            4,
+            5,
+            1,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1,
+            5,
+            0
+          ],
+          [
+            5,
+            4,
+            0,
+            2,
+            3,
+            1
+          ]
+        ],
+        "(True, False, False)": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4
+          ],
+          [
+            2,
+            5,
+            1,
+            4,
+            0,
+            3
+          ],
+          [
+            3,
+            4,
+            0,
+            5,
+            1,
+            2
+          ],
+          [
+            4,
+            2,
+            3,
+            1,
+            5,
+            0
+          ],
+          [
+            5,
+            0,
+            4,
+            2,
+            3,
+            1
+          ]
+        ],
+        "(False, True, False)": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            4,
+            5,
+            0,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            1,
+            5,
+            0
+          ],
+          [
+            3,
+            5,
+            1,
+            2,
+            0,
+            4
+          ],
+          [
+            4,
+            2,
+            0,
+            5,
+            3,
+            1
+          ],
+          [
+            5,
+            0,
+            3,
+            4,
+            1,
+            2
+          ]
+        ],
+        "(False, False, True)": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            4,
+            5,
+            0,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            5,
+            4
+          ],
+          [
+            3,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            4,
+            2,
+            3,
+            5,
+            0,
+            1
+          ],
+          [
+            5,
+            0,
+            1,
+            4,
+            3,
+            2
+          ]
+        ]
+      }
+    }
+  ],
+  "group_counterexamples": {
+    "Z2": {
+      "row": false,
+      "col": false,
+      "sym": false
+    },
+    "Z4": {
+      "row": false,
+      "col": false,
+      "sym": false
+    },
+    "Z8": {
+      "row": false,
+      "col": false,
+      "sym": false
+    },
+    "Z6": {
+      "row": true,
+      "col": true,
+      "sym": true
+    }
+  }
+}

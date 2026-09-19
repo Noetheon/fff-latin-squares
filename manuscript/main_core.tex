@@ -1,0 +1,124 @@
+\documentclass[11pt]{article}
+
+\ifdefined\pdftrailerid
+  \pdftrailerid{}
+\fi
+
+\usepackage[a4paper,margin=30mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,
+  urlcolor=blue!55!black]{hyperref}
+\hypersetup{
+  pdftitle={AI-generated Research Dossier - Odd-Cycle-Free Latin Squares: Products, Congruence Obstructions, and an Order-8 Census},
+  pdfauthor={},
+  pdfsubject={A compact structural and computational study of odd-cycle-free Latin squares},
+  pdfkeywords={Latin squares, quasigroups, Latin trades, direct products, congruences}
+}
+
+\title{Odd-Cycle-Free Latin Squares:\\
+  Products, Congruence Obstructions, and an Order-$8$ Census}
+\author{}
+\date{\small Preserved technical manuscript; read the preceding provenance statement}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{computationaltheorem}[theorem]{Computational Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\pat}{\operatorname{pat}}
+\newcommand{\rowv}{\mathrm{row}}
+\newcommand{\colv}{\mathrm{col}}
+\newcommand{\symv}{\mathrm{sym}}
+\newcommand{\FFF}{\mathsf{FFF}}
+\newcommand{\TTT}{\mathsf{TTT}}
+
+\newcommand{\DossierVariant}{Compact reading version}
+\begin{document}
+\input{dossier_frontmatter}
+
+
+\begin{center}
+{\LARGE Odd-Cycle-Free Latin Squares:\par}
+\vspace{0.35em}
+{\LARGE Products, Congruence Obstructions, and an Order-$8$ Census\par}
+\vspace{1.25em}
+{\small Preserved technical manuscript\par}
+\vspace{0.7em}
+
+{\small Read the preceding provenance statement\par}
+\end{center}
+\vspace{0.75em}
+
+\begin{abstract}
+For each pair of rows, columns, or symbols of a Latin square, the corresponding
+two-line permutation is fixed-point-free.  We call a view failing when one of
+these permutations has a nontrivial odd cycle, and call the square FFF when
+none of its three views fails.  Such cycles support Latin trades.  We prove
+the exact three-parity sign table: odd row- and column-view trades reverse the
+conventional row--column sign, while odd symbol-view trades preserve it and
+reverse the two parastrophic companion signs.
+
+We prove that odd-order squares are TTT, characterize FFF group tables, and
+give a basis-family closure criterion for group isotopy.  Failure patterns are
+monotone from Latin subsquares and are preserved exactly through congruences
+with two-element blocks; odd block size forces TTT.  Consequently every FFF
+quasigroup of order $2p$, for odd prime $p$, is congruence-simple in every
+isotope.  A twisted binary extension gives an explicit non-group-isotopic FFF
+loop of order $8$.  Nonuniversal binary line dependencies are in bijection
+with half-order subsquares and occur in complementary four-packs.  Hence an
+FFF square of order $2$ modulo $4$, greater than $2$, has maximal binary
+line-incidence rank.  Specializing known $3$-net character theory,
+nonuniversal prime-field line dependencies are balanced cyclic quotient
+homotopies.  Hence at order $2p$, for odd prime $p$, one F view forces a
+saturated integer line-incidence lattice.
+
+For direct products we prove
+\[
+  \pat(L\times K)=\pat(L)\mathbin{\mathrm{OR}}\pat(K)
+\]
+componentwise, and show that $L\times K$ is group-isotopic exactly when both
+factors are.  An exhaustive reproducible scan of the $283657$ order-$8$ main
+classes finds $230$ FFF classes, of which $225$ are not group-isotopic; all
+eight patterns occur.  Exact generation also shows that no order-$6$ FFF
+square exists.  Hence every order $2^m$, $m\geq3$, realizes all eight patterns
+and contains a non-group-isotopic FFF square.  These results motivate, but do
+not prove, the conjecture that nontrivial FFF squares exist exactly in
+power-of-two orders.
+\end{abstract}
+
+\noindent\textbf{Keywords.}
+Latin square; quasigroup congruence; Latin subsquare; Latin trade; direct
+product; computational enumeration.
+
+\medskip
+\noindent\textbf{2020 Mathematics Subject Classification.}
+Primary 05B15; Secondary 20N05, 05C70.
+
+\input{sections/00_status_note}
+\input{sections/01_introduction_core}
+\input{sections/02_definitions}
+\input{sections/03_structural_results}
+\input{sections/04_congruence_obstructions}
+\input{sections/04_direct_products}
+\input{sections/05_computational_core}
+\input{sections/06_reproducibility_core}
+\input{sections/07_open_problems_core}
+
+\footnotesize
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\end{document}

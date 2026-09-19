@@ -1,0 +1,95 @@
+{
+  "audit_version": "cellwise_holonomy_fourier_v1",
+  "claim_boundary": [
+    "C89 couples exact masks cellwise within one component.",
+    "It is not a cross-component or order-10 obstruction.",
+    "C38 remains open and C40 absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "compatible_potential_checks": 22759,
+      "component_cell_checks": 36184,
+      "component_count": 5782,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "0": 135,
+        "2": 5638,
+        "3": 9
+      },
+      "inversion_checks": 104848,
+      "name": "order10_tracked_partial",
+      "parseval_checks": 36184,
+      "table_count": 135,
+      "transform_checks": 104848
+    },
+    "order4_complete": {
+      "compatible_potential_checks": 120,
+      "component_cell_checks": 144,
+      "component_count": 27,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "2": 24,
+        "3": 3
+      },
+      "inversion_checks": 768,
+      "name": "order4_complete",
+      "parseval_checks": 144,
+      "table_count": 4,
+      "transform_checks": 768
+    },
+    "order6_complete": {
+      "compatible_potential_checks": 326176,
+      "component_cell_checks": 662400,
+      "component_count": 89068,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "0": 8640,
+        "1": 2208,
+        "2": 78160,
+        "3": 60
+      },
+      "inversion_checks": 1674360,
+      "name": "order6_complete",
+      "parseval_checks": 662400,
+      "table_count": 9408,
+      "transform_checks": 1674360
+    },
+    "order8_fff_complete": {
+      "compatible_potential_checks": 40989,
+      "component_cell_checks": 57976,
+      "component_count": 9768,
+      "error_count": 0,
+      "errors": [],
+      "exact_space_dimension_counts": {
+        "0": 13,
+        "1": 36,
+        "2": 9212,
+        "3": 507
+      },
+      "inversion_checks": 259940,
+      "name": "order8_fff_complete",
+      "parseval_checks": 57976,
+      "table_count": 230,
+      "transform_checks": 259940
+    }
+  },
+  "totals": {
+    "compatible_potential_checks": 390044,
+    "component_cell_checks": 756704,
+    "component_count": 104645,
+    "error_count": 0,
+    "exact_space_dimension_counts": {
+      "0": 8788,
+      "1": 2244,
+      "2": 93034,
+      "3": 579
+    },
+    "inversion_checks": 2039916,
+    "parseval_checks": 756704,
+    "table_count": 9777,
+    "transform_checks": 2039916
+  }
+}

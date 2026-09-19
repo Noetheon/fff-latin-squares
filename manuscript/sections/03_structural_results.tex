@@ -1,0 +1,83 @@
+\section{Elementary structural results}
+
+\subsection{Odd orders and group tables}
+
+\begin{proposition}\label{prop:odd-order}
+Every Latin square of odd order $n>1$ has pattern $\TTT$.
+\end{proposition}
+
+\begin{proof}
+By Lemma~\ref{lem:fixed-point-free}, every induced permutation between two
+distinct lines is fixed-point-free on an odd set.  If all of its nontrivial
+cycles were even, their lengths would have even sum.  Hence it has an odd
+cycle of length greater than one.  This argument applies separately to any
+pair of distinct rows, columns, and symbols.
+\end{proof}
+
+Let $G$ be a finite group and let $L_G(x,y)=xy$ be its Cayley table.
+
+\begin{proposition}\label{prop:group-tables}
+The row permutation induced by rows $a,b$ of $L_G$ is left multiplication by
+$b^{-1}a$.  The column permutation induced by columns $c,d$ is right
+multiplication by $cd^{-1}$.  The symbol permutation induced by symbols
+$u,v$ is right multiplication by $u^{-1}v$.  Each cycle length is therefore
+the order of the corresponding group element.
+\end{proposition}
+
+\begin{proof}
+The row identity is
+$r_b^{-1}r_a(x)=b^{-1}ax$.  Likewise
+$q_d^{-1}q_c(x)=xcd^{-1}$.  Finally, $s_u(c)=uc^{-1}$ and
+$s_v^{-1}(a)=a^{-1}v$, whence
+$s_v^{-1}s_u(c)=cu^{-1}v$.  Left or right multiplication by $g$ has orbits
+equal to cosets of $\langle g\rangle$, all of length $\operatorname{ord}(g)$.
+\end{proof}
+
+\begin{corollary}\label{cor:group-fff}
+The Cayley table of a finite group $G$ is FFF if and only if $G$ is a
+$2$-group.
+\end{corollary}
+
+\begin{proof}
+If $G$ is a $2$-group, every nonidentity element has even order, so
+Proposition~\ref{prop:group-tables} gives no nontrivial odd cycle.  Conversely,
+if $|G|$ has an odd prime divisor, Cauchy's theorem supplies a nonidentity
+element of odd order; the corresponding induced permutations give a failing
+view.
+\end{proof}
+
+\subsection{A closure criterion for group isotopy}
+
+Fix a base row $b$ of a Latin square $L$ and define
+\[
+ H_L(b)=\{r_b^{-1}r_x:x\in X\}\subseteq\operatorname{Sym}(X).
+\]
+
+\begin{proposition}[Basis-family closure criterion]\label{prop:closure}
+A Latin square $L$ is isotopic to a group table if and only if $H_L(b)$ is
+closed under composition.  This condition is independent of the chosen base
+row.
+\end{proposition}
+
+\begin{proof}
+Suppose first that $H=H_L(b)$ is closed.  It contains the identity, has
+$|X|$ distinct elements, and is a finite submonoid of a symmetric group;
+hence it is a group.  For each $z\in X$, the values
+$(r_b^{-1}r_x)(z)$, as $x$ varies, are all distinct, since a column of $L$
+contains every symbol once.  Thus $H$ acts regularly on $X$.
+
+Fix $z_0\in X$.  Relabel rows by $x\mapsto h_x=r_b^{-1}r_x$.  Use the regular
+action to identify every column $z$ with the unique $h_z\in H$ satisfying
+$h_z(z_0)=z$, and identify every relabeled symbol $r_b^{-1}(u)$ in the same
+way.  The entry in row $h_x$ and column $h_z$ is represented by the unique
+element sending $z_0$ to $h_xh_z(z_0)$, namely $h_xh_z$.  The resulting
+isotope is therefore the Cayley table of $H$.
+
+Conversely, for a group table the family at base row $b$ is the full left
+regular representation $\{\lambda_{b^{-1}x}:x\in G\}$ and is closed.
+Isotopy conjugates the family and relabels its members, preserving closure.
+The same argument for any base row proves base independence.
+\end{proof}
+
+The same criterion can equivalently be written in the column or symbol view,
+by parastrophy.

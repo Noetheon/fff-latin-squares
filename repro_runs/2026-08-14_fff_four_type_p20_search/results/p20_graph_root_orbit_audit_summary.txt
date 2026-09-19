@@ -1,0 +1,8 @@
+Four-type graph root-orbit audit
+
+graph SHA-256: 165df10b50bf85bb33d25654ec1cd9e489f3f8f64538eafef7e946cb564808cf
+group size: 8
+full tasks/orbits: 14648/1831
+orbit sizes: {8: 1831}
+covered tasks: 14648
+valid: true

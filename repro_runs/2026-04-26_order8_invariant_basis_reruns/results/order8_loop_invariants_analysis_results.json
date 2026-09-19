@@ -1,0 +1,619 @@
+{
+  "by_line": {
+    "10776": {
+      "antiautomorphic_inverse_property": false,
+      "associative": false,
+      "automorphism_group_size": 1,
+      "center": [
+        0
+      ],
+      "commutant": [
+        0
+      ],
+      "commutative": false,
+      "flexible": false,
+      "inner_mapping_group_size": 5040,
+      "inverse_coincide": false,
+      "inverse_property": false,
+      "left_alternative": false,
+      "left_inverse_map": [
+        0,
+        7,
+        6,
+        1,
+        3,
+        4,
+        5,
+        2
+      ],
+      "left_inverse_property": false,
+      "left_nucleus": [
+        0
+      ],
+      "left_translation_cycle_types": {
+        "(4, 4)": 3,
+        "(8,)": 4
+      },
+      "left_translation_group_size": 40320,
+      "middle_nucleus": [
+        0
+      ],
+      "multiplication_group_size": 40320,
+      "nucleus": [
+        0
+      ],
+      "right_alternative": false,
+      "right_inverse_map": [
+        0,
+        3,
+        7,
+        4,
+        5,
+        6,
+        2,
+        1
+      ],
+      "right_inverse_property": false,
+      "right_nucleus": [
+        0
+      ],
+      "right_translation_cycle_types": {
+        "(4, 4)": 3,
+        "(8,)": 4
+      },
+      "right_translation_group_size": 40320
+    },
+    "11": {
+      "antiautomorphic_inverse_property": true,
+      "associative": true,
+      "automorphism_group_size": 8,
+      "center": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "commutant": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "commutative": true,
+      "flexible": true,
+      "inner_mapping_group_size": 1,
+      "inverse_coincide": true,
+      "inverse_property": true,
+      "left_alternative": true,
+      "left_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        7
+      ],
+      "left_inverse_property": true,
+      "left_nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "left_translation_cycle_types": {
+        "(2, 2, 2, 2)": 3,
+        "(4, 4)": 4
+      },
+      "left_translation_group_size": 8,
+      "middle_nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "multiplication_group_size": 8,
+      "nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "right_alternative": true,
+      "right_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        7
+      ],
+      "right_inverse_property": true,
+      "right_nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "right_translation_cycle_types": {
+        "(2, 2, 2, 2)": 3,
+        "(4, 4)": 4
+      },
+      "right_translation_group_size": 8
+    },
+    "114": {
+      "antiautomorphic_inverse_property": false,
+      "associative": false,
+      "automorphism_group_size": 4,
+      "center": [
+        0,
+        2
+      ],
+      "commutant": [
+        0,
+        2
+      ],
+      "commutative": false,
+      "flexible": false,
+      "inner_mapping_group_size": 4,
+      "inverse_coincide": false,
+      "inverse_property": false,
+      "left_alternative": false,
+      "left_inverse_map": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        4,
+        6
+      ],
+      "left_inverse_property": false,
+      "left_nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "left_translation_cycle_types": {
+        "(2, 2, 2, 2)": 3,
+        "(4, 4)": 4
+      },
+      "left_translation_group_size": 16,
+      "middle_nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "multiplication_group_size": 32,
+      "nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "right_alternative": false,
+      "right_inverse_map": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        4,
+        7,
+        5
+      ],
+      "right_inverse_property": false,
+      "right_nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "right_translation_cycle_types": {
+        "(2, 2, 2, 2)": 3,
+        "(4, 4)": 4
+      },
+      "right_translation_group_size": 16
+    },
+    "13": {
+      "antiautomorphic_inverse_property": true,
+      "associative": true,
+      "automorphism_group_size": 4,
+      "center": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "commutant": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "commutative": true,
+      "flexible": true,
+      "inner_mapping_group_size": 1,
+      "inverse_coincide": true,
+      "inverse_property": true,
+      "left_alternative": true,
+      "left_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        6,
+        7,
+        4,
+        5
+      ],
+      "left_inverse_property": true,
+      "left_nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "left_translation_cycle_types": {
+        "(2, 2, 2, 2)": 1,
+        "(4, 4)": 2,
+        "(8,)": 4
+      },
+      "left_translation_group_size": 8,
+      "middle_nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "multiplication_group_size": 8,
+      "nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "right_alternative": true,
+      "right_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        6,
+        7,
+        4,
+        5
+      ],
+      "right_inverse_property": true,
+      "right_nucleus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "right_translation_cycle_types": {
+        "(2, 2, 2, 2)": 1,
+        "(4, 4)": 2,
+        "(8,)": 4
+      },
+      "right_translation_group_size": 8
+    },
+    "19": {
+      "antiautomorphic_inverse_property": false,
+      "associative": false,
+      "automorphism_group_size": 4,
+      "center": [
+        0,
+        1
+      ],
+      "commutant": [
+        0,
+        1
+      ],
+      "commutative": false,
+      "flexible": false,
+      "inner_mapping_group_size": 4,
+      "inverse_coincide": false,
+      "inverse_property": false,
+      "left_alternative": false,
+      "left_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        6,
+        7,
+        5,
+        4
+      ],
+      "left_inverse_property": false,
+      "left_nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "left_translation_cycle_types": {
+        "(2, 2, 2, 2)": 1,
+        "(4, 4)": 2,
+        "(8,)": 4
+      },
+      "left_translation_group_size": 16,
+      "middle_nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "multiplication_group_size": 32,
+      "nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "right_alternative": false,
+      "right_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        7,
+        6,
+        4,
+        5
+      ],
+      "right_inverse_property": false,
+      "right_nucleus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "right_translation_cycle_types": {
+        "(2, 2, 2, 2)": 1,
+        "(4, 4)": 2,
+        "(8,)": 4
+      },
+      "right_translation_group_size": 16
+    },
+    "1955": {
+      "antiautomorphic_inverse_property": false,
+      "associative": false,
+      "automorphism_group_size": 4,
+      "center": [
+        0,
+        7
+      ],
+      "commutant": [
+        0,
+        7
+      ],
+      "commutative": false,
+      "flexible": false,
+      "inner_mapping_group_size": 8,
+      "inverse_coincide": true,
+      "inverse_property": false,
+      "left_alternative": false,
+      "left_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        7
+      ],
+      "left_inverse_property": true,
+      "left_nucleus": [
+        0,
+        7
+      ],
+      "left_translation_cycle_types": {
+        "(2, 2, 2, 2)": 3,
+        "(4, 4)": 4
+      },
+      "left_translation_group_size": 16,
+      "middle_nucleus": [
+        0,
+        7
+      ],
+      "multiplication_group_size": 64,
+      "nucleus": [
+        0,
+        7
+      ],
+      "right_alternative": false,
+      "right_inverse_map": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        7
+      ],
+      "right_inverse_property": false,
+      "right_nucleus": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "right_translation_cycle_types": {
+        "(2, 2, 2, 2)": 3,
+        "(8,)": 4
+      },
+      "right_translation_group_size": 32
+    },
+    "85446": {
+      "antiautomorphic_inverse_property": false,
+      "associative": false,
+      "automorphism_group_size": 4,
+      "center": [
+        0,
+        6
+      ],
+      "commutant": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "commutative": false,
+      "flexible": false,
+      "inner_mapping_group_size": 8,
+      "inverse_coincide": false,
+      "inverse_property": false,
+      "left_alternative": false,
+      "left_inverse_map": [
+        0,
+        2,
+        7,
+        4,
+        3,
+        1,
+        6,
+        5
+      ],
+      "left_inverse_property": false,
+      "left_nucleus": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "left_translation_cycle_types": {
+        "(2, 2, 2, 2)": 1,
+        "(4, 4)": 6
+      },
+      "left_translation_group_size": 32,
+      "middle_nucleus": [
+        0,
+        6
+      ],
+      "multiplication_group_size": 64,
+      "nucleus": [
+        0,
+        6
+      ],
+      "right_alternative": true,
+      "right_inverse_map": [
+        0,
+        5,
+        1,
+        4,
+        3,
+        7,
+        6,
+        2
+      ],
+      "right_inverse_property": false,
+      "right_nucleus": [
+        0,
+        6
+      ],
+      "right_translation_cycle_types": {
+        "(2, 2, 2, 2)": 1,
+        "(4, 4)": 2,
+        "(8,)": 4
+      },
+      "right_translation_group_size": 16
+    }
+  },
+  "comparison_lines": [
+    11,
+    13,
+    19,
+    114,
+    1955,
+    10776,
+    85446
+  ],
+  "main_findings": {
+    "group_like_exceptions_19_114_are_nonassociative": true,
+    "line_114_differs_from_C4xC2_line_11_by_nucleus_center_and_group_sizes": true,
+    "line_19_and_114_are_noncommutative_nonIP_nonflexible": true,
+    "line_19_and_114_have_trivial_nucleus_and_center": true,
+    "line_19_differs_from_C8_line_13_by_nucleus_center_and_group_sizes": true
+  },
+  "profile_classes": {
+    "((0, 1, 2, 3), (0, 1, 2, 3), (0, 1, 2, 3), (0, 1), False, False, False, False, False, False, False, 16, 16, 32, 4, 4)": [
+      19
+    ],
+    "((0, 1, 2, 3), (0, 1, 2, 3), (0, 1, 2, 3), (0, 2), False, False, False, False, False, False, False, 16, 16, 32, 4, 4)": [
+      114
+    ],
+    "((0, 1, 2, 3, 4, 5, 6, 7), (0, 1, 2, 3, 4, 5, 6, 7), (0, 1, 2, 3, 4, 5, 6, 7), (0, 1, 2, 3, 4, 5, 6, 7), True, True, True, True, True, True, True, 8, 8, 8, 1, 4)": [
+      13
+    ],
+    "((0, 1, 2, 3, 4, 5, 6, 7), (0, 1, 2, 3, 4, 5, 6, 7), (0, 1, 2, 3, 4, 5, 6, 7), (0, 1, 2, 3, 4, 5, 6, 7), True, True, True, True, True, True, True, 8, 8, 8, 1, 8)": [
+      11
+    ],
+    "((0, 3, 4, 6), (0, 6), (0, 6), (0, 6), False, False, False, False, False, True, False, 32, 16, 64, 8, 4)": [
+      85446
+    ],
+    "((0, 7), (0, 7), (0, 1, 6, 7), (0, 7), False, True, False, False, False, False, False, 16, 32, 64, 8, 4)": [
+      1955
+    ],
+    "((0,), (0,), (0,), (0,), False, False, False, False, False, False, False, 40320, 40320, 40320, 5040, 1)": [
+      10776
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+Independent Cliquer 1.21 f16 check
+
+requested clique size: 8
+maximum seen below request: 5
+result: no_clique_of_size_8
+graph SHA-256: de11a3cbd7e069cb53f1b5f4741ea08b1836e5e6af176db3e2c083272b1eec8f
+DIMACS SHA-256: d5e7a8cb12282ba838bb771272d1c46f6974c3d6cea446a5f97b6f67d11402f1
+Cliquer source SHA-256: ff306d27eda82383c0257065e3ffab028415ac9af73bccfdd9c2405b797ed1f1
+valid: true

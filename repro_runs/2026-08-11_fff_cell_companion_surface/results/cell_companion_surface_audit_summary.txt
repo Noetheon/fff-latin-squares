@@ -1,0 +1,58 @@
+Cell-companion surface audit
+
+table count: 9777
+component count: 104645
+flag count: 1918172
+orientation edge checks: 2877258
+cell edge face checks: 2877258
+link vertex degree checks: 5754516
+link colour neighbor checks: 5754516
+link cycle checks: 858970
+link cycle length sum: 5754516
+normalized surface checks: 104645
+intercalate sphere checks: 92472
+total link cycles: 858970
+total normalized genus: 154703
+error count: 0
+
+order4_complete
+- tables/components/flags: 4 / 27 / 192
+- orientation / cell-edge checks: 288 / 288
+- link degree / colour / cycle checks: 576 / 576 / 144
+- normalized surfaces / intercalate spheres: 27 / 24
+- genus distribution: {0: 24, 1: 3}
+- dimension-zero genus distribution: {}
+- errors: 0
+
+order6_complete
+- tables/components/flags: 9408 / 89068 / 1693440
+- orientation / cell-edge checks: 2540160 / 2540160
+- link degree / colour / cycle checks: 5080320 / 5080320 / 748800
+- normalized surfaces / intercalate spheres: 89068 / 77760
+- genus distribution: {0: 77760, 1: 1980, 4: 360, 9: 540, 10: 40, 13: 1260, 14: 3240, 16: 1188, 18: 2700}
+- dimension-zero genus distribution: {9: 540, 13: 1080, 14: 3240, 16: 1080, 18: 2700}
+- errors: 0
+
+order8_fff_complete
+- tables/components/flags: 230 / 9768 / 103040
+- orientation / cell-edge checks: 154560 / 154560
+- link degree / colour / cycle checks: 309120 / 309120 / 62516
+- normalized surfaces / intercalate spheres: 9768 / 9050
+- genus distribution: {0: 9050, 1: 494, 5: 8, 6: 1, 7: 3, 8: 2, 9: 21, 10: 2, 11: 9, 12: 5, 13: 32, 14: 2, 15: 20, 16: 11, 17: 38, 18: 7, 19: 8, 20: 1, 21: 17, 22: 3, 23: 6, 25: 10, 27: 1, 29: 3, 33: 7, 35: 1, 37: 2, 41: 2, 49: 1, 65: 1}
+- dimension-zero genus distribution: {25: 2, 29: 2, 33: 3, 35: 1, 37: 2, 41: 2, 49: 1}
+- errors: 0
+
+order10_tracked_partial
+- tables/components/flags: 135 / 5782 / 121500
+- orientation / cell-edge checks: 182250 / 182250
+- link degree / colour / cycle checks: 364500 / 364500 / 47510
+- normalized surfaces / intercalate spheres: 5782 / 5638
+- genus distribution: {0: 5638, 1: 9, 71: 7, 73: 7, 75: 1, 77: 4, 79: 1, 81: 7, 84: 5, 85: 3, 87: 13, 89: 7, 91: 20, 93: 10, 95: 3, 96: 1, 97: 3, 99: 3, 101: 3, 103: 17, 104: 1, 106: 1, 107: 10, 109: 7, 111: 1}
+- dimension-zero genus distribution: {71: 7, 73: 7, 75: 1, 77: 4, 79: 1, 81: 7, 84: 5, 85: 3, 87: 13, 89: 7, 91: 20, 93: 10, 95: 3, 96: 1, 97: 3, 99: 3, 101: 3, 103: 17, 104: 1, 106: 1, 107: 10, 109: 7, 111: 1}
+- errors: 0
+
+Boundary:
+- C95 is rigorous and exactly audited.
+- It is a joint rainbow-triangle realization constraint beyond C94 graphicality.
+- It does not decide order 10.
+- C38 remains open and C40 absent.

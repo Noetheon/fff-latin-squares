@@ -1,0 +1,9 @@
+Primitive-group F-clique SAT solve
+
+result: unsat
+elapsed_seconds: 0.004745
+timeout_seconds: 60.0
+solver: 3.0.0
+cnf_sha256: 1d5caea58880733cdec1728a2368f4445ba7685c1a17d77c6ee33093bf0a7352
+proof_complete_unsat_trace: True
+model_available: False

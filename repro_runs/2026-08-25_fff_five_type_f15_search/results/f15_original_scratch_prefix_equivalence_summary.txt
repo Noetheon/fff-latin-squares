@@ -1,0 +1,7 @@
+f15 original versus incremental-scratch prefix
+
+slices/tasks compared: 30/7500
+semantic fields match: true
+task/graph bindings match: true
+all complete negative: true
+valid: true

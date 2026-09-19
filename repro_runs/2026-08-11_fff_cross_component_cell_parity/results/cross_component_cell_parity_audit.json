@@ -1,0 +1,233 @@
+{
+  "audit_version": "cross_component_cell_parity_v1",
+  "claim_boundary": [
+    "C91 is rigorous and exactly audited.",
+    "The gluing law gives a binary decomposition of the C84 X endpoint layer.",
+    "It does not identify component gauges and does not decide order 10.",
+    "C38 remains open and C40 absent."
+  ],
+  "datasets": {
+    "order10_tracked_partial": {
+      "cell_checks": 13500,
+      "component_cell_checks": 36184,
+      "component_count": 5782,
+      "component_line_incidence_checks": 173460,
+      "component_line_parity_checks": 173460,
+      "cross_parity_checks": 13500,
+      "delta_even_checks": 144,
+      "error_count": 0,
+      "errors": [],
+      "even_iota_forced_cells": 5872,
+      "exact_space_dimensions": {
+        "0": 135,
+        "2": 5638,
+        "3": 9
+      },
+      "global_edge_budget_checks": 4050,
+      "intercalate_component_cell_checks": 22552,
+      "intercalate_refinement_checks": 13500,
+      "iota_distribution": {
+        "0": 1391,
+        "1": 5541,
+        "2": 3948,
+        "3": 1802,
+        "4": 481,
+        "5": 269,
+        "6": 52,
+        "7": 8,
+        "9": 8
+      },
+      "name": "order10_tracked_partial",
+      "odd_iota_cells": 7628,
+      "odd_nonintercalate_count_distribution": {
+        "0": 7628,
+        "1": 5872
+      },
+      "odd_nonintercalate_zero_incidences": 5872,
+      "odd_zero_component_incidences": 28424,
+      "odd_zero_count_distribution": {
+        "1": 6932,
+        "3": 5750,
+        "5": 750,
+        "7": 60,
+        "9": 8
+      },
+      "table_count": 135,
+      "x_layer_parity_checks": 13500
+    },
+    "order4_complete": {
+      "cell_checks": 64,
+      "component_cell_checks": 144,
+      "component_count": 27,
+      "component_line_incidence_checks": 324,
+      "component_line_parity_checks": 324,
+      "cross_parity_checks": 64,
+      "delta_even_checks": 48,
+      "error_count": 0,
+      "errors": [],
+      "even_iota_forced_cells": 0,
+      "exact_space_dimensions": {
+        "2": 24,
+        "3": 3
+      },
+      "global_edge_budget_checks": 48,
+      "intercalate_component_cell_checks": 96,
+      "intercalate_refinement_checks": 64,
+      "iota_distribution": {
+        "1": 48,
+        "3": 16
+      },
+      "name": "order4_complete",
+      "odd_iota_cells": 64,
+      "odd_nonintercalate_count_distribution": {
+        "0": 64
+      },
+      "odd_nonintercalate_zero_incidences": 0,
+      "odd_zero_component_incidences": 96,
+      "odd_zero_count_distribution": {
+        "1": 48,
+        "3": 16
+      },
+      "table_count": 4,
+      "x_layer_parity_checks": 64
+    },
+    "order6_complete": {
+      "cell_checks": 338688,
+      "component_cell_checks": 662400,
+      "component_count": 89068,
+      "component_line_incidence_checks": 1603224,
+      "component_line_parity_checks": 1603224,
+      "cross_parity_checks": 338688,
+      "delta_even_checks": 29160,
+      "error_count": 0,
+      "errors": [],
+      "even_iota_forced_cells": 178560,
+      "exact_space_dimensions": {
+        "0": 8640,
+        "1": 2208,
+        "2": 78160,
+        "3": 60
+      },
+      "global_edge_budget_checks": 169344,
+      "intercalate_component_cell_checks": 311040,
+      "intercalate_refinement_checks": 338688,
+      "iota_distribution": {
+        "0": 126720,
+        "1": 138240,
+        "2": 51840,
+        "3": 20160,
+        "5": 1728
+      },
+      "name": "order6_complete",
+      "odd_iota_cells": 160128,
+      "odd_nonintercalate_count_distribution": {
+        "0": 160128,
+        "1": 178560
+      },
+      "odd_nonintercalate_zero_incidences": 178560,
+      "odd_zero_component_incidences": 489600,
+      "odd_zero_count_distribution": {
+        "1": 264960,
+        "3": 72000,
+        "5": 1728
+      },
+      "table_count": 9408,
+      "x_layer_parity_checks": 338688
+    },
+    "order8_fff_complete": {
+      "cell_checks": 14720,
+      "component_cell_checks": 57976,
+      "component_count": 9768,
+      "component_line_incidence_checks": 234432,
+      "component_line_parity_checks": 234432,
+      "cross_parity_checks": 14720,
+      "delta_even_checks": 8912,
+      "error_count": 0,
+      "errors": [],
+      "even_iota_forced_cells": 4792,
+      "exact_space_dimensions": {
+        "0": 13,
+        "1": 36,
+        "2": 9212,
+        "3": 507
+      },
+      "global_edge_budget_checks": 5520,
+      "intercalate_component_cell_checks": 36200,
+      "intercalate_refinement_checks": 14720,
+      "iota_distribution": {
+        "0": 354,
+        "1": 4306,
+        "2": 3249,
+        "3": 3989,
+        "4": 1189,
+        "5": 1379,
+        "7": 254
+      },
+      "name": "order8_fff_complete",
+      "odd_iota_cells": 9928,
+      "odd_nonintercalate_count_distribution": {
+        "0": 9904,
+        "1": 4792,
+        "2": 24
+      },
+      "odd_nonintercalate_zero_incidences": 4840,
+      "odd_zero_component_incidences": 41040,
+      "odd_zero_count_distribution": {
+        "1": 4636,
+        "3": 7262,
+        "5": 2568,
+        "7": 254
+      },
+      "table_count": 230,
+      "x_layer_parity_checks": 14720
+    }
+  },
+  "totals": {
+    "cell_checks": 366972,
+    "component_cell_checks": 756704,
+    "component_count": 104645,
+    "component_line_incidence_checks": 2011440,
+    "component_line_parity_checks": 2011440,
+    "cross_parity_checks": 366972,
+    "delta_even_checks": 38264,
+    "error_count": 0,
+    "even_iota_forced_cells": 189224,
+    "exact_space_dimensions": {
+      "0": 8788,
+      "1": 2244,
+      "2": 93034,
+      "3": 579
+    },
+    "global_edge_budget_checks": 178962,
+    "intercalate_component_cell_checks": 369888,
+    "intercalate_refinement_checks": 366972,
+    "iota_distribution": {
+      "0": 128465,
+      "1": 148135,
+      "2": 59037,
+      "3": 25967,
+      "4": 1670,
+      "5": 3376,
+      "6": 52,
+      "7": 262,
+      "9": 8
+    },
+    "odd_iota_cells": 177748,
+    "odd_nonintercalate_count_distribution": {
+      "0": 177724,
+      "1": 189224,
+      "2": 24
+    },
+    "odd_nonintercalate_zero_incidences": 189272,
+    "odd_zero_component_incidences": 559160,
+    "odd_zero_count_distribution": {
+      "1": 276576,
+      "3": 85028,
+      "5": 5046,
+      "7": 314,
+      "9": 8
+    },
+    "table_count": 9777,
+    "x_layer_parity_checks": 366972
+  }
+}

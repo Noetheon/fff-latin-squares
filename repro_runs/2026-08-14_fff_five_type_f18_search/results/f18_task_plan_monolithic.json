@@ -1,0 +1,164 @@
+{
+  "case": {
+    "case_id": "f18",
+    "filter_level": 2,
+    "palette_canonical": [
+      "2+2+2+2+2",
+      "4+2+2+2",
+      "4+4+2",
+      "6+4",
+      "8+2"
+    ],
+    "root_type": "2+2+2+2+2"
+  },
+  "graph": {
+    "audit_binding_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_graph_audit_binding.json",
+    "audit_binding_sha256": "6faeb532d329920bc44701e7aae359407d1b92ad95e6815ce66bbf6e4d10b174",
+    "bucket_sizes": [
+      2520,
+      2520,
+      2520,
+      2520,
+      2520,
+      2520,
+      2520,
+      2520
+    ],
+    "canonical_root": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8
+    ],
+    "format": "O8HTv1-le",
+    "path_hint": "external/Order8_external_graphs/2026-08-14_five_type/f18/f18.bin",
+    "semantic_audit_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_complete_graph_audit.json",
+    "semantic_audit_sha256": "412c505c6b5bc398df339ef6b3dda9efbeaa545bf673137132ca2297a9f5360a",
+    "semantic_audit_valid": true,
+    "sha256": "c4f46131f9a60708b6410502a2765ce85db3f9bbf38efdf5217316fa7d010510",
+    "size_bytes": 51004826,
+    "structural_audit_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_structural_graph_audit.json",
+    "structural_audit_sha256": "c98ca867d46a940597124b6bb1f650939dbdd0e46a15285b4b30e527ac278e57",
+    "vertices": 20160,
+    "words": 315
+  },
+  "plan_payload_sha256": "0072aaff27a6335b9f430fef0f7844d634d2025f00a7b676584409b2c63ff758",
+  "schema_version": "five-type-task-plan-v1",
+  "search": {
+    "binary_path_hint": "/private/tmp/order8_f18/search",
+    "binary_sha256": "183b305457cb85011a6c5289a2e0eb4ac3b0ca2f37824ab83dca5855fd41c3b2",
+    "compiler": "/usr/bin/clang++",
+    "compiler_version": "Apple clang 21.0.0 (clang-2100.1.1.101)",
+    "flags": [
+      "-O3",
+      "-std=c++20",
+      "-pthread",
+      "-mcpu=apple-m4"
+    ],
+    "source_bundle_sha256": "89890f1203cba6bbd65512fb27b18e700f9df3dc4eb96b6e14c9231f0424e337",
+    "sources": [
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f18_search/scripts/search_partite_fff.cpp",
+        "sha256": "ec541446455833b9c3044b140a280de162751933a98eefa2ad78104067a88652"
+      },
+      {
+        "path": "repro_runs/2026-08-14_fff_five_type_f18_search/scripts/partial_cycle.hpp",
+        "sha256": "dbfc441440be14f9c1cb08916755698a8c583045a251db4baa22e9ad199c3b82"
+      }
+    ]
+  },
+  "tasking": {
+    "full_initial_tasks": 2520,
+    "full_task_vertices_sha256": "5dd0154a2ee45ad869af923d2e982706a88c2eb34d543ff2ce90a2ecb29ad815",
+    "initial_bucket": 0,
+    "initial_bucket_value": 2,
+    "policy": "minimum_bucket_then_smallest_bucket_id",
+    "slice_width": 58,
+    "slices": [
+      {
+        "count": 58,
+        "end_exclusive": 58,
+        "ordinal": 0,
+        "slice_id": "s0000",
+        "start": 0,
+        "task_vertices_sha256": "e021566dcbc16a1e29b206efc6300d33a3885315fbbf282f5845aee48951b3c9"
+      }
+    ],
+    "task_list_sha256": "b0aee9b5df60398c7cdf1357d7f18e6d8481e071bbe6e53c1f15cfd89baca4ae",
+    "task_reduction": {
+      "audit_path": "repro_runs/2026-08-14_fff_five_type_f18_search/results/f18_graph_root_orbit_audit.json",
+      "audit_sha256": "792f2493d1ab01e552b9fe174c957a8f67e22ae9270d7dc97c174b1e2f5862c6",
+      "full_initial_tasks": 2520,
+      "selected_initial_tasks": 58,
+      "task_file_path": "repro_runs/2026-08-14_fff_five_type_f18_search/data/f18_task_ordinals.txt",
+      "task_file_sha256": "078bab363aada10ae2412fd652c9a0cfc697153769fdbde8c2e12495d5061f8f"
+    },
+    "task_vertices": [
+      0,
+      1,
+      96,
+      98,
+      144,
+      145,
+      240,
+      241,
+      256,
+      258,
+      259,
+      274,
+      275,
+      278,
+      298,
+      300,
+      308,
+      310,
+      318,
+      320,
+      321,
+      322,
+      326,
+      327,
+      366,
+      368,
+      370,
+      372,
+      386,
+      388,
+      389,
+      404,
+      406,
+      407,
+      428,
+      430,
+      432,
+      433,
+      434,
+      435,
+      440,
+      442,
+      443,
+      446,
+      448,
+      449,
+      452,
+      454,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465
+    ],
+    "total_initial_tasks": 58
+  }
+}

@@ -1,0 +1,10 @@
+case: p34
+graph_sha256: d3a96b3c76add4243b26eb017ef83cb38b1994af045866aa2474d7e992da20bd
+expected_source: established-by-this-run
+audit_sha256: b27c686ffeab136a9aba159fae90d3c7b471ba726dbbdcabeb003840251c6945
+search_sha256: 444ac3f2a1fe5aa104efcb912c0af678b1806747fcc93d5cbbdeb56c2c0749a7
+audit_valid: true
+reverse_edge_errors: 0
+search_complete: true
+fff_found: false
+all_checks_passed: true

@@ -1,0 +1,92 @@
+{
+  "commutative_lines": [
+    2,
+    12,
+    21,
+    118,
+    142,
+    143,
+    1921,
+    2372,
+    2596,
+    18434,
+    36815,
+    119984
+  ],
+  "extended_cluster_count": 225,
+  "extended_cluster_size_distribution": {
+    "1": 225
+  },
+  "largest_extended_clusters": [
+    {
+      "lines": [
+        281470
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        275769
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        270853
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        270299
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        267980
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        261034
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        260988
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        259257
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        258609
+      ],
+      "size": 1
+    },
+    {
+      "lines": [
+        256405
+      ],
+      "size": 1
+    }
+  ],
+  "line_10776_cluster": [
+    10776
+  ],
+  "main_findings": {
+    "extended_profile_splits_10776_cluster_completely": true,
+    "extended_profile_splits_all_12_commutative_cases_completely": true
+  },
+  "nongroup_case_count": 225,
+  "nonsingleton_clusters": [],
+  "singleton_count": 225
+}

@@ -1,0 +1,13 @@
+{
+  "error_count": 0,
+  "errors": [],
+  "exceptional_table_count": 1320,
+  "mode_check_count": 1560,
+  "modular_rank_check_count": 28224,
+  "overall_pass": true,
+  "saturated_mode_check_count": 1320,
+  "six_exchange_check_count": 180,
+  "table_count": 9408,
+  "verification_version": "common_mode_trade_lattice_flint_v1",
+  "workers": 8
+}

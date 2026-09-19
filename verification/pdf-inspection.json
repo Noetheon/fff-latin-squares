@@ -1,0 +1,31 @@
+{
+  "automated_checks": [
+    {
+      "file": "papers/FFF_Compact_Research_Dossier.pdf",
+      "pages": 18,
+      "author_field_empty": true,
+      "attachments": 0,
+      "all_fonts_embedded": true,
+      "page_box_violations": [],
+      "blank_pages": [],
+      "all_pages_rendered": true,
+      "visual_review_separate": true
+    },
+    {
+      "file": "papers/FFF_Long_Research_Dossier.pdf",
+      "pages": 60,
+      "author_field_empty": true,
+      "attachments": 0,
+      "all_fonts_embedded": true,
+      "page_box_violations": [],
+      "blank_pages": [],
+      "all_pages_rendered": true,
+      "visual_review_separate": true
+    }
+  ],
+  "visual_review": {
+    "performed": true,
+    "scope": "All page contact sheets; front matter inspected at higher resolution.",
+    "independent_expert_review": false
+  }
+}

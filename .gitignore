@@ -1,0 +1,15 @@
+.audit/
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+build/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+repro_runs/2026-04-26_order8_core/data/latin_mc8.txt.gz

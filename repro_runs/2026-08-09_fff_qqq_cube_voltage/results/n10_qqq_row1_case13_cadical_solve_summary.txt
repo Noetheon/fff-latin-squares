@@ -1,0 +1,9 @@
+SAT solver QQQ solve
+
+result: timeout
+elapsed_seconds: 60.011637
+timeout_seconds: 60.0
+solver: 3.0.0
+cnf_sha256: 2ec7dce404e468eb24cbf70b5a5d0848c861b627f3088a581ed18cea66b8a3b7
+proof_complete_unsat_trace: False
+model_available: False

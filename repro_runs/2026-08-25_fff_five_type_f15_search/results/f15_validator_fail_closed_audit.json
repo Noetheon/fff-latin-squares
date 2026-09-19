@@ -1,0 +1,81 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "baseline_accepts": true,
+    "incomplete_cover_rejects": true,
+    "incomplete_search_rejects": true,
+    "missing_tasks_rejects": true,
+    "positive_candidate_rejects": true,
+    "recorded_error_rejects": true,
+    "wrong_nodes_rejects": true,
+    "wrong_prunes_rejects": true,
+    "wrong_status_rejects": true,
+    "wrong_total_rejects": true
+  },
+  "observations": {
+    "baseline_accepts": {
+      "actual_acceptance": true,
+      "expected_acceptance": true,
+      "mutated_field": null,
+      "mutated_value": null
+    },
+    "incomplete_cover_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "complete_disjoint_cover",
+      "mutated_value": false
+    },
+    "incomplete_search_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "negative_search_complete",
+      "mutated_value": false
+    },
+    "missing_tasks_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "completed_tasks",
+      "mutated_value": 14951
+    },
+    "positive_candidate_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "fff_found",
+      "mutated_value": true
+    },
+    "recorded_error_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "errors",
+      "mutated_value": [
+        "synthetic mutation"
+      ]
+    },
+    "wrong_nodes_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "search_nodes",
+      "mutated_value": 123456790
+    },
+    "wrong_prunes_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "crossview_odd_cycle_prunes",
+      "mutated_value": 98765433
+    },
+    "wrong_status_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "status",
+      "mutated_value": "invalid"
+    },
+    "wrong_total_rejects": {
+      "actual_acceptance": false,
+      "expected_acceptance": false,
+      "mutated_field": "total_initial_tasks",
+      "mutated_value": 14953
+    }
+  },
+  "schema_version": "five-type-f15-validator-fail-closed-audit-v1",
+  "validator": "repro_runs/2026-08-25_fff_five_type_f15_search/scripts/validate_f15_run.py"
+}

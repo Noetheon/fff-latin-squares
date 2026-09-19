@@ -1,0 +1,13 @@
+{
+  "label": "p22",
+  "mode": "full",
+  "workers": 8,
+  "total_initial_tasks": 600,
+  "task_start": 0,
+  "task_end_exclusive": 600,
+  "completed_tasks": 600,
+  "search_nodes": 13976,
+  "crossview_odd_cycle_prunes": 1920,
+  "fff_found": false,
+  "slice_complete": true
+}

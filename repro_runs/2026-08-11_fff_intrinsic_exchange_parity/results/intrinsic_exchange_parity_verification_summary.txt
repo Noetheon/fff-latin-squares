@@ -1,0 +1,11 @@
+Independent intrinsic exchange-parity verification
+
+main classes: 12
+classified sources: 9408
+rank-19 sources: 3960
+rank-19 main classes independently checked: 3
+exceptional sources: 180
+errors: 0
+overall pass: True
+
+No order-10 conclusion is inferred.

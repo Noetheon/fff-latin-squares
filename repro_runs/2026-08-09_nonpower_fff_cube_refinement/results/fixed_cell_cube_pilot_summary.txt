@@ -1,0 +1,18 @@
+n=10 fixed-cell complete cube pilot
+
+row1_case: n10_row1_case_12_z2_2_2_2_2_2
+base_cnf_sha256: 29b760a10120828699c13f903ad843bedcb8b0ee5cc89a871417181afec23db6
+fixed_cell: [2, 1]
+allowed_symbols: [3, 4, 5, 6, 7, 8, 9]
+cube_count: 7
+coverage: rigorously complete and pairwise disjoint by proof_notes/fff_fixed_cell_cube_partition.md
+timeout_seconds_per_cube: 120.0
+max_workers: 4
+
+Results:
+- timeout: 7
+
+case_excluded: false
+validated_full_fff_candidate_found: false
+C38: open
+C40: not_created
