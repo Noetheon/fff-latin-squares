@@ -3,65 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="An openly inspectable AI-generated research dossier on odd-cycle-free Latin squares. Not peer reviewed; the global conjecture remains open.">
+  <meta name="description" content="An openly inspectable AI-generated research dossier on odd-cycle-free Latin squares. Read the papers, examine the evidence and review the open questions. Not peer reviewed.">
+  <meta name="theme-color" content="#176454">
   <title>Odd-Cycle-Free Latin Squares | Research Dossier</title>
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; background: #fafbfc; color: #22282a; font: 16px/1.65 system-ui, sans-serif; letter-spacing: 0; }
-    main { max-width: 850px; margin: 0 auto; padding: 40px 22px 64px; }
-    header { border-top: 4px solid #276655; padding-top: 24px; }
-    h1 { font: 600 34px/1.2 Georgia, serif; margin: 12px 0 20px; }
-    h2 { font: 600 24px/1.25 Georgia, serif; margin: 28px 0 14px; }
-    a { color: #165c78; text-underline-offset: 3px; overflow-wrap: anywhere; }
-    p, li { max-width: 76ch; }
-    .status { color: #714019; font-weight: 650; }
-    section { border-top: 1px solid #cfd8d9; margin-top: 30px; padding-top: 8px; }
-    .paper-list { padding-left: 20px; }
-    .paper-list li { padding: 8px 0; }
-    figure { margin: 24px 0; }
-    figure img { display: block; max-width: 100%; width: 260px; height: auto; border: 1px solid #d5dddd; }
-    figcaption, footer { color: #586466; font-size: 14px; }
-    footer { border-top: 1px solid #cfd8d9; margin-top: 40px; padding-top: 20px; }
-    @media (max-width: 480px) { main { padding-top: 22px; } h1 { font-size: 28px; } }
-  </style>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
-<body><main>
-  <header>
-    <p>Public research dossier · 19 September 2026</p>
-    <h1>Odd-Cycle-Free Latin Squares</h1>
-    <p class="status">AI-generated material for critical examination. Not peer reviewed.</p>
-    <p>Written arguments, finite computations and open questions about Latin squares
-      with no odd-cycle two-line witnesses in their row, column and symbol views.</p>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a class="brand" href="#main" aria-label="FFF research dossier home"><span class="brand-mark" aria-hidden="true">FFF<span></span></span><span>LATIN SQUARES<br><span class="brand-subtitle">Research dossier</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#dossiers">Dossiers</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#review">Review</a>
+        <a class="repository-link" href="https://github.com/Noetheon/fff-latin-squares">GitHub</a>
+      </nav>
+    </div>
   </header>
-  <section aria-labelledby="read"><h2 id="read">Read the record</h2>
-    <ul class="paper-list">
-      <li><a href="papers/FFF_Compact_Research_Dossier.pdf">Compact reading version (PDF)</a></li>
-      <li><a href="papers/FFF_Long_Research_Dossier.pdf">Full technical record (PDF)</a></li>
-      <li><a href="https://github.com/Noetheon/fff-latin-squares">Sources, evidence and reproducibility on GitHub</a></li>
-    </ul>
-    <p>The two versions overlap; they are not independent studies. Read the opening
-      disclosure before relying on the technical statements.</p>
-    <figure><a href="papers/FFF_Compact_Research_Dossier.pdf"><img src="assets/compact-cover.png" width="260" height="367" alt="First page of the compact research dossier, including the AI-origin and review disclosure."></a>
-      <figcaption>Opening disclosure in the compact dossier.</figcaption></figure>
-  </section>
-  <section aria-labelledby="scope"><h2 id="scope">Evidence and limits</h2>
-    <p>The record classifies the order-10 exclusion as a written reduction plus exact
-      computation. The global power-of-two conjecture remains open; order 12 is the
-      next undecided even non-power-of-two case in this project.</p>
-    <p>No accountable scholarly author or independent expert human review of the
-      complete work has been established. The mathematics, code and writing arose
-      through ChatGPT/Codex workflows. The human role was project initiation and
-      provision of time and computing resources, not claimed personal scientific authorship.</p>
-    <p>The public collection is curated, not a complete working archive. Large graph
-      and checkpoint files and a persistent data DOI are not included. Rights remain
-      reserved pending a separate licensing decision.</p>
-  </section>
-  <section aria-labelledby="review"><h2 id="review">Critical feedback</h2>
-    <p>Specific counterexamples, missing assumptions, prior literature and reproducibility
-      failures are useful. Identify the exact statement and provide a minimal check.</p>
-    <p><a href="https://github.com/Noetheon/fff-latin-squares/issues">Report an issue</a>
-      · <a href="https://github.com/Noetheon/fff-latin-squares/discussions">Discuss the evidence</a></p>
-  </section>
-  <footer>No DOI, journal acceptance or institutional endorsement is asserted. This page uses no analytics or external scripts.</footer>
-</main></body>
+
+  <main id="main" tabindex="-1">
+    <div class="container">
+      <section class="introduction" aria-labelledby="project-title">
+        <div class="eyebrow-row"><p class="eyebrow">Combinatorics / An open research record</p><p class="dateline"><time datetime="2026-09-19">19 September 2026</time></p></div>
+        <h1 id="project-title">Odd-cycle-free<br>Latin squares</h1>
+        <p class="introduction-text">Structural arguments, finite computations and open questions about
+          Latin squares with no odd-cycle two-line witnesses in their row, column and symbol views.</p>
+        <div class="intro-actions"><a class="button button-primary" href="papers/FFF_Compact_Research_Dossier.pdf">Read compact PDF</a><a href="papers/FFF_Long_Research_Dossier.pdf">Full technical PDF</a></div>
+        <div class="disclosure-line">
+          <span class="status-label">Not peer reviewed</span>
+          <p>AI-generated material for critical examination. <a href="#origin">Read the origin and review disclosure</a>.</p>
+        </div>
+      </section>
+
+      <section id="dossiers" class="dossiers" aria-labelledby="dossiers-title">
+        <div class="section-heading"><div><span class="section-number">01 / READ</span><h2 id="dossiers-title">The research dossiers</h2></div><p>One record, two editions. <br>Both begin with an explicit disclosure.</p></div>
+        <div class="paper-grid">
+          <article class="paper">
+            <a class="paper-preview compact-preview" href="papers/FFF_Compact_Research_Dossier.pdf" tabindex="-1" aria-hidden="true">
+              <img class="cover-page" src="assets/compact-cover.png" width="536" height="759" alt="" fetchpriority="high">
+              <img class="technical-page" src="assets/compact-abstract.png" width="721" height="1019" alt="">
+            </a>
+            <div class="paper-information">
+              <div class="paper-meta"><span>COMPACT EDITION</span><span>18 pages / PDF</span></div>
+              <h3>Core arguments &amp; the order-8 census</h3>
+              <p>The shorter reading version: products, congruence obstructions and the finite census, with the scope of each result kept explicit.</p>
+              <div class="paper-actions"><a class="button button-primary" href="papers/FFF_Compact_Research_Dossier.pdf">Read compact PDF</a><a class="download-link" href="papers/FFF_Compact_Research_Dossier.pdf" download>Download <span class="sr-only">compact PDF</span></a></div>
+            </div>
+          </article>
+          <article class="paper">
+            <a class="paper-preview technical-preview" href="papers/FFF_Long_Research_Dossier.pdf" tabindex="-1" aria-hidden="true">
+              <img class="cover-page" src="assets/long-cover.png" width="536" height="759" alt="">
+              <img class="technical-page" src="assets/long-abstract.png" width="721" height="1019" alt="">
+            </a>
+            <div class="paper-information">
+              <div class="paper-meta"><span>TECHNICAL EDITION</span><span>60 pages / PDF</span></div>
+              <h3>The full technical record</h3>
+              <p>The extended arguments, order-10 reduction and computational evidence, together with the assumptions and limitations they depend on.</p>
+              <div class="paper-actions"><a class="button button-primary" href="papers/FFF_Long_Research_Dossier.pdf">Read technical PDF</a><a class="download-link" href="papers/FFF_Long_Research_Dossier.pdf" download>Download <span class="sr-only">technical PDF</span></a></div>
+            </div>
+          </article>
+        </div>
+        <p class="section-note">Previews show the opening disclosure and the first technical page. These editions overlap; they are not independent studies.</p>
+        <div class="source-strip"><p>The arguments are only part of the record.</p><a href="https://github.com/Noetheon/fff-latin-squares">Examine sources, data &amp; verification on GitHub</a></div>
+      </section>
+
+      <section id="evidence" class="evidence section-band" aria-labelledby="evidence-title">
+        <div class="section-heading"><div><span class="section-number">02 / EXAMINE</span><h2 id="evidence-title">What the record establishes</h2></div><p>Evidence classes in the dossier, <br>not independent referee endorsements.</p></div>
+        <div class="evidence-list">
+          <article class="evidence-row"><div class="evidence-kind written">Written arguments</div><div><h3>Structural results</h3><p>View-pattern invariance, the direct-product OR formula and the group-isotopy product criterion. Their hypotheses and proofs are set out in the dossiers.</p></div><span class="evidence-reference">Proof text</span></article>
+          <article class="evidence-row"><div class="evidence-kind computed">Exact computation</div><div><h3>The order-8 census</h3><p>283,657 main-class representatives; 230 FFF, including 225 not group-isotopic. Completeness of the cited external census remains a dependency.</p></div><span class="evidence-reference">Finite census</span></article>
+          <article class="evidence-row"><div class="evidence-kind computed">Reduction + computation</div><div><h3>No FFF square of order 10</h3><p>A written exhaustive reduction plus complete exact master searches. This is not a solver-free proof or a proof-assistant certificate; the large search payloads are not included in this export.</p></div><span class="evidence-reference">Technical edition</span></article>
+          <article class="evidence-row open-row"><div class="evidence-kind open">Open question</div><div><h3>The power-of-two conjecture</h3><p>The global conjecture remains open. Order 12 is the next undecided even non-power-of-two case in this project. Partial SAT models and timeouts do not settle it.</p></div><span class="evidence-reference">Not resolved</span></article>
+        </div>
+        <a class="text-link" href="https://github.com/Noetheon/fff-latin-squares/blob/main/EVIDENCE_STATUS.md">Read the complete evidence status</a>
+      </section>
+
+      <section id="origin" class="origin section-band" aria-labelledby="origin-title">
+        <div class="section-heading"><div><span class="section-number">03 / CONTEXT</span><h2 id="origin-title">Origin, review &amp; limits</h2></div></div>
+        <div class="origin-grid">
+          <div class="origin-statement"><p>The mathematical development, proof text, software and scientific writing arose through <strong>ChatGPT/Codex workflows.</strong></p><p>The human role was project initiation and provision of time and computing resources, not claimed personal scientific authorship or expert validation.</p><a class="text-link" href="https://github.com/Noetheon/fff-latin-squares/blob/main/AI_DISCLOSURE.md">Full AI-origin disclosure</a></div>
+          <div class="disclosure-details">
+            <details open><summary>Review and accountability</summary><p>No accountable scholarly author or independent expert human review of the complete work has been established. Automated checks and public hosting do not establish the correctness or novelty of every statement.</p></details>
+            <details><summary>What this public collection includes</summary><p>This is a curated export, not the complete working archive. Large graph and checkpoint files, third-party census archives and solver environments are not included. There is no persistent data DOI.</p><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/REPRODUCIBILITY.md">Reproducibility and export limitations</a></details>
+            <details><summary>Rights and reuse</summary><p>Rights remain reserved pending a separate licensing decision. Public readability is not an open-source licence or a claim of institutional endorsement.</p><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/RIGHTS.md">Rights statement</a></details>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="review" class="review-band" aria-labelledby="review-title"><div class="container review-inner"><div><span class="section-number">04 / CRITICAL FEEDBACK</span><h2 id="review-title">A record to examine,<br>not a claim to take on trust.</h2><p>Counterexamples, missing assumptions, prior literature and reproducibility failures are welcome. Please identify the exact statement and provide a minimal check.</p></div><div class="review-actions"><a class="button button-light" href="https://github.com/Noetheon/fff-latin-squares/issues">Report an issue</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/discussions">Discuss the evidence</a></div></div></section>
+  </main>
+
+  <footer class="container footer"><p>Odd-cycle-free Latin squares<br><span>Public research dossier / September 2026</span></p><p>No journal acceptance, DOI or institutional endorsement is asserted.<br>No analytics, tracking or external scripts.</p></footer>
+</body>
 </html>

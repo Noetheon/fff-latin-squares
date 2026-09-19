@@ -1,0 +1,34 @@
+{
+  "pdfium_version": "153.0.7999.0",
+  "pypdfium2_version": "5.13.0",
+  "full_pages_no_crop": true,
+  "records": [
+    {
+      "asset": "assets/compact-abstract.png",
+      "source": "papers/FFF_Compact_Research_Dossier.pdf",
+      "source_sha256": "4cda05680cd7c20b1a1bce296842fc221560cf0b6dcf35c0aa1c0872ed100531",
+      "page": 3,
+      "width": 721,
+      "height": 1019,
+      "sha256": "c7a145efbcfec9fd10b8e629069139890d7e7a174de7d24e3652ee8e3dcdde6d"
+    },
+    {
+      "asset": "assets/long-cover.png",
+      "source": "papers/FFF_Long_Research_Dossier.pdf",
+      "source_sha256": "7d65bd93032c41fc62ae07da4ad5d5c60337edaab2f4e31e966998baefe5266a",
+      "page": 1,
+      "width": 536,
+      "height": 759,
+      "sha256": "704abc46adb33524090d56cfc2a7e7ebfe1ef782dc3db6548497c322ad8a93d4"
+    },
+    {
+      "asset": "assets/long-abstract.png",
+      "source": "papers/FFF_Long_Research_Dossier.pdf",
+      "source_sha256": "7d65bd93032c41fc62ae07da4ad5d5c60337edaab2f4e31e966998baefe5266a",
+      "page": 3,
+      "width": 721,
+      "height": 1019,
+      "sha256": "8c733232253117d8902af4d9b81b9510101762030fe80248a2c2a7bf2b51a525"
+    }
+  ]
+}

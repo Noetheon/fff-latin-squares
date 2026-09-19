@@ -8,6 +8,7 @@ length greater than one in any of the row, column and symbol views (FFF).
 
 ## Read the dossier
 
+- [Project website](https://noetheon.github.io/fff-latin-squares/)
 - [Compact reading version (PDF)](papers/FFF_Compact_Research_Dossier.pdf)
 - [Full technical record (PDF)](papers/FFF_Long_Research_Dossier.pdf)
 - [Editable manuscript sources](manuscript/)
@@ -78,3 +79,6 @@ failures and literature references are welcome through Issues or Discussions.
 Please identify the exact statement, file and reproducible check. The maintainer
 does not claim subject-matter expertise; responses may require outside expertise.
 See [review guidance](CONTRIBUTING.md) and [community venues](COMMUNITY_OUTREACH.md).
+
+The website is a static, English-only reading interface with no JavaScript,
+third-party fonts or analytics. See [website maintenance and checks](WEBSITE.md).
