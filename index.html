@@ -27,6 +27,7 @@
       <a class="brand" href="#main" aria-label="FFF research dossier home"><span class="brand-mark" aria-hidden="true">FFF<span></span></span><span>LATIN SQUARES<br><span class="brand-subtitle">Research dossier</span></span></a>
       <nav aria-label="Main navigation">
         <a href="#dossiers">Dossiers</a>
+        <a href="#example">Example</a>
         <a href="#evidence">Evidence</a>
         <a href="#review">Review</a>
         <a class="repository-link" href="https://github.com/Noetheon/fff-latin-squares">GitHub</a>
@@ -37,19 +38,19 @@
   <main id="main" tabindex="-1">
     <div class="container">
       <section class="introduction" aria-labelledby="project-title">
-        <div class="eyebrow-row"><p class="eyebrow">Combinatorics / An open research record</p><p class="dateline"><time datetime="2026-09-19">19 September 2026</time></p></div>
-        <h1 id="project-title">Odd-cycle-free<br>Latin squares</h1>
-        <p class="introduction-text">Structural arguments, finite computations and open questions about
-          Latin squares with no odd-cycle two-line witnesses in their row, column and symbol views.</p>
-        <div class="intro-actions"><a class="button button-primary" href="papers/FFF_Compact_Research_Dossier.pdf">Read compact PDF</a><a href="papers/FFF_Long_Research_Dossier.pdf">Full technical PDF</a><a href="https://github.com/Noetheon/fff-latin-squares/tree/main/examples">Run a small example</a></div>
+        <div class="eyebrow-row"><p class="eyebrow">Combinatorics / Research dossier</p><p class="dateline">Dossiers dated <time datetime="2026-09-19">19 September 2026</time></p></div>
+        <h1 id="project-title">Odd-cycle-free<br><em>Latin squares</em></h1>
+        <p class="introduction-text">Latin squares without odd-cycle witnesses in any of three views.
+          Written arguments, computational evidence and the questions that remain open.</p>
+        <div class="intro-actions"><a class="button button-primary" href="papers/FFF_Compact_Research_Dossier.pdf">Read compact PDF</a><a href="#example">Examine a concrete example</a></div>
         <div class="disclosure-line">
           <span class="status-label">Not peer reviewed</span>
-          <p>AI-generated material for critical examination. <a href="#origin">Read the origin and review disclosure</a>.</p>
+          <p>AI-generated research. <a href="#origin">Origin &amp; review disclosure</a>.</p>
         </div>
       </section>
 
       <section id="dossiers" class="dossiers" aria-labelledby="dossiers-title">
-        <div class="section-heading"><div><span class="section-number">01 / READ</span><h2 id="dossiers-title">The research dossiers</h2></div><p>One record, two editions. <br>Both begin with an explicit disclosure.</p></div>
+        <div class="section-heading"><div><span class="section-number">01 / READ</span><h2 id="dossiers-title">Two ways into the research.</h2></div><p>Begin with the compact edition. <br>The technical edition extends the same record.</p></div>
         <div class="paper-grid">
           <article class="paper">
             <a class="paper-preview compact-preview" href="papers/FFF_Compact_Research_Dossier.pdf" tabindex="-1" aria-hidden="true">
@@ -57,9 +58,10 @@
               <img class="technical-page" src="assets/compact-abstract.png" width="721" height="1019" alt="">
             </a>
             <div class="paper-information">
-              <div class="paper-meta"><span>COMPACT EDITION</span><span>18 pages / PDF</span></div>
+              <div class="paper-meta"><span>COMPACT EDITION / START HERE</span><span>18 pages / PDF</span></div>
               <h3>Core arguments &amp; the order-8 census</h3>
               <p>The shorter reading version: products, congruence obstructions and the finite census, with the scope of each result kept explicit.</p>
+              <ul class="paper-topics" aria-label="Compact edition subjects"><li>Product theorems</li><li>Congruence obstructions</li><li>Order-8 census</li></ul>
               <div class="paper-actions"><a class="button button-primary" href="papers/FFF_Compact_Research_Dossier.pdf">Read compact PDF</a><a class="download-link" href="papers/FFF_Compact_Research_Dossier.pdf" download>Download <span class="sr-only">compact PDF</span></a></div>
             </div>
           </article>
@@ -72,6 +74,7 @@
               <div class="paper-meta"><span>TECHNICAL EDITION</span><span>60 pages / PDF</span></div>
               <h3>The full technical record</h3>
               <p>The extended arguments, order-10 reduction and computational evidence, together with the assumptions and limitations they depend on.</p>
+              <ul class="paper-topics" aria-label="Technical edition subjects"><li>Order-10 exclusion</li><li>Computational reductions</li><li>Open order-12 question</li></ul>
               <div class="paper-actions"><a class="button button-primary" href="papers/FFF_Long_Research_Dossier.pdf">Read technical PDF</a><a class="download-link" href="papers/FFF_Long_Research_Dossier.pdf" download>Download <span class="sr-only">technical PDF</span></a></div>
             </div>
           </article>
@@ -80,8 +83,41 @@
         <div class="source-strip"><p>The arguments are only part of the record.</p><a href="https://github.com/Noetheon/fff-latin-squares">Examine sources, data &amp; verification on GitHub</a></div>
       </section>
 
+      <section id="example" class="example section-band" aria-labelledby="example-title">
+        <div class="section-heading"><div><span class="section-number">02 / VERIFY</span><h2 id="example-title">A small, inspectable example.</h2></div><p>A complete table. Three views. <br>No large dataset required.</p></div>
+        <div class="example-layout">
+          <figure class="table-figure">
+            <table id="example-table" aria-describedby="table-caption">
+              <caption>Order 8 / a reduced FFF Latin square</caption>
+              <thead><tr><th scope="col"><span class="sr-only">Row / column</span></th><th scope="col">0</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th></tr></thead>
+              <tbody>
+                <tr class="selected-row"><th scope="row">0</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+                <tr class="selected-row"><th scope="row">1</th><td>1</td><td>0</td><td>3</td><td>2</td><td>5</td><td>4</td><td>7</td><td>6</td></tr>
+                <tr><th scope="row">2</th><td>2</td><td>3</td><td>5</td><td>4</td><td>6</td><td>7</td><td>0</td><td>1</td></tr>
+                <tr><th scope="row">3</th><td>3</td><td>2</td><td>4</td><td>5</td><td>7</td><td>6</td><td>1</td><td>0</td></tr>
+                <tr><th scope="row">4</th><td>4</td><td>5</td><td>6</td><td>7</td><td>0</td><td>1</td><td>2</td><td>3</td></tr>
+                <tr><th scope="row">5</th><td>5</td><td>4</td><td>7</td><td>6</td><td>1</td><td>0</td><td>3</td><td>2</td></tr>
+                <tr><th scope="row">6</th><td>6</td><td>7</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+                <tr><th scope="row">7</th><td>7</td><td>6</td><td>1</td><td>0</td><td>3</td><td>2</td><td>5</td><td>4</td></tr>
+              </tbody>
+            </table>
+            <figcaption id="table-caption">Every row and column contains each symbol exactly once. Highlighted rows 0 and 1 give four cycles of length 2 on column labels.</figcaption>
+            <p class="cycle-formula" aria-label="Cycles: 0 1, 2 3, 4 5, 6 7"><span>(0 1)</span><span>(2 3)</span><span>(4 5)</span><span>(6 7)</span></p>
+          </figure>
+          <div class="example-explanation">
+            <h3>What does FFF mean?</h3>
+            <p>Match equal symbols between two rows and follow the resulting permutation of columns. An odd cycle would make the row view <strong>T</strong>; its absence for every row pair makes it <strong>F</strong>.</p>
+            <p>The column and symbol views have their own induced permutations. <strong>FFF requires all three views to pass.</strong> One highlighted pair is only an illustration, not the full check.</p>
+            <dl class="view-results" aria-label="Complete checker results for the displayed table"><div><dt>Row</dt><dd>F <span>28 pairs</span></dd></div><div><dt>Column</dt><dd>F <span>28 pairs</span></dd></div><div><dt>Symbol</dt><dd>F <span>28 pairs</span></dd></div></dl>
+            <div class="verification-command"><span class="command-label">PYTHON 3 / STANDARD LIBRARY</span><code>python3 -B tools/demo_fff.py</code><samp>order=8 latin=True reduced=True<br>pattern=FFF FFF=True</samp></div>
+            <div class="example-links"><a href="https://github.com/Noetheon/fff-latin-squares/tree/main/examples">Run a small example</a><a href="examples/order8_fff.json" download>Table JSON</a><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/tools/demo_fff.py">Checker source</a></div>
+            <p class="example-limit">The repository also includes an order-3 negative control with pattern TTT. This check concerns individual tables, not the census or order-10 exclusion.</p>
+          </div>
+        </div>
+      </section>
+
       <section id="evidence" class="evidence section-band" aria-labelledby="evidence-title">
-        <div class="section-heading"><div><span class="section-number">02 / EXAMINE</span><h2 id="evidence-title">What the record establishes</h2></div><p>Evidence classes in the dossier, <br>not independent referee endorsements.</p></div>
+        <div class="section-heading"><div><span class="section-number">03 / EXAMINE</span><h2 id="evidence-title">Results, with their boundaries.</h2></div><p>Evidence classes in the dossier, <br>not independent referee endorsements.</p></div>
         <div class="evidence-list">
           <article class="evidence-row"><div class="evidence-kind written">Written arguments</div><div><h3>Structural results</h3><p>View-pattern invariance, the direct-product OR formula and the group-isotopy product criterion. Their hypotheses and proofs are set out in the dossiers.</p></div><span class="evidence-reference">Proof text</span></article>
           <article class="evidence-row"><div class="evidence-kind computed">Exact computation</div><div><h3>The order-8 census</h3><p>283,657 main-class representatives; 230 FFF, including 225 not group-isotopic. Completeness of the cited external census remains a dependency.</p></div><span class="evidence-reference">Finite census</span></article>
@@ -92,7 +128,7 @@
       </section>
 
       <section id="origin" class="origin section-band" aria-labelledby="origin-title">
-        <div class="section-heading"><div><span class="section-number">03 / CONTEXT</span><h2 id="origin-title">Origin, review &amp; limits</h2></div></div>
+        <div class="section-heading"><div><span class="section-number">04 / CONTEXT</span><h2 id="origin-title">Origin, review &amp; limits</h2></div></div>
         <div class="origin-grid">
           <div class="origin-statement"><p>The mathematical development, proof text, software and scientific writing arose through <strong>ChatGPT/Codex workflows.</strong></p><p>The human role was project initiation and provision of time and computing resources, not claimed personal scientific authorship or expert validation.</p><a class="text-link" href="https://github.com/Noetheon/fff-latin-squares/blob/main/AI_DISCLOSURE.md">Full AI-origin disclosure</a></div>
           <div class="disclosure-details">
@@ -104,7 +140,7 @@
       </section>
     </div>
 
-    <section id="review" class="review-band" aria-labelledby="review-title"><div class="container review-inner"><div><span class="section-number">04 / CRITICAL FEEDBACK</span><h2 id="review-title">A record to examine,<br>not a claim to take on trust.</h2><p>Counterexamples, missing assumptions, prior literature and reproducibility failures are welcome. Please identify the exact statement and provide a minimal check.</p></div><div class="review-actions"><a class="button button-light" href="https://github.com/Noetheon/fff-latin-squares/blob/main/REVIEW_TASKS.md">Three focused review questions</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/discussions">Discuss the evidence</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/issues">Report an issue</a></div></div></section>
+    <section id="review" class="review-band" aria-labelledby="review-title"><div class="container review-inner"><div><span class="section-number">05 / CRITICAL FEEDBACK</span><h2 id="review-title">A record to examine,<br>not a claim to take on trust.</h2><p>Counterexamples, missing assumptions, prior literature and reproducibility failures are welcome. Please identify the exact statement and provide a minimal check.</p></div><div class="review-actions"><a class="button button-light" href="https://github.com/Noetheon/fff-latin-squares/discussions/1">Join the focused review</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/blob/main/REVIEW_TASKS.md">Three focused review questions</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/issues">Report an issue</a></div></div></section>
   </main>
 
   <footer class="container footer"><p>Odd-cycle-free Latin squares<br><span>Public research dossier / September 2026</span></p><p>No journal acceptance, DOI or institutional endorsement is asserted.<br>No analytics, tracking or external scripts.</p></footer>

@@ -7,6 +7,19 @@ third-party fonts, external scripts or analytics.
 
 ## Discovery Revision: 20 September 2026
 
+The subsequent presentation refinement adds a static, accessible order-8 table
+with its illustrative row-pair cycle decomposition, full three-view check counts,
+a runnable command, and a table JSON download. A regression test parses the
+displayed table from HTML, compares every cell with the frozen example, and
+checks its cycles with the existing standard-library validator. The highlighted
+pair is explicitly not offered as a substitute for checking all 84 pairs.
+The paper entries now distinguish their subjects more clearly, and the review
+action opens the pinned discussion directly. No scientific payload is changed.
+
+The repository social-preview image was uploaded and GitHub's API confirmed
+`usesCustomOpenGraphImage=true` on 20 September 2026. This completes the separate
+repository setting, in addition to the website's Open Graph metadata.
+
 The website and repository entry points now link a small table checker and
 [three bounded review tasks](REVIEW_TASKS.md). Open Graph and Twitter-card
 metadata refer to `assets/social-preview.png`, a 1280 x 640 PNG under 1 MB.

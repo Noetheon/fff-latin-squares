@@ -42,7 +42,7 @@ async function main() {
         language: document.documentElement.lang,
         overflow: document.documentElement.scrollWidth > innerWidth,
         images: [...document.images].map(e => ({ source: e.getAttribute('src'), loaded: e.complete && e.naturalWidth > 0 })),
-        overflowingText: [...document.querySelectorAll('h1,h2,h3,p,summary,.button,nav,.paper-meta')].filter(e => {
+        overflowingText: [...document.querySelectorAll('h1,h2,h3,p,summary,.button,nav,.paper-meta,table,code,samp,.view-results')].filter(e => {
           if (!e.getClientRects().length) return false;
           const box = e.getBoundingClientRect();
           return e.scrollWidth > e.clientWidth + 1 || box.right > innerWidth + 1 || box.left < -1;
@@ -59,7 +59,8 @@ async function main() {
       assert.equal(record.overflow, false);
       assert.deepEqual(record.overflowingText, []);
       assert(record.images.every(i => i.loaded));
-      assert.equal(record.downloads.length, 2);
+      assert.equal(record.downloads.length, 3);
+      assert(record.downloads.includes('examples/order8_fff.json'));
       assert.equal(record.inlineScripts, 0);
       assert.deepEqual(errors, []);
       assert.deepEqual(externalRequests, []);
