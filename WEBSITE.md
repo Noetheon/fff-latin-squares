@@ -20,6 +20,10 @@ The repository social-preview image was uploaded and GitHub's API confirmed
 `usesCustomOpenGraphImage=true` on 20 September 2026. This completes the separate
 repository setting, in addition to the website's Open Graph metadata.
 
+The stylesheet URL carries the first 12 SHA-256 hex digits as a `v` query
+parameter. Update that value whenever CSS changes; a test checks it against
+the actual file. This prevents a new page from using a cached older layout.
+
 The website and repository entry points now link a small table checker and
 [three bounded review tasks](REVIEW_TASKS.md). Open Graph and Twitter-card
 metadata refer to `assets/social-preview.png`, a 1280 x 640 PNG under 1 MB.

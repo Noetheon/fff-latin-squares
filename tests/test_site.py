@@ -1,8 +1,9 @@
 from html.parser import HTMLParser
+import hashlib
 import json
 from pathlib import Path
 import sys
-from urllib.parse import urlsplit
+from urllib.parse import parse_qs, urlsplit
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -83,6 +84,14 @@ class SiteTests(unittest.TestCase):
                 self.assertIn("width", attrs)
                 self.assertIn("height", attrs)
                 self.assertFalse(urlsplit(attrs["src"]).scheme)
+
+    def test_stylesheet_cache_version_matches_content(self):
+        styles = [attrs for tag, attrs in self.page.elements
+                  if tag == "link" and attrs.get("rel") == "stylesheet"]
+        self.assertEqual(len(styles), 1)
+        link = urlsplit(styles[0]["href"])
+        digest = hashlib.sha256((ROOT / link.path).read_bytes()).hexdigest()[:12]
+        self.assertEqual(parse_qs(link.query), {"v": [digest]})
 
     def test_both_pdf_read_and_download_links(self):
         for filename in ("FFF_Compact_Research_Dossier.pdf", "FFF_Long_Research_Dossier.pdf"):
