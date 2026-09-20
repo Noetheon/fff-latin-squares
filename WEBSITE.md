@@ -23,6 +23,8 @@ repository setting, in addition to the website's Open Graph metadata.
 The stylesheet URL carries the first 12 SHA-256 hex digits as a `v` query
 parameter. Update that value whenever CSS changes; a test checks it against
 the actual file. This prevents a new page from using a cached older layout.
+The [refinement audit](verification/WEBSITE_REFINEMENT_2026-09-20.md) records
+the current checks and the completed repository-preview setting.
 
 The website and repository entry points now link a small table checker and
 [three bounded review tasks](REVIEW_TASKS.md). Open Graph and Twitter-card
