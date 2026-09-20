@@ -35,6 +35,8 @@ make this small check inspectable. It is not a census or an order-10 rerun.
 **Help examine one result:** [three bounded review questions](REVIEW_TASKS.md)
 cover a proof step, reproducibility and prior literature. Corrections are more
 useful than an unqualified endorsement.
+The [pinned review discussion](https://github.com/Noetheon/fff-latin-squares/discussions/1)
+is the shared starting point for focused feedback.
 
 ## Current evidence boundary
 
