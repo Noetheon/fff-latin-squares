@@ -1,0 +1,4 @@
+{
+  "description": "Addition modulo 3: negative control with an odd cycle in every view.",
+  "table": [[0,1,2],[1,2,0],[2,0,1]]
+}

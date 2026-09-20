@@ -5,6 +5,26 @@ English-language interface to the same research dossier. It works by opening
 `index.html` locally or through GitHub Pages, with no build step, JavaScript,
 third-party fonts, external scripts or analytics.
 
+## Discovery Revision: 20 September 2026
+
+The website and repository entry points now link a small table checker and
+[three bounded review tasks](REVIEW_TASKS.md). Open Graph and Twitter-card
+metadata refer to `assets/social-preview.png`, a 1280 x 640 PNG under 1 MB.
+The image retains the AI-origin and non-peer-reviewed disclosure and uses the
+actual compact dossier cover. It introduces no new result or review endorsement.
+
+`assets/social-preview.html` is its editable HTML/CSS source. The optional
+renderer is `node tools/render_social_preview.cjs`; it uses externally supplied
+Playwright/Chrome and records input/output hashes in
+`verification/social-preview-sources.json`. Fonts/browser versions can change
+rendered bytes, so byte-identical output across platforms is not promised.
+Do not replace the unaltered PDF-cover asset with a generated paper image.
+
+GitHub's repository social preview is a separate repository setting; changing
+the website metadata alone does not set it. External sites may cache previews.
+The pinned review discussion and repository topics are likewise GitHub metadata,
+not claims covered by the mathematical evidence checks.
+
 ## Design Revision: 19 September 2026
 
 - Responsive navigation and direct access to both PDFs from the opening section.

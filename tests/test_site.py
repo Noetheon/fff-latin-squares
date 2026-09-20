@@ -66,6 +66,23 @@ class SiteTests(unittest.TestCase):
             self.assertIn(required, self.source)
         self.assertIn("<details open>", self.source)
 
+    def test_preview_and_review_entry_points(self):
+        metadata = {attrs.get("property", attrs.get("name")): attrs.get("content")
+                    for tag, attrs in self.page.elements if tag == "meta"}
+        self.assertEqual(metadata["og:image"],
+                         "https://noetheon.github.io/fff-latin-squares/assets/social-preview.png")
+        self.assertEqual(metadata["og:image:width"], "1280")
+        self.assertEqual(metadata["og:image:height"], "640")
+        self.assertIn("Not peer reviewed", metadata["og:description"])
+        self.assertIn("AI-generated", metadata["og:description"])
+        self.assertIn("Run a small example", self.source)
+        self.assertIn("REVIEW_TASKS.md", self.source)
+        image = (ROOT / "assets/social-preview.png").read_bytes()
+        self.assertEqual(image[:8], b"\x89PNG\r\n\x1a\n")
+        self.assertLess(len(image), 1000000)
+        self.assertEqual(int.from_bytes(image[16:20], "big"), 1280)
+        self.assertEqual(int.from_bytes(image[20:24], "big"), 640)
+
 
 if __name__ == "__main__":
     unittest.main()

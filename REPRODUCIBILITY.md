@@ -2,6 +2,10 @@
 
 ## Supported portable checks
 
+For a first, bounded check of one explicit table and a negative control, start
+with [the executable example](examples/README.md). It needs no downloads or
+packages and does not run the large searches.
+
 The default gate uses Python 3.11+ and its standard library. It does not download
 data, install solvers, run historical command files or write into frozen results.
 

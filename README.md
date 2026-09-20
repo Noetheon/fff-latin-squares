@@ -19,6 +19,23 @@ length greater than one in any of the row, column and symbol views (FFF).
 Read the disclosure at the beginning of either PDF before relying on its claims.
 The two versions overlap; they are not two independent studies.
 
+## Start with one table
+
+Clone this repository and run, with Python 3.11+ and no additional packages:
+
+```sh
+python3 -B tools/demo_fff.py
+```
+
+Expected: `order=8 latin=True reduced=True pattern=FFF FFF=True`.
+The checker examines all 84 row/column/symbol pairs of an explicit table.
+The [example, negative control and complete cycle reports](examples/README.md)
+make this small check inspectable. It is not a census or an order-10 rerun.
+
+**Help examine one result:** [three bounded review questions](REVIEW_TASKS.md)
+cover a proof step, reproducibility and prior literature. Corrections are more
+useful than an unqualified endorsement.
+
 ## Current evidence boundary
 
 - The record contains written structural proofs, exact finite computations and

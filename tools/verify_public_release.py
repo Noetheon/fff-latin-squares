@@ -58,7 +58,7 @@ def verify(root: Path, pdf_text: bool = False):
                 failures.append(f"Secret marker: {name}")
         elif pdf_text and path.suffix == ".pdf":
             info = subprocess.check_output(["pdfinfo", str(path)], text=True)
-            if re.search(r"^Author:\s*\S", info, re.M):
+            if re.search(r"^Author:[^\S\r\n]*[^\s]", info, re.M):
                 failures.append(f"Unexpected PDF author: {name}")
             if "JavaScript:      yes" in info:
                 failures.append(f"Unexpected PDF JavaScript: {name}")

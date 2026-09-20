@@ -1,0 +1,12 @@
+{
+  "width": 1280,
+  "height": 640,
+  "browser": "153.0.8010.48",
+  "method": "HTML/CSS composition with an unaltered public PDF page preview; no generated scientific imagery",
+  "input_sha256": {
+    "assets/social-preview.html": "73eaa60a157d38783ef4d2d247556f809d6b883cc25bb26cb115b160fde22d6e",
+    "assets/compact-cover.png": "37cfa51a6510f41cfaac2129bce21b5a8ef9b240761cd1870ba3e218d9d28dab",
+    "papers/FFF_Compact_Research_Dossier.pdf": "4cda05680cd7c20b1a1bce296842fc221560cf0b6dcf35c0aa1c0872ed100531"
+  },
+  "output_sha256": "a78e52e7d142d1337d27c4563548638f9d53a0f8fa8fd303c1cd481136dca2e1"
+}
