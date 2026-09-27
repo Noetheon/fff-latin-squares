@@ -38,5 +38,7 @@ table from its formula. The checker is a new, small implementation; its tests
 are automated sanity checks, not independent expert mathematical review.
 
 **Scope:** these two tables only. This does not rerun the order-8 census, prove
-the order-10 exclusion, test group isotopy, or settle the global conjecture.
+the order-10 exclusion, test group isotopy, or settle the complete order spectrum.
+The former power-of-two conjecture has separately been disproved by the explicit
+order-12 table in the current paper edition.
 No mathematical claim or historical result is changed by this demonstration.

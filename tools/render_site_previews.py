@@ -13,9 +13,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {
     "compact": ("FFF_Compact_Research_Dossier.pdf",
-                "4cda05680cd7c20b1a1bce296842fc221560cf0b6dcf35c0aa1c0872ed100531"),
+                "70d86260918b0576575c4f43affb45b8a55a3f66defd239b598e568876b4ab35"),
     "long": ("FFF_Long_Research_Dossier.pdf",
-             "7d65bd93032c41fc62ae07da4ad5d5c60337edaab2f4e31e966998baefe5266a"),
+             "67133efd8d6a99204db510f5cee9c66bb338d654a6e7fd6c7b24cec3a7dd250f"),
 }
 
 
@@ -28,9 +28,6 @@ def main():
         assert hashlib.sha256(source.read_bytes()).hexdigest() == expected
         with pdfium.PdfDocument(source) as document:
             for label, index, width in (("cover", 0, 536), ("abstract", 2, 720)):
-                # Retain the original cover preview and its original manifest hash.
-                if edition == "compact" and label == "cover":
-                    continue
                 page = document[index]
                 try:
                     bitmap = page.render(scale=width / page.get_width())

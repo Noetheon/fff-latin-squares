@@ -5,6 +5,20 @@ English-language interface to the same research dossier. It works by opening
 `index.html` locally or through GitHub Pages, with no build step, JavaScript,
 third-party fonts, external scripts or analytics.
 
+## Paper Update: 27 September 2026
+
+The current PDFs and all four page previews now use the sealed C251 edition:
+30-page compact and 72-page full report. The site states that the former C38
+conjecture is disproved by the explicit order-12 witness and that unrestricted
+order 18 remains open. The 514-class source bound is labelled a lower bound,
+not a census. The cutoff excludes later ongoing working results.
+See the [dated release review](verification/RELEASE_2026-09-27.md).
+
+The sections below retain the history of the earlier design changes. Their
+old conjecture wording describes the earlier edition, not current evidence.
+The earlier GitHub repository-preview upload remains a separate image setting;
+this update refreshes the website preview asset, not that historical upload.
+
 ## Discovery Revision: 20 September 2026
 
 The subsequent presentation refinement adds a static, accessible order-8 table
@@ -98,7 +112,7 @@ node tools/check_site.cjs .audit/site
 fresh reports stay under `.audit/`. A URL can be supplied as the second argument
 to test the deployed page. The tool never reads a personal browser profile.
 
-Re-rendering only the three new previews requires `pypdfium2` (and its Pillow
+Re-rendering all four current previews requires `pypdfium2` (and its Pillow
 rendering dependency) outside the repository:
 
 ```sh

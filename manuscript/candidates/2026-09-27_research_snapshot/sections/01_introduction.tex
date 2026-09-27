@@ -1,0 +1,173 @@
+\section{Introduction}
+
+An odd cycle in the permutation induced by two lines of a Latin square
+supports a particularly simple Latin trade: swap the two lines on that cycle.
+The move preserves the Latin property.  In the row and column views it
+reverses the conventional row--column Latin sign; in the symbol view it
+preserves that sign but reverses the two parastrophically transported signs.
+It is therefore a natural primitive for attempts to construct local
+sign-reversing involutions in parastrophic versions of the Alon--Tarsi parity
+setting. The changes of the three individual line-parity products under row,
+column, and symbol cycle switches are already given by
+Wanless~\cite[Proposition~1]{Wanless2004CycleSwitches}. Our pairwise
+row--column, row--symbol, and column--symbol sign table is the corresponding
+explicit product calculation, not a claim of priority for the cycle-switch
+parity rule. B\'erczi's
+recent experimental program explicitly studies such local corrections as
+candidate ingredients for global constructions~\cite{Berczi2026}.  That work
+is exploratory and formulates conjectural mechanisms rather than claiming
+proofs.
+
+This paper isolates the underlying existence question.  For each of the row,
+column, and symbol views, we ask whether some pair of lines induces a
+permutation with a nontrivial odd cycle.  Recording the three answers gives a
+pattern in $\{F,T\}^3$.  A square of pattern $\FFF$ has no such local
+odd-cycle move in any view; equivalently, it avoids this trade primitive for
+all three pairwise parity products.  This distinction matters: a symbol-view
+odd trade need not reverse the fixed conventional row--column sign.  Cycle
+structures of Latin-square lines have long been useful for parity and
+symmetry questions; see, for example, Kotlar~\cite{Kotlar2012}. The
+alternating-cycle correspondence for pairwise unions of factors in the
+associated bipartite factorization is also classical; Wanless and
+Ihrig~\cite[Section~3]{WanlessIhrig2005Factorizations} state the
+symbol-view version. The tripartite statement below applies its
+coordinate-conjugate versions.
+
+Failure patterns are componentwise monotone from Latin subsquares to their
+ambient squares.  They are also
+exactly preserved by a Latin quotient when all congruence blocks have size
+two, while any nontrivial odd congruence-block size forces pattern TTT.  It
+follows that a hypothetical FFF quasigroup of order $2p$, with $p$ an odd
+prime, must be congruence-simple in every isotope.  Iteration characterizes
+FFF in the restricted class admitting a prime-factor congruence series:
+all prime factors in the series must have size two.  A twisted binary
+extension of $C_4$ also gives an explicit,
+census-free non-group-isotopic FFF loop of order $8$.  This excludes every
+congruence-imprimitive order-$10$ quasigroup construction.  A later
+one-view reduction separately excludes imprimitive generated line actions;
+the exhaustive palette masters developed below subsequently exclude the
+remaining FFF case altogether.
+
+A second subsquare theorem identifies the remaining binary line-incidence
+defect exactly.  Nonuniversal vectors in the left binary line kernel are in
+bijection with half-order subsquares, and quotienting by the two universal
+constant relations groups them into complementary four-packs.  This gives a
+closed counting formula and forces maximal binary line rank for every FFF
+order congruent to $2$ modulo $4$ and greater than $2$.  At order $10$ this
+is a sharp necessary condition, but not a decision: the tracked non-FFF
+diagnostic tables already have the same maximal rank.
+
+Specializing Moorhouse's $3$-net character formula, every additional
+prime-field line dependency
+defines a balanced three-sorted cyclic quotient homotopy; after isotopy its
+fibres form a quasigroup congruence.  It follows that every Smith torsion
+prime divides the square order.  Combining this with the congruence-pattern
+theorem shows, without a primitive-group classification, that one F view at
+order $2p$ for odd prime $p$ forces the entire integer line-incidence lattice
+to be saturated.  Thus a hypothetical order-$10$ FFF square has rank $28$
+over every field, although current non-FFF diagnostics already satisfy this
+stronger necessary condition.
+
+We additionally derive a cycle-parity condition satisfied by every FFF line
+pair.  It is equivalent to the even-cycle condition at degree $6$ and leaves
+only one odd-cycle type, $5+3+2$, at degree $10$.  An exact order-$8$ scan
+shows that the condition is genuinely weaker than FFF, but it provides a
+smaller target for certified order-$10$ obstruction searches.
+
+The exact even-cycle condition itself admits a second formulation.  A
+permutation has only even cycles exactly when it preserves no odd-cardinality
+subset.  Summing the induced $k$-subset actions of a Latin line family
+therefore gives a zero-one matrix for every relevant odd $k$ exactly when the
+view is F.  This yields both a structural lift characterization and a direct
+proof-producing encoding; at order $10$, only the levels $k=3$ and $k=5$ are
+needed.
+
+The local alternating bipartitions also glue globally.  On the dual of a
+canonical three-coloured flag surface, assigning one basis vector to every
+edge colour defines an $\mathbb F_2^3$-valued cochain whose colour-stratified
+coboundary detects the complete view pattern.  It is a cocycle exactly for FFF
+squares; then its three coordinate classes sum to the first
+Stiefel--Whitney class and force equal holonomy fibres and divisibility of
+every component's flag count.  This gives a topological realization of
+the slice-wise even-cycle condition rather than another scalar aggregate.
+
+For arbitrary Latin squares $L$ and $K$ we further prove
+\[
+  \pat(L\times K)=\pat(L)\mathbin{\mathrm{OR}}\pat(K)
+\]
+componentwise.  We also prove
+\[
+  L\times K\text{ is group-isotopic}
+  \quad\Longleftrightarrow\quad
+  L\text{ and }K\text{ are both group-isotopic}.
+\]
+The proofs are short but useful: the induced permutations are Cartesian
+products, and their cycle lengths are least common multiples of factor cycle
+lengths.  The group-isotopy statement follows from a basis-family closure
+criterion.
+
+The computational component includes an exhaustive order-$8$ census scan.
+McKay et al.~\cite{McKayMeynertMyrvold2007} enumerated isotopy and main
+classes of small Latin squares.  The associated ANU data page supplies one
+representative of each of the $283657$ order-$8$ main
+classes~\cite{McKayLatinData}.  Scanning those representatives gives the full
+three-view pattern distribution and exactly $230$ FFF main classes.  Only
+$5$ are group-isotopic; the remaining $225$ are not.  The frozen census
+input was downloaded again from the cited ANU URL and matched byte for
+byte.  Its SHA-256 is recorded in Section~\ref{sec:reproducibility}.
+
+Combining the structural and computational parts yields infinite families.
+Every order $2^m$, $m\geq 3$, realizes all eight patterns, and every such
+order contains a non-group-isotopic FFF square.  The latter existence claim
+now follows entirely theoretically from the explicit twisted order-$8$ loop;
+only the realization of all eight patterns uses the census.  We make no claim
+of unrestricted cancellation for direct products. The later
+cycle-spectrum and quotient-recovery arguments do preserve distinctions
+within specified families, with all hypotheses stated explicitly.
+
+Exhaustive generation of all $9408$ reduced squares of order $6$
+finds no FFF square.  The generated set agrees exactly with the $9408$-square
+ANU reduced-order-$6$ file.  At order $10$, two exhaustive cycle-palette
+master searches prove nonexistence.  Those negative results remain valid, but
+the former power-of-two existence conjecture is false: an explicit reduced
+order-$12$ FFF table passes all $198$ three-view line-pair tests.  Further
+tables of orders $14$ and $36$ pass their corresponding exact tests.  The
+order-$12$ example alone refutes the conjecture; the next undecided small
+even non-power-of-two order is $18$.
+
+A separate elementary calculation shows that the classical round-robin
+midpoint Latin square of order $p+1$ is FFF exactly for primes
+$p\equiv3\pmod8$. This supplies infinitely many non-power-of-two FFF
+orders. The order-$20$ instance and the independently audited order-$10$
+exclusion give the exact threshold $h(5)=2$. The underlying perfect
+1-factorisation is classical; a broad priority claim for the FFF criterion
+is not made.
+
+More generally, a three-point patch to a cyclic finite-field lift constructs
+an FFF square of order $m2^{\operatorname{ord}_m(2)}$ for every odd $m>1$.
+The proof controls the row, column, and symbol return translations on every
+subgroup coset, including a root/inverse choice for composite $m$; the
+order-$12$ witness supplies the exceptional $m=3$ case.  This establishes an
+explicit upper bound on the dyadic exponent for each odd part, not the least
+exponent or a classification of all FFF orders.  A literature-priority check
+and external expert review remain open.
+
+The row-fibred construction permits different inner operations over a
+common quotient and satisfies the same componentwise pattern rule.
+When the fibres have no binary three-sorted quotient, every binary
+quotient descends to the outer square. Over an elementary abelian
+outer group, its characters recover all layers intrinsically.
+The main classes within the fixed family are then exactly the
+affine orbits of the fibre assignments. A complete audit of one
+order-$20$ trade family and two further controls supplies $514$
+source classes for the resulting numerical lower bounds.
+
+The paper does not claim a proof of the Alon--Tarsi conjecture. It establishes
+the precise limitations of one local-trade primitive, gives exact finite
+data, and provides a product construction that converts the order-$8$
+phenomenon into infinite families.
+
+The exposition places the structural theory, products, and finite census
+before the denser order-$10$ diagnostic machinery.  The flag-surface and
+pair-label constructions are retained as a second research layer rather than
+as prerequisites for the core FFF results.

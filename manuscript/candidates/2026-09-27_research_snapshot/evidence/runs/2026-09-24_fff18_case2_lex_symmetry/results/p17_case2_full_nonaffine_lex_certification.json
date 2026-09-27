@@ -1,0 +1,42 @@
+{
+  "checker": "drat-trim",
+  "checker_binary_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "checker_command": [
+    "/tmp/order8_solver_tools/drat-trim/drat-trim",
+    ".audit/local/fff18_case2_lex_symmetry/p17_case2_full_nonaffine_lex.cnf",
+    ".audit/local/fff18_case2_lex_symmetry/p17_case2_full_nonaffine_lex.drat",
+    "-i"
+  ],
+  "checker_elapsed_seconds": 98.655,
+  "checker_limit_seconds": 360,
+  "checker_returncode": 0,
+  "checker_source_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "checker_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "checker_stdout_sha256": "63804f3d6efbdf2d86b8f37531edfd95a120825ff4d5b8b00e9da37b79613a74",
+  "clauses": 631532,
+  "input_cnf_sha256": "e3e199bacafd195bf612b0306dcb7e3e0d8aa853d0221c264bd63adbf823d17a",
+  "parent_cnf_sha256": "aabf80fd5b13702b396677b35173edaeb09de5536a4b10cedb945f05614e8be1",
+  "proof_bytes": 118434431,
+  "proof_checked": true,
+  "proof_local_path": ".audit/local/fff18_case2_lex_symmetry/p17_case2_full_nonaffine_lex.drat",
+  "proof_sha256": "51a460d865040ec2891485349381a7cd4a592a3f565448975a6d20edf27e8e8b",
+  "scope": "C170 full-view p17 case 2 nonaffine, not arbitrary order 18",
+  "solver": "CaDiCaL",
+  "solver_binary_sha256": "c7b63954503d7fb1c8532efa37689715398683b5dea59d9bf6d80f06169e09b3",
+  "solver_command": [
+    "/opt/homebrew/bin/cadical",
+    "-t",
+    "120",
+    "-n",
+    ".audit/local/fff18_case2_lex_symmetry/p17_case2_full_nonaffine_lex.cnf",
+    ".audit/local/fff18_case2_lex_symmetry/p17_case2_full_nonaffine_lex.drat"
+  ],
+  "solver_elapsed_seconds": 68.573,
+  "solver_limit_seconds": 120,
+  "solver_returncode": 20,
+  "solver_status": "unsat",
+  "solver_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "solver_stdout_sha256": "8c28013e9de3ab9a77d8594a5c6f84d3d5bbf282e7c3ebb3d16f36fa67a9ef64",
+  "solver_version": "3.0.0",
+  "variables": 2182
+}

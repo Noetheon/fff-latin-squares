@@ -1,0 +1,180 @@
+{
+  "scope": "Selected public evidence, not the complete private capture",
+  "files": [
+    {
+      "snapshot": "evidence/data/affine_prime_controls.json",
+      "bytes": 19365,
+      "sha256": "8accd03653d5e76c205f4b627eeab32ce4c51bf5201531b137dec5b21d8dd4f9"
+    },
+    {
+      "snapshot": "evidence/data/order12_first.json",
+      "bytes": 1735,
+      "sha256": "8b71d6ecaa6ab86a806a0660529b404d8f3667db2b58b82bf5c72fed010fa416"
+    },
+    {
+      "snapshot": "evidence/data/order12_preferred.json",
+      "bytes": 1522,
+      "sha256": "0b6be61afd07634d5724868529d76fe0fa8e5a2526a33b2f0034c01c54593e1a"
+    },
+    {
+      "snapshot": "evidence/data/order14.csv",
+      "bytes": 548,
+      "sha256": "1bd542fd1d9bc0e2bc0e569f08ebb70da4a11cef78b6e106f8a63f8fad0eb11d"
+    },
+    {
+      "snapshot": "evidence/data/order36_seed60322.csv",
+      "bytes": 3528,
+      "sha256": "3755fd977705b80a398b60844d1574035cbf10222268af8013becee22d0f76df"
+    },
+    {
+      "snapshot": "evidence/data/order36_seed60324.csv",
+      "bytes": 3528,
+      "sha256": "4068ef5369f537980272ca63ef88e18d27eafa242b020c1bb984d74d1c70bfe5"
+    },
+    {
+      "snapshot": "evidence/data/order8_pattern_controls.json",
+      "bytes": 36578,
+      "sha256": "6ed73d01d072cd1e9be44ee78645ea98e562ab0986684b793ac6619c8b154f03"
+    },
+    {
+      "snapshot": "evidence/data/order98.json",
+      "bytes": 96278,
+      "sha256": "a910c3e28652d31ccc60a396798d22106b6792d09cad45466da735621d5d2e8d"
+    },
+    {
+      "snapshot": "evidence/data/quadratic_sources.json",
+      "bytes": 137200,
+      "sha256": "ef8ae7a3a2916fedacd0b1de10e5e7dd0d53138b12c43780f8bc1a9257f9ab53"
+    },
+    {
+      "snapshot": "evidence/data/steiner20.json",
+      "bytes": 7129,
+      "sha256": "6aa6d3cfd2dc6a1b3a72cfedde4c0c0357402ef36aa71f036bdb062f54fd5282"
+    },
+    {
+      "snapshot": "evidence/proofs/fff18_case2_conditional_lex_symmetry.md",
+      "bytes": 4984,
+      "sha256": "5e4c1978a2f1627e2dfe8fe8bac346f98816c32128254b1e2f42d85c2388f172"
+    },
+    {
+      "snapshot": "evidence/proofs/fff18_five_cell_view_lattice.md",
+      "bytes": 2065,
+      "sha256": "f1c87a2feea353a70cda66cb32785686e189d4d8922d662d50c19e7760ef4c2d"
+    },
+    {
+      "snapshot": "evidence/proofs/fff18_same_sign_row1_normal_form.md",
+      "bytes": 4892,
+      "sha256": "6e65003eef863336a5f694025382b3e6698c866cab3db0883fd7c63f56710e0c"
+    },
+    {
+      "snapshot": "evidence/proofs/fff20_represented_class_contraction_screen.md",
+      "bytes": 4659,
+      "sha256": "310b43f17dc010313d8668092186a734509dc2c411e1caa716c9a095272f3c18"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_affine_2mod8_explicit_boundary.md",
+      "bytes": 3271,
+      "sha256": "9a4a2eff74ddcf5aafe62a656c0074e93eae7bae4f4c869912c309fe7ebd738d"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_affine_orbit_fibre_classification.md",
+      "bytes": 6504,
+      "sha256": "e637b15da9ab5dbcd0f74246c329d105c106f7563c2c9ac39c8babe020c49ff9"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_affine_prime_successor_bound.md",
+      "bytes": 17166,
+      "sha256": "a76f86dbbbe2e9a3ed38ff5b5d7b54e00ee4beec437d3eb3ed2d77f8356f2aac"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_binary_quotient_descent_and_dyadic_class_growth.md",
+      "bytes": 6971,
+      "sha256": "eecb84df29a1820f5e46238f7417950f9bff24f121b5708f4a998f01a856f6a4"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_binary_quotient_rigidity.md",
+      "bytes": 7165,
+      "sha256": "99d10f9a3c69aedd1f6f00ac65ba67051ab13314aad563b0cd5ce9eb6c9e2657"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_odd_prime_autotopy_orbit_bound.md",
+      "bytes": 4624,
+      "sha256": "59d722deed95a1d3ec1b4525a7562b9d5434a50946629d099dfdb2b6371e0f35"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_onepoint_odd_base_transversal_filter.md",
+      "bytes": 6522,
+      "sha256": "41a9d8cd4282f2b321f5d2c5605471e3ed5e6d6cd014f92d24af58fa865a2716"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_position_value_coloring_channel.md",
+      "bytes": 3461,
+      "sha256": "cce743819db2a9944009d80a954804e5c7bbd51ae2a3e90be4c8513aa5a4ee96"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_prime_cyclic_one_point_direction_rigidity.md",
+      "bytes": 7137,
+      "sha256": "8a73f021eefe9f1741794b45d61c5b82c99490514545ae3932bb803a9f3b4fca"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_row_fibred_extension.md",
+      "bytes": 9857,
+      "sha256": "0811b5381555daf3fa443577f4ccc8e5b93535a38b2485564e2b96cd423f2dac"
+    },
+    {
+      "snapshot": "evidence/proofs/fff_three_view_cycle_spectrum_product.md",
+      "bytes": 6024,
+      "sha256": "6c4080e6275959bdd29c0c180e68b31d0f0f57373b200f0a9c5b38b430c5d82e"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-24_fff18_case2_lex_symmetry/results/family_exclusion_audit.json",
+      "bytes": 1503,
+      "sha256": "2813550ee9a79abc43670fa072894c325adc3aa503270faaf4e74a9555c9e8ac"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-24_fff18_case2_lex_symmetry/results/p17_case2_full_nonaffine_lex_certification.json",
+      "bytes": 1963,
+      "sha256": "e78f79646b3eee7891dedf330a7ec8f65b239266357b91f1bfa09e80ed255777"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/odd_base_uoc_orbits.json",
+      "bytes": 1646,
+      "sha256": "03aa411554d4ec0153be74bd2c4c0e0b7e0e1b0d5cae53586cd8a1bec021b825"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/oldold_unsat_certification.json",
+      "bytes": 67163,
+      "sha256": "e775fe5fa4681bd0bf1db8cdf8c86188d042fa2edded2dd1d03c2b6b60ba14d3"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-26_fff18_same_sign_row1_split/results/n18_same_sign_row1_cases.json",
+      "bytes": 7616,
+      "sha256": "87685b3f4e0cad192eda54b9a28cf156eedd611760b4665cd6dbc3846cabe538"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-26_fff20_steiner_trade_mainclasses/results/trade_mainclass_audit.json",
+      "bytes": 95703,
+      "sha256": "606a27defb01310493da22b1c770985a69193956f32a8d23d366cf746349798a"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-26_fff_affine_orbit_fibres/results/affine_orbit_fibres_audit.json",
+      "bytes": 4383,
+      "sha256": "d031e2639fe1facda1f15246d7e62e44d487a10767b1dc282ab1bc47d15c1d09"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-27_fff18_five_cell_view_lattice/results/full_certified.json",
+      "bytes": 48711,
+      "sha256": "591b5b3bbb419087288755c711e565cd859a8035fdf9af8d74d6752bb316c21c"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-27_fff18_five_cell_view_lattice/results/view_lattice_status.json",
+      "bytes": 8552,
+      "sha256": "fe27d1ab017f5d98d474513034ca60fbeb134cff5a0fe565797c1a1faceb9daa"
+    },
+    {
+      "snapshot": "evidence/runs/2026-09-27_fff20_trade_contraction_screen/results/trade_contraction_status.json",
+      "bytes": 384418,
+      "sha256": "9b5e226dc4d23e21c014fea912aa63a47e19c1af82ff64395a7389e8f7c954e6"
+    }
+  ]
+}

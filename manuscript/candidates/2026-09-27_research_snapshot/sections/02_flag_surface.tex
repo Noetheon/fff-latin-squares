@@ -1,0 +1,1847 @@
+\section{The three-coloured flag surface}\label{sec:flag-surface}
+
+The three views can be coupled more tightly than by their separate cycle
+counts.  Fix $r\ne r'$ and a column $c$, and put
+\[
+ s=L(r,c),\qquad d=r_{r'}^{-1}(s),\qquad u=L(r,d).
+\]
+The three cells
+\[
+ (r,c,s),\qquad (r',d,s),\qquad (r,d,u)
+\]
+pairwise share a symbol, a column, and a row.  We call this triple a
+\emph{flag}.  It determines one induced-cycle atom in each view: the row
+atom on $\{r,r'\}$ through $c,d$, the column atom on $\{c,d\}$ through
+$r,r'$, and the symbol atom on $\{s,u\}$ through $c,d$.
+
+Retain the shared coordinate as an edge label: a column--symbol edge is
+labelled by its row, a row--symbol edge by its column, and a row--column edge
+by its symbol.  This distinction is essential when an intercalate produces
+parallel edges.
+
+\begin{theorem}[Flag surface and Gram identities]
+\label{thm:flag-surface}
+The $n^2(n-1)$ flags of a Latin square form the triangular faces of a closed,
+possibly disconnected, three-coloured delta-complex $K(L)$.  A cycle atom of
+length $\ell$ has link $C_{2\ell}$.  If $C_{V,\ell}$ is the number of such
+atoms in view $V$, then
+\[
+ \chi(K(L))=
+ \sum_{V\in\{R,C,S\}}\sum_{\ell=2}^n C_{V,\ell}
+ -\frac{n^2(n-1)}2.
+\]
+Every intercalate is an isolated projective-plane delta-component.  If $L$
+is FFF, every other nonempty component has negative Euler characteristic.
+
+Let $B$ be the flag-by-cell incidence matrix, $P$ the flag-by-atom incidence
+matrix, $Q$ the cell-by-atom support matrix, and $A$ the adjacency matrix of
+the Latin-square graph on cells.  Then
+\[
+ B^{\mathsf T}B=3(n-1)I+2A,
+ \qquad B^{\mathsf T}P=3Q.
+\]
+For $n>3$, $B^{\mathsf T}B$ is invertible and
+\[
+ P^{\mathsf T}P-
+ 9Q^{\mathsf T}(B^{\mathsf T}B)^{-1}Q\succeq0.
+\]
+\end{theorem}
+
+\begin{proof}
+Latinness gives $c\ne d$ and $s\ne u$, and the coloured incidences recover
+$r,r',c$, so the stated flags are distinct.  A cycle atom of length $\ell$
+is reached from its two line orientations and its $\ell$ cycle points, hence
+has $2\ell$ incident flags.
+
+A labelled pair of atoms in different views specifies one repeated diagonal
+of a two-by-two rectangle.  Its two orientations are exactly the two incident
+flags.  Thus every labelled edge lies in two faces.  Around an atom, the two
+edge types that preserve it alternate along the induced cycle, giving the
+link $C_{2\ell}$.  Hence $K(L)$ is closed.  With
+$F=n^2(n-1)$ and $E=3F/2$, the Euler formula follows.  A $2$-cycle in any
+view is one intercalate; its three atoms, six labelled edges, and four faces
+form an isolated nonorientable component of Euler characteristic one, hence
+a projective plane.  In an FFF residual component all vertex degrees are at
+least eight.  Since $3F=\sum_v\deg(v)$ and $E=3F/2$, one obtains
+$\chi=V-F/2\leq -V/3<0$.
+
+Every cell lies in $3(n-1)$ flags.  Two different cells occur together in
+two flags exactly when they share one row, column, or symbol, proving the
+first matrix identity.  A cell in an atom support occurs in exactly three
+flags incident with that atom, proving the second.  The Latin-square graph
+has eigenvalues $3(n-1)$, $n-3$, and $-3$, so $B^{\mathsf T}B$ has
+eigenvalues $9(n-1)$, $5n-9$, and $3(n-3)$ and is invertible for $n>3$.
+The final assertion is the Schur complement of the positive-semidefinite
+Gram matrix $[B\ P]^{\mathsf T}[B\ P]$.
+\end{proof}
+
+Let $\alpha_R,\alpha_C,\alpha_S$ be the fixed-point-free involutions on
+flags that cross the labelled edge opposite the indicated atom colour.
+
+\begin{proposition}[Dual-word traces]\label{prop:flag-traces}
+For every $k\geq1$,
+\[
+ \operatorname{Fix}((\alpha_C\alpha_S)^k)
+ =2\sum_{\ell\mid k}\ell C_{R,\ell},
+\]
+and cyclically in the other views.  If
+$\beta=\alpha_R\alpha_C\alpha_S$, then
+\[
+ \operatorname{Fix}(\beta)=4I(L),
+\]
+where $I(L)$ is the intercalate count.  Every
+$\operatorname{Fix}(\beta^k)$ is a main-class invariant.
+\end{proposition}
+
+\begin{proof}
+Around a row atom of length $\ell$, the first product has two orbits of
+length $\ell$, giving the divisor sum.  A flag is fixed by $\beta$ precisely
+when crossing the three edge colours closes its two-by-two rectangle, which
+means that the second diagonal also repeats a symbol.  This is an
+intercalate, and each intercalate contributes its four flags.  Isotopy merely
+relabels flags.  A permutation of the three coordinate colours sends
+$\beta$ to a cyclic rotation of $\beta$ or $\beta^{-1}$; these have the same
+fixed-point counts in every power.
+\end{proof}
+
+\begin{theorem}[Exact atom projection]\label{thm:flag-atom-projection}
+Let $H=P^{\mathsf T}P$, let $v$ be the number of cycle atoms, and let $c$
+be the number of connected components of $K(L)$.  Then
+\[
+ \operatorname{rank}_{\mathbb Q}H=v-2c.
+\]
+Let $N$ be the cell-by-coordinate incidence matrix, put
+$U=Q^{\mathsf T}Q$, $W=Q^{\mathsf T}NN^{\mathsf T}Q$, and let
+$\boldsymbol\ell$ be the vector of atom lengths.
+Assume $n>3$ for the following Schur-complement assertions.  For
+\[
+ D=(n-1)(n-3)(5n-9),
+\]
+the scaled Schur complement has the integral form
+\[
+ DS=DH+6(n-1)W-3(n-1)(5n-9)U
+       -32\boldsymbol\ell\boldsymbol\ell^{\mathsf T}\succeq0.
+\]
+Its nullity is at least $2c+1$.
+\end{theorem}
+
+\begin{proof}
+If $Pz=0$, subtracting the equations of two triangular faces sharing an edge
+of colours, say, $B$ and $C$ equates the values at their two opposite
+$A$-vertices.  Along an arbitrary dual path, crossing an edge of colour $A$
+therefore replaces the $A$-vertex by one with the same value, whereas crossing
+an edge of colour $B$ or $C$ leaves the $A$-vertex literally unchanged because
+it belongs to the shared primal edge.  Dual connectivity consequently makes
+$z$ constant on all $A$-vertices in a component.  The same argument applies
+cyclically to $B$ and $C$.  Each face equation says that the three resulting
+constants sum to zero.  Thus the kernel has exactly two dimensions per
+component, which proves the rank formula.
+
+The cell-coordinate matrix satisfies $NN^{\mathsf T}=3I+A$.  Moreover
+\[
+ (B^{\mathsf T}B)^{-1}
+ =\frac5{3(5n-9)}I
+ -\frac2{3(n-3)(5n-9)}A
+ +\frac8{9(n-1)(n-3)(5n-9)}J.
+\]
+Substitution in $S=H-9Q^{\mathsf T}(B^{\mathsf T}B)^{-1}Q$ gives the
+displayed integer formula.  Positive semidefiniteness follows because this
+is $P^{\mathsf T}$ times the orthogonal projector away from
+$\operatorname{col}(B)$ times $P$.  The componentwise colour differences
+give $2c$ kernel vectors.  One further vector is constant on all atoms of
+one colour: its image under $P$ is the all-one flag vector, which lies in
+$\operatorname{col}(B)$.
+\end{proof}
+
+\begin{corollary}[Topological and sign-cut consequences]
+\label{cor:flag-topological-sign-cut}
+On an orientable flag component every cycle of every odd-length word in the
+dual involutions has even length.  If $n$ is even and $L$ is FFF, then
+\[
+ \chi(K(L))\equiv \frac n2\pmod2.
+\]
+For even $n$, every F-view has at least
+\[
+ n(n-1)-\left\lfloor\frac{n^2}{4}\right\rfloor
+\]
+cycle atoms.  Thus a hypothetical order-$10$ FFF square has at least $65$
+atoms in each view and $195$ in total.
+\end{corollary}
+
+\begin{proof}
+Coherent face signs change across every edge, so an odd word reverses sign
+and can return only after an even number of iterations.  For the Euler
+parity, all atoms are even cycles and the global sign relation of
+Proposition~\ref{prop:aggregate-profile-baseline} gives
+$v\equiv n(n-1)/2\pmod2$; moreover $n^2(n-1)/2$ is even, so the face
+contribution to Euler characteristic is even.  Finally, by
+Proposition~\ref{prop:line-sign-cut}, line pairs with an
+odd number of cycles form a cut of size at most $\lfloor n^2/4\rfloor$.
+Such a pair contributes at least one atom and every other pair at least two.
+\end{proof}
+
+The aggregate consequences in this corollary are not sufficient for an
+order-$10$ obstruction.  An exact numerical repository witness uses the
+disjoint-union summaries of frozen order-$8$ FFF flag surfaces 1 and 2 and
+one isolated projective-plane intercalate component.  It has $900$ flags, $591$ atoms,
+$176$ components and Euler characteristic $141$;
+Theorem~\ref{thm:flag-atom-projection} then forces
+$\operatorname{rank}H=239$.  In each colour its $169$ length-two and $28$
+length-four atoms can be regrouped into $45$ formal degree-$10$ line-pair
+partitions, with $25$ odd-cycle-count pairs forming the size of a $5|5$ cut.
+The three cut parameters are $(5,5,5)$ and therefore have the required odd
+sum.  This is a decoupled aggregate consistency witness only.  The formal
+line-pair labels are not shown compatible with the flag faces, labelled
+edges, or $H$ incidences; nor does it supply a common set of $100$ Latin
+cells, $Q$, coordinate-multiplicity, or Schur data.  It shows precisely that
+the listed aggregate and componentwise conditions cannot by themselves
+decide order $10$ by itself.  Pair-label/flag-incidence compatibility is an
+intermediate obstruction layer not excluded by this construction.
+
+\begin{theorem}[Labelled line-pair Gram reduction]
+\label{thm:labelled-pair-gram}
+Assume $n>3$, and put $m=\binom n2$.  For a flag $\phi$, let $\lambda_V(\phi)$ be its
+unordered line-pair label in colour $V$, and let $Z_V$ be the corresponding
+flag-by-pair incidence matrix.  Then
+\[
+ Z_V^{\mathsf T}Z_V=2nI_m,
+ \qquad W^{VW}:=\tfrac12 Z_V^{\mathsf T}Z_W\in\{0,1,2\}^{m\times m}.
+\]
+Every row and column of $W^{VW}$ is the weighted edge vector of a two-factor
+of $K_n$, and its component lengths are the cycle lengths of the associated
+two-line permutation.  If $E$ is the unsigned vertex-edge incidence matrix
+of $K_n$, then
+\[
+ EW^{VW}=2J,\qquad W^{VW}E^{\mathsf T}=2J.
+\]
+Moreover
+\[
+ K=\begin{bmatrix}
+ nI&W^{RC}&W^{RS}\\
+ (W^{RC})^{\mathsf T}&nI&W^{CS}\\
+ (W^{RS})^{\mathsf T}&(W^{CS})^{\mathsf T}&nI
+ \end{bmatrix}=\tfrac12 Z^{\mathsf T}Z\succeq0.
+\]
+Writing $C$ for the restriction of this block matrix to three copies of
+$\ker E$, one has
+\[
+ \operatorname{rank}_{\mathbb Q}K=3n-2+
+ \operatorname{rank}_{\mathbb Q}C.
+\]
+The Schur projection from Theorem~\ref{thm:flag-atom-projection}, obtained by
+removing the coarse flag-by-cell
+incidence satisfies
+\[
+ \Sigma\succeq0\Longleftrightarrow K\succeq0,
+ \qquad \operatorname{rank}_{\mathbb Q}\Sigma=
+ \operatorname{rank}_{\mathbb Q}K-1.
+\]
+Finally,
+\[
+ t(L)=\operatorname{tr}\!\left(
+ W^{RC}W^{CS}(W^{RS})^{\mathsf T}\right)
+\]
+is a main-class invariant.
+\end{theorem}
+
+\begin{proof}
+Each line-pair label occurs in $2n$ flags.  A cross-codegree counts repeated
+diagonals in the rectangle selected by two pair labels; its value is zero,
+one, or two.  Equivalently, $W^{RC}$ is the sum over symbols of the
+permutation matrices induced on unordered row pairs by the corresponding
+row--column matchings, and cyclically for the other colours.  This proves the
+two-factor statement and the equations with $E$.
+
+The displayed block matrix is its defining Gram matrix.  Since
+$EE^{\mathsf T}=(n-2)I+J$, one has the orthogonal decomposition
+\[
+ \mathbb Q^m=\langle\mathbf1\rangle\oplus
+ E^{\mathsf T}(\mathbf1^\perp)\oplus\ker E.
+\]
+Every $W$ acts by $n$ on constants, annihilates endpoint contrasts, and
+preserves $\ker E$.  The constant block has rank one, the three endpoint
+blocks have total rank $3(n-1)$, and the rank formula follows.
+
+For the Schur statement, direct flag counting gives
+$B^{\mathsf T}Z_V=3N_VE$, where $N_V$ records the $V$-line of a cell.
+Substitution of the closed inverse from
+Theorem~\ref{thm:flag-atom-projection} diagonalizes $\Sigma$ on the same
+decomposition: it is zero on the common constant direction, positive
+definite on the three endpoint-contrast spaces, and equals $2C$ on the
+cycle spaces.  This proves both assertions.  Independent row, column, and
+symbol relabellings conjugate the three pair-label sets, while parastrophy
+only permutes the colours and transposes blocks.  The symmetric triangle
+contraction $t(L)$ is therefore invariant.
+\end{proof}
+
+This theorem isolates the full nontrivial common-Gram information in
+dimension $3(m-n)$, but it does not characterize realizable Latin squares.
+In particular, the coarse cell projection cannot supply a stronger
+pair-matrix obstruction; finer common cell support or another nonlinear
+compatibility is required.
+
+\begin{proposition}[Full pair-label tensor]
+\label{prop:pair-label-tensor}
+For unordered row-, column-, and symbol-pair labels $e,f,g$, let
+\[
+ T(e,f,g)=\#\{\phi:\lambda_R(\phi)=e,
+ \lambda_C(\phi)=f,\lambda_S(\phi)=g\}.
+\]
+Every entry of $T$ lies in $\{0,1,4\}$.  Its two-dimensional marginals are
+$2W^{RC},2W^{RS},2W^{CS}$.  More precisely, a marginal entry zero has no
+completion, an entry two has two distinct completions of multiplicity one,
+and an entry four has one completion of multiplicity four; the latter is
+exactly an intercalate.
+
+The multiplicity-one support is a closed three-coloured pair-label
+pseudocomplex $X_\lambda(L)$.  At a line-pair vertex its link is the disjoint
+union of the cycles $C_{2\ell}$ belonging to the nonintercalate induced
+cycles of lengths $\ell$ on that line pair.  Consequently $L$ is FFF if and
+only if every component of every vertex link of $X_\lambda(L)$ has length
+divisible by four.
+
+For a fixed row $r$, contracting $T$ over all row-pair labels incident with
+$r$ and thresholding entries at two gives exactly the two-subset action of
+the row permutation $c\mapsto L(r,c)$.  Cyclic contractions recover the
+column and symbol line maps.  Since the two-subset action of $S_n$ is
+faithful for $n\geq3$, the fixed-coordinate map $L\mapsto T(L)$ is injective
+for $n\geq3$.  This restriction is necessary: the two coordinate-labelled
+order-$2$ squares have the same single tensor entry, of value $4$.
+\end{proposition}
+
+\begin{proof}
+Fix a row pair and a column pair.  A flag exists exactly when a diagonal of
+the selected rectangle repeats a symbol.  If precisely one diagonal repeats,
+its two orientations give two flags with different symbol-pair labels;
+equality of those labels would make the other diagonal repeat as well.  If
+both diagonals repeat, the rectangle is an intercalate and all four flags
+have the same three pair labels.  This proves the local law and every
+marginal statement, cyclically in the colours.
+
+After deleting multiplicity-four faces, each active two-label edge has the
+two multiplicity-one completions just described, so it lies in exactly two
+faces.  Around a fixed pair label, the flag-surface links of distinct nonintercalate
+cycle atoms remain disjoint and are $C_{2\ell}$.  Splitting a singular
+pair-label vertex by these link components recovers the nonintercalate part
+of the flag surface in Theorem~\ref{thm:flag-surface}.  Finally, an induced
+cycle length $\ell>2$ is even
+exactly when $2\ell$ is divisible by four; the omitted intercalate cycles
+have length two and are already F-compatible.
+
+For the contraction claim, fix a column pair $\{c,d\}$.  The pair
+$\{L(r,c),L(r,d)\}$ is the unique symbol-pair label of contracted
+multiplicity at least two: the positive multiplicities are $(2,1,1)$ unless
+the two diagonal completions use the same partner row, in which case the
+rectangle is an intercalate and the sole multiplicity is four.  Thus the
+threshold matrix is the edge lift of the row permutation.  For distinct
+$d_1,d_2\ne c$, the intersection of the two image edges of
+$\{c,d_1\}$ and $\{c,d_2\}$ is the singleton $\{L(r,c)\}$, proving
+faithfulness and reconstruction.  The cyclic cases are identical.
+\end{proof}
+
+\begin{theorem}[Smith torsion and total unimodularity]
+\label{thm:pair-tensor-smith}
+Fix one pair-label coordinate of the tensor $T$ in
+Proposition~\ref{prop:pair-label-tensor}, and let $T_e$ be the resulting
+integral matrix.  Delete its identically zero rows and columns and denote the
+active square matrix by $\widehat T_e$.  If the associated two-line
+permutation has $t$ cycles of
+length two, $o$ odd cycles, and $q$ even cycles of length at least four, then,
+up to unit Smith factors,
+\[
+ \operatorname{coker}(\widehat T_e)\cong
+ \mathbb Z^q\oplus(\mathbb Z/2\mathbb Z)^o
+ \oplus(\mathbb Z/4\mathbb Z)^t.
+\]
+In particular,
+\[
+ o=\operatorname{rank}_{\mathbb Q}(T_e)
+   -\operatorname{rank}_{\mathbb F_2}(T_e\bmod2)
+   -\#\{(f,g):T_e(f,g)=4\}.
+\]
+Consequently a Latin square is FFF if and only if this expression is zero for
+every slice in all three tensor directions.
+
+The ranks in the displayed formula are unchanged when zero rows and columns
+are deleted; the full cokernel merely has the corresponding additional free
+factors.
+
+Equivalently, define $N_e(f,g)=1$ when $T_e(f,g)>0$ and zero otherwise.  A
+Latin square is FFF if and only if every $N_e$ in all three directions is
+totally unimodular; equivalently, every such matrix is balanced.  We use the
+standard terminology of Camion and Berge~\cite{Camion1965,Berge1972}; the
+equivalence asserted here is for these special two-regular slice blocks, not
+for arbitrary zero-one matrices.
+\end{theorem}
+
+\begin{proof}
+The slice normal form from Proposition~\ref{prop:pair-label-tensor} is a
+direct sum of $[4]$ over the length-two cycles and
+$I_\ell+P_\ell$ over all longer cycles.  The cokernel of the latter block has
+generators $x_i$ with relations $x_i+x_{i+1}=0$.  Hence every generator is
+$(-1)^ix_0$, and closing the cycle leaves a free generator when $\ell$ is
+even and imposes $2x_0=0$ when $\ell$ is odd.  This proves the Smith and rank
+formulas; the entries equal to four are precisely the intercalates.
+
+After normalization, the blocks are $[1]$ and $I_\ell+P_\ell$.  For odd
+$\ell$ the latter has determinant $2$ and is not totally unimodular.  For
+even $\ell$ it is the unsigned vertex-edge incidence matrix of a bipartite
+cycle; changing signs on one vertex class makes it an oriented incidence
+matrix, which is totally unimodular.  Direct sums preserve this property.
+The balanced-matrix statement is the same forbidden odd-cycle condition for
+these two-regular incidence blocks.
+\end{proof}
+
+\begin{theorem}[Triple endpoint contraction]
+\label{thm:triple-endpoint-parity}
+Let $E_R,E_C,E_S$ be the unsigned vertex--edge incidence matrices of the
+complete graphs on the row, column, and symbol sets, respectively, and put
+\[
+ D=(E_R\otimes E_C\otimes E_S)T,
+ \qquad H=D\bmod 2.
+\]
+Every one-dimensional line of $D$ has sum $8(n-1)$.  If
+$x=(r,c,L(r,c))$ is a Latin cell and $\iota(x)$ is the number of
+intercalates containing it, then
+\[
+ D(r,c,L(r,c))=3(n-1)+\iota(x),
+ \qquad
+ \sum_{s\ne L(r,c)}D(r,c,s)=5(n-1)-\iota(x).
+\]
+Consequently $H$ lies in the tensor product of the three even-sum point
+spaces over $\mathbb F_2$, each of its mode ranks is at most $n-1$, and its
+values on the Latin incidence positions recover the cellwise intercalate
+parity after the table is reconstructed by
+Theorem~\ref{thm:endpoint-characterization}.
+
+More precisely, write $T=X+4Y$ with $X=\mathbf1_{T=1}$ and
+$Y=\mathbf1_{T=4}$.  If
+$A=(E_R\otimes E_C\otimes E_S)X$ and
+$B=(E_R\otimes E_C\otimes E_S)Y$, then on every Latin cell $x$,
+\[
+ B(x)=\iota(x),\qquad A(x)=3\bigl(n-1-\iota(x)\bigr).
+\]
+In particular $0\leq\iota(x)\leq n-1$.
+\end{theorem}
+
+\begin{proof}
+Fix row and column endpoints $(r,c)$.  Summing over the symbol endpoint
+contributes two endpoints for every symbol edge.
+Proposition~\ref{prop:pair-label-tensor} and
+Theorem~\ref{thm:labelled-pair-gram} therefore give
+\[
+ \sum_sD(r,c,s)
+ =4\sum_{e\ni r,\,f\ni c}W^{RC}(e,f)
+ =8(n-1).
+\]
+The other two directions follow cyclically.  Reduction modulo two proves the
+even-line and rank statements.
+
+Every cell lies in exactly $3(n-1)$ flag faces.  A nonintercalate flag has
+exactly its three face cells in its endpoint box, so it contributes at $x$
+exactly when the face contains $x$.  The four flags of an intercalate have
+one common triple of pair labels.  All four endpoint boxes contain each of
+the four intercalate cells, whereas only three of the four faces contain a
+fixed cell.  Hence every intercalate through $x$ contributes one extra unit,
+which proves the first displayed cell formula.  Subtracting it from the line
+sum proves the complementary formula.
+
+Finally, every multiplicity-four entry of $T$ is one intercalate and its
+endpoint box contains precisely its four Latin cells.  Thus
+$B(x)=\iota(x)$; the formula for $A$ follows from $D=A+4B$.  Its
+nonnegativity gives the local upper bound.
+\end{proof}
+
+\begin{theorem}[Colour-parity holonomy]
+\label{thm:colour-parity-holonomy}
+Let $K^*(L)$ be the dual cellulation of the flag surface.  Assign to every
+dual edge of colour $V\in\{R,C,S\}$ the corresponding standard basis vector
+$e_V\in\mathbb F_2^3$, and denote the resulting one-cochain by $\omega$.
+Then $\omega$ is a cocycle if and only if $L$ is FFF.
+
+More precisely, the coordinate cochain $\omega_R$ is closed exactly when the
+column and symbol views are F, and cyclically.  On every connected FFF
+component,
+\[
+ [\omega_R]+[\omega_C]+[\omega_S]=w_1(K(L)).
+\]
+If the three colour classes span a subspace of dimension $h$ in
+$H^1(K(L);\mathbb F_2)$, then the number of flags in that component is
+divisible by $2^{3-h}$.
+
+On every intercalate component, which is a projective plane, the three colour
+classes are equal to the same nonzero class.  Finally, if $L$ is FFF and
+$n\equiv2\pmod4$, at least one component has nontrivial colour-parity
+holonomy.
+\end{theorem}
+
+\begin{proof}
+An atom in the row view with induced cycle length $\ell$ has a dual boundary
+containing $\ell$ column-coloured and $\ell$ symbol-coloured edges.  Therefore
+\[
+ (\delta\omega)(a)=\ell(e_C+e_S),
+\]
+and the two cyclic analogues hold in the other views.  This vanishes exactly
+when the atom length is even.  Thus the three colour-stratified coboundaries
+locate every odd-cycle atom and retain the full three-view pattern.  By
+contrast, the three booleans recording whether the coordinate cochains are
+globally closed are only the pairwise conjunctions of the F-view bits and do
+not distinguish patterns with at least two failing views.
+
+Orient every primal flag triangle first by the fixed colour order $(R,C,S)$.
+The two induced orientations on a shared labelled edge agree, so the
+transition cochain is one on every dual edge and represents $w_1$.  Since
+$\omega_R+\omega_C+\omega_S$ is precisely this constant-one cochain, the
+displayed cohomology identity follows.
+
+Let $H\leq\mathbb F_2^3$ be the holonomy subgroup obtained by integrating
+$\omega$ around closed dual paths.  Its dimension is $h$.  Path integration
+labels flags by $\mathbb F_2^3/H$.  A word in the three dual edge involutions
+acts bijectively on the component and translates every label by the same
+element.  Because the three basis vectors generate the quotient, all
+$2^{3-h}$ label fibres have equal size, proving divisibility.
+
+The dual graph of an intercalate component is $K_4$, with its three colour
+classes as the three perfect matchings.  Every triangle uses all three
+colours, so each coordinate evaluates nontrivially on the unique nonzero
+mod-two homology class; all three equal $w_1\ne0$.
+
+For the final statement, Corollary~\ref{cor:flag-topological-sign-cut} gives
+$\chi(K(L))\equiv n/2\pmod2$ for even-order FFF squares.  If
+$n\equiv2\pmod4$, the total Euler characteristic is odd.  Since every closed
+orientable surface has even Euler characteristic, some component is
+nonorientable.  The displayed identity then forces nonzero colour-class
+span on that component.
+\end{proof}
+
+\begin{definition}[Exact masks and compatible potentials]
+\label{def:exact-mask-potentials}
+Let $F$ be a connected component of the dual flag cellulation.  For
+$m=(m_R,m_C,m_S)\in\mathbb F_2^3$, put
+\[
+ \omega_m=m_R\omega_R+m_C\omega_C+m_S\omega_S.
+\]
+The mask $m$ is \emph{exact on $F$} if there is a binary zero-cochain $p_m$
+on the flags of $F$ with $\delta p_m=\omega_m$, equivalently
+\[
+ p_m(\alpha_Vf)=p_m(f)+m_V
+ \qquad(V\in\{R,C,S\}).
+\]
+The exact masks form a vector space $M_F$.  A \emph{compatible family of
+potentials} is a linear choice $m\mapsto p_m$ for $m\in M_F$, modulo
+componentwise constants.  Such a family is obtained by choosing potentials
+for a basis of $M_F$, normalizing them at one base flag, and extending
+linearly.
+\end{definition}
+
+Three-digit masks are written in tuple order $(R,C,S)$.  When integer mask
+codes are used below, the code of $m$ is $m_R+2m_C+4m_S$; hence codes
+$3,5,6$ correspond respectively to tuples $110,101,011$.  In particular,
+an integer's usual binary display must not be read as an $(R,C,S)$ tuple.
+
+The componentwise multiset of flag count, Euler characteristic,
+orientability, and exact linear relations among the three colour classes is
+preserved by isotopy.  Parastrophy applies one global permutation of the
+three colours.  Sorting these tuples and minimizing over the six global
+colour permutations therefore gives a main-class invariant.
+
+\begin{computationaltheorem}[Order-$8$ holonomy profiles]
+\label{cthm:holonomy-profile}
+On the $230$ frozen order-$8$ FFF main-class representatives, the canonical
+component-holonomy profile takes exactly $152$ values.  Exactly $109$ values
+are singleton fibres; the maximum fibre size is five.  The collision
+histogram by fibre size is
+\[
+ 1:109,\qquad 2:22,\qquad 3:12,\qquad 4:4,\qquad 5:5.
+\]
+\end{computationaltheorem}
+
+This invariant records the global gluing of the alternating bipartitions
+described by Theorem~\ref{thm:colour-parity-holonomy}.  The collisions in the computational
+theorem show that it is not a complete classifier, and no injectivity in
+higher orders is asserted.
+
+\begin{theorem}[Oriented holonomy-to-cell lift]
+\label{thm:holonomy-cell-lift}
+Let $I$ be an intercalate with rows $r,r'$, columns $c,c'$, and symbols
+$s,t$, displayed as
+\[
+ \begin{array}{c|cc}
+      &c&c'\\ \hline
+ r    &s&t\\
+ r'   &t&s
+ \end{array}.
+\]
+On its four-flag component, the exact colour masks are
+$000,011,101,110$.  For each nonzero exact mask $m$, choose a binary
+potential on the flags, replace its values by signs, and push those signs to
+the four Latin cells by summing over incident flags.  Up to an independent
+global sign in each mask, the resulting cell vectors are
+\[
+ u_{011}=(1,1,-1,-1),\qquad
+ u_{101}=(-1,1,-1,1),\qquad
+ u_{110}=(1,-1,-1,1).
+\]
+Thus $u_{011}$ has zero column and symbol marginals, $u_{101}$ has zero row and
+symbol marginals, and $u_{110}$ has zero row and column marginals.  The
+remaining marginal is in each case twice an oriented endpoint difference,
+and
+\[
+ u_{011}u_{101}u_{110}=-\mathbf 1_I
+\]
+pointwise after the displayed gauge choice.
+
+If these vectors are assembled as cell-by-intercalate matrices, their three
+entrywise absolute values coincide with the intercalate incidence matrix
+$J$.  Consequently
+\[
+ J\mathbf 1(x)=\iota(x)
+ =\operatorname{endpoint}(Y)(x)
+\]
+on every Latin cell $x$, where $Y$ is the multiplicity-four layer in
+Theorem~\ref{thm:triple-endpoint-parity}.
+\end{theorem}
+
+\begin{proof}
+Every flag of the intercalate contains exactly three of its four cells, and
+each cell $x$ is omitted by a unique flag $f_x$.  A potential for a nonzero
+exact mask has two positive and two negative signs: its two selected colour
+matchings form a four-cycle in the dual $K_4$, and the potential alternates
+around that cycle.  Their total is zero, so
+the pushforward at $x$ equals the negative of the sign at $f_x$.  It
+therefore has absolute value one on all four cells.  Choosing the three
+potential gauges gives the displayed vectors, from which all marginal and
+pointwise-product identities follow directly.
+
+The common absolute-value column is precisely the incidence vector of $I$.
+Summing these columns counts the intercalates through $x$.  The final equality
+is the multiplicity-four endpoint formula of
+Theorem~\ref{thm:triple-endpoint-parity}.
+\end{proof}
+
+The theorem supplies an oriented lift of the complete multiplicity-four
+attachment layer.  It imposes no condition on the multiplicity-one layer
+$X$ and hence is not, by itself, an order-$10$ obstruction.
+
+\begin{theorem}[Exact-mask cell pushforwards]
+\label{thm:exact-mask-cell-pushforward}
+Let $F$ be any connected flag-surface component, let
+$m=(m_R,m_C,m_S)$ be an exact colour mask on $F$, and choose a binary
+potential $p_m$ on its flags.  Define
+\[
+ u_m(x)=\sum_{\substack{f\in F\\x\in f}}(-1)^{p_m(f)}
+\]
+on Latin cells.  If $m_V=1$, then every line marginal of $u_m$ in view $V$
+is zero.  Thus an exact mask kills all marginal families indexed by its set
+bits.  Complementing the potential changes $u_m$ only by a global sign.
+\end{theorem}
+
+\begin{proof}
+Order the three cells in every flag by the defining flag rectangle.  For a
+fixed view $V$ and cell role, there is a fixed-point-free involution preserving
+the $V$-line of that role.  It is either the dual involution $\alpha_V$ or a
+conjugate $\alpha_W\alpha_V\alpha_W$: row roles zero and two use $\alpha_R$
+and row role one uses $\alpha_C\alpha_R\alpha_C$, with the cyclic analogues
+for columns and symbols.  These statements follow immediately by writing the
+three cells of the adjacent flag rectangles.
+
+Across $\alpha_V$ the potential changes by $m_V$; across the displayed
+conjugate it changes by $m_W+m_V+m_W=m_V$.  If $m_V=1$, the two signs in each
+role pair are opposite while their selected cells lie on the same $V$-line.
+Each role sum, and hence the full line marginal, vanishes.
+\end{proof}
+
+Unlike Theorem~\ref{thm:holonomy-cell-lift}, this statement applies to every
+component and therefore reaches the multiplicity-one surface.  It remains a
+componentwise linear consequence of exactness, not a joint $X/Y$
+compatibility theorem.
+
+\begin{theorem}[Cellwise holonomy Fourier transform]
+\label{thm:cellwise-holonomy-fourier}
+Let the exact colour-mask space of a connected flag component have basis
+$m_1,\ldots,m_d$, and choose compatible binary potentials $p_i$.  Label a
+flag by $q(f)=(p_1(f),\ldots,p_d(f))\in\mathbb F_2^d$, and let
+$N_x(a)$ count the flags of label $a$ incident with a Latin cell $x$.  For
+$c\in\mathbb F_2^d$, let $u_c$ be the cell pushforward of the potential
+$\sum_i c_i p_i$.  Then
+\[
+ u_c(x)=\sum_{a\in\mathbb F_2^d}(-1)^{c\cdot a}N_x(a).
+\]
+Consequently,
+\[
+ N_x(a)=2^{-d}\sum_c(-1)^{c\cdot a}u_c(x),\qquad
+ \sum_c u_c(x)^2=2^d\sum_a N_x(a)^2.
+\]
+In particular, every inverse signed sum is a nonnegative multiple of $2^d$.
+\end{theorem}
+
+\begin{proof}
+Group the flags in the definition of $u_c(x)$ by their label $a$.  This gives
+the first formula.  The other two are Fourier inversion and Parseval on the
+elementary abelian group $\mathbb F_2^d$.  A basis change relabels the group,
+while complementing a potential translates its labels and changes character
+signs, so the asserted constraints are intrinsic.
+\end{proof}
+
+For an intercalate component, $d=2$ and a supported cell sees three of the
+four flag labels.  Parseval becomes $3^2+1^2+1^2+1^2=4\cdot3$, recovering
+the oriented intercalate vectors of
+Theorem~\ref{thm:holonomy-cell-lift}.  In general the theorem couples all exact masks at a cell,
+but it does not yet relate different connected components.
+
+\begin{theorem}[Affine transport of cell roles]
+\label{thm:cell-role-affine-transport}
+In the notation of Theorem~\ref{thm:cellwise-holonomy-fourier}, let
+$N_{x,j}(a)$ count label-$a$ flags in which $x$ has cell role $j$, and let
+$b_V=((m_1)_V,\ldots,(m_d)_V)$.  Then
+\[
+ N_{x,2}(a+b_R)=N_{x,0}(a),\quad
+ N_{x,2}(a+b_C)=N_{x,1}(a),\quad
+ N_{x,1}(a+b_S)=N_{x,0}(a).
+\]
+Hence the three role totals are equal.  With
+$\delta=b_R+b_C+b_S$, one has
+$N_{x,0}(a+\delta)=N_{x,0}(a)$.  If $\delta\ne0$, the total component
+incidence at $x$ is divisible by six.  This holds in particular for every
+orientable component.
+\end{theorem}
+
+\begin{proof}
+The dual involution $\alpha_R$ exchanges shared roles $(0,2)$ and adds
+$b_R$ to the flag label.  Likewise, $\alpha_C$ exchanges $(1,2)$ and adds
+$b_C$, while $\alpha_S$ exchanges $(0,1)$ and adds $b_S$.  This gives the
+three displayed bijections.
+Their two routes from role zero to role two yield invariance under $\delta$.
+If $\delta\ne0$, its translation orbits have size two, so each role total is
+even.  There are three equal role totals.  Finally, orientability makes mask
+$111$ exact by Theorem~\ref{thm:colour-parity-holonomy}; therefore not every
+exact mask has even weight and $\delta\ne0$.
+\end{proof}
+
+\begin{theorem}[Cross-component cell-parity cover]
+\label{thm:cross-component-cell-parity}
+For a flag-surface component $F$, let $t_F(x)$ be its common role mass from
+Theorem~\ref{thm:cell-role-affine-transport} at
+the Latin cell $x$, and put $p_F(x)=t_F(x)\bmod2$.  If
+$e^R_F(r),e^C_F(c),e^S_F(s)$ count the correspondingly labelled dual edges,
+then
+\[
+ \sum_{x\in r}t_F(x)=2e^R_F(r),\quad
+ \sum_{x\in c}t_F(x)=2e^C_F(c),\quad
+ \sum_{x\in s}t_F(x)=2e^S_F(s).
+\]
+Thus every $p_F$ has even sum on each row, column, and symbol class.  Moreover,
+\[
+ \sum_F t_F(x)=n-1,
+ \qquad
+ \sum_{F:\delta_F=0}p_F=(n-1)\mathbf1
+ \quad\text{over }\mathbb F_2.
+\]
+For every colour $V$ and corresponding point label $a$, the component edge
+counts also satisfy $\sum_F e^V_F(a)=n(n-1)/2$.
+If $\bar\iota$ is the cellwise intercalate-degree vector modulo two, then
+\[
+ \sum_{\substack{F\ \mathrm{nonintercalate}\\\delta_F=0}}p_F
+   =(n-1)\mathbf1+\bar\iota
+   =\left.(E_R\otimes E_C\otimes E_S)X\right|_L\pmod2.
+\]
+Consequently, at even order every cell lies in an odd number of
+$\delta_F=0$ components with odd role mass.  If its intercalate degree is
+even, an odd number of these components are nonintercalate.
+\end{theorem}
+
+\begin{proof}
+For a fixed row, count $t_F$ using role zero.  The corresponding faces are
+exactly the faces incident with the $\alpha_R$ edges carrying that row label,
+and every such edge has two incident faces.  This proves
+$\sum_{x\in r}t_F(x)=2e^R_F(r)$.  Using role two and $\alpha_C$ gives the
+column identity; using role zero and $\alpha_S$ gives the symbol identity.
+Their reductions modulo two give the asserted even-line conditions.
+
+Every cell occurs exactly $n-1$ times in each role globally, which gives the
+first displayed equality.  Summing any one of the three line identities over
+$F$ and then over the $n$ cells of the fixed line gives
+$2\sum_F e^V_F(a)=n(n-1)$, which proves the global edge budget.
+Theorem~\ref{thm:cell-role-affine-transport} makes $t_F(x)$ even when
+$\delta_F\ne0$, giving the second displayed equality.  An intercalate
+component has $\delta_F=0$ and contributes its four-cell incidence vector,
+so their sum is $\bar\iota$.  Finally, the multiplicity-one formula in
+Theorem~\ref{thm:triple-endpoint-parity} is
+$((E_R\otimes E_C\otimes E_S)X)(x)=3(n-1-\iota(x))$ on Latin cells.  Reduction
+modulo two proves the last identity and its parity consequences.
+\end{proof}
+
+\begin{theorem}[Gauge selection and cubic cell lift]
+\label{thm:gauge-invariant-cell-lift}
+Let $M_F\leq\mathbb F_2^3$ be the exact-mask space of a connected flag
+component.  Choose mask potentials compatibly, and let $v_{m,j}(x)$ be the
+signed pushforward at the Latin cell $x$ restricted to cell role $j$.  Then
+\[
+ v_{m,2}=(-1)^{m_R}v_{m,0},\qquad
+ v_{m,2}=(-1)^{m_C}v_{m,1},\qquad
+ v_{m,1}=(-1)^{m_S}v_{m,0}.
+\]
+Consequently every odd-weight exact mask has identically zero full cell
+pushforward $u_m=\sum_jv_{m,j}$.
+
+A compatible gauge change is a linear functional
+$\lambda:M_F\to\mathbb F_2$ and sends
+$u_m\mapsto(-1)^{\lambda(m)}u_m$.  The formal monomial
+$\prod_m u_m^{e_m}$ has trivial transformation character exactly when
+\[
+ \sum_m(e_m\bmod2)m=0.
+\]
+For an evaluated monomial that is not identically zero, this is also
+equivalent to gauge invariance.  An identically zero evaluated monomial is
+invariant regardless of its formal charge.
+In particular, independent component gauges admit no nonzero linear signed
+cancellation across components without anchors.
+
+If the full even-mask plane $\{0,3,5,6\}$ is exact, then
+\[
+ K_F(x)=-u_3(x)u_5(x)u_6(x)
+\]
+is gauge invariant.  With $t_F(x)$ the common role mass,
+\[
+ |K_F(x)|\leq t_F(x)^3,\qquad
+ K_F(x)\equiv t_F(x)^3\pmod4,
+\]
+and $8\mid K_F(x)$ when $t_F(x)$ is even.  On every intercalate component,
+$K_F=1$ on its four cells.
+\end{theorem}
+
+\begin{proof}
+The three displayed role identities are the character transforms of the
+three affine bijections in Theorem~\ref{thm:cell-role-affine-transport}.
+Comparing the first with the other two reverses the sign of $v_{m,0}$ exactly
+when $|m|$ is odd, forcing that integer and hence all role sums to vanish.
+
+Two compatible potential families differ by a componentwise constant linear
+functional $\lambda$.  A monomial therefore acquires the sign obtained by
+pairing $\lambda$ with its displayed mask charge.  If that charge is nonzero,
+some linear functional takes value one on it; a nonzero evaluated monomial
+then changes sign.  This proves the character criterion and its qualified
+value-level converse.  Since the gauges of distinct components are independent, a
+charged linear contribution cannot be cancelled intrinsically by another
+component.
+
+For the three nonzero even masks the role formula gives
+$u_3=v_{3,0}$, $u_5=-v_{5,0}$, and $u_6=v_{6,0}$.  Thus $K_F$ is the product
+of the three nontrivial Walsh coefficients of the four-point role-zero label
+distribution.  If its total is $t$, write these coefficients as $t-2s_i$.
+Their absolute values are at most $t$.  For even $t$ all three are even.  For
+odd $t$, every nonzero four-point label belongs to the negative half of
+exactly two nontrivial characters, so $\sum_i s_i$ is even; expanding
+$\prod_i(t-2s_i)$ modulo four proves the congruence.  The intercalate value is
+the compatible-sign specialization of Theorem~\ref{thm:holonomy-cell-lift}.
+\end{proof}
+
+The cubic invariant contains genuine nonintercalate information and does not
+sum merely to the intercalate degree.  For example, in the reduced FFF square
+\[
+\begin{pmatrix}
+0&1&2&3\\1&3&0&2\\2&0&3&1\\3&2&1&0
+\end{pmatrix}
+\]
+the cell $(0,0,0)$ has one nonintercalate contribution $8$ and one
+intercalate contribution $1$, so $\sum_FK_F=9\ne1=\iota$.  Thus the
+cross-component parity cover in
+Theorem~\ref{thm:cross-component-cell-parity} remains
+the canonical binary cover; unanchored linear signs and this naive cubic sum
+do not provide a stronger gluing law.
+
+\begin{definition}[Equivariant gauge-selection rule]
+A \emph{gauge-selection rule} assigns, to every coordinate-labelled Latin
+square and every connected flag component, one compatible potential family
+from Definition~\ref{def:exact-mask-potentials}.  It is
+\emph{isotopy-equivariant} if every colour-preserving isotopy transports each
+selected potential to the selected potential on the image component.  A rule
+constructed only from the complete endpoint-lift data is understood to use no
+additional root flag, distinguished cell, or external ordering.
+\end{definition}
+
+\begin{theorem}[Quadratic Gram lift and equivariant gauge obstruction]
+\label{thm:quadratic-gram-gauge-obstruction}
+For an exact mask $m$ on a flag component $F$, put
+\[
+ Q_{F,m}=u_{F,m}u_{F,m}^{\mathsf T},\qquad
+ G_m=\sum_{F:m\in M_F}Q_{F,m}.
+\]
+These integral cell kernels are independent of all compatible potential
+gauges, symmetric, and positive semidefinite.  If the $V$ bit of $m$ is set,
+every $V$-line indicator lies in their kernel.  In particular, for each
+nonzero even mask $m\in\{3,5,6\}$,
+\[
+ \operatorname{rank}G_m\leq(n-1)^2,\qquad
+ G_m(x,y)\equiv
+ \sum_{F:m\in M_F}p_F(x)p_F(y)\pmod2.
+\]
+
+More generally, if $d=\dim M_F$ and $N_x(a)$ is the label multiplicity from
+Theorem~\ref{thm:cellwise-holonomy-fourier},
+then for all cells $x,y$,
+\[
+ \sum_{m\in M_F}u_{F,m}(x)u_{F,m}(y)
+   =2^d\sum_{a\in\mathbb F_2^d}N_x(a)N_y(a).
+\]
+Consequently,
+\[
+ \sum_{m\in M_F\cap\{3,5,6\}}u_{F,m}(x)u_{F,m}(y)
+ =2^d\sum_aN_x(a)N_y(a)-9t_F(x)t_F(y).             \tag{*}
+\]
+
+There is no gauge-selection rule of the preceding kind that is defined for
+all Latin squares and is isotopy-equivariant, even when the complete
+endpoint-lift data of Theorem~\ref{thm:endpoint-characterization} are
+supplied.
+\end{theorem}
+
+\begin{proof}
+A gauge change multiplies $u_{F,m}$ by one sign, which occurs twice in
+$Q_{F,m}$.  The kernel assertion follows from
+Theorem~\ref{thm:exact-mask-cell-pushforward}.  The two relevant families of
+line indicators span a $(2n-1)$-dimensional space: each family has dimension
+$n$, and their intersection consists only of the constant vector because the
+two Latin partitions meet once in every pair of blocks.  This gives the rank
+bound.  For even $m$, the role formula in
+Theorem~\ref{thm:gauge-invariant-cell-lift} gives
+$u_{F,m}(x)\equiv t_F(x)\pmod2$, proving the congruence.
+
+For the Fourier identity, insert the character expansions at $x$ and $y$.
+The sum over all characters of $\mathbb F_2^d$ is $2^d$ when the two labels
+agree and zero otherwise.  Mask zero contributes
+$u_{F,0}(x)u_{F,0}(y)=9t_F(x)t_F(y)$, while every odd-weight exact mask
+vanishes by Theorem~\ref{thm:gauge-invariant-cell-lift}; subtracting the zero
+mask gives~$(*)$.
+
+For the final assertion, use the Klein-four table
+\[
+\begin{pmatrix}
+0&1&2&3\\1&0&3&2\\2&3&0&1\\3&2&1&0
+\end{pmatrix}.
+\]
+Fix the intercalate component on rows, columns, and symbols $\{0,1\}$.
+The autotopism that fixes rows and applies $(0\,1)(2\,3)$ simultaneously to
+columns and symbols stabilizes this component.  In a flag order for which it
+acts as $(f_0\,f_1)(f_2\,f_3)$, normalized potentials for masks $3,5,6$ are
+\[
+ (0,1,1,0),\qquad(0,1,0,1),\qquad(0,0,1,1).
+\]
+The autotopism complements the first two potentials and fixes the third.
+Adding a gauge constant does not change these shifts.  An equivariant
+selection for mask $3$ or $5$ would therefore have to be both fixed and
+complemented by the same autotopism, a contradiction.
+Theorem~\ref{thm:endpoint-characterization} reconstructs the
+endpoint lifts functorially from the table and conversely reconstructs the
+table from them, so supplying those lifts cannot remove this symmetry.
+\end{proof}
+
+The theorem gives the canonical degree-two replacement for an impossible
+equivariant linear lift.  It also exposes its exact boundary: components with
+zero-dimensional exact-mask space have no nontrivial $u_{F,m}$ and remain
+invisible to~$(*)$ even when their cross-component parity support from
+Theorem~\ref{thm:cross-component-cell-parity} is nonzero.  Thus the
+quadratic kernel is not an order-$10$ obstruction by itself.
+
+\begin{theorem}[Component cell-edge partition]
+\label{thm:component-cell-edge-partition}
+For every connected flag component $F$ and every
+$V\in\{R,C,S\}$ there is a simple graph $A_F^V$ on the Latin cells such
+that
+\[
+ \bigsqcup_F E(A_F^V)=E(A^V),
+\]
+where $A^V$ is the disjoint union of the $n$ copies of $K_n$ on the
+$V$-lines.  The three graphs belonging to one component have the same degree
+vector:
+\[
+ \deg_{A_F^R}(x)=\deg_{A_F^C}(x)=\deg_{A_F^S}(x)=t_F(x).
+ \tag{1}
+\]
+If $B_F$ is the flag-by-cell incidence matrix restricted to $F$ and
+$A_F=A_F^R+A_F^C+A_F^S$, then
+\[
+ B_F^{\mathsf T}B_F=3\operatorname{diag}(t_F)+2A_F. \tag{2}
+\]
+Moreover, each
+$\Lambda_F^V=\operatorname{diag}(t_F)-A_F^V$ is positive semidefinite and
+\[
+ \sum_F\Lambda_F^V=(n-1)I-A^V. \tag{3}
+\]
+
+On every $V$-line the entries of $t_F$ form the degree sequence of a simple
+graph and hence satisfy all Erdos--Gallai inequalities.  The union $A_F$ is
+connected on its nonisolated cell support.  For an intercalate component the
+three $A_F^V$ are the three perfect matchings of $K_4$; consequently
+\[
+ \sum_{F\text{ nonintercalate}}\deg_{A_F^V}(x)=n-1-\iota(x) \tag{4}
+\]
+in every view.  Summing (4) over the views recovers the multiplicity-one
+endpoint value
+$((E_R\otimes E_C\otimes E_S)X)(x)=3(n-1-\iota(x))$ from
+Theorem~\ref{thm:triple-endpoint-parity}.
+\end{theorem}
+
+\begin{proof}
+Two flags joined across a dual edge of colour $V$ share exactly the two Latin
+cells forming the corresponding $V$-edge.  Conversely, any two cells on one
+$V$-line lie together in exactly two flags, and those two flags are paired by
+that dual involution.  Dual edges therefore map bijectively to Latin-cell
+edges.  Restricting this bijection to connected components gives the stated
+edge partitions.
+
+For a fixed cell $x$, the colour-$R$ involution pairs its occurrences in
+roles $0$ and $2$, the colour-$C$ involution pairs roles $1$ and $2$, and the
+colour-$S$ involution pairs roles $0$ and $1$.  Each role occurs $t_F(x)$
+times by Theorem~\ref{thm:cell-role-affine-transport}.  Thus there are
+$2t_F(x)$ incident flag sides of any fixed colour and two sides above every
+cell edge, proving (1).
+
+The diagonal entry of $B_F^{\mathsf T}B_F$ at $x$ counts the
+$3t_F(x)$ flags of $F$ containing $x$.  Two distinct cells occur together in
+two flags precisely when their shared cell edge belongs to $A_F$, and
+otherwise never.  This proves (2).  Each $\Lambda_F^V$ is an ordinary graph
+Laplacian.  Summing (1) over components gives
+$\sum_F\operatorname{diag}(t_F)=(n-1)I$, while the edge partition gives
+$\sum_FA_F^V=A^V$, proving (3).
+
+All edges of $A_F^V$ stay within $V$-lines, so (1) restricted to one line is
+an actual simple-graph degree sequence.  Its Erdos--Gallai inequalities are
+therefore necessary; this is strictly stronger than even degree sum, since
+$(n-1,n-1,0,\ldots,0)$ has even sum but violates the inequality at $k=2$
+for $n\geq4$.  Every flag spans a triangle in $A_F$, and consecutive flags
+along a connected dual path share a full cell edge, proving connectedness on
+the support.
+
+An intercalate component has four flags and four cells.  In every view (1)
+gives degree one at each cell, hence a perfect matching; the three disjoint
+matchings exhaust $K_4$.  Exactly $\iota(x)$ intercalate components contain
+$x$.  Removing their unit contribution from the global degree $n-1$ proves
+(4), and the final identity follows by summing the three views.
+\end{proof}
+
+This integral lift also applies to components whose exact-mask space has
+dimension zero and therefore reaches the blind layer of
+Theorem~\ref{thm:quadratic-gram-gauge-obstruction}.  It remains a necessary
+projection: graphical line degrees alone do not ensure compatible rainbow
+flag triangles or a common Latin-square realization.
+
+\begin{theorem}[Orientable cell-companion surface]
+\label{thm:cell-companion-surface}
+Glue the rainbow Latin-cell triangle of every flag in a connected component
+$F$ along the component cell edges of
+Theorem~\ref{thm:component-cell-edge-partition}.  At a Latin cell $x$, its
+link is a disjoint union of cycles.  Every link cycle has length divisible by
+three, with edge-type vertices appearing periodically in the orders
+$R,C,S$ or $R,S,C$.
+
+Let $k_F(x)$ be the number of these link cycles.  Splitting $x$ into one
+vertex for each link cycle gives a connected closed orientable surface
+$\Sigma_F$ with
+\[
+ \chi(\Sigma_F)=\sum_x k_F(x)-\frac{|F|}{2}=2-2g_F. \tag{5}
+\]
+In particular,
+\[
+ \sum_xk_F(x)\equiv\frac{|F|}{2}\pmod2,
+ \qquad
+ \sum_xk_F(x)\leq\frac{|F|}{2}+2. \tag{6}
+\]
+For an intercalate component, $\Sigma_F$ is the sphere.
+\end{theorem}
+
+\begin{proof}
+At $x$, take the incident component cell edges as link vertices.  Every flag
+containing $x$ joins its two incident cell edges and hence supplies one link
+edge.  A component cell edge belongs to two flags, so each link vertex has
+degree two.  More precisely, an $R$-edge sees $x$ in roles $0$ and $2$ in
+its two flags; its two link neighbours are therefore of types $S$ and $C$.
+The cyclic statements hold for $C$- and $S$-edges.  Along any link cycle the
+three types must consequently repeat in one of the two cyclic orders, proving
+the divisibility assertion.
+
+Orient each flag triangle by its cell-role order
+$x_0\to x_1\to x_2\to x_0$.  Across $\alpha_S$ the common roles $0,1$ are
+exchanged, across $\alpha_C$ the roles $1,2$ are exchanged, and across
+$\alpha_R$ the roles $2,0$ are exchanged.  Adjacent faces therefore induce
+opposite orientations on every common side.  Splitting vertices by link
+components yields a closed orientable surface.  It remains connected because
+the dual face-adjacency graph is the connected dual graph of $F$.
+
+The normalized surface has $|F|$ faces, $3|F|/2$ edges, and
+$\sum_xk_F(x)$ vertices, giving (5).  The parity and inequality in (6) follow
+from integral nonnegative genus.  An intercalate has four faces and four
+length-three cell links, so (5) gives genus zero.
+\end{proof}
+
+The cell-companion topology differs from the atom-vertex topology of
+Theorem~\ref{thm:flag-surface}: an intercalate is a sphere in the former and
+$\mathbb{RP}^2$ in the latter.  The new genus is a joint cross-view invariant,
+but its necessary conditions still do not characterize Latin realizability.
+
+\begin{theorem}[Normalized cell-incidence rank]
+\label{thm:normalized-cell-rank}
+Let $V_F$ be the normalized vertices of the cell-companion surface
+$\Sigma_F$, and let $C_F$ be its flag-by-vertex incidence matrix.  Across
+each glued triangle edge, join the two vertices opposite that edge.  If the
+resulting graph $D_F$ on $V_F$ has $q_F$ connected components, then
+\[
+ \ker_{\mathbb Q}C_F
+ =\{z:\text{$z$ is constant on the components of $D_F$ and one face
+ sum is zero}\},                                      \tag{7}
+\]
+and hence
+\[
+ \operatorname{null}_{\mathbb Q}C_F=q_F-1,
+ \qquad
+ \operatorname{rank}_{\mathbb Q}C_F=|V_F|-q_F+1.       \tag{8}
+\]
+For every nonempty connected flag component, $1\leq q_F\leq3$; no FFF
+assumption is needed for this bound.
+If $d_F(v)$ is the vertex-link length and $M_F$ is the edge-multiplicity
+adjacency matrix of $\Sigma_F$, then
+\[
+ C_F^{\mathsf T}C_F=\operatorname{diag}(d_F)+2M_F.      \tag{9}
+\]
+Finally, let $R_F$ forget the normalized sheet over each Latin cell.  For the
+component flag-by-cell incidence matrix $B_F$ from
+Theorem~\ref{thm:component-cell-edge-partition},
+\[
+ B_F=C_FR_F,
+ \qquad
+ B_F^{\mathsf T}B_F
+ =R_F^{\mathsf T}(C_F^{\mathsf T}C_F)R_F.              \tag{10}
+\]
+\end{theorem}
+
+\begin{proof}
+The three corners of a flag lie over distinct Latin cells, and normalization
+preserves the underlying cell, so every row of $C_F$ has three distinct
+ones.  Subtract the incidence equations of two faces adjacent across one
+edge.  Their two shared vertices cancel, leaving equality of the two vertices
+opposite the edge.  A kernel vector is therefore constant on every component
+of $D_F$.
+
+Conversely, crossing a face edge replaces only its opposite vertex by a
+vertex in the same $D_F$-component.  Thus a vector constant on those
+components has the same three-vertex sum on every face.  The dual face graph
+is connected, so all equations reduce to one face equation.  The resulting
+linear functional on the $q_F$ component constants is nonzero over
+$\mathbb Q$: the all-one vector has face sum $3$.  This proves (7) and (8).
+
+More precisely, the multiset of $D_F$-component labels on the three corners
+of a face is unchanged across any dual edge: the shared corners remain,
+and the opposite corners are joined in $D_F$.  Dual connectedness propagates
+this same multiset to every face.  Every vertex occurs in a face, so at most
+three components can occur; nonemptiness gives $1\leq q_F\leq3$.
+
+The diagonal Gram entry counts the faces at a normalized vertex and equals
+its link length.  Two distinct vertices occur together in exactly the two
+faces incident with each surface edge between them, proving (9).  Each
+normalized vertex lies over one Latin cell; forgetting that sheet in every
+face gives $B_F=C_FR_F$, and the Gram aggregation in (10) follows.
+\end{proof}
+
+Thus Theorem~\ref{thm:component-cell-edge-partition} is the coarse cell
+aggregation of a canonical positive-semidefinite
+surface Gram.  The exact rank need not be full: the frozen controls contain
+components with $q_F=2$ and $q_F=3$.  Those finite distributions are not a
+general classification, and the theorem remains a necessary componentwise
+identity rather than an order-$10$ decision.
+
+The atom and normalized-cell models also admit an exact mixed-rank
+decomposition.
+
+\begin{theorem}[Joint atom/cell incidence rank decomposition]
+\label{thm:joint-atom-cell-rank}
+For a connected flag component $F$, let $P_F$ be its flag-by-atom incidence,
+let $C_F$ be its normalized flag-by-vertex incidence, and put
+\[
+ a_F=\#\{\text{atoms of }F\},\qquad
+ v_F=|V_F|,\qquad
+ s_F=\dim_{\mathbb Q}(\operatorname{im}P_F\cap
+                      \operatorname{im}C_F).
+\]
+For $J_F=[P_F\ C_F]$ one has
+\[
+ \operatorname{rank}_{\mathbb Q}J_F
+   =a_F+v_F-q_F-1-s_F,
+ \qquad
+ \operatorname{null}_{\mathbb Q}J_F=q_F+1+s_F.       \tag{11}
+\]
+Moreover $s_F\geq1$.  Thus, with $\epsilon_F=s_F-1$,
+\[
+ \operatorname{rank}_{\mathbb Q}J_F
+   =a_F+v_F-q_F-2-\epsilon_F,
+ \qquad
+ \operatorname{null}_{\mathbb Q}J_F=q_F+2+\epsilon_F.\tag{12}
+\]
+The joint Gram $J_F^{\mathsf T}J_F$ is positive semidefinite and has the
+same rank and nullity.  The integer $\epsilon_F$ is invariant under
+relabelling flags, atoms, and normalized vertices.
+\end{theorem}
+
+\begin{proof}
+Write $U_F=\operatorname{im}P_F$ and
+$W_F=\operatorname{im}C_F$.  The exact atom projection on one connected
+component gives $\dim U_F=a_F-2$, while
+Theorem~\ref{thm:normalized-cell-rank} gives
+$\dim W_F=v_F-q_F+1$.  Therefore
+\[
+ \operatorname{rank}J_F=\dim(U_F+W_F)
+ =\dim U_F+\dim W_F-\dim(U_F\cap W_F),
+\]
+which is the rank formula in (11); subtracting it from $a_F+v_F$ gives the
+nullity formula.
+
+Every flag contains exactly one row atom, so assigning potential one to all
+row atoms and zero to the other atoms gives the all-one face function in
+$U_F$.  Every flag also has three normalized vertices, so assigning
+potential $1/3$ to every normalized vertex gives the same all-one face
+function in $W_F$.  Hence $s_F\geq1$, and (12) follows.  Finally
+$\ker(J_F^{\mathsf T}J_F)=\ker J_F$ over $\mathbb Q$.  Relabellings only
+permute rows or columns of the two incidence matrices, proving invariance.
+\end{proof}
+
+The exhaustive structural audit certifies the rational intersection
+dimension for all $104645$ components in the frozen $9777$-table control
+corpus.  In the $9768$ order-$8$ FFF components, the values
+$s_F=1,2,3,4,13$ occur with multiplicities $9755,5,5,2,1$; the last case has
+$\epsilon_F=12$.  The sorted component profile
+$(|F|,a_F,v_F,q_F,s_F)$ takes $201$ values on the $230$ frozen order-$8$ FFF
+representatives, with $176$ singleton values and maximum collision size
+three.  Combining it with the canonical holonomy profile of
+Computational Theorem~\ref{cthm:holonomy-profile} gives $202$ values and
+$178$ singletons, still with maximum collision size three.  These are exact
+finite-corpus invariants, not a main-class classification or a universal
+bound on $s_F$.
+
+The intersection in Theorem~\ref{thm:joint-atom-cell-rank} has a direct
+cycle-space description.  For a flag $f$ and a colour $V$, write $a_V(f)$
+for its $V$-atom, let $\alpha_V(f)$ be the adjacent flag across the edge of
+colour $V$, and let $v_V(f)$ be the normalized vertex opposite that edge.
+Define the atom-transition multigraph $\Gamma_F^V$ on the $V$-atoms by
+joining $a_V(f)$ to $a_V(\alpha_V(f))$ for every dual $V$-edge.  Loops and
+parallel edges are retained.
+
+\begin{theorem}[Gradient characterization of common modes]
+\label{thm:common-mode-gradient}
+Each $\Gamma_F^V$ is connected.  For a normalized-vertex potential $z$, put
+on an oriented dual $V$-edge $(f,g)$
+\[
+ \delta_z^V(f,g)=z(v_V(f))-z(v_V(g)).
+\]
+Then
+\[
+ C_Fz\in\operatorname{im}P_F
+ \quad\Longleftrightarrow\quad
+ \delta_z^R,\delta_z^C,\delta_z^S
+ \text{ are exact gradients on }
+ \Gamma_F^R,\Gamma_F^C,\Gamma_F^S.                 \tag{13}
+\]
+Equivalently, the signed sum of each cochain vanishes around every cycle of
+its transition multigraph.
+
+Let $X_F$ be the set of Latin cells used by $F$, let $B_F^X$ be the
+flag-by-cell incidence restricted to these columns, and form the coarse
+opposite-cell graph $E_F$ by joining the two underlying cells opposite each
+dual edge.  If $p_F$ is the number of components of $E_F$, then
+\[
+ \operatorname{null}_{\mathbb Q}B_F^X=p_F-1,
+ \qquad
+ \operatorname{rank}_{\mathbb Q}B_F^X=|X_F|-p_F+1. \tag{14}
+\]
+The sheet-forgetting projection gives $1\leq p_F\leq q_F\leq3$ and
+$\operatorname{im}B_F^X\subseteq\operatorname{im}C_F$.  Hence, with
+\[
+ t_F=\dim_{\mathbb Q}(\operatorname{im}P_F\cap
+                       \operatorname{im}B_F^X),
+ \qquad \eta_F=s_F-t_F,
+\]
+one has
+\[
+ 1\leq t_F\leq s_F,
+ \qquad
+ 0\leq\eta_F\leq |V_F|-|X_F|-q_F+p_F.             \tag{15}
+\]
+Thus $t_F-1$ is the nonconstant common-mode dimension already visible on
+unsplit cells, while $\eta_F$ is the quotient dimension contributed only by
+the normalization sheets.
+\end{theorem}
+
+\begin{proof}
+Project a dual path in $F$ to its $V$-atoms.  Crossing a non-$V$ edge leaves
+the $V$-atom fixed, while crossing a $V$-edge traverses an edge of
+$\Gamma_F^V$; hence each transition graph is connected.
+
+If $C_Fz=P_Fx$, subtract the equations of adjacent flags
+$g=\alpha_V(f)$.  The two shared normalized vertices and the two shared
+atoms cancel, leaving
+\[
+ z(v_V(f))-z(v_V(g))
+   =x_V(a_V(f))-x_V(a_V(g)).
+\]
+Thus all three cochains are gradients.  Conversely choose atom potentials
+$x_V$ realizing the three gradients.  The residual
+\[
+ h(f)=(C_Fz)(f)-\sum_Vx_V(a_V(f))
+\]
+is unchanged across every dual edge.  It is therefore constant because the
+dual graph is connected; adding that constant to all atom potentials of one
+colour makes the residual zero.  This proves (13), and the cycle criterion
+is the standard characterization of exact cochains on a connected graph.
+
+The same subtraction argument for $B_F^Xw=0$ says that $w$ is constant on
+every component of $E_F$.  Conversely such a potential has the same
+three-cell sum on every flag, so only one face-sum equation remains.  This
+functional is nonzero over $\mathbb Q$, because the all-one potential has
+sum three, proving (14).  Forgetting the sheet maps every edge of the
+normalized opposite-vertex graph onto the corresponding edge of $E_F$, so
+$p_F\leq q_F$; it also gives $B_F^X=C_FR_F$ after restricting to $X_F$.
+The constant face mode gives $t_F\geq1$.  Finally, for
+$U=\operatorname{im}P_F$, $T=\operatorname{im}B_F^X$, and
+$W=\operatorname{im}C_F$, the natural map
+$(U\cap W)/(U\cap T)\hookrightarrow W/T$ is injective.  Taking dimensions
+and using (14) and Theorem~\ref{thm:normalized-cell-rank} proves (15).
+\end{proof}
+
+If $Z_F^{\rm norm}$ and $Z_F^{\rm cell}$ denote the normalized and coarse
+potential spaces satisfying the corresponding three gradient conditions,
+then the exact sequences induced by $C_F$ and $B_F^X$ give
+\[
+ s_F=\dim Z_F^{\rm norm}-(q_F-1),
+ \qquad
+ t_F=\dim Z_F^{\rm cell}-(p_F-1).                  \tag{16}
+\]
+There is also a rational Schur formulation.  For the orthogonal projectors
+$\Pi_C,\Pi_B$ onto $\operatorname{im}C_F$ and
+$\operatorname{im}B_F^X$, respectively,
+\[
+ \operatorname{null}\bigl(P_F^{\mathsf T}(I-\Pi_C)P_F\bigr)=2+s_F,
+ \qquad
+ \operatorname{null}\bigl(P_F^{\mathsf T}(I-\Pi_B)P_F\bigr)=2+t_F.
+\]
+This positive-semidefinite projector statement is asserted over
+$\mathbb Q$ (or $\mathbb R$), not over arbitrary finite fields.
+
+The complete frozen audit checks all $104645$ components of the $9777$
+control tables and certifies $1111$ nonconstant integer coarse witnesses with
+no error.  All $1080$ exceptional order-$6$ components have
+$(s_F,t_F,\eta_F)=(2,2,0)$.  Among the $9768$ order-$8$ FFF components,
+$t_F=1,2,3,4,13$ occurs with multiplicities $9756,5,4,2,1$.  Exactly one
+observed component has positive normalization-only quotient: source $1955$,
+component $4$, has $(s_F,t_F,\eta_F)=(3,1,2)$.  In particular, the source
+$114$ component with $s_F=13$ is entirely coarse.  Every observed component
+has $p_F=q_F$, but neither this equality nor uniqueness of the sheet-only
+case is asserted universally.  The partial order-$10$ records remain
+diagnostic only.
+
+The componentwise gradient conditions have a particularly rigid global
+intersection.
+
+\begin{theorem}[Global common modes and exact Schur nullity]
+\label{thm:global-common-mode}
+Let the flag surface have $c$ connected components, let $a$ be its total
+number of atoms, and let $P,B,Q$ be the global flag-by-atom,
+flag-by-cell, and cell-by-atom support matrices.  Put
+\[
+ Z_L=\{w\in\mathbb Q^{n^2}:Bw\in\operatorname{im}P\},\qquad
+ r_L=\dim Z_L,\qquad \kappa_L=r_L-1.
+\]
+For $n>3$, the map $w\mapsto Bw$ identifies $Z_L$ with
+$\operatorname{im}P\cap\operatorname{im}B$, and
+\[
+ \operatorname{rank}_{\mathbb Q}[P\ B]=a-2c+n^2-r_L,
+ \qquad
+ \operatorname{null}_{\mathbb Q}[P\ B]=2c+r_L.       \tag{17}
+\]
+If $\Pi_B$ is the rational orthogonal projector onto
+$\operatorname{im}B$, then
+\[
+ \operatorname{null}_{\mathbb Q}
+ \bigl(P^{\mathsf T}(I-\Pi_B)P\bigr)
+ =2c+r_L=2c+1+\kappa_L.                              \tag{18}
+\]
+
+Every common pair $P\xi=Bw$ has one common line sum $\lambda$ on every row,
+column, and symbol class, and satisfies
+\[
+ Q\xi=(n-3)w+2\lambda\mathbf1.                       \tag{19}
+\]
+After setting
+\[
+ w_0=nw-\lambda\mathbf1,\qquad
+ \xi_0=n\xi-3\lambda e_R,
+\]
+where $e_R$ is one on all row atoms and zero elsewhere, one has
+\[
+ P\xi_0=Bw_0,\qquad N^{\mathsf T}w_0=0,
+ \qquad Q\xi_0=(n-3)w_0.                             \tag{20}
+\]
+Consequently $\kappa_L\leq(n-1)(n-2)$.  Finally, for the atom-only operator
+\[
+ \mathcal D_L=(n-3)P-BQ
+\]
+one has the exact formula
+\[
+ \operatorname{null}_{\mathbb Q}\mathcal D_L=2c+\kappa_L.    \tag{21}
+\]
+Thus the forced Schur lower bound $2c+1$ is exact precisely when the stacked
+global gradient system has only the constant cell mode.
+\end{theorem}
+
+\begin{proof}
+The Gram spectrum in Theorem~\ref{thm:flag-surface} makes $B$ injective for
+$n>3$.  The image-sum formula, together with
+$\operatorname{rank}P=a-2c$, then gives (17).  The map
+$\ker(P^{\mathsf T}(I-\Pi_B)P)\to
+\operatorname{im}P\cap\operatorname{im}B$, $x\mapsto Px$, has kernel
+$\ker P$ and is onto, proving (18).
+
+Write a cell as $x=(r,c,s)$.  Sum $P\xi=Bw$ over each of the three families
+of $n-1$ flags in which $x$ occupies one fixed cell-corner role.  On the
+atom side, every family enumerates once all atoms incident with $x$, and so
+has sum $(Q\xi)_x$.  On the cell side the three sums are
+\[
+ (n-3)w_x+R_r+C_c,\quad
+ (n-3)w_x+R_r+T_s,\quad
+ (n-3)w_x+C_c+T_s,
+\]
+where $R,C,T$ are the row, column, and symbol line sums of $w$.  Equality
+forces $R_r=C_c=T_s$ at every cell.  Since every row-column pair is a cell,
+all $3n$ sums equal one value $\lambda$, and (19) follows.  The identities
+$Pe_R=\mathbf1$ and $Qe_R=(n-1)\mathbf1$ now give (20).
+
+The line-incidence Gram $N^{\mathsf T}N$ has diagonal blocks $nI$ and
+off-diagonal blocks $J$, hence rank $3n-2$.  Therefore
+$\dim\ker N^{\mathsf T}=n^2-(3n-2)=(n-1)(n-2)$, proving the bound.
+
+Equation (20) maps centered common modes into $\ker\mathcal D_L$.  Conversely,
+if $\mathcal D_L\xi=0$, put $w=Q\xi/(n-3)$.  Then $P\xi=Bw$; comparison with
+(19) forces $\lambda=0$.  The resulting map from $\ker\mathcal D_L$ onto the
+centered common-mode space has kernel $\ker P$, because
+$Q=\tfrac13B^{\mathsf T}P$.  Its kernel has dimension $2c$ and its image
+dimension $\kappa_L$, proving (21).
+\end{proof}
+
+The frozen global audit evaluates both descriptions of $r_L$ over two large
+prime fields and supplies independent integer lower-bound witnesses.  All
+$230$ order-$8$ FFF representatives have $r_L=1$, so their global Schur
+nullity is exactly $2c+1$.  In the complete order-$6$ corpus,
+$r_L=1,2,3$ occurs with multiplicities $8088,1080,240$.  All $1560$
+nonconstant integer basis witnesses satisfy (19)--(20), and the atom-only
+nullity (21) agrees over both prime fields on all $9777$ audited tables.
+These distributions are finite-corpus statements; the theorem is general.
+The $135$ tracked order-$10$ tables all have $r_L=1$, but that corpus is
+partial and gives no order-$10$ decision.
+
+The phrase ``trade space'' in Theorem~\ref{thm:global-common-mode} refers to
+the integer dependencies among the occupied Latin triples.  It is useful to
+separate this object from a classical Latin bitrade: a nonempty bitrade mate
+changes symbols at fixed row--column positions and therefore uses ambient
+triples outside the occupied set of the original square.
+
+For a Latin square $L$, write
+\[
+ \mathcal T_L=\ker_{\mathbb Z}N^{\mathsf T}.
+\]
+If disjoint sets $A,B$ of four occupied Latin cells have the same incidence
+with every row, column, and symbol line, call
+$\mathbf1_A-\mathbf1_B$ a balanced $4+4$ cell exchange and let
+$\mathcal E_4(L)$ be the lattice generated by all such exchanges.
+
+\begin{computationaltheorem}[Order-$6$ common-mode exchange lattice]
+\label{cthm:order6-common-mode-lattice}
+Across all $9408$ reduced Latin squares of order $6$, the lattice
+$\mathcal E_4(L)$ is saturated in its rational span.  It has rank $20$ for
+$5448$ squares and rank $19$ for $3960$ squares.  Every balanced $3+3$ cell
+exchange belongs to $\mathcal E_4(L)$.
+
+For all $1080$ global-common-mode exceptions with $r_L=2$, and for $60$ of
+the $240$
+exceptions with $r_L=3$, one has $\mathcal E_4(L)=\mathcal T_L$.  In the
+remaining $180$ cases,
+\[
+ \mathcal T_L/\mathcal E_4(L)\cong\mathbb Z,
+\]
+and the saturation in $\mathcal T_L$ of the full rational centred
+common-mode space maps onto the index-two subgroup.  In each of these $180$
+cases, a balanced $6+6$ cell exchange completes $\mathcal E_4(L)$ to
+$\mathcal T_L$.
+\end{computationaltheorem}
+
+\begin{proof}
+For each table, the program groups all three- and four-cell subsets by their
+complete row/column/symbol incidence profile and pairs disjoint subsets in
+the same group.  The line-incidence matrix has rank $16$, so
+$\mathcal T_L$ has rank $20$.  Smith and Hermite normal forms in saturated
+kernel coordinates determine the rank, saturation, containment, and quotient
+indices.  The rational centred common-mode basis is saturated inside
+$\mathcal T_L$ before the index-two comparison, so the conclusion is
+independent of the particular integer certificates produced by the global
+common-mode audit.
+
+An independent implementation recomputes ambient Smith and Hermite forms
+with Python-FLINT and checks every rank over $\mathbb F_2$, $\mathbb F_3$,
+and $\mathbb F_{1000003}$.  It also verifies all $1560$ centred modes and
+all $180$ stored $6+6$ completions.  Both implementations report zero
+errors; the frozen commands, outputs, and hashes are listed in
+Section~\ref{sec:reproducibility}.
+\end{proof}
+
+This theorem exhibits an integral layer that rational Schur rank does not
+see.  It is a complete order-$6$ census result, not a universal quotient
+theorem and not an order-$10$ obstruction.
+
+Reduce $\mathcal E_4(L)$ modulo two and let $\Lambda_L$ be the binary span of
+the row-, column-, and symbol-line indicators.  Since every balanced exchange
+has even intersection with every line,
+$\Lambda_L\subseteq\operatorname{Ann}(\overline{\mathcal E}_4)$.  If the
+nonzero Smith factors of $N^{\mathsf T}$ are odd and $\mathcal E_4(L)$ is a
+saturated codimension-one sublattice of $\mathcal T_L$, with rank preserved
+modulo two, then
+
+
+\[
+ \operatorname{Ann}(overline{\mathcal E}_4)/\Lambda_L\cong\mathbb F_2.
+ \tag{22}
+\]
+
+The unique nonzero class evaluates on $\mathcal T_L$ independently of its
+representative, because line indicators pair trivially with line-balanced
+vectors.  It is the unique binary character of
+$\mathcal T_L/\mathcal E_4(L)$.  Isotopies and parastrophes transport cells,
+lines, and balanced exchanges, so this class is relabelling covariant.  In
+particular, the weight enumerator of its covector coset and the line-degree
+profiles of minimum representatives are main-class invariants.
+
+\begin{computationaltheorem}[Order-$6$ intrinsic exchange parity]
+\label{cthm:order6-intrinsic-exchange-parity}
+The complete order-$6$ census has $12$ main classes.  Exactly three, containing
+$3960$ reduced squares, have $\operatorname{rank}\mathcal E_4(L)=19$.  Their
+triples
+\[
+ (\text{reduced-class size},\text{minimum covector weight},
+   \text{number of minima})
+\]
+are respectively
+\[
+ (3240,7,12),\qquad(540,9,80),\qquad(180,9,160).
+\]
+The last class is exactly the rank-$19$, $r_L=3$ family of Computational
+Theorem~\ref{cthm:order6-common-mode-lattice}; all its representatives are
+TTT and non-group-isotopic.  Every saturated centred common mode has parity
+zero, while every stored $6+6$ completion has parity one.
+\end{computationaltheorem}
+
+\begin{proof}
+Canonical reduction under all isotopies and six parastrophes partitions the
+$9408$ reduced squares into class sizes
+\[
+20,40,60,108,180,360,540,1080,1080,1080,1620,3240.
+\]
+For every rank-$19$ table, exact binary elimination computes (22), enumerates
+its $2^{16}$ covector coset, and records minimum weights and line profiles.
+The three resulting signatures are constant inside, and distinct between,
+the three classes.  An independent implementation rebuilds the balanced
+$4+4$ supports directly and recomputes all three representative signatures;
+it also checks the full source partition and reports zero errors.  The parity
+statements for common modes and completions follow from the index-two and
+primitive-completion conclusions of Computational
+Theorem~\ref{cthm:order6-common-mode-lattice} and are checked on all $180$
+tables.
+\end{proof}
+
+This identifies the index-two phenomenon as one precise order-$6$ main-class
+structure.  It does not force such a quotient for an FFF square of order $10$.
+
+For an arbitrary integer matrix $N$ with $m$ columns and an integral
+sublattice $E\subseteq\ker_{\mathbb Z}N$, put
+\[
+ \rho_{\mathbb Q}=\operatorname{rank}_{\mathbb Q}N,\quad
+ \rho_2=\operatorname{rank}_{\mathbb F_2}\overline N,\quad
+ e_{\mathbb Q}=\operatorname{rank}_{\mathbb Q}E,\quad
+ e_2=\dim_{\mathbb F_2}\overline E.
+\]
+
+\begin{proposition}[Binary exchange-defect decomposition]
+\label{prop:exchange-defect-decomposition}
+The quotient
+\[
+ Q_2(N,E)=\ker_{\mathbb F_2}\overline N/\overline E
+\]
+has dimension
+\[
+ \dim Q_2(N,E)
+ =(m-\rho_{\mathbb Q}-e_{\mathbb Q})
+  +(\rho_{\mathbb Q}-\rho_2)
+  +(e_{\mathbb Q}-e_2).
+ \tag{23}
+\]
+All three summands are nonnegative.  Moreover
+\[
+ \operatorname{Ann}(\overline E)/\operatorname{row}(\overline N)
+ \cong Q_2(N,E)^*.
+\]
+\end{proposition}
+
+\begin{proof}
+Rank--nullity gives $\dim Q_2=m-\rho_2-e_2$; adding and subtracting
+$\rho_{\mathbb Q}+e_{\mathbb Q}$ gives (23).  Reduction modulo a prime
+cannot increase the rank of an integer matrix, and
+$E\subseteq\ker_{\mathbb Q}N$, proving nonnegativity.  The annihilator
+statement is the standard duality between a subspace of a nondegenerate
+binary pairing and the dual of the corresponding quotient.
+\end{proof}
+
+For a Latin square, take $N=N_L$ and $E=\mathcal E_4(L)$, and denote the
+dimension in (23) by $q_4(L)$.  Proposition
+\ref{prop:exchange-defect-decomposition} separates three genuinely different
+sources of a binary character: rational exchange codimension, line-incidence
+rank loss modulo two, and exchange-rank loss modulo two.  These quantities
+are main-class invariants, because isotopies and parastrophes merely permute
+occupied cells and line rows.
+
+\begin{computationaltheorem}[Order-$8$ FFF exchange-parity controls]
+\label{cthm:order8-exchange-parity-controls}
+Across the complete frozen set of $230$ order-$8$ FFF representatives,
+\[
+ \#\{L:q_4(L)=0,1,2,3\}=(39,147,35,9).
+\]
+The binary line ranks are distributed as
+\[
+ 19^1\,20^{10}\,21^{156}\,22^{63},
+\]
+and the binary $\mathcal E_4$ ranks as
+\[
+ 39^1\,40^8\,41^{46}\,42^{175}.
+\]
+In particular, FFF does not force a nonzero or a codimension-one binary
+exchange quotient.  One explicit non-group-isotopic FFF witness is frozen
+local source line $170$ (ANU zero-based record $169$), for which
+\[
+ \operatorname{rank}_{\mathbb F_2}\overline N_L=22,\qquad
+ \dim_{\mathbb F_2}\overline{\mathcal E}_4(L)=42,\qquad q_4(L)=0.
+\]
+\end{computationaltheorem}
+
+\begin{proof}
+For each table, the audit enumerates all four-cell subsets, groups them by
+their complete row/column/symbol incidence profile, and pairs exactly the
+disjoint subsets with equal profile.  Direct binary elimination computes the
+two ranks and verifies both inclusions defining the quotient.  A separate
+packed-profile implementation rebuilds all exchanges and ranks for all
+$230$ tables and reports zero discrepancies.  It also stores the full
+local-source-line-$170$ table and independently confirms its FFF census
+identity.
+\end{proof}
+
+On the separate, nonexhaustive corpus of $135$ tracked order-$10$ diagnostic
+tables, every record has $\rho_2=28$, $e_2=72$, and hence $q_4=0$; four
+pattern representatives were independently recomputed.  Those records are
+not FFF examples and do not contribute to the order-$10$ nonexistence proof.
+Their role is diagnostic:
+the exchange-parity layer is already saturated on the best available
+near-models, so it supplies no additional obstruction there.
+
+\begin{definition}[Fibres, contractions, and coherent edge lifts]
+For a finite set $A$, write $E(A)$ for its unordered two-subsets.  Given
+$T:E(A)\times E(B)\times E(C)\to\{0,1,4\}$, a two-label fibre is obtained by
+fixing two edge labels and varying the third; its type is the multiset of its
+positive values.  For $a\in A$ and $f\in E(B)$, the $A$-endpoint contraction is
+\[
+ C^a(f,g)=\sum_{\substack{e\in E(A)\\a\in e}}T(e,f,g)
+ \qquad(g\in E(C)),
+\]
+with cyclic analogues in the other two colours.  Its dominant output is the
+unique $g$ at which the contraction has value at least two.  The dominant
+outputs for a fixed endpoint $a$ are a coherent two-subset lift if there is a
+point permutation $\lambda_a:B\to C$ such that the dominant output for every
+$f\in E(B)$ is $\lambda_a(f)=\{\lambda_a(b):b\in f\}$.  The corresponding
+families in the other colours are denoted $\mu_b:A\to C$ and
+$\nu_c:A\to B$.
+\end{definition}
+
+\begin{theorem}[Endpoint characterization]
+\label{thm:endpoint-characterization}
+Let $A,B,C$ be sets of cardinality $n\geq3$.  A function
+\[
+ T:E(A)\times E(B)\times E(C)\longrightarrow\{0,1,4\}
+\]
+is the pair-label tensor of a Latin square if and only if the following hold:
+every two-label fibre is empty, $[1,1]$, or $[4]$; every endpoint contraction
+in all three colours is $[2,1,1]$ or $[4]$; and, for each fixed endpoint, its
+dominant-output map on all input edges is coherently the two-subset lift of one
+point permutation.  The three recovered permutation families are
+automatically sharply transitive and define the same Latin square.  Adding
+the link-divisibility condition of
+Proposition~\ref{prop:pair-label-tensor} characterizes the tensors of FFF
+Latin squares.
+\end{theorem}
+
+\begin{proof}
+Necessity is Proposition~\ref{prop:pair-label-tensor}.  For sufficiency, let
+$X$ and $Y$ denote the tensor entries of multiplicity one and four.  Fix a
+$B$-edge $f$.  If $p_f$ fibres $T(*,f,g)$ have type $[1,1]$ and $q_f$ have
+type $[4]$, double counting their incidences with endpoints of $A$ gives
+$p_f+2q_f=n$.  There are also exactly $n$ dominant endpoint contractions.
+A $[4]$ fibre contributes two dominant endpoints, whereas the two distinct
+$A$-edges in a $[1,1]$ fibre contribute at most their one common endpoint.
+Equality forces those two edges to meet.  Cyclically, every $x\in X$ therefore
+has unique dominant endpoints $a(x),b(x),c(x)$ in its three edge labels.
+
+Let $\lambda_a:B\to C$ and $\mu_b:A\to C$ be the point permutations supplied
+by the first two endpoint families.  For fixed $(a,b)$ count
+\[
+ D_{ab}=\#\{x\in X:a(x)=a, b(x)=b\}
+ +\#\{(e,f,g)\in Y:a\in e, b\in f\}.
+\]
+Every $X$-entry is counted once and every $Y$-entry four times, so
+$\sum_{a,b}D_{ab}=n^2(n-1)$.  An object counted by $D_{ab}$ has a $C$-edge
+$g$ containing both $\lambda_a(b)$ and $\mu_b(a)$.  The map to $g$ is
+injective, since $(a,b,g)$ recovers $f$ and $e$ through the two bijective
+edge lifts.  Two vertex stars of $K_n$ intersect in $n-1$ edges when their
+centres agree and in one edge otherwise.  Hence $D_{ab}\leq n-1$ for all
+$a,b$.  The total attains the sum of these $n^2$ upper bounds, and $n-1>1$;
+therefore
+\[
+ \lambda_a(b)=\mu_b(a)\qquad(a\in A,b\in B).
+\]
+The cyclic count for $(a,c)$ similarly gives
+$\nu_c(a)=\lambda_a^{-1}(c)$.  Thus
+$L(a,b)=\lambda_a(b)=\mu_b(a)$ has permutational rows and columns and is
+Latin; all three families are compatible and sharply transitive.
+
+Finally, a multiplicity-one entry with dominant corner $(a,b,c)$ has
+$c\ne L(a,b)$: equality would make the corresponding rectangle an
+intercalate and force the second edge in a $[1,1]$ fibre to equal the first.
+Each multiplicity-four entry supplies its four nonincidence corners.  Indeed,
+both endpoint rows map its column edge bijectively onto its symbol edge, and
+column uniqueness makes the resulting rectangle an intercalate.  Conversely,
+a multiplicity-one entry cannot reconstruct an intercalate: its second row
+endpoint would then also dominate the same symbol edge, so the two distinct
+support edges in the relevant $[1,1]$ fibre would contain both row endpoints
+and hence coincide.  The preceding star injection is a bijection, so the
+resulting corners exhaust exactly the $n^2(n-1)$ triples $(a,b,c)$ with
+$c\ne L(a,b)$.  The recovery map
+\[
+ (a,b,c)\longmapsto
+ \bigl(\{a,\mu_b^{-1}(c)\},\{b,\lambda_a^{-1}(c)\},
+       \{L(a,b),c\}\bigr)
+\]
+returns each selected corner to its original three pair labels by the
+dominant edge-lift equations.  The flag bijection of
+Theorem~\ref{thm:flag-surface} and the preceding
+dichotomy therefore give one flag over each entry of $X$, four over each
+entry of $Y$, and none elsewhere.  Hence $T$ is exactly the flag tensor of
+$L$.  The FFF statement now follows from the link criterion in
+Proposition~\ref{prop:pair-label-tensor}.
+\end{proof}
+
+The restriction $n\geq3$ is sharp for faithful recovery of the witnessing
+point permutations and their automatic compatibility.  At $n=2$ every edge
+set is a singleton, so the two-subset action cannot distinguish the two point
+permutations.  The sole tensor value four is nevertheless the flag tensor of
+the unique order-$2$ Latin square.
+
+\begin{proposition}[Intrinsic recognition of endpoint edge lifts]
+\label{prop:intrinsic-edge-lift}
+Let $U,W$ be $n$-element sets and let $M:E(U)\to E(W)$ be a bijection.  If
+$n=3$ or $n\geq5$, then $M$ is the two-subset action of a unique point
+bijection $U\to W$ if and only if it preserves edge intersection.  If $n=4$,
+the intersection-preserving maps are the point-induced maps and their
+compositions with target-edge complementation $e\mapsto W\setminus e$;
+requiring vertex stars to map to vertex stars selects exactly the
+point-induced maps.
+
+Consequently the point-lift axiom in
+Theorem~\ref{thm:endpoint-characterization} may be replaced, for $n=3$ or
+$n\geq5$, by bijectivity and preservation of intersection on pair labels.
+At $n=4$ one adds preservation of the family of vertex stars.
+\end{proposition}
+
+\begin{proof}
+In the line graph of a complete graph, cliques are pairwise-intersecting edge
+families.
+Such a family either has a common endpoint or has at most three members:
+after choosing $\{a,b\}$ and $\{a,c\}$, any member avoiding $a$ must be
+$\{b,c\}$.  Hence, for $n\geq5$, the cliques of size $n-1$ are precisely the
+vertex stars.  An intersection-preserving edge bijection maps the source
+stars onto the target stars, defining a point bijection $p:U\to W$.  Since
+$\{\{u,v\}\}=\operatorname{Star}(u)\cap\operatorname{Star}(v)$, it follows
+that $M(\{u,v\})=\{p(u),p(v)\}$.  Uniqueness is immediate.  At $n=3$, there
+are six point bijections and six edge bijections, and the two-subset action is
+faithful.
+
+For $n=4$, edge complementation preserves intersection but sends each vertex
+star to the complementary triangle, so it is not point-induced.  The three
+complementary edge pairs are exactly the nonedges of $L(K_4)$.  Every graph
+automorphism permutes these three pairs and may swap within them, yielding at
+most $3!2^3=48$ maps.  The 24 point lifts and their 24 distinct complement
+compositions attain this bound.  Exactly the first coset preserves the
+vertex stars.
+\end{proof}
+
+The order-$4$ exception is also a sharp warning against replacing endpoint
+recognition by local completion rules alone.  Complementing one pair-label
+coordinate of a genuine order-$4$ tensor preserves its fibre trichotomy and
+all coordinatewise edge-intersection relations, but exhaustive comparison
+with all $576$ labelled order-$4$ Latin squares computes that the transformed
+tensor is not Latin-realizable.
+
+\begin{definition}[Cell-local cycle-incidence signature]
+\label{def:cell-local-cycle-signature}
+For a Latin cell $x=(r,c,L(r,c))$, a view
+$V\in\{R,C,S\}$, and $2\leq\ell\leq n$, let $a^V_\ell(x)$ count the other
+lines whose induced permutation with the distinguished $V$-line through $x$
+has an $\ell$-cycle containing $x$.  Put
+\[
+ A^V(x)=(a^V_2(x),\ldots,a^V_n(x)).
+\]
+The \emph{cell-local cycle-incidence signature} is the multiset
+\[
+ \bigl\{(A^R(x),A^C(x),A^S(x)):x\text{ a Latin cell}\bigr\},
+\]
+canonically minimized over the six simultaneous permutations of the three
+view coordinates.  This convention makes the signature invariant under
+isotopy and parastrophy.  Pointwise
+$\sum_\ell a^V_\ell(x)=n-1$, and the three values
+$a^R_2(x),a^C_2(x),a^S_2(x)$ all equal the number of intercalates through
+$x$.
+\end{definition}
+
+\begin{computationaltheorem}[Order-$8$ rainbow-square classifier]
+\label{cthm:rainbow-classifier}
+On the $230$ order-$8$ FFF main-class representatives, the pair consisting of
+the signature in Definition~\ref{def:cell-local-cycle-signature} and
+\[
+ w_6(L)=\operatorname{Fix}((\alpha_R\alpha_C\alpha_S)^2)
+\]
+takes $230$ distinct values.
+\end{computationaltheorem}
+
+The cell-local signature alone has $226$ values and four collision pairs.
+Their respective $w_6$ values are
+$(352,288)$, $(448,192)$, $(448,192)$, and $(288,352)$.  The complete
+flag identities were audited with no error on all $9408$ reduced order-$6$
+squares and all $283657$ order-$8$ representatives.  A separate
+implementation recomputed $w_6$ on all $230$ FFF representatives with zero
+mismatches.  This is a finite census classifier, not an injectivity theorem
+for higher orders.
+
+\begin{computationaltheorem}[Pair-label triangle classifier]
+\label{cthm:pair-triangle-classifier}
+On the same $230$ representatives, the pair consisting of the
+cell-local cycle-incidence signature from
+Definition~\ref{def:cell-local-cycle-signature} and $t(L)$ takes $230$
+distinct values.
+\end{computationaltheorem}
+
+The scalar $t(L)$ alone takes $100$ values and $(I(L),t(L))$ takes $188$.
+The four cell-local-signature collision pairs $[4,22]$, $[11,114]$,
+$[13,19]$, and
+$[117,118]$ have respective $t$-values
+$(2112,1856)$, $(2560,1536)$, $(2048,1536)$, and $(1792,1920)$.
+The pair matrices were reconstructed both from flag codegrees and from the
+induced edge lifts, with no mismatch.  As above, this is an exact classifier
+only on the frozen order-$8$ FFF census.

@@ -1,0 +1,265 @@
+{
+  "core_implication_sha256": "87140ab5247b370f0446602ae0471e6b3dca8e687d4f4a32018ce401061cdeb7",
+  "core_names": [
+    "x_11_6_2",
+    "x_11_9_7",
+    "x_11_10_6",
+    "x_11_11_13",
+    "x_11_16_3"
+  ],
+  "full_order18_fff_decided": false,
+  "minimal_certified_unsat_view_sets": [
+    "full"
+  ],
+  "records": [
+    {
+      "clauses": 97532,
+      "core_cnf_sha256": "a4806275bf10e04103613f296b01db016b0539fd89b74fc567f3b6ab8ca1e0e0",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "37429ea348651afc2991d6ca178ae213e2ea2dc8708b99500a1685c6d5d5e913",
+      "physical_odd_witness_pairs": {
+        "col": 16,
+        "row": 16,
+        "sym": 12
+      },
+      "physical_partial_latin": true,
+      "pilot_result_sha256": "dd77f027b49cb84c94815cb6f25cd32a3a5e5d7a889cbaaf63889a2ab7185c10",
+      "proof_checked": false,
+      "scope": "latin",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "f5ac980ba0ad8fc643d6074df5c7f1a9e999af2d66fa542177c5e854f5870e98",
+      "source_map_sha256": "ff691bd10630bc371c4a35ae29b6fc2173fdb36fb82ec7645ecc52837709db3b",
+      "status": "sat",
+      "timeout_seconds": 30,
+      "variables": 4212,
+      "views": []
+    },
+    {
+      "clauses": 147560,
+      "core_cnf_sha256": "9b663a84c56df5384bfa57b603ffc508c73ab097645c848af70f43e5ca2f1018",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "541a4fd19ee1d0b715f77a077c6919645986c35d5a284232a8d0148d593f528f",
+      "physical_odd_witness_pairs": {
+        "col": 15,
+        "row": 0,
+        "sym": 15
+      },
+      "physical_partial_latin": true,
+      "pilot_result_sha256": "0c8f786c99e5cfde594e1bf6485fe32e5f3f3c90fab1b3a08d311368d8dd4402",
+      "proof_checked": false,
+      "scope": "row",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "ed1d1a2c35b9a51c5b402ca1a8f0d1da292201065f2ed2e9053a5c7a93659af2",
+      "source_map_sha256": "6ddbd714567026d9be6c062af199a821a85adce2edebd8e11d207b100f5534d2",
+      "status": "sat",
+      "timeout_seconds": 30,
+      "variables": 5616,
+      "views": [
+        "row"
+      ]
+    },
+    {
+      "clauses": 153527,
+      "core_cnf_sha256": "bf457a47957da1fc2d699abd6800867022bcb5004e51ccc365bfd331090e617c",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "3464ab0e9e34648676726381d9b30a31d1edc82db4cfa5f1157c87bedba3e46b",
+      "physical_odd_witness_pairs": {
+        "col": 0,
+        "row": 12,
+        "sym": 9
+      },
+      "physical_partial_latin": true,
+      "pilot_result_sha256": "226e0af14d3feaa203c290772619b10401f84288ef315b06bfeb615ddd51581d",
+      "proof_checked": false,
+      "scope": "col",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "b62a938263b64e0bca1410954f7dc22332a266b17882b8549864c312bf0cdabc",
+      "source_map_sha256": "d1697d5bea772ef719735d62affc580e8ca696165d7edb8df3743872b0fa9946",
+      "status": "sat",
+      "timeout_seconds": 30,
+      "variables": 6201,
+      "views": [
+        "col"
+      ]
+    },
+    {
+      "clauses": 359825,
+      "core_cnf_sha256": "78c0e56c1aac6c7ef935745b89d668a415ab5079b45cffa82ee5c36a2f1ae547",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "2372d68d2323626bd2bc79dfb080eb20a252c14d7220635cb4df104f0d31588f",
+      "physical_odd_witness_pairs": {
+        "col": 19,
+        "row": 14,
+        "sym": 0
+      },
+      "physical_partial_latin": true,
+      "pilot_result_sha256": "8ae901ec30523a933337f1c245b6b193c8de3831e97aff119af5f3711812842f",
+      "proof_checked": false,
+      "scope": "sym",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "352f7470c7b2dea2af4b60ddbff62f15cf278eef195160a81c2a5d51823da59c",
+      "source_map_sha256": "318d17f6c4be8ee4fea2c42c4f1b90b80348b260ebe06005f75ff2d16ebabf09",
+      "status": "sat",
+      "timeout_seconds": 30,
+      "variables": 6966,
+      "views": [
+        "sym"
+      ]
+    },
+    {
+      "clauses": 203555,
+      "core_cnf_sha256": "e8382b86281cd7393a24fbd7f58481dcfcc5ba976f0239015d8d8c14e637d613",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "6d084fcad882b307e83367e4b7bc4a44001d3d9cafc74dad6fb7ec8565489815",
+      "physical_odd_witness_pairs": {
+        "col": 0,
+        "row": 0,
+        "sym": 18
+      },
+      "physical_partial_latin": true,
+      "pilot_result_sha256": "f21936f4b5da77808b6d55ca349c45a60b9992975706b413697d99b7a7395787",
+      "proof_checked": false,
+      "scope": "row_col",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "a0482a8c48f782bf7ce311c91de3da82bc27667967a943067b2449cecbc3765e",
+      "source_map_sha256": "f8da1a12f9f12a71bcdc96857ebc2a3e81270c6d4424cc5b14bce3289f036415",
+      "status": "sat",
+      "timeout_seconds": 30,
+      "variables": 7605,
+      "views": [
+        "row",
+        "col"
+      ]
+    },
+    {
+      "clauses": 409853,
+      "core_cnf_sha256": "6e0923ee96f3b2e6d3337273fd19ff8d367bc3e59b8f46b394b526ac09f10010",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "fcd91e0e03a91111d630d8ece49434f538e2b3f9c77b9c96fc82d1a188e05ba8",
+      "physical_odd_witness_pairs": {
+        "col": 17,
+        "row": 0,
+        "sym": 0
+      },
+      "physical_partial_latin": true,
+      "pilot_result_sha256": "0300bc60350ffac880765865cc55ced0210b84026c01cba64beaea621b091760",
+      "proof_checked": false,
+      "scope": "row_sym",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "770a588eb4b472115eec233b2463fa1c38323d0bdba8dfa05e57e9fb7023c536",
+      "source_map_sha256": "6ec595353f50dc667187a95ab1cd9d381307f42f6ae6c66206d6c8ed07bc33c2",
+      "status": "sat",
+      "timeout_seconds": 30,
+      "variables": 8370,
+      "views": [
+        "row",
+        "sym"
+      ]
+    },
+    {
+      "clauses": 415820,
+      "core_cnf_sha256": "d498b3022f75acf949a7604dc86d02467631a7253f1e12816923fdd55b9b5815",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "7aa0fec4058d46afec7dab5bf19fad5e3ad45894ed081ba65f609e212cd26a45",
+      "physical_odd_witness_pairs": {
+        "col": 0,
+        "row": 14,
+        "sym": 0
+      },
+      "physical_partial_latin": true,
+      "pilot_result_sha256": "9e1678b1bdd8ea259d867580dc39b1bb4234e219915c910644e3a2096df60e1f",
+      "proof_checked": false,
+      "scope": "col_sym",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "b0b63bad4585458967ddccc128a5267594606b286b98e7ef692a62adccef0d69",
+      "source_map_sha256": "99c30c990bb6698fb1507daef452af6fefe1bf6a27f5047072c7251fd8b93805",
+      "status": "sat",
+      "timeout_seconds": 30,
+      "variables": 8955,
+      "views": [
+        "col",
+        "sym"
+      ]
+    },
+    {
+      "certified_result_sha256": "9578de27c3072197b730a3c83460488411f147f99047a99bac9dceecab2f9265",
+      "clauses": 465848,
+      "core_cnf_sha256": "4b9938f9fad90c61a6a63fd05aa0ab9aea6c142d8a8ddb3fa571c0d321a77652",
+      "core_literals": [
+        3675,
+        3734,
+        3751,
+        3776,
+        3856
+      ],
+      "core_metadata_sha256": "df9328ceeab222f338fa1d31ad195af28428d16bf4a4c14438058c2b0bd90d5d",
+      "pilot_result_sha256": "01c0b4731edb8ab10961a42921a00885f86a1296f585dd513e2ccebd086ea0ab",
+      "proof_checked": true,
+      "proof_sha256": "90c23d18d21bcc8ff3150ae3174ce7d1940d45b4ea3e4b6f3bc61db373563606",
+      "scope": "full",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source_base_cnf_sha256": "f342e16aa4221e164938d4b0aaefe9ef532220774741a86ffef3462964d9d49d",
+      "source_map_sha256": "0608fb2b1de9f9acd1e5e031abe72c5e602109e771fe37671963e7439a1058b5",
+      "status": "unsat_checked_drat",
+      "timeout_seconds": 30,
+      "variables": 10359,
+      "views": [
+        "row",
+        "col",
+        "sym"
+      ]
+    }
+  ],
+  "scope": "one fixed case-14 ten-row prefix and five given row-11 cells",
+  "source_k10_sha256": "3dc85be073a6f87b9ee60d2ee6afa39823c42305112d41b0a1eaf9e7fb60f7c5"
+}

@@ -101,11 +101,14 @@ class SiteTests(unittest.TestCase):
             self.assertTrue(any("download" not in attrs and "aria-hidden" not in attrs for attrs in links))
 
     def test_evidence_and_origin_boundary_retained(self):
-        for required in ("Not peer reviewed", "ChatGPT/Codex", "The global conjecture remains open",
-                         "Order 12", "No accountable scholarly author", "Rights remain reserved",
+        for required in ("Not peer reviewed", "ChatGPT/Codex", "disproving the former power-of-two conjecture C38",
+                         "Order 18 remains open", "No accountable scholarly author", "Rights remain reserved",
                          "not independent studies", "not a solver-free proof"):
             self.assertIn(required, self.source)
         self.assertIn("<details open>", self.source)
+        self.assertIn("30 pages / PDF", self.source)
+        self.assertIn("72 pages / PDF", self.source)
+        self.assertNotIn("The global conjecture remains open", self.source)
 
     def test_preview_and_review_entry_points(self):
         metadata = {attrs.get("property", attrs.get("name")): attrs.get("content")

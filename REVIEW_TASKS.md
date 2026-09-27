@@ -7,23 +7,28 @@ The maintainer does not claim mathematical expertise. See
 One precise correction or literature reference is useful; a whole-paper review
 is not expected. An automated pass is not a referee endorsement.
 
-## 1. Proof: Two-Element Congruence Blocks
+## 1. Proof: Intrinsic Layers and the Construction Boundary
 
-Read Theorem 3 in
-[the congruence proof note](proof_notes/fff_subsquare_and_congruence_obstructions.md).
-Does the argument establish the stated pattern equality in **each** of the row,
-column and symbol views, including the converse lifting of an odd quotient
-cycle? Is there a missing hypothesis or a counterexample?
+Read the [binary quotient descent proof](manuscript/candidates/2026-09-27_research_snapshot/evidence/proofs/fff_binary_quotient_descent_and_dyadic_class_growth.md)
+and [affine-orbit classification](manuscript/candidates/2026-09-27_research_snapshot/evidence/proofs/fff_affine_orbit_fibre_classification.md).
+Do the quotient-free hypotheses recover the intrinsic layers in all three
+views, and do they justify both directions of the stated within-construction
+classification? Identify any inference that would improperly become a global
+direct-product cancellation claim.
 
 Useful response: the exact paragraph, the questionable inference, and either a
-replacement argument or an explicit table. The note is historical; its old
-order-10-open wording is superseded by [current status](EVIDENCE_STATUS.md).
+replacement argument or an explicit table. Review the precise hypotheses, not a
+claim that all FFF squares belong to this construction.
 
 ## 2. Reproducibility: Check a Table, Then the Coverage Boundary
 
 Run the [small example and negative control](examples/README.md). Do the direct
 matching equations and cycle reports agree with an independently written checker?
 Please report Python version, command, input hash and the first disagreement.
+Then run `python3 -B tools/check_current_snapshot.py --output .audit/review.json`:
+can an independently written scanner reproduce the explicit order-12 witness
+and the distinction between 512 classes in one trade family and a global lower
+bound of 514? No global order-20 census is claimed.
 
 For a deeper optional check, inspect the
 [two-master reduction](proof_notes/fff_six_type_master_reduction_degree10.md):
@@ -34,11 +39,12 @@ do **not** rerun the order-10 searches; that archive gap remains explicit.
 
 ## 3. Literature: Known Results or Earlier Constructions
 
-For the direct-product pattern formula, the group-isotopy product criterion,
-or the explicit order-8 loop, is there an earlier theorem or equivalent
+For the affine prime-successor criterion, row-fibred pattern formula,
+or intrinsic-layer classification, is there an earlier theorem or equivalent
 construction that should be cited or should change the novelty framing?
-See [direct products](manuscript/sections/04_direct_products.tex) and
-[the explicit construction](proof_notes/fff_subsquare_and_congruence_obstructions.md).
+See the [current source and evidence map](manuscript/candidates/2026-09-27_research_snapshot/README.md).
+The classical prime round-robin construction is explicitly credited rather
+than presented as a new construction.
 
 Useful response: author, title, year, theorem/page and a stable reference,
 together with the precise overlap. Novelty is not established by a failed
@@ -50,5 +56,5 @@ Use [Discussions](https://github.com/Noetheon/fff-latin-squares/discussions) for
 focused review and literature questions; use
 [Issues](https://github.com/Noetheon/fff-latin-squares/issues) for concrete errors.
 Distinguish a written argument, executed computation, formal certificate and
-human expert review. The global power-of-two conjecture remains open; the
-recorded order-10 exclusion does not settle order 12 or higher orders.
+human expert review. The former power-of-two conjecture is disproved by FFF12;
+unrestricted order 18 and the full order spectrum remain open.

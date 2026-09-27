@@ -1,0 +1,43 @@
+{
+  "affine_fff_parameters": 0,
+  "affine_parameters_tested": 15,
+  "affine_source_sha256": "8accd03653d5e76c205f4b627eeab32ce4c51bf5201531b137dec5b21d8dd4f9",
+  "arbitrary_order18_fff_exists": "open",
+  "coefficient_orbit_cases": [
+    {
+      "case": 2,
+      "clauses": 631532,
+      "cnf_sha256": "e3e199bacafd195bf612b0306dcb7e3e0d8aa853d0221c264bd63adbf823d17a",
+      "drat_bytes": 118434431,
+      "drat_sha256": "51a460d865040ec2891485349381a7cd4a592a3f565448975a6d20edf27e8e8b",
+      "proof_checked": true,
+      "variables": 2182
+    },
+    {
+      "case": 3,
+      "clauses": 170119,
+      "cnf_sha256": "7cf355014e4c466b5fda3f1cbc3f2c06cff5b53e0def70dc234471c204c38e31",
+      "drat_bytes": 35735591,
+      "drat_sha256": "210f498f2739813d60b2e24ed2d6a17e0647953e4d63f0174a0c3151fc462452",
+      "proof_checked": true,
+      "variables": 726
+    },
+    {
+      "case": 4,
+      "clauses": 170215,
+      "cnf_sha256": "b9f3b2c727fe0641019789acc679ac2a07eb2cfc9931b7aaac2fd23dab0629b9",
+      "drat_bytes": 1640778,
+      "drat_sha256": "d1e451174c87c29685e7ff6204fffad6ddb31e730f46af921861407073b1b532",
+      "proof_checked": true,
+      "variables": 726
+    }
+  ],
+  "family": "Q_f over F_17 with f and f-id permutations, one-point translation-equivariant",
+  "not_covered": [
+    "other Latin squares of order 18",
+    "one-pairblock and all-primitive view-group branches"
+  ],
+  "positive_p7_overlay_fff": true,
+  "scoped_family_fff_exists": false,
+  "symmetry_control_mismatches": 0
+}

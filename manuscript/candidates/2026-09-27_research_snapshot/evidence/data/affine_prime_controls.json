@@ -1,0 +1,851 @@
+{
+  "cases": [
+    {
+      "affine_fff_main_class_orbits": null,
+      "criterion_fff_parameters": [
+        2
+      ],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 1.0,
+        "max_modulus_error": 1.1102230246251565e-16,
+        "proved_bound_value": 2.049306144334055
+      },
+      "masked_fff_parameters": [
+        2
+      ],
+      "p": 3,
+      "parameters_tested": 1,
+      "special_line_controls": [
+        {
+          "a": 2,
+          "col_finite_type": [
+            2,
+            2
+          ],
+          "col_special_type": [
+            2,
+            2
+          ],
+          "distinguished_in_both_views": false,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            2,
+            2
+          ],
+          "row_special_type": [
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 0,
+        "fff_parameter_orbits": [],
+        "represented_main_class_count": 0
+      },
+      "criterion_fff_parameters": [],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 1.2944271909999159,
+        "max_modulus_error": 9.71445146547012e-17,
+        "proved_bound_value": 2.3047189562170503
+      },
+      "masked_fff_parameters": [],
+      "p": 5,
+      "parameters_tested": 3,
+      "special_line_controls": []
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 0,
+        "fff_parameter_orbits": [],
+        "represented_main_class_count": 0
+      },
+      "criterion_fff_parameters": [],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 1.4582501347456216,
+        "max_modulus_error": 2.7755575615628914e-16,
+        "proved_bound_value": 2.4729550745276567
+      },
+      "masked_fff_parameters": [],
+      "p": 7,
+      "parameters_tested": 5,
+      "special_line_controls": []
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": true,
+        "fff_parameter_count": 3,
+        "fff_parameter_orbits": [
+          [
+            2,
+            6,
+            10
+          ]
+        ],
+        "represented_main_class_count": 1
+      },
+      "criterion_fff_parameters": [
+        2,
+        6,
+        10
+      ],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 1.6538060975318938,
+        "max_modulus_error": 2.220446049250313e-16,
+        "proved_bound_value": 2.6989476363991853
+      },
+      "masked_fff_parameters": [
+        2,
+        6,
+        10
+      ],
+      "p": 11,
+      "parameters_tested": 9,
+      "special_line_controls": [
+        {
+          "a": 2,
+          "col_finite_type": [
+            2,
+            10
+          ],
+          "col_special_type": [
+            2,
+            10
+          ],
+          "distinguished_in_both_views": false,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            6,
+            6
+          ],
+          "row_special_type": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "a": 6,
+          "col_finite_type": [
+            2,
+            10
+          ],
+          "col_special_type": [
+            2,
+            10
+          ],
+          "distinguished_in_both_views": false,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            2,
+            10
+          ],
+          "row_special_type": [
+            2,
+            10
+          ]
+        },
+        {
+          "a": 10,
+          "col_finite_type": [
+            6,
+            6
+          ],
+          "col_special_type": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "distinguished_in_both_views": false,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            2,
+            10
+          ],
+          "row_special_type": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": true,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 2,
+        "fff_parameter_orbits": [
+          [
+            4,
+            10
+          ]
+        ],
+        "represented_main_class_count": 1
+      },
+      "criterion_fff_parameters": [
+        4,
+        10
+      ],
+      "distinguished_parameter_count": 2,
+      "fourier": {
+        "l1_norm": 1.7209160134736226,
+        "max_modulus_error": 8.604228440844963e-16,
+        "proved_bound_value": 2.782474678730768
+      },
+      "masked_fff_parameters": [],
+      "p": 13,
+      "parameters_tested": 11,
+      "special_line_controls": [
+        {
+          "a": 4,
+          "col_finite_type": [
+            4,
+            10
+          ],
+          "col_special_type": [
+            2,
+            6,
+            6
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": false,
+          "row_finite_type": [
+            4,
+            10
+          ],
+          "row_special_type": [
+            2,
+            6,
+            6
+          ]
+        },
+        {
+          "a": 10,
+          "col_finite_type": [
+            4,
+            10
+          ],
+          "col_special_type": [
+            2,
+            6,
+            6
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": false,
+          "row_finite_type": [
+            4,
+            10
+          ],
+          "row_special_type": [
+            2,
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 0,
+        "fff_parameter_orbits": [],
+        "represented_main_class_count": 0
+      },
+      "criterion_fff_parameters": [],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 1.8243531385334217,
+        "max_modulus_error": 6.661338147750939e-16,
+        "proved_bound_value": 2.916606672028108
+      },
+      "masked_fff_parameters": [],
+      "p": 17,
+      "parameters_tested": 15,
+      "special_line_controls": []
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": true,
+        "exceptional_fff_orbit": true,
+        "fff_parameter_count": 5,
+        "fff_parameter_orbits": [
+          [
+            2,
+            10,
+            18
+          ],
+          [
+            8,
+            12
+          ]
+        ],
+        "represented_main_class_count": 2
+      },
+      "criterion_fff_parameters": [
+        2,
+        8,
+        10,
+        12,
+        18
+      ],
+      "distinguished_parameter_count": 2,
+      "fourier": {
+        "l1_norm": 1.8659342709228532,
+        "max_modulus_error": 5.689893001203927e-16,
+        "proved_bound_value": 2.97221948958322
+      },
+      "masked_fff_parameters": [
+        2,
+        8,
+        10,
+        12,
+        18
+      ],
+      "p": 19,
+      "parameters_tested": 17,
+      "special_line_controls": [
+        {
+          "a": 2,
+          "col_finite_type": [
+            2,
+            18
+          ],
+          "col_special_type": [
+            2,
+            18
+          ],
+          "distinguished_in_both_views": false,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            10,
+            10
+          ],
+          "row_special_type": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "a": 8,
+          "col_finite_type": [
+            8,
+            12
+          ],
+          "col_special_type": [
+            2,
+            6,
+            6,
+            6
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": false,
+          "row_finite_type": [
+            8,
+            12
+          ],
+          "row_special_type": [
+            2,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "a": 10,
+          "col_finite_type": [
+            2,
+            18
+          ],
+          "col_special_type": [
+            2,
+            18
+          ],
+          "distinguished_in_both_views": false,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            2,
+            18
+          ],
+          "row_special_type": [
+            2,
+            18
+          ]
+        },
+        {
+          "a": 12,
+          "col_finite_type": [
+            8,
+            12
+          ],
+          "col_special_type": [
+            2,
+            6,
+            6,
+            6
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": false,
+          "row_finite_type": [
+            8,
+            12
+          ],
+          "row_special_type": [
+            2,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "a": 18,
+          "col_finite_type": [
+            10,
+            10
+          ],
+          "col_special_type": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "distinguished_in_both_views": false,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            2,
+            18
+          ],
+          "row_special_type": [
+            2,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 0,
+        "fff_parameter_orbits": [],
+        "represented_main_class_count": 0
+      },
+      "criterion_fff_parameters": [],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 1.9358831850593683,
+        "max_modulus_error": 1.2559397966072083e-15,
+        "proved_bound_value": 3.067747107964575
+      },
+      "masked_fff_parameters": [],
+      "p": 23,
+      "parameters_tested": 21,
+      "special_line_controls": []
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 0,
+        "fff_parameter_orbits": [],
+        "represented_main_class_count": 0
+      },
+      "criterion_fff_parameters": [],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 2.018648142217323,
+        "max_modulus_error": 1.960237527853792e-15,
+        "proved_bound_value": 3.1836479149932373
+      },
+      "masked_fff_parameters": [],
+      "p": 29,
+      "parameters_tested": 27,
+      "special_line_controls": []
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": true,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 2,
+        "fff_parameter_orbits": [
+          [
+            6,
+            26
+          ]
+        ],
+        "represented_main_class_count": 1
+      },
+      "criterion_fff_parameters": [
+        6,
+        26
+      ],
+      "distinguished_parameter_count": 2,
+      "fourier": {
+        "l1_norm": 2.042098122316393,
+        "max_modulus_error": 1.762479051592436e-15,
+        "proved_bound_value": 3.216993602242573
+      },
+      "masked_fff_parameters": [
+        6,
+        26
+      ],
+      "p": 31,
+      "parameters_tested": 29,
+      "special_line_controls": [
+        {
+          "a": 6,
+          "col_finite_type": [
+            6,
+            26
+          ],
+          "col_special_type": [
+            2,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": false,
+          "row_finite_type": [
+            6,
+            26
+          ],
+          "row_special_type": [
+            2,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "a": 26,
+          "col_finite_type": [
+            6,
+            26
+          ],
+          "col_special_type": [
+            2,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": false,
+          "row_finite_type": [
+            6,
+            26
+          ],
+          "row_special_type": [
+            2,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 0,
+        "fff_parameter_orbits": [],
+        "represented_main_class_count": 0
+      },
+      "criterion_fff_parameters": [],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 2.103641189970616,
+        "max_modulus_error": 1.474514954580286e-15,
+        "proved_bound_value": 3.305458956322112
+      },
+      "masked_fff_parameters": [],
+      "p": 37,
+      "parameters_tested": 35,
+      "special_line_controls": []
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": false,
+        "fff_parameter_count": 0,
+        "fff_parameter_orbits": [],
+        "represented_main_class_count": 0
+      },
+      "criterion_fff_parameters": [],
+      "distinguished_parameter_count": 0,
+      "fourier": {
+        "l1_norm": 2.138950848166173,
+        "max_modulus_error": 1.5352302762394743e-15,
+        "proved_bound_value": 3.356786033352154
+      },
+      "masked_fff_parameters": [],
+      "p": 41,
+      "parameters_tested": 39,
+      "special_line_controls": []
+    },
+    {
+      "affine_fff_main_class_orbits": {
+        "equianharmonic_fff_orbit": false,
+        "exceptional_fff_orbit": true,
+        "fff_parameter_count": 3,
+        "fff_parameter_orbits": [
+          [
+            2,
+            22,
+            42
+          ]
+        ],
+        "represented_main_class_count": 1
+      },
+      "criterion_fff_parameters": [
+        2,
+        22,
+        42
+      ],
+      "distinguished_parameter_count": 3,
+      "fourier": {
+        "l1_norm": 2.1552445780253935,
+        "max_modulus_error": 1.4762496780562628e-15,
+        "proved_bound_value": 3.380600057846781
+      },
+      "masked_fff_parameters": [
+        2,
+        22,
+        42
+      ],
+      "p": 43,
+      "parameters_tested": 41,
+      "special_line_controls": [
+        {
+          "a": 2,
+          "col_finite_type": [
+            2,
+            42
+          ],
+          "col_special_type": [
+            2,
+            14,
+            14,
+            14
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            22,
+            22
+          ],
+          "row_special_type": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "a": 22,
+          "col_finite_type": [
+            2,
+            42
+          ],
+          "col_special_type": [
+            2,
+            14,
+            14,
+            14
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            2,
+            42
+          ],
+          "row_special_type": [
+            2,
+            14,
+            14,
+            14
+          ]
+        },
+        {
+          "a": 42,
+          "col_finite_type": [
+            22,
+            22
+          ],
+          "col_special_type": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "distinguished_in_both_views": true,
+          "in_three_parameter_exception_set": true,
+          "row_finite_type": [
+            2,
+            42
+          ],
+          "row_special_type": [
+            2,
+            14,
+            14,
+            14
+          ]
+        }
+      ]
+    }
+  ],
+  "direct_parastrophe_generator_mismatches": 0,
+  "direct_three_view_criterion_mismatches": 0,
+  "exhaustive_small_automorphism_controls": [
+    {
+      "a": 2,
+      "all_finite_permutations_checked": 120,
+      "automorphism_count": 20,
+      "expected_agl_order": 20,
+      "p": 5
+    },
+    {
+      "a": 2,
+      "all_finite_permutations_checked": 5040,
+      "automorphism_count": 42,
+      "expected_agl_order": 42,
+      "p": 7
+    }
+  ],
+  "fff_orbit_class_formula_mismatches": 0,
+  "large_prime_formula_certificate": {
+    "distinct_affine_main_classes_certified": 2,
+    "full_table_materialized": false,
+    "odd_part_of_p_minus_1": 500000000019,
+    "order": 1000000000040,
+    "p": 1000000000039,
+    "parameters": [
+      {
+        "a": 86,
+        "anharmonic_main_class_orbit": [
+          86,
+          58139534886,
+          188235294126,
+          811764705914,
+          941860465154,
+          999999999954
+        ],
+        "b": 999999999954,
+        "inverse_a": 58139534886,
+        "inverse_b": 811764705914,
+        "minus_b_over_a": 941860465154,
+        "nonisotopic_to_other_listed_parameter_by_section_6": true,
+        "three_odd_part_powers": [
+          1000000000038,
+          1000000000038,
+          1000000000038
+        ]
+      },
+      {
+        "a": 96,
+        "anharmonic_main_class_orbit": [
+          96,
+          273684210538,
+          427083333350,
+          572916666690,
+          726315789502,
+          999999999944
+        ],
+        "b": 999999999944,
+        "inverse_a": 427083333350,
+        "inverse_b": 726315789502,
+        "minus_b_over_a": 572916666690,
+        "nonisotopic_to_other_listed_parameter_by_section_6": true,
+        "three_odd_part_powers": [
+          1000000000038,
+          1000000000038,
+          1000000000038
+        ]
+      }
+    ],
+    "primality_certificate": "all odd trial divisors from 3 through sqrt_floor rejected",
+    "sqrt_floor": 1000000
+  },
+  "masked_even_order_failures": 0,
+  "parameter_count": 253,
+  "prime_count": 13,
+  "rational_cutoff_margin_checked": true,
+  "scope": "all affine parameters for odd primes 3..43; finite controls only",
+  "special_cycle_type_formula_mismatches": 0
+}

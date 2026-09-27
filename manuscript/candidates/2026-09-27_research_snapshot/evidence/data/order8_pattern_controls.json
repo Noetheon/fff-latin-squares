@@ -1,0 +1,1474 @@
+{
+  "aggregate": {
+    "all_c2_pattern_inflation_cases_passed": true,
+    "all_eight_order8_patterns_nonempty": true,
+    "all_group_isotopy_equivalence_cases_passed": true,
+    "all_groups_fff": true,
+    "all_groups_latin": true,
+    "all_lcm_checks_ok": true,
+    "all_pattern_examples_latin": true,
+    "all_pattern_or_cases_passed": true,
+    "all_product_formulas_ok": true,
+    "all_products_fff": true,
+    "all_products_latin": true,
+    "all_selected_examples_fff": true,
+    "all_selected_examples_latin": true,
+    "closure_views_agree_for_all_2group_products": true,
+    "group_products_group_isotopic_by_row_closure": true,
+    "nongroup_fff_c2_family_cases_passed": true,
+    "nongroup_products_remain_nongroup_by_row_closure": true,
+    "selected_pattern_names": [
+      "FFF",
+      "FFT",
+      "FTF",
+      "FTT",
+      "TFF",
+      "TFT",
+      "TTF",
+      "TTT"
+    ]
+  },
+  "c2_pattern_inflation_cases": [
+    {
+      "expected_pattern": "FFF",
+      "left_pattern": "FFF",
+      "left_source_index": 1,
+      "left_source_line_number": 1,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": true,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_factor": "C2"
+    },
+    {
+      "expected_pattern": "FFT",
+      "left_pattern": "FFT",
+      "left_source_index": 25,
+      "left_source_line_number": 25,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": true
+        },
+        "pattern_name": "FFT"
+      },
+      "right_factor": "C2"
+    },
+    {
+      "expected_pattern": "FTF",
+      "left_pattern": "FTF",
+      "left_source_index": 31,
+      "left_source_line_number": 31,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FTF"
+      },
+      "right_factor": "C2"
+    },
+    {
+      "expected_pattern": "FTT",
+      "left_pattern": "FTT",
+      "left_source_index": 34,
+      "left_source_line_number": 34,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": false,
+          "sym": true
+        },
+        "pattern_name": "FTT"
+      },
+      "right_factor": "C2"
+    },
+    {
+      "expected_pattern": "TFF",
+      "left_pattern": "TFF",
+      "left_source_index": 39,
+      "left_source_line_number": 39,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": true,
+          "sym": false
+        },
+        "pattern_name": "TFF"
+      },
+      "right_factor": "C2"
+    },
+    {
+      "expected_pattern": "TFT",
+      "left_pattern": "TFT",
+      "left_source_index": 101,
+      "left_source_line_number": 101,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": true,
+          "sym": true
+        },
+        "pattern_name": "TFT"
+      },
+      "right_factor": "C2"
+    },
+    {
+      "expected_pattern": "TTF",
+      "left_pattern": "TTF",
+      "left_source_index": 86,
+      "left_source_line_number": 86,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": true,
+          "sym": false
+        },
+        "pattern_name": "TTF"
+      },
+      "right_factor": "C2"
+    },
+    {
+      "expected_pattern": "TTT",
+      "left_pattern": "TTT",
+      "left_source_index": 24,
+      "left_source_line_number": 24,
+      "pattern_preserved": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": true,
+          "sym": true
+        },
+        "pattern_name": "TTT"
+      },
+      "right_factor": "C2"
+    }
+  ],
+  "environment": {
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python": "3.11.2"
+  },
+  "group_isotopy_equivalence_cases": [
+    {
+      "closure_equivalence_holds": true,
+      "expected_group_isotopic": true,
+      "left_example_label": "order8_group_isotopic_fff",
+      "left_group_isotopic": true,
+      "left_source_index": 1,
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 64,
+            "closed": true,
+            "distinct_basis_size": 64,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 64,
+            "closed": true,
+            "distinct_basis_size": 64,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 64,
+            "closed": true,
+            "distinct_basis_size": 64,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 64,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_example_label": "order8_group_isotopic_fff",
+      "right_group_isotopic": true,
+      "right_source_index": 1
+    },
+    {
+      "closure_equivalence_holds": true,
+      "expected_group_isotopic": false,
+      "left_example_label": "order8_group_isotopic_fff",
+      "left_group_isotopic": true,
+      "left_source_index": 1,
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 64,
+            "closed": false,
+            "distinct_basis_size": 64,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7,
+                9,
+                8,
+                11,
+                10
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          },
+          "row": {
+            "basis_size": 64,
+            "closed": false,
+            "distinct_basis_size": 64,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7,
+                9,
+                8,
+                11,
+                10
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          },
+          "sym": {
+            "basis_size": 64,
+            "closed": false,
+            "distinct_basis_size": 64,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7,
+                9,
+                8,
+                11,
+                10
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": false,
+        "latin": true,
+        "order": 64,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_example_label": "order8_nongroup_fff",
+      "right_group_isotopic": false,
+      "right_source_index": 2
+    },
+    {
+      "closure_equivalence_holds": true,
+      "expected_group_isotopic": false,
+      "left_example_label": "order8_nongroup_fff",
+      "left_group_isotopic": false,
+      "left_source_index": 2,
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 64,
+            "closed": false,
+            "distinct_basis_size": 64,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7,
+                9,
+                8,
+                11,
+                10
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          },
+          "row": {
+            "basis_size": 64,
+            "closed": false,
+            "distinct_basis_size": 64,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7,
+                9,
+                8,
+                11,
+                10
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          },
+          "sym": {
+            "basis_size": 64,
+            "closed": false,
+            "distinct_basis_size": 64,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7,
+                9,
+                8,
+                11,
+                10
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": false,
+        "latin": true,
+        "order": 64,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_example_label": "order8_nongroup_fff",
+      "right_group_isotopic": false,
+      "right_source_index": 2
+    }
+  ],
+  "groups": [
+    {
+      "description": "cyclic group of order 2",
+      "label": "C2",
+      "summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 2,
+            "closed": true,
+            "distinct_basis_size": 2,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 2,
+            "closed": true,
+            "distinct_basis_size": 2,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 2,
+            "closed": true,
+            "distinct_basis_size": 2,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 2,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      }
+    },
+    {
+      "description": "elementary abelian group of order 4",
+      "label": "C2xC2",
+      "summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 4,
+            "closed": true,
+            "distinct_basis_size": 4,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 4,
+            "closed": true,
+            "distinct_basis_size": 4,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 4,
+            "closed": true,
+            "distinct_basis_size": 4,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 4,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      }
+    },
+    {
+      "description": "cyclic group of order 4",
+      "label": "C4",
+      "summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 4,
+            "closed": true,
+            "distinct_basis_size": 4,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 4,
+            "closed": true,
+            "distinct_basis_size": 4,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 4,
+            "closed": true,
+            "distinct_basis_size": 4,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 4,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      }
+    }
+  ],
+  "inputs": {
+    "order8_fullscan": {
+      "path": "repro_runs/2026-04-26_order8_core/results/order8_recheck_fullscan_results.json",
+      "sha256": "10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39",
+      "size_bytes": 51025
+    },
+    "order8_main_classes": {
+      "path": "repro_runs/2026-04-26_order8_core/data/latin_mc8.txt.gz",
+      "sha256": "e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87",
+      "size_bytes": 5140393
+    }
+  },
+  "nongroup_fff_power2_family_cases": [
+    {
+      "closure_views_agree": true,
+      "left_example_label": "order8_nongroup_fff",
+      "left_source_index": 2,
+      "passed": true,
+      "product_fff": true,
+      "product_order": 16,
+      "right_group_label": "C2",
+      "row_closure_closed": false
+    },
+    {
+      "closure_views_agree": true,
+      "left_example_label": "order8_nongroup_fff",
+      "left_source_index": 2,
+      "passed": true,
+      "product_fff": true,
+      "product_order": 32,
+      "right_group_label": "C2xC2",
+      "row_closure_closed": false
+    }
+  ],
+  "order8_pattern_count_check": {
+    "all_eight_patterns_nonempty": true,
+    "counts": {
+      "FFF": 230,
+      "FFT": 81,
+      "FTF": 40,
+      "FTT": 315,
+      "TFF": 133,
+      "TFT": 209,
+      "TTF": 232,
+      "TTT": 282417
+    },
+    "missing_or_empty_patterns": [],
+    "source": "order8 fullscan JSON scan.pattern_counts"
+  },
+  "pattern_or_cases": [
+    {
+      "expected_or_pattern": "TFF",
+      "left_pattern": "FFF",
+      "left_source_index": 1,
+      "or_formula_holds": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 6048,
+        "ok": true,
+        "point_lcm_checks": 387072,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 64,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": true,
+          "sym": false
+        },
+        "pattern_name": "TFF"
+      },
+      "right_pattern": "TFF",
+      "right_source_index": 39
+    },
+    {
+      "expected_or_pattern": "TTF",
+      "left_pattern": "TFF",
+      "left_source_index": 39,
+      "or_formula_holds": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 6048,
+        "ok": true,
+        "point_lcm_checks": 387072,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 64,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": true,
+          "sym": false
+        },
+        "pattern_name": "TTF"
+      },
+      "right_pattern": "FTF",
+      "right_source_index": 31
+    },
+    {
+      "expected_or_pattern": "FTT",
+      "left_pattern": "FTF",
+      "left_source_index": 31,
+      "or_formula_holds": true,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 6048,
+        "ok": true,
+        "point_lcm_checks": 387072,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "fff": false,
+        "latin": true,
+        "order": 64,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": false,
+          "sym": true
+        },
+        "pattern_name": "FTT"
+      },
+      "right_pattern": "FFT",
+      "right_source_index": 25
+    }
+  ],
+  "product_cases": [
+    {
+      "expected_group_isotopic": true,
+      "left_example_label": "order8_group_isotopic_fff",
+      "left_source_group_isotopic": true,
+      "left_source_index": 1,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 16,
+            "closed": true,
+            "distinct_basis_size": 16,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 16,
+            "closed": true,
+            "distinct_basis_size": 16,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 16,
+            "closed": true,
+            "distinct_basis_size": 16,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_group_label": "C2",
+      "right_group_order": 2
+    },
+    {
+      "expected_group_isotopic": true,
+      "left_example_label": "order8_group_isotopic_fff",
+      "left_source_group_isotopic": true,
+      "left_source_index": 1,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 1488,
+        "ok": true,
+        "point_lcm_checks": 47616,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 32,
+            "closed": true,
+            "distinct_basis_size": 32,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 32,
+            "closed": true,
+            "distinct_basis_size": 32,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 32,
+            "closed": true,
+            "distinct_basis_size": 32,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 32,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_group_label": "C2xC2",
+      "right_group_order": 4
+    },
+    {
+      "expected_group_isotopic": true,
+      "left_example_label": "order8_group_isotopic_fff",
+      "left_source_group_isotopic": true,
+      "left_source_index": 1,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 1488,
+        "ok": true,
+        "point_lcm_checks": 47616,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 32,
+            "closed": true,
+            "distinct_basis_size": 32,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 32,
+            "closed": true,
+            "distinct_basis_size": 32,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 32,
+            "closed": true,
+            "distinct_basis_size": 32,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 32,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_group_label": "C4",
+      "right_group_order": 4
+    },
+    {
+      "expected_group_isotopic": false,
+      "left_example_label": "order8_nongroup_fff",
+      "left_source_group_isotopic": false,
+      "left_source_index": 2,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 360,
+        "ok": true,
+        "point_lcm_checks": 5760,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 16,
+            "closed": false,
+            "distinct_basis_size": 16,
+            "first_failure": {
+              "composition_prefix": [
+                2,
+                3,
+                0,
+                1,
+                6,
+                7,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11
+              ],
+              "left_basis_index": 4,
+              "right_basis_index": 4
+            }
+          },
+          "row": {
+            "basis_size": 16,
+            "closed": false,
+            "distinct_basis_size": 16,
+            "first_failure": {
+              "composition_prefix": [
+                2,
+                3,
+                0,
+                1,
+                6,
+                7,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11
+              ],
+              "left_basis_index": 4,
+              "right_basis_index": 4
+            }
+          },
+          "sym": {
+            "basis_size": 16,
+            "closed": false,
+            "distinct_basis_size": 16,
+            "first_failure": {
+              "composition_prefix": [
+                2,
+                3,
+                0,
+                1,
+                6,
+                7,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11
+              ],
+              "left_basis_index": 4,
+              "right_basis_index": 4
+            }
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": false,
+        "latin": true,
+        "order": 16,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_group_label": "C2",
+      "right_group_order": 2
+    },
+    {
+      "expected_group_isotopic": false,
+      "left_example_label": "order8_nongroup_fff",
+      "left_source_group_isotopic": false,
+      "left_source_index": 2,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 1488,
+        "ok": true,
+        "point_lcm_checks": 47616,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 32,
+            "closed": false,
+            "distinct_basis_size": 32,
+            "first_failure": {
+              "composition_prefix": [
+                4,
+                5,
+                6,
+                7,
+                0,
+                1,
+                2,
+                3,
+                12,
+                13,
+                14,
+                15
+              ],
+              "left_basis_index": 8,
+              "right_basis_index": 8
+            }
+          },
+          "row": {
+            "basis_size": 32,
+            "closed": false,
+            "distinct_basis_size": 32,
+            "first_failure": {
+              "composition_prefix": [
+                4,
+                5,
+                6,
+                7,
+                0,
+                1,
+                2,
+                3,
+                12,
+                13,
+                14,
+                15
+              ],
+              "left_basis_index": 8,
+              "right_basis_index": 8
+            }
+          },
+          "sym": {
+            "basis_size": 32,
+            "closed": false,
+            "distinct_basis_size": 32,
+            "first_failure": {
+              "composition_prefix": [
+                4,
+                5,
+                6,
+                7,
+                0,
+                1,
+                2,
+                3,
+                12,
+                13,
+                14,
+                15
+              ],
+              "left_basis_index": 8,
+              "right_basis_index": 8
+            }
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": false,
+        "latin": true,
+        "order": 32,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_group_label": "C2xC2",
+      "right_group_order": 4
+    },
+    {
+      "expected_group_isotopic": false,
+      "left_example_label": "order8_nongroup_fff",
+      "left_source_group_isotopic": false,
+      "left_source_index": 2,
+      "product_formula_and_lcm_check": {
+        "line_pairs_checked": 1488,
+        "ok": true,
+        "point_lcm_checks": 47616,
+        "views_checked": [
+          "row",
+          "col",
+          "sym"
+        ]
+      },
+      "product_summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 32,
+            "closed": false,
+            "distinct_basis_size": 32,
+            "first_failure": {
+              "composition_prefix": [
+                4,
+                5,
+                6,
+                7,
+                0,
+                1,
+                2,
+                3,
+                12,
+                13,
+                14,
+                15
+              ],
+              "left_basis_index": 8,
+              "right_basis_index": 8
+            }
+          },
+          "row": {
+            "basis_size": 32,
+            "closed": false,
+            "distinct_basis_size": 32,
+            "first_failure": {
+              "composition_prefix": [
+                4,
+                5,
+                6,
+                7,
+                0,
+                1,
+                2,
+                3,
+                12,
+                13,
+                14,
+                15
+              ],
+              "left_basis_index": 8,
+              "right_basis_index": 8
+            }
+          },
+          "sym": {
+            "basis_size": 32,
+            "closed": false,
+            "distinct_basis_size": 32,
+            "first_failure": {
+              "composition_prefix": [
+                4,
+                5,
+                6,
+                7,
+                0,
+                1,
+                2,
+                3,
+                12,
+                13,
+                14,
+                15
+              ],
+              "left_basis_index": 8,
+              "right_basis_index": 8
+            }
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": false,
+        "latin": true,
+        "order": 32,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      },
+      "right_group_label": "C4",
+      "right_group_order": 4
+    }
+  ],
+  "run_id": "2026-04-26_direct_product_fff",
+  "selected_order8_examples": [
+    {
+      "compact_square": "0123456710325476230176543210674545760132546710236754320176452310",
+      "label": "order8_group_isotopic_fff",
+      "source_group_isotopic": true,
+      "source_index": 1,
+      "source_line_number": 1,
+      "summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 8,
+            "closed": true,
+            "distinct_basis_size": 8,
+            "first_failure": null
+          },
+          "row": {
+            "basis_size": 8,
+            "closed": true,
+            "distinct_basis_size": 8,
+            "first_failure": null
+          },
+          "sym": {
+            "basis_size": 8,
+            "closed": true,
+            "distinct_basis_size": 8,
+            "first_failure": null
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": true,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      }
+    },
+    {
+      "compact_square": "0123456710325476231067453201765445671032547601236745321076542301",
+      "label": "order8_nongroup_fff",
+      "source_group_isotopic": false,
+      "source_index": 2,
+      "source_line_number": 2,
+      "summary": {
+        "closure_by_view": {
+          "col": {
+            "basis_size": 8,
+            "closed": false,
+            "distinct_basis_size": 8,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          },
+          "row": {
+            "basis_size": 8,
+            "closed": false,
+            "distinct_basis_size": 8,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          },
+          "sym": {
+            "basis_size": 8,
+            "closed": false,
+            "distinct_basis_size": 8,
+            "first_failure": {
+              "composition_prefix": [
+                1,
+                0,
+                3,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "left_basis_index": 2,
+              "right_basis_index": 2
+            }
+          }
+        },
+        "closure_views_agree": true,
+        "fff": true,
+        "group_isotopic_by_row_closure": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      }
+    }
+  ],
+  "selected_pattern_examples": [
+    {
+      "compact_square": "0123456710325476230176543210674545760132546710236754320176452310",
+      "label": "order8_pattern_FFF",
+      "source_index": 1,
+      "source_line_number": 1,
+      "summary": {
+        "fff": true,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FFF"
+      }
+    },
+    {
+      "compact_square": "0123456710325476231467503241760545672013547602316705314276501324",
+      "label": "order8_pattern_FFT",
+      "source_index": 25,
+      "source_line_number": 25,
+      "summary": {
+        "fff": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": false,
+          "sym": true
+        },
+        "pattern_name": "FFT"
+      }
+    },
+    {
+      "compact_square": "0123456710325476234576103254670146071235571603246470215375613042",
+      "label": "order8_pattern_FTF",
+      "source_index": 31,
+      "source_line_number": 31,
+      "summary": {
+        "fff": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": false,
+          "sym": false
+        },
+        "pattern_name": "FTF"
+      }
+    },
+    {
+      "compact_square": "0123456710325476234576103254670147061253561703426571302474602135",
+      "label": "order8_pattern_FTT",
+      "source_index": 34,
+      "source_line_number": 34,
+      "summary": {
+        "fff": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": false,
+          "sym": true
+        },
+        "pattern_name": "FTT"
+      }
+    },
+    {
+      "compact_square": "0123456710325476235476013245671046072153571630426470123575610324",
+      "label": "order8_pattern_TFF",
+      "source_index": 39,
+      "source_line_number": 39,
+      "summary": {
+        "fff": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": true,
+          "sym": false
+        },
+        "pattern_name": "TFF"
+      }
+    },
+    {
+      "compact_square": "0123456710326475241736503506174243715026526071346754230176450213",
+      "label": "order8_pattern_TFT",
+      "source_index": 101,
+      "source_line_number": 101,
+      "summary": {
+        "fff": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": false,
+          "row": true,
+          "sym": true
+        },
+        "pattern_name": "TFT"
+      }
+    },
+    {
+      "compact_square": "0123456710325746236470513276041545106273570126346457130276453120",
+      "label": "order8_pattern_TTF",
+      "source_index": 86,
+      "source_line_number": 86,
+      "summary": {
+        "fff": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": true,
+          "sym": false
+        },
+        "pattern_name": "TTF"
+      }
+    },
+    {
+      "compact_square": "0123456710325476231467053241765045672013547602316705132476503142",
+      "label": "order8_pattern_TTT",
+      "source_index": 24,
+      "source_line_number": 24,
+      "summary": {
+        "fff": false,
+        "latin": true,
+        "order": 8,
+        "pattern_has_odd_cycle": {
+          "col": true,
+          "row": true,
+          "sym": true
+        },
+        "pattern_name": "TTT"
+      }
+    }
+  ]
+}

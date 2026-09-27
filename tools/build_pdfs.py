@@ -10,7 +10,8 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EPOCH = 1789776000  # 2026-09-19 00:00:00 UTC
+EPOCH = 1790506367  # Frozen 2026-09-27 paper edition.
+SOURCE = ROOT / "manuscript/candidates/2026-09-27_research_snapshot"
 
 
 def main():
@@ -24,21 +25,22 @@ def main():
     records = []
     for variant, entry in (("long", "main.tex"), ("compact", "main_core.tex")):
         source, build = out / variant / "source", out / variant / "build"
-        shutil.copytree(ROOT / "manuscript", source)
-        (source / "main.tex").write_bytes((ROOT / "manuscript" / entry).read_bytes())
+        shutil.copytree(SOURCE, source)
         build.mkdir()
-        env = dict(os.environ, SOURCE_DATE_EPOCH=str(EPOCH), FORCE_SOURCE_DATE="1", TZ="UTC")
+        env = dict(os.environ, SOURCE_DATE_EPOCH=str(EPOCH), FORCE_SOURCE_DATE="1", TZ="UTC", LC_ALL="C")
         for key in ("TEXINPUTS", "BIBINPUTS", "BSTINPUTS", "TEXMFOUTPUT"):
             env.pop(key, None)
+        job = f"FFF_Latin_Squares_{variant.title()}_2026-09-27"
         command = ["latexmk", "-norc", "-pdf", "-interaction=nonstopmode", "-halt-on-error",
-                   "-pdflatex=pdflatex -no-shell-escape %O %S", f"-outdir={build}", "main.tex"]
+                   "-file-line-error", "-pdflatex=pdflatex -no-shell-escape %O %S",
+                   f"-outdir={build}", f"-jobname={job}", entry]
         with (out / variant / "build.log").open("w") as stream:
             subprocess.run(command, cwd=source, env=env, stdout=stream, stderr=subprocess.STDOUT,
                            timeout=180, check=True)
-        log = (build / "main.log").read_text()
+        log = (build / f"{job}.log").read_text()
         warnings = [line for line in log.splitlines() if re.search(
             r"LaTeX Warning|Package .* Warning|Overfull|Underfull|undefined", line)]
-        pdf = (build / "main.pdf").read_bytes()
+        pdf = (build / f"{job}.pdf").read_bytes()
         identical = pdf == (ROOT / "papers" / f"FFF_{variant.title()}_Research_Dossier.pdf").read_bytes()
         records.append({"variant": variant, "sha256": hashlib.sha256(pdf).hexdigest(),
                         "byte_identical": identical, "warnings": warnings})

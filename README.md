@@ -9,15 +9,21 @@ length greater than one in any of the row, column and symbol views (FFF).
 ## Read the dossier
 
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
-- [Compact reading version (PDF)](papers/FFF_Compact_Research_Dossier.pdf)
-- [Full technical record (PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Editable manuscript sources](manuscript/)
+- [Compact reading version (30-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
+- [Full technical record (72-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
+- [Current editable sources and bounded audit](manuscript/candidates/2026-09-27_research_snapshot/README.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
 - [Reproducibility and export limitations](REPRODUCIBILITY.md)
-- [Observed release checks](verification/RELEASE_VALIDATION.md)
+- [27 September release scope and checks](verification/RELEASE_2026-09-27.md)
 
 Read the disclosure at the beginning of either PDF before relying on its claims.
 The two versions overlap; they are not two independent studies.
+
+**Current edition: 27 September 2026, frozen at 10:52 UTC through C251.**
+This is a public research snapshot for critical examination, not a peer-reviewed
+article. The earlier September edition is retained as history; its open-C38 and
+open-order-12 wording is superseded. Subsequent working results are outside this
+edition's reviewed scope.
 
 ## Start with one table
 
@@ -45,8 +51,13 @@ is the shared starting point for focused feedback.
 - The order-10 exclusion (internal reference C157) uses a written reduction and
   complete finite master searches. It is not a solver-free proof, a new rerun in
   this release or a proof-assistant certificate.
-- The global power-of-two conjecture (C38) remains open. Order 12 is the next
-  undecided even non-power-of-two case in this project.
+- An explicit order-12 FFF table **disproves the former power-of-two conjecture
+  (C38)**. Two independent scanning methods check every line pair of the
+  shipped order-12/14/36/98 controls. **Order 18 remains open.**
+- The new edition includes affine constructions, row-fibred pattern equality,
+  binary quotient descent and within-construction affine-orbit classification.
+  The order-20 source lower bound of 514 classes is not a complete census;
+  higher-order lower bounds use a proved construction, not exhaustive table scans.
 - Census completeness and the primitive-group classification are cited external
   dependencies. Same-binary decompositions are not independent implementations.
 - A timeout or partial SAT table is never evidence of a complete exclusion or
@@ -68,20 +79,24 @@ Python 3.11 or later, standard library only, is sufficient for the default gate:
 ```sh
 python3 -B tools/verify_public_release.py
 python3 -B tools/check_theorem_records.py --output .audit/theorem-records
+python3 -B tools/check_current_snapshot.py --output .audit/current-snapshot.json
 python3 -B -m unittest discover -s tests -v
 ```
 
-These checks verify the public bytes and cross-check the numerical theorem
-records; they do not rerun the large order-10 search. A bounded small-order and
-order-8 rerun is documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+These checks verify the public bytes, cross-check historical numerical records,
+and freshly rerun the current edition's bounded controls. They do not rerun the
+large order-10 searches or historical UNSAT proof checkers. Additional finite
+reruns are documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 ## Distribution scope
 
-This is a new curated export, not the complete working archive. It contains no
+This is a curated public edition, not the complete working archive. It contains no
 inherited development history or correspondence. Historical source/result paths
 are preserved where useful for traceability; selected machine-local strings are
 privacy-projected. `PUBLIC_PROJECTION.json` records byte-identical and projected
-files. `PUBLIC_MANIFEST.sha256` hashes the actual public files. Historical hashes
+files from the original export. `PUBLIC_SNAPSHOT_2026-09-27.json` separately
+records this edition's selected inputs, sources and privacy projections.
+`PUBLIC_MANIFEST.sha256` hashes the actual public files. Historical hashes
 inside a report still identify historical bytes, not necessarily the projected
 file beside it. Do not use those historical hashes as the public manifest.
 

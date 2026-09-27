@@ -50,7 +50,8 @@ mathematical content or turn it into a disguised whole-paper review request.
 ## What to ask for
 
 Request examination of one precise proof, a small executable check or the coverage
-bridge for the order-10 computation. State that the global conjecture remains open,
+bridge for the order-10 computation. State that C38 is disproved by FFF12 but
+unrestricted order 18 remains open,
 that expert human review has not been established and that the public artifact
 collection is not a complete persistent data deposit. Do not promise a breakthrough
 or claim scholarly qualifications that the project does not establish.
@@ -72,8 +73,10 @@ This generated text is **not** for r/math or Hacker News.
 > explicit limitations and a small standard-library Python checker with a
 > positive example and a negative control. Three bounded review questions ask
 > about a proof step, reproducibility and prior literature. Independent expert
-> review of the complete work has not been established; the global conjecture
-> remains open. The large order-10 search payloads are not included in this export.
+> review of the complete work has not been established. The updated edition
+> contains an explicit order-12 counterexample to the former power-of-two
+> conjecture; unrestricted order 18 remains open. The large order-10 search
+> payloads are not included in this export.
 >
 > Feedback on the audit design or one concrete error would be useful; this is
 > not a request for an unqualified endorsement or a free whole-paper review.
