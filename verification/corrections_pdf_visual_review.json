@@ -1,0 +1,41 @@
+[
+  {
+    "variant": "compact",
+    "pages": 38,
+    "sha256": "e8e2c8a2b53199781347e77ba3cb50a84ee3582d017fea1b6981bdc935d4eee3",
+    "all_pages_rendered_nonblank": true,
+    "all_strengthened_bounds_present": true,
+    "detailed_pages": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      28,
+      38
+    ],
+    "empty_text_pages": []
+  },
+  {
+    "variant": "long",
+    "pages": 80,
+    "sha256": "dbd905c73f55d5523956821e3809ad12cb5af5db601216433c1945e2ecc6e459",
+    "all_pages_rendered_nonblank": true,
+    "all_strengthened_bounds_present": true,
+    "detailed_pages": [
+      1,
+      2,
+      11,
+      13,
+      31,
+      43,
+      45,
+      54,
+      60,
+      76,
+      77,
+      80
+    ],
+    "empty_text_pages": []
+  }
+]

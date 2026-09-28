@@ -30,7 +30,7 @@ The compact PDF is a reading aid with a smaller theorem set. Consult the long
 dossier for the order-10 reduction and computational evidence. No mathematical
 claim is established merely by public hosting. This edition incorporates later
 proof text and finite evidence, with a fresh, bounded audit described in the
-[current source package](manuscript/candidates/2026-09-28_research_review/README.md).
+[current source package](manuscript/candidates/2026-09-28_audit_corrections/README.md).
 The initial September edition and frozen historical outputs are not rewritten.
 
 ## Outstanding work

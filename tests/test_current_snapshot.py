@@ -21,8 +21,23 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertGreater(AUDIT["audit_sources"]()["immutable_files_checked"], 35)
         capture = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-09-28.json").read_text())
         self.assertEqual(capture["last_in_scope_claim"], "C271")
+        correction = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json").read_text())
+        self.assertEqual(correction["last_in_scope_claim"], "C271")
+        self.assertEqual(correction["previous_receipt_sha256"],
+                         hashlib.sha256((ROOT / "PUBLIC_SNAPSHOT_2026-09-28.json").read_bytes()).hexdigest())
+        replacements = {row["path"]: row for row in correction["superseded_aliases"]}
+        self.assertEqual(set(replacements), {"papers/FFF_Compact_Research_Dossier.pdf",
+                                            "papers/FFF_Long_Research_Dossier.pdf"})
+        self.assertEqual(len(correction["superseded_aliases"]), 2)
         for row in capture["files"]:
-            self.assertEqual(hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest(), row["public_sha256"])
+            expected = row["public_sha256"]
+            if row["path"] in replacements:
+                replacement = replacements[row["path"]]
+                self.assertEqual(replacement["previous_sha256"], expected)
+                expected = replacement["public_sha256"]
+            self.assertEqual(hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest(), expected)
+        for row in correction["files"]:
+            self.assertEqual(hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest(), row["sha256"])
 
     def test_expanded_certificate_scope_and_corner_positive(self):
         table = UPDATE["corner_table"](19, 7)
@@ -56,6 +71,7 @@ class CurrentSnapshotTests(unittest.TestCase):
 
     def test_odd_order_and_trivial_boundary(self):
         self.assertEqual(AUDIT["scan"]([[0]])[0]["pattern"], "FFF")
+        self.assertEqual(AUDIT["scan"]([[0, 1], [1, 0]])[0]["pattern"], "FFF")
         self.assertEqual(AUDIT["scan"]([[(r+c) % 3 for c in range(3)] for r in range(3)])[0]["pattern"], "TTT")
 
     def test_explicit_counterexample(self):

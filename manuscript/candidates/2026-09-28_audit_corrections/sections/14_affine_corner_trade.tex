@@ -1,0 +1,154 @@
+\section{A pattern-preserving affine corner trade}
+\label{sec:corner-trade}
+
+Latin squares with a unique intercalate are an established subject;
+see Wanless~\cite{Wanless2001Unique}. The result here concerns the
+three-view FFF pattern of a particular affine trade. Neither the
+existence of unique-intercalate squares nor priority for this formula
+is claimed to be new.
+
+For an odd prime $p$ and $a\in\mathbb F_p\setminus\{0,-1\}$, define
+$P_a$ on $\mathbb F_p\cup\{\infty\}$ by
+\[
+ P_a(r,c)=\begin{cases}\infty&c=ar,\\r+c&c\ne ar\end{cases}
+ \quad(r,c\in\mathbb F_p),
+\]
+with $P_a(r,\infty)=(a+1)r$, $P_a(\infty,c)=(a+1)c/a$, and
+$P_a(\infty,\infty)=\infty$. This is the standard one-point
+prolongation of addition along its affine transversal. Let $P'_a$
+swap the two entries in each of rows $0,\infty$ at columns $0,\infty$.
+Those four cells form an intercalate.
+
+\begin{theorem}[Corner trade]
+\label{thm:corner-trade}
+Both tables are Latin and $\pat(P'_a)=\pat(P_a)$ componentwise.
+If $p\geq5$ and $a\notin\{1,-2,-1/2\}$, then
+$I(P_a)=p$ and $I(P'_a)=1$.
+\end{theorem}
+
+\begin{proof}
+The prolongation is Latin, and an intercalate swap preserves this property.
+Put $b=(a+1)/a$, $d=\operatorname{ord}_p(b)$ and let $a_0$ be the
+integer representative of $a$ in $\{1,\ldots,p-2\}$. The autotopisms
+\[
+ (r,c,s)\longmapsto(r+t,c+at,s+(a+1)t)
+\]
+fix infinity. Together with the scaling autotopisms
+$(r,c,s)\mapsto(ur,uc,us)$ for $u\ne0$, they make all distinct
+finite-finite row pairs have the same cycle type. For rows $(0,t)$
+with $t\ne0$, scaling columns by
+$t^{-1}$ gives the relative map
+\[
+ 0\mapsto a,\quad \infty\mapsto-1,\quad a+1\mapsto\infty,
+ \qquad x\mapsto x-1\quad(x\ne0,a+1).
+\]
+Its cycles containing $0$ and infinity are separate, of lengths
+$a_0+1$ and $p-a_0$. For rows $(\infty,t)$, the ordinary finite
+map is $x\mapsto bx-t$. Prolongation replaces its fixed point $at$
+by $(at,\infty)$; the remaining cycles have length $d$. If $t\ne0$,
+the point $0$ belongs to one of those $d$-cycles.
+
+Writing $\tau=(0,\infty)$ on columns, the trade precomposes rows
+$0,\infty$ with $\tau$. The pair $(0,\infty)$ is conjugated and
+keeps its type. For $(0,t)$ the transposition joins the two cycles
+into one $(p+1)$-cycle. For $(\infty,t)$ it joins the two-cycle
+containing infinity to a separate $d$-cycle, giving lengths
+$d+2,d,\ldots,d$. Pairs of distinct nonzero finite rows are unchanged.
+Thus row-F holds after the trade exactly when $a_0+1,p-a_0,d$ are
+all even, which is also its condition before the trade. Necessity
+uses an unchanged nonzero finite pair and the pair $(0,\infty)$;
+these exist also for $p=3$.
+
+Transposition gives exactly $P_a^T=P_{a^{-1}}$, preserving the
+corner trade. In the symbol view, take symbols as lines and columns
+as positions, and relabel finite columns by $c'=-c$. Solving the
+table equation gives precisely the same construction with parameter
+$-a/(a+1)$, again taking the corner to the corner. Applying the row
+calculation to these two parameters proves column and symbol equality.
+
+Each two-cycle in a row-pair permutation is one intercalate. In $P_a$
+the $p$ pairs involving infinity each contribute their distinguished
+two-cycle. Additional two-cycles occur exactly when $d=2$, $a_0+1=2$
+or $p-a_0=2$, that is, $a=-1/2,1,-2$. Outside these exceptions
+the count is $p$. After the trade, the complete pair list above
+leaves only the distinguished two-cycle of $(0,\infty)$, giving one.
+\end{proof}
+
+\begin{corollary}[One intercalate and no standard two-point contraction]
+\label{cor:corner-noncontraction}
+For every prime $p\geq10^{12}$ there exists a non-group-isotopic FFF
+square of order $p+1$ with exactly one intercalate. It is not isotopic
+or parastrophic to a standard two-transversal prolongation of an
+order-$(p-1)$ square with all retained cells unchanged.
+\end{corollary}
+
+\begin{proof}
+The isotopy $x=(a+1)r$, $y=(a+1)c/a$, with symbols unchanged,
+takes $P_a$ to the loop of Section~\ref{sec:affine-prime} with parameter
+$\alpha=1/(a+1)$. The inverse correspondence
+$a=(1-\alpha)/\alpha$ is bijective. Theorem~\ref{thm:affine-large-prime}
+gives more than $p/1000>3$ FFF parameters; at most three are exceptional
+for Theorem~\ref{thm:corner-trade}. This proves existence.
+A group table of even order $n$ with $t$ nonidentity involutions has
+$tn^2/4$ intercalates: each involution gives $n/2$ unordered row pairs
+with $n/2$ two-cycles. Here $t\geq1$ and $n\geq4$, so this is greater
+than one. Intercalate count is isotopy invariant.
+
+The unique intercalate of a generic $P'_a$ has rows, columns and symbols
+$\{0,\infty\}$. Delete them. For each $r\ne0$, the retained position
+$(r,-r)$ is a hole because its symbol was zero. Its possible values
+must lie in
+\[
+ \{r,(a+1)r\}\ \cap\ \{-r,-(a+1)r/a\}.
+\]
+The four possible equalities respectively force characteristic two,
+$a=-1/2$, $a=-2$ or $a=-1$, all excluded. Thus the intersection is
+empty and even one such hole forbids a Latin completion with retained
+entries fixed. A standard two-transversal prolongation has an order-two
+corner whose reverse operation is just such a completion. Uniqueness
+of the intercalate and invariance under all three-sort relabellings and
+coordinate permutations prove the final assertion.
+\end{proof}
+
+This corollary inherits the published character-sum estimate used in
+Theorem~\ref{thm:affine-large-prime}; it is not a physical computation
+at enormous orders. Independently scanned small examples are
+$(p,a)=(13,3)$ and $(19,7)$, of orders $14$ and $20$. The finite
+checker tests pattern preservation at all 253 admissible parameters
+over primes through $43$ and the intercalate and empty-domain formulas
+at all 216 generic parameters. Every one of the 15 affine cases at
+$p=17$ remains non-FFF. No arbitrary order-$18$ claim follows.
+
+\begin{computationaltheorem}[Expanded explicit class lower bounds]
+\label{cthm:fff20-1703}
+There are at least $1703$ FFF main classes at order $20$, at least
+$T_d(1703)$ at order $20\cdot2^d$, and in particular at least
+$1450956$ at order $40$.
+\end{computationaltheorem}
+
+\begin{proof}
+The frozen enlargement of the Steiner input tests every trade mask
+for each of its 22 all-two-cycle row pairs. Its historical enumeration
+records 22528 masks, 19480 FFF labelled mask instances and 1700 distinct
+exact aggregate spectra. Two quadratic controls add two further spectra.
+For the present lower bound it suffices to reconstruct one specified
+table per spectrum: the fresh companion checker reconstructs all 1702,
+validates Latinness and all three views by two methods, and compares
+the spectra as exact tuples, not merely hashes. Each has at least 19
+intercalates; the checked $P'_7$ at $p=19$ has one and supplies another
+class.
+
+For all 1703 selected tables, fresh binary elimination produces a
+$58$-square minor, and a separate explicit matrix elimination checks
+its nonsingularity and binding to the table. Lemma~\ref{lem:binary-rank-certificate}
+establishes binary quotient freeness without C157. Apply
+Theorem~\ref{thm:affine-fibre-orbits} and
+Equation~\eqref{eq:burnside-fibres}; at $d=1$ the count is
+$1703\cdot1704/2=1450956$.
+\end{proof}
+
+The fresh representative audit proves these lower bounds without
+repeating the complete 22528-mask search. It does not prove an exact
+number of all FFF classes, completeness of the spectrum invariant,
+or literature priority. The older 514-input bounds remain valid but
+are no longer the strongest bound in this edition.

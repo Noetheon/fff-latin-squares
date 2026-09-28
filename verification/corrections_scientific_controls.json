@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "ignored_fields": [
+        "elapsed_seconds",
+        "sources"
+      ],
+      "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results.",
+      "scientific_fields_match": true,
+      "script": "audit_snapshot.py"
+    },
+    {
+      "ignored_fields": [
+        "elapsed_seconds",
+        "captured_update_files_verified"
+      ],
+      "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results.",
+      "scientific_fields_match": true,
+      "script": "audit_update.py"
+    },
+    {
+      "ignored_fields": [
+        "runtime_seconds"
+      ],
+      "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results.",
+      "scientific_fields_match": true,
+      "script": "audit_crt_update.py"
+    }
+  ],
+  "cutoff": "C271",
+  "elapsed_seconds": 62.8,
+  "heavy_solvers_run": false,
+  "historical_unsat_proofs_rechecked": false,
+  "passed": true
+}

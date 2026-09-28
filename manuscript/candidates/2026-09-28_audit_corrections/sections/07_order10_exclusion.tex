@@ -1,0 +1,201 @@
+\section{The order-10 computational exclusion}
+
+The strict local condition studied by Kobayashi and Nakamura requires every
+pair of factors in a $1$-factorization of $K_{n,n}$ to form only $4$-cycles;
+such a $4$-semiregular factorization exists precisely in power-of-two
+orders~\cite{KobayashiNakamura1994}.  In one Latin-square view, that condition
+forces every induced two-line cycle to have length $2$.  Our F condition is
+weaker: induced cycles may have any even length, and FFF requires the weaker
+condition simultaneously in all three coordinate views.  The nearby strict
+classification historically suggested a stronger existence conjecture, now
+known to be false.
+
+Equivalently, view a Latin square as a triangle decomposition of
+$K_{n,n,n}$.  The links of the vertices in each part form a 1-factorization
+between the other two parts.  A two-line permutation cycle of length $\ell$
+corresponds to an alternating link-union cycle of length $2\ell$.  Thus FFF
+asks that all pair-union components in all three coupled link factorizations
+have length divisible by four.  Moreover, the total number of 4-cycles in
+each of the three link families is the same: in every view it is exactly the
+number of intercalates of the Latin square.  This identity is a baseline
+three-view coupling, although it is not by itself an obstruction.
+
+\begin{remark}[Former power-of-two existence conjecture]
+\label{rem:former-power-two}
+The assertion that FFF Latin squares of order $n>1$ exist exactly at powers
+of two is false.  Computational Theorem~\ref{cthm:nonpower-witnesses}
+supplies an explicit FFF square of order $12$.
+\end{remark}
+
+The power-of-two positive direction follows from
+Corollary~\ref{cor:group-fff}.  Nonexistence at odd $n$ follows from
+Proposition~\ref{prop:odd-order}.  The specific even non-power-of-two
+orders $6$ and $10$ are excluded by the computational theorems below.
+Orders $12$, $14$, and $36$ have positive witnesses; the first undecided
+small even non-power-of-two order is $18$.
+
+Corollary~\ref{cor:2p-simple} was the first structural reduction for order
+$10$: every order-$10$
+FFF candidate must be congruence-simple in every isotope.  Thus central,
+binary-extension, and other congruence-imprimitive constructions cannot
+produce a counterexample.  This reduction alone is structural rather than an
+existence decision; the complete palette computation below closes the case.
+
+Computational Theorem~\ref{cthm:primitive-view} sharpens this again at the
+level of each line action: every normalized view must generate $A_{10}$ or
+$S_{10}$, and Corollary~\ref{cor:at-least-one-s10} forces at least one
+$S_{10}$ view.  This is a separate necessary-condition reduction, not an
+assumption used to discard candidates in the two master computations below.
+Those computations cover their full normalized permutation families without
+a primitive-group filter.
+
+There is also an exact cycle-type reduction.  The seven possible cycle types
+of a fixed-point-free permutation of degree $10$ with no odd cycle are
+\[
+ \mathcal T=\{10,8+2,6+4,6+2+2,4+4+2,
+                 4+2+2+2,2+2+2+2+2\}.
+\]
+For one view, call the set of types occurring among its $45$ relative
+two-line permutations its \emph{exact palette}.
+
+\begin{computationaltheorem}[Order-$10$ cycle-type palette exclusions]
+\label{cthm:order10-palettes}
+Every view of a hypothetical order-$10$ FFF Latin square has an exact palette
+containing at least six members of $\mathcal T$.  None of the $21$ five-member
+subsets of $\mathcal T$ can occur as the exact palette of any view:
+\begingroup
+\small
+\setlength{\jot}{1pt}
+\begin{align*}
+ &\{10,2^5,4+2+2+2,4+4+2,6+2+2\},\\
+ &\{10,2^5,4+2+2+2,4+4+2,6+4\},\\
+ &\{10,2^5,4+2+2+2,4+4+2,8+2\},\\
+ &\{10,2^5,4+2+2+2,6+2+2,6+4\},\\
+ &\{10,2^5,4+2+2+2,6+2+2,8+2\},\\
+ &\{10,2^5,4+2+2+2,6+4,8+2\},\\
+ &\{10,2^5,4+4+2,6+2+2,8+2\},\\
+ &\{10,2^5,4+4+2,6+4,8+2\},\\
+ &\{10,2^5,6+2+2,6+4,8+2\},\\
+ &\{10,4+2+2+2,4+4+2,6+2+2,6+4\},\\
+ &\{10,4+2+2+2,4+4+2,6+2+2,8+2\},\\
+ &\{10,4+2+2+2,4+4+2,6+4,8+2\},\\
+ &\{10,4+2+2+2,6+2+2,6+4,8+2\},\\
+ &\{10,4+4+2,6+2+2,6+4,8+2\},\\
+ &\{10,2^5,4+4+2,6+2+2,6+4\},\\
+ &\{2^5,4+2+2+2,4+4+2,6+2+2,6+4\},\\
+ &\{2^5,4+2+2+2,4+4+2,6+2+2,8+2\},\\
+ &\{2^5,4+2+2+2,4+4+2,6+4,8+2\},\\
+ &\{2^5,4+2+2+2,6+2+2,6+4,8+2\},\\
+ &\{2^5,4+4+2,6+2+2,6+4,8+2\},\\
+ &\{4+2+2+2,4+4+2,6+2+2,6+4,8+2\}.
+\end{align*}
+\endgroup
+Here $2^5$ abbreviates $2+2+2+2+2$.
+\end{computationaltheorem}
+
+The lower bound combines complete exclusions of every exact palette of size
+at most four.  Each of the twenty-one additional exclusions uses a complete
+root-orbit cover, a fully audited compatibility graph, reduced and
+unreduced searches, and an independent clique check.  Several compatibility
+graphs contain Latin completions: f18 and f19 each have $1920$, f20 has
+$23040$, including $19200$ with the exact f20 row palette, f21 has $1920$
+with no exact f21 row palette, and f02 has $101760$, including $99840$ with
+the exact f02 row palette, while f07 has $1920$ with no exact f07 row palette.
+The f03 graph has $768$ cliques, split as $384$ FFT and $384$ FTF, with no
+exact f03 row palette; the f04 graph has no bucket-transversal $8$-clique.
+The f05 graph has $8832$ exact-f05 tables, split as $3840$ FTT, $2496$ FTF,
+and $2496$ FFT.  The f11 graph has $384$ exact-f11 tables, all with pattern
+FTT.  The f06 graph has $2880$ candidate tables, none with the exact f06 row
+palette, split as $1152$ FTT, $864$ FTF, and $864$ FFT.  The f12 graph has
+$1920$ candidate tables, of which $1152$ have the exact f12 row palette; in
+aggregate all $1920$ candidates split as $1152$ FTT, $384$ FTF, and $384$ FFT.
+The f08 graph has $21120$ candidate tables, none with the exact f08 row
+palette; all $21120$ candidates split as $7680$ FTT, $6720$ FTF, and $6720$ FFT. The f13
+graph has $17280$ candidate tables, of which $13632$ have the exact f13 row
+palette; all $17280$ candidates split as $9600$ FTT, $3840$ FTF, and $3840$ FFT. Direct
+three-view validation, not pairwise compatibility alone, excludes FFF.  The
+f14 graph has $21312$ candidate tables, of which $18432$ have the exact f14
+row palette; all $21312$ candidates split as $13056$ FTT, $4128$ FTF, and $4128$ FFT, with zero
+FFF.  The f09 graph has $23040$ candidate tables, of which $21120$ have the
+exact f09 row palette; all $23040$ candidates split equally as $7680$ FTT, $7680$ FTF, and
+$7680$ FFT, with zero FFF.  The f10 graph has $55680$ candidate tables, of
+which $34560$ have the exact f10 row palette; all $55680$ candidates split as $26880$ FTT,
+$14400$ FTF, and $14400$ FFT, with zero FFF.  Only f15 among the exact
+five-type palettes remained at that stage. The f15 graph has $32896$
+candidate tables, including $13504$ with the exact f15 row palette; all
+$32896$ candidates split as $6208$ FTT, $13344$ FTF, and $13344$ FFT, with zero FFF. Thus every
+exact five-type palette is excluded.
+
+The remaining palettes reduce to two disjoint normalized master families.
+If the involution type $2^5$ occurs, one such line pair can be normalized and
+the master permits all seven types.  This covers the six exact six-type
+palettes containing $2^5$ and the exact seven-type palette.  If $2^5$ does not
+occur, the lower bound in Computational
+Theorem~\ref{cthm:order10-palettes} forces the unique six-type palette
+\[
+ \{10,4+2+2+2,4+4+2,6+2+2,6+4,8+2\},
+\]
+and an occurring $4+2+2+2$ pair is normalized instead.  Simultaneous
+conjugation preserves all three F conditions, and exact residual-group orbit
+covers reduce the two searches from $18300$ and $23760$ root tasks to $386$
+and $506$ representatives.
+
+\begin{computationaltheorem}[Nonexistence at order $10$]
+\label{cthm:order10-nonexistence}
+There is no FFF Latin square of order $10$.
+\end{computationaltheorem}
+
+For the noninvolution master, a complete semantic audit checks all
+$14855277528$ unordered pairs among $172368$ candidates and reconstructs
+$1650487056$ graph edges with zero errors.  Two complete decompositions of
+the $386$ orbit representatives agree exactly at $2514104197$ search nodes
+and $1769153203$ cross-view prunes, with no FFF completion.  For the
+involution/all-seven master, the corresponding figures are $190080$
+candidates, $18065108160$ audited pairs, $2050329600$ edges, $506$ orbit
+representatives, $5001728282$ nodes, and $3586770865$ prunes, again with no
+FFF completion.  The orbit identities cover every root task, and both package
+validators and fail-closed mutation audits pass.  The two decompositions in
+each package use the same frozen search binary and control slicing and merge
+determinism; independent model checks are supplied by separate inventory
+implementations, complete graph auditors, orbit reconstruction, and positive
+order-$8$ controls.
+
+By the lower bound, every hypothetical FFF view lies in exactly one of these
+two masters.  Their complete exclusion proves the theorem.  This establishes
+nonexistence at order $10$ independently of the false global assertion in
+Remark~\ref{rem:former-power-two}.
+
+\paragraph{Completeness bridge.}
+The two-master reduction fixes the identity row and a canonical second row
+$\rho$: an involution of type $2^5$, or a permutation of type $4+2+2+2$.
+Every further row is a permutation of ten symbols.  The candidate list
+enumerates all such permutations, retaining exactly those whose relative
+row types lie in the master palette and whose three-row partial table has
+no already closed odd column or symbol cycle.  Candidate vertices are
+adjacent exactly when their relative row type is allowed and their joint
+four-row partial table passes the same cross-view check.  The eight parts
+are the possible first-column images $2,\ldots,9$.  A completion therefore
+selects one candidate from each part, with pairwise graph compatibility.
+
+Write $q_r(c)=L(r,c)$ for the permutation of row $r$.  For columns $c\ne d$,
+each chosen row contributes the partial map on symbols
+$L(r,c)\mapsto L(r,d)$.  For symbols $u\ne v$, it contributes the
+partial map on columns $q_r^{-1}(u)\mapsto q_r^{-1}(v)$.  Latin compatibility
+makes every such partial map injective.  A closed odd cycle already present
+in one map cannot be broken by adding rows: all its incoming and outgoing
+edges are fixed.  Rejecting it is consequently sound.  At completion, the
+column maps are conjugate to the usual two-column permutations and the
+symbol maps are the usual two-symbol permutations, so these tests are exact.
+
+The search branches over every remaining candidate in a selected part and
+intersects the remaining parts with its graph neighbours.  An empty part
+or a closed odd cross-view cycle cannot contain a completion.  Induction on
+the number of unfilled parts shows that all other transversal choices are
+visited.  At depth eight, the two fixed rows and eight selected rows form
+a Latin square, with every row, column and symbol test enforced.  Finally,
+the recorded residual conjugation actions preserve these tests and the
+chosen root part; their complete orbit covers account for every initial
+task.  This establishes the mathematical reduction from full FFF to the
+recorded exhaustive searches.  Executable correctness and completed coverage
+remain computational evidence obligations, not consequences of the
+candidate counts alone.

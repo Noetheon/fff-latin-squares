@@ -1,0 +1,346 @@
+\section{Row-fibred extensions and represented main classes}
+\label{sec:fibred-growth}
+
+The following construction allows the inner operation to depend on an
+outer row. Related index-two constructions already occur in the loop
+literature, for example Johnson's dihedral extension
+\cite{Johnson2006Ward}. No priority claim for the construction, its FFF
+consequences, or the bounds below is made here.
+
+\subsection{An exact three-view pattern formula}
+
+Let $B:Y\times Y\to Y$ be Latin and, for each $y\in Y$, let
+$Q_y:X\times X\to X$ be Latin. Define
+\begin{equation}
+ M((r,y),(c,z))=(Q_y(r,c),B(y,z)).
+ \label{eq:row-fibred}
+\end{equation}
+All sets are finite and nonempty. The fibre squares need not be isotopic.
+
+\begin{theorem}[Row-fibred pattern formula]
+\label{thm:row-fibred-pattern}
+The table $M$ is Latin, and in the three named views
+\[
+ \pat(M)=\pat(B)\mathbin{\mathrm{OR}}
+                  \bigvee_{y\in Y}\pat(Q_y).
+\]
+In particular, $M$ is FFF if and only if $B$ and every $Q_y$ are FFF.
+\end{theorem}
+
+\begin{proof}
+In a fixed row, both coordinate maps in \eqref{eq:row-fibred} are
+bijections. In a fixed column, the second output determines $y$ and
+then the first determines $r$, proving the Latin property.
+
+For rows $(r,y),(r',y')$ with $y=y'$, the induced permutation fixes
+the outer column $z$ and restricts on each such layer to the corresponding
+row-pair permutation of $Q_y$. With $y\ne y'$, it projects to the
+row-pair permutation of $B$ on outer columns. For columns $(c,z),(c',z')$
+with $z=z'$, the analogous permutation fixes $y$ and restricts to a
+column-pair permutation of $Q_y$; with $z\ne z'$ it projects to the
+column-pair permutation of $B$. For symbols $(s,t),(s',t')$ with
+$t=t'$, the outer column $z$ is fixed, and the outer row is the unique
+$y$ such that $B(y,z)=t$. The induced map on inner columns is the
+symbol-pair permutation of $Q_y$. Every $y$ occurs for one $z$.
+With $t\ne t'$, the outer columns instead follow the symbol-pair
+permutation of $B$.
+
+Every fibre witness therefore embeds in the same view of $M$. In every
+cross-layer case an upstairs cycle has length divisible by its projected
+cycle length. Thus, if both the quotient and all fibres are F in that
+view, no odd cycle is possible upstairs. To finish the equality, a
+quotient odd cycle must be lifted without increasing its length by an
+even factor. This requires a choice of inner coordinates.
+
+For quotient rows $y,y'$, fix an inner column $c$ and an inner row $r$.
+Choose $r'$ uniquely so that $Q_y(r,c)=Q_{y'}(r',c)$. The induced
+upstairs row-pair map fixes $c$, so every quotient cycle lifts with
+its original length. For quotient columns $z,z'$, choose upstairs
+columns with a common inner column $c$ and fix an inner symbol $s$.
+At each outer row $y$ on the cycle, choose $r_y$ by $Q_y(r_y,c)=s$.
+The induced map carries $(r_y,y)$ around precisely the quotient
+cycle. Finally, for quotient symbols $t,t'$, take a common inner
+symbol $s$ and an inner column $c$. The symbol-pair map keeps $c$
+fixed and follows the quotient symbol cycle on $z$: in the relevant
+row $y$, the inner row is determined by $Q_y(r,c)=s$. Hence the
+quotient odd cycle survives in this view as well.
+\end{proof}
+
+For $|X|,|Y|>1$, the construction cannot produce FFF of order $18$:
+one factor of every such factorization of $18$ is odd and greater
+than one. The order-one square is vacuously FFF and is not an odd-order
+obstruction.
+
+\subsection{Cycle spectra and the order-20 input}
+
+For an unordered pair of distinct lines in a view, sort its cycle lengths
+as a partition $\lambda$. Let $\Sigma_L(\lambda)$ count all such pairs,
+summed over the three views. Isotopy conjugates or inverts pair
+permutations; parastrophy also permutes the views. Thus $\Sigma_L$ is a
+main-class invariant. Sorting each partition before comparison is essential.
+
+\begin{proposition}[Product spectra and intercalates]
+\label{prop:product-spectrum}
+Let $I(L)$ denote the number of intercalates in a Latin square of order
+$n$, and let $K$ have order $m$. Then
+\[
+ I(L\times K)=m^2I(L)+n^2I(K)+4I(L)I(K).
+\]
+If $L$ is FFF, and $D$ duplicates each part of a partition, then
+\begin{equation}
+ \Sigma_{L\times C_2}=4D_*\Sigma_L+3n[2^n].
+ \label{eq:c2-spectrum}
+\end{equation}
+In particular, distinct spectra remain distinct after any number of
+products with $C_2$.
+\end{proposition}
+
+\begin{proof}
+A two-cycle in a row-pair permutation is one intercalate. If product
+rows differ only in the $L$ coordinate, the common $K$ row has $m$
+choices and each two-cycle has $m$ copies, giving $m^2I(L)$.
+The other one-coordinate case gives $n^2I(K)$. If both coordinates
+differ, a pair of factor two-cycles has two alignments of the product
+rows, each producing two two-cycles, giving the last term. Distinct
+Latin lines have no fixed points, so there are no other ways to
+produce a two-cycle.
+
+For \eqref{eq:c2-spectrum}, in each view the $n$ product-line pairs
+with equal $L$ coordinate have type $2^n$. Each unordered distinct
+$L$ line pair has four product-line pairs. A cycle of length $a$
+times a cycle of length $b$ has $\gcd(a,b)$ cycles of length
+$\operatorname{lcm}(a,b)$. Since every $L$ part is even, both
+multiplication by the identity on two points and by its transposition
+duplicate every part. Summing the three views proves the formula.
+The map $D$ is injective on partitions, so its pushforward is injective.
+\end{proof}
+
+\begin{computationaltheorem}[Frozen order-20 family]
+\label{cthm:fff20-514}
+One specified cycle-union trade family of an FFF Steiner-loop table of
+order $20$ represents exactly $512$ main classes within that family.
+Two separately specified quadratic tables represent further classes.
+Consequently at least $514$ FFF main classes of order $20$ exist.
+\end{computationaltheorem}
+
+The finite evidence enumerates all $2^{10}=1024$ masks of the ten
+transpositions in one row pair. Every resulting table is Latin and FFF
+under two independent physical three-view scanners. Exactly $512$
+sorted spectra occur, each at complementary masks. Complementing a
+mask swaps the two rows globally, so it supplies the upper bound of
+$512$ classes as well as the invariant's lower bound. The two quadratic
+controls have distinct spectra outside that family; their intercalate
+counts are $190$ and $19$, whereas the trade-family counts range from
+$542$ to $676$. These are exact table comparisons, not a census of
+all order-$20$ squares. Equation~\eqref{eq:c2-spectrum} alone propagates
+the lower bound $514$ to orders $20\cdot2^d$.
+
+\subsection{Recovering quotient layers}
+
+A \emph{binary three-sorted quotient} of $Q$ is a triple of surjective
+maps $a,b,d$ from its row, column and symbol sets to $\mathbb F_2$
+satisfying $d(Q(r,c))=a(r)+b(c)$. The independent labelling of the
+three sorts is part of the definition. The corresponding partitions,
+not their chosen bit labels, are intrinsic.
+
+\begin{lemma}[Binary quotient descent]
+\label{lem:binary-descent}
+Suppose no $Q_y$ in \eqref{eq:row-fibred} has a binary three-sorted
+quotient. Every such quotient of $M$ is constant on each inner layer
+and descends to a binary quotient of $B$; conversely, each binary
+quotient of $B$ pulls back to one of $M$.
+\end{lemma}
+
+\begin{proof}
+First, any three binary maps satisfying $d(Q(r,c))=a(r)+b(c)$
+are either all constant or all surjective. If $a$ is constant,
+fixing $c$ and varying $r$ shows that $d$ is constant, and then
+$b$ is constant. The argument with $a,b$ exchanged is the same;
+if $d$ is constant, varying either input shows both others constant.
+
+Restrict a quotient triple of $M$ to the block of rows at $y$,
+columns at $z$, and symbols at $B(y,z)$. It satisfies this equation
+on $Q_y$. Quotient freeness makes all three restrictions constant.
+Running over $y,z$ makes the full maps constant on every inner
+layer, and their constants satisfy the quotient equation on $B$.
+Surjectivity is preserved by descending or pulling back.
+\end{proof}
+
+For $B=E=(\mathbb F_2)^d$, every binary quotient has the form
+\[
+ a(y)=\chi(y)+a(0),\quad b(z)=\chi(z)+b(0),\quad
+ d(t)=\chi(t)+a(0)+b(0),
+\]
+where $\chi:E\to\mathbb F_2$ is a nonzero linear character. This follows
+by evaluating the quotient equation at $(y,0)$ and $(0,z)$ and
+subtracting the constants. All $2^d-1$ characters separate points
+of $E$. Their common refinement therefore recovers each inner
+layer intrinsically, in all three sorts.
+
+\begin{theorem}[Affine-orbit classification of a fixed family]
+\label{thm:affine-fibre-orbits}
+Fix representatives $Q_1,\ldots,Q_m$ of pairwise distinct main
+classes of order $n$, none admitting a binary three-sorted quotient.
+For each function $f:E\to\{1,\ldots,m\}$ define
+\[
+ M_f((r,y),(c,z))=(Q_{f(y)}(r,c),y+z).
+\]
+Two members $M_f,M_g$ are main-class-equivalent if and only if
+$g(Ay+u)=f(y)$ for some $A\in\operatorname{GL}(d,2)$ and $u\in E$.
+\end{theorem}
+
+\begin{proof}
+By Lemma~\ref{lem:binary-descent}, every main-class equivalence
+preserves the intrinsic layers, up to a permutation of their three
+sorts, and induces a paratopism of the outer table of $E$. Its
+blocks are colored by the main classes $[Q_{f(y)}]$. A nonconstant
+coloring is constant along an outer row but not along an outer
+column or symbol line. Thus a paratopism between nonconstant members
+must carry the source row sort to the target row sort. A constant
+coloring can match only the same constant coloring, since the input
+main classes are distinct.
+
+Every paratopism of $y+z=t$ acts affinely on each sort with a
+common invertible linear part. Indeed, permuting its three coordinates
+preserves this relation in characteristic two. After undoing that
+permutation, write $\gamma(y+z)=\alpha(y)+\beta(z)$. Setting
+$u=\alpha(0)$, $v=\beta(0)$ gives
+$\alpha(y)=Ay+u$, $\beta(z)=Az+v$ and
+$\gamma(t)=At+u+v$, with $A$ additive and bijective.
+The transported block colors now give $g(Ay+u)=f(y)$.
+
+Conversely, this equality makes the three maps
+\[
+ (r,y)\mapsto(r,Ay+u),\quad(c,z)\mapsto(c,Az+v),\quad
+ (s,t)\mapsto(s,At+u+v)
+\]
+an explicit isotopism for any $v\in E$. The fixed choice of the
+representatives is used in this sufficiency argument.
+\end{proof}
+
+\begin{corollary}[Constructed class counts]
+\label{cor:affine-class-count}
+Let $c(h)$ be the number of cycles of $h$ on $E$. The fixed family
+in Theorem~\ref{thm:affine-fibre-orbits} represents exactly
+\begin{equation}
+ T_d(m)=\frac{1}{|\operatorname{AGL}(d,2)|}
+          \sum_{h\in\operatorname{AGL}(d,2)}m^{c(h)},\qquad
+ |\operatorname{AGL}(d,2)|=2^d\prod_{i=0}^{d-1}(2^d-2^i)
+ \label{eq:burnside-fibres}
+\end{equation}
+main classes. If the inputs are FFF, these are FFF classes and hence
+give a lower bound for the total at order $n2^d$. A weaker bound is
+$\binom{m+2^d-1}{2^d}$, obtained by distinguishing input multisets.
+\end{corollary}
+
+\begin{proof}
+Burnside's lemma counts colorings fixed by each affine permutation:
+they are precisely the colorings constant on its cycles, numbering
+$m^{c(h)}$. Affine orbits refine the input multisets. The FFF
+assertion follows from Theorem~\ref{thm:row-fibred-pattern}.
+\end{proof}
+
+\begin{lemma}[A direct certificate for binary quotient freeness]
+\label{lem:binary-rank-certificate}
+For an order-$n$ Latin square $Q$, let $A_Q$ be its $3n$ by $n^2$
+line--cell incidence matrix: the column for $(r,c)$ has ones on row line
+$r$, column line $c$, and symbol line $Q(r,c)$, and zeros elsewhere.
+Then $Q$ has no binary three-sorted quotient if and only if
+$\operatorname{rank}_{\mathbb F_2} A_Q=3n-2$.
+A nonsingular $(3n-2)$-square minor certifies this equality.
+\end{lemma}
+
+\begin{proof}
+The two independent line vectors $(\mathbf1,\mathbf1,\mathbf0)$ and
+$(\mathbf1,\mathbf0,\mathbf1)$ lie in $\ker(A_Q^T)$, so the rank is
+at most $3n-2$. Their span consists exactly of the constant triples
+$(a,b,d)=(\alpha,\beta,\alpha+\beta)$.
+The kernel equation for any triple of binary line maps is
+$a(r)+b(c)+d(Q(r,c))=0$ for every cell. As in the proof of
+Lemma~\ref{lem:binary-descent}, any nonconstant solution has all three
+maps surjective: if one were constant, fixing one input and using the
+Latin bijections would force the other two to be constant as well.
+Thus an additional kernel vector is exactly a binary quotient.
+Rank--nullity proves the equivalence. A nonsingular minor supplies the
+matching lower bound on the rank.
+\end{proof}
+
+\begin{computationaltheorem}[Specialization from order 20]
+\label{cthm:dyadic-fff20-bound}
+Direct $58$ by $58$ binary minors certify quotient freeness for all
+$1024$ trade-mask tables and the two quadratic controls of Computational
+Theorem~\ref{cthm:fff20-514}. In particular, its $514$ input main classes
+are binary-quotient-free. Therefore
+there are at least $T_d(514)$ FFF main classes of order $20\cdot2^d$.
+These earlier certified bounds remain valid. The first four values are:
+\begin{center}
+\begin{tabular}{rr}
+\toprule
+Order & Proven lower bound, not a census\\
+\midrule
+$40$ & $132355$\\
+$80$ & $2942384005$\\
+$160$ & $3625556867870760586$\\
+$320$ & $73586711420426563009097417622853741216$\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{computationaltheorem}
+
+\begin{proof}
+The certificates use all $20$ row lines, the first $19$ column lines,
+and the first $19$ symbol lines, with $58$ specified cell columns for
+each table. A separate binary elimination checks each minor and its
+binding to the exact table. All $1026$ minors are nonsingular.
+Lemma~\ref{lem:binary-rank-certificate} therefore proves quotient
+freeness for these inputs. Theorem~\ref{thm:affine-fibre-orbits} and
+Equation~\eqref{eq:burnside-fibres} give the construction count;
+exact affine-group enumeration through dimension four gives the displayed
+integers. No physical enumeration of that many output squares is asserted.
+\end{proof}
+
+This certificate argument concerns the specified input family, not every
+order-$20$ FFF square. It removes C157 from these particular class bounds,
+not from order-$10$ nonexistence or $h(5)=2$. The stronger statement that
+\emph{every} FFF square of order $20$ is binary-quotient-free would still
+use C157: a binary quotient has balanced fibres of size $10$ and hence
+an FFF subsquare of order $10$, which C157 excludes.
+
+Two checked order-$160$ outputs even have the same input multiset
+and the same sorted cycle spectrum, but their four-point color sets
+are an affine plane and an affine tetrahedron. Their affine spans
+have different dimensions, so Theorem~\ref{thm:affine-fibre-orbits}
+separates their main classes. This demonstrates a limitation of
+the spectrum invariant, not its completeness.
+
+The count is exact only within the fixed family. It does not
+classify all higher-order FFF squares, justify arbitrary
+direct-product cancellation, or identify all extensions obtained
+by changing the chosen representatives within their main classes.
+The binary-quotient-free hypothesis must be checked on the inputs;
+it cannot be iterated blindly on outputs that already have binary quotients.
+Computational Theorem~\ref{cthm:fff20-1703} below supplies a larger
+independently rank-checked input family and strengthens the lower bound
+to $T_d(1703)$; the displayed historical $T_d(514)$ values are not
+claimed to be the strongest current bounds.
+
+For clarity, evaluating the same formula on the $1703$ certified inputs
+gives the following stronger bounds. A fresh enumeration of the affine
+groups through dimension four checks the integer evaluations; the
+construction theorem, not a scan of all output squares, supplies their
+interpretation as lower bounds on distinct main classes.
+\begin{center}
+\small
+\begin{tabular}{r r}
+\toprule
+Order $20\cdot 2^d$ & Current lower bound $T_d(1703)$\\
+\midrule
+$40$ & $1450956$\\
+$80$ & $351703270490$\\
+$160$ & $52641008907323966249185$\\
+$320$ & $15517575138479887787890371386037048688772562656$\\
+\bottomrule
+\end{tabular}
+\end{center}
+These remain family-based lower bounds, not higher-order censuses or a
+claim that all possible product and extension constructions are distinct.

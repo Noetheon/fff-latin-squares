@@ -39,6 +39,25 @@ no count, spectrum, certificate, pattern or status is normalized away.
 The audit does not call external solvers or access the network. It is not a proof
 assistant or a complete order spectrum. Its source and input hashes are public.
 
+## Hardened external audit derivative
+
+The [audit derivative](verification/audits/2026-09-28_dossier_hardened/README.md)
+ships the reviewed Python/C++ sources, compact inputs, original output references,
+and an exact source manifest. It needs a C++17 `g++` driver in addition to Python:
+
+```sh
+python3 -B verification/audits/2026-09-28_dossier_hardened/scripts/reproduce_all.py \
+  --work-dir .audit/dossier-audit-rerun
+```
+
+This command verifies hashes, rejects optimized Python, and performs eleven
+steps followed by 24 explicit comparisons. Runtime exclusions are individually
+listed in its report. It freshly enumerates all 22,528 masks of the fixed trade
+family and checks 1,703 physical tables/minors. It is separate from the earlier
+public implementation, but not a human referee or a full order-10 master search.
+The default test suite additionally injects both C++ error paths if `g++` is
+available; otherwise those compiler-dependent controls are explicitly skipped.
+
 ## Bounded exact finite rerun
 
 The census is obtained directly from the cited provider, not redistributed here.
@@ -65,7 +84,7 @@ Some write into their run folders. Do not run them in place on frozen evidence.
 ## PDFs
 
 The current build uses only the dated
-[28 September sources](manuscript/candidates/2026-09-28_research_review/README.md).
+[28 September corrected sources](manuscript/candidates/2026-09-28_audit_corrections/README.md).
 The original `manuscript/main.tex` and `main_core.tex` are historical September
 sources, not the entry points for the current PDFs. Do not rebuild them and
 label their open-C38 narrative current.
@@ -94,9 +113,10 @@ mathematical strings such as cycle types and permutations are not translated.
 
 `PUBLIC_PROJECTION.json` records source-file and public-file hashes and whether
 bytes agree for the initial export. `PUBLIC_SNAPSHOT_2026-09-28.json` records the
-current edition separately; the 27 September receipt, including its superseded
-PDF aliases, is historical. No historical digest is silently replaced.
-They contain file digests, not previous Git commits. Historical output
+frozen C271 edition. `PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json` names its public
+base commit, unchanged scientific cutoff, new source hashes and the exact old/new
+digests of the two PDF aliases. Earlier receipts remain unchanged. No historical
+digest is silently replaced and no private development history is imported. Historical output
 records can refer to omitted dependencies or historical hashes. The authoritative
 manifest for this release is `PUBLIC_MANIFEST.sha256`, not an old embedded digest.
 The manifest intentionally excludes itself and the `.git` / `.audit` directories.

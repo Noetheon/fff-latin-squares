@@ -42,6 +42,26 @@ class PublicReleaseTests(unittest.TestCase):
     def test_real_public_manifest(self):
         self.assertTrue(verify.verify(ROOT)["passed"])
 
+    def test_binary_artifacts_fail_without_decode_crash(self):
+        for name, data in ((".DS_Store", b"\xff\x00"), ("unknown.data", b"\xff"),
+                           ("nul.txt", b"abc\x00def"), ("checker.bin", b"\xff")):
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                (root / name).write_bytes(data)
+                (root / "PUBLIC_MANIFEST.sha256").write_text(
+                    f"{hashlib.sha256(data).hexdigest()}  {name}\n")
+                result = verify.verify(root)
+                self.assertFalse(result["passed"])
+                self.assertTrue(any(name in failure for failure in result["failures"]))
+
+    def test_binary_rejection_does_not_hide_secret_markers(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "note.txt").write_text("ghp_" + "X" * 24)
+            (root / "PUBLIC_MANIFEST.sha256").write_text(
+                f"{verify.sha(root / 'note.txt')}  note.txt\n")
+            self.assertIn("Secret marker: note.txt", verify.verify(root)["failures"])
+
     def test_pdf_author_check_does_not_cross_a_line_boundary(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

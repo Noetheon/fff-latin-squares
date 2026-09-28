@@ -1,0 +1,11 @@
+{
+  "tables": 1703,
+  "all_latin_fff": true,
+  "independent_exact_spectra": 1703,
+  "all_minors_nonsingular": true,
+  "intercalates_min": 1,
+  "intercalates_max": 676,
+  "line_pairs_checked": 970710,
+  "bipartite_edges_processed": 38828400,
+  "seconds": 14.33723863299997
+}

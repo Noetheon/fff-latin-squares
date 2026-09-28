@@ -1,0 +1,398 @@
+{
+  "edition": "2026-09-28 audit-corrected C271 successor",
+  "public_base_commit": "313c5d3192da57c8df08f1dfc532274639775cbe",
+  "scientific_intake_utc": "2026-09-28T10:24:49Z",
+  "last_in_scope_claim": "C271",
+  "previous_receipt": "PUBLIC_SNAPSHOT_2026-09-28.json",
+  "previous_receipt_sha256": "e683dfa880b5d02437d231c9e8ccceb04bb5805bfb1270dcee43bb42aefb4b2e",
+  "unchanged_historical_payload_count": 196,
+  "superseded_aliases": [
+    {
+      "path": "papers/FFF_Long_Research_Dossier.pdf",
+      "previous_sha256": "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868",
+      "public_sha256": "dbd905c73f55d5523956821e3809ad12cb5af5db601216433c1945e2ecc6e459",
+      "reason": "Reviewed audit-corrected PDF alias; historical digest remains intact"
+    },
+    {
+      "path": "papers/FFF_Compact_Research_Dossier.pdf",
+      "previous_sha256": "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366",
+      "public_sha256": "e8e2c8a2b53199781347e77ba3cb50a84ee3582d017fea1b6981bdc935d4eee3",
+      "reason": "Reviewed audit-corrected PDF alias; historical digest remains intact"
+    }
+  ],
+  "files": [
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/README.md",
+      "sha256": "83bbefe5cde90c57b67a1984b7829c943dc7b4176cee326620223717643a0f7b"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/main.tex",
+      "sha256": "f18e8e0afb5c81c470d1ab0c927e917464395e9d1d97acb6f91bc56eaefac289"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/main_core.tex",
+      "sha256": "0bce8ca29456cd1ab844e82bdcd84f8257118c7e8b6f56a66a32e8f48382b760"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/paper_setup.tex",
+      "sha256": "b87b9f93cbf38a43aea994a5a4708c2143633237282a14043636f0c35a54ab4b"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/references.bib",
+      "sha256": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/references_nonpower.bib",
+      "sha256": "fb2c87462fad40c01379c079860731884b9979b7b76bfcb48ce2d625a26445ad"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/00_abstract.tex",
+      "sha256": "df883ed32bcc4e7d70ad388db016d83189c167883ad3f4c9d390e65bb0bd177c"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/00_status_note.tex",
+      "sha256": "536b226e523a08aa0969c32dc52d5c39c90961b370c8b006d6a786f920e322c0"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/01_introduction.tex",
+      "sha256": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/01_introduction_core.tex",
+      "sha256": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/02_definitions.tex",
+      "sha256": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/02_flag_surface.tex",
+      "sha256": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/03_structural_results.tex",
+      "sha256": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/04_congruence_obstructions.tex",
+      "sha256": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/04_cycle_parity.tex",
+      "sha256": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/04_direct_products.tex",
+      "sha256": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/04_odd_subset_lifts.tex",
+      "sha256": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/04_primitive_degree10.tex",
+      "sha256": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/05_computational_core.tex",
+      "sha256": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/05_computational_results.tex",
+      "sha256": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/06_reproducibility.tex",
+      "sha256": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/06_reproducibility_core.tex",
+      "sha256": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/06_snapshot_evidence.tex",
+      "sha256": "1c8d451ea7c2dd144441d7d133ddf25c7588dda1fb054ff14d804e3ac893b672"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/07_open_problems.tex",
+      "sha256": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/07_open_problems_core.tex",
+      "sha256": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/07_order10_exclusion.tex",
+      "sha256": "7dc08e68dd500807cd9e6e02768226b481252406a8ab70d068b314ff1fcec197"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/08_nonpower_fff.tex",
+      "sha256": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/09_affine_prime_successors.tex",
+      "sha256": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/09_prime_square_norm_lift.tex",
+      "sha256": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/10_fibred_class_growth.tex",
+      "sha256": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/11_exact_encoding.tex",
+      "sha256": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/12_order18_scope.tex",
+      "sha256": "138e306e10d6d907470557ed54bec6dadaec185504846f59c7e704995131726a"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/13_block_returns_and_crt.tex",
+      "sha256": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/14_affine_corner_trade.tex",
+      "sha256": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6"
+    },
+    {
+      "path": "manuscript/candidates/2026-09-28_audit_corrections/sections/15_current_search_boundaries.tex",
+      "sha256": "c42233b13e440c290f46aa19272f16cc92dfa236b50cb830f1eaf0e358bef3d6"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/DERIVATION.json",
+      "sha256": "4d340bb403ac5fe4c06e809f14dcaf5f59c66cc856cf7ccd8beef5eea950ff8a"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/README.md",
+      "sha256": "236687395e3d5fc7a164b2e941fbe072b40191248ae06b68fd19f70ce8aaad56"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/SOURCE_MANIFEST.sha256",
+      "sha256": "793601b7d610d5246ad8106cbd93853aeac91fda2af0b8edac44de97634ceacc"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/VALIDATION.json",
+      "sha256": "0c48f9efd99d9cef9b62d08dcd61f8953d6d2c8e757258ca5db2683b24bd3839"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/inputs/order8_230.txt",
+      "sha256": "35e42b159de963250de48030f95d2f617b2d484886c272eaea6e0c50754553fc"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/burnside_trade_checks.py",
+      "sha256": "abbdce8075f50b19359317c61b26cc2de53272e2ae3fd2491a4335ff43fa5361"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/check_report_values.py",
+      "sha256": "cfa3fd6981d4a66a0b4607b6b17822525369beb2396d41df3faa016281886c84"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/core_checks.py",
+      "sha256": "43623b4f7c4ce392bf9cc5a8d8536b63ddbbcb1211d46ee35325f2e461afe698"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/field_checks.py",
+      "sha256": "fa917d7a0d37a9beff5630389490217ecd182a55000f87f9a7f97c1827b5bd6b"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/flag_and_smallorder_checks.py",
+      "sha256": "75f3e26b9b03985e9a1e4125d9a5e4c25c42232a0b1cd30bd0cdaeb17035072c"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/formulation_scope_checks.py",
+      "sha256": "c0f7275b35d5802eead17141be0ba03620c9822d23144c2308cd65241b59149d"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/norm_and_witness_checks.py",
+      "sha256": "2af4cc99848e33eb495a86197f2f021a8d920ec4d043d5bab22d5549e7150dfd"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/order20_rank_certificates.py",
+      "sha256": "afd196a762e21e9cf73d6263e4c84028f646e84f804a36f920b8befb8c7c79f5"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/code/order8_subset_checks.py",
+      "sha256": "d3b2c4b43f6d031bf5d6e685fc9bb2e8b0c462f8f71b2ae10ddf52f56bafac74"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/exchange_parity.cpp",
+      "sha256": "87173a349fe3e23c200fe60ff7bccd81f2da6fcc31ca45e3ab5c9c6e188148a7"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/exhaustive_trade_parity.cpp",
+      "sha256": "c95409fd0a7ac20aaa77442a01b382d8ac57b0dce149bcb27d75c062e59d15a9"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/independent_master_inventory_audit.cpp",
+      "sha256": "212556500f48779524ac66956c6ca7433d1964caa925800ff64e0c9070f2b9f7"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/FFF36_seed60322.csv",
+      "sha256": "3755fd977705b80a398b60844d1574035cbf10222268af8013becee22d0f76df"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/FFF36_seed60324.csv",
+      "sha256": "4068ef5369f537980272ca63ef88e18d27eafa242b020c1bb984d74d1c70bfe5"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/L12_transcribed.json",
+      "sha256": "51a3be25d62c8752749b067dce9dd5052d652320b48a94d0f185deb54415d70c"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/Q19_2.json",
+      "sha256": "f969ca3b7cb32579829a7846736d6a01de9a8e183415f8bde4121f2792081e08"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/Q19_8.json",
+      "sha256": "173a924daf44df6a3771247882fb46a6b0cf75eea20f69d152b11b31f74a48de"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/STS19_loop_from_published_starters.json",
+      "sha256": "0f59d332e03c74c71309665f9c7128bc91206db0e71d760f6c9792387ed7e1c0"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/norm_p11_q1024_greedy_certificate.json",
+      "sha256": "327d3460272519fcabdaf90a6e216b7d65130d62f76203523afd8a6030cb9f52"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/inputs/order8_230_raw.json",
+      "sha256": "09b0c7851b0ff27596d9fcff166b188aa097463adeebca267dcb2b7c392cfafb"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/burnside.json",
+      "sha256": "7b67287273f5409577a5b62b09ec5407cad6b18f3e80f8b0ebb1f9ac9fdc364c"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/core_results.json",
+      "sha256": "0c0ed99c6297328b3e749db293279637a14c7771b1658391b25788c34f7d5aeb"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/formulation_scope.json",
+      "sha256": "9108794d05c826e1fb2194b9c7a4c00cbbb1d14a496b3a3e686fa16c3c50c5fe"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/norm_and_36.json",
+      "sha256": "88396fb419b3bbaeb4de386d403de95927fb0d291b53a393f9aec255168197fb"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/order20_rank_certificates.json",
+      "sha256": "f177ee64cdc6f8b867493fe0af7807a66d22579a540d405903438df0a60b8a31"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/order8_230_checks.json",
+      "sha256": "fcaaf2308c6b3fe479a75182a8f74ce8ab8ec474632bcd2dccf2ee6616f6463c"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/report_value_checks.json",
+      "sha256": "b39c191c1a919f02dc350063a85e62fdd47a78bac584ffe8c9a627672f9ac610"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/smallorders_and_flags.json",
+      "sha256": "8d42d377070950a9e31174bf71e40b09e833329dd6b5eb357a63de05c2550e8a"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/threepoint_checks.json",
+      "sha256": "1527e25fd146fac39c4b7963f4376350620c9c6442ec1558bf7315592e68b4b9"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/results/trade_19_0.json",
+      "sha256": "2b5245d2ff03b9323b5c2903c698c1f1473ec11ce4aecf580aeeea2fab9730b8"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/rerun/run_all.py",
+      "sha256": "d96d91a5c9c24e161cdd371121f4d2a4b69fc6a09a90043a782cf7762f233d01"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/additional_controls.json",
+      "sha256": "e4c3e8e8bac7332180a4795b1db763db713fae408aeb6a32dfd87bd3c91bd201"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/burnside_and_arithmetic.json",
+      "sha256": "77e3806986f73b83d8794265717ec70d896063fcccd68f0ccf1b4e3baa07072e"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/corner_parameters.csv",
+      "sha256": "38988ca28d5780ddf1082a06ca58663326f4eabd0e3f61ef98c0cf1b8f0fea16"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/crt_N15.json",
+      "sha256": "cc85622d9ab868f01b2231c3f28aaa33f1fd9fdb73287c0d142a048862effacf"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/crt_N45.json",
+      "sha256": "d4cf28f34685ee37f35250220424af6742eb0980c76b37109aca0417db5537e6"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/crt_N75.json",
+      "sha256": "6e58a918a8ebe25c0f4577ffa42e7836ee909689d3214d9fe306079eae654db8"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/crt_N9.json",
+      "sha256": "5066375cca4bdfb0797ba9dd2f4d3073881f22191aff02efd1627d64e50d21b9"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/exchange_parity.csv",
+      "sha256": "b88725b9e91dbe8058905d9533293f69ec47c2877ee34ac106673e16f7cd5b97"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/expanded_representatives.jsonl",
+      "sha256": "a64d2df3f5ec19acf504f1779b423e9216716dea85038df9e88ff2610df26272"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/expanded_summary.json",
+      "sha256": "d9cfec526be68fc750856d43f0d56f1049e4df627cd170adf2149dcb306bd7c2"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/master_inventory.txt",
+      "sha256": "5922cecad04e6a3738f801d4ba701148551532998aa654db36e0ef7ce51d8562"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/secondary_verification.json",
+      "sha256": "dda1c1b01a334502aa76baf7e3c10efdc864400e04ca313c76834f1661e7eb22"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/trade_parity.json",
+      "sha256": "5138e9cd0a646dc4b8fb6e29aeb0227dc613784f746517db2024af6e9e534c63"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/results/verified_certificates.json",
+      "sha256": "6afdc2c17eb3e0e1036e1c7ef5578d44402e607cf9cb9391fe2202e5d79961ac"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/additional_controls.py",
+      "sha256": "4698eac3d444979c33bcf107e511dc56e43995179a2b8b87efb62674b7b9f401"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/burnside_new.py",
+      "sha256": "c92a5c44d7bfc2202591e47ce4537aa528b9fc9242b6aecb160fa9e0ad8e57a3"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/compare_outputs.py",
+      "sha256": "e4dedea4e47669272838f61ff71fb9bb8b2418e82700ba1a7afdaf8ace2a2850"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/crt_independent.py",
+      "sha256": "0c67a3b283742504112f8c16523d56a827428a0c99dfed9ab2310c0b71c91665"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/expanded_and_corner.cpp",
+      "sha256": "37174ef5ef8dcebe58baa5c19227c5c709a015e65c45c826edb4c1208ab51b3e"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/reproduce_all.py",
+      "sha256": "dc95485bcf65a543bdba9ea1576727c245ddc9a1fa7f7a426b153268b51a388a"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/rerun_cpp.py",
+      "sha256": "44852c06738c068383128c6dfe641c144d8e4314870a6e0226f2bf55278888b6"
+    },
+    {
+      "path": "verification/audits/2026-09-28_dossier_hardened/scripts/verify_representatives.py",
+      "sha256": "1538e16486d9e574ffbb44d168d74a9fa63234e585099168737e8cdd2c75c2b5"
+    }
+  ],
+  "note": "Only two public PDF aliases supersede recorded bytes. Historical sources, evidence, and receipts are unchanged."
+}

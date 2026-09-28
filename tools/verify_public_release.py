@@ -52,8 +52,15 @@ def verify(root: Path, pdf_text: bool = False):
         actual[name] = sha(path)
         if path.suffix in BANNED_SUFFIXES or path.name == ".DS_Store":
             failures.append(f"Unexpected artifact: {name}")
+            continue
         if path.suffix not in {".pdf", ".png"}:
-            text = path.read_text(encoding="utf-8")
+            try:
+                text = path.read_text(encoding="utf-8")
+            except UnicodeDecodeError:
+                failures.append(f"Unexpected binary content: {name}")
+                continue
+            if "\x00" in text:
+                failures.append(f"Unexpected binary content: {name}")
             if SECRET.search(text):
                 failures.append(f"Secret marker: {name}")
         elif pdf_text and path.suffix == ".pdf":

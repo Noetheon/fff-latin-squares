@@ -1,2 +1,4 @@
 # Preserve the original evidence bytes, including CRLF line endings.
 manuscript/candidates/**/evidence/data/order14.csv -text whitespace=cr-at-eol
+# This frozen stdout reference deliberately ends its histogram rows with spaces.
+verification/audits/2026-09-28_dossier_hardened/results/master_inventory.txt -text whitespace=-blank-at-eol

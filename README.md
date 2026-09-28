@@ -11,19 +11,24 @@ length greater than one in any of the row, column and symbol views (FFF).
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
 - [Compact reading version (38-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
 - [Full technical record (80-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Current editable sources and bounded audit](manuscript/candidates/2026-09-28_research_review/README.md)
+- [Current editable sources and bounded audit](manuscript/candidates/2026-09-28_audit_corrections/README.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
 - [Reproducibility and export limitations](REPRODUCIBILITY.md)
 - [28 September release scope and checks](verification/RELEASE_2026-09-28.md)
+- [Audit corrections and fresh verification](verification/RELEASE_2026-09-28_CORRECTIONS.md)
 
 Read the disclosure at the beginning of either PDF before relying on its claims.
 The two versions overlap; they are not two independent studies.
 
-**Current edition: 28 September 2026, frozen at 10:24:49 UTC through C271.**
+**Current edition: audit-corrected 28 September 2026 successor; scientific
+intake remains frozen at 10:24:49 UTC through C271.**
 This is a public research snapshot for critical examination, not a peer-reviewed
 article. The earlier September edition is retained as history; its open-C38 and
 open-order-12 wording is superseded. Subsequent working results are outside this
 edition's reviewed scope.
+The correction adds a missing introductory hypothesis, makes the stronger
+existing family bounds explicit, and hardens the numerical audit against false
+passes. It does not introduce new research claims or human peer review.
 
 ## Start with one table
 
@@ -100,8 +105,9 @@ inherited development history or correspondence. Historical source/result paths
 are preserved where useful for traceability; selected machine-local strings are
 privacy-projected. `PUBLIC_PROJECTION.json` records byte-identical and projected
 files from the original export. `PUBLIC_SNAPSHOT_2026-09-28.json` separately
-records this edition's selected inputs, sources and privacy projections;
-the 27 September receipt is historical, including its superseded PDF aliases.
+records the frozen C271 inputs, sources and privacy projections.
+`PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json` records this successor and explicitly
+reconciles the two superseded PDF aliases; both preceding receipts remain intact.
 `PUBLIC_MANIFEST.sha256` hashes the actual public files. Historical hashes
 inside a report still identify historical bytes, not necessarily the projected
 file beside it. Do not use those historical hashes as the public manifest.

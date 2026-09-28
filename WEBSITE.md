@@ -5,14 +5,15 @@ English-language interface to the same research dossier. It works by opening
 `index.html` locally or through GitHub Pages, with no build step, JavaScript,
 third-party fonts, external scripts or analytics.
 
-## Paper Update: 27 September 2026
+## Paper Update: 28 September 2026
 
-The current PDFs and all four page previews use the C271 edition:
+The current PDFs and all four page previews use the audit-corrected C271 edition:
 38-page compact and 80-page full report. The site states that the former C38
 conjecture is disproved by the explicit order-12 witness and that unrestricted
 order 18 remains open. The 1703-class source bound is labelled a lower bound,
 not a census. The cutoff excludes later ongoing working results.
-See the [dated release review](verification/RELEASE_2026-09-28.md).
+See the [correction release review](verification/RELEASE_2026-09-28_CORRECTIONS.md)
+and the unchanged [preceding release review](verification/RELEASE_2026-09-28.md).
 
 The sections below retain the history of the earlier design changes. Their
 old conjecture wording describes the earlier edition, not current evidence.

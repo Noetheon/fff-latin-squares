@@ -1,0 +1,109 @@
+{
+  "scope": "Only the explicit assertions in this script; not a universal manuscript-correctness flag.",
+  "all_listed_comparisons_passed": true,
+  "order10_even_cycle_types": [
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      4
+    ],
+    [
+      2,
+      2,
+      6
+    ],
+    [
+      2,
+      4,
+      4
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      10
+    ]
+  ],
+  "five_type_palette_count": 21,
+  "cycle_parity_extra_type": [
+    2,
+    3,
+    5
+  ],
+  "palette_candidate_sums": {
+    "f03": [
+      768,
+      384,
+      384
+    ],
+    "f05": [
+      8832,
+      3840,
+      2496,
+      2496
+    ],
+    "f06": [
+      2880,
+      1152,
+      864,
+      864
+    ],
+    "f12": [
+      1920,
+      1152,
+      384,
+      384
+    ],
+    "f08": [
+      21120,
+      7680,
+      6720,
+      6720
+    ],
+    "f13": [
+      17280,
+      9600,
+      3840,
+      3840
+    ],
+    "f14": [
+      21312,
+      13056,
+      4128,
+      4128
+    ],
+    "f09": [
+      23040,
+      7680,
+      7680,
+      7680
+    ],
+    "f10": [
+      55680,
+      26880,
+      14400,
+      14400
+    ],
+    "f15": [
+      32896,
+      6208,
+      13344,
+      13344
+    ]
+  },
+  "corpus_size_without_order2": 9777,
+  "corpus_size_with_order2": 9778
+}

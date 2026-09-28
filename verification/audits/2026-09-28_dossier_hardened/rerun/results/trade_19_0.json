@@ -1,0 +1,58 @@
+{
+  "row_pair": [
+    19,
+    0
+  ],
+  "patterns": {
+    "FFF": 1024
+  },
+  "distinct_spectra": 512,
+  "spectrum_multiplicities": {
+    "2": 512
+  },
+  "all_collisions_complementary": true,
+  "intercalate_range": [
+    542,
+    676
+  ],
+  "binary_line_rank": {
+    "58": 1024
+  },
+  "affine_controls": [
+    {
+      "parameter": 2,
+      "pattern": "FFF",
+      "I": 190,
+      "outside_trade_spectra": true,
+      "binary_rank": 58
+    },
+    {
+      "parameter": 8,
+      "pattern": "FFF",
+      "I": 19,
+      "outside_trade_spectra": true,
+      "binary_rank": 58
+    },
+    {
+      "parameter": 10,
+      "pattern": "FFF",
+      "I": 190,
+      "outside_trade_spectra": true,
+      "binary_rank": 58
+    },
+    {
+      "parameter": 12,
+      "pattern": "FFF",
+      "I": 19,
+      "outside_trade_spectra": true,
+      "binary_rank": 58
+    },
+    {
+      "parameter": 18,
+      "pattern": "FFF",
+      "I": 190,
+      "outside_trade_spectra": true,
+      "binary_rank": 58
+    }
+  ]
+}

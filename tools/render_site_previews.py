@@ -13,9 +13,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {
     "compact": ("FFF_Compact_Research_Dossier.pdf",
-                "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366"),
+                "e8e2c8a2b53199781347e77ba3cb50a84ee3582d017fea1b6981bdc935d4eee3"),
     "long": ("FFF_Long_Research_Dossier.pdf",
-             "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868"),
+             "dbd905c73f55d5523956821e3809ad12cb5af5db601216433c1945e2ecc6e459"),
 }
 
 
@@ -25,7 +25,8 @@ def main():
     records = []
     for edition, (filename, expected) in SOURCES.items():
         source = ROOT / "papers" / filename
-        assert hashlib.sha256(source.read_bytes()).hexdigest() == expected
+        if hashlib.sha256(source.read_bytes()).hexdigest() != expected:
+            raise ValueError(f"Unexpected source PDF hash: {filename}")
         with pdfium.PdfDocument(source) as document:
             for label, index, width in (("cover", 0, 536), ("abstract", 2, 720)):
                 page = document[index]

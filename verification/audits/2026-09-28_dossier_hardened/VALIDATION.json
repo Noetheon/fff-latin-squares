@@ -1,0 +1,470 @@
+{
+  "date": "2026-09-28",
+  "python": "3.14.6",
+  "platform": {
+    "system": "Darwin",
+    "release": "27.0.0",
+    "machine": "arm64"
+  },
+  "cpp_driver": "Apple clang 21.0.0 (clang-2100.3.34.2), C++17 via g++",
+  "source_manifest_sha256": "793601b7d610d5246ad8106cbd93853aeac91fda2af0b8edac44de97634ceacc",
+  "outer_steps": [
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "scripts/expanded_and_corner.cpp",
+        "-o",
+        "expanded_and_corner"
+      ],
+      "returncode": 0,
+      "seconds": 0.814635
+    },
+    {
+      "command": [
+        "expanded_and_corner",
+        "results"
+      ],
+      "returncode": 0,
+      "seconds": 10.76342
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_representatives.py"
+      ],
+      "returncode": 0,
+      "seconds": 8.352145
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/crt_independent.py",
+        "9"
+      ],
+      "returncode": 0,
+      "seconds": 0.04043
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/crt_independent.py",
+        "15"
+      ],
+      "returncode": 0,
+      "seconds": 0.040092
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/crt_independent.py",
+        "45"
+      ],
+      "returncode": 0,
+      "seconds": 0.233187
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/crt_independent.py",
+        "75"
+      ],
+      "returncode": 0,
+      "seconds": 0.983448
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/burnside_new.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.500874
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/additional_controls.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.707699
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "rerun/run_all.py"
+      ],
+      "returncode": 0,
+      "seconds": 13.612706
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/rerun_cpp.py"
+      ],
+      "returncode": 0,
+      "seconds": 12.229965
+    }
+  ],
+  "total_outer_seconds": 48.278601,
+  "inherited_python_checks": [
+    {
+      "script": "core_checks",
+      "returncode": 0,
+      "seconds": 1.6286892920034006
+    },
+    {
+      "script": "burnside_trade_checks",
+      "returncode": 0,
+      "seconds": 1.5243786670034751
+    },
+    {
+      "script": "field_checks",
+      "returncode": 0,
+      "seconds": 0.9799213330261409
+    },
+    {
+      "script": "norm_and_witness_checks",
+      "returncode": 0,
+      "seconds": 2.2135472079971805
+    },
+    {
+      "script": "flag_and_smallorder_checks",
+      "returncode": 0,
+      "seconds": 0.7710187500342727
+    },
+    {
+      "script": "order8_subset_checks",
+      "returncode": 0,
+      "seconds": 1.95133716694545
+    },
+    {
+      "script": "order20_rank_certificates",
+      "returncode": 0,
+      "seconds": 4.246607500012033
+    },
+    {
+      "script": "formulation_scope_checks",
+      "returncode": 0,
+      "seconds": 0.18701720901299268
+    },
+    {
+      "script": "check_report_values",
+      "returncode": 0,
+      "seconds": 0.03992383403237909
+    }
+  ],
+  "cpp_checks": {
+    "fresh_small_order_counts": {
+      "2": 1,
+      "4": 4,
+      "6": 9408
+    },
+    "checks": [
+      {
+        "checker": "exhaustive_trade_parity",
+        "exit_code": 0,
+        "seconds": 1.8470327500253916,
+        "stderr": ""
+      },
+      {
+        "checker": "exchange_parity",
+        "exit_code": 0,
+        "seconds": 7.1582756250863895,
+        "stderr": "tables=230 four_subsets=146136480\nline ranks: 19:1 20:10 21:156 22:63\nexchange ranks: 39:1 40:8 41:46 42:175\nquotient dims: 0:39 1:147 2:35 3:9\n"
+      },
+      {
+        "checker": "independent_master_inventory_audit",
+        "exit_code": 0,
+        "seconds": 1.457386374939233,
+        "stderr": ""
+      }
+    ]
+  },
+  "comparison": {
+    "passed": true,
+    "comparisons": [
+      {
+        "path": "results/expanded_representatives.jsonl",
+        "comparison": "bytes",
+        "ignored_fields": [],
+        "normalization": [],
+        "reference_sha256": "a64d2df3f5ec19acf504f1779b423e9216716dea85038df9e88ff2610df26272",
+        "fresh_sha256": "a64d2df3f5ec19acf504f1779b423e9216716dea85038df9e88ff2610df26272",
+        "matched": true
+      },
+      {
+        "path": "results/corner_parameters.csv",
+        "comparison": "bytes",
+        "ignored_fields": [],
+        "normalization": [],
+        "reference_sha256": "38988ca28d5780ddf1082a06ca58663326f4eabd0e3f61ef98c0cf1b8f0fea16",
+        "fresh_sha256": "38988ca28d5780ddf1082a06ca58663326f4eabd0e3f61ef98c0cf1b8f0fea16",
+        "matched": true
+      },
+      {
+        "path": "results/exchange_parity.csv",
+        "comparison": "bytes",
+        "ignored_fields": [],
+        "normalization": [],
+        "reference_sha256": "b88725b9e91dbe8058905d9533293f69ec47c2877ee34ac106673e16f7cd5b97",
+        "fresh_sha256": "b88725b9e91dbe8058905d9533293f69ec47c2877ee34ac106673e16f7cd5b97",
+        "matched": true
+      },
+      {
+        "path": "results/master_inventory.txt",
+        "comparison": "bytes",
+        "ignored_fields": [],
+        "normalization": [],
+        "reference_sha256": "5922cecad04e6a3738f801d4ba701148551532998aa654db36e0ef7ce51d8562",
+        "fresh_sha256": "5922cecad04e6a3738f801d4ba701148551532998aa654db36e0ef7ce51d8562",
+        "matched": true
+      },
+      {
+        "path": "results/expanded_summary.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "d9cfec526be68fc750856d43f0d56f1049e4df627cd170adf2149dcb306bd7c2",
+        "fresh_sha256": "d9cfec526be68fc750856d43f0d56f1049e4df627cd170adf2149dcb306bd7c2",
+        "matched": true
+      },
+      {
+        "path": "results/verified_certificates.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "6afdc2c17eb3e0e1036e1c7ef5578d44402e607cf9cb9391fe2202e5d79961ac",
+        "fresh_sha256": "6afdc2c17eb3e0e1036e1c7ef5578d44402e607cf9cb9391fe2202e5d79961ac",
+        "matched": true
+      },
+      {
+        "path": "results/secondary_verification.json",
+        "comparison": "JSON",
+        "ignored_fields": [
+          "$.seconds"
+        ],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "dda1c1b01a334502aa76baf7e3c10efdc864400e04ca313c76834f1661e7eb22",
+        "fresh_sha256": "203c52bcbf1863a757862499e01d5a41a561cdd392aaab36a4069ce8431c9c8a",
+        "matched": true
+      },
+      {
+        "path": "results/crt_N9.json",
+        "comparison": "JSON",
+        "ignored_fields": [
+          "$.seconds"
+        ],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "5066375cca4bdfb0797ba9dd2f4d3073881f22191aff02efd1627d64e50d21b9",
+        "fresh_sha256": "33315234297b4ae0a10e4660457e493321d7b21506bf6324bbfd296f3183fe77",
+        "matched": true
+      },
+      {
+        "path": "results/crt_N15.json",
+        "comparison": "JSON",
+        "ignored_fields": [
+          "$.seconds"
+        ],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "cc85622d9ab868f01b2231c3f28aaa33f1fd9fdb73287c0d142a048862effacf",
+        "fresh_sha256": "a1915137eab6e217453a0150532e350c727cf0ac98d4302755c23cf43095cac2",
+        "matched": true
+      },
+      {
+        "path": "results/crt_N45.json",
+        "comparison": "JSON",
+        "ignored_fields": [
+          "$.seconds"
+        ],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "d4cf28f34685ee37f35250220424af6742eb0980c76b37109aca0417db5537e6",
+        "fresh_sha256": "e4f0d9b640e9fd412624f124236ff9861b10eae688d5ae440ebc290b35d915e7",
+        "matched": true
+      },
+      {
+        "path": "results/crt_N75.json",
+        "comparison": "JSON",
+        "ignored_fields": [
+          "$.seconds"
+        ],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "6e58a918a8ebe25c0f4577ffa42e7836ee909689d3214d9fe306079eae654db8",
+        "fresh_sha256": "5fd95b1436b295e9c13c1f6f18a8436776a2ffb7d2dc231697c4629a143d9309",
+        "matched": true
+      },
+      {
+        "path": "results/burnside_and_arithmetic.json",
+        "comparison": "JSON",
+        "ignored_fields": [
+          "$.seconds"
+        ],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "77e3806986f73b83d8794265717ec70d896063fcccd68f0ccf1b4e3baa07072e",
+        "fresh_sha256": "981aa012461c7a810e679855b53d08832fe3af068fd13b5cc12d6986b292770e",
+        "matched": true
+      },
+      {
+        "path": "results/additional_controls.json",
+        "comparison": "JSON",
+        "ignored_fields": [
+          "$.seconds"
+        ],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "e4c3e8e8bac7332180a4795b1db763db713fae408aeb6a32dfd87bd3c91bd201",
+        "fresh_sha256": "486607622084c03553cd3109d9a2945038df8c7e1927f91d068ef1a67a81b9bf",
+        "matched": true
+      },
+      {
+        "path": "results/trade_parity.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "5138e9cd0a646dc4b8fb6e29aeb0227dc613784f746517db2024af6e9e534c63",
+        "fresh_sha256": "5138e9cd0a646dc4b8fb6e29aeb0227dc613784f746517db2024af6e9e534c63",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/burnside.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "7b67287273f5409577a5b62b09ec5407cad6b18f3e80f8b0ebb1f9ac9fdc364c",
+        "fresh_sha256": "7b67287273f5409577a5b62b09ec5407cad6b18f3e80f8b0ebb1f9ac9fdc364c",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/core_results.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "0c0ed99c6297328b3e749db293279637a14c7771b1658391b25788c34f7d5aeb",
+        "fresh_sha256": "0c0ed99c6297328b3e749db293279637a14c7771b1658391b25788c34f7d5aeb",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/formulation_scope.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "9108794d05c826e1fb2194b9c7a4c00cbbb1d14a496b3a3e686fa16c3c50c5fe",
+        "fresh_sha256": "9108794d05c826e1fb2194b9c7a4c00cbbb1d14a496b3a3e686fa16c3c50c5fe",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/norm_and_36.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "88396fb419b3bbaeb4de386d403de95927fb0d291b53a393f9aec255168197fb",
+        "fresh_sha256": "88396fb419b3bbaeb4de386d403de95927fb0d291b53a393f9aec255168197fb",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/order20_rank_certificates.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "f177ee64cdc6f8b867493fe0af7807a66d22579a540d405903438df0a60b8a31",
+        "fresh_sha256": "f177ee64cdc6f8b867493fe0af7807a66d22579a540d405903438df0a60b8a31",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/order8_230_checks.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "fcaaf2308c6b3fe479a75182a8f74ce8ab8ec474632bcd2dccf2ee6616f6463c",
+        "fresh_sha256": "fcaaf2308c6b3fe479a75182a8f74ce8ab8ec474632bcd2dccf2ee6616f6463c",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/report_value_checks.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "b39c191c1a919f02dc350063a85e62fdd47a78bac584ffe8c9a627672f9ac610",
+        "fresh_sha256": "b39c191c1a919f02dc350063a85e62fdd47a78bac584ffe8c9a627672f9ac610",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/smallorders_and_flags.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "8d42d377070950a9e31174bf71e40b09e833329dd6b5eb357a63de05c2550e8a",
+        "fresh_sha256": "8d42d377070950a9e31174bf71e40b09e833329dd6b5eb357a63de05c2550e8a",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/threepoint_checks.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "1527e25fd146fac39c4b7963f4376350620c9c6442ec1558bf7315592e68b4b9",
+        "fresh_sha256": "1527e25fd146fac39c4b7963f4376350620c9c6442ec1558bf7315592e68b4b9",
+        "matched": true
+      },
+      {
+        "path": "rerun/results/trade_19_0.json",
+        "comparison": "JSON",
+        "ignored_fields": [],
+        "normalization": [
+          "JSON object key order only"
+        ],
+        "reference_sha256": "2b5245d2ff03b9323b5c2903c698c1f1473ec11ce4aecf580aeeea2fab9730b8",
+        "fresh_sha256": "2b5245d2ff03b9323b5c2903c698c1f1473ec11ce4aecf580aeeea2fab9730b8",
+        "matched": true
+      }
+    ],
+    "scope": "24 fixed finite outputs, not whole-manuscript correctness or human peer review"
+  },
+  "scope": "Fresh finite calculations and explicit comparison; no full C157 search, human review, or order-18 decision"
+}

@@ -1,0 +1,149 @@
+{
+  "position_value_permutations": {
+    "1": 1,
+    "2": 2,
+    "3": 6,
+    "4": 24,
+    "5": 120,
+    "6": 720
+  },
+  "conditional_clause_truth_rows": 16,
+  "partitions_of_9": 30,
+  "order18_positive_sign_root_types": [
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      8
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      4,
+      6
+    ],
+    [
+      2,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    [
+      2,
+      2,
+      2,
+      12
+    ],
+    [
+      2,
+      2,
+      4,
+      10
+    ],
+    [
+      2,
+      2,
+      6,
+      8
+    ],
+    [
+      2,
+      4,
+      4,
+      8
+    ],
+    [
+      2,
+      4,
+      6,
+      6
+    ],
+    [
+      2,
+      16
+    ],
+    [
+      4,
+      4,
+      4,
+      6
+    ],
+    [
+      4,
+      14
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      10
+    ]
+  ],
+  "C225_affine_survivors": [
+    1,
+    5,
+    7
+  ],
+  "C225_symbol_residues": [
+    9,
+    15,
+    3
+  ],
+  "row_fibred_controls": [
+    {
+      "outer": 2,
+      "inner": 4,
+      "pattern": "FFF",
+      "rank2": 20
+    },
+    {
+      "outer": 3,
+      "inner": 4,
+      "pattern": "TTT",
+      "rank2": 33
+    },
+    {
+      "outer": 4,
+      "inner": 3,
+      "pattern": "TTT",
+      "rank2": 33
+    },
+    {
+      "outer": 2,
+      "inner": 20,
+      "pattern": "FFF",
+      "rank2": 117
+    }
+  ],
+  "m3_scope_control": {
+    "field_order": 16,
+    "field_polynomial": 19,
+    "r": 6,
+    "t": [
+      0,
+      1,
+      2
+    ],
+    "order": 48,
+    "pattern": "FFF",
+    "interpretation": "Not a counterexample to Remark 8.4 when its K=F4 scope is retained."
+  }
+}

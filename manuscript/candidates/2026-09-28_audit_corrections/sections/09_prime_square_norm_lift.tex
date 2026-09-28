@@ -1,0 +1,125 @@
+\section{A common binary fiber over prime-square quotients}
+\label{sec:prime-square-norm-lift}
+
+The preceding bound may require a larger binary exponent when the odd
+part is a prime square.  The following construction uses a single binary
+fiber over a two-dimensional odd quotient.  It is an internally audited
+research result awaiting independent mathematical review, not a claim of
+literature priority.
+
+\begin{theorem}[Quadratic-norm prime-square lift]
+\label{thm:quadratic-norm-lift}
+Let $p$ be an odd prime, $e=\operatorname{ord}_p(2)$, and $D$ a positive
+multiple of $e$.  If $q=2^D>3(p^2-1)$, then there is an FFF Latin square
+of order $p^2q$.  Every relative two-line cycle in every view has length
+$2$ or $2p$.  In particular, $2^e>3(p^2-1)$ implies $h(p^2)\leq e$.
+\end{theorem}
+
+\begin{proof}
+Let $G=\mathbb F_p^2$, choose a nonsquare $\nu\in\mathbb F_p$, and put
+$B(x,y)=x_1y_1-\nu x_2y_2$ and $Q(x)=B(x,x)$.  The norm $Q$ is anisotropic:
+if $Q(d)=0$ and $d_2\ne0$, then $\nu=(d_1/d_2)^2$, a contradiction;
+the case $d_2=0$ is immediate.  Choose $\omega$ of order $p$ in
+$K=\mathbb F_q$ and write $\chi(t)=\omega^t$.  For a twist array
+$c:G\times G\to K$, define
+\begin{equation}\label{eq:quadratic-norm-lift}
+ (x,a)*(y,b)=\bigl(x+y,\ \chi(2B(x,y))a+\chi(Q(x))b+c(x,y)\bigr).
+\end{equation}
+Both fiber coefficients are nonzero, so this is Latin for every $c$.
+
+We calculate the relative action of two lines with distinct quotient
+coordinates.  For rows $x,z$, put $d=x-z$ and $y_t=y+td$.  For columns
+$y,z$, put $d=y-z$ and $x_t=x+td$.  For symbols $k,l$, put $d=l-k$,
+$y_t=y+td$, and $x_t=k-y_t$.  In each case the quotient orbit has length
+$p$.  Solving~\eqref{eq:quadratic-norm-lift} and then the inverse line
+map gives a fiber step
+\[
+ w_{t+1}=\chi(D_t)w_t+\chi(E_t)a+\chi(F_t)b
+             +\chi(U_t)c(C_{1,t})+\chi(V_t)c(C_{2,t}).
+\]
+The slope exponents and the two twist cells are
+\begin{align*}
+ D_t^{\rm row}&=Q(x)-Q(z),
+ & (C_{1,t},C_{2,t})&=((x,y_t),(z,y_t+d)),\\
+ D_t^{\rm col}&=2B(x_t,y)-2B(x_t+d,z),
+ & (C_{1,t},C_{2,t})&=((x_t,y),(x_t+d,z)),\\
+ D_t^{\rm sym}&=2B(x_t,d),
+ & (C_{1,t},C_{2,t})&=((x_t,y_t),(x_t,y_t+d)).
+\end{align*}
+Every $\chi(U_t)$ and $\chi(V_t)$ is nonzero.  For clarity in the
+symbol case, the line map at symbol $(k,a)$ sends a column $(y,w)$ to
+the unique row $(k-y,u)$, where
+\[
+ u=\chi(Q(k-y)-2B(k-y,y))w
+   +\chi(-2B(k-y,y))\bigl(a+c(k-y,y)\bigr).
+\]
+Taking the inverse of the second symbol map yields the third line above.
+
+The sum of the $p$ slope exponents is zero in each view: it is constant
+for rows and affine in $t$ for columns and symbols, and
+$\sum_{t\in\mathbb F_p}t=0$.  The exponent of a label contribution from
+step $t$ gains the later slopes $\sum_{s>t}D_s$.  Expanding the quadratic
+form gives the following two accumulated exponents, where $x,y$ denote
+the starting quotient row and column in the respective line:
+\[
+\begin{array}{c|c|c}
+ &\text{first line label}&\text{second line label}\\ \hline
+\mathrm{row}
+ &2B(x,y)-Q(x)+tQ(d)
+ &2B(z,y+d)-Q(x)-tQ(d)\\
+\mathrm{col}
+ &Q(x)-2B(x,y)-tQ(d)
+ &Q(x)-2B(x,z)+(t+1)Q(d)\\
+\mathrm{sym}
+ &-Q(x)-tQ(d)
+ &-Q(x)-2B(x,d)+tQ(d)
+\end{array}
+\]
+Since $Q(d)\ne0$, summing the character of any one of these affine
+progressions over $t\in\mathbb F_p$ gives zero.  Thus both line-label
+coefficients cancel, the $p$-step slope is one, and the fiber return is
+$w\mapsto w+\Lambda_C(c)$ for a linear form in the twist cells.
+
+The two cells at each step lie on different quotient lines.  Within a
+line the $p$ visited cells are distinct, also for symbols because a cell
+has a unique quotient symbol.  Thus each $\Lambda_C$ contains exactly
+$2p$ distinct variables with nonzero coefficients.  In particular it is
+not the zero form.  A fixed cell belongs to exactly $p^2-1$ such forms
+in each of the three views: one quotient orbit for each other quotient
+line.  Its total incidence is $3(p^2-1)$.
+
+Order the $p^4$ cells.  Enforce $\Lambda_C(c)\ne0$ when the last cell in
+its support is assigned.  Previously assigned cells then forbid precisely
+one value for this cell.  At most $3(p^2-1)$ conditions close at any cell,
+so $q>3(p^2-1)$ leaves an allowed value.  Induction makes every return
+a nonzero translation of $K$.  Consequently different quotient lines
+have cycles of length $2p$.  Two distinct lines in the same quotient
+fiber induce a nonzero translation on every complementary fiber, giving
+only $2$-cycles.  The argument applies to rows, columns, and symbols,
+proving FFF.
+\end{proof}
+
+\begin{corollary}\label{cor:prime-square-almost-all}
+For all but $O((\log X)^2)$ primes $p\leq X$, with
+$e=\operatorname{ord}_p(2)$, one has
+$h(p^r)\leq\lceil r/2\rceil e$ for every $r\geq1$.
+\end{corollary}
+
+\begin{proof}
+Theorem~\ref{thm:quadratic-norm-lift} supplies the prime-square factor;
+the order-$p2^e$ instance of Theorem~\ref{thm:three-point-bound} supplies
+an odd residual factor.  Direct products preserve FFF, giving the stated
+bound for each $r$.  An exceptional prime satisfies
+$2^e\leq3(p^2-1)<4p^2$, hence $e<2\log_2p+2$.  If $p\leq X$ and
+$N=\lfloor2\log_2X+2\rfloor$, then $p$ divides
+$\prod_{j=1}^N(2^j-1)$.  This product has fewer than
+$\sum_{j=1}^N j=N(N+1)/2$ distinct prime factors.
+\end{proof}
+
+At $p=11$, $e=10$ and $3(p^2-1)=360<1024$, giving an order-$123904$
+construction.  A separate standard-library checker validates all
+$239580$ quotient-return conditions of a frozen compact twist certificate;
+it does not materialize that Latin table.  Fresh smaller controls cover
+$p=3,q=64$ and $p=5,q=256$.  The finite checks support the computation,
+whereas the universal quantifiers rest on the proof above.  No claim is
+made about minimal exponents, order $18$, or literature priority.

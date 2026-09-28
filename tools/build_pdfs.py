@@ -10,13 +10,15 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EPOCH = 1790591089  # Frozen 2026-09-28 C271 paper edition.
-SOURCE = ROOT / "manuscript/candidates/2026-09-28_research_review"
+EPOCH = 1790602447  # 2026-09-28 audit correction; scientific intake remains C271.
+SOURCE = ROOT / "manuscript/candidates/2026-09-28_audit_corrections"
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--candidate-only", action="store_true",
+                        help="Build a successor for inspection; not a published-byte verification")
     args = parser.parse_args()
     out = args.output.resolve()
     if not out.is_relative_to(ROOT / ".audit"):
@@ -30,7 +32,7 @@ def main():
         env = dict(os.environ, SOURCE_DATE_EPOCH=str(EPOCH), FORCE_SOURCE_DATE="1", TZ="UTC", LC_ALL="C")
         for key in ("TEXINPUTS", "BIBINPUTS", "BSTINPUTS", "TEXMFOUTPUT"):
             env.pop(key, None)
-        job = f"FFF_Latin_Squares_{variant.title()}_2026-09-28_Research_Review"
+        job = f"FFF_Latin_Squares_{variant.title()}_2026-09-28_Audit_Corrections"
         command = ["latexmk", "-norc", "-pdf", "-interaction=nonstopmode", "-halt-on-error",
                    "-file-line-error", "-pdflatex=pdflatex -no-shell-escape %O %S",
                    f"-outdir={build}", f"-jobname={job}", entry]
@@ -44,7 +46,9 @@ def main():
         identical = pdf == (ROOT / "papers" / f"FFF_{variant.title()}_Research_Dossier.pdf").read_bytes()
         records.append({"variant": variant, "sha256": hashlib.sha256(pdf).hexdigest(),
                         "byte_identical": identical, "warnings": warnings})
-    result = {"passed": all(r["byte_identical"] and not r["warnings"] for r in records),
+    result = {"passed": all((r["byte_identical"] or args.candidate_only) and not r["warnings"] for r in records),
+              "published_bytes_verified": not args.candidate_only and all(r["byte_identical"] for r in records),
+              "candidate_only": args.candidate_only,
               "variants": records, "mathematical_verification": False}
     (out / "pdf_rebuild.json").write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps(result, indent=2))

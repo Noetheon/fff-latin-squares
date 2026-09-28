@@ -1,0 +1,90 @@
+{
+  "block_return": {
+    "tables": 1,
+    "pairs": 198,
+    "outer_pattern": "TTT",
+    "inner_blocks": 9,
+    "whole_pattern": "FFF",
+    "outer_return_shapes": {
+      "(1, (2, 2))": 162,
+      "(3, (2, 2))": 80,
+      "(3, (4,))": 64
+    }
+  },
+  "rank_three_quadratics": [
+    {
+      "p": 3,
+      "all_homogeneous_quadratic_forms": 729,
+      "all_have_nonzero_zero": true,
+      "zero_counts": {
+        "27": 1,
+        "15": 156,
+        "9": 494,
+        "3": 78
+      }
+    },
+    {
+      "p": 5,
+      "all_homogeneous_quadratic_forms": 15625,
+      "all_have_nonzero_zero": true,
+      "zero_counts": {
+        "125": 1,
+        "45": 1860,
+        "25": 12524,
+        "5": 1240
+      }
+    }
+  ],
+  "paired_blocks": [
+    {
+      "m": 1,
+      "all_twists": 2,
+      "counts": {
+        "('FFF', 1)": 2
+      }
+    },
+    {
+      "m": 2,
+      "all_twists": 16,
+      "counts": {
+        "('FFF', 12)": 8,
+        "('FFF', 4)": 8
+      }
+    },
+    {
+      "m": 3,
+      "all_twists": 512,
+      "counts": {
+        "('TTT', 9)": 512
+      }
+    }
+  ],
+  "negative_minor_controls": {
+    "invalid_minor_cases_rejected": 6,
+    "cases": {
+      "short": "minor size/dup",
+      "duplicate": "minor size/dup",
+      "out_of_range": "invalid minor cell",
+      "negative": "invalid minor cell",
+      "boolean": "minor size/dup",
+      "singular_distinct": "singular"
+    },
+    "scope": "New explicit row-elimination function; not a full run of project verifier."
+  },
+  "singleton_congruence_counterexample": {
+    "table": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "pattern": "FFF",
+    "block_size": 1,
+    "formal_theorem_unaffected": true
+  },
+  "seconds": 0.9879632509998828
+}
