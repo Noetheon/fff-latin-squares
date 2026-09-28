@@ -1,0 +1,11 @@
+{
+  "cutoff": "C271; intake 2026-09-28T10:24:49Z",
+  "files": [
+    {
+      "bytes": 7137,
+      "sha256": "8a73f021eefe9f1741794b45d61c5b82c99490514545ae3932bb803a9f3b4fca",
+      "snapshot": "evidence/proofs/fff_prime_cyclic_one_point_direction_rigidity.md"
+    }
+  ],
+  "scope": "Selected public evidence only; narrower than the private capture. No machine logs, environment snapshots, private registers or raw archives. Capture inventories are derived metadata, not rewritten scientific records."
+}

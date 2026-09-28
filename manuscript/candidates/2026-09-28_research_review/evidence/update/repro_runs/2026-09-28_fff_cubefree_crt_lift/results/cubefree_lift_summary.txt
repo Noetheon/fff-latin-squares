@@ -1,0 +1,6 @@
+Cubefree CRT common-fibre lift: compact exact controls
+N=9 radical=3 q=64: 324 returns, all nonzero; 9 physical pairs checked
+N=15 radical=15 q=256: 675 returns, all nonzero; 21 physical pairs checked
+N=45 radical=15 q=256: 17010 returns, all nonzero; 21 physical pairs checked
+N=75 radical=15 q=256: 73125 returns, all nonzero; 21 physical pairs checked
+No full table is materialized; order 18 remains open.

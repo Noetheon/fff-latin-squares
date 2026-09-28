@@ -1,0 +1,70 @@
+\section{An exact position--value coloring formulation}
+\label{sec:value-color}
+
+This section gives an equivalent finite constraint model, not a decision
+of any new order. In one view let each line $a$ be a bijection
+$f_a:P\to Q$. For distinct $a,b$ the permutation
+$\pi=f_b^{-1}f_a$ is fixed-point-free. A permutation has only even
+cycles if and only if its points admit a binary coloring that toggles
+along every edge: alternating a coloring around a cycle is consistent
+exactly when its length is even.
+
+\begin{theorem}[Position--value channel]
+\label{thm:value-color-channel}
+Introduce colors $e_i,h_v\in\{0,1\}$ for positions $i\in P$ and
+values $v\in Q$. The equations
+\begin{equation}
+ e_i=h_{f_a(i)},\qquad e_i=1-h_{f_b(i)}\quad(i\in P)
+ \label{eq:value-color-channel}
+\end{equation}
+are satisfiable if and only if $\pi$ has only even cycles. Every
+solution has exactly $n/2$ ones in each color family. One may
+add $e_{i_0}=0$ at any chosen position without changing satisfiability.
+\end{theorem}
+
+\begin{proof}
+For $j=\pi(i)$, equality $f_a(i)=f_b(j)$ makes
+\eqref{eq:value-color-channel} imply $e_j=1-e_i$.
+Conversely, from a toggling coloring set $h_v=e_{f_a^{-1}(v)}$.
+The first equation is immediate. The second follows because
+$f_a^{-1}f_b=\pi^{-1}$ and toggling also holds on inverse edges.
+Since the lines are bijections, summing the two equations gives
+$\sum_i e_i=\sum_v h_v=n-\sum_v h_v=n/2$.
+Complementing all $e$ and $h$ simultaneously preserves the
+equations and permits the single gauge condition.
+\end{proof}
+
+For a Latin cell variable $X_{rcs}$ asserting $L(r,c)=s$, the
+antecedents $A,B$ for $f_a(i)=v$ and $f_b(i)=v$ are:
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+View & Position & Value & $A$ & $B$\\
+\midrule
+row & column $i$ & symbol $v$ & $X_{aiv}$ & $X_{biv}$\\
+column & row $i$ & symbol $v$ & $X_{iav}$ & $X_{ibv}$\\
+symbol & column $i$ & row $v$ & $X_{via}$ & $X_{vib}$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Writing $e=e_i$ and $h=h_v$, four clauses implement the equations:
+\[
+ (\neg A\vee\neg e\vee h),\quad(\neg A\vee e\vee\neg h),\quad
+ (\neg B\vee e\vee h),\quad(\neg B\vee\neg e\vee\neg h).
+\]
+With Latin exactly-one constraints, imposing these clauses
+independently for every line pair in every view is equivalent to FFF.
+The reverse implication extends each FFF table by its pairwise
+alternating colorings; no coupling of arbitrary gauges is required.
+Isotopy invariance permits reduced tables in an existence search.
+
+Each line pair uses $2n$ colors, $4n^2$ conditional clauses, and
+one optional gauge unit. Balance follows from the equations and
+requires no cardinality auxiliaries. Frozen positive controls at
+orders $8$, $12$, and $14$ and checked negative order-$6$ controls
+validate the implementation. In one fixed order-$18$ row context,
+the recorded model has $22356$ variables and $745065$ clauses,
+compared with $270216$ and $3190617$ in the prior physical-arc
+representation. Both bounded $60$-second solver probes timed out.
+This is a size reduction, not evidence of faster solution or of
+nonexistence at order $18$.

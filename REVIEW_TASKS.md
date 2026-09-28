@@ -9,8 +9,8 @@ is not expected. An automated pass is not a referee endorsement.
 
 ## 1. Proof: Intrinsic Layers and the Construction Boundary
 
-Read the [binary quotient descent proof](manuscript/candidates/2026-09-27_research_snapshot/evidence/proofs/fff_binary_quotient_descent_and_dyadic_class_growth.md)
-and [affine-orbit classification](manuscript/candidates/2026-09-27_research_snapshot/evidence/proofs/fff_affine_orbit_fibre_classification.md).
+Read the [current binary quotient/rank argument](manuscript/candidates/2026-09-28_research_review/sections/10_fibred_class_growth.tex)
+and [affine-orbit classification](manuscript/candidates/2026-09-28_research_review/evidence/proofs/fff_affine_orbit_fibre_classification.md).
 Do the quotient-free hypotheses recover the intrinsic layers in all three
 views, and do they justify both directions of the stated within-construction
 classification? Identify any inference that would improperly become a global
@@ -27,8 +27,9 @@ matching equations and cycle reports agree with an independently written checker
 Please report Python version, command, input hash and the first disagreement.
 Then run `python3 -B tools/check_current_snapshot.py --output .audit/review.json`:
 can an independently written scanner reproduce the explicit order-12 witness
-and the distinction between 512 classes in one trade family and a global lower
-bound of 514? No global order-20 census is claimed.
+and the 1703 represented order-20 classes, including every rank-58 minor?
+The original single-family 512 count remains historical; the new 1703 bound
+uses an enlarged family and does not claim a global order-20 census.
 
 For a deeper optional check, inspect the
 [two-master reduction](proof_notes/fff_six_type_master_reduction_degree10.md):
@@ -39,10 +40,13 @@ do **not** rerun the order-10 searches; that archive gap remains explicit.
 
 ## 3. Literature: Known Results or Earlier Constructions
 
-For the affine prime-successor criterion, row-fibred pattern formula,
+For the affine corner trade, common-fibre CRT lift, row-fibred pattern formula,
 or intrinsic-layer classification, is there an earlier theorem or equivalent
 construction that should be cited or should change the novelty framing?
-See the [current source and evidence map](manuscript/candidates/2026-09-27_research_snapshot/README.md).
+See the [current sources and evidence](manuscript/candidates/2026-09-28_research_review/README.md).
+Unique-intercalate Latin squares are already studied, for example by Wanless;
+the question concerns the additional three-view FFF property, not that classical
+subject's first existence result.
 The classical prime round-robin construction is explicitly credited rather
 than presented as a new construction.
 

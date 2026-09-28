@@ -1,0 +1,14 @@
+FFF20 all-pair trade fixed-remainder contraction screen
+Eligible pair families: 22
+Candidate masks: 22528
+FFF masks: 19480
+Globally source-equivalent masks: 44
+Nontrivial-mask intercalate contexts: 10889168
+Feasible contexts: 19532
+Inherited source-completion contexts: 19418
+Novel contexts: 114
+Novel labelled completion paths: 21504
+Novel distinct order-18 tables: 14336
+Novel row-F paths: 0
+FFF18 candidate found: False
+Unrestricted order-18 existence: OPEN

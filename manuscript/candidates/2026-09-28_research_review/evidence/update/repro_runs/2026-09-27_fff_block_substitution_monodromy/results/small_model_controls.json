@@ -1,0 +1,15 @@
+{
+  "all_three_view_monodromy_checks_passed": true,
+  "c2_mixed_fff4_blocks": {
+    "count": 16,
+    "pattern_counts": {
+      "FFF": 16
+    }
+  },
+  "c3_binary_twists": {
+    "count": 512,
+    "pattern_counts": {
+      "TTT": 512
+    }
+  }
+}

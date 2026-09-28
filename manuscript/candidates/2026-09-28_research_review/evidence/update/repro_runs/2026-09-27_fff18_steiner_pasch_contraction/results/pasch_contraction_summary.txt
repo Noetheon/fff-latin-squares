@@ -1,0 +1,12 @@
+Steiner20 one-Pasch fixed-remainder contraction screen
+single Pasch trades screened: 24/24
+parents including baseline: 25
+intercalates: 17044
+feasible deletion cases: 475
+Latin completion paths checked: 243200
+row-view rejected: 243200
+column-view rejected after row F: 0
+symbol-view rejected after row+column F: 0
+FFF18 candidates: 0
+complete one-Pasch family: True
+global order-18 decision: no

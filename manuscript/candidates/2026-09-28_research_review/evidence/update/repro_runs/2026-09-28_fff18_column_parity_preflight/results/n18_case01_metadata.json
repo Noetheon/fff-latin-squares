@@ -1,0 +1,32 @@
+{
+  "balance_clause_count": 231336,
+  "base_clause_count": 5503977,
+  "base_script_sha256": "29f3914c8534aa16262bc053a3ae1e1e2d50efcdcfc8570784d5ec045ed35709",
+  "cnf": {
+    "clauses": 5782740,
+    "sha256": "b96f2f647f7384ffea893b786b1b2b1bf4b61f2ba96417cbef82c6773985cf13",
+    "size_bytes": 144393618,
+    "variables": 130067
+  },
+  "color_balance": true,
+  "color_gauge": true,
+  "column1_positive": true,
+  "column_sign_clause_count": 47427,
+  "column_sign_inversion_variables": 153,
+  "column_sign_xor_variables": 152,
+  "compact_script_sha256": "db8202a0c8534c06ae0f0861b07dddd8383bf02f90b9c76e58856c8c34533480",
+  "encoding_version": "fff_c39_compact_balance_col1_sign_v1",
+  "fixed_row1_case_id": "n18_dual_sign_01_z16_16_2",
+  "fixed_row1_cases_sha256": "9dc90bcc5a5a23a9bc860c69f57354524a3d0f5c1734ace29b257811fa055a6c",
+  "fixed_table_input_sha256": null,
+  "n": 18,
+  "reduced": true,
+  "solver_status": "not_run",
+  "var_map_sha256": "03facbd8b306f179a38f8f31b0a19faafafcb503ca3fe610c67a03d5461adc43",
+  "var_map_size_bytes": 384306,
+  "views": [
+    "row",
+    "col",
+    "sym"
+  ]
+}

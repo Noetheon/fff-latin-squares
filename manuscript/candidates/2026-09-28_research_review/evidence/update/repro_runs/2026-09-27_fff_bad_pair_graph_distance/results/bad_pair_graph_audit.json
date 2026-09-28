@@ -1,0 +1,1016 @@
+{
+  "fft18_circulant_triangle_certificate": {
+    "analytic_independence_upper_bound_on_17": 5,
+    "edge_count": 34,
+    "graph": "isolated vertex 0 plus C17(1,8) on vertices 1..17",
+    "independent_five_witness": [
+      1,
+      4,
+      6,
+      8,
+      11
+    ],
+    "triangle_count": 17,
+    "triangle_incidence_per_vertex": 3,
+    "triangles": [
+      [
+        1,
+        2,
+        10
+      ],
+      [
+        2,
+        3,
+        11
+      ],
+      [
+        3,
+        4,
+        12
+      ],
+      [
+        4,
+        5,
+        13
+      ],
+      [
+        5,
+        6,
+        14
+      ],
+      [
+        6,
+        7,
+        15
+      ],
+      [
+        7,
+        8,
+        16
+      ],
+      [
+        8,
+        9,
+        17
+      ],
+      [
+        1,
+        9,
+        10
+      ],
+      [
+        2,
+        10,
+        11
+      ],
+      [
+        3,
+        11,
+        12
+      ],
+      [
+        4,
+        12,
+        13
+      ],
+      [
+        5,
+        13,
+        14
+      ],
+      [
+        6,
+        14,
+        15
+      ],
+      [
+        7,
+        15,
+        16
+      ],
+      [
+        8,
+        16,
+        17
+      ],
+      [
+        1,
+        9,
+        17
+      ]
+    ]
+  },
+  "frozen_validator_sha256": "a1839972dbed2a55f23660a7acd35715a2d49b8afdfa845fa38eaac12bc31ab6",
+  "order18_existence_decided": false,
+  "prior_stronger_same_source_certificate": {
+    "certificate_path": "repro_runs/2026-09-25_fff18_p17_symbol_cell_packing/results/cell_packing_certificate.json",
+    "certificate_sha256": "8b63be928c5240e115ad10dbac639e647e2f18902aca83894e57d36584be58eb",
+    "graph_bound_is_weaker": true,
+    "symbol_F_hamming_lower_bound": 32,
+    "verification_path": "repro_runs/2026-09-25_fff18_p17_symbol_cell_packing/results/cell_packing_verification.json",
+    "verification_sha256": "c8daf975bf6ce4d1979cd267ead6480742dc9e76bf4cdc09baef0d253b129dfa"
+  },
+  "scope": "source-relative three-view graph distance bounds, not FFF18 existence",
+  "sources": {
+    "fff8": {
+      "order": 8,
+      "path": "repro_runs/2026-08-12_fff_selective_nonbasis_five_cycles/results/n8_fff_final_decoded_table.json",
+      "sha256": "378ba15b820c752a1a6770afdbbb57556a58e1744e9e59ab3b5c34b4d40b94c0",
+      "three_view_hamming_lower_bound": 0,
+      "views": {
+        "col": {
+          "bad_pair_count": 0,
+          "bad_pair_edges": [],
+          "hamming_lower_bound": 0,
+          "independence_number": 8,
+          "maximum_independent_sets": 1,
+          "one_independent_set": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "vertex_cover_number": 0
+        },
+        "row": {
+          "bad_pair_count": 0,
+          "bad_pair_edges": [],
+          "hamming_lower_bound": 0,
+          "independence_number": 8,
+          "maximum_independent_sets": 1,
+          "one_independent_set": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "vertex_cover_number": 0
+        },
+        "sym": {
+          "bad_pair_count": 0,
+          "bad_pair_edges": [],
+          "hamming_lower_bound": 0,
+          "independence_number": 8,
+          "maximum_independent_sets": 1,
+          "one_independent_set": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "vertex_cover_number": 0
+        }
+      }
+    },
+    "fft18": {
+      "order": 18,
+      "path": "repro_runs/2026-09-23_fff18_compact_orthomorphism_cnf/results/p17_rowcol_sym0_nonaffine_sat_table.json",
+      "sha256": "1ed0abb7bae546375fe9595f408b7ede9c95fb02bae582e99d80ebbe4a9764d8",
+      "three_view_hamming_lower_bound": 24,
+      "views": {
+        "col": {
+          "bad_pair_count": 0,
+          "bad_pair_edges": [],
+          "hamming_lower_bound": 0,
+          "independence_number": 18,
+          "maximum_independent_sets": 1,
+          "one_independent_set": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "vertex_cover_number": 0
+        },
+        "row": {
+          "bad_pair_count": 0,
+          "bad_pair_edges": [],
+          "hamming_lower_bound": 0,
+          "independence_number": 18,
+          "maximum_independent_sets": 1,
+          "one_independent_set": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "vertex_cover_number": 0
+        },
+        "sym": {
+          "bad_pair_count": 34,
+          "bad_pair_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              17
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              12
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              12
+            ],
+            [
+              4,
+              13
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              13
+            ],
+            [
+              5,
+              14
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              7,
+              16
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              8,
+              17
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              17
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "hamming_lower_bound": 24,
+          "independence_number": 6,
+          "maximum_independent_sets": 51,
+          "one_independent_set": [
+            0,
+            1,
+            4,
+            6,
+            8,
+            11
+          ],
+          "vertex_cover_number": 12
+        }
+      }
+    },
+    "midpoint18": {
+      "order": 18,
+      "path": "repro_runs/2026-09-23_fff18_midpoint_trade_search/results/midpoint_base_table.json",
+      "sha256": "1755c5866b8f25371edc7258359c5cec2b7cac603277635bf96bad3b6c2471bc",
+      "three_view_hamming_lower_bound": 32,
+      "views": {
+        "col": {
+          "bad_pair_count": 0,
+          "bad_pair_edges": [],
+          "hamming_lower_bound": 0,
+          "independence_number": 18,
+          "maximum_independent_sets": 1,
+          "one_independent_set": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "vertex_cover_number": 0
+        },
+        "row": {
+          "bad_pair_count": 0,
+          "bad_pair_edges": [],
+          "hamming_lower_bound": 0,
+          "independence_number": 18,
+          "maximum_independent_sets": 1,
+          "one_independent_set": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "vertex_cover_number": 0
+        },
+        "sym": {
+          "bad_pair_count": 136,
+          "bad_pair_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              9
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              11
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              14
+            ],
+            [
+              0,
+              15
+            ],
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              13
+            ],
+            [
+              1,
+              14
+            ],
+            [
+              1,
+              15
+            ],
+            [
+              1,
+              16
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              12
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              2,
+              15
+            ],
+            [
+              2,
+              16
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              12
+            ],
+            [
+              3,
+              13
+            ],
+            [
+              3,
+              14
+            ],
+            [
+              3,
+              15
+            ],
+            [
+              3,
+              16
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              12
+            ],
+            [
+              4,
+              13
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              16
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              5,
+              12
+            ],
+            [
+              5,
+              13
+            ],
+            [
+              5,
+              14
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              5,
+              16
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              16
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              7,
+              12
+            ],
+            [
+              7,
+              13
+            ],
+            [
+              7,
+              14
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              7,
+              16
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              8,
+              14
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              9,
+              13
+            ],
+            [
+              9,
+              14
+            ],
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              16
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              10,
+              14
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              10,
+              16
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              11,
+              16
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              15,
+              16
+            ]
+          ],
+          "hamming_lower_bound": 32,
+          "independence_number": 2,
+          "maximum_independent_sets": 17,
+          "one_independent_set": [
+            0,
+            17
+          ],
+          "vertex_cover_number": 16
+        }
+      }
+    }
+  }
+}

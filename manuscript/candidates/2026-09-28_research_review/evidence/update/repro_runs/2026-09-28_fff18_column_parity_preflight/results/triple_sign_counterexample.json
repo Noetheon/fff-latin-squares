@@ -1,0 +1,174 @@
+{
+  "column_signs": [
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "latin": true,
+  "line_pairs_checked": 84,
+  "negative_control_source_line_number": 46,
+  "negative_fixed_table_sha256": "9066e0f24cd7a8ad0f147d19c94f4954fb82bd2ba59b4aeffd624e85fe943d0e",
+  "pattern": "FFF",
+  "positive_fixed_table_sha256": "e42bbd3bab5c4dccd2508c8e48081c54838b174a4c2a5a5f9b83b9c45cf3c78a",
+  "reduced": true,
+  "row_signs": [
+    1,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1
+  ],
+  "same_sign_row_pairs": [
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        0,
+        2
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        0,
+        3
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 2,
+      "row_pair": [
+        0,
+        4
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 2,
+      "row_pair": [
+        0,
+        5
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        0,
+        7
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 0,
+      "row_pair": [
+        1,
+        6
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        2,
+        3
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        2,
+        4
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        2,
+        5
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 0,
+      "row_pair": [
+        2,
+        7
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 2,
+      "row_pair": [
+        3,
+        4
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 2,
+      "row_pair": [
+        3,
+        5
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        3,
+        7
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        4,
+        5
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        4,
+        7
+      ],
+      "triple_cosign_edges": 0
+    },
+    {
+      "cosign_column_edges": 4,
+      "row_pair": [
+        5,
+        7
+      ],
+      "triple_cosign_edges": 0
+    }
+  ],
+  "source_compact_square": "0123456714326705256074313706512442573610564102736075134273142056",
+  "source_core_sha256": "10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39",
+  "source_line_number": 108473,
+  "symbol_signs": [
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    1
+  ],
+  "total_cosign_column_edges": 48,
+  "total_triple_cosign_edges": 0
+}

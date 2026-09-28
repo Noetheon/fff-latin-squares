@@ -1,0 +1,4 @@
+FFT18 source-relative symbol-F/FFF distance >=35 cells.
+The <=34 support+degree model is SAT; its mask has 28 cells without a replacement domain.
+The exact <=34 support+degree+domain CNF is UNSAT with independently VERIFIED DRAT.
+No order-18 Latin/FFF table is constructed or globally excluded.

@@ -1,0 +1,68 @@
+{
+  "conditional_sharpness_example": {
+    "D": 20,
+    "field_size": 1024,
+    "materialized_full_table": false,
+    "ord_p_2": 10,
+    "p": 11,
+    "r": 3,
+    "required_strict_lower_bound": 360
+  },
+  "field": "F_3",
+  "ord_3_of_2": 2,
+  "physical_isotropic_row_control": {
+    "compact_recurrence_agrees_on_all_four_fibre_points": true,
+    "diagonal_exponent": 0,
+    "latin": true,
+    "odd_cycle_length": 3,
+    "order": 108,
+    "row_labels": [
+      0,
+      53
+    ],
+    "row_quotient_difference": [
+      2,
+      2,
+      2
+    ],
+    "starting_column": 0,
+    "twist_nonzero_cells": 1
+  },
+  "physical_three_view_scan": {
+    "line_pairs_checked_per_view": 5778,
+    "odd_witness_pair_counts": {
+      "col": 4984,
+      "row": 4984,
+      "sym": 4984
+    },
+    "pattern": "TTT"
+  },
+  "rank3_scalar_nonzero_isotropic_count_histogram": {
+    "2": 78,
+    "8": 494,
+    "14": 156,
+    "26": 1
+  },
+  "rank3_scalar_symmetric_forms_checked": 729,
+  "rank3_two_character_diagonal_nonzero_kernel": [],
+  "rank3_two_character_fibre_dimension": 4,
+  "rank3_two_character_matrix_bilinearity_checked": true,
+  "rank5_two_character_diagonal_nonzero_kernel": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "rank5_two_character_fibre_dimension": 4,
+  "scope": "finite checks of a matrix-bilinear ansatz; no FFF18 decision"
+}

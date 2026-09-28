@@ -1,0 +1,220 @@
+{
+  "finite_controls": {
+    "c165_parameter_isotopy_cases": 253,
+    "cases": 253,
+    "generic_fff_coefficients": [
+      [
+        13,
+        3
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        19,
+        7
+      ],
+      [
+        19,
+        11
+      ],
+      [
+        31,
+        5
+      ],
+      [
+        31,
+        25
+      ]
+    ],
+    "order18_affine_corner_cases": [
+      {
+        "a": 1,
+        "base_pattern": "FFT",
+        "traded_pattern": "FFT"
+      },
+      {
+        "a": 2,
+        "base_pattern": "TFF",
+        "traded_pattern": "TFF"
+      },
+      {
+        "a": 3,
+        "base_pattern": "FTT",
+        "traded_pattern": "FTT"
+      },
+      {
+        "a": 4,
+        "base_pattern": "TFT",
+        "traded_pattern": "TFT"
+      },
+      {
+        "a": 5,
+        "base_pattern": "FFT",
+        "traded_pattern": "FFT"
+      },
+      {
+        "a": 6,
+        "base_pattern": "TFT",
+        "traded_pattern": "TFT"
+      },
+      {
+        "a": 7,
+        "base_pattern": "FFT",
+        "traded_pattern": "FFT"
+      },
+      {
+        "a": 8,
+        "base_pattern": "TFF",
+        "traded_pattern": "TFF"
+      },
+      {
+        "a": 9,
+        "base_pattern": "FTF",
+        "traded_pattern": "FTF"
+      },
+      {
+        "a": 10,
+        "base_pattern": "TTF",
+        "traded_pattern": "TTF"
+      },
+      {
+        "a": 11,
+        "base_pattern": "FTF",
+        "traded_pattern": "FTF"
+      },
+      {
+        "a": 12,
+        "base_pattern": "TTF",
+        "traded_pattern": "TTF"
+      },
+      {
+        "a": 13,
+        "base_pattern": "FTT",
+        "traded_pattern": "FTT"
+      },
+      {
+        "a": 14,
+        "base_pattern": "TFF",
+        "traded_pattern": "TFF"
+      },
+      {
+        "a": 15,
+        "base_pattern": "FTF",
+        "traded_pattern": "FTF"
+      }
+    ],
+    "pattern_histogram": {
+      "FFF": 16,
+      "FFT": 22,
+      "FTF": 22,
+      "FTT": 33,
+      "TFF": 22,
+      "TFT": 33,
+      "TTF": 33,
+      "TTT": 72
+    }
+  },
+  "input_sha256": {
+    "proof_notes/fff_affine_corner_trade_pattern.md": "f0fcb51b618381be2a705c7674724647c9c6edfbeaf86f00d1e10d460629733a",
+    "proof_notes/fff_affine_prime_successor_bound.md": "a76f86dbbbe2e9a3ed38ff5b5d7b54e00ee4beec437d3eb3ed2d77f8356f2aac",
+    "proof_notes/fff_prime_cyclic_one_point_direction_rigidity.md": "8a73f021eefe9f1741794b45d61c5b82c99490514545ae3932bb803a9f3b4fca",
+    "repro_runs/2026-04-27_nonpower_fff_obstruction/scripts/validate_fff_table.py": "788be9ce3c7628d77b3df910f662f8f3de667fa0dd9214ece186c9193dd723c5",
+    "repro_runs/2026-09-23_cyclotomic_prolongation_literature_probe/results/cyclotomic_prolongation_probe.json": "ef8ae7a3a2916fedacd0b1de10e5e7dd0d53138b12c43780f8bc1a9257f9ab53",
+    "repro_runs/2026-09-23_fff_steiner20_construction_audit/data/FFF_order20.json": "6aa6d3cfd2dc6a1b3a72cfedde4c0c0357402ef36aa71f036bdb062f54fd5282",
+    "repro_runs/2026-09-24_fff_prime_cyclic_one_point_direction/results/p13_fixed_affine_3_sat_validation.json": "07a84d2aab816482e480cc5b17f1f580f69ec575e66ea3bbd03f01e9d5d15d0e",
+    "repro_runs/2026-09-27_fff20_all_two_cycle_row_trades/results/all_pair_trade_audit.json": "e6628fcdbdd5d108c2ff662171a08be0d38df6f871f8c9dfe02b431719490367",
+    "tests/test_fff_affine_corner_trade.py": "811b429dec51e18f402c43bc8c18dfced7dcb0d299d910122d23ec50f16af385"
+  },
+  "large_prime_corollary": {
+    "deduction": "at least one FFF table with exactly one intercalate for every such p",
+    "excluded_special_coefficients": 3,
+    "physically_scanned_at_large_p": false,
+    "premise": "C165: more than p/1000 affine FFF parameters for every prime p>=10^12"
+  },
+  "new_order20_mainclass_lower_bound": 1703,
+  "new_order40_mainclass_lower_bound_via_C250": 1450956,
+  "order18_unrestricted_existence_decided": false,
+  "positive_examples": {
+    "p13_a3": {
+      "independent_validator": {
+        "latin": true,
+        "odd_witness_pairs": {
+          "col": 0,
+          "row": 0,
+          "sym": 0
+        },
+        "pattern": "FFF"
+      },
+      "intercalates_base": 13,
+      "intercalates_traded": 1,
+      "latin": true,
+      "order": 14,
+      "pattern": "FFF"
+    },
+    "p19_a7": {
+      "independent_validator": {
+        "latin": true,
+        "odd_witness_pairs": {
+          "col": 0,
+          "row": 0,
+          "sym": 0
+        },
+        "pattern": "FFF"
+      },
+      "intercalates_base": 19,
+      "intercalates_traded": 1,
+      "latin": true,
+      "order": 20,
+      "pattern": "FFF"
+    }
+  },
+  "prior_C252_comparison": {
+    "count_with_one_intercalate": 0,
+    "intercalate_histogram": {
+      "19": 1,
+      "190": 1,
+      "538": 6,
+      "540": 18,
+      "542": 66,
+      "544": 76,
+      "546": 106,
+      "548": 140,
+      "550": 171,
+      "552": 139,
+      "554": 97,
+      "556": 168,
+      "558": 99,
+      "560": 65,
+      "562": 23,
+      "564": 66,
+      "566": 23,
+      "568": 25,
+      "570": 37,
+      "572": 59,
+      "574": 57,
+      "576": 43,
+      "578": 19,
+      "580": 41,
+      "590": 2,
+      "592": 8,
+      "594": 12,
+      "596": 21,
+      "598": 24,
+      "600": 22,
+      "602": 14,
+      "604": 21,
+      "612": 1,
+      "628": 3,
+      "630": 6,
+      "632": 6,
+      "634": 6,
+      "636": 9,
+      "676": 1
+    },
+    "minimum_intercalates": 19,
+    "representatives_replayed": 1702
+  },
+  "theorem_status": "rigorously proved in separate proof note"
+}

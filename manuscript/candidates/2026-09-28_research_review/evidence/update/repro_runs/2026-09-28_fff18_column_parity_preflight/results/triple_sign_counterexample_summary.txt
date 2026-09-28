@@ -1,0 +1,3 @@
+Frozen core line 108473: Latin=True, reduced=True, FFF=True, 84 two-line permutations checked.
+Same-sign row pairs: 16; co-sign column edges: 48; triple co-sign edges: 0.
+Positive fixed FFF8 control from line 108473; negative fixed FFF8 control from line 46.

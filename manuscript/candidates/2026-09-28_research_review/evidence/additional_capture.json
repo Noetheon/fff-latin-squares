@@ -1,0 +1,61 @@
+{
+  "cutoff": "C271; intake 2026-09-28T10:24:49Z",
+  "files": [
+    {
+      "bytes": 19365,
+      "sha256": "8accd03653d5e76c205f4b627eeab32ce4c51bf5201531b137dec5b21d8dd4f9",
+      "snapshot": "evidence/data/affine_prime_controls.json"
+    },
+    {
+      "bytes": 1735,
+      "sha256": "8b71d6ecaa6ab86a806a0660529b404d8f3667db2b58b82bf5c72fed010fa416",
+      "snapshot": "evidence/data/order12_first.json"
+    },
+    {
+      "bytes": 1522,
+      "sha256": "0b6be61afd07634d5724868529d76fe0fa8e5a2526a33b2f0034c01c54593e1a",
+      "snapshot": "evidence/data/order12_preferred.json"
+    },
+    {
+      "bytes": 548,
+      "sha256": "1bd542fd1d9bc0e2bc0e569f08ebb70da4a11cef78b6e106f8a63f8fad0eb11d",
+      "snapshot": "evidence/data/order14.csv"
+    },
+    {
+      "bytes": 3528,
+      "sha256": "3755fd977705b80a398b60844d1574035cbf10222268af8013becee22d0f76df",
+      "snapshot": "evidence/data/order36_seed60322.csv"
+    },
+    {
+      "bytes": 3528,
+      "sha256": "4068ef5369f537980272ca63ef88e18d27eafa242b020c1bb984d74d1c70bfe5",
+      "snapshot": "evidence/data/order36_seed60324.csv"
+    },
+    {
+      "bytes": 36578,
+      "sha256": "6ed73d01d072cd1e9be44ee78645ea98e562ab0986684b793ac6619c8b154f03",
+      "snapshot": "evidence/data/order8_pattern_controls.json"
+    },
+    {
+      "bytes": 96278,
+      "sha256": "a910c3e28652d31ccc60a396798d22106b6792d09cad45466da735621d5d2e8d",
+      "snapshot": "evidence/data/order98.json"
+    },
+    {
+      "bytes": 137200,
+      "sha256": "ef8ae7a3a2916fedacd0b1de10e5e7dd0d53138b12c43780f8bc1a9257f9ab53",
+      "snapshot": "evidence/data/quadratic_sources.json"
+    },
+    {
+      "bytes": 7129,
+      "sha256": "6aa6d3cfd2dc6a1b3a72cfedde4c0c0357402ef36aa71f036bdb062f54fd5282",
+      "snapshot": "evidence/data/steiner20.json"
+    },
+    {
+      "bytes": 17166,
+      "sha256": "a76f86dbbbe2e9a3ed38ff5b5d7b54e00ee4beec437d3eb3ed2d77f8356f2aac",
+      "snapshot": "evidence/proofs/fff_affine_prime_successor_bound.md"
+    }
+  ],
+  "scope": "Selected public evidence only; narrower than the private capture. No machine logs, environment snapshots, private registers or raw archives. Capture inventories are derived metadata, not rewritten scientific records."
+}

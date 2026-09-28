@@ -1,0 +1,7 @@
+Scalar bilinear lift boundary: finite controls
+F3^2 anisotropic scalar forms: 6 / 27
+F3^3 anisotropic scalar forms: 0 / 729
+Z/9Z: d=3 is isotropic for all 9 forms.
+Physical F3^3 x GF(4) control: row2 fibre label 3 gives a 3-cycle; other tested labels give 6-cycles from the selected starting point.
+All 729 rank-three forms have an independently reconstructed physical odd row cycle under the fixed nonzero twist.
+No statement about unrestricted order-18 FFF existence.

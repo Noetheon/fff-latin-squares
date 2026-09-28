@@ -1,0 +1,67 @@
+{
+  "arbitrary_order18_fff_decided": false,
+  "c213_artifact_sha256": {
+    "base_cnf": "211881ad452447bdb15f5c0613e76e8dfb5e4a10c25d937bfa61c39b180dcb48",
+    "case_cnf": "23982e14c13ab1786328ae9ff7875643971071bf1f215e9231aee97320d59e8a",
+    "checker_log": "311d2948e14bc23f4877f5fe0c900781621d2a41d070a9dbca0b1eb167a052ac",
+    "drat": "6bd059f2f495e6e93a5dd551abe5ca7e60a75dd403db3ff9b90dd295a1cb7817"
+  },
+  "c213_forced_selector": 6,
+  "c213_proof_checked": true,
+  "c213_record_sha256": "f644569aef4802b33816c72a1613fca88fdb294ea9037eace3daa427e46d5edc",
+  "exact_model_metadata_sha256": "2571952554f6dbbbc7af5519acfcc05544b062e8e8d7a9ccb0f0dd291a62ce92",
+  "forbidden_neighbours_per_map": {
+    "24": 432
+  },
+  "forbidden_pair_list_sha256": "c49e865cc101d02c20ac141d098f06eaa54d7af85b0001c0d618eeb2abf9df9a",
+  "identity_forbidden_selectors": [
+    6,
+    9,
+    15,
+    17,
+    19,
+    25,
+    41,
+    45,
+    67,
+    73,
+    115,
+    121,
+    159,
+    161,
+    198,
+    237,
+    249,
+    281,
+    303,
+    305,
+    345,
+    377,
+    390,
+    429
+  ],
+  "inverse_class_pair": [
+    2,
+    3
+  ],
+  "orbit_classification_sha256": "08a375bafe446bfab5a76d3503269e21587aae544791c93801b64e02bcb6e937",
+  "prior_projection_control": {
+    "exact_two": true,
+    "forbidden_relative_pair_count": 0,
+    "is_physical_row_f_witness": false,
+    "label": "cadical_triangle_60s_status.json",
+    "selected_map_count": 18
+  },
+  "quotient_map_count": 432,
+  "scope": "exact complete one-view AGL(2,3) pair-block row-F family only",
+  "unipotent_class_inverse_closed": true,
+  "unipotent_class_size": 24,
+  "unordered_forbidden_selector_pair_count": 5184,
+  "unresolved_logical_case_representatives": [
+    1,
+    2,
+    4,
+    5,
+    32
+  ]
+}

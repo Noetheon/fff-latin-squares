@@ -1,0 +1,15 @@
+{
+  "distinct_states_checked": 1001,
+  "feasible_cases": 19019,
+  "first_nonprincipal_feasible": null,
+  "global_order18_decision": false,
+  "intercalates_checked": 638024,
+  "maximum_pasch_moves": 37,
+  "minimum_pasch_moves": 6,
+  "nonprincipal_feasible_cases": 0,
+  "principal_feasible_cases": 19019,
+  "scope": "deterministic bounded Pasch walk from one frozen STS19; not an exhaustive STS19 census",
+  "seed": 20260927,
+  "states_checked": 1001,
+  "steps_requested": 1000
+}

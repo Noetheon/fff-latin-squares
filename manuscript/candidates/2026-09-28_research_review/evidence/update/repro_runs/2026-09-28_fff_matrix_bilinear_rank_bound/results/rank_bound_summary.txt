@@ -1,0 +1,8 @@
+Matrix-bilinear fibre-rank finite controls
+F_3^3 scalar symmetric forms: 729/729 have a nonzero isotropic vector.
+Two GF(4) characters on F_3^3: zero is the only common zero; D=4.
+Two GF(4) characters on F_3^5: exactly two nonzero common zeros; D=4.
+Physical Latin order 108 control: row pair [0, 53] has a 3-cycle.
+The compact recurrence agrees with the physical row map on every point over one quotient orbit.
+Physical all-pair three-view pattern: TTT; 5778 pairs per view.
+These controls do not prove the all-rank theorem or decide FFF order 18.

@@ -1,0 +1,6 @@
+Nonprincipal Steiner-contraction symmetrization boundary
+For each output, all 18 possible row-to-column maps were checked.
+Untraded source: symmetrizable = yes.
+One-Pasch parent: symmetrizable = no; direct row-view witness = yes.
+Therefore C259 does not extend to all nonprincipal contractions.
+No FFF18 candidate or global order-18 decision.

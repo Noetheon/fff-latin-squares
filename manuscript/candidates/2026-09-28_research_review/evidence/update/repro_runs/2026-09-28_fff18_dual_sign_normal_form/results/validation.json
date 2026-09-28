@@ -1,0 +1,181 @@
+{
+  "fff8_control_examples": [
+    {
+      "col1_sign": 1,
+      "largest_row_sign_class_size": 8,
+      "line_number": 1,
+      "normalized_table_sha256": "c05f85fe303a427132c25c178abd134cd2cde07bd221cf35d34488f57780b855",
+      "qualifying_pairs_in_largest_sign_class": 28,
+      "row1_partition": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "row1_sign": 1,
+      "row1_zero_cycle_length": 2,
+      "source_column_pair": [
+        0,
+        1
+      ],
+      "source_row_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "col1_sign": 1,
+      "largest_row_sign_class_size": 6,
+      "line_number": 281470,
+      "normalized_table_sha256": "9f0e40da297f928ae856fd6f1a60a54941111678c44ae3db3f3ab73200c4e645",
+      "qualifying_pairs_in_largest_sign_class": 12,
+      "row1_partition": [
+        4,
+        4
+      ],
+      "row1_sign": 1,
+      "row1_zero_cycle_length": 4,
+      "source_column_pair": [
+        3,
+        0
+      ],
+      "source_row_pair": [
+        2,
+        3
+      ]
+    }
+  ],
+  "fff8_frozen_representatives_checked": 230,
+  "fff8_min_qualifying_pairs": 2,
+  "inputs_sha256": {
+    "repro_runs/2026-04-26_order8_core/results/order8_recheck_fullscan_results.json": "10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39",
+    "repro_runs/2026-04-26_small_order_witness_reruns/scripts/latin_trade_search.py": "242e06957ceb8f949fc7379a6542b8dde06ced0657e5aaf09d159cf559ace1e7",
+    "repro_runs/2026-09-23_fff_nonpower_witness_intake/data/order14.csv": "1bd542fd1d9bc0e2bc0e569f08ebb70da4a11cef78b6e106f8a63f8fad0eb11d",
+    "repro_runs/2026-09-23_fff_nonpower_witness_intake/scripts/validate_nonpower_witnesses.py": "a1839972dbed2a55f23660a7acd35715a2d49b8afdfa845fa38eaac12bc31ab6",
+    "repro_runs/2026-09-25_fff18_semiregular_anchors/results/n12_semiregular_fff_table.json": "69c0dfc895d2d04c445682c1461992de1c51b9d1a443271d8ce9547d5765d734",
+    "repro_runs/2026-09-26_fff18_same_sign_row1_split/scripts/generate_and_check.py": "e66544711413cee8fb0eea00e60994ca407df89642a5f65b1eb4131962e31598"
+  },
+  "n18_dual_sign_canonical_cases": 33,
+  "n18_fff_status": "open",
+  "n18_largest_row_sign_class_lower_bound": 9,
+  "n18_minimum_co_sign_row_pairs": 16,
+  "n18_positive_row1_partitions": 14,
+  "n6_existing_c243_negative_control": {
+    "old_col1_sign": -1,
+    "old_row1_partition": [
+      4,
+      2
+    ],
+    "table": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        4,
+        5,
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        5,
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        3,
+        0,
+        1,
+        4,
+        5,
+        2
+      ],
+      [
+        4,
+        2,
+        3,
+        5,
+        0,
+        1
+      ],
+      [
+        5,
+        3,
+        4,
+        2,
+        1,
+        0
+      ]
+    ]
+  },
+  "n6_existing_c243_normalizer_col1_signs": {
+    "negative": 420,
+    "positive": 516
+  },
+  "n6_reduced_unique_latin": 9408,
+  "n6_rowcol_f_normalized": 936,
+  "n6_rowcol_f_tables": 936,
+  "n6_sign_edge_min_qualifying_pairs": 3,
+  "other_fff_controls": {
+    "fff12": {
+      "after_pattern": "FFF",
+      "before_pattern": "FFF",
+      "normalization": {
+        "col1_sign": 1,
+        "largest_row_sign_class_size": 12,
+        "normalized_table_sha256": "36886c5f463215cfeb208a474ce2f1fac814af09740bcfd8eda726a770bd1db2",
+        "qualifying_pairs_in_largest_sign_class": 66,
+        "row1_partition": [
+          8,
+          4
+        ],
+        "row1_sign": 1,
+        "row1_zero_cycle_length": 4,
+        "source_column_pair": [
+          1,
+          2
+        ],
+        "source_row_pair": [
+          0,
+          1
+        ]
+      },
+      "source_sha256": "69c0dfc895d2d04c445682c1461992de1c51b9d1a443271d8ce9547d5765d734"
+    },
+    "fff14": {
+      "after_pattern": "FFF",
+      "before_pattern": "FFF",
+      "normalization": {
+        "col1_sign": 1,
+        "largest_row_sign_class_size": 13,
+        "normalized_table_sha256": "b548cf173952f33a16dd3c4e34cce9bcb9053744c7c139a6daa426ae52de56f1",
+        "qualifying_pairs_in_largest_sign_class": 78,
+        "row1_partition": [
+          10,
+          4
+        ],
+        "row1_sign": 1,
+        "row1_zero_cycle_length": 10,
+        "source_column_pair": [
+          1,
+          4
+        ],
+        "source_row_pair": [
+          1,
+          2
+        ]
+      },
+      "source_sha256": "1bd542fd1d9bc0e2bc0e569f08ebb70da4a11cef78b6e106f8a63f8fad0eb11d"
+    }
+  },
+  "scope": "source-independent sign-edge normal form; no order18 SAT/UNSAT claim"
+}

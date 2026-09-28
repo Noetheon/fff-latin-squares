@@ -1,0 +1,15 @@
+Three-view bad-pair graph distance audit
+General bound: d_H(FFF,T) >= max_view 2*(n-alpha(G_view(T))).
+FFT18 symbol graph: isolated 0 plus C17(1,8).
+Seventeen translated triangles, each vertex in three: alpha(C17)<=5.
+An independent five-set exists; total symbol alpha=6.
+FFT18 graph-derived bound: 24 cells (proof plus exact source scan).
+Earlier same-source disjoint odd-cycle supports give 32 cells: stronger.
+Midpoint18 control: K17 plus isolated vertex, bound 32 (agrees with C236).
+FFF8 positive control: empty bad-pair graphs, bound 0.
+Unrestricted order-18 existence: OPEN. Goal: ACTIVE.
+
+source	row_edges	col_edges	sym_edges	bound
+fft18	0	0	34	24
+midpoint18	0	0	136	32
+fff8	0	0	0	0

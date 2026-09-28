@@ -1,0 +1,130 @@
+{
+  "encoding": "C245 position-value channel without reduced units plus signed edit counter",
+  "jobs": [
+    {
+      "candidate": {
+        "distance": 0,
+        "fff": true,
+        "independent_pattern": "FFF",
+        "latin": true,
+        "odd_pair_counts": [
+          0,
+          0,
+          0
+        ],
+        "pattern": "FFF",
+        "sha256": "1367d169d89ac936e200a30301a8807da4e46dd037861baa4a7c5ee0fb31d487"
+      },
+      "checker_sha256": null,
+      "cnf": {
+        "clauses": 27220,
+        "sha256": "147b32722763dff1481984737e4540812605f1e04166eaf2d37c19f65b4b3fd1",
+        "size_bytes": 436429,
+        "variables": 1856
+      },
+      "elapsed_seconds": 0.007,
+      "job": "fff8_k0_unrestricted",
+      "max_changes": 0,
+      "proof_checked": false,
+      "proof_sha256": null,
+      "removed_reduced_units": 16,
+      "result": "sat",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source": "fff8",
+      "timeout_seconds": 30,
+      "unrestricted_labels": true
+    },
+    {
+      "candidate": null,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+      "cnf": {
+        "clauses": 745335,
+        "sha256": "2afb735360ec1bf39674ee9a6c3512eeb1ffee316f44cf81a37733fec46bfa0e",
+        "size_bytes": 14197116,
+        "variables": 22356
+      },
+      "elapsed_seconds": 0.129,
+      "job": "fft18_k0_unrestricted",
+      "max_changes": 0,
+      "proof_checked": true,
+      "proof_sha256": "9f645104c84bf4a99f3e1d52b7d8753b21920a396c0fdb210dc203d5d222876d",
+      "removed_reduced_units": 36,
+      "result": "unsat",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source": "fft18",
+      "timeout_seconds": 60,
+      "unrestricted_labels": true
+    },
+    {
+      "candidate": null,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+      "cnf": {
+        "clauses": 755739,
+        "sha256": "5eb4b531d5316d2d4bacaa18b40a30c7a3819e1dca9bf3d8c213d7dcf1684ca1",
+        "size_bytes": 14379595,
+        "variables": 27728
+      },
+      "elapsed_seconds": 22.659,
+      "job": "fft18_k16_unrestricted_proof",
+      "max_changes": 16,
+      "proof_checked": true,
+      "proof_sha256": "6dac098ba1277b87caf42b12014760c47c5f3fe9ab58c788d40cabfad514abe5",
+      "removed_reduced_units": 36,
+      "result": "unsat",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source": "fft18",
+      "timeout_seconds": 90,
+      "unrestricted_labels": true
+    },
+    {
+      "candidate": null,
+      "checker_sha256": null,
+      "cnf": {
+        "clauses": 756963,
+        "sha256": "d58cb8d80050e7e734025fcd96a7a4ff3e484f2bab2b901cce7e2fc186851413",
+        "size_bytes": 14400945,
+        "variables": 28341
+      },
+      "elapsed_seconds": 53.261,
+      "job": "fft18_k18_unrestricted",
+      "max_changes": 18,
+      "proof_checked": false,
+      "proof_sha256": null,
+      "removed_reduced_units": 36,
+      "result": "unsat",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source": "fft18",
+      "timeout_seconds": 60,
+      "unrestricted_labels": true
+    },
+    {
+      "candidate": null,
+      "checker_sha256": null,
+      "cnf": {
+        "clauses": 758179,
+        "sha256": "88f862eb6ed9b39aa7058bef683e02d58fa9327e33253a7b1dae80f1f06af261",
+        "size_bytes": 14422159,
+        "variables": 28950
+      },
+      "elapsed_seconds": 60.013,
+      "job": "fft18_k20_unrestricted",
+      "max_changes": 20,
+      "proof_checked": false,
+      "proof_sha256": null,
+      "removed_reduced_units": 36,
+      "result": "timeout",
+      "solver": "CaDiCaL",
+      "solver_version": "3.0.0",
+      "source": "fft18",
+      "timeout_seconds": 60,
+      "unrestricted_labels": true
+    }
+  ],
+  "scope": "exact FFF Hamming neighborhood of one labelled FFT18 source",
+  "source_sha256": "1ed0abb7bae546375fe9595f408b7ede9c95fb02bae582e99d80ebbe4a9764d8",
+  "unrestricted_order18_decided": false
+}

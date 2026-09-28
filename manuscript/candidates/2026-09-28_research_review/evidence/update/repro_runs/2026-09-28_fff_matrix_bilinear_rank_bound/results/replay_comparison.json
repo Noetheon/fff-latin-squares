@@ -1,0 +1,9 @@
+{
+  "exact_match": true,
+  "ignored_fields": [],
+  "outputs_sha256": {
+    "rank_bound_controls.json": "fd12c0a6d622c4410d1b9cdbd5381c7974fe1491aaa7f6bfe8d58c19da60d644",
+    "rank_bound_summary.txt": "8e0e1b26ad4d28abe58734b5dfa81adfe6d5832ed53354cd7956085bd5b68f6d"
+  },
+  "scope": "finite rank-bound controls only"
+}

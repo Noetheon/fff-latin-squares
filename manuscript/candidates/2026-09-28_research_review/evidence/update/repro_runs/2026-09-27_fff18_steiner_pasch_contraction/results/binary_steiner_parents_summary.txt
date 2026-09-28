@@ -1,0 +1,10 @@
+Binary-quotient Steiner20 one-Pasch contraction screen
+Source: C2 x affine-plane Steiner10; Latin/Steiner product checked.
+432 affine automorphisms checked on all 400 cells each.
+84 single Pasch moves form orbits of sizes 36,12,36.
+baseline: feasible=100, nonprincipal=81, completions=51200, row-rejected=51200, FFF=0
+pasch_00: feasible=64, nonprincipal=45, completions=15488, row-rejected=15488, FFF=0
+pasch_03: feasible=100, nonprincipal=81, completions=51200, row-rejected=51200, FFF=0
+pasch_16: feasible=64, nonprincipal=45, completions=15488, row-rejected=15488, FFF=0
+All 84 immediate neighbors are covered by source automorphisms.
+No unrestricted order-18 conclusion follows.

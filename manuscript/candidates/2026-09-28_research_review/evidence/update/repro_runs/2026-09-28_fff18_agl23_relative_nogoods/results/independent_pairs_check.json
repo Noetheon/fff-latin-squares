@@ -1,0 +1,8 @@
+{
+  "byte_match": true,
+  "independent_affine_map_count": 432,
+  "independent_unipotent_map_count": 24,
+  "independent_unordered_forbidden_pair_count": 5184,
+  "pair_list_sha256": "c49e865cc101d02c20ac141d098f06eaa54d7af85b0001c0d618eeb2abf9df9a",
+  "scope": "AGL(2,3) finite combinatorics only, not an FFF18 decision"
+}

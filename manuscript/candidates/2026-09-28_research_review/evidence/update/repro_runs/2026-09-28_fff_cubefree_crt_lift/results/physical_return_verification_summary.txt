@@ -1,0 +1,6 @@
+Direct physical verification of every cubefree CRT return:
+N=9: 324 returns in three views, two line-label pairs and two start fibres, all agree
+N=15: 675 returns in three views, two line-label pairs and two start fibres, all agree
+N=45: 17010 returns in three views, two line-label pairs and two start fibres, all agree
+N=75: 73125 returns in three views, two line-label pairs and two start fibres, all agree
+Compact certificate control only; order 18 remains open.

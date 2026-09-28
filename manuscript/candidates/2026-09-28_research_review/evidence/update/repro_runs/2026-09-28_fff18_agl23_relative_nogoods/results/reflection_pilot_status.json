@@ -1,0 +1,32 @@
+{
+  "arbitrary_order18_fff_decided": false,
+  "base_cnf_sha256": "211881ad452447bdb15f5c0613e76e8dfb5e4a10c25d937bfa61c39b180dcb48",
+  "clauses": 835598,
+  "cnf_local_ignored": ".audit/local/fff18_agl23_relative_nogoods/selector1_relative_nogoods.cnf",
+  "cnf_sha256": "69fc9af380a20daffc205cd1f0216447c10b06ef73f1b89517949c56a4dd6df0",
+  "command": [
+    "/opt/homebrew/bin/cadical",
+    "-t",
+    "60",
+    "-w",
+    ".audit/local/fff18_agl23_relative_nogoods/selector1_relative_nogoods.model",
+    ".audit/local/fff18_agl23_relative_nogoods/selector1_relative_nogoods.cnf"
+  ],
+  "elapsed_seconds": 60.016,
+  "forbidden_pair_list_sha256": "c49e865cc101d02c20ac141d098f06eaa54d7af85b0001c0d618eeb2abf9df9a",
+  "forced_selector": 1,
+  "model_local_ignored": ".audit/local/fff18_agl23_relative_nogoods/selector1_relative_nogoods.model",
+  "model_sha256": "8fba55cea0f98be36fab7b65349dda867a58aabfcf974a46098f5123830ac5cb",
+  "proof_checked": false,
+  "relative_nogoods": 5184,
+  "scope": "exact one-view AGL(2,3) row-F, forced reflection selector 1",
+  "solver": "CaDiCaL",
+  "solver_binary_sha256": "c7b63954503d7fb1c8532efa37689715398683b5dea59d9bf6d80f06169e09b3",
+  "solver_log_local_ignored": ".audit/local/fff18_agl23_relative_nogoods/selector1_relative_nogoods.solver.log",
+  "solver_log_sha256": "b2a45365cce17c9f5e736a994bd7d42a9a1af4bfa1f557210ed25ff24fdd44a1",
+  "solver_returncode": 0,
+  "solver_version": "3.0.0",
+  "status": "timeout_or_unknown",
+  "timeout_seconds": 60,
+  "variables": 88317
+}

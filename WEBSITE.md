@@ -7,12 +7,12 @@ third-party fonts, external scripts or analytics.
 
 ## Paper Update: 27 September 2026
 
-The current PDFs and all four page previews now use the sealed C251 edition:
-30-page compact and 72-page full report. The site states that the former C38
+The current PDFs and all four page previews use the C271 edition:
+38-page compact and 80-page full report. The site states that the former C38
 conjecture is disproved by the explicit order-12 witness and that unrestricted
-order 18 remains open. The 514-class source bound is labelled a lower bound,
+order 18 remains open. The 1703-class source bound is labelled a lower bound,
 not a census. The cutoff excludes later ongoing working results.
-See the [dated release review](verification/RELEASE_2026-09-27.md).
+See the [dated release review](verification/RELEASE_2026-09-28.md).
 
 The sections below retain the history of the earlier design changes. Their
 old conjecture wording describes the earlier edition, not current evidence.

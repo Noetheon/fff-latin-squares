@@ -1,0 +1,4 @@
+One canonical (16+2, zero-cycle 16) unrestricted FFF18 case.
+baseline: timeout in 45.114 s
+column1_positive: timeout in 45.032 s
+A single case or timeout cannot decide FFF18.

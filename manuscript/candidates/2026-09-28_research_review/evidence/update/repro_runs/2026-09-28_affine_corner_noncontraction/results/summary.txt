@@ -1,0 +1,6 @@
+Generic affine corner-traded tables cannot be fixed-remainder contracted along their unique intercalate.
+Order 14 (p=13,a=3): 12 empty holes of 24; FFF source independently checked.
+Order 20 (p=19,a=7): 18 empty holes of 36; FFF source independently checked.
+Generic small-prime formula controls: 216 cases through p=43.
+The general noncontraction result follows from the proof, not the finite sweep.
+No unrestricted FFF order-18 conclusion.

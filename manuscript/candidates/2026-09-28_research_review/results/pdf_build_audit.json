@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "pdfs": [
+    {
+      "name": "FFF_Latin_Squares_Long_2026-09-28_Research_Review.pdf",
+      "bytes": 877185,
+      "sha256": "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868",
+      "final_tex_warnings": [],
+      "repeat_build_byte_identical": null
+    },
+    {
+      "name": "FFF_Latin_Squares_Compact_2026-09-28_Research_Review.pdf",
+      "bytes": 652974,
+      "sha256": "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366",
+      "final_tex_warnings": [],
+      "repeat_build_byte_identical": null
+    }
+  ],
+  "finite_repeat_semantic_match": null,
+  "finite_comparison_ignored_fields": {
+    "snapshot_audit.json": [
+      "elapsed_seconds"
+    ],
+    "update_audit.json": [
+      "elapsed_seconds"
+    ],
+    "crt_update_audit.json": [
+      "runtime_seconds"
+    ]
+  },
+  "scope": "Build diagnostics and byte reproducibility; visual and mathematical review separate."
+}

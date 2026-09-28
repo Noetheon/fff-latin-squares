@@ -1,0 +1,116 @@
+{
+  "order18_cuts": 8298,
+  "six_position_classification": {
+    "canonical_mixed_orientation_types": {
+      "00": "2+2+1+1",
+      "01": "5+1",
+      "10": "5+1",
+      "11": "3+3"
+    },
+    "distinct_order3_permutations": 40,
+    "even_cycle_derangements": 0,
+    "product_cycle_type_histogram": {
+      "1+1+1+1+1+1": 1,
+      "2+2+1+1": 9,
+      "3+1+1+1": 2,
+      "3+3": 10,
+      "5+1": 18
+    }
+  },
+  "tables": {
+    "fff12": {
+      "cuts_per_line_orbit": 34,
+      "fff": true,
+      "input_path": "repro_runs/2026-09-25_fff18_semiregular_anchors/results/n12_semiregular_fff_table.json",
+      "input_sha256": "69c0dfc895d2d04c445682c1461992de1c51b9d1a443271d8ce9547d5765d734",
+      "order": 12,
+      "pattern": "FFF",
+      "views": {
+        "col": {
+          "component_profiles": {
+            "4": 4
+          },
+          "failing_connectivity_cuts": 0,
+          "odd_line_pairs": 0
+        },
+        "row": {
+          "component_profiles": {
+            "4": 4
+          },
+          "failing_connectivity_cuts": 0,
+          "odd_line_pairs": 0
+        },
+        "sym": {
+          "component_profiles": {
+            "4": 4
+          },
+          "failing_connectivity_cuts": 0,
+          "odd_line_pairs": 0
+        }
+      }
+    },
+    "ftf18": {
+      "cuts_per_line_orbit": 461,
+      "fff": false,
+      "input_path": "repro_runs/2026-09-27_fff18_order9_column_cardinality/results/union_trade_best_normalized_table.json",
+      "input_sha256": "2a1a5fb2192f833a288f011f3850aac9f6145db7df68026a2e82f5483495fdef",
+      "order": 18,
+      "pattern": "FTF",
+      "views": {
+        "col": {
+          "component_profiles": {
+            "6": 6
+          },
+          "failing_connectivity_cuts": 0,
+          "odd_line_pairs": 18
+        },
+        "row": {
+          "component_profiles": {
+            "6": 6
+          },
+          "failing_connectivity_cuts": 0,
+          "odd_line_pairs": 0
+        },
+        "sym": {
+          "component_profiles": {
+            "6": 6
+          },
+          "failing_connectivity_cuts": 0,
+          "odd_line_pairs": 0
+        }
+      }
+    },
+    "group18": {
+      "cuts_per_line_orbit": 461,
+      "fff": false,
+      "input_path": "generated:isotope_of_C3xC6",
+      "input_sha256": "a463266bc8fec250361570f00e9883a3497d95b6639695903d31b497345bea5c",
+      "order": 18,
+      "pattern": "TTT",
+      "views": {
+        "col": {
+          "component_profiles": {
+            "1+1+1+1+1+1": 6
+          },
+          "failing_connectivity_cuts": 186,
+          "odd_line_pairs": 72
+        },
+        "row": {
+          "component_profiles": {
+            "1+1+1+1+1+1": 6
+          },
+          "failing_connectivity_cuts": 186,
+          "odd_line_pairs": 72
+        },
+        "sym": {
+          "component_profiles": {
+            "1+1+1+1+1+1": 6
+          },
+          "failing_connectivity_cuts": 186,
+          "odd_line_pairs": 72
+        }
+      }
+    }
+  },
+  "theorem_scope": "free diagonal C3 autotopism and an F view"
+}

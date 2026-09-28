@@ -1,0 +1,141 @@
+{
+  "all_output_tables_physically_scanned": false,
+  "burnside_counts": [
+    {
+      "affine_coloring_orbits": 132355,
+      "affine_group_order": 2,
+      "cycle_count_histogram": {
+        "1": 1,
+        "2": 1
+      },
+      "dimension": 1,
+      "input_class_count": 514,
+      "linear_group_order": 1,
+      "multiset_bound": 132355,
+      "outer_order": 2
+    },
+    {
+      "affine_coloring_orbits": 2942384005,
+      "affine_group_order": 24,
+      "cycle_count_histogram": {
+        "1": 6,
+        "2": 11,
+        "3": 6,
+        "4": 1
+      },
+      "dimension": 2,
+      "input_class_count": 514,
+      "linear_group_order": 6,
+      "multiset_bound": 2942384005,
+      "outer_order": 4
+    },
+    {
+      "affine_coloring_orbits": 3625556867870760586,
+      "affine_group_order": 1344,
+      "cycle_count_histogram": {
+        "2": 860,
+        "4": 441,
+        "6": 42,
+        "8": 1
+      },
+      "dimension": 3,
+      "input_class_count": 514,
+      "linear_group_order": 168,
+      "multiset_bound": 127564036708401865,
+      "outer_order": 8
+    },
+    {
+      "affine_coloring_orbits": 73586711420426563009097417622853741216,
+      "affine_group_order": 322560,
+      "cycle_count_histogram": {
+        "10": 840,
+        "12": 210,
+        "16": 1,
+        "2": 136128,
+        "4": 121344,
+        "6": 53872,
+        "8": 10165
+      },
+      "dimension": 4,
+      "input_class_count": 514,
+      "linear_group_order": 20160,
+      "multiset_bound": 1429479460926722276944455652465,
+      "outer_order": 16
+    }
+  ],
+  "independent_small_coloring_orbit_counts": {
+    "d2_m3": 15,
+    "d3_m2": 10
+  },
+  "input_sha256": {
+    "repro_runs/2026-09-23_fff_nonpower_witness_intake/scripts/validate_nonpower_witnesses.py": "a1839972dbed2a55f23660a7acd35715a2d49b8afdfa845fa38eaac12bc31ab6",
+    "repro_runs/2026-09-26_fff_binary_quotient_descent/results/dyadic_class_growth_audit.json": "ef528b352cc05068211100d6d599b574df544bcec6fc15a7d1be752bab64cf3e",
+    "repro_runs/2026-09-26_fff_binary_quotient_descent/scripts/audit_dyadic_class_growth.py": "f38a73dc108e8e273d2beb7a055493f04faf7d36ee887a704d7348b98c717022",
+    "repro_runs/2026-09-26_fff_binary_quotient_rigidity/results/binary_quotient_rigidity_audit.json": "156b58c67bea9d4139827d42064d3b5b1f4254a37df71f9d0d25a998505bd011",
+    "repro_runs/2026-09-26_fff_binary_quotient_rigidity/scripts/audit_binary_quotient_rigidity.py": "70267e1f3b0f2cceca014dee69a803ea5e8f7a2f90f17a19785f617ab74d7af3"
+  },
+  "literature_priority_established": false,
+  "order18_decided": false,
+  "same_multiset_distinct_orbit_control": {
+    "class0_size": 4,
+    "orbits_disjoint": true,
+    "outer_dimension": 3,
+    "physical_examples": [
+      {
+        "class0_positions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "input_multiset": {
+          "0": 4,
+          "1": 4
+        },
+        "line_pairs_checked": 38160,
+        "name": "affine_plane_four",
+        "odd_pair_counts": {
+          "col": 0,
+          "row": 0,
+          "sym": 0
+        },
+        "order": 160,
+        "pattern": "FFF",
+        "quotient_blocks_checked": 64,
+        "spectrum_sha256": "1893b85874791428fdffec2227cceef2f178066aca0809d2a4d50ecdbcef672c",
+        "table_sha256": "947823f786f260475d21c2fb75022e89a3aea899d191cdd435dcbee631538803"
+      },
+      {
+        "class0_positions": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "input_multiset": {
+          "0": 4,
+          "1": 4
+        },
+        "line_pairs_checked": 38160,
+        "name": "affine_tetrahedron_four",
+        "odd_pair_counts": {
+          "col": 0,
+          "row": 0,
+          "sym": 0
+        },
+        "order": 160,
+        "pattern": "FFF",
+        "quotient_blocks_checked": 64,
+        "spectrum_sha256": "1893b85874791428fdffec2227cceef2f178066aca0809d2a4d50ecdbcef672c",
+        "table_sha256": "6cca5b5f93766f99d597036ede365980a48f14ddde4b5c8a717901dfe25ebd99"
+      }
+    ],
+    "plane_orbit_size": 14,
+    "same_three_view_cycle_spectrum": true,
+    "shared_cycle_spectrum_sha256": "1893b85874791428fdffec2227cceef2f178066aca0809d2a4d50ecdbcef672c",
+    "tetrahedron_orbit_size": 56
+  },
+  "same_orbit_explicit_isotopy_cells_checked": 25600,
+  "scope": "exact AGL orbit classification within chosen quotient-free row-fibred family",
+  "source_fff20_classes_freshly_rechecked": 514
+}

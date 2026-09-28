@@ -1,0 +1,118 @@
+{
+  "base_clause_assignment_checks": "all_pass",
+  "candidate_checks": [
+    {
+      "bad_column_pairs": 47,
+      "bad_pair_counts": {
+        "col": 47,
+        "row": 38,
+        "sym": 38
+      },
+      "index": 0,
+      "pattern": "TTT",
+      "table_sha256": "892debc4c5e32ef7afc3abf0757a2734141523d930473879ffde91e6fb330bd5"
+    },
+    {
+      "bad_column_pairs": 44,
+      "bad_pair_counts": {
+        "col": 44,
+        "row": 26,
+        "sym": 26
+      },
+      "index": 1,
+      "pattern": "TTT",
+      "table_sha256": "ec9e6351ea88b39cc55a2f40e328f97fdf63d62e76814eeb69121fadc91cf86d"
+    },
+    {
+      "bad_column_pairs": 66,
+      "bad_pair_counts": {
+        "col": 66,
+        "row": 38,
+        "sym": 38
+      },
+      "index": 2,
+      "pattern": "TTT",
+      "table_sha256": "dbcf787759195279932f9a3edbbadbd75306bbed356169958e31374f8317233c"
+    },
+    {
+      "bad_column_pairs": 48,
+      "bad_pair_counts": {
+        "col": 48,
+        "row": 42,
+        "sym": 36
+      },
+      "index": 3,
+      "pattern": "TTT",
+      "table_sha256": "17a930c9e072211555c6e9c4778904d0a98d6e97d364b01642c5353b1e85af97"
+    },
+    {
+      "bad_column_pairs": 56,
+      "bad_pair_counts": {
+        "col": 56,
+        "row": 20,
+        "sym": 20
+      },
+      "index": 4,
+      "pattern": "TTT",
+      "table_sha256": "b805773312f30278dca1dfe60ad773bee3c260e07dab5abee09e58e930cb54eb"
+    },
+    {
+      "bad_column_pairs": 48,
+      "bad_pair_counts": {
+        "col": 48,
+        "row": 36,
+        "sym": 42
+      },
+      "index": 5,
+      "pattern": "TTT",
+      "table_sha256": "8254a374baabf61d0acb4bc1b12196cabe0666218a0ada1b6d022a1aeb17eaf6"
+    },
+    {
+      "bad_column_pairs": 48,
+      "bad_pair_counts": {
+        "col": 48,
+        "row": 42,
+        "sym": 36
+      },
+      "index": 6,
+      "pattern": "TTT",
+      "table_sha256": "ea42ce96e6e82cf49ba4ff79f3851f43a769d9bf49d1961712e17145cec7a3ce"
+    },
+    {
+      "bad_column_pairs": 48,
+      "bad_pair_counts": {
+        "col": 48,
+        "row": 36,
+        "sym": 42
+      },
+      "index": 7,
+      "pattern": "TTT",
+      "table_sha256": "7c0eefaba1b7fee29edffb2a817a68dca4cc88d145a4b5d985a615495e80323b"
+    },
+    {
+      "bad_column_pairs": 66,
+      "bad_pair_counts": {
+        "col": 66,
+        "row": 38,
+        "sym": 38
+      },
+      "index": 8,
+      "pattern": "TTT",
+      "table_sha256": "a5e2c2d1e33e8a24dd0fbc0bc069bd966ee7364ddc3fa44b7db7ef8782f0cc61"
+    }
+  ],
+  "candidate_count": 9,
+  "candidate_patterns": {
+    "TTT": 9
+  },
+  "certificate_sha256": "e55121e88e15546e3db601cb417b100e1658aaab3f12bbc0054899819b0a75cb",
+  "cnf_sha256": "9404a2d6567b3f9bb756c654308fff049bd5a5718014b705a79a8f45d5b44ccb",
+  "every_retained_cut_physically_rederived": 1016,
+  "independent_scanner_sha256": "93a2f1ac045bc861007d35bb268c6505df2f7da32c70aece9364318a02fcea1b",
+  "physical_inverse_orientation_checks": "all_pass",
+  "scope": "fixed-source exact-distance-36 column-F necessary formula",
+  "source_bad_column_pairs": 18,
+  "source_disjoint_odd_cycle_supports": 36,
+  "source_sha256": "2a1a5fb2192f833a288f011f3850aac9f6145db7df68026a2e82f5483495fdef",
+  "supports_sha256": "5664fa5a08d39b91d6bef26834b4679f8a67c2f487711f78c9800fb3097ca3b7"
+}

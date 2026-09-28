@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "review_date": "2026-09-28",
+  "reviewer": "Codex visual inspection; internal AI review, not human peer review",
+  "documents": [
+    {
+      "name": "FFF_Latin_Squares_Long_2026-09-28_Research_Review.pdf",
+      "sha256": "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868",
+      "pages": 80,
+      "all_page_overviews_reviewed": true,
+      "detail_pages_reviewed": [
+        32,
+        33,
+        35,
+        68
+      ],
+      "reviewed_image_hashes": {
+        "Long_contact_01.jpg": "5d5a7118249a618cebc55eb831bbf3e0d7d5ff1025a053101e16a583423a40ba",
+        "Long_contact_02.jpg": "b2a8a5a25625a642af78bbad0bcf40c34e587802e3a0ffd3bb5f7419a783d226",
+        "Long_contact_03.jpg": "4e3afb5d7bb4ff354fd0bcb9e0633e92c48349ee80e15cf6e50e5ed7636fd9ff",
+        "Long_contact_04.jpg": "a092a593c58fd7e30efded3953921abb6eef3e781f2abafaa49a18e6d9442c55",
+        "Long_contact_05.jpg": "b289b9b3846bf4962ec563c5e509c3d58ebd219359f8632df18ea3b77482ec61",
+        "Long_contact_06.jpg": "195f87ce0e03f2a1444fce2382c774cd4197aca83f7aedf5b8725d0f84c10630",
+        "Long_contact_07.jpg": "745cdda8fdefc95b68e8617a6f69864549a912b8532da4cc5aadacc2972ae892",
+        "Long_detail-32.png": "1b7519df214b43dd1231b6c7e7af0bb61214ff318bf020a3c6f7cae2e406459c",
+        "Long_detail-33.png": "d2ce6302a7809c90ef45136e7331be7ab3cb0cdd18cdc6d6bca19c5b0b9ca421",
+        "Long_detail-35.png": "e831b0dd1b0bdee6dac7a6f8daaf44c551ab90eed85468b59ddf2ed17037cc31",
+        "Long_detail-68.png": "8aa5c9be5c1db268ee101684bfeeba149eebce6e7bc2979dbdfe569cbf12a5aa"
+      }
+    },
+    {
+      "name": "FFF_Latin_Squares_Compact_2026-09-28_Research_Review.pdf",
+      "sha256": "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366",
+      "pages": 38,
+      "all_page_overviews_reviewed": true,
+      "detail_pages_reviewed": [
+        31,
+        32,
+        33
+      ],
+      "reviewed_image_hashes": {
+        "Compact_contact_01.jpg": "be3d3963897c1b1e2eb6e7ba11d7c7a8f4eda7bed493d6a3b1648ed1e7fbcb08",
+        "Compact_contact_02.jpg": "6617b4a3f6e37499a44cf11ec478ec5824b2adc93980aeda0e31066a5e1449cf",
+        "Compact_contact_03.jpg": "dd021bc9c6f658bc470aba9996e568d136aa4c852d9bebbbb24ae88b70902807",
+        "Compact_contact_04.jpg": "3757b72672b93f81d7a8bc3ff02c1bc3653d1594596a150e331a935bbc4322b8",
+        "Compact_detail-31.png": "f30b985c37d2a02ffd415990665ae3cddad7ae80e8d4e6576dfffc6ff7c77c54",
+        "Compact_detail-32.png": "fe20acd74aac8b7c0539e8fe4d0e1b4200d9c3017225302228806b0cd784c948",
+        "Compact_detail-33.png": "f433f41c4d1046f5f3eabfb311a519b38ce2644e5db165391bc9f9a4750f2f2a"
+      }
+    }
+  ],
+  "observations": [
+    "All 118 page overviews inspected on eleven contact sheets.",
+    "Seven detailed page images inspected: CRT inactive-coordinate formula, matrix hypotheses, corner trade, expanded rank/count bound, Steiner boundary and open search scopes.",
+    "No clipping, overlap, broken tables, accidental blank pages or unresolved references observed.",
+    "The final two builds have no TeX warnings and identical PDF bytes.",
+    "The inherited long reproducibility catalogue is intentionally retained; the compact variant remains the first reading route."
+  ],
+  "scope": "Presentation review only; not formal proof or permission to publish."
+}

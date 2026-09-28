@@ -1,0 +1,5 @@
+Exact column-1-sign overlay on full C39 + compact balance.
+n6 full: solver UNSAT, DRAT independently VERIFIED.
+n8 fixed positive-sign FFF: SAT, decoded and physically FFF.
+n8 fixed negative-sign FFF: solver UNSAT, DRAT independently VERIFIED.
+These are controls only; no order-18 decision.

@@ -1,0 +1,17 @@
+Exact three-view repair radius around one FFT18 source
+Source pattern: FFT; failing row/column/symbol pairs: 0/0/34
+Source labels unrestricted in every search CNF; reduced units removed.
+FFF8 distance-zero positive control: SAT, independently FFF.
+FFT18 distance-zero negative control: UNSAT, DRAT VERIFIED.
+FFT18 distance <=16: UNSAT, DRAT VERIFIED.
+FFT18 distance <=18: solver UNSAT without checked proof.
+FFT18 distance <=20: TIMEOUT at 60 seconds.
+Certified conclusion: no FFF18 within 16 cells of this source.
+Unrestricted FFF18 existence: OPEN. Goal: ACTIVE.
+
+job	result	seconds	proof_checked	cnf_sha256
+fff8_k0_unrestricted	sat	0.007	False	147b32722763dff1481984737e4540812605f1e04166eaf2d37c19f65b4b3fd1
+fft18_k0_unrestricted	unsat	0.129	True	2afb735360ec1bf39674ee9a6c3512eeb1ffee316f44cf81a37733fec46bfa0e
+fft18_k16_unrestricted_proof	unsat	22.659	True	5eb4b531d5316d2d4bacaa18b40a30c7a3819e1dca9bf3d8c213d7dcf1684ca1
+fft18_k18_unrestricted	unsat	53.261	False	d58cb8d80050e7e734025fcd96a7a4ff3e484f2bab2b901cce7e2fc186851413
+fft18_k20_unrestricted	timeout	60.013	False	88f862eb6ed9b39aa7058bef683e02d58fa9327e33253a7b1dae80f1f06af261

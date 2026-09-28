@@ -13,9 +13,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {
     "compact": ("FFF_Compact_Research_Dossier.pdf",
-                "70d86260918b0576575c4f43affb45b8a55a3f66defd239b598e568876b4ab35"),
+                "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366"),
     "long": ("FFF_Long_Research_Dossier.pdf",
-             "67133efd8d6a99204db510f5cee9c66bb338d654a6e7fd6c7b24cec3a7dd250f"),
+             "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868"),
 }
 
 

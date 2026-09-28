@@ -10,8 +10,8 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EPOCH = 1790506367  # Frozen 2026-09-27 paper edition.
-SOURCE = ROOT / "manuscript/candidates/2026-09-27_research_snapshot"
+EPOCH = 1790591089  # Frozen 2026-09-28 C271 paper edition.
+SOURCE = ROOT / "manuscript/candidates/2026-09-28_research_review"
 
 
 def main():
@@ -30,7 +30,7 @@ def main():
         env = dict(os.environ, SOURCE_DATE_EPOCH=str(EPOCH), FORCE_SOURCE_DATE="1", TZ="UTC", LC_ALL="C")
         for key in ("TEXINPUTS", "BIBINPUTS", "BSTINPUTS", "TEXMFOUTPUT"):
             env.pop(key, None)
-        job = f"FFF_Latin_Squares_{variant.title()}_2026-09-27"
+        job = f"FFF_Latin_Squares_{variant.title()}_2026-09-28_Research_Review"
         command = ["latexmk", "-norc", "-pdf", "-interaction=nonstopmode", "-halt-on-error",
                    "-file-line-error", "-pdflatex=pdflatex -no-shell-escape %O %S",
                    f"-outdir={build}", f"-jobname={job}", entry]

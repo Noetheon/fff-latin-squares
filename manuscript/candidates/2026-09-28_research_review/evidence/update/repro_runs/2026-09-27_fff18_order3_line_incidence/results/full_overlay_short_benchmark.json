@@ -1,0 +1,52 @@
+{
+  "added_connectivity_clauses": 8082,
+  "base_clauses": 1848831,
+  "base_cnf_sha256": "3dfd195f05029c949421feacd71095c8183b54aba623c268b5108dbd858cb939",
+  "cuts_tsv_sha256": "fd5536ffc1b8547cecfed1527e97554749f99d8bbca9584228d981c33fe1b23a",
+  "duplicate_clause_count": 216,
+  "ftf18_failed_cuts": 0,
+  "group18_failed_cuts": 522,
+  "interpretation": "short uncontrolled pilot, not a class or global decision",
+  "mapping_sha256": "f0bf2ff757fec9cd912e06e195a945313d63d2674aa0ea54ef5a096825027989",
+  "overlay_clauses": 1856913,
+  "overlay_cnf_sha256": "308e5cf19e6b9f851511a77d87e9c0ed168fad60dd1c236694c9c14c9605e6bf",
+  "results": {
+    "base": {
+      "cnf_sha256": "3dfd195f05029c949421feacd71095c8183b54aba623c268b5108dbd858cb939",
+      "command": [
+        "/opt/homebrew/bin/cadical",
+        "-t",
+        "20",
+        ".audit/local/fff18_semiregular_subsquare_cuts/record/n18_full_subsquare.cnf"
+      ],
+      "elapsed_seconds": 20.049,
+      "proof_checked": false,
+      "result": "timeout",
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "1b320e99106959a5fe78f54cb088082f378e62060b9ccde0aa9df79331d03d23"
+    },
+    "overlay": {
+      "cnf_sha256": "308e5cf19e6b9f851511a77d87e9c0ed168fad60dd1c236694c9c14c9605e6bf",
+      "command": [
+        "/opt/homebrew/bin/cadical",
+        "-t",
+        "20",
+        ".audit/local/fff18_order3_line_incidence/full_overlay_benchmark/n18_full_subsquare_connectivity.cnf"
+      ],
+      "elapsed_seconds": 20.052,
+      "proof_checked": false,
+      "result": "timeout",
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "7952582fe8bbe9ca73d66010144495453aeefe5581089e00782be5bec856f57d"
+    }
+  },
+  "scope": "free diagonal order-three anchored full CNF only",
+  "solver": "/opt/homebrew/bin/cadical",
+  "solver_sha256": "c7b63954503d7fb1c8532efa37689715398683b5dea59d9bf6d80f06169e09b3",
+  "solver_version": "3.0.0",
+  "symbolic_connectivity_cuts": 8298,
+  "timeout_seconds": 20,
+  "variables": 5346
+}

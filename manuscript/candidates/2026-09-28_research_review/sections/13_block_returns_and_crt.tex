@@ -1,0 +1,205 @@
+\section{Block return maps and a common-fibre construction}
+\label{sec:block-crt}
+
+The quotient-OR identity for the row-fibred construction must not be
+extended to arbitrary cell-dependent blocks. The distinction is already
+visible in the order-$12$ counterexample.
+
+\begin{theorem}[Cycle lengths in a Latin block substitution]
+\label{thm:block-return}
+Let $Q$ be Latin on $A$, and let $F_{ab}$ be Latin on a common set $B$
+for every $(a,b)\in A^2$. The operation
+\[
+ H((a,x),(b,y))=(Q(a,b),F_{ab}(x,y))
+\]
+is Latin. In each view, same-outer-label line pairs restrict to block
+line pairs. For different outer labels, a quotient cycle of length $d$
+has a bijective inner return map $\Omega$. Each $e$-cycle of $\Omega$
+lifts to one cycle of length $de$. Consequently a view fails exactly
+when some block fails in that view, or some odd quotient cycle has an
+odd return-map cycle for a lifted line pair.
+\end{theorem}
+
+\begin{proof}
+In a fixed row, the desired outer symbol determines the outer column;
+the block bijection then determines the inner column. The column argument
+is identical. For rows $(a,x),(a',x')$, equality of outer symbols sends
+$b$ to $b'$ with $Q(a,b)=Q(a',b')$. The inner step is
+$F_{a'b'}(x',-)^{-1}F_{ab}(x,-)$. If $a=a'$, then $b=b'$ and this
+is exactly a row-pair permutation in one block. Otherwise it projects
+to the quotient row-pair map. Exchanging the two inputs proves the
+column statement.
+
+For a symbol $(s,z)$, a column $(b,y)$ determines the unique outer row
+$a$ with $Q(a,b)=s$; the inner row is obtained by inverting the symbol
+line of $F_{ab}$. Equal outer symbols leave $b$ fixed and give a block
+symbol-pair permutation. Distinct outer symbols follow the quotient
+symbol-pair map. Every block and every pair of its lines occur as these
+labels vary, in all three views.
+
+Above a quotient cycle $(b_0,\ldots,b_{d-1})$, write the successive inner
+bijections as $h_0,\ldots,h_{d-1}$. A first return to the starting fibre
+is $\Omega=h_{d-1}\cdots h_0$. An $e$-cycle of this map closes after
+exactly $e$ returns and hence $de$ steps; it cannot close before an
+outer return. This accounts for all cycles and proves the parity claim.
+\end{proof}
+
+Both frozen order-$12$ examples consist of nine FFF blocks of order $4$
+over a TTT quotient of order $3$. Fresh checks verify the return formula
+on every physical pair in each view. Thus a failing quotient can be
+masked by even inner returns. This neither contradicts the row-fibred
+theorem nor the special two-element-kernel equality.
+
+\begin{theorem}[Odd cubefree common-fibre lift]
+\label{thm:cubefree-crt}
+Let $N>1$ be odd and cubefree, $M=\operatorname{rad}(N)$, and
+$e=\operatorname{ord}_M(2)$. If $D>0$ is divisible by $e$ and
+$2^D>3(N-1)$, there exists an FFF square of order $N2^D$.
+Its two-line cycles have length $2$ or $2h$, where $h$ is the additive
+order of a nonzero quotient difference.
+\end{theorem}
+
+\begin{proof}
+Write $N=\prod_p p^{r_p}$, with $r_p\in\{1,2\}$, and put
+$G=\prod_p\mathbb F_p^{r_p}$ and $R=\prod_p\mathbb F_p$.
+Choose $B_p(x,y)=xy$ in rank one and
+$B_p(x,y)=x_1y_1-\nu_px_2y_2$ in rank two, with $\nu_p$ a nonsquare.
+Let $B=(B_p)_p$ and $Q(x)=B(x,x)$. Anisotropy gives
+$Q_p(d)\ne0$ exactly when $d_p\ne0$. Hence $Q(d)$ in the additive
+group of $R$ and $d$ in $G$ have the same odd order $h(d)$.
+
+The condition on $D$ gives a primitive $M$th root in
+$K=\mathbb F_{2^D}$. The additive CRT identification of $R$ with
+$\mathbb Z/M\mathbb Z$ gives an injective character $\chi:R\to K^*$.
+Define, for a twist array $c:G^2\to K$,
+\[
+ (x,a)*(y,b)=
+ (x+y,\chi(2B(x,y))a+\chi(Q(x))b+c(x,y)).
+\]
+The two fibre coefficients are nonzero, so every twist gives a Latin
+square. The row, column and symbol relative-step formulas are precisely
+those in the proof of Theorem~\ref{thm:quadratic-norm-lift}, now evaluated
+componentwise in $R$ over a quotient orbit of length $h=h(d)$.
+
+Here is why replacing $p$ by composite $h$ is legitimate. Each slope
+exponent is constant or affine in the step index. Its nonzero
+coordinates are supported where $d_p\ne0$; each such odd prime divides
+$h$, and $\sum_{t=0}^{h-1}t=h(h-1)/2=0$ in that component.
+Thus the total slope is one. Composing the later slopes into each of
+the two label coefficients gives the same displayed exponents as in
+that proof, of the form $A+tQ(d)$ or $A-tQ(d)$. This follows by
+expanding the quadratic form in each active component; in an inactive
+component $d_p=0$ and the step is constant. The element $\chi(Q(d))$
+has exact order $h$, so
+\[
+ \sum_{t=0}^{h-1}\chi(A\mathbin{\pm}tQ(d))=0.
+\]
+Both line labels therefore cancel in every view. Every inner return
+is $w\mapsto w+\Lambda_C(c)$.
+
+Choose one orientation and starting point per unordered quotient pair
+and orbit; conjugate returns have the same nonvanishing condition.
+The form $\Lambda_C$ has $2h$ distinct twist cells with nonzero
+coefficients. For symbols, the two sets of cells have distinct
+quotient symbols; this ensures distinctness just as different quotient
+rows or columns do in the other views. A cell lies in one return form
+for each other quotient line in each view, a total of $3(N-1)$ forms.
+Assign twist cells in a fixed order and enforce a form to be nonzero
+when its last cell is assigned. Each closing form forbids one field
+value. The field-size inequality leaves an allowed choice at every step.
+
+For different quotient labels the return is now a nonzero translation
+of a characteristic-two field, hence has only two-cycles; physical
+cycles have length $2h$. For equal quotient labels and distinct fibre
+labels $a,b$, the row, column and symbol translations respectively have
+nonzero constants
+\[
+ \chi(2B(x,y)-Q(x))(a+b),\quad
+ \chi(Q(x)-2B(x,y))(a+b),\quad
+ \chi(-Q(x))(a+b).
+\]
+They give two-cycles. Every physical pair in all three views is covered.
+\end{proof}
+
+For example, $N=11^2\cdot41^2=203401$ has
+$\operatorname{ord}_{451}(2)=20$ and $2^{20}>3(N-1)$, giving $h(N)\leq20$.
+The product of the two separate prime-square constructions gave the
+upper bound $10+20=30$. This improves that particular construction,
+not a known minimum; the order-$213281406976$ table is not materialized.
+The compact finite records cover $N=9,15,45,75$ and direct return-map
+controls. Their checks do not replace the general proof.
+
+\subsection{Limits of the bilinear method}
+
+The finite-field zero-count arguments below are elementary special cases
+of the classical Chevalley--Warning method
+\cite{Chevalley1935,Warning1935}; their needed details are included.
+
+\begin{proposition}[Scalar quotient boundary]
+\label{prop:scalar-boundary}
+Let $G$ be a finite odd abelian group and let $\beta:G^2\to K^*$ be
+a symmetric bicharacter over a characteristic-two finite field. If
+some twist makes
+\[
+ (x,a)*(y,b)=(x+y,\beta(x,y)^2a+\beta(x,x)b+c(x,y))
+\]
+row-F, every Sylow subgroup of $G$ is elementary abelian of rank at
+most two. Conversely every such group admits an FFF instance over a
+sufficiently large field. This is a boundary of this formula only.
+\end{proposition}
+
+\begin{proof}
+If $d\ne0$ and $\beta(d,d)=1$, composition around a row quotient orbit
+of odd length $h$ has slope one. Its two label coefficients are nonzero
+scalar multiples of $\sum_{t=0}^{h-1}\beta(d,d)^{\pm t}=1$.
+Whatever the twist, one may choose the second row label to cancel the
+return translation. This creates an odd physical $h$-cycle. Thus no
+nonzero $d$ can have $\beta(d,d)=1$.
+
+An element $u$ of order $p^2$ violates this condition at $d=pu$.
+On a rank-three elementary $p$-subgroup, the exponent of
+$\beta(d,d)$ is a quadratic form over $\mathbb F_p$ (or is identically
+zero). Such a form has a nonzero zero: sum $1-Q(d)^{p-1}$ over
+$\mathbb F_p^3$. Each monomial has a variable of exponent below
+$p-1$, so its sum is zero modulo $p$. The number of zeros is divisible
+by $p$ and includes zero, hence is at least $p$. Necessity follows;
+Theorem~\ref{thm:cubefree-crt} proves sufficiency for the stated groups.
+\end{proof}
+
+\begin{proposition}[Commuting-matrix fibre bound]
+\label{prop:matrix-boundary}
+Let $p$ be an odd prime, $r\geq1$ and $D\geq0$.
+In the same formula let $G=\mathbb F_p^r$, let the fibre be
+$V=\mathbb F_2^D$, and let $\beta$ be a symmetric bicharacter with
+commuting image in $\operatorname{GL}(V)$. Row-F requires
+$D\geq\operatorname{ord}_p(2)\lceil r/2\rceil$.
+If $2^{\operatorname{ord}_p(2)}>3(p^2-1)$, this dimension is attained
+by an FFF construction within this ansatz.
+\end{proposition}
+
+\begin{proof}
+Write $e=\operatorname{ord}_p(2)$. The row-return computation uses only
+commutativity: the label coefficients are invertible matrices multiplied
+by $S(q)=\sum_{t=0}^{p-1}q^t$ and $S(q^{-1})$, where $q=\beta(d,d)$.
+If $q=I$, both sums are $I$, and a choice of the second row label cancels
+the return. Thus $\beta(d,d)\ne I$ for every nonzero $d$ is necessary.
+
+The commuting matrices of exponent $p$ diagonalize simultaneously over
+$\mathbb F_{2^e}$. Each nontrivial eigencharacter has a Frobenius orbit
+of length $e$, so there are at most $t=\lfloor D/e\rfloor$ such orbits.
+One representative from each yields a quadratic exponent form $Q_i$ on
+$\mathbb F_p^r$. If $r>2t$, summing
+$\prod_i(1-Q_i(d)^{p-1})$ shows, by the same degree argument as above,
+that their common zero count is divisible by $p$. A nonzero common
+zero would give $\beta(d,d)=I$, a contradiction. Hence $r\leq2t$.
+For attainment, split $G$ into rank-two summands and at most one rank-one
+summand. Apply Theorem~\ref{thm:cubefree-crt} to each over
+$\mathbb F_{2^e}$ and take their direct product. The resulting block
+diagonal bicharacter has exactly the required fibre dimension.
+\end{proof}
+
+These propositions concern the exact scalar or commuting-matrix
+formula, not nonlinear blocks, arbitrary quotient operations, or the
+unrestricted minimum $h(m)$. They provide no new exclusion of order $18$.
+In particular, having a fixed vector is not the same as being the identity
+matrix and cannot replace the condition used in the last proof.

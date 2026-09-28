@@ -1,0 +1,650 @@
+{
+  "cases": {
+    "order12_first": {
+      "all_blocks_fff": true,
+      "block_latin": true,
+      "block_patterns": [
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ],
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ],
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ]
+      ],
+      "fibre_size": 4,
+      "input_sha256": "8b71d6ecaa6ab86a806a0660529b404d8f3667db2b58b82bf5c72fed010fa416",
+      "monodromy": {
+        "col": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 48,
+          "cross_outer_line_pairs": 48,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "2+2": 16,
+            "4": 32
+          },
+          "same_outer_line_pairs": 18
+        },
+        "row": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 48,
+          "cross_outer_line_pairs": 48,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "2+2": 48
+          },
+          "same_outer_line_pairs": 18
+        },
+        "sym": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 48,
+          "cross_outer_line_pairs": 48,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "2+2": 16,
+            "4": 32
+          },
+          "same_outer_line_pairs": 18
+        }
+      },
+      "quotient": {
+        "scan": {
+          "line_pairs_checked": 9,
+          "order": 3,
+          "pattern": "TTT",
+          "views": {
+            "col": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            },
+            "row": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            },
+            "sym": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            }
+          }
+        },
+        "table": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      "table": {
+        "line_pairs_checked": 198,
+        "order": 12,
+        "pattern": "FFF",
+        "views": {
+          "col": {
+            "odd_pairs": 0,
+            "profiles": {
+              "12": 32,
+              "2+2+2+2+2+2": 18,
+              "6+6": 16
+            }
+          },
+          "row": {
+            "odd_pairs": 0,
+            "profiles": {
+              "2+2+2+2+2+2": 18,
+              "6+6": 48
+            }
+          },
+          "sym": {
+            "odd_pairs": 0,
+            "profiles": {
+              "12": 32,
+              "2+2+2+2+2+2": 18,
+              "6+6": 16
+            }
+          }
+        }
+      }
+    },
+    "order12_preferred": {
+      "all_blocks_fff": true,
+      "block_latin": true,
+      "block_patterns": [
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ],
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ],
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ]
+      ],
+      "fibre_size": 4,
+      "input_sha256": "0b6be61afd07634d5724868529d76fe0fa8e5a2526a33b2f0034c01c54593e1a",
+      "monodromy": {
+        "col": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 48,
+          "cross_outer_line_pairs": 48,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "2+2": 48
+          },
+          "same_outer_line_pairs": 18
+        },
+        "row": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 48,
+          "cross_outer_line_pairs": 48,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "2+2": 48
+          },
+          "same_outer_line_pairs": 18
+        },
+        "sym": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 48,
+          "cross_outer_line_pairs": 48,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "2+2": 48
+          },
+          "same_outer_line_pairs": 18
+        }
+      },
+      "quotient": {
+        "scan": {
+          "line_pairs_checked": 9,
+          "order": 3,
+          "pattern": "TTT",
+          "views": {
+            "col": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            },
+            "row": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            },
+            "sym": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            }
+          }
+        },
+        "table": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ]
+      },
+      "table": {
+        "line_pairs_checked": 198,
+        "order": 12,
+        "pattern": "FFF",
+        "views": {
+          "col": {
+            "odd_pairs": 0,
+            "profiles": {
+              "2+2+2+2+2+2": 18,
+              "6+6": 48
+            }
+          },
+          "row": {
+            "odd_pairs": 0,
+            "profiles": {
+              "2+2+2+2+2+2": 18,
+              "6+6": 48
+            }
+          },
+          "sym": {
+            "odd_pairs": 0,
+            "profiles": {
+              "2+2+2+2+2+2": 18,
+              "6+6": 48
+            }
+          }
+        }
+      }
+    }
+  },
+  "controls": {
+    "c2_times_c3": {
+      "all_blocks_fff": false,
+      "block_latin": true,
+      "block_patterns": [
+        [
+          "TTT",
+          "TTT"
+        ],
+        [
+          "TTT",
+          "TTT"
+        ]
+      ],
+      "fibre_size": 3,
+      "input_sha256": null,
+      "monodromy": {
+        "col": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 9,
+          "cross_outer_line_pairs": 9,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "1+1+1": 3,
+            "3": 6
+          },
+          "same_outer_line_pairs": 6
+        },
+        "row": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 9,
+          "cross_outer_line_pairs": 9,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "1+1+1": 3,
+            "3": 6
+          },
+          "same_outer_line_pairs": 6
+        },
+        "sym": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 9,
+          "cross_outer_line_pairs": 9,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "1+1+1": 3,
+            "3": 6
+          },
+          "same_outer_line_pairs": 6
+        }
+      },
+      "quotient": {
+        "scan": {
+          "line_pairs_checked": 3,
+          "order": 2,
+          "pattern": "FFF",
+          "views": {
+            "col": {
+              "odd_pairs": 0,
+              "profiles": {
+                "2": 1
+              }
+            },
+            "row": {
+              "odd_pairs": 0,
+              "profiles": {
+                "2": 1
+              }
+            },
+            "sym": {
+              "odd_pairs": 0,
+              "profiles": {
+                "2": 1
+              }
+            }
+          }
+        },
+        "table": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "table": {
+        "line_pairs_checked": 45,
+        "order": 6,
+        "pattern": "TTT",
+        "views": {
+          "col": {
+            "odd_pairs": 6,
+            "profiles": {
+              "2+2+2": 3,
+              "3+3": 6,
+              "6": 6
+            }
+          },
+          "row": {
+            "odd_pairs": 6,
+            "profiles": {
+              "2+2+2": 3,
+              "3+3": 6,
+              "6": 6
+            }
+          },
+          "sym": {
+            "odd_pairs": 6,
+            "profiles": {
+              "2+2+2": 3,
+              "3+3": 6,
+              "6": 6
+            }
+          }
+        }
+      }
+    },
+    "c3_times_c2": {
+      "all_blocks_fff": true,
+      "block_latin": true,
+      "block_patterns": [
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ],
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ],
+        [
+          "FFF",
+          "FFF",
+          "FFF"
+        ]
+      ],
+      "fibre_size": 2,
+      "input_sha256": null,
+      "monodromy": {
+        "col": {
+          "cross_odd_witness_pairs": 6,
+          "cross_outer_cycles": 12,
+          "cross_outer_line_pairs": 12,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 6,
+          "return_cycle_profiles": {
+            "1+1": 6,
+            "2": 6
+          },
+          "same_outer_line_pairs": 3
+        },
+        "row": {
+          "cross_odd_witness_pairs": 6,
+          "cross_outer_cycles": 12,
+          "cross_outer_line_pairs": 12,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 6,
+          "return_cycle_profiles": {
+            "1+1": 6,
+            "2": 6
+          },
+          "same_outer_line_pairs": 3
+        },
+        "sym": {
+          "cross_odd_witness_pairs": 6,
+          "cross_outer_cycles": 12,
+          "cross_outer_line_pairs": 12,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 6,
+          "return_cycle_profiles": {
+            "1+1": 6,
+            "2": 6
+          },
+          "same_outer_line_pairs": 3
+        }
+      },
+      "quotient": {
+        "scan": {
+          "line_pairs_checked": 9,
+          "order": 3,
+          "pattern": "TTT",
+          "views": {
+            "col": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            },
+            "row": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            },
+            "sym": {
+              "odd_pairs": 3,
+              "profiles": {
+                "3": 3
+              }
+            }
+          }
+        },
+        "table": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      "table": {
+        "line_pairs_checked": 45,
+        "order": 6,
+        "pattern": "TTT",
+        "views": {
+          "col": {
+            "odd_pairs": 6,
+            "profiles": {
+              "2+2+2": 3,
+              "3+3": 6,
+              "6": 6
+            }
+          },
+          "row": {
+            "odd_pairs": 6,
+            "profiles": {
+              "2+2+2": 3,
+              "3+3": 6,
+              "6": 6
+            }
+          },
+          "sym": {
+            "odd_pairs": 6,
+            "profiles": {
+              "2+2+2": 3,
+              "3+3": 6,
+              "6": 6
+            }
+          }
+        }
+      }
+    },
+    "variable_blocks_over_c2": {
+      "all_blocks_fff": true,
+      "block_latin": true,
+      "block_patterns": [
+        [
+          "FFF",
+          "FFF"
+        ],
+        [
+          "FFF",
+          "FFF"
+        ]
+      ],
+      "fibre_size": 4,
+      "input_sha256": null,
+      "monodromy": {
+        "col": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 16,
+          "cross_outer_line_pairs": 16,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "1+1+1+1": 8,
+            "1+1+2": 8
+          },
+          "same_outer_line_pairs": 12
+        },
+        "row": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 16,
+          "cross_outer_line_pairs": 16,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "1+1+1+1": 8,
+            "1+1+2": 8
+          },
+          "same_outer_line_pairs": 12
+        },
+        "sym": {
+          "cross_odd_witness_pairs": 0,
+          "cross_outer_cycles": 16,
+          "cross_outer_line_pairs": 16,
+          "every_physical_pair_matches_formula": true,
+          "odd_monodromies_over_odd_outer_cycles": 0,
+          "return_cycle_profiles": {
+            "1+1+1+1": 12,
+            "2+2": 4
+          },
+          "same_outer_line_pairs": 12
+        }
+      },
+      "quotient": {
+        "scan": {
+          "line_pairs_checked": 3,
+          "order": 2,
+          "pattern": "FFF",
+          "views": {
+            "col": {
+              "odd_pairs": 0,
+              "profiles": {
+                "2": 1
+              }
+            },
+            "row": {
+              "odd_pairs": 0,
+              "profiles": {
+                "2": 1
+              }
+            },
+            "sym": {
+              "odd_pairs": 0,
+              "profiles": {
+                "2": 1
+              }
+            }
+          }
+        },
+        "table": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "table": {
+        "line_pairs_checked": 84,
+        "order": 8,
+        "pattern": "FFF",
+        "views": {
+          "col": {
+            "odd_pairs": 0,
+            "profiles": {
+              "2+2+2+2": 12,
+              "2+2+4": 16
+            }
+          },
+          "row": {
+            "odd_pairs": 0,
+            "profiles": {
+              "2+2+2+2": 12,
+              "2+2+4": 16
+            }
+          },
+          "sym": {
+            "odd_pairs": 0,
+            "profiles": {
+              "2+2+2+2": 20,
+              "4+4": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "every_physical_pair_matches_monodromy": true,
+  "frozen_reference_sha256": "69bee65a870cd216ca7242499cfec5cce49571b30f095294ba23bf765b501239",
+  "theorem": "three_view_block_substitution_monodromy"
+}

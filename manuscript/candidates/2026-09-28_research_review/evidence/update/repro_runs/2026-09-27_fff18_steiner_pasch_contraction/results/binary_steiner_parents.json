@@ -1,0 +1,110 @@
+{
+  "all_one_pasch_neighbors_covered": true,
+  "automorphism_count": 432,
+  "fff18_candidate": null,
+  "global_order18_decision": false,
+  "group_product_formula": "(bit,point)*(bit2,point2)=(bit xor bit2, Steiner10(point,point2))",
+  "move_orbits": [
+    {
+      "representative": 0,
+      "size": 36
+    },
+    {
+      "representative": 3,
+      "size": 12
+    },
+    {
+      "representative": 16,
+      "size": 36
+    }
+  ],
+  "one_pasch_move_count": 84,
+  "representative_records": [
+    {
+      "completion_stream_sha256": "30f9f3b69db075fe61038c61adc8ed7a0a01abdbbbab86d3d4bd5a036f342721",
+      "counts": {
+        "checked_completions": 51200,
+        "expected_completions": 51200,
+        "feasible_cases": 100,
+        "first_failure_row": 51200,
+        "independent_samples": 52,
+        "intercalates": 1036,
+        "nonprincipal_cases": 81,
+        "principal_cases": 19
+      },
+      "fff18_candidate": null,
+      "first_row_f_candidate": null,
+      "parent_id": "baseline",
+      "parent_odd_pair_counts": [
+        72,
+        72,
+        72
+      ]
+    },
+    {
+      "completion_stream_sha256": "b9a9440b8e25e7bb9866a8ac4828a8a78f891d61adbd85dd243d14f5d60524bd",
+      "counts": {
+        "checked_completions": 15488,
+        "expected_completions": 15488,
+        "feasible_cases": 64,
+        "first_failure_row": 15488,
+        "independent_samples": 16,
+        "intercalates": 892,
+        "nonprincipal_cases": 45,
+        "principal_cases": 19
+      },
+      "fff18_candidate": null,
+      "first_row_f_candidate": null,
+      "parent_id": "pasch_00",
+      "parent_odd_pair_counts": [
+        66,
+        66,
+        66
+      ]
+    },
+    {
+      "completion_stream_sha256": "acb0063b8733d476e57f756fa7b5605d4ddf49862b04287d6ff6d017f759def2",
+      "counts": {
+        "checked_completions": 51200,
+        "expected_completions": 51200,
+        "feasible_cases": 100,
+        "first_failure_row": 51200,
+        "independent_samples": 52,
+        "intercalates": 1036,
+        "nonprincipal_cases": 81,
+        "principal_cases": 19
+      },
+      "fff18_candidate": null,
+      "first_row_f_candidate": null,
+      "parent_id": "pasch_03",
+      "parent_odd_pair_counts": [
+        72,
+        72,
+        72
+      ]
+    },
+    {
+      "completion_stream_sha256": "faeca0840ed069db98d1a6de4785b8ded1b2ae09c3e3e9f0fd2e9bffb3262527",
+      "counts": {
+        "checked_completions": 15488,
+        "expected_completions": 15488,
+        "feasible_cases": 64,
+        "first_failure_row": 15488,
+        "independent_samples": 16,
+        "intercalates": 892,
+        "nonprincipal_cases": 45,
+        "principal_cases": 19
+      },
+      "fff18_candidate": null,
+      "first_row_f_candidate": null,
+      "parent_id": "pasch_16",
+      "parent_odd_pair_counts": [
+        66,
+        66,
+        66
+      ]
+    }
+  ],
+  "scope": "C2 x affine-plane Steiner10 source plus all 84 one-Pasch neighbors via three proved automorphism orbits",
+  "source_table_sha256": "0c07f9df87c1ea45a963947d4418f44ca2de38cfabad5d9b8c59ec4a9e248dab"
+}

@@ -1,0 +1,6 @@
+n=18, full row/col/sym, gauge=true, compact balance=true
+row1_case=n18_same_sign_01_z16_16_2
+variables=129762, clauses=5735313
+balance_clauses=231336, balance_auxiliary_variables=115668
+cnf_sha256=869290534f6b10c96dc8c408ac6b2f572a9b6a51d1b5caf0fd3addabfc0038f0
+solver_status=not_run

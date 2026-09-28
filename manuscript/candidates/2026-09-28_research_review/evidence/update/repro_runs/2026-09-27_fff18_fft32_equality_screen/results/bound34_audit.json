@@ -1,0 +1,177 @@
+{
+  "bound32": {
+    "cnf_sha256": "97a591491dd5facb584bcad76c82e37acbacee1c81be1b330a11f97c2099f495",
+    "proof_bytes": 7565,
+    "proof_checked": true,
+    "proof_sha256": "1b4d76305f5d2de8155a07b4ff3de38c24cd6f562c92385403d4b3af8d351868"
+  },
+  "bound33": {
+    "cnf_sha256": "0bb1ab850602ba8a7609bf3ceb3521154ddc86987c392cdf5633dfe3494e407b",
+    "proof_bytes": 3043580,
+    "proof_checked": true,
+    "proof_sha256": "d1dd68a5387d89e1d8add56764cf8532e4915a859d4fcfcd6453a9a714dfb6de"
+  },
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "evidence_scope": "one frozen source, support hitting; no full Latin completion",
+  "hit34": {
+    "changed_cells": [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        17
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        16
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        5
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        14,
+        9
+      ]
+    ],
+    "cnf_sha256": "d293ea109e24571cf80f0dab788f1b6cc400daacbdd6e26ec0af4b5e13cfc9c7",
+    "hits_all_odd_supports": true,
+    "latin_table_constructed": false,
+    "singleton_lines": {
+      "col": [
+        4,
+        5,
+        7,
+        15
+      ],
+      "old_symbol": [],
+      "row": [
+        13
+      ]
+    }
+  },
+  "odd_symbol_cycle_supports": 102,
+  "order18_fff_decided": false,
+  "prior_certificate_sha256": "8b63be928c5240e115ad10dbac639e647e2f18902aca83894e57d36584be58eb",
+  "prior_disjoint_supports": 32,
+  "source_relative_symbol_F_distance_lower_bound": 34,
+  "source_sha256": "1ed0abb7bae546375fe9595f408b7ede9c95fb02bae582e99d80ebbe4a9764d8"
+}

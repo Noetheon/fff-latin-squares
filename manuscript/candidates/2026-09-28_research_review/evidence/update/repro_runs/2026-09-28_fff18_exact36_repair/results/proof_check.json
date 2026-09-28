@@ -1,0 +1,30 @@
+{
+  "checker": "drat-trim",
+  "checker_command": [
+    "/tmp/order8_solver_tools/drat-trim/drat-trim",
+    "repro_runs/2026-09-28_fff18_exact36_repair/results/exact36_colf.cnf",
+    "repro_runs/2026-09-28_fff18_exact36_repair/results/exact36_colf.drat"
+  ],
+  "checker_elapsed_seconds": 0.243911,
+  "checker_exit_code": 0,
+  "checker_result": "VERIFIED",
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "cnf_sha256": "9404a2d6567b3f9bb756c654308fff049bd5a5718014b705a79a8f45d5b44ccb",
+  "proof_sha256": "64f929b63e94dd3144fe3a9b08f47ce8a5754c4b3a8f912f273ef1810e766aec",
+  "proof_size_bytes": 752109,
+  "solver": "CaDiCaL",
+  "solver_command": [
+    "/opt/homebrew/bin/cadical",
+    "--no-binary",
+    "-q",
+    "-t",
+    "30",
+    "repro_runs/2026-09-28_fff18_exact36_repair/results/exact36_colf.cnf",
+    "repro_runs/2026-09-28_fff18_exact36_repair/results/exact36_colf.drat"
+  ],
+  "solver_elapsed_seconds": 0.141705,
+  "solver_exit_code": 20,
+  "solver_result": "UNSAT",
+  "solver_sha256": "c7b63954503d7fb1c8532efa37689715398683b5dea59d9bf6d80f06169e09b3",
+  "solver_version": "3.0.0"
+}

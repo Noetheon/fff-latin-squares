@@ -1,0 +1,14 @@
+Scope: one frozen labelled FTF18 source; exact 36-cell column-F repair.
+Source odd column 3-cycles: 36, with disjoint six-cell supports.
+Support-union cells: 216. Any column-F target changes >=36 cells.
+Equality case: exactly one changed cell per support and no other changes.
+Latin base CNF: 1476 variables, 12384 clauses.
+Candidate tables: 9, all Latin and TTT under independent three-view scan.
+Unique sound physical column odd-cycle cuts: 1016.
+Final CNF: 1476 variables, 13400 clauses.
+CaDiCaL 3.0.0: UNSAT (exit 20).
+drat-trim: VERIFIED (exit 0), 752109-byte ASCII DRAT retained.
+CNF SHA-256: 9404a2d6567b3f9bb756c654308fff049bd5a5718014b705a79a8f45d5b44ccb
+DRAT SHA-256: 64f929b63e94dd3144fe3a9b08f47ce8a5754c4b3a8f912f273ef1810e766aec
+Conclusion: every column-F/FFF target on these labels has Hamming distance >=37.
+NOT CONCLUDED: unrestricted FFF18 existence/nonexistence, another source, or literature novelty.

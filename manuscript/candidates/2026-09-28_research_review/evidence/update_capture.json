@@ -1,0 +1,516 @@
+{
+  "cutoff": "C271; intake 2026-09-28T10:24:49Z",
+  "files": [
+    {
+      "bytes": 4326,
+      "sha256": "174011c2ad5e8bcc5c64a3ef4fba19e92967c5aa56e7f7b425f4d04cb932ed1d",
+      "snapshot": "evidence/update/proof_notes/fff18_agl23_relative_unipotent_nogoods.md"
+    },
+    {
+      "bytes": 3087,
+      "sha256": "600b19e7c72a902192c884dafff006aa9e9839c781035a42083671e5a0645aae",
+      "snapshot": "evidence/update/proof_notes/fff18_column_sign_parity_and_three_sign_counterexample.md"
+    },
+    {
+      "bytes": 5042,
+      "sha256": "14536a72b87cde9a4d40a9d6524b3adc14b6e4a2265aced1471aad7e56ee9eb2",
+      "snapshot": "evidence/update/proof_notes/fff18_dual_sign_adjacent_normal_form.md"
+    },
+    {
+      "bytes": 4603,
+      "sha256": "ecaec896a02753191270b0a702d9fb498ea7cbdd18f2a980381ce41a60b7c85a",
+      "snapshot": "evidence/update/proof_notes/fff18_exact36_column_repair_obstruction.md"
+    },
+    {
+      "bytes": 3616,
+      "sha256": "199fa3bf1d41cc703b58e3964daf783c2cde0bb2e4078dc98e8e40277169596c",
+      "snapshot": "evidence/update/proof_notes/fff18_fft34_exact_hamming_repair.md"
+    },
+    {
+      "bytes": 4501,
+      "sha256": "c16e52b618854a3a23a72cfcce13b11807f58f9b6d3a3d63f4f552429b69e1e3",
+      "snapshot": "evidence/update/proof_notes/fff18_fft_local_domain_hitting35_bound.md"
+    },
+    {
+      "bytes": 3864,
+      "sha256": "16001fb61ef11cd9cb30e2f8ef64aec7c823c2de851d1aabb82452fcc7883e0e",
+      "snapshot": "evidence/update/proof_notes/fff18_fft_symbol_hitting34_bound.md"
+    },
+    {
+      "bytes": 6250,
+      "sha256": "a21d0ed23f94361454f217389b0a57caa66a660f727ef6ab1bcbfb58337b7d05",
+      "snapshot": "evidence/update/proof_notes/fff18_free_order3_line_incidence_connectivity.md"
+    },
+    {
+      "bytes": 6843,
+      "sha256": "e01cdd058bb87ea30c5cbce8ff653850f3b5e62e12fea6d47d4b6ff094da6b4f",
+      "snapshot": "evidence/update/proof_notes/fff18_steiner_pasch_contraction_scope.md"
+    },
+    {
+      "bytes": 3257,
+      "sha256": "1214f7e9384ce71e751a7a1526c94eb5ddf50996233ef122a3b0dabc09e4f11d",
+      "snapshot": "evidence/update/proof_notes/fff20_all_pair_trade_contraction_screen.md"
+    },
+    {
+      "bytes": 3299,
+      "sha256": "def71a8850da62f1561ea170a625b63bdf773006abeef13e218cf712804e29fb",
+      "snapshot": "evidence/update/proof_notes/fff20_all_two_cycle_row_pair_trades.md"
+    },
+    {
+      "bytes": 3375,
+      "sha256": "e4a5354200fd6e122369cf482a5425533cbbab4f8e9a79ac6e963e719bf3f6ab",
+      "snapshot": "evidence/update/proof_notes/fff_affine_corner_noncontraction.md"
+    },
+    {
+      "bytes": 8046,
+      "sha256": "f0fcb51b618381be2a705c7674724647c9c6edfbeaf86f00d1e10d460629733a",
+      "snapshot": "evidence/update/proof_notes/fff_affine_corner_trade_pattern.md"
+    },
+    {
+      "bytes": 6100,
+      "sha256": "6a7bc944352c5d47315cd26593ad3c24f25c8c26ad2bcca0ecf09854c0b32393",
+      "snapshot": "evidence/update/proof_notes/fff_bad_pair_graph_hamming_bound.md"
+    },
+    {
+      "bytes": 5872,
+      "sha256": "462778af38827775e87d6d171ff810acccd7efd3ea85bf98abacfbdfe7a12212",
+      "snapshot": "evidence/update/proof_notes/fff_block_substitution_monodromy.md"
+    },
+    {
+      "bytes": 9091,
+      "sha256": "cc1bcd24f8eca74a5aa1dc80c163fa41c5fc18fa3ee876ba098c824ba063e2ad",
+      "snapshot": "evidence/update/proof_notes/fff_cubefree_crt_common_fiber_lift.md"
+    },
+    {
+      "bytes": 7324,
+      "sha256": "ebb46c8653a0218304bd676d5deaefcac1157040f0b6ee97f84da4c67b97a32f",
+      "snapshot": "evidence/update/proof_notes/fff_matrix_bilinear_fiber_rank_bound.md"
+    },
+    {
+      "bytes": 3516,
+      "sha256": "cd8ca24dcb6e5200343061fbbe9693611cf1f4df5c8c8d50964c360d11d12620",
+      "snapshot": "evidence/update/proof_notes/fff_pairblock_intercalate_lower_bound.md"
+    },
+    {
+      "bytes": 6490,
+      "sha256": "006ed8520ce7b95cc0349a7d7a515420ddcea2e7cca7f58bef1f9a4e0739761f",
+      "snapshot": "evidence/update/proof_notes/fff_scalar_bilinear_lift_boundary.md"
+    },
+    {
+      "bytes": 2689,
+      "sha256": "909f68280d1320505e3b247894be45f744a3eb6446695cd1b5f01d9e435aa430",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_fft32_equality_screen/results/bound34_audit.json"
+    },
+    {
+      "bytes": 297,
+      "sha256": "299665500b571e62c249bd542edf6fcda9f7a3a5c3815961830c3adb71e1e214",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_fft32_equality_screen/results/bound34_summary.txt"
+    },
+    {
+      "bytes": 8961,
+      "sha256": "d112c8cf10beb427637f9e2a66c54b8cc23ef0c33a334b74a6e1e13a3e9d74fd",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_fft34_compact_degree_screen/results/compact_degree_audit.json"
+    },
+    {
+      "bytes": 295,
+      "sha256": "e38dbe3addb9e65d815d27ec7c31f4568441d486338ddb06945ad34f64cc693c",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_fft34_compact_degree_screen/results/compact_degree_summary.txt"
+    },
+    {
+      "bytes": 3987,
+      "sha256": "a7e3598732d75d154bbb091ec3a5b7420c9d1dd80be8c7141f4a9b02bd84c247",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_fft34_exact_repair/results/exact_repair_audit.json"
+    },
+    {
+      "bytes": 1144,
+      "sha256": "8d1a6b3b8f4c0661836853701a717b0669cb78d75c37bca4dc91d3355e4d84f1",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_fft34_exact_repair/results/exact_repair_summary.txt"
+    },
+    {
+      "bytes": 2141,
+      "sha256": "013f87eec78dd6e59e6449083d5b03b91304ef8c859564b4c0c832bd0d57233f",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/full_overlay_short_benchmark.json"
+    },
+    {
+      "bytes": 309,
+      "sha256": "8f744d9fefcb59f66a961ac41f86e211544ebe29f05693955d3bc927b10df06b",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/full_overlay_short_benchmark_summary.txt"
+    },
+    {
+      "bytes": 3010,
+      "sha256": "cc720500accd22d8b8c9480874dcd46704023573d2104ffd61c4576510599d3c",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/line_incidence_audit.json"
+    },
+    {
+      "bytes": 588,
+      "sha256": "3033d02e6983b8a70f944f7ee8e5a1ffe98829006c1dbcb54cad3442904eb7d4",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/line_incidence_summary.txt"
+    },
+    {
+      "bytes": 528,
+      "sha256": "ed9e2eccd91e18fce993c638d529df5f7d4646f40ee67f2c525c0c369acebe2d",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/prior_cut_countercontrol_check.json"
+    },
+    {
+      "bytes": 3296,
+      "sha256": "dc7b3ab6608072ed9f68c99227582f4904dcb5e7786b9e2448561de1d33da768",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/prior_cuts_disconnected_latin_table.json"
+    },
+    {
+      "bytes": 1150,
+      "sha256": "5685b47cb69151c43fb02d4a35466654f6f2f78ba5da4eb48f719dd4df47dc67",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/prior_cuts_independence_status.json"
+    },
+    {
+      "bytes": 663,
+      "sha256": "447e170bbd056dd2b2bb3eaf5f14453572f40a86f637708b4e28b19971cd0289",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_order3_line_incidence/results/validator_comparison.json"
+    },
+    {
+      "bytes": 3064,
+      "sha256": "06cc5ffb126f3aa30e79aa1b904e00244084be502635434b3fa8bbf56d9426b6",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/binary_steiner_parents.json"
+    },
+    {
+      "bytes": 683,
+      "sha256": "fa1574933e3d165d78db9aab1b2f2af146b5d8b103dba24ab187996b9bc6035b",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/binary_steiner_parents_summary.txt"
+    },
+    {
+      "bytes": 25873,
+      "sha256": "0d81dc784a14553cde9ae9228b0617b712c16a55e81c8514e796adad017e1433",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/pasch_contraction_status.json"
+    },
+    {
+      "bytes": 396,
+      "sha256": "735882a4c3385b2dfb5df06e9a5f078abab87d6109870f75ba90fb3428cebe1f",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/pasch_contraction_summary.txt"
+    },
+    {
+      "bytes": 478,
+      "sha256": "ec2151349586a41bd60b36295ad745f79b957827dbe49940dad4bd7eac23dc7b",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/pasch_walk_status.json"
+    },
+    {
+      "bytes": 291,
+      "sha256": "a469f654891d67de203fe8c6e8e8d3483482201f123635f3165d16979a3dc4c5",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/pasch_walk_summary.txt"
+    },
+    {
+      "bytes": 11470,
+      "sha256": "4efa9be68bf45bf6f746ad799d907d595a00abe7ed2cdb4f25022e3b846c37ce",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/symmetrization_boundary.json"
+    },
+    {
+      "bytes": 343,
+      "sha256": "12cf0b8202e7755dee84344ce9c6c4ca789753af2b0d8232fbb82e5427344860",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff18_steiner_pasch_contraction/results/symmetrization_boundary_summary.txt"
+    },
+    {
+      "bytes": 13583,
+      "sha256": "5924fdaab0f0d4f4fc0cb33256ce98bbd531c6fcf667d0390412be29a94d3d02",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff20_all_pair_trade_contractions/results/contraction_audit.json"
+    },
+    {
+      "bytes": 461,
+      "sha256": "a24ed29f39d755b5d2d196ea7f75eea24ac1b9463cca24003b31a4ff054163b9",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff20_all_pair_trade_contractions/results/contraction_summary.txt"
+    },
+    {
+      "bytes": 354818,
+      "sha256": "e6628fcdbdd5d108c2ff662171a08be0d38df6f871f8c9dfe02b431719490367",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff20_all_two_cycle_row_trades/results/all_pair_trade_audit.json"
+    },
+    {
+      "bytes": 741,
+      "sha256": "34d5a63852f741dba980d51fe87ac9becab6aad0d31aefd4745e63262059cdae",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff20_all_two_cycle_row_trades/results/all_pair_trade_summary.txt"
+    },
+    {
+      "bytes": 17811,
+      "sha256": "bd02b8151eb2d9904f1851aab360df4597c04c2cad62824acf6defdcd272e6ce",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff_bad_pair_graph_distance/results/bad_pair_graph_audit.json"
+    },
+    {
+      "bytes": 691,
+      "sha256": "039a2dcaf5a0de9ddb47af74d47b38f0e9e9fbc8a99abf27b067ff24c1f632cb",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff_bad_pair_graph_distance/results/bad_pair_graph_summary.txt"
+    },
+    {
+      "bytes": 14906,
+      "sha256": "cd58aef080a9310766bb27e5b3c456b584241c00cf161e6c97cf53310cc2af06",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff_block_substitution_monodromy/results/block_monodromy_results.json"
+    },
+    {
+      "bytes": 799,
+      "sha256": "1c84d1639f5bb3dc3117f122b4de05dc4d82a46fd3e6c1b23f1f984936dd40a5",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff_block_substitution_monodromy/results/block_monodromy_summary.txt"
+    },
+    {
+      "bytes": 243,
+      "sha256": "de3b28dae163700c80d646fea96b8974ccebcffa8cce4451ee0a4dfebb06ba1d",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff_block_substitution_monodromy/results/small_model_controls.json"
+    },
+    {
+      "bytes": 215,
+      "sha256": "79c3b65c26f022951954286efb4ed1acec179c49acd54ad2675c5c8d65c536ee",
+      "snapshot": "evidence/update/repro_runs/2026-09-27_fff_block_substitution_monodromy/results/small_model_controls_summary.txt"
+    },
+    {
+      "bytes": 25375,
+      "sha256": "aabe1b174162ea0dea0e6f576cbfc6a9b31d15fbe6c9b6cbb58d820f90608cc0",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_affine_corner_noncontraction/results/status.json"
+    },
+    {
+      "bytes": 442,
+      "sha256": "a1a8004e32332b1c0f7a2881e5c301f78a1e12656295cbd6c3360a6d837e7fda",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_affine_corner_noncontraction/results/summary.txt"
+    },
+    {
+      "bytes": 5421,
+      "sha256": "b6521a3ecdcba9df9e5781d6d075d33b9d7803d609f7485bd97267cb32262113",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_affine_corner_trade/results/audit.json"
+    },
+    {
+      "bytes": 2029,
+      "sha256": "fc585d68dce9f760f050082025cbb148e16d0580db76cee9106409dd61fd75c9",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_affine_corner_trade/results/p13_a3_traded_table.json"
+    },
+    {
+      "bytes": 4081,
+      "sha256": "99b9742fda5358826a3cdd2ecdff8da95d115c6ec0b3c112a2a2f083b70bf780",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_affine_corner_trade/results/p19_a7_traded_table.json"
+    },
+    {
+      "bytes": 717,
+      "sha256": "cb5c33eed255928849addabe1a9bda771fed7ee9c1f12886ca9d3a79522556ae",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_affine_corner_trade/results/summary.txt"
+    },
+    {
+      "bytes": 321,
+      "sha256": "b7014f7c62dbfbec40f34dfb97e1c16fcab29b0c48e0771cff0b061c5d1adb4c",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_agl23_relative_nogoods/results/independent_pairs_check.json"
+    },
+    {
+      "bytes": 549,
+      "sha256": "e06f9dc7a16192fca06d6cc30d4e43b5cd0aac4cc3ad3d39b5949338bc43e87b",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_agl23_relative_nogoods/results/pilot_artifact_check.json"
+    },
+    {
+      "bytes": 1509,
+      "sha256": "dc97a82681d9b1aba733971c0f91110a0624502f777bd686d01805bde2b6b07d",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_agl23_relative_nogoods/results/reflection_pilot_status.json"
+    },
+    {
+      "bytes": 250,
+      "sha256": "72389fffe7a640443a65b800a3060853cabc0980f8e6d6f4618c9b31ef2614b5",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_agl23_relative_nogoods/results/reflection_pilot_summary.txt"
+    },
+    {
+      "bytes": 1741,
+      "sha256": "0984aa666eefc6e6eb79172362d1cbe35c9bf5863eb9742aa68e96c6877e2723",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_agl23_relative_nogoods/results/relative_nogoods_audit.json"
+    },
+    {
+      "bytes": 472,
+      "sha256": "b0bfcb76cad7acfeb69759b3bdc4cdb55d99fc1ee7c6acd7f8332a40e7328cdc",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_agl23_relative_nogoods/results/relative_nogoods_summary.txt"
+    },
+    {
+      "bytes": 3802,
+      "sha256": "ec20e976d711c7cd9866083400a6279276f3bdc7856fd5ff45630a748703ec5d",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/control_solver_status.json"
+    },
+    {
+      "bytes": 290,
+      "sha256": "9d661593951035e5bbd8f672e34d4051e1e35928388236ad9582953cf15d0da2",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/control_solver_summary.txt"
+    },
+    {
+      "bytes": 1684,
+      "sha256": "a7af29ee807c1e6c83fab68605b9db3bb06945dc5d35705dd87e791ee4383e7d",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n18_baseline_metadata.json"
+    },
+    {
+      "bytes": 284,
+      "sha256": "3808eda92dd4147c5c253ae444ee53f6f83d8b99a7c92db818ef8d319af9d386",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n18_baseline_summary.txt"
+    },
+    {
+      "bytes": 1100,
+      "sha256": "4795fb872f50f86320d7ae1b3b5604ad470876187612a04c0270ef265ef9a629",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n18_case01_metadata.json"
+    },
+    {
+      "bytes": 266,
+      "sha256": "bb73be3ebcac71433d2165bee0e0bec43efdf7a286d0c29a0cf276e69375f597",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n18_case01_summary.txt"
+    },
+    {
+      "bytes": 1606,
+      "sha256": "8675cc278d9ae06ae15eee21b19b6b9a6eb7cbbd7bbc007df601b362b49b9a1f",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n18_pilot_status.json"
+    },
+    {
+      "bytes": 175,
+      "sha256": "4993f32e77e81d96a9661735472d066862a0d7bb78448b920af3398be595b4ed",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n18_pilot_summary.txt"
+    },
+    {
+      "bytes": 998,
+      "sha256": "339fb5b901e96cfefda92ded0956af03097eccb990db59bc9e9823a0607fb597",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n6_full_metadata.json"
+    },
+    {
+      "bytes": 238,
+      "sha256": "466fa6b2057f228312aa68551ca68f80a5aa2ac5b179d0a5ace22ed60b72da0b",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n6_full_summary.txt"
+    },
+    {
+      "bytes": 692,
+      "sha256": "9066e0f24cd7a8ad0f147d19c94f4954fb82bd2ba59b4aeffd624e85fe943d0e",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n8_negative_fixed_table.json"
+    },
+    {
+      "bytes": 1063,
+      "sha256": "776fd831d50637c861208c172973f214376ec4a4a3e8208d47846210beaef958",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n8_negative_metadata.json"
+    },
+    {
+      "bytes": 240,
+      "sha256": "03994365ea90d1c2df950bf2e798d79119880db6a9b8731c9e722e35d00e54dc",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n8_negative_summary.txt"
+    },
+    {
+      "bytes": 692,
+      "sha256": "e42bbd3bab5c4dccd2508c8e48081c54838b174a4c2a5a5f9b83b9c45cf3c78a",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n8_positive_fixed_table.json"
+    },
+    {
+      "bytes": 1063,
+      "sha256": "7042059dba22e6aede698ef0d18dfa5cf666dff0578fdec6edbde4efa1a313a4",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n8_positive_metadata.json"
+    },
+    {
+      "bytes": 240,
+      "sha256": "b48576dc75c81f0e19fba777873c06ed4bd5aaa05ff782c77fbf78e73940f21f",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/n8_positive_summary.txt"
+    },
+    {
+      "bytes": 2916,
+      "sha256": "3c7c6abda888e6663e86462f7be3b930c42d6660f337a3daf985be86bf94142f",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/triple_sign_counterexample.json"
+    },
+    {
+      "bytes": 259,
+      "sha256": "5aa1ab5cbcec315e2307d4b00cfd8ca60cfaadf0f45d8b901a7892ec60ed841e",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_column_parity_preflight/results/triple_sign_counterexample_summary.txt"
+    },
+    {
+      "bytes": 14949,
+      "sha256": "9dc90bcc5a5a23a9bc860c69f57354524a3d0f5c1734ace29b257811fa055a6c",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_dual_sign_normal_form/results/n18_cases.json"
+    },
+    {
+      "bytes": 455,
+      "sha256": "548e54cb11dc696516040cf1f57f410c3dfee4f310b486e9e7513a3623a87389",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_dual_sign_normal_form/results/summary.txt"
+    },
+    {
+      "bytes": 4608,
+      "sha256": "71954ea126e196fc46dad3a2cba60c547785153eb34e0253fdbe3c5a2ce0299a",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_dual_sign_normal_form/results/validation.json"
+    },
+    {
+      "bytes": 2784,
+      "sha256": "0e2c10e278a50b25b3f315ef1db40500e87bfabf68f17966c0a5734739155a50",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_exact36_repair/results/generation_report.json"
+    },
+    {
+      "bytes": 1134,
+      "sha256": "7b37df417ebd0a04aeaf1da105346a8ecf464ee988210014bc3ac26e9035e3bc",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_exact36_repair/results/proof_check.json"
+    },
+    {
+      "bytes": 921,
+      "sha256": "43c178204680e15c8c7dcdd92eddbb927db61751a03f4a6a2ef6c9220a2e96c3",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_exact36_repair/results/summary.txt"
+    },
+    {
+      "bytes": 3245,
+      "sha256": "7c07fd78a0d6e601b92156fade7377ba85bb3c5e7c14735508317f5b142454f8",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff18_exact36_repair/results/verification.json"
+    },
+    {
+      "bytes": 93126,
+      "sha256": "8e06ed5ff9645cf41e758303f6aa7d2cd1fe4520a50a3d79fa5c326f51bed91f",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/results/cubefree_lift_status.json"
+    },
+    {
+      "bytes": 409,
+      "sha256": "348f12f49a7072c74f6b4b2f6eae58b5df2e963332e618024b3a013d205e4e12",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/results/cubefree_lift_summary.txt"
+    },
+    {
+      "bytes": 1753,
+      "sha256": "168f120869286eb84f389b0b9fb44d3aac88b56f448a44fa8aef5dc3e0a7b8a7",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/results/physical_return_verification.json"
+    },
+    {
+      "bytes": 467,
+      "sha256": "eb4fe58baadf17123dfb554d75f36d00103a017d3cc252fa316f550cc73e3e45",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/results/physical_return_verification_summary.txt"
+    },
+    {
+      "bytes": 19109,
+      "sha256": "5b3005a3560ff4ecc79c11c4f4a1b2da574a7ea3319aa68c37134c328cd1dcb6",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/scripts/check_cubefree_lift.py"
+    },
+    {
+      "bytes": 6574,
+      "sha256": "f8f30d638df78ee98ba073eda2d141cc32d435494e17fd8c814fb05389e393b3",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/scripts/verify_compact_certificate.py"
+    },
+    {
+      "bytes": 1403,
+      "sha256": "fd12c0a6d622c4410d1b9cdbd5381c7974fe1491aaa7f6bfe8d58c19da60d644",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_matrix_bilinear_rank_bound/results/rank_bound_controls.json"
+    },
+    {
+      "bytes": 549,
+      "sha256": "8e0e1b26ad4d28abe58734b5dfa81adfe6d5832ed53354cd7956085bd5b68f6d",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_matrix_bilinear_rank_bound/results/rank_bound_summary.txt"
+    },
+    {
+      "bytes": 320,
+      "sha256": "a09dbdaed467c2c3fa894b469c20c4d822d520ba212262f68367566c9be53170",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_matrix_bilinear_rank_bound/results/replay_comparison.json"
+    },
+    {
+      "bytes": 179,
+      "sha256": "f98cedf43f958428b7d165423aeec21b9a4f68f03e97a5a63c6a2cf02e903845",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_scalar_bilinear_boundary/results/README.md"
+    },
+    {
+      "bytes": 1958,
+      "sha256": "e4c9942519a4a6f7db27f45db8cbaabf3c1c74d7f6ce74f647c2b8e20d154f8d",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_scalar_bilinear_boundary/results/scalar_bilinear_boundary_status.json"
+    },
+    {
+      "bytes": 470,
+      "sha256": "7572617852b8886b1af5501a2c9300316473518e0b4d8c25ac52053886222862",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_fff_scalar_bilinear_boundary/results/scalar_bilinear_boundary_summary.txt"
+    },
+    {
+      "bytes": 2901,
+      "sha256": "1cb7ec27d806e8e204b3cfe58c6c800de37baa828110e8dc3fc27af016cc444a",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_pairblock_intercalate_bound/results/pairblock_intercalate_audit.json"
+    },
+    {
+      "bytes": 659,
+      "sha256": "0a5163aa9198ce76f9c4600f83002fc8d0464d3808db755083c837535b8eea4b",
+      "snapshot": "evidence/update/repro_runs/2026-09-28_pairblock_intercalate_bound/results/pairblock_intercalate_audit_summary.txt"
+    }
+  ],
+  "scope": "Selected public evidence only; narrower than the private capture. No machine logs, environment snapshots, private registers or raw archives. Capture inventories are derived metadata, not rewritten scientific records."
+}

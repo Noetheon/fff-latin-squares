@@ -1,0 +1,4 @@
+FFT18 source-relative symbol-F distance >=34 cells.
+The <=32 and <=33 odd-cycle support CNFs are CaDiCaL UNSAT with independently VERIFIED DRAT.
+A 34-cell set hits all 102 odd-cycle supports but has singleton Latin lines; it is not a Latin table.
+Unrestricted order-18 FFF existence remains OPEN.

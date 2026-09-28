@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "variant": "long",
+      "sha256": "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868",
+      "byte_identical": true,
+      "warnings": []
+    },
+    {
+      "variant": "compact",
+      "sha256": "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366",
+      "byte_identical": true,
+      "warnings": []
+    }
+  ],
+  "mathematical_verification": false
+}

@@ -9,17 +9,17 @@ length greater than one in any of the row, column and symbol views (FFF).
 ## Read the dossier
 
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
-- [Compact reading version (30-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
-- [Full technical record (72-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Current editable sources and bounded audit](manuscript/candidates/2026-09-27_research_snapshot/README.md)
+- [Compact reading version (38-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
+- [Full technical record (80-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
+- [Current editable sources and bounded audit](manuscript/candidates/2026-09-28_research_review/README.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
 - [Reproducibility and export limitations](REPRODUCIBILITY.md)
-- [27 September release scope and checks](verification/RELEASE_2026-09-27.md)
+- [28 September release scope and checks](verification/RELEASE_2026-09-28.md)
 
 Read the disclosure at the beginning of either PDF before relying on its claims.
 The two versions overlap; they are not two independent studies.
 
-**Current edition: 27 September 2026, frozen at 10:52 UTC through C251.**
+**Current edition: 28 September 2026, frozen at 10:24:49 UTC through C271.**
 This is a public research snapshot for critical examination, not a peer-reviewed
 article. The earlier September edition is retained as history; its open-C38 and
 open-order-12 wording is superseded. Subsequent working results are outside this
@@ -54,10 +54,15 @@ is the shared starting point for focused feedback.
 - An explicit order-12 FFF table **disproves the former power-of-two conjecture
   (C38)**. Two independent scanning methods check every line pair of the
   shipped order-12/14/36/98 controls. **Order 18 remains open.**
-- The new edition includes affine constructions, row-fibred pattern equality,
-  binary quotient descent and within-construction affine-orbit classification.
-  The order-20 source lower bound of 514 classes is not a complete census;
-  higher-order lower bounds use a proved construction, not exhaustive table scans.
+- The new edition includes general block-return maps, a common-fibre cubefree
+  CRT lift and an affine corner trade preserving all three pattern bits.
+  Fresh checks give **1,703 represented classes at order 20** and an associated
+  lower bound of **1,450,956 at order 40**. These are not censuses. Explicit
+  rank certificates remove the C157 dependency from these fixed-family bounds.
+- The corner construction supplies generic unique-intercalate tables and an
+  explicit fixed-remainder noncontraction obstruction. Its large-prime FFF
+  existence corollary depends on a published character-sum estimate; unique
+  intercalate squares were already studied in the literature. No priority is claimed.
 - Census completeness and the primitive-group classification are cited external
   dependencies. Same-binary decompositions are not independent implementations.
 - A timeout or partial SAT table is never evidence of a complete exclusion or
@@ -94,8 +99,9 @@ This is a curated public edition, not the complete working archive. It contains 
 inherited development history or correspondence. Historical source/result paths
 are preserved where useful for traceability; selected machine-local strings are
 privacy-projected. `PUBLIC_PROJECTION.json` records byte-identical and projected
-files from the original export. `PUBLIC_SNAPSHOT_2026-09-27.json` separately
-records this edition's selected inputs, sources and privacy projections.
+files from the original export. `PUBLIC_SNAPSHOT_2026-09-28.json` separately
+records this edition's selected inputs, sources and privacy projections;
+the 27 September receipt is historical, including its superseded PDF aliases.
 `PUBLIC_MANIFEST.sha256` hashes the actual public files. Historical hashes
 inside a report still identify historical bytes, not necessarily the projected
 file beside it. Do not use those historical hashes as the public manifest.

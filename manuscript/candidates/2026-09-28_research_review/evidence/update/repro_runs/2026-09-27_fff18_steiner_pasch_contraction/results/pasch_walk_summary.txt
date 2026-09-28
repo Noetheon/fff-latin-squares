@@ -1,0 +1,8 @@
+Bounded Steiner19 Pasch-walk nonprincipal contraction search
+seed: 20260927
+requested transitions: 1000
+distinct states checked: 1001
+feasible deletion cases: 19019
+nonprincipal feasible cases: 0
+FFF18 candidate: False
+scope: one deterministic walk, not all STS19 systems or order18 squares

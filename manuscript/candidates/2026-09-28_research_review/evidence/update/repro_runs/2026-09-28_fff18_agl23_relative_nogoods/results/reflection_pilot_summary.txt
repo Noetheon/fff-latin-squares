@@ -1,0 +1,5 @@
+AGL(2,3) relative-no-good reflection pilot
+Forced selector 1; 5184 forbidden relative pairs; 835598 clauses.
+CaDiCaL result: timeout_or_unknown at 60.016s / 60s limit.
+Proof checked: False.
+This is one-view AGL scope; no unrestricted FFF18 decision.

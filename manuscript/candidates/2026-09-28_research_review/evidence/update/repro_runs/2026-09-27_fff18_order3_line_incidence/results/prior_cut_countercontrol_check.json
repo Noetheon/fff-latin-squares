@@ -1,0 +1,14 @@
+{
+  "general_validator_fff": false,
+  "general_validator_pattern": "TTT",
+  "general_validator_sha256": "788be9ce3c7628d77b3df910f662f8f3de667fa0dd9214ece186c9193dd723c5",
+  "new_connectivity_cut_violated": true,
+  "prior_aligned_subsquare_count": 0,
+  "prior_cut_checker_sha256": "37c42c387d40a2d06acabc39a96e744d233ab61e2ab4b9dc44b231e8f6438719",
+  "prior_model_had_c227_anchors": false,
+  "row0_incidence_components": [
+    4,
+    2
+  ],
+  "table_sha256": "dc7b3ab6608072ed9f68c99227582f4904dcb5e7786b9e2448561de1d33da768"
+}

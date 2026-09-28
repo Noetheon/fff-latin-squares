@@ -1,0 +1,3 @@
+Small block-substitution controls
+C3 quotient with all 512 binary block twists: TTT=512; all physical pairs match monodromy.
+C2 quotient with all 16 C4/V4 block patterns: FFF=16; all physical pairs match monodromy.

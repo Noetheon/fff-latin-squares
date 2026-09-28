@@ -1,0 +1,14 @@
+{
+  "arbitrary_order18_fff_decided": false,
+  "base_cnf_sha256": "211881ad452447bdb15f5c0613e76e8dfb5e4a10c25d937bfa61c39b180dcb48",
+  "byte_exact_overlay": true,
+  "clauses": 835598,
+  "forced_selector": 1,
+  "one_view_agl_branch_decided": false,
+  "overlay_cnf_sha256": "69fc9af380a20daffc205cd1f0216447c10b06ef73f1b89517949c56a4dd6df0",
+  "proof_checked": false,
+  "relative_nogoods": 5184,
+  "solver_log_sha256": "b2a45365cce17c9f5e736a994bd7d42a9a1af4bfa1f557210ed25ff24fdd44a1",
+  "solver_status": "timeout_or_unknown",
+  "variables": 88317
+}

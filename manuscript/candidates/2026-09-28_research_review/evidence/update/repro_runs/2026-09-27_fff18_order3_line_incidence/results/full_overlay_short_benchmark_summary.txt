@@ -1,0 +1,3 @@
+Full-model connectivity overlay: 8298 symbolic cuts yield 8082 distinct sound clauses over 1848831 frozen full-model clauses; 5346 variables.
+CaDiCaL 3.0.0, 20s sequential per model: base=timeout (20.049s), overlay=timeout (20.052s).
+This bounded timing probe does not establish acceleration or decide FFF18.

@@ -1,0 +1,34 @@
+FFF20 all eligible two-cycle row-pair trades
+Eligible row pairs: 22/190
+Candidate tables checked in two physical scanners: 22528
+FFF labelled masks: 19480
+Distinct exact aggregate three-view spectra in trades: 1700
+Additional spectra over the frozen row-0/1 family: 1188
+Distinct quadratic controls outside all trades: 2
+Order-20 FFF main-class lower bound: 1702
+Order-18 existence: OPEN
+Literature priority: NOT ESTABLISHED
+
+row pair	FFF masks	FFF spectra
+0,1	1024	512
+0,2	1024	512
+0,3	1024	512
+0,4	1024	512
+0,5	1024	512
+0,6	1024	512
+0,7	1024	512
+0,8	1024	512
+0,9	1024	512
+0,10	1024	512
+0,11	1024	512
+0,12	1024	512
+0,13	1024	512
+0,14	1024	512
+0,15	1024	512
+0,16	1024	512
+0,17	1024	512
+0,18	1024	512
+0,19	1024	166
+7,10	8	3
+8,11	8	3
+9,12	8	3

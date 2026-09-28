@@ -1,0 +1,442 @@
+{
+  "c252_trade_result_sha256": "e6628fcdbdd5d108c2ff662171a08be0d38df6f871f8c9dfe02b431719490367",
+  "candidate_masks": 22528,
+  "eligible_row_pairs": 22,
+  "first_fff18_candidate": null,
+  "no_fff18_by_this_route": true,
+  "novel_unique_tables_across_pairs": 14336,
+  "pair_results": [
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 571064,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 571064,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        2
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 571064,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        3
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 571064,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        4
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 571064,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        5
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 571064,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        6
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 570040,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        7
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 570040,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        8
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 570040,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        9
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 570040,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        10
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 570040,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        11
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 570040,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        12
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 575160,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        13
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 575160,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        14
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 575160,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        15
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 575160,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        16
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 575160,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        17
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 575160,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        18
+      ]
+    },
+    {
+      "feasible_contexts": 1022,
+      "fff_masks": 1024,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 1022,
+      "inherited_paths": 523264,
+      "intercalate_cases": 580280,
+      "novel_completion_stream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "novel_contexts": 0,
+      "novel_min_row_odd_pair_count": null,
+      "novel_paths": 0,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 0,
+      "row_pair": [
+        0,
+        19
+      ]
+    },
+    {
+      "feasible_contexts": 38,
+      "fff_masks": 8,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 0,
+      "inherited_paths": 0,
+      "intercalate_cases": 3768,
+      "novel_completion_stream_sha256": "ba65ce5e9e707ed1b0234fabeed94e07f4a566ca0eb3c5631ed3d44307ccdea7",
+      "novel_contexts": 38,
+      "novel_min_row_odd_pair_count": 63,
+      "novel_paths": 7168,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 5120,
+      "row_pair": [
+        7,
+        10
+      ]
+    },
+    {
+      "feasible_contexts": 38,
+      "fff_masks": 8,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 0,
+      "inherited_paths": 0,
+      "intercalate_cases": 3768,
+      "novel_completion_stream_sha256": "58e0e13f78bc0417366523560d31be37e2ae75a93bb70c380042368407e9dcd0",
+      "novel_contexts": 38,
+      "novel_min_row_odd_pair_count": 63,
+      "novel_paths": 7168,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 5120,
+      "row_pair": [
+        8,
+        11
+      ]
+    },
+    {
+      "feasible_contexts": 38,
+      "fff_masks": 8,
+      "first_fff18_candidate": null,
+      "globally_source_equivalent_masks": 2,
+      "inherited_contexts": 0,
+      "inherited_paths": 0,
+      "intercalate_cases": 3768,
+      "novel_completion_stream_sha256": "ea118908759be8253707a031baf7cf39bf005b058ff4a496cae70cc0ac8e40b2",
+      "novel_contexts": 38,
+      "novel_min_row_odd_pair_count": 63,
+      "novel_paths": 7168,
+      "novel_rowF_paths": 0,
+      "novel_unique_tables_within_pair": 5120,
+      "row_pair": [
+        9,
+        12
+      ]
+    }
+  ],
+  "scope": "all C252 FFF20 trade-mask instances and their fixed-remainder two-point contractions",
+  "source_contraction_reference_sha256": "6235e07d49ef7b4bc6c341173323b7d8a210295866f5c94f63e613e5b9a63c9b",
+  "totals": {
+    "feasible_contexts": 19532,
+    "fff_masks": 19480,
+    "globally_source_equivalent_masks": 44,
+    "inherited_contexts": 19418,
+    "inherited_paths": 9942016,
+    "intercalate_cases": 10889168,
+    "novel_contexts": 114,
+    "novel_paths": 21504,
+    "novel_rowF_paths": 0
+  },
+  "unrestricted_order18_decided": false
+}

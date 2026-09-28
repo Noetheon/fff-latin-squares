@@ -1,0 +1,8 @@
+AGL(2,3) relative-unipotent no-good audit
+C213 selector-6 DRAT record: independently checked; local hashes match.
+432 quotient maps, 24 forbidden relative differences per map.
+5184 unordered forbidden selector pairs, including 24 identity pairs.
+Cases 2 and 3 are inverse-rebasing equivalent; five unresolved logical cases.
+Prior C209-passing projection sample forbidden pairs: 0
+Projection sample is not a physical row-F witness.
+No AGL-wide or arbitrary FFF18 decision.

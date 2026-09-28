@@ -1,0 +1,1557 @@
+{
+  "complete_one_pasch_family": true,
+  "completion_stream_sha256": "d9a68fdd3f1d21b85808f8fed71d570f828e7e611583c7f08907ff4f45ccfbae",
+  "contraction_engine_sha256": "913be4f66bb4992c525bf4afacaf975df9cd8460181a41a4bb4e7ae3f8803abf",
+  "fff18_candidate": null,
+  "global_order18_decision": false,
+  "overall_counts": {
+    "checked_completions": 243200,
+    "expected_completions": 243200,
+    "feasible_cases": 475,
+    "first_failure_row": 243200,
+    "independent_samples": 250,
+    "intercalates": 17044,
+    "principal_feasible_cases": 475,
+    "symmetric_completions": 243200
+  },
+  "parent_count": 25,
+  "pasch_trade_count_screened": 24,
+  "pasch_trade_count_total": 24,
+  "per_parent": [
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 676,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": null,
+      "outgoing_blocks": null,
+      "parent_id": "baseline",
+      "parent_odd_pair_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 658,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          3,
+          8,
+          14
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          1,
+          3,
+          14
+        ],
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          7,
+          8,
+          14
+        ]
+      ],
+      "parent_id": "pasch_01",
+      "parent_odd_pair_counts": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 682,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          2,
+          14
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          2,
+          7,
+          11
+        ],
+        [
+          3,
+          11,
+          14
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          1,
+          3,
+          14
+        ],
+        [
+          2,
+          11,
+          14
+        ],
+        [
+          3,
+          7,
+          11
+        ]
+      ],
+      "parent_id": "pasch_02",
+      "parent_odd_pair_counts": [
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 658,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          1,
+          7,
+          12
+        ],
+        [
+          2,
+          7,
+          13
+        ],
+        [
+          6,
+          12,
+          13
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          1,
+          6,
+          12
+        ],
+        [
+          2,
+          6,
+          13
+        ],
+        [
+          7,
+          12,
+          13
+        ]
+      ],
+      "parent_id": "pasch_03",
+      "parent_odd_pair_counts": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          2,
+          10
+        ],
+        [
+          1,
+          7,
+          13
+        ],
+        [
+          2,
+          7,
+          12
+        ],
+        [
+          10,
+          12,
+          13
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          1,
+          10,
+          13
+        ],
+        [
+          2,
+          10,
+          12
+        ],
+        [
+          7,
+          12,
+          13
+        ]
+      ],
+      "parent_id": "pasch_04",
+      "parent_odd_pair_counts": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 658,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          1,
+          12,
+          18
+        ],
+        [
+          5,
+          11,
+          18
+        ],
+        [
+          6,
+          11,
+          12
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          5,
+          18
+        ],
+        [
+          1,
+          6,
+          12
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          11,
+          12,
+          18
+        ]
+      ],
+      "parent_id": "pasch_05",
+      "parent_odd_pair_counts": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 682,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          5,
+          11
+        ],
+        [
+          1,
+          9,
+          18
+        ],
+        [
+          5,
+          6,
+          18
+        ],
+        [
+          6,
+          9,
+          11
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          5,
+          18
+        ],
+        [
+          1,
+          9,
+          11
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          6,
+          9,
+          18
+        ]
+      ],
+      "parent_id": "pasch_06",
+      "parent_odd_pair_counts": [
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          6,
+          9
+        ],
+        [
+          1,
+          11,
+          12
+        ],
+        [
+          6,
+          12,
+          18
+        ],
+        [
+          9,
+          11,
+          18
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          6,
+          12
+        ],
+        [
+          1,
+          9,
+          11
+        ],
+        [
+          6,
+          9,
+          18
+        ],
+        [
+          11,
+          12,
+          18
+        ]
+      ],
+      "parent_id": "pasch_07",
+      "parent_odd_pair_counts": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 682,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          6,
+          13
+        ],
+        [
+          1,
+          10,
+          12
+        ],
+        [
+          2,
+          6,
+          12
+        ],
+        [
+          2,
+          10,
+          13
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          6,
+          12
+        ],
+        [
+          1,
+          10,
+          13
+        ],
+        [
+          2,
+          6,
+          13
+        ],
+        [
+          2,
+          10,
+          12
+        ]
+      ],
+      "parent_id": "pasch_08",
+      "parent_odd_pair_counts": [
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          1,
+          8,
+          9
+        ],
+        [
+          1,
+          11,
+          16
+        ],
+        [
+          8,
+          15,
+          16
+        ],
+        [
+          9,
+          11,
+          15
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          1,
+          8,
+          16
+        ],
+        [
+          1,
+          9,
+          11
+        ],
+        [
+          8,
+          9,
+          15
+        ],
+        [
+          11,
+          15,
+          16
+        ]
+      ],
+      "parent_id": "pasch_09",
+      "parent_odd_pair_counts": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 658,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          8,
+          15
+        ],
+        [
+          3,
+          8,
+          9
+        ],
+        [
+          4,
+          9,
+          15
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          2,
+          4,
+          15
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          8,
+          9,
+          15
+        ]
+      ],
+      "parent_id": "pasch_10",
+      "parent_odd_pair_counts": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 682,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          4,
+          8
+        ],
+        [
+          3,
+          8,
+          12
+        ],
+        [
+          4,
+          12,
+          15
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          2,
+          4,
+          15
+        ],
+        [
+          3,
+          12,
+          15
+        ],
+        [
+          4,
+          8,
+          12
+        ]
+      ],
+      "parent_id": "pasch_11",
+      "parent_odd_pair_counts": [
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          2,
+          3,
+          11
+        ],
+        [
+          2,
+          8,
+          14
+        ],
+        [
+          3,
+          7,
+          8
+        ],
+        [
+          7,
+          11,
+          14
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          2,
+          11,
+          14
+        ],
+        [
+          3,
+          7,
+          11
+        ],
+        [
+          7,
+          8,
+          14
+        ]
+      ],
+      "parent_id": "pasch_12",
+      "parent_odd_pair_counts": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          2,
+          9,
+          10
+        ],
+        [
+          2,
+          12,
+          17
+        ],
+        [
+          9,
+          16,
+          17
+        ],
+        [
+          10,
+          12,
+          16
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          2,
+          9,
+          17
+        ],
+        [
+          2,
+          10,
+          12
+        ],
+        [
+          9,
+          10,
+          16
+        ],
+        [
+          12,
+          16,
+          17
+        ]
+      ],
+      "parent_id": "pasch_13",
+      "parent_odd_pair_counts": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 658,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          9,
+          16
+        ],
+        [
+          4,
+          9,
+          10
+        ],
+        [
+          5,
+          10,
+          16
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          3,
+          5,
+          16
+        ],
+        [
+          4,
+          5,
+          10
+        ],
+        [
+          9,
+          10,
+          16
+        ]
+      ],
+      "parent_id": "pasch_14",
+      "parent_odd_pair_counts": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 682,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          3,
+          4,
+          16
+        ],
+        [
+          3,
+          5,
+          9
+        ],
+        [
+          4,
+          7,
+          9
+        ],
+        [
+          5,
+          7,
+          16
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          3,
+          5,
+          16
+        ],
+        [
+          4,
+          7,
+          16
+        ],
+        [
+          5,
+          7,
+          9
+        ]
+      ],
+      "parent_id": "pasch_15",
+      "parent_odd_pair_counts": [
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          9,
+          15
+        ],
+        [
+          4,
+          8,
+          9
+        ],
+        [
+          8,
+          12,
+          15
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          3,
+          12,
+          15
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          8,
+          9,
+          15
+        ]
+      ],
+      "parent_id": "pasch_16",
+      "parent_odd_pair_counts": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          3,
+          7,
+          18
+        ],
+        [
+          3,
+          10,
+          11
+        ],
+        [
+          7,
+          11,
+          17
+        ],
+        [
+          10,
+          17,
+          18
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          3,
+          7,
+          11
+        ],
+        [
+          3,
+          10,
+          18
+        ],
+        [
+          7,
+          17,
+          18
+        ],
+        [
+          10,
+          11,
+          17
+        ]
+      ],
+      "parent_id": "pasch_17",
+      "parent_odd_pair_counts": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 658,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          10,
+          17
+        ],
+        [
+          5,
+          10,
+          11
+        ],
+        [
+          6,
+          11,
+          17
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          4,
+          5,
+          10
+        ],
+        [
+          4,
+          6,
+          17
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          10,
+          11,
+          17
+        ]
+      ],
+      "parent_id": "pasch_18",
+      "parent_odd_pair_counts": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 682,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          4,
+          5,
+          17
+        ],
+        [
+          4,
+          6,
+          10
+        ],
+        [
+          5,
+          8,
+          10
+        ],
+        [
+          6,
+          8,
+          17
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          4,
+          5,
+          10
+        ],
+        [
+          4,
+          6,
+          17
+        ],
+        [
+          5,
+          8,
+          17
+        ],
+        [
+          6,
+          8,
+          10
+        ]
+      ],
+      "parent_id": "pasch_19",
+      "parent_odd_pair_counts": [
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          4,
+          5,
+          7
+        ],
+        [
+          4,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          10
+        ],
+        [
+          7,
+          9,
+          16
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          4,
+          5,
+          10
+        ],
+        [
+          4,
+          7,
+          16
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          9,
+          10,
+          16
+        ]
+      ],
+      "parent_id": "pasch_20",
+      "parent_odd_pair_counts": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          4,
+          8,
+          13
+        ],
+        [
+          4,
+          11,
+          12
+        ],
+        [
+          8,
+          12,
+          18
+        ],
+        [
+          11,
+          13,
+          18
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          11,
+          13
+        ],
+        [
+          8,
+          13,
+          18
+        ],
+        [
+          11,
+          12,
+          18
+        ]
+      ],
+      "parent_id": "pasch_21",
+      "parent_odd_pair_counts": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          5,
+          6,
+          8
+        ],
+        [
+          5,
+          11,
+          17
+        ],
+        [
+          6,
+          10,
+          11
+        ],
+        [
+          8,
+          10,
+          17
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          5,
+          8,
+          17
+        ],
+        [
+          6,
+          8,
+          10
+        ],
+        [
+          10,
+          11,
+          17
+        ]
+      ],
+      "parent_id": "pasch_22",
+      "parent_odd_pair_counts": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          5,
+          7,
+          12
+        ],
+        [
+          5,
+          9,
+          14
+        ],
+        [
+          7,
+          9,
+          13
+        ],
+        [
+          12,
+          13,
+          14
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          5,
+          12,
+          14
+        ],
+        [
+          7,
+          12,
+          13
+        ],
+        [
+          9,
+          13,
+          14
+        ]
+      ],
+      "parent_id": "pasch_23",
+      "parent_odd_pair_counts": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "counts": {
+        "checked_completions": 9728,
+        "expected_completions": 9728,
+        "feasible_cases": 19,
+        "first_failure_row": 9728,
+        "independent_samples": 10,
+        "intercalates": 694,
+        "principal_feasible_cases": 19,
+        "symmetric_completions": 9728
+      },
+      "first_row_f_candidate": null,
+      "incoming_blocks": [
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          6,
+          10,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          8,
+          10,
+          14
+        ]
+      ],
+      "outgoing_blocks": [
+        [
+          6,
+          7,
+          15
+        ],
+        [
+          6,
+          8,
+          10
+        ],
+        [
+          7,
+          8,
+          14
+        ],
+        [
+          10,
+          14,
+          15
+        ]
+      ],
+      "parent_id": "pasch_24",
+      "parent_odd_pair_counts": [
+        6,
+        6,
+        6
+      ]
+    }
+  ],
+  "scope": "baseline and every single Pasch trade from one frozen STS19; fixed-remainder two-point contractions only",
+  "source_sha256": "6aa6d3cfd2dc6a1b3a72cfedde4c0c0357402ef36aa71f036bdb062f54fd5282"
+}

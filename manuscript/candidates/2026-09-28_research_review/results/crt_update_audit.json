@@ -1,0 +1,126 @@
+{
+  "cases": [
+    {
+      "N": 9,
+      "all_compact_returns_nonzero": true,
+      "field_order": 64,
+      "frozen_twists_sha256": "5ed29e19b65e5ba6cc891bb11fe2d8aa88b64a65bc389730cbb8f11016471a89",
+      "physical_probe_evaluations": 1296,
+      "returns_by_view": {
+        "col": 108,
+        "row": 108,
+        "sym": 108
+      },
+      "returns_checked": 324,
+      "separate_label_coefficients_and_unit_slope": true,
+      "zero_twist_controls": [
+        "row",
+        "col",
+        "sym"
+      ]
+    },
+    {
+      "N": 15,
+      "all_compact_returns_nonzero": true,
+      "field_order": 256,
+      "frozen_twists_sha256": "d6c2dc23251036dbfe63104c9985f15d40e7d64e6a23ce9469d6758ca1fc612a",
+      "physical_probe_evaluations": 2700,
+      "returns_by_view": {
+        "col": 225,
+        "row": 225,
+        "sym": 225
+      },
+      "returns_checked": 675,
+      "separate_label_coefficients_and_unit_slope": true,
+      "zero_twist_controls": [
+        "row",
+        "col",
+        "sym"
+      ]
+    },
+    {
+      "N": 45,
+      "all_compact_returns_nonzero": true,
+      "field_order": 256,
+      "frozen_twists_sha256": "f6bd64c4755dcbe84c87fc18879ed543d16e0c27917a03917f14aca45cd8200c",
+      "physical_probe_evaluations": 68040,
+      "returns_by_view": {
+        "col": 5670,
+        "row": 5670,
+        "sym": 5670
+      },
+      "returns_checked": 17010,
+      "separate_label_coefficients_and_unit_slope": true,
+      "zero_twist_controls": [
+        "row",
+        "col",
+        "sym"
+      ]
+    },
+    {
+      "N": 75,
+      "all_compact_returns_nonzero": true,
+      "field_order": 256,
+      "frozen_twists_sha256": "b4f769df65ed08301a64267be067ea0197d35bba07a2f94a860b94db25005a61",
+      "physical_probe_evaluations": 292500,
+      "returns_by_view": {
+        "col": 24375,
+        "row": 24375,
+        "sym": 24375
+      },
+      "returns_checked": 73125,
+      "separate_label_coefficients_and_unit_slope": true,
+      "zero_twist_controls": [
+        "row",
+        "col",
+        "sym"
+      ]
+    }
+  ],
+  "external_peer_review": false,
+  "frozen_inputs_unchanged": true,
+  "full_table_materialized": false,
+  "independence_limits": [
+    "Shares frozen field arithmetic, quotient model and compact-form enumeration.",
+    "Shares frozen direct physical inversion code; label probes are separated here.",
+    "Four probes determine coefficients only using the verified K-affine model.",
+    "Does not scan all physical line pairs or establish the universal theorem."
+  ],
+  "max_seconds": 120.0,
+  "passed": true,
+  "probes_a_b_start_fibre": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "runtime_seconds": 4.751382,
+  "schema_version": 1,
+  "scope": "all frozen CRT compact returns for N=9,15,45,75; three physical views",
+  "solver_used": false,
+  "sources_sha256": {
+    "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/results/cubefree_lift_status.json": "8e06ed5ff9645cf41e758303f6aa7d2cd1fe4520a50a3d79fa5c326f51bed91f",
+    "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/scripts/check_cubefree_lift.py": "5b3005a3560ff4ecc79c11c4f4a1b2da574a7ea3319aa68c37134c328cd1dcb6",
+    "evidence/update/repro_runs/2026-09-28_fff_cubefree_crt_lift/scripts/verify_compact_certificate.py": "f8f30d638df78ee98ba073eda2d141cc32d435494e17fd8c814fb05389e393b3"
+  },
+  "total_physical_probe_evaluations": 364536,
+  "total_returns_checked": 91134,
+  "twists_regenerated": false,
+  "unrestricted_fff18_decided": false
+}

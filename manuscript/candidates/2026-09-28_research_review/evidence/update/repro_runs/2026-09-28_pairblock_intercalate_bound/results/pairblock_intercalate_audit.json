@@ -1,0 +1,94 @@
+{
+  "fixed_controls": {
+    "frozen_fff14": {
+      "intercalates": 13,
+      "order": 14,
+      "pattern": "FFF"
+    },
+    "group_c3_c2_n6": {
+      "adjacent_pair_partition_preserved": {
+        "col": true,
+        "row": true,
+        "sym": true
+      },
+      "intercalates": 9,
+      "order": 6,
+      "pattern": "TTT"
+    },
+    "non_group_fff8_times_c2_n16": {
+      "adjacent_pair_partition_preserved": {
+        "col": true,
+        "row": true,
+        "sym": true
+      },
+      "intercalates": 512,
+      "order": 16,
+      "pattern": "FFF"
+    }
+  },
+  "inputs_sha256": {
+    "proof_notes/fff_pairblock_intercalate_lower_bound.md": "cd8ca24dcb6e5200343061fbbe9693611cf1f4df5c8c8d50964c360d11d12620",
+    "repro_runs/2026-04-26_order8_core/results/order8_recheck_fullscan_results.json": "10f2f43c8dcaa8ec93f83abf6b768efa47f909a9c8623d4bc648e6da097ccd39",
+    "repro_runs/2026-04-26_small_order_witness_reruns/scripts/latin_trade_search.py": "242e06957ceb8f949fc7379a6542b8dde06ced0657e5aaf09d159cf559ace1e7",
+    "repro_runs/2026-09-23_fff18_three_trade_orbit/results/order14_positive_table.json": "633ad51204c3a88a5f5ffb595a21e2f04a8d68c2a3addbeb0aa49b72fca71f0e",
+    "repro_runs/2026-09-24_fff18_pairblock_full_views_cnf/data/frozen_non_group_fff8_times_c2_n16.json": "fd10dd4a1c3e849c7dc718470fd3df9d781ebb82c88642f7a97fb90cb7474fba",
+    "repro_runs/2026-09-24_fff18_pairblock_full_views_cnf/data/group_c3_c2_n6.json": "2984d6819840ae73ca8006d666cb0523e7d5e7789c2cd33451c5154caa09439a",
+    "tests/test_fff_pairblock_intercalate_bound.py": "fae09a54bc6e3ba1e596de5e5d4ce43b0778105044023f4c5aa571f620c04917"
+  },
+  "order6_full_census": {
+    "intercalate_parity_counts": {
+      "0": 1120,
+      "1": 8288
+    },
+    "matching_partitions_checked_per_view": 15,
+    "pairblock_view_counts": {
+      "col": 1160,
+      "row": 1160,
+      "sym": 1160
+    },
+    "parity_and_threshold_counterexample_to_converse": {
+      "intercalates": 9,
+      "pattern": "TTT",
+      "table_string": "012345103254234501345012450123521430"
+    },
+    "pattern_counts": {
+      "FFT": 936,
+      "FTF": 936,
+      "TFF": 936,
+      "TTT": 6600
+    },
+    "reduced_unique_latin_tables": 9408,
+    "tables_with_pairblock_in_any_view": 1880
+  },
+  "order8_frozen_fff_corpus": {
+    "frozen_fff_representatives": 230,
+    "intercalate_parity_counts": {
+      "0": 216,
+      "1": 14
+    },
+    "matching_partitions_checked_per_view": 105,
+    "odd_intercalate_indices": [
+      1716,
+      1759,
+      2630,
+      10407,
+      24528,
+      29201,
+      51256,
+      83309,
+      100718,
+      123523,
+      191805,
+      196079,
+      233746,
+      275769
+    ],
+    "pairblock_view_counts": {
+      "col": 37,
+      "row": 67,
+      "sym": 44
+    }
+  },
+  "scope": "finite controls only; no order-18 existence or nonexistence decision",
+  "theorem": "one-view pairblock implies I(L)=m^2+2K with K>=0"
+}

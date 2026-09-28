@@ -1,0 +1,11 @@
+Affine corner-trade finite audit
+Prime/coefficient cases: 253; all three-view patterns preserved.
+p=13,a=3: order14 Latin FFF; intercalates 13 -> 1.
+p=19,a=7: order20 Latin FFF; intercalates 19 -> 1.
+Both traded positives pass the independent direct three-view validator.
+p=17: all 15 affine coefficients remain non-FFF after the corner trade.
+C252: 1702 representatives replayed; minimum intercalates 19.
+New order20 lower bound: at least 1703 main classes (not a census).
+C250 order40 lower bound: at least 1450956 main classes (not a census).
+C165+C269: every prime p>=10^12 has a non-group-isotopic FFF order-(p+1) example with one intercalate (proof deduction, not a scan).
+Unrestricted order18 existence: OPEN.

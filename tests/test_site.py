@@ -106,8 +106,9 @@ class SiteTests(unittest.TestCase):
                          "not independent studies", "not a solver-free proof"):
             self.assertIn(required, self.source)
         self.assertIn("<details open>", self.source)
-        self.assertIn("30 pages / PDF", self.source)
-        self.assertIn("72 pages / PDF", self.source)
+        self.assertIn("38 pages / PDF", self.source)
+        self.assertIn("80 pages / PDF", self.source)
+        self.assertIn("through C271", self.source)
         self.assertNotIn("The global conjecture remains open", self.source)
 
     def test_preview_and_review_entry_points(self):

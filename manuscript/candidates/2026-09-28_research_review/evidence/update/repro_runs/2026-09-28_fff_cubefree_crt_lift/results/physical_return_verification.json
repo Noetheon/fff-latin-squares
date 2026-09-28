@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "N": 9,
+      "all_nonzero": true,
+      "direct_returns_checked": 324,
+      "returns_by_view": {
+        "col": 108,
+        "row": 108,
+        "sym": 108
+      },
+      "twists_sha256": "5ed29e19b65e5ba6cc891bb11fe2d8aa88b64a65bc389730cbb8f11016471a89",
+      "two_label_choices_and_fibre_slope_checked": true,
+      "zero_twist_negative_control": true
+    },
+    {
+      "N": 15,
+      "all_nonzero": true,
+      "direct_returns_checked": 675,
+      "returns_by_view": {
+        "col": 225,
+        "row": 225,
+        "sym": 225
+      },
+      "twists_sha256": "d6c2dc23251036dbfe63104c9985f15d40e7d64e6a23ce9469d6758ca1fc612a",
+      "two_label_choices_and_fibre_slope_checked": true,
+      "zero_twist_negative_control": true
+    },
+    {
+      "N": 45,
+      "all_nonzero": true,
+      "direct_returns_checked": 17010,
+      "returns_by_view": {
+        "col": 5670,
+        "row": 5670,
+        "sym": 5670
+      },
+      "twists_sha256": "f6bd64c4755dcbe84c87fc18879ed543d16e0c27917a03917f14aca45cd8200c",
+      "two_label_choices_and_fibre_slope_checked": true,
+      "zero_twist_negative_control": true
+    },
+    {
+      "N": 75,
+      "all_nonzero": true,
+      "direct_returns_checked": 73125,
+      "returns_by_view": {
+        "col": 24375,
+        "row": 24375,
+        "sym": 24375
+      },
+      "twists_sha256": "b4f769df65ed08301a64267be067ea0197d35bba07a2f94a860b94db25005a61",
+      "two_label_choices_and_fibre_slope_checked": true,
+      "zero_twist_negative_control": true
+    }
+  ],
+  "input_status_sha256": "8e06ed5ff9645cf41e758303f6aa7d2cd1fe4520a50a3d79fa5c326f51bed91f",
+  "scope": "all compact quotient returns checked against direct physical steps",
+  "unrestricted_fff18_decided": false
+}

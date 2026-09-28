@@ -1,0 +1,35 @@
+{
+  "controls": {
+    "fff12": {
+      "agreement": true,
+      "fff": true,
+      "odd_pair_counts": {
+        "col": 0,
+        "row": 0,
+        "sym": 0
+      },
+      "pattern": "FFF"
+    },
+    "ftf18": {
+      "agreement": true,
+      "fff": false,
+      "odd_pair_counts": {
+        "col": 18,
+        "row": 0,
+        "sym": 0
+      },
+      "pattern": "FTF"
+    },
+    "group18": {
+      "agreement": true,
+      "fff": false,
+      "odd_pair_counts": {
+        "col": 72,
+        "row": 72,
+        "sym": 72
+      },
+      "pattern": "TTT"
+    }
+  },
+  "general_validator_sha256": "788be9ce3c7628d77b3df910f662f8f3de667fa0dd9214ece186c9193dd723c5"
+}

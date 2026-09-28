@@ -1,0 +1,7 @@
+Dual-sign adjacent-edge normal form
+
+n6: 9408 unique reduced Latin tables; 936 row+col-F; 936 normalized with pattern preserved
+Existing C243 normalizer on those 936: column1 positive 516, negative 420; do not append a positive-column1 unit to its 14 cases.
+frozen FFF8: 230 representatives normalized; FFF12 and FFF14 pass
+n18: 33 complete cases with row1 and col1 positive; 14 row1 partitions
+No n18 case solved; no SAT/UNSAT status or speedup claimed.

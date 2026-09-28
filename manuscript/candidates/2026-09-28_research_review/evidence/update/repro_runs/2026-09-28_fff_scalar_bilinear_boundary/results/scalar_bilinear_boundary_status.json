@@ -1,0 +1,120 @@
+{
+  "evidence_scope": "finite controls, not universal proof",
+  "f3_rank2": {
+    "anisotropic_forms": 6,
+    "dimension": 2,
+    "first_anisotropic_form": {
+      "coefficients": [
+        1,
+        0,
+        1
+      ]
+    },
+    "forms": 27,
+    "isotropic_nonzero_count_histogram": {
+      "0": 6,
+      "2": 8,
+      "4": 12,
+      "8": 1
+    },
+    "prime": 3
+  },
+  "f3_rank3": {
+    "anisotropic_forms": 0,
+    "dimension": 3,
+    "first_anisotropic_form": null,
+    "forms": 729,
+    "isotropic_nonzero_count_histogram": {
+      "14": 156,
+      "2": 78,
+      "26": 1,
+      "8": 494
+    },
+    "prime": 3
+  },
+  "physical_all_rank3_forms": {
+    "cancelling_row_label_histogram": {
+      "0": 96,
+      "1": 357,
+      "2": 192,
+      "3": 84
+    },
+    "odd_three_cycle_witnesses": 729,
+    "symmetric_forms_checked": 729
+  },
+  "physical_row_witness": {
+    "bilinear_form": "standard_dot_product_mod_3",
+    "field": "GF(4), polynomial X^2+X+1",
+    "group": "F3^3",
+    "isotropic_nonzero_difference": [
+      1,
+      1,
+      1
+    ],
+    "odd_cycle": [
+      {
+        "fibre": 0,
+        "quotient": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "fibre": 0,
+        "quotient": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "fibre": 1,
+        "quotient": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "row1": {
+      "fibre": 0,
+      "quotient": [
+        1,
+        1,
+        1
+      ]
+    },
+    "row2": {
+      "fibre": 3,
+      "quotient": [
+        0,
+        0,
+        0
+      ]
+    },
+    "tested_row2_fibre_labels": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "3": 3
+    },
+    "twist": "deterministic_nonzero_pattern_in_script"
+  },
+  "schema_version": 1,
+  "z9": {
+    "all_bilinear_forms": 9,
+    "diagonal_values_mod9": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "difference": 3
+  }
+}

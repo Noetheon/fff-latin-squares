@@ -1,0 +1,48 @@
+{
+  "case_id": "n18_dual_sign_01_z16_16_2",
+  "max_workers": 1,
+  "partition": [
+    16,
+    2
+  ],
+  "runs": {
+    "baseline": {
+      "cnf_sha256": "869290534f6b10c96dc8c408ac6b2f572a9b6a51d1b5caf0fd3addabfc0038f0",
+      "command": [
+        "/opt/homebrew/bin/cadical",
+        "-t",
+        "45",
+        ".audit/local/fff18_column_parity_preflight/n18_baseline.cnf"
+      ],
+      "elapsed_seconds": 45.114,
+      "exit_code": 0,
+      "proof_checked": false,
+      "proof_log": false,
+      "solver_log_sha256": "3f64c4df89ac98ab9ba1d81e210b7e0000e7ca8622b45a46ffdea6b8f7c0daab",
+      "status": "timeout",
+      "timeout_seconds": 45,
+      "var_map_sha256": "d996bad347736db5ff8d4b8c31ae56d31d66a2f16b2df29060f2086766665e7e"
+    },
+    "column1_positive": {
+      "cnf_sha256": "b96f2f647f7384ffea893b786b1b2b1bf4b61f2ba96417cbef82c6773985cf13",
+      "command": [
+        "/opt/homebrew/bin/cadical",
+        "-t",
+        "45",
+        ".audit/local/fff18_column_parity_preflight/n18_case01.cnf"
+      ],
+      "elapsed_seconds": 45.032,
+      "exit_code": 0,
+      "proof_checked": false,
+      "proof_log": false,
+      "solver_log_sha256": "ce77413ae7f72890cb64bb8cc77438bba1885d3c01e2a27fb0504ab152f4c52c",
+      "status": "timeout",
+      "timeout_seconds": 45,
+      "var_map_sha256": "03facbd8b306f179a38f8f31b0a19faafafcb503ca3fe610c67a03d5461adc43"
+    }
+  },
+  "scope": "one of 33 complete dual-sign cases; no unrestricted n18 decision",
+  "solver": "CaDiCaL",
+  "solver_binary_sha256": "c7b63954503d7fb1c8532efa37689715398683b5dea59d9bf6d80f06169e09b3",
+  "solver_version": "3.0.0"
+}

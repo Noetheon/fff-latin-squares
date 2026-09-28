@@ -1,0 +1,7 @@
+Free-order-three line-incidence audit
+Six-position class: 40 products, zero even-cycle derangements.
+Order-18 symbolic connectivity cuts: 8298 (461 per line orbit).
+fff12: pattern=FFF, components={row:{'4': 4}, col:{'4': 4}, sym:{'4': 4}}, failed_cuts={row:0, col:0, sym:0}.
+ftf18: pattern=FTF, components={row:{'6': 6}, col:{'6': 6}, sym:{'6': 6}}, failed_cuts={row:0, col:0, sym:0}.
+group18: pattern=TTT, components={row:{'1+1+1+1+1+1': 6}, col:{'1+1+1+1+1+1': 6}, sym:{'1+1+1+1+1+1': 6}}, failed_cuts={row:186, col:186, sym:186}.
+No unrestricted order-18 conclusion; FTF18 is not FFF.

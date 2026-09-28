@@ -1,0 +1,1307 @@
+{
+  "frozen_fff_controls": [
+    {
+      "empty_domain_cells": [
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "empty_domain_count": 12,
+      "fixed_remainder_latin_completion_count": 0,
+      "hole_count": 24,
+      "independent_validator_agreement": true,
+      "intercalate_corner": {
+        "columns": [
+          0,
+          13
+        ],
+        "rows": [
+          0,
+          13
+        ],
+        "symbols": [
+          0,
+          13
+        ]
+      },
+      "order": 14,
+      "parameter": 3,
+      "prime": 13,
+      "retained_order": 12,
+      "source_intercalate_count": 1,
+      "source_odd_pair_counts": [
+        0,
+        0,
+        0
+      ],
+      "source_path": "repro_runs/2026-09-28_affine_corner_trade/results/p13_a3_traded_table.json",
+      "source_pattern": "FFF",
+      "source_sha256": "fc585d68dce9f760f050082025cbb148e16d0580db76cee9106409dd61fd75c9"
+    },
+    {
+      "empty_domain_cells": [
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          15,
+          4
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          1
+        ]
+      ],
+      "empty_domain_count": 18,
+      "fixed_remainder_latin_completion_count": 0,
+      "hole_count": 36,
+      "independent_validator_agreement": true,
+      "intercalate_corner": {
+        "columns": [
+          0,
+          19
+        ],
+        "rows": [
+          0,
+          19
+        ],
+        "symbols": [
+          0,
+          19
+        ]
+      },
+      "order": 20,
+      "parameter": 7,
+      "prime": 19,
+      "retained_order": 18,
+      "source_intercalate_count": 1,
+      "source_odd_pair_counts": [
+        0,
+        0,
+        0
+      ],
+      "source_path": "repro_runs/2026-09-28_affine_corner_trade/results/p19_a7_traded_table.json",
+      "source_pattern": "FFF",
+      "source_sha256": "99b9742fda5358826a3cdd2ecdff8da95d115c6ec0b3c112a2a2f083b70bf780"
+    }
+  ],
+  "generic_parameter_sweep": {
+    "all_have_p_minus_1_empty_domains": true,
+    "case_count": 216,
+    "cases": [
+      {
+        "empty_domain_count": 6,
+        "parameter": 2,
+        "prime": 7
+      },
+      {
+        "empty_domain_count": 6,
+        "parameter": 4,
+        "prime": 7
+      },
+      {
+        "empty_domain_count": 10,
+        "parameter": 2,
+        "prime": 11
+      },
+      {
+        "empty_domain_count": 10,
+        "parameter": 3,
+        "prime": 11
+      },
+      {
+        "empty_domain_count": 10,
+        "parameter": 4,
+        "prime": 11
+      },
+      {
+        "empty_domain_count": 10,
+        "parameter": 6,
+        "prime": 11
+      },
+      {
+        "empty_domain_count": 10,
+        "parameter": 7,
+        "prime": 11
+      },
+      {
+        "empty_domain_count": 10,
+        "parameter": 8,
+        "prime": 11
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 2,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 3,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 4,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 5,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 7,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 8,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 9,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 12,
+        "parameter": 10,
+        "prime": 13
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 2,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 3,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 4,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 5,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 6,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 7,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 9,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 10,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 11,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 12,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 13,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 16,
+        "parameter": 14,
+        "prime": 17
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 2,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 3,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 4,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 5,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 6,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 7,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 8,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 10,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 11,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 12,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 13,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 14,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 15,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 18,
+        "parameter": 16,
+        "prime": 19
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 2,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 3,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 4,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 5,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 6,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 7,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 8,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 9,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 10,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 12,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 13,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 14,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 15,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 16,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 17,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 18,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 19,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 22,
+        "parameter": 20,
+        "prime": 23
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 2,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 3,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 4,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 5,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 6,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 7,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 8,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 9,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 10,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 11,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 12,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 13,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 15,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 16,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 17,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 18,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 19,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 20,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 21,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 22,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 23,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 24,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 25,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 28,
+        "parameter": 26,
+        "prime": 29
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 2,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 3,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 4,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 5,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 6,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 7,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 8,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 9,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 10,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 11,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 12,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 13,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 14,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 16,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 17,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 18,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 19,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 20,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 21,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 22,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 23,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 24,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 25,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 26,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 27,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 30,
+        "parameter": 28,
+        "prime": 31
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 2,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 3,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 4,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 5,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 6,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 7,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 8,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 9,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 10,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 11,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 12,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 13,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 14,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 15,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 16,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 17,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 19,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 20,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 21,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 22,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 23,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 24,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 25,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 26,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 27,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 28,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 29,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 30,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 31,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 32,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 33,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 36,
+        "parameter": 34,
+        "prime": 37
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 2,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 3,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 4,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 5,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 6,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 7,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 8,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 9,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 10,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 11,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 12,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 13,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 14,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 15,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 16,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 17,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 18,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 19,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 21,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 22,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 23,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 24,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 25,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 26,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 27,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 28,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 29,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 30,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 31,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 32,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 33,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 34,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 35,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 36,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 37,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 40,
+        "parameter": 38,
+        "prime": 41
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 2,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 3,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 4,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 5,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 6,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 7,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 8,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 9,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 10,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 11,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 12,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 13,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 14,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 15,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 16,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 17,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 18,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 19,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 20,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 22,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 23,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 24,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 25,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 26,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 27,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 28,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 29,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 30,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 31,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 32,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 33,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 34,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 35,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 36,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 37,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 38,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 39,
+        "prime": 43
+      },
+      {
+        "empty_domain_count": 42,
+        "parameter": 40,
+        "prime": 43
+      }
+    ],
+    "primes": [
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ]
+  },
+  "input_sha256": {
+    "proof_notes/fff_affine_corner_noncontraction.md": "e4a5354200fd6e122369cf482a5425533cbbab4f8e9a79ac6e963e719bf3f6ab",
+    "proof_notes/fff_affine_corner_trade_pattern.md": "f0fcb51b618381be2a705c7674724647c9c6edfbeaf86f00d1e10d460629733a",
+    "proof_notes/fff_two_point_subsquare_contraction.md": "582d8295608091442acfc02fe1d4c703044d8569c872f913c21923fe2862fd3a",
+    "repro_runs/2026-09-23_fff_nonpower_witness_intake/scripts/validate_nonpower_witnesses.py": "a1839972dbed2a55f23660a7acd35715a2d49b8afdfa845fa38eaac12bc31ab6",
+    "repro_runs/2026-09-25_fff20_to18_contraction/scripts/scan_contractions.py": "b158317ba54dfbe36f6cdcc2764d3616abcda988b083c1acd62215eff8d25404",
+    "repro_runs/2026-09-28_affine_corner_trade/results/p13_a3_traded_table.json": "fc585d68dce9f760f050082025cbb148e16d0580db76cee9106409dd61fd75c9",
+    "repro_runs/2026-09-28_affine_corner_trade/results/p19_a7_traded_table.json": "99b9742fda5358826a3cdd2ecdff8da95d115c6ec0b3c112a2a2f083b70bf780",
+    "repro_runs/2026-09-28_affine_corner_trade/scripts/audit_corner_trade.py": "e6f6848f02caa121d5dfbbfa3b6b54c849e26498a4e6faa937b5a71732ce43b5"
+  },
+  "literature_priority_established": false,
+  "scope": "generic affine one-point corner-traded family, unique intercalate, fixed-remainder contraction",
+  "unrestricted_order18_decided": false
+}

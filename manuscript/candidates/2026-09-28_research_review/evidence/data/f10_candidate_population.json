@@ -1,0 +1,17 @@
+{
+  "schema_version": "independent-binary-graph-clique-table-audit-v1",
+  "workers": 8,
+  "initial_tasks": 20160,
+  "clique_count": 55680,
+  "exact_palette_count": 34560,
+  "fff_count": 0,
+  "latin_errors": 0,
+  "row_not_f_errors": 0,
+  "palette_subset_errors": 0,
+  "pattern_counts": {
+    "FTT": 26880,
+    "FTF": 14400,
+    "FFT": 14400
+  },
+  "valid": true
+}

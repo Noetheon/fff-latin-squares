@@ -1,0 +1,34 @@
+{
+  "assignment_checked_all_clauses": true,
+  "base_cnf_sha256": "8726a442167bd7184f615735e57c5446e2e069681dcd609ac53d329cc9473979",
+  "base_mapping_sha256": "20e2e683f51489f6641e2b6dc1a72ac4356609aea1483eb58a7b0f99f1261720",
+  "closed_rectangle": {
+    "line": 0,
+    "position_orbits": [
+      0,
+      1
+    ],
+    "value_orbits": [
+      0,
+      1
+    ]
+  },
+  "command": "cadical -t 30 <overlay.cnf>",
+  "decoded_table_sha256": "dc7b3ab6608072ed9f68c99227582f4904dcb5e7786b9e2448561de1d33da768",
+  "latin": true,
+  "overlay_clauses": 64151,
+  "overlay_cnf_sha256": "6241986d73e674d99b86395d2ca2c49e000e860d11c7905e9dbefebb87775ae6",
+  "overlay_variables": 2592,
+  "prior_aligned_subsquare_count": 0,
+  "row0_incidence_components": [
+    4,
+    2
+  ],
+  "scope": "order-18 semiregular Latin plus prior subsquare cuts; no full FFF constraints or C227 anchors",
+  "solver": "CaDiCaL",
+  "solver_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "solver_stdout_sha256": "e66a5fed95a452cc8cd7ee20e069dedca68741b5da70145bcfd0b46148ee893b",
+  "solver_version": "3.0.0",
+  "status": "sat",
+  "timeout_seconds": 30
+}

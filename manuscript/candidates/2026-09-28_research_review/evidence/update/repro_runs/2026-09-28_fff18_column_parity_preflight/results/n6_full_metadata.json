@@ -1,0 +1,32 @@
+{
+  "balance_clause_count": 2700,
+  "base_clause_count": 21225,
+  "base_script_sha256": "29f3914c8534aa16262bc053a3ae1e1e2d50efcdcfc8570784d5ec045ed35709",
+  "cnf": {
+    "clauses": 24432,
+    "sha256": "ae5f404c51cd85a09389ff9211a09c40a4a2294e92c11ac9956f7c7eeb2855a1",
+    "size_bytes": 453946,
+    "variables": 1865
+  },
+  "color_balance": true,
+  "color_gauge": true,
+  "column1_positive": true,
+  "column_sign_clause_count": 507,
+  "column_sign_inversion_variables": 15,
+  "column_sign_xor_variables": 14,
+  "compact_script_sha256": "db8202a0c8534c06ae0f0861b07dddd8383bf02f90b9c76e58856c8c34533480",
+  "encoding_version": "fff_c39_compact_balance_col1_sign_v1",
+  "fixed_row1_case_id": null,
+  "fixed_row1_cases_sha256": null,
+  "fixed_table_input_sha256": null,
+  "n": 6,
+  "reduced": true,
+  "solver_status": "not_run",
+  "var_map_sha256": "d9bc13fe007b5e300a0f1b0efcf163f9bb998e766e1d7a0be0fdccfe117c7b66",
+  "var_map_size_bytes": 12091,
+  "views": [
+    "row",
+    "col",
+    "sym"
+  ]
+}

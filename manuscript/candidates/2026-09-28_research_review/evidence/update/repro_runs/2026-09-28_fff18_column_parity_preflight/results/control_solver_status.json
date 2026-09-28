@@ -1,0 +1,90 @@
+{
+  "controls": {
+    "n6_full": {
+      "cnf_sha256": "ae5f404c51cd85a09389ff9211a09c40a4a2294e92c11ac9956f7c7eeb2855a1",
+      "proof_check_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_column_parity_preflight/n6_full.cnf",
+        ".audit/local/fff18_column_parity_preflight/n6_full.drat",
+        "-I"
+      ],
+      "proof_check_elapsed_seconds": 0.064,
+      "proof_check_exit_code": 0,
+      "proof_check_log_sha256": "8b8b1fa29592fdf1ba2fc153484e92ba473532534ebbb0f7de0e67409748f7bf",
+      "proof_checked": true,
+      "proof_sha256": "56d2f932795f3b9ff253443265700540a21d2788599f5559e7ff61d4064073eb",
+      "proof_size_bytes": 609721,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--no-binary",
+        "-t",
+        "60",
+        ".audit/local/fff18_column_parity_preflight/n6_full.cnf",
+        ".audit/local/fff18_column_parity_preflight/n6_full.drat"
+      ],
+      "solver_elapsed_seconds": 0.029,
+      "solver_exit_code": 20,
+      "solver_log_sha256": "5f79f443722c284b1427100aeea0cf227bc850ef13863cc87ac58b0d727a29f3",
+      "status": "unsat",
+      "var_map_sha256": "d9bc13fe007b5e300a0f1b0efcf163f9bb998e766e1d7a0be0fdccfe117c7b66"
+    },
+    "n8_negative": {
+      "cnf_sha256": "b6464a8f4cce6c71b3539998e8a48ce9da1c7bad34c616606a3d974b7b4ff601",
+      "proof_check_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_column_parity_preflight/n8_negative.cnf",
+        ".audit/local/fff18_column_parity_preflight/n8_negative.drat",
+        "-I"
+      ],
+      "proof_check_elapsed_seconds": 0.085,
+      "proof_check_exit_code": 0,
+      "proof_check_log_sha256": "90c4adaf8582c479f3b1abd05c84354e0ef30e664ca70e0cbf645b15cf6666b1",
+      "proof_checked": true,
+      "proof_sha256": "07ec0e58e1d15412ce04a96c1ea1c4f907a47e39f59f0edb0d745d00d27e3188",
+      "proof_size_bytes": 2164565,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--no-binary",
+        "-t",
+        "60",
+        ".audit/local/fff18_column_parity_preflight/n8_negative.cnf",
+        ".audit/local/fff18_column_parity_preflight/n8_negative.drat"
+      ],
+      "solver_elapsed_seconds": 0.027,
+      "solver_exit_code": 20,
+      "solver_log_sha256": "071b3e0c68d76a19a8852349b34fa381fdeac0795cd75e97fe82da7ffa393016",
+      "status": "unsat",
+      "var_map_sha256": "2d590d5c78689514569d87280f264286d214f32932127d249220ae13cf121dd1"
+    },
+    "n8_positive": {
+      "cnf_sha256": "460ad32f1b578e59fa3712a4a8615799ad878fb000471431aa0960084085589c",
+      "column1_inversion_parity": 0,
+      "decoded_table_sha256": "904b3318f06def5d73fd4c9f72893cffeb4acebeb6aaab5ec9bbcdcc43fa689f",
+      "proof_checked": "not_applicable",
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--no-binary",
+        "-t",
+        "60",
+        ".audit/local/fff18_column_parity_preflight/n8_positive.cnf"
+      ],
+      "solver_elapsed_seconds": 0.015,
+      "solver_exit_code": 10,
+      "solver_log_sha256": "a6b15d961485d42caa80c4ac5c79164d01a586531d21025c3a180bf567033839",
+      "status": "sat",
+      "validator": {
+        "fff": true,
+        "latin": true,
+        "line_pairs_checked": 84,
+        "pattern": "FFF",
+        "reduced": true
+      },
+      "var_map_sha256": "3070a20fdd1b6686e72ade2b6437a854e5160db3f3116fca6bef71fdfe84aa3f"
+    }
+  },
+  "decoder_sha256": "f7a135940f0e73e0f850a7476f14f31aa517838382deff3ce1d3897e7b2ff1c3",
+  "drat_trim_binary_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "solver_binary_sha256": "c7b63954503d7fb1c8532efa37689715398683b5dea59d9bf6d80f06169e09b3",
+  "solver_version": "3.0.0",
+  "validator_sha256": "a1839972dbed2a55f23660a7acd35715a2d49b8afdfa845fa38eaac12bc31ab6"
+}

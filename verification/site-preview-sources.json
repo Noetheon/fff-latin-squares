@@ -6,38 +6,38 @@
     {
       "asset": "assets/compact-cover.png",
       "source": "papers/FFF_Compact_Research_Dossier.pdf",
-      "source_sha256": "70d86260918b0576575c4f43affb45b8a55a3f66defd239b598e568876b4ab35",
+      "source_sha256": "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366",
       "page": 1,
       "width": 536,
       "height": 759,
-      "sha256": "54141c6960190298b90e50a7d8a9200e0871355ca2baf46e08444cfdabdb2b19"
+      "sha256": "af1bbb5717c1d58dce63332134f0e8b148f83fb7ab2bd73b58f8573da33dbcea"
     },
     {
       "asset": "assets/compact-abstract.png",
       "source": "papers/FFF_Compact_Research_Dossier.pdf",
-      "source_sha256": "70d86260918b0576575c4f43affb45b8a55a3f66defd239b598e568876b4ab35",
+      "source_sha256": "bd8c4c132565a72b3c7f1205b248773090a9417ef9fb474172842c587eea1366",
       "page": 3,
       "width": 721,
       "height": 1019,
-      "sha256": "8c71495af55b7d2cd38afb43de9fde4a84f92f0cf5d362c5ab949bab9200a86e"
+      "sha256": "24ea5924d506444a52da12cd531f0d7aa79cf628447b50707cf90003acf493c5"
     },
     {
       "asset": "assets/long-cover.png",
       "source": "papers/FFF_Long_Research_Dossier.pdf",
-      "source_sha256": "67133efd8d6a99204db510f5cee9c66bb338d654a6e7fd6c7b24cec3a7dd250f",
+      "source_sha256": "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868",
       "page": 1,
       "width": 536,
       "height": 759,
-      "sha256": "03313cb43c4122c26d419c7b8edb0bad8b66bb3294bf0863995b20c567680350"
+      "sha256": "f7bf2acf7c9d6034b00d60616e0149c86351a5d7c91837f6c033d2112adb9592"
     },
     {
       "asset": "assets/long-abstract.png",
       "source": "papers/FFF_Long_Research_Dossier.pdf",
-      "source_sha256": "67133efd8d6a99204db510f5cee9c66bb338d654a6e7fd6c7b24cec3a7dd250f",
+      "source_sha256": "5986a4008e2227f37c2d8b494872fa19f450f7dc74f7ed00ba0543a357bae868",
       "page": 3,
       "width": 721,
       "height": 1019,
-      "sha256": "0b85754242b43340554e2dc5574ad68c122f1c32841a4bf1e8792f223b008982"
+      "sha256": "71cca892d556c413324836e84b6f6ff67e64f910a77f894be686afdb65707bc2"
     }
   ]
 }

@@ -1,0 +1,11 @@
+Three-view block-substitution monodromy audit
+order12_first: n=12, quotient=TTT, all_9_blocks_FFF=True, physical=FFF, physical_pairs=198
+  row: cross_pairs=48, outer_cycles=48, return_profiles={'2+2': 48}
+  col: cross_pairs=48, outer_cycles=48, return_profiles={'2+2': 16, '4': 32}
+  sym: cross_pairs=48, outer_cycles=48, return_profiles={'2+2': 16, '4': 32}
+order12_preferred: n=12, quotient=TTT, all_9_blocks_FFF=True, physical=FFF, physical_pairs=198
+  row: cross_pairs=48, outer_cycles=48, return_profiles={'2+2': 48}
+  col: cross_pairs=48, outer_cycles=48, return_profiles={'2+2': 48}
+  sym: cross_pairs=48, outer_cycles=48, return_profiles={'2+2': 48}
+C3 x C2: TTT; C2 x C3: TTT; variable FFF4 blocks over C2: FFF
+Every physical line pair agrees with the monodromy formula in all three views.

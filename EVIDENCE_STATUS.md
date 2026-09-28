@@ -1,6 +1,6 @@
 # Evidence Status
 
-Edition cutoff: 27 September 2026, 10:52 UTC, through C251.
+Edition cutoff: 28 September 2026, 10:24:49 UTC, through C271.
 These are classifications in the research record,
 not independent referee endorsements.
 
@@ -15,6 +15,9 @@ not independent referee endorsements.
 | Finite-field/norm bounds, affine prime-successor criterion and constructions | Written proofs, internally examined; bounded exact controls | Hypotheses and external mathematical dependencies are explicit. No priority or independent human-review claim. |
 | C246/C247: product spectrum and row-fibred pattern theorems | Written proofs plus exact finite controls | 512 main classes within one trade family and two extra controls give a source lower bound of 514 at order 20; not a census. |
 | C248-C250: quotient descent, intrinsic layers, affine-orbit classification | Written arguments plus exact group/Burnside calculations | Classification is within the stated construction; higher-order lower bounds are not exhaustive table enumeration. |
+| C252/C269: enlarged represented family | Fresh exact dual-scanner validation, exact spectrum separation and 1703 rank-58 minors | Lower bounds 1703 at order 20 and 1450956 at order 40; not complete censuses. This fixed-family route needs no C157. |
+| C260/C262-C264: block returns, common-fibre CRT and ansatz boundaries | Written proofs, internal adversarial audit and 91134 compact return checks | 364536 separated physical probes; shared field arithmetic is disclosed. No enormous full-table scan or optimal threshold claim. |
+| C269-C271: corner trade, unique intercalate and noncontraction | Written three-view proof; 253 pattern and 216 generic domain/intercalate controls | Analytic FFF existence at large primes uses the cited Katz estimate; no new order-18 decision or established novelty. |
 | C221/C225/C235/C251 and the five-cell conflict | Restricted-family proofs and historical finite/certificate records | None excludes all order-18 squares. The new public audit does not rerun these historical solver/certificate checks. |
 | Unrestricted order 18 and the complete order spectrum | Open | Timeouts, construction-specific exclusions and partial tables do not decide them. |
 | Historical partial SAT models and timeouts | Diagnostic evidence only | They do not establish an FFF example or complete nonexistence. |
@@ -27,7 +30,7 @@ The compact PDF is a reading aid with a smaller theorem set. Consult the long
 dossier for the order-10 reduction and computational evidence. No mathematical
 claim is established merely by public hosting. This edition incorporates later
 proof text and finite evidence, with a fresh, bounded audit described in the
-[current source package](manuscript/candidates/2026-09-27_research_snapshot/README.md).
+[current source package](manuscript/candidates/2026-09-28_research_review/README.md).
 The initial September edition and frozen historical outputs are not rewritten.
 
 ## Outstanding work

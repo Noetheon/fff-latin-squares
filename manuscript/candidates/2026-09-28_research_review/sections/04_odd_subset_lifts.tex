@@ -1,0 +1,85 @@
+\section{Odd-subset lift characterization}
+\label{sec:odd-subset-lifts}
+
+The even-cycle condition also has an exact formulation without auxiliary
+cycle colours.  This formulation will be useful both structurally and for
+proof-producing computation.
+
+\begin{lemma}[Invariant odd subsets]\label{lem:invariant-odd-subset}
+A permutation of a finite set has only even cycles if and only if it preserves
+no subset of odd cardinality.
+\end{lemma}
+
+\begin{proof}
+The support of an odd cycle is an invariant subset of odd cardinality.
+Conversely, every invariant subset is a disjoint union of cycles.  A union of
+even cycles has even cardinality, so an invariant subset of odd cardinality
+contains an odd cycle.
+\end{proof}
+
+Let $\Lambda=\{\lambda_i:U\to V:i\in I\}$ be one line family of a Latin
+square.  Thus, in the row view, $U$ is the column set, $V$ is the symbol set,
+and $\lambda_i$ is row $i$ as a bijection.  The column view uses bijections
+from rows to symbols, and the symbol view uses the position bijections from
+columns to rows.  In every case $|I|=|U|=|V|=n$, and distinct lines are
+pointwise disjoint.
+
+For $1\leq k\leq n$, let $\rho_k(\lambda_i)$ be the permutation matrix of the
+induced bijection from the $k$-subsets of $U$ to the $k$-subsets of $V$, and
+put
+\begin{equation}
+ B_k(\Lambda)=\sum_{i\in I}\rho_k(\lambda_i).
+ \label{eq:odd-subset-lift}
+\end{equation}
+Its $(A,B)$ entry counts the lines satisfying $\lambda_i(A)=B$.
+
+\begin{theorem}[Odd-subset collision characterization]
+\label{thm:odd-subset-collision}
+Let $\Lambda$ be a view of a Latin square of even order $n$.  The view is F if
+and only if $B_k(\Lambda)$ is a zero-one matrix for every odd
+$k$ with $3\leq k\leq n/2$.  If $n/2$ is odd, it is enough at level $n/2$ to
+test one member of each complementary pair of subsets.
+
+Consequently, a Latin square of even order is FFF if and only if this
+collision-free condition holds for the row, column, and symbol line families.
+\end{theorem}
+
+\begin{proof}
+For distinct $i,j$ and a $k$-subset $A\subseteq U$, the two induced images
+collide precisely when
+\[
+ \lambda_i(A)=\lambda_j(A)
+ \quad\Longleftrightarrow\quad
+ (\lambda_j^{-1}\lambda_i)(A)=A.
+\]
+Thus an entry of $B_k(\Lambda)$ exceeds one precisely when a relative
+two-line permutation preserves the corresponding $k$-subset.
+
+By Lemma~\ref{lem:invariant-odd-subset}, a relative permutation has an odd
+cycle if and only if it preserves an odd-cardinality subset.  Since two
+distinct Latin-square lines have no common point, their relative permutation
+is fixed-point-free, so $k=1$ is automatic.  Because $n$ is even, a subset is
+invariant if and only if its complement is invariant, and the two sets have
+the same odd parity.  It therefore suffices to retain sizes at most $n/2$;
+when $k=n/2$ is odd, one set from each complementary pair is enough.  This
+proves the claim for one view.  Applying the same argument to the three line
+families proves the FFF statement.
+\end{proof}
+
+Every matrix $B_k(\Lambda)$ has constant row and column sum $n$.  Hence, in
+an F-view, it is the biadjacency matrix of a simple $n$-regular bipartite
+graph on the two $k$-subset sets.  At order $10$, the theorem requires exactly
+the levels $k=3$ and $k=5$, with one representative of each complementary
+pair at level five.  At orders $6$ and $8$, only $k=3$ is needed.
+
+The characterization has a direct CNF consequence.  If $P_{ij}(x,y)$ denotes
+the exact permutation matrix of $\lambda_j^{-1}\lambda_i$, then for every
+tested odd subset $A$ one may add the clause
+\[
+ \bigvee_{x\in A,\ y\notin A} P_{ij}(x,y).
+\]
+Because $P_{ij}$ is a permutation matrix, this clause says exactly that
+$P_{ij}(A)\neq A$.  Theorem~\ref{thm:odd-subset-collision} proves that the
+resulting three-view encoding is equisatisfiable with FFF.  Formula size alone
+does not imply computational superiority; the bounded order-$10$ pilots in
+Section~\ref{sec:reproducibility} remain undecided.

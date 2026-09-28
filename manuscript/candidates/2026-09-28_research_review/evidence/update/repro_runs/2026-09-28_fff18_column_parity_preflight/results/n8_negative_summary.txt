@@ -1,0 +1,6 @@
+n=8, full C39, gauge=true, compact balance=true, column1_positive=true
+row1_case=none
+variables=5607, clauses=102161
+column_sign_clauses=1677
+cnf_sha256=b6464a8f4cce6c71b3539998e8a48ce9da1c7bad34c616606a3d974b7b4ff601
+solver_status=not_run

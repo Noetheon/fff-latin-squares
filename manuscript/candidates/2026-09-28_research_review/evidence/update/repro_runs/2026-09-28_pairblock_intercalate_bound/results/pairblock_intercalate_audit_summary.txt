@@ -1,0 +1,8 @@
+Pair-block intercalate theorem finite controls
+n6: 9408 unique reduced Latin tables; pairblock any view=1880; parity counts={'0': 1120, '1': 8288}
+n6 pairblock view counts={'col': 1160, 'row': 1160, 'sym': 1160}; patterns={'FFT': 936, 'FTF': 936, 'TFF': 936, 'TTT': 6600}
+n8 frozen FFF: 230 tables; pairblock view counts={'col': 37, 'row': 67, 'sym': 44}; parity counts={'0': 216, '1': 14}
+n14 frozen FFF intercalates=13 < 49.
+n16 frozen FFF product intercalates=512.
+Theorem proved in proof note; controls passed. For a hypothetical FFF18 pairblock view, I >= 81 and odd.
+This does not find or exclude an FFF18 square; active breakthrough goal remains open.

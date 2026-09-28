@@ -1,0 +1,41 @@
+{
+  "cutoff": "C271; intake 2026-09-28T10:24:49Z",
+  "files": [
+    {
+      "bytes": 356,
+      "sha256": "665cd5a62c1d9d647ee6cbabb382a137eb1a1fe0bfe36ef1bce371d75691d0f5",
+      "snapshot": "evidence/data/f08_candidate_population.json"
+    },
+    {
+      "bytes": 360,
+      "sha256": "f8b56031f3a90e871dbce4b5036e448fdb4d36f8557dc3aeb2461ccafc6edd2d",
+      "snapshot": "evidence/data/f09_candidate_population.json"
+    },
+    {
+      "bytes": 363,
+      "sha256": "ae9b897596271ab8427e315907c8da12d10441e42553377bc4ca61466aaa637f",
+      "snapshot": "evidence/data/f10_candidate_population.json"
+    },
+    {
+      "bytes": 356,
+      "sha256": "068c359d5024fe65c36d01a9a6dceec72ea337b6b4e660e4d51de2f9926c6ebc",
+      "snapshot": "evidence/data/f12_candidate_population.json"
+    },
+    {
+      "bytes": 360,
+      "sha256": "00d99244f52f6a3be58241cac3bafa6f7eafd1b1b047a74142fc4296b7bf7c86",
+      "snapshot": "evidence/data/f13_candidate_population.json"
+    },
+    {
+      "bytes": 361,
+      "sha256": "93a8f0c3008467bc50ba9f8ac96ed8f6964124aec6d7496ae57a049b57098db9",
+      "snapshot": "evidence/data/f14_candidate_population.json"
+    },
+    {
+      "bytes": 362,
+      "sha256": "df0d7944258a8376bcc0e695c49542d468ff94dd57c37d31e5fc9d20fc68eccd",
+      "snapshot": "evidence/data/f15_candidate_population.json"
+    }
+  ],
+  "scope": "Selected public evidence only; narrower than the private capture. No machine logs, environment snapshots, private registers or raw archives. Capture inventories are derived metadata, not rewritten scientific records."
+}

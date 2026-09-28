@@ -1,0 +1,16 @@
+{
+  "cutoff": "C271; intake 2026-09-28T10:24:49Z",
+  "files": [
+    {
+      "bytes": 317227,
+      "sha256": "df6d5841597186992573309d61542d8dcaf3f7afbd329487d3b1d810b88e7927",
+      "snapshot": "evidence/data/frozen_order20_rank_certificates.json"
+    },
+    {
+      "bytes": 23557,
+      "sha256": "f0856521f2cb87bf28f6bedc2e7ddc94975d6c0c88b712fe2970c9971eb7eeca",
+      "snapshot": "evidence/data/m3_gf16_scope_control.json"
+    }
+  ],
+  "scope": "Selected public evidence only; narrower than the private capture. No machine logs, environment snapshots, private registers or raw archives. Capture inventories are derived metadata, not rewritten scientific records."
+}

@@ -1,0 +1,107 @@
+{
+  "C170_transformer_sha256": "af023c08721f2d35802d1c581d17c17052680e4643fba6002f6479c91301b72f",
+  "coverage_from_this_orbit_audit_used_for_unsat_claim": false,
+  "group_order": 96,
+  "orbit_count": 7,
+  "orbits": [
+    {
+      "affine": true,
+      "representative_coefficients": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "size": 3
+    },
+    {
+      "affine": true,
+      "representative_coefficients": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "size": 6
+    },
+    {
+      "affine": false,
+      "representative_coefficients": [
+        3,
+        10,
+        3,
+        10,
+        3,
+        10,
+        3,
+        10
+      ],
+      "size": 6
+    },
+    {
+      "affine": false,
+      "representative_coefficients": [
+        3,
+        12,
+        12,
+        14,
+        3,
+        12,
+        12,
+        14
+      ],
+      "size": 24
+    },
+    {
+      "affine": false,
+      "representative_coefficients": [
+        4,
+        13,
+        4,
+        13,
+        4,
+        13,
+        4,
+        13
+      ],
+      "size": 6
+    },
+    {
+      "affine": true,
+      "representative_coefficients": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "size": 6
+    },
+    {
+      "affine": false,
+      "representative_coefficients": [
+        4,
+        13,
+        13,
+        4,
+        4,
+        13,
+        13,
+        4
+      ],
+      "size": 12
+    }
+  ],
+  "source_inventory_sha256": "424d741e979a1237c2a2f7c13a36cb118a80c8812ff1afe1aa7d62dcee855e8d"
+}

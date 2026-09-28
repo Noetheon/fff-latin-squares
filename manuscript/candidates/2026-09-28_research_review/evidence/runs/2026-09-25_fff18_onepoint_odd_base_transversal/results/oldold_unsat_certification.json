@@ -1,0 +1,1309 @@
+{
+  "all_checked": true,
+  "arbitrary_order18_decided": false,
+  "cadical_binary_sha256": "c7b63954503d7fb1c8532efa37689715398683b5dea59d9bf6d80f06169e09b3",
+  "cadical_version": "3.0.0",
+  "cases": [
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_001_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_001_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.03,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_001_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "6144f4ddfabcdefdb8740d2cbff37c99b3f4cce6a791074ac45e24cc5ac1df03",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "1bb9a1c85f4fce48e089675bd4feb1adaef7f3e154aad2a1de66a141d59c1fb7",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_001_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_001_rowcolsym.drat",
+      "proof_sha256": "ebb40558971b6f0877c90a5c4e62512d021113977c034a4c36a718d8316e3313",
+      "proof_size_bytes": 1576,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_001_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_001_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_002_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_002_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.03,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_002_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "5a70fee517daf7af9c43d94f88ce95d4a4b81761016443a31dfebba5b273499f",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "c026061c2a8699d8ef2b094bb40a2980fbb8f108163d46476afa21b422656419",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_002_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_002_rowcolsym.drat",
+      "proof_sha256": "74341e600305736ee244f24f81b1cc7d2ab93bf119832eb26f355a5bc73305d4",
+      "proof_size_bytes": 1590,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_002_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_002_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_003_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_003_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.635,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_003_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "30daa5fd7513444a4c51b4d1055cd4cabad71532d89a1d94070c68f953d612e8",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "1e17dc10d070a639e28257eca4c47623da2102e3f916a8ac8896f279ad1f3e4e",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_003_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_003_rowcolsym.drat",
+      "proof_sha256": "2b78b5b8b6ce3123240079f194873a6e6ca9552c6becb0f61712356bf8668523",
+      "proof_size_bytes": 1009418,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_003_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_003_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.104
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_004_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_004_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.031,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_004_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "2b12a3a902c360a779952cfec6bc9cd6807082be94ce1dfc37337070c3eb80f4",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "09657311e6459569ae67f477ab0233eceb4e1431e50d5bd159e1607af215a02d",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_004_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_004_rowcolsym.drat",
+      "proof_sha256": "e63b43ceb29702a76742059bd7434834259c80388d84dd91dd6016c2b5071127",
+      "proof_size_bytes": 1499,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_004_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_004_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_005_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_005_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.39,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_005_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "58d80fc0de29db54734359d1bc106ffacf850b39fdfcab4c1cb51ffbdfb3d264",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "81be56c00a2d2e3e715ca1dc74e071daa5d5158c1cde7f6ed68b556d918138c4",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_005_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_005_rowcolsym.drat",
+      "proof_sha256": "3686f2c5bfa95006a3ce9c41d08ab42de6e59a2460a5be1e950b2e1e06ac3e55",
+      "proof_size_bytes": 1141284,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_005_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_005_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.113
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_006_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_006_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.775,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_006_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "eced241fc30e4488f96d3fa5356dc9d38d07b2251b0a2e2d926828ed92deb12a",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "c9af93245102b6e09830a82b2e4374f820b6effccd8669361d4c7097d7221d12",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_006_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_006_rowcolsym.drat",
+      "proof_sha256": "7c2630011a659b805de39b3aa2ad3917e2b1bc5ae35431762aa0667600bc5aba",
+      "proof_size_bytes": 1026150,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_006_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_006_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.103
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_007_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_007_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.392,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_007_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "f37448394d868b741730329622998504c469697615c77aa128d30b6aec2c17a8",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "f88c88a0f095695827496c00a781ebb3adbc5fdc495d3cce69557b3cd223eddd",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_007_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_007_rowcolsym.drat",
+      "proof_sha256": "19d04554baa92a81c0f5b138bca67130ab4629d7ce8a40b48863ecf92f6d4b60",
+      "proof_size_bytes": 1145864,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_007_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_007_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.115
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_008_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_008_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.027,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_008_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "380ac02336b5a23a017e0444aa0e569bbfb265a78fa3a4c3320871fc354e93ca",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "24c45e17623678872810b5aa1c4198d6fc7760a37854aedab6691501886865c2",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_008_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_008_rowcolsym.drat",
+      "proof_sha256": "69830cc5697a1feb7e0e12283b43970b261a6c01adf2f795bc895a897db37312",
+      "proof_size_bytes": 1624,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_008_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_008_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_009_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_009_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.366,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_009_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "c4f4fb86089f5a5561c5664dd842f1b6aeada45c564612e15b84a293161bd970",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "258bbf6291c063cc5e9f59faaf5ae3622c47fdba5c6f135828f3c785085332d3",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_009_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_009_rowcolsym.drat",
+      "proof_sha256": "ca35e42812b10bcad863a56a1301a9109b6228c5fa437bbb38a55cb64460fa61",
+      "proof_size_bytes": 1147423,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_009_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_009_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.115
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_010_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_010_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.683,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_010_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "6f80a2266bb04803d6423cfb9aa05dd41360e98697008ea02ba8f6ef91b59f18",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "78a07427a41f0dcd8f5958c2575bfa5497873c312a24ad191ea46587fccea76d",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_010_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_010_rowcolsym.drat",
+      "proof_sha256": "5278d6dfd788dc7dc36fec7e8dc37a1e3d3264e60e2f5e928c1cd96c9efc54d7",
+      "proof_size_bytes": 980746,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_010_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_010_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.103
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_011_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_011_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.419,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_011_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "587f63d9bcbc7d8105404d9ffe268f979fefe5560c65d209667d987afc1a52c3",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "6d8a80ddb668028148d97bb316e33abd3b8cd3f8afec4e302dafc6d954f482ca",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_011_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_011_rowcolsym.drat",
+      "proof_sha256": "afe9e02c58c102ec74f849b4eba0039daa158ce99e07ff1a565e281a46e95e2a",
+      "proof_size_bytes": 1153411,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_011_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_011_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.118
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_012_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_012_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.032,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_012_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "9aa0decd149e0bff38f3bc4ba68c61c66f30a09d1f9b26ebdc551bc507fa2362",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "14f7d903619b8e02b73007d9f22a3980112b51657b3fdc3b8cba9c02630869fe",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_012_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_012_rowcolsym.drat",
+      "proof_sha256": "308c2247c07df3d26136f526f5b20cd8afe7c39690b00749b5294f559d5773ef",
+      "proof_size_bytes": 1622,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_012_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_012_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_013_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_013_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.032,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_013_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "9ed19c3914d48fd12db74943a6e577ab6cc56e6d8955ce974ed9ad644730ddd1",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "384687dedd1c7a66e0490c5d77bf9c7c483cb820c47e06410daf8e116f0a00a5",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_013_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_013_rowcolsym.drat",
+      "proof_sha256": "041cbbdaf91d7e7983228c89999931d2069ee96009284587bbf46e28cb971a23",
+      "proof_size_bytes": 1588,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_013_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_013_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_014_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_014_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.032,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_014_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "7d640c3481876e8dfe1c058f04196fefe51b5b34ec4f03da65ab58a70858f245",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "474d47bd226dc7b9ff8aafb97f710246a30c37191f795ce7e6f4fa32bd894611",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_014_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_014_rowcolsym.drat",
+      "proof_sha256": "ed14d71048e5b0fc63bf48004dcf305db67a52aebf5e5c59386fd21d437aabd8",
+      "proof_size_bytes": 1575,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_014_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_014_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_015_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_015_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.03,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_015_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "f77404312feb37f7a887dbfa3483c34b4881aaeed855cf73fbf76627716a8404",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "d711a90a82ed94afe3791cd3b4f78b787b337d9f866d9dc9fc6827c8f189327d",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_015_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_015_rowcolsym.drat",
+      "proof_sha256": "93cdac9a2bbc5bbd641f4d01f7d808a9a75704e3203d409b0973d1df78c6a540",
+      "proof_size_bytes": 1499,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_015_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_015_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_016_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_016_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.666,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_016_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "60b7fb5280bf788b65788e5e9276bc9c8b9ff37a6bbb1b2f11f3fc28c597b707",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "557a2fbfd4ea2456cb1714911f24f3f8579ea2f492adc173b55e8566be5f796c",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_016_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_016_rowcolsym.drat",
+      "proof_sha256": "411fbc6c519b904c599ffed9fd9e08cd49d3fc94ff7a4cf9e276e8887ab96f2b",
+      "proof_size_bytes": 1021500,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_016_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_016_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.107
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_017_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_017_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.378,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_017_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "b77ac49ece476b11fac5aef85923fed38566bda49381b9ee400eb66efa7689bb",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "c73ece00b7721651af23975352d2be68e2dbcd3a444ac708252257c30602f017",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_017_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_017_rowcolsym.drat",
+      "proof_sha256": "2e5e8420dd9b33533f0fb50e2a4b599b684d8869038f2d002f350179b2358d61",
+      "proof_size_bytes": 1141184,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_017_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_017_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.118
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_018_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_018_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.724,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_018_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "80e83ff7de359155bfb12add3596ecbd2e14e9e63009dd181897eed55d4123a4",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "bd7551634772629859e14bd162573807d3f7dcf1332546b0c8992b0c8ecdf93e",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_018_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_018_rowcolsym.drat",
+      "proof_sha256": "ed445644550ec30be941a34704b56bff0f6178c148f4f01643d05c3500a2a45e",
+      "proof_size_bytes": 1008671,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_018_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_018_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.099
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_019_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_019_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.383,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_019_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "238e48ef06a5b3e36f8cb69b52e4386a44fc2e6ef3008078938f91c25d82364b",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "22200ca06218edf1fd7601cc22dac63a3303554f6c8df386f341882be5db4a23",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_019_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_019_rowcolsym.drat",
+      "proof_sha256": "741c0c8db446eaf6ff4775cc8f96cf574f41b4253dedb19a2b169787aabb95b1",
+      "proof_size_bytes": 1138392,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_019_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_019_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.118
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_020_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_020_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_020_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "ae0ba341b2fb12928db1e80dccece1b82b531cca56a4ccb69aba787643c5e21b",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "425d1e3e66339cade85d43476fc4352ad9775638bc48bea3a1cfa96536ff9794",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_020_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_020_rowcolsym.drat",
+      "proof_sha256": "218d4032d5c43d3bf969ea4934b9a1a47cc0dd786b0f68e4186329d8b37cf634",
+      "proof_size_bytes": 1624,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_020_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_020_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_021_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_021_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_021_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "ee9715d7108f32b3c3ccc5d44c53d7532d9b4457fe1d489881197b62af466875",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "bf9f18fa1dd4f13fcbbb64cdd4d8d8ecf5d0e3103c5b4d9a1574bebbb7c18164",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_021_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_021_rowcolsym.drat",
+      "proof_sha256": "b0752ca356b3bb63a76d4583b726ff4077bd4a5995f62a2eb9fe9bf4a9ac8ff1",
+      "proof_size_bytes": 1603,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_021_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_021_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_022_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_022_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_022_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "e03a40d7918eb88debd6783ee9c354e6f2333ed1a57521ecfd072fcc79be4dfb",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "ca27ea3ac95a665e974b2fc370b1814aa50380ef2054135d3750dd2f17ef7e6b",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_022_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_022_rowcolsym.drat",
+      "proof_sha256": "c58e1c84963130682d238fb3429a85509d629b86ea64f80e09125367dc9e7705",
+      "proof_size_bytes": 1569,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_022_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_022_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_023_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_023_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_023_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "fffa3c2ee2a528a1a79ad3a441675708223c4bbd7dc23e7218988ef8c3a8a373",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "01df1ac88b937285eec0300bbdec73e1a4b689d34e324350a30ae8fbbb42e39d",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_023_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_023_rowcolsym.drat",
+      "proof_sha256": "a7ea8da81a17229eb0db68ca9dfcb3c03d1ccd7d4f24ca1ac1637edc9d9c1b5c",
+      "proof_size_bytes": 1503,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_023_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_023_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_024_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_024_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.704,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_024_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "129bd83a58de095d1b6da90d2a71adc2fd0319c371adff2eb7289e0e060dfc54",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "a2aecadbd0fc76f5d4d10979ae33a5ad2b4fba9bfa5804501554f940f06da066",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_024_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_024_rowcolsym.drat",
+      "proof_sha256": "4a0399351baca30dad3c32e2755e913ce5d06e87c6aa815329455a597ccb07a3",
+      "proof_size_bytes": 1008523,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_024_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_024_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.109
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_025_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_025_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.591,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_025_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "02a1f220fbf834d7011c344b5a28f1f750da070bc25aac03a18e1b1e06f37ded",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "30197fe764e6481032b254c344b98e880bf208d5ec162e6bb0537ad195f9fecd",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_025_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_025_rowcolsym.drat",
+      "proof_sha256": "b9fb7599f340081dc1c650fff8d18991eed8d3e7284c7579643cf2c6367ecbbb",
+      "proof_size_bytes": 1002388,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_025_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_025_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.101
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_026_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_026_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_026_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "dbba1c154f30dbb125d462ae4b402922559df95b58c3d1c6fe3a42718459c736",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "c2feee5a33f4d40a9047f1927a4c859221a87f3ed63756854f283b8f10523739",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_026_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_026_rowcolsym.drat",
+      "proof_sha256": "8467a1332ea9fc4c6ccbf8657e03840bcdd9bee43c73d80043bfabd58aea9e54",
+      "proof_size_bytes": 1498,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_026_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_026_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_027_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_027_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_027_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "fafbeccce22728ddba11daf7937f76da77490c0b41792ee1f0138e0e82c8a9e6",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "54943bd2896938d87e00cbaa617dca7c1d972ea12db1d9676d91b860b0d4ce0b",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_027_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_027_rowcolsym.drat",
+      "proof_sha256": "9b1624e401ce31275642d43739ddb392b6079eca08b4cbbe331d7dfd4b89ea8a",
+      "proof_size_bytes": 1577,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_027_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_027_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_028_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_028_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_028_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "1e65aaecea871e769f3bff6449a611db1fc4081f560543b14f1b5628a573ea7d",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "be36a3f2f5f10895328fc7aeb3c2639b28f2a6ab3b847cb4ee08e3360502397b",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_028_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_028_rowcolsym.drat",
+      "proof_sha256": "c4096e1672faf666fe8ecbf8d579bf85acc609006c2ce51ab031818629f4cb6b",
+      "proof_size_bytes": 1593,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_028_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_028_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_029_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_029_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_029_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "aaf7677c7793ab252155a48890dc33baf19556b9067c2b0732ccddf601e26821",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "6c9712134a6b5c2bcd18c00233e9b582de2112d10f5d39e6d93c95db99407494",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_029_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_029_rowcolsym.drat",
+      "proof_sha256": "2d8384707b5440a3d3fb408a189491a12053326eb236717054f97faab617e15a",
+      "proof_size_bytes": 1627,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_029_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_029_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_030_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_030_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.375,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_030_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "3b3e983f3612d9b044eb41ab3235a070397f36eb28f85c2d908fa8367e252e1b",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "4aee45d55702802c6433f0755990d95ca8f96eee9d298332c8812dc0e8bafb5e",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_030_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_030_rowcolsym.drat",
+      "proof_sha256": "aa9b9315979b53d515adb34345b5bfd9a02854579c56402533d7539b848cf553",
+      "proof_size_bytes": 1151031,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_030_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_030_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.114
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_031_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_031_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.689,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_031_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "0151ab3c21f2b6167d530383608a940d6d48c88390a8d0465c98a27d0d001077",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "73becc6c0619a50958858493b087497dd65a1a4e29f37de45cd89087bc483551",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_031_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_031_rowcolsym.drat",
+      "proof_sha256": "a2e2ef4c5ea51df2da0e8edec870e56fb24f7d1b1d6e61b8df02dbffee070595",
+      "proof_size_bytes": 993780,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_031_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_031_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.105
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_032_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_032_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.395,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_032_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "400dcca0eda5a0887adf11f971f211673a51b08d7a8573a5d5efdb5c3499b48d",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "d21f081593efacbd402f0030579f0961dec221ad54b6b040bad3dfbef9efb940",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_032_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_032_rowcolsym.drat",
+      "proof_sha256": "b01a8559406a6559bb914949d724cf8b42bd18a4102c022cebb8bf4f121af115",
+      "proof_size_bytes": 1147137,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_032_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_032_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.12
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_033_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_033_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.668,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_033_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "f782e4bdae2613694a56f9ce1701cc5dbf77e8a6837ef7dc6fc64c05e837bc4f",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "fb25a59220f6bcc68974e910a5f1b88f44f5f2ff99a9d3b37774c3d5aeecabfa",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_033_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_033_rowcolsym.drat",
+      "proof_sha256": "f6327bb7b93b4602c2d90e74cefec3d735fdfbc0d3013fd8eceb1d95a6f6aa6f",
+      "proof_size_bytes": 1010937,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_033_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_033_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.113
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_034_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_034_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_034_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "244a86bc5e251284a909297b09a65c4c65f93def0feb82b5642d42c2f569be59",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "ae111deabaad2d6324d11938ba80e90765c69b921a6e7bec394cacfb613df172",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_034_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_034_rowcolsym.drat",
+      "proof_sha256": "aa7c7852820755e97b1d3aba085d1d3e5e23f0baba62dc3880ea8352f6ba08df",
+      "proof_size_bytes": 1500,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_034_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_034_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_035_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_035_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_035_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "a50355ba272b7a1be7385e141dbba9efbff660221a7a290491ce6f511dd7f118",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "3ee06974ef445c7e55f452f2d9632f7ab17bc0a1f75be64ec14383b8564875f5",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_035_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_035_rowcolsym.drat",
+      "proof_sha256": "cd3d3a8736186615d064b69667195b721862939fbbec2a8d6dbbb3710b470104",
+      "proof_size_bytes": 1578,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_035_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_035_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_036_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_036_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.029,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_036_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "b55a6c8322f4cf78402432f1b24f24b1f4ac30e960b3ae3f03acdcd84952896f",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "bc2bd85710cc9c20fe4439b898698cf299b9bfa23840f9023ae73c26cf7c60df",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_036_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_036_rowcolsym.drat",
+      "proof_sha256": "8c02efb2f106027987c020856f081dc755d2fed2f9748a3805d7d05065c6ce63",
+      "proof_size_bytes": 1604,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_036_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_036_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_037_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_037_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_037_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "3818524f254b9e43e27361dd585f6062374b7d9d6bbd81348c71e3d3ab557412",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "79ec2f7575b4a20b2c984af243e057b106d943b47c064846350a5ec85e3a2463",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_037_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_037_rowcolsym.drat",
+      "proof_sha256": "0fed5d3c8a50876af0710bb4884cf92f141c38b9648c819dc54ec4e6f9201e28",
+      "proof_size_bytes": 1637,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_037_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_037_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_038_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_038_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.39,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_038_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "5c1b43513db6f366b23b313c286c146d73a007ee40ea2951a7868da9e5e344c7",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "0601275bf9e4caaa0dd6af943cac85e73d1c8dd1ce37f3d08b28126420fc0998",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_038_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_038_rowcolsym.drat",
+      "proof_sha256": "9f9bd1c6754456364c357576dc6d058d14be006603f62a04e2ab72fab68cd840",
+      "proof_size_bytes": 1142545,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_038_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_038_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.115
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_039_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_039_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.739,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_039_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "b883e3f724a70996c67c4219a6056ed5a6c68c6dbdacb5ef1029be073428670c",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "6f7162affde55519a1438f35e2cfe6be8593fa4e14afff30d05871043c32a857",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_039_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_039_rowcolsym.drat",
+      "proof_sha256": "66b2b527b31d8267c5d9a501d71b76431bd2889da7ac694923390003947f8d90",
+      "proof_size_bytes": 1003257,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_039_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_039_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.099
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_040_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_040_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.401,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_040_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "8b842fad3503ed711fcd143fdfd6bfaabf4bdbbe71636632e05e0cad2027aa98",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "8cc85e5b276a229cf1988944d1010063eacf42fa2bb1935a1615237f54489c11",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_040_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_040_rowcolsym.drat",
+      "proof_sha256": "419ba70b0ac198f0e884727f635262e42e4744f62e4c78cce0127a69651be04e",
+      "proof_size_bytes": 1135901,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_040_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_040_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.121
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_041_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_041_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.028,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_041_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "4887dc524d345b20587696c768bc69a001fe6bd9fcbcdaf22e9dce6cee7b787e",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "068d771c97e0a6771c5c9141ba9a0049117a56b90482997b6a12f385cacb388f",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_041_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_041_rowcolsym.drat",
+      "proof_sha256": "af65a154137942d683682852d63944c48a590c7fda7c684aecc33248b197862b",
+      "proof_size_bytes": 1624,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_041_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_041_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_042_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_042_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.382,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_042_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "7998c530d2537ac0ad2bc7545b45f11b3cd1b93140999b34f5425c39b6a5beff",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "413956fdb9978ef3eb070c6bacd2c9856877fb3da5b34e89b6cac6b1cccbef48",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_042_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_042_rowcolsym.drat",
+      "proof_sha256": "ac54b7f4a54c68e98c493461bfc94b6d963b8c3eb08444852a3ab028ea5aedfd",
+      "proof_size_bytes": 1136843,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_042_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_042_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.113
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_043_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_043_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.684,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_043_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "1e53c2316300691a4d308bb0379355f7e6f856a95675bfb5d1dbe86d984e6df9",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "44adcab472dd6f477b9afdab1a283caf5d0c145589f99f584fd6f2a47eb530de",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_043_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_043_rowcolsym.drat",
+      "proof_sha256": "fe6be88c545eb4a32ea87480481670c8a11cc72752d869966ef3de183a778680",
+      "proof_size_bytes": 1002612,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_043_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_043_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.097
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_044_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_044_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.415,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_044_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "13d9601851fe056da335ea188866755486691856932f8c9edd5d19c8c4206d0b",
+      "cnf_clauses": 46563,
+      "cnf_sha256": "b4e56f97e9eba75ef76afaef894e4ad66c19f2fee60ff6a79e52cfa2b0c982f7",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_044_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_044_rowcolsym.drat",
+      "proof_sha256": "be6b5c7eeda831c1bb5402ba7bde28b4f8506986f283032e8eaea7b5e3ef9dec",
+      "proof_size_bytes": 1147571,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_044_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_044_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.119
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_045_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_045_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.029,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_045_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "2673ed09717b97eeb36862b444abe81ce0d108682a6c21d1d9c6e060d09344c8",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "e9ca0bd7b71fc5d9d96103e7bf141c33fcc4e4370c0478732dba3c9ac36d3803",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_045_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_045_rowcolsym.drat",
+      "proof_sha256": "b746f02399fc31fd9c9b6aaf78b2cd6b00afd06560d753a4ebdc598807ccb5f5",
+      "proof_size_bytes": 1503,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_045_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_045_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_046_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_046_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.68,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_046_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "8bdb7847ae7ce74eae1669c75ebfee77fe679801f32cbd43846ee46c91528fbf",
+      "cnf_clauses": 36771,
+      "cnf_sha256": "6c858afb4c6f831d55dbe1bd14642b90c3a2adeb2b23f3f4253d373f31effcbb",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_046_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": false,
+      "proof_path": ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_046_rowcolsym.drat",
+      "proof_sha256": "65247cbb45d9691a8860042826ff2520fe90fa0ca21518a8961427ac83a7805b",
+      "proof_size_bytes": 1012445,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_046_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_046_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.104
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_047_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_047_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.031,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_047_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "7de714463b84ce5124d778082f56f184fc4b8ce7a7afc76a3e91db0bf70d7271",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "1c8dc3d3fc5ee81b37bc629de7eb429b0ea5f803d8cf9eaf0a1ab506f7c4e406",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_047_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_047_rowcolsym.drat",
+      "proof_sha256": "edd3240447f52a0aebaf79614fe1544b95e7f25d2d8b937a5aefb29b581c326b",
+      "proof_size_bytes": 1613,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_047_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_047_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    },
+    {
+      "checker_command": [
+        "/tmp/order8_solver_tools/drat-trim/drat-trim",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_048_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_048_rowcolsym.drat"
+      ],
+      "checker_elapsed_seconds": 0.029,
+      "checker_log_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/logs/p17_nonaffine_048_rowcolsym_drat_check.txt",
+      "checker_log_sha256": "8e1341f38be8e64e39d2fa005a2971c5a90645b3b95fe95a126506ffcf9133a7",
+      "cnf_clauses": 51187,
+      "cnf_sha256": "bbcd8cd2025eba3a2f0343ebcc652d0ffe4258f566d31e9d36dd3f5f0745d70d",
+      "cnf_variables": 289,
+      "name": "p17_nonaffine_048_rowcolsym",
+      "proof_checked": true,
+      "proof_in_tracked_run": true,
+      "proof_path": "repro_runs/2026-09-25_fff18_onepoint_odd_base_transversal/results/proofs/p17_nonaffine_048_rowcolsym.drat",
+      "proof_sha256": "1bb124f2fa863c2a56c88f3798a3e086755dd4864efa218df1b5757155c0174a",
+      "proof_size_bytes": 1581,
+      "solver_command": [
+        "/opt/homebrew/bin/cadical",
+        "--binary=false",
+        "-q",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_048_rowcolsym.cnf",
+        ".audit/local/fff18_onepoint_odd_base_transversal/p17_nonaffine_048_rowcolsym.drat"
+      ],
+      "solver_elapsed_seconds": 0.009
+    }
+  ],
+  "checked_unsat_cases": 48,
+  "drat_trim_binary_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "pilot_status_sha256": "8c2149a38f27f4d365b58b0abcad2747f4d7da5c6670dd2338fe61326f739216",
+  "scope": "48 nonaffine all-view-UOC odd p17 bases",
+  "total_cases": 48
+}

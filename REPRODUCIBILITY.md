@@ -25,8 +25,17 @@ The current-snapshot checker freshly checks explicit FFF12/14/36/98 tables
 using two algorithms, all eight order-8 pattern controls, 672 coloring truth
 tables, 16 fibred controls, 253 affine parameters, all 1024 masks of the selected
 order-20 trade family, exact affine-group/Burnside counts through dimension four,
-and two physical FFF160 controls. Every scientific result must equal the frozen
-reference; elapsed time and the different public input inventory are not compared.
+and two physical FFF160 controls. The update additionally reconstructs all 1703
+order-20 representatives and rank minors, checks both FFF12 block-return controls,
+253 corner-trade parameters and all 91134 frozen CRT returns using 364536
+separated coefficient/slope probes. The CRT arithmetic and form enumerator are
+shared dependencies, not a wholly independent implementation.
+
+Every scientific result must equal the frozen reference. The comparison report
+explicitly names ignored fields: elapsed_seconds for the first two reports,
+runtime_seconds for CRT, and the two capture-inventory fields that differ because
+the public subset is narrower. Actual public source hashes are checked afresh;
+no count, spectrum, certificate, pattern or status is normalized away.
 The audit does not call external solvers or access the network. It is not a proof
 assistant or a complete order spectrum. Its source and input hashes are public.
 
@@ -56,7 +65,7 @@ Some write into their run folders. Do not run them in place on frozen evidence.
 ## PDFs
 
 The current build uses only the dated
-[27 September sources](manuscript/candidates/2026-09-27_research_snapshot/README.md).
+[28 September sources](manuscript/candidates/2026-09-28_research_review/README.md).
 The original `manuscript/main.tex` and `main_core.tex` are historical September
 sources, not the entry points for the current PDFs. Do not rebuild them and
 label their open-C38 narrative current.
@@ -84,8 +93,9 @@ from selected result strings. Numerical, Boolean and null JSON leaves are preser
 mathematical strings such as cycle types and permutations are not translated.
 
 `PUBLIC_PROJECTION.json` records source-file and public-file hashes and whether
-bytes agree for the initial export. `PUBLIC_SNAPSHOT_2026-09-27.json` records the
-additional edition separately; no historical digest is silently replaced.
+bytes agree for the initial export. `PUBLIC_SNAPSHOT_2026-09-28.json` records the
+current edition separately; the 27 September receipt, including its superseded
+PDF aliases, is historical. No historical digest is silently replaced.
 They contain file digests, not previous Git commits. Historical output
 records can refer to omitted dependencies or historical hashes. The authoritative
 manifest for this release is `PUBLIC_MANIFEST.sha256`, not an old embedded digest.
