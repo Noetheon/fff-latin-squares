@@ -2,6 +2,7 @@ from html.parser import HTMLParser
 import hashlib
 import json
 from pathlib import Path
+import re
 import sys
 from urllib.parse import parse_qs, urlsplit
 import unittest
@@ -12,14 +13,15 @@ from demo_fff import validate
 
 
 class ExampleTable(HTMLParser):
-    def __init__(self, source):
+    def __init__(self, source, table_id="example-table"):
         super().__init__()
+        self.table_id = table_id
         self.inside = self.cell = False
         self.rows = []
         self.feed(source)
 
     def handle_starttag(self, tag, attrs):
-        if tag == "table" and dict(attrs).get("id") == "example-table":
+        if tag == "table" and dict(attrs).get("id") == self.table_id:
             self.inside = True
         if self.inside and tag == "tr":
             self.row = []
@@ -47,6 +49,36 @@ class Page(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         self.elements.append((tag, dict(attrs)))
+
+
+class ReaderContent(HTMLParser):
+    def __init__(self, source):
+        super().__init__()
+        self.evidence_rows, self.walks = [], {}
+        self.current_links = self.current_walk = None
+        self.feed(source)
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        classes = attrs.get("class", "").split()
+        if tag == "article" and "evidence-row" in classes:
+            self.current_links = []
+        if tag == "a" and self.current_links is not None:
+            self.current_links.append(attrs)
+        if tag == "p" and "cycle-path" in classes:
+            self.current_walk = attrs["data-table"]
+            self.walks[self.current_walk] = ""
+
+    def handle_data(self, data):
+        if self.current_walk is not None:
+            self.walks[self.current_walk] += data
+
+    def handle_endtag(self, tag):
+        if tag == "article" and self.current_links is not None:
+            self.evidence_rows.append(self.current_links)
+            self.current_links = None
+        if tag == "p":
+            self.current_walk = None
 
 
 class SiteTests(unittest.TestCase):
@@ -84,6 +116,42 @@ class SiteTests(unittest.TestCase):
                 self.assertIn("width", attrs)
                 self.assertIn("height", attrs)
                 self.assertFalse(urlsplit(attrs["src"]).scheme)
+
+    def test_repository_document_destinations_and_heading_anchors_exist(self):
+        for tag, attrs in self.page.elements:
+            link = urlsplit(attrs.get("href", ""))
+            prefix = "/Noetheon/fff-latin-squares/"
+            if tag != "a" or link.netloc != "github.com" or not link.path.startswith(prefix):
+                continue
+            parts = link.path.removeprefix(prefix).split("/", 2)
+            if parts[0] not in {"blob", "tree"}:
+                continue
+            with self.subTest(url=attrs["href"]):
+                self.assertEqual(parts[1], "main")
+                target = ROOT / parts[2]
+                self.assertTrue(target.exists(), parts[2])
+                if not link.fragment:
+                    continue
+                self.assertEqual(target.suffix, ".md")
+                # These destinations use unique plain ATX headings, not arbitrary HTML.
+                headings = re.findall(r"^#{1,6} (.+)$", target.read_text(), re.M)
+                slugs = [re.sub(r"[^\w -]", "", h.lower()).replace(" ", "-")
+                         for h in headings]
+                self.assertEqual(slugs.count(link.fragment), 1, link.fragment)
+
+    def test_all_result_rows_have_direct_evidence_links(self):
+        content = ReaderContent(self.source)
+        self.assertEqual(len(content.evidence_rows), 9)
+        for links in content.evidence_rows:
+            self.assertEqual(len(links), 1)
+            self.assertIn("evidence-reference", links[0].get("class", "").split())
+            self.assertTrue(urlsplit(links[0]["href"]).fragment)
+
+    def test_idea_precedes_papers_and_preserves_construction_scope(self):
+        self.assertLess(self.source.index('id="example"'), self.source.index('id="dossiers"'))
+        self.assertIn("any two distinct rows, columns or symbols", self.source)
+        self.assertIn("For every odd integer m &gt; 1", self.source)
+        self.assertIn("not the smallest possible exponent or a decision at order 18", self.source)
 
     def test_stylesheet_cache_version_matches_content(self):
         styles = [attrs for tag, attrs in self.page.elements
@@ -192,6 +260,32 @@ class SiteTests(unittest.TestCase):
         for cycle in pair["cycles"]:
             self.assertIn("<span>(" + " ".join(map(str, cycle)) + ")</span>", self.source)
         self.assertIn("One highlighted pair is only an illustration, not the full check", self.source)
+
+    def test_displayed_negative_control_is_exact_frozen_table(self):
+        table = ExampleTable(self.source, "negative-table").rows
+        frozen = json.loads((ROOT / "examples/order3_nonfff.json").read_text())["table"]
+        self.assertEqual(table, frozen)
+        result = validate(table)
+        self.assertTrue(result["latin"] and result["reduced"])
+        self.assertFalse(result["fff"])
+        self.assertEqual(result["pattern"], "TTT")
+        self.assertEqual([view["pairs_checked"] for view in result["views"].values()], [3] * 3)
+
+    def test_visible_cycle_walks_follow_the_actual_matching(self):
+        walks = ReaderContent(self.source).walks
+        self.assertEqual(set(walks), {"example-table", "negative-table"})
+        for table_id, text in walks.items():
+            with self.subTest(table=table_id):
+                table = ExampleTable(self.source, table_id).rows
+                walk = [int(point.strip()) for point in text.split("\N{RIGHTWARDS ARROW}")]
+                pair = validate(table)["views"]["row"]["pairs"][0]
+                self.assertEqual(pair["lines"], [0, 1])
+                self.assertEqual(walk[0], walk[-1])
+                self.assertEqual(len(set(walk[:-1])), len(walk) - 1)
+                for source, target in zip(walk, walk[1:]):
+                    self.assertEqual(pair["permutation"][source], target)
+                    self.assertEqual(table[0][source], table[1][target])
+                self.assertEqual(walk, [0, 1, 0] if table_id == "example-table" else [0, 2, 1, 0])
 
 
 if __name__ == "__main__":

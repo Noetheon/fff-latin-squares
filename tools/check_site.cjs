@@ -42,12 +42,18 @@ async function main() {
         language: document.documentElement.lang,
         overflow: document.documentElement.scrollWidth > innerWidth,
         images: [...document.images].map(e => ({ source: e.getAttribute('src'), loaded: e.complete && e.naturalWidth > 0 })),
-        overflowingText: [...document.querySelectorAll('h1,h2,h3,p,summary,.button,nav,.paper-meta,table,code,samp,.view-results')].filter(e => {
+        overflowingText: [...document.querySelectorAll('h1,h2,h3,p,summary,.button,nav,.paper-meta,table,code,samp,.view-results,.cycle-steps,.review-questions,.evidence-reference')].filter(e => {
           if (!e.getClientRects().length) return false;
           const box = e.getBoundingClientRect();
           return e.scrollWidth > e.clientWidth + 1 || box.right > innerWidth + 1 || box.left < -1;
         }).map(e => e.tagName + ':' + e.className),
         downloads: [...document.querySelectorAll('a[download]')].map(e => e.getAttribute('href')),
+        evidenceLinks: [...document.querySelectorAll('.evidence-row')].map(row => {
+          const link = row.querySelector('a.evidence-reference');
+          return { href: link?.getAttribute('href'), visible: !!link?.getClientRects().length,
+            focusable: !!link && link.tabIndex >= 0 };
+        }),
+        exampleBeforePapers: document.querySelector('#example').getBoundingClientRect().top < document.querySelector('#dossiers').getBoundingClientRect().top,
         inlineScripts: document.scripts.length,
       }));
       await page.locator('.brand').click();
@@ -59,8 +65,12 @@ async function main() {
       assert.equal(record.overflow, false);
       assert.deepEqual(record.overflowingText, []);
       assert(record.images.every(i => i.loaded));
-      assert.equal(record.downloads.length, 4);
+      assert.equal(record.downloads.length, 5);
       assert(record.downloads.includes('examples/order8_fff.json'));
+      assert(record.downloads.includes('examples/order3_nonfff.json'));
+      assert.equal(record.evidenceLinks.length, 9);
+      assert(record.evidenceLinks.every(link => link.href && link.visible && link.focusable));
+      assert(record.exampleBeforePapers);
       assert.equal(record.inlineScripts, 0);
       assert.deepEqual(errors, []);
       assert.deepEqual(externalRequests, []);

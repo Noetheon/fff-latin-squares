@@ -10,63 +10,84 @@ is not expected. An automated pass is not a referee endorsement.
 Current scope: **2026-09-30T12:54:17Z**, through C280 and the completed
 binary-first-orbit companion, not later working campaigns.
 
-## 1. Proof: Cross-View and Binary-Fibre Boundaries
+## 1. Check the Two Illustrated Cycles
 
-Read the [near-type triangle and anchor proofs](manuscript/candidates/2026-09-30_research_review/sections/16_crossview_near_triangles.tex)
-and [binary two-plex lift/count theorem](manuscript/candidates/2026-09-30_research_review/sections/17_binary_transversal_lifts.tex).
-Does the complete finite core premise justify the companion-view obstruction?
-Do the 31 dual-positive and 13 longest-cycle normalizations remain distinct,
-without imposing column positivity on the latter? For binary-fibre lifts, check
-the component-parity equivalence, rank/count proof, same-projection obstruction,
-and free four-element action. Why may only the FIRST transversal be normalized,
-while the disjoint SECOND remains unrestricted?
+**Question:** comparing row 0 with row 1, do equal-symbol matches give
+`0 -> 1 -> 0` in the [order-8 table](examples/order8_fff.json), and
+`0 -> 2 -> 1 -> 0` in the [order-3 table](examples/order3_nonfff.json)?
+These are column labels, not symbol values. This can be checked by hand.
 
-Useful response: the exact paragraph, the questionable inference, and either a
-replacement argument or an explicit table. Review the precise hypotheses, not a
-claim that all FFF squares belong to this construction or force a near triangle.
+Optional code check, from the repository root with Python 3.11+:
 
-## 2. Reproducibility: Check a Table, Then the Coverage Boundary
+```sh
+python3 -B tools/demo_fff.py
+python3 -B tools/demo_fff.py examples/order3_nonfff.json
+```
 
-Run the [small example and negative control](examples/README.md). Do the direct
-matching equations and cycle reports agree with an independently written checker?
-Please report Python version, command, input hash and the first disagreement.
-Then run `python3 -B tools/check_current_snapshot.py --output .audit/review.json`:
-can an independently written scanner reproduce the explicit order-12 witness
-and the 1703 represented order-20 classes, including every rank-58 minor?
-The original single-family 512 count remains historical; the new 1703 bound
-uses an enlarged family and does not claim a global order-20 census.
+The complete checks should report `pattern=FFF FFF=True` for order 8 and
+`pattern=TTT FFF=False` for order 3. See the
+[expected permutations and cycles](examples/expected_results.json).
+One illustrated pair does not establish FFF: every pair in all three views
+must pass. This is a check of two tables, not a census or an order-10 proof.
 
-Then follow the [new portable commands](REPRODUCIBILITY.md), optionally adding
-`--with-cpp` to recount the fixed FFF16 base. Can a separate implementation obtain
-72,474,624 labelled firsts / 18,118,656 free-four representatives? Distinguish that
-complete count from the 18 selected supports / 9,216 firsts with arbitrary-mate
-exclusions; 138,468 liftable supports remain unexcluded by those packages. The
-public package covers finite proof premises, not every local radius/mate payload
-or a fresh historical DRAT replay.
+**Useful response:** one matching step or cycle that disagrees, with the row
+and column labels. For a code discrepancy, include the command, Python version
+and input hash. An independently written checker is welcome, not required.
 
-For a deeper optional check, inspect the
-[two-master reduction](proof_notes/fff_six_type_master_reduction_degree10.md):
-do the disjoint cases cover the claimed scope, and are the exported records
-sufficient to identify every dependency needed for an independent rerun?
-The public export omits the large master graphs/checkpoints. Its default checks
-do **not** rerun the order-10 searches; that archive gap remains explicit.
+## 2. Check One Step in the Product Proof
 
-## 3. Literature: Known Results or Earlier Constructions
+**Question:** in the pattern-product theorem, does holding the other factor's
+line fixed correctly preserve an odd cycle from a factor in the product?
 
-For the cross-view triangle obstruction, binary two-plex lift/count theorem,
-affine corner trade, common-fibre CRT lift or intrinsic-layer classification,
-is there an earlier theorem or equivalent
-construction that should be cited or should change the novelty framing?
-See the [current sources and evidence](manuscript/candidates/2026-09-30_research_review/README.md).
-Unique-intercalate Latin squares are already studied, for example by Wanless;
-the question concerns the additional three-view FFF property, not that classical
-subject's first existence result.
-The classical prime round-robin construction is explicitly credited rather
-than presented as a new construction.
+Read the identity-factor paragraph and its use in the
+[direct-product proof](manuscript/candidates/2026-09-30_research_review/sections/04_direct_products.tex).
+The induced permutation is a product of two permutations. With one line fixed,
+that factor is the identity, and a cycle of length `m` pairs with a fixed point
+to give length `lcm(m,1)=m`. Check that the two product lines remain distinct.
 
-Useful response: author, title, year, theorem/page and a stable reference,
-together with the precise overlap. Novelty is not established by a failed
-keyword search or by AI agreement.
+The [statement index](manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#direct-products)
+locates the theorem in each PDF (Compact Theorem 4.2). Checking this one step
+is not a review of the converse, the other views or the full dossier.
+
+**Useful response:** a missing hypothesis, a precise explanation of why the
+step holds, or a counterexample to that step. A whole-paper review is not expected.
+
+## 3. Identify an Earlier FFF Criterion
+
+**Question:** is the exact three-view criterion for the classical prime
+round-robin table already in the literature, perhaps under different terminology?
+
+The [statement and construction](manuscript/candidates/2026-09-30_research_review/sections/08_nonpower_fff.tex)
+use an odd prime `p` and the midpoint table on `F_p` together with an infinity
+symbol. The stated criterion is FFF if and only if `p = 3 (mod 8)`.
+See `thm:prime-round-robin-fff` in the
+[statement index](manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#non-power-of-two-examples-and-lift-bound).
+
+The round-robin construction is classical and explicitly credited. The question
+is the precise overlap with this additional all-three-view cycle condition,
+not whether the construction itself is new. Literature priority is not established.
+
+**Useful response:** author, title, year, theorem/page and a stable reference,
+with a short explanation of the overlap. An unsuccessful search or agreement
+between AI systems does not establish novelty.
+
+## Further Optional Audits
+
+Choose one item; these are not prerequisites for answering the questions above.
+
+- [Triangle and anchor proofs](manuscript/candidates/2026-09-30_research_review/sections/16_crossview_near_triangles.tex):
+  audit one finite premise or one of the distinct 31/13 normalization covers.
+- [Binary-fibre theorem](manuscript/candidates/2026-09-30_research_review/sections/17_binary_transversal_lifts.tex):
+  audit one of component parity, the lift count, or the same-projection obstruction.
+- [Portable reproduction](REPRODUCIBILITY.md): independently check FFF12 or the
+  1703 represented order-20 classes; these are not a global order-20 census.
+- The fixed-base count of 72,474,624 labelled firsts / 18,118,656 free-four
+  representatives is not mate coverage. Only 18 selected supports / 9,216 firsts
+  have arbitrary-mate exclusions; 138,468 liftable supports remain outside them
+  at this snapshot. Check that boundary separately from any first-transversal count.
+- [Order-10 reduction](proof_notes/fff_six_type_master_reduction_degree10.md):
+  audit coverage of the two disjoint masters. The public export omits the large
+  master graphs/checkpoints; default checks do **not** replay those searches.
 
 ## Respond
 

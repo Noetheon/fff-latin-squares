@@ -18,7 +18,7 @@
   <meta name="twitter:description" content="AI-generated research dossier. Not peer reviewed. Snapshot 30 September 2026, through C280 (2026-09-30T12:54:17Z). Binary two-plex lifts and bounded evidence; order 18 remains open.">
   <meta name="twitter:image" content="https://noetheon.github.io/fff-latin-squares/assets/social-preview.png">
   <title>Odd-Cycle-Free Latin Squares | Research Dossier</title>
-  <link rel="stylesheet" href="assets/site.css?v=2455ce5d13b7">
+  <link rel="stylesheet" href="assets/site.css?v=d98c5203669b">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -26,8 +26,8 @@
     <div class="container masthead-inner">
       <a class="brand" href="#main" aria-label="FFF research dossier home"><span class="brand-mark" aria-hidden="true">FFF<span></span></span><span>LATIN SQUARES<br><span class="brand-subtitle">Research dossier</span></span></a>
       <nav aria-label="Main navigation">
-        <a href="#dossiers">Dossiers</a>
         <a href="#example">Example</a>
+        <a href="#dossiers">Papers</a>
         <a href="#evidence">Evidence</a>
         <a href="#review">Review</a>
         <a class="repository-link" href="https://github.com/Noetheon/fff-latin-squares">GitHub</a>
@@ -40,17 +40,79 @@
       <section class="introduction" aria-labelledby="project-title">
         <div class="eyebrow-row"><p class="eyebrow">Combinatorics / Research dossier</p><p class="dateline">Snapshot dated <time datetime="2026-09-30">30 September 2026</time></p></div>
         <h1 id="project-title">Odd-cycle-free<br><em>Latin squares</em></h1>
-        <p class="introduction-text">Latin squares without odd-cycle witnesses in any of three views.
-          Written arguments, computational evidence and the questions that remain open.</p>
-        <div class="intro-actions"><a class="button button-primary" href="papers/FFF_Compact_Research_Dossier.pdf">Read compact PDF</a><a href="#example">Examine a concrete example</a></div>
+        <p class="introduction-text">A Latin square is a table in which every symbol appears once in each row and column.</p>
+        <p class="research-question">Which sizes admit such tables when comparing any two distinct rows, columns or symbols gives only even-length cycles?</p>
+        <div class="intro-actions"><a class="button button-primary" href="#example">See the idea</a><a href="papers/FFF_Compact_Research_Dossier.pdf">Read compact PDF</a><a href="#evidence">Explore the results</a></div>
         <div class="disclosure-line">
           <span class="status-label">Not peer reviewed</span>
           <p>AI-generated research. <a href="#origin">Origin &amp; review disclosure</a>.</p>
         </div>
       </section>
 
+      <section id="example" class="example section-band" aria-labelledby="example-title">
+        <div class="section-heading"><div><span class="section-number">01 / UNDERSTAND</span><h2 id="example-title">Follow the same symbol.</h2></div><p>A two-step cycle, then a three-step counterexample.</p></div>
+        <div class="example-layout">
+          <figure class="table-figure">
+            <table id="example-table" aria-describedby="table-caption">
+              <caption>Order 8 / a reduced FFF Latin square</caption>
+              <thead><tr><th scope="col"><span class="sr-only">Row / column</span></th><th scope="col">0</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th></tr></thead>
+              <tbody>
+                <tr class="selected-row"><th scope="row">0</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+                <tr class="selected-row"><th scope="row">1</th><td>1</td><td>0</td><td>3</td><td>2</td><td>5</td><td>4</td><td>7</td><td>6</td></tr>
+                <tr><th scope="row">2</th><td>2</td><td>3</td><td>5</td><td>4</td><td>6</td><td>7</td><td>0</td><td>1</td></tr>
+                <tr><th scope="row">3</th><td>3</td><td>2</td><td>4</td><td>5</td><td>7</td><td>6</td><td>1</td><td>0</td></tr>
+                <tr><th scope="row">4</th><td>4</td><td>5</td><td>6</td><td>7</td><td>0</td><td>1</td><td>2</td><td>3</td></tr>
+                <tr><th scope="row">5</th><td>5</td><td>4</td><td>7</td><td>6</td><td>1</td><td>0</td><td>3</td><td>2</td></tr>
+                <tr><th scope="row">6</th><td>6</td><td>7</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+                <tr><th scope="row">7</th><td>7</td><td>6</td><td>1</td><td>0</td><td>3</td><td>2</td><td>5</td><td>4</td></tr>
+              </tbody>
+            </table>
+            <figcaption id="table-caption">Every row and column contains each symbol exactly once. Highlighted rows 0 and 1 give four cycles of length 2 on column labels.</figcaption>
+            <p class="cycle-formula" aria-label="Cycles: 0 1, 2 3, 4 5, 6 7"><span>(0 1)</span><span>(2 3)</span><span>(4 5)</span><span>(6 7)</span></p>
+          </figure>
+          <div class="example-explanation">
+            <h3>How does a cycle appear?</h3>
+            <p>Compare the two highlighted rows. Match each symbol in row 0 with the same symbol in row 1, keeping track of the <strong>column labels</strong>.</p>
+            <ol class="cycle-steps">
+              <li>In row 0, column 0 contains symbol 0. Row 1 has that symbol in column 1: <strong>0 &rarr; 1</strong>.</li>
+              <li>In row 0, column 1 contains symbol 1. Row 1 has that symbol in column 0: <strong>1 &rarr; 0</strong>.</li>
+            </ol>
+            <p class="cycle-path" data-table="example-table">0 &rarr; 1 &rarr; 0</p>
+            <p>The return takes two steps: an even cycle. The other column labels form three more two-step cycles.</p>
+            <p>An odd cycle in any row pair makes the row view <strong>T</strong>; no odd cycle in any row pair makes it <strong>F</strong>. The column and symbol views are checked separately.</p>
+            <p><strong>FFF requires all three views to pass.</strong> One highlighted pair is only an illustration, not the full check.</p>
+            <dl class="view-results" aria-label="Complete checker results for the displayed table"><div><dt>Row</dt><dd>F <span>28 pairs</span></dd></div><div><dt>Column</dt><dd>F <span>28 pairs</span></dd></div><div><dt>Symbol</dt><dd>F <span>28 pairs</span></dd></div></dl>
+            <div class="verification-command"><span class="command-label">PYTHON 3 / STANDARD LIBRARY</span><code>python3 -B tools/demo_fff.py</code><samp>order=8 latin=True reduced=True<br>pattern=FFF FFF=True</samp></div>
+            <div class="example-links"><a href="https://github.com/Noetheon/fff-latin-squares/tree/main/examples">Run a small example</a><a href="examples/order8_fff.json" download>Order-8 JSON</a><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/tools/demo_fff.py">Checker source</a></div>
+          </div>
+        </div>
+        <div class="negative-example">
+          <figure class="table-figure negative-table-figure">
+            <table id="negative-table" aria-describedby="negative-caption">
+              <caption>Order 3 / addition modulo 3</caption>
+              <thead><tr><th scope="col"><span class="sr-only">Row / column</span></th><th scope="col">0</th><th scope="col">1</th><th scope="col">2</th></tr></thead>
+              <tbody>
+                <tr class="selected-row"><th scope="row">0</th><td>0</td><td>1</td><td>2</td></tr>
+                <tr class="selected-row"><th scope="row">1</th><td>1</td><td>2</td><td>0</td></tr>
+                <tr><th scope="row">2</th><td>2</td><td>0</td><td>1</td></tr>
+              </tbody>
+            </table>
+            <figcaption id="negative-caption">Latin, but not FFF. The same row comparison returns after three steps.</figcaption>
+          </figure>
+          <div class="example-explanation">
+            <h3>What changes with an odd cycle?</h3>
+            <p>Apply the same rule to rows 0 and 1 of this smaller table. Symbol 0 sends column 0 to 2; symbol 2 sends 2 to 1; symbol 1 sends 1 back to 0.</p>
+            <p class="cycle-path negative-path" data-table="negative-table">0 &rarr; 2 &rarr; 1 &rarr; 0</p>
+            <p>Three steps is odd, so this row pair already rules out FFF. The complete checker finds an odd cycle in every view: <strong>pattern TTT, FFF=False</strong>.</p>
+            <div class="verification-command"><span class="command-label">NEGATIVE CONTROL / SAME CHECKER</span><code>python3 -B tools/demo_fff.py examples/order3_nonfff.json</code><samp>order=3 latin=True reduced=True<br>pattern=TTT FFF=False</samp></div>
+            <div class="example-links"><a href="examples/order3_nonfff.json" download>Order-3 JSON</a><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/examples/expected_results.json">Expected cycle reports</a></div>
+          </div>
+        </div>
+        <p class="section-note">These checks concern individual tables, not the census, the order-10 exclusion or the open order-18 question.</p>
+      </section>
+
       <section id="dossiers" class="dossiers" aria-labelledby="dossiers-title">
-        <div class="section-heading"><div><span class="section-number">01 / READ</span><h2 id="dossiers-title">One project. Three reading editions.</h2></div><p>A short entry, selected results, and the full record. <br>Shared evidence, different reading depth.</p></div>
+        <div class="section-heading"><div><span class="section-number">02 / READ</span><h2 id="dossiers-title">One project. Three reading editions.</h2></div><p>A short entry, selected results, and the full record. <br>Shared evidence, different reading depth.</p></div>
         <div class="paper-grid">
           <article class="paper">
             <a class="paper-preview compact-preview" href="papers/FFF_Compact_Research_Dossier.pdf" tabindex="-1" aria-hidden="true">
@@ -97,50 +159,54 @@
         <p class="section-note">30 September counteraudit revision: clarified dependencies and references; no new mathematical claim. <a href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/REVIEW_AND_LIMITATIONS.md">What was checked, and what was not</a>.</p>
       </section>
 
-      <section id="example" class="example section-band" aria-labelledby="example-title">
-        <div class="section-heading"><div><span class="section-number">02 / VERIFY</span><h2 id="example-title">A small, inspectable example.</h2></div><p>A complete table. Three views. <br>No large dataset required.</p></div>
-        <div class="example-layout">
-          <figure class="table-figure">
-            <table id="example-table" aria-describedby="table-caption">
-              <caption>Order 8 / a reduced FFF Latin square</caption>
-              <thead><tr><th scope="col"><span class="sr-only">Row / column</span></th><th scope="col">0</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th></tr></thead>
-              <tbody>
-                <tr class="selected-row"><th scope="row">0</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
-                <tr class="selected-row"><th scope="row">1</th><td>1</td><td>0</td><td>3</td><td>2</td><td>5</td><td>4</td><td>7</td><td>6</td></tr>
-                <tr><th scope="row">2</th><td>2</td><td>3</td><td>5</td><td>4</td><td>6</td><td>7</td><td>0</td><td>1</td></tr>
-                <tr><th scope="row">3</th><td>3</td><td>2</td><td>4</td><td>5</td><td>7</td><td>6</td><td>1</td><td>0</td></tr>
-                <tr><th scope="row">4</th><td>4</td><td>5</td><td>6</td><td>7</td><td>0</td><td>1</td><td>2</td><td>3</td></tr>
-                <tr><th scope="row">5</th><td>5</td><td>4</td><td>7</td><td>6</td><td>1</td><td>0</td><td>3</td><td>2</td></tr>
-                <tr><th scope="row">6</th><td>6</td><td>7</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
-                <tr><th scope="row">7</th><td>7</td><td>6</td><td>1</td><td>0</td><td>3</td><td>2</td><td>5</td><td>4</td></tr>
-              </tbody>
-            </table>
-            <figcaption id="table-caption">Every row and column contains each symbol exactly once. Highlighted rows 0 and 1 give four cycles of length 2 on column labels.</figcaption>
-            <p class="cycle-formula" aria-label="Cycles: 0 1, 2 3, 4 5, 6 7"><span>(0 1)</span><span>(2 3)</span><span>(4 5)</span><span>(6 7)</span></p>
-          </figure>
-          <div class="example-explanation">
-            <h3>What does FFF mean?</h3>
-            <p>Match equal symbols between two rows and follow the resulting permutation of columns. An odd cycle would make the row view <strong>T</strong>; its absence for every row pair makes it <strong>F</strong>.</p>
-            <p>The column and symbol views have their own induced permutations. <strong>FFF requires all three views to pass.</strong> One highlighted pair is only an illustration, not the full check.</p>
-            <dl class="view-results" aria-label="Complete checker results for the displayed table"><div><dt>Row</dt><dd>F <span>28 pairs</span></dd></div><div><dt>Column</dt><dd>F <span>28 pairs</span></dd></div><div><dt>Symbol</dt><dd>F <span>28 pairs</span></dd></div></dl>
-            <div class="verification-command"><span class="command-label">PYTHON 3 / STANDARD LIBRARY</span><code>python3 -B tools/demo_fff.py</code><samp>order=8 latin=True reduced=True<br>pattern=FFF FFF=True</samp></div>
-            <div class="example-links"><a href="https://github.com/Noetheon/fff-latin-squares/tree/main/examples">Run a small example</a><a href="examples/order8_fff.json" download>Table JSON</a><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/tools/demo_fff.py">Checker source</a></div>
-            <p class="example-limit">The repository also includes an order-3 negative control with pattern TTT. This check concerns individual tables, not the census or order-10 exclusion.</p>
-          </div>
-        </div>
-      </section>
-
       <section id="evidence" class="evidence section-band" aria-labelledby="evidence-title">
         <div class="section-heading"><div><span class="section-number">03 / EXAMINE</span><h2 id="evidence-title">Results, with their boundaries.</h2></div><p>Evidence classes in the dossier, <br>not independent referee endorsements.</p></div>
         <div class="evidence-list">
-          <article class="evidence-row"><div class="evidence-kind written">Proof + finite premises</div><div><h3>Cross-view triangles and normal forms</h3><p>For orders n = 2 (mod 4), n at least 6, near-type triangles force an odd companion-view cycle. Each near pair has one 4-cycle and otherwise 2-cycles. The order-18 anchor choices give 31 dual-positive or 13 longest-cycle cases, not solved cases; column positivity is not imposed on the latter.</p></div><span class="evidence-reference">Scoped structural results</span></article>
-          <article class="evidence-row"><div class="evidence-kind computed">Exact computation</div><div><h3>The order-8 census</h3><p>283,657 main-class representatives; 230 FFF, including 225 not group-isotopic. Completeness of the cited external census remains a dependency.</p></div><span class="evidence-reference">Finite census</span></article>
-          <article class="evidence-row"><div class="evidence-kind computed">Reduction + computation</div><div><h3>No FFF square of order 10</h3><p>A written exhaustive reduction plus complete exact master searches. This is not a solver-free proof or a proof-assistant certificate; the large search payloads are not included in this export.</p></div><span class="evidence-reference">Technical edition</span></article>
-          <article class="evidence-row"><div class="evidence-kind computed">Explicit counterexample</div><div><h3>The former project conjecture is false</h3><p>Order 12 admits an explicit FFF square, disproving the former power-of-two conjecture C38, an earlier working conjecture of this project. The shipped order-12, 14, 36 and 98 controls are freshly checked in all three views by two scanning methods.</p></div><span class="evidence-reference">Tables + checks</span></article>
-          <article class="evidence-row"><div class="evidence-kind written">Proof + finite controls</div><div><h3>Constructed families, not a census</h3><p>Fresh checks certify 1,703 represented classes at order 20. Direct rank certificates and the fibred construction give a lower bound of 1,450,956 at order 40. These are not complete censuses.</p></div><span class="evidence-reference">Scoped construction</span></article>
-          <article class="evidence-row"><div class="evidence-kind written">Proof + finite controls</div><div><h3>Binary two-plex lifts</h3><p>Component parity exactly characterizes transversal lifts and their count for binary-fibre Latin bases. Standard double prolongation along disjoint transversals with the same projected two-plex is non-FFF. Different-projection pairs are outside this obstruction.</p></div><span class="evidence-reference">General lift theorem</span></article>
-          <article class="evidence-row"><div class="evidence-kind computed">Exact fixed-base count</div><div><h3>A count is not mate coverage</h3><p>One fixed FFF16 base has 72,474,624 labelled first transversals / 18,118,656 free-four representatives, not main classes. Only 18 selected supports / 9,216 labelled firsts have arbitrary-mate exclusions; 138,468 liftable supports remain unexcluded by those packages.</p></div><span class="evidence-reference">Incomplete mate coverage</span></article>
-          <article class="evidence-row open-row"><div class="evidence-kind open">Open question</div><div><h3>Unrestricted order 18</h3><p>Order 18 remains open, as does the complete order spectrum. Restricted-family exclusions, partial SAT models and timeouts do not settle this existence problem.</p></div><span class="evidence-reference">Not resolved</span></article>
+          <article class="evidence-row">
+            <div class="evidence-kind computed">Explicit counterexample</div>
+            <div><h3>Order 12: beyond powers of two</h3><p>Order 12 admits an explicit FFF square, disproving the former power-of-two conjecture C38, an earlier working conjecture of this project. The shipped order-12, 14, 36 and 98 controls are freshly checked in all three views by two scanning methods.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#non-power-of-two-examples-and-lift-bound">Tables &amp; evidence</a>
+          </article>
+          <article class="evidence-row">
+            <div class="evidence-kind computed">Reduction + computation</div>
+            <div><h3>No FFF square of order 10</h3><p>A written exhaustive reduction plus complete exact master searches. This is not a solver-free proof or a proof-assistant certificate; the large search payloads are not included in this export.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#order-10-exclusion-c157">Reduction &amp; limits</a>
+          </article>
+          <article class="evidence-row">
+            <div class="evidence-kind written">Proof + checked base case</div>
+            <div><h3>General constructions beyond powers of two</h3><p>For every odd integer m &gt; 1, multiplying m by a sufficiently large power of two gives an order with an FFF square. The theorem supplies an upper bound, not the smallest possible exponent or a decision at order 18.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#non-power-of-two-examples-and-lift-bound">Construction theorem</a>
+          </article>
+          <article class="evidence-row">
+            <div class="evidence-kind computed">Exact computation</div>
+            <div><h3>The order-8 census</h3><p>283,657 main-class representatives; 230 FFF, including 225 not group-isotopic. Completeness of the cited external census remains a dependency.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#small-orders-and-the-order-8-census">Census &amp; assumptions</a>
+          </article>
+          <article class="evidence-row">
+            <div class="evidence-kind written">Proof + finite controls</div>
+            <div><h3>Constructed families, not a census</h3><p>Fresh checks certify 1,703 represented classes at order 20. Direct rank certificates and the fibred construction give a lower bound of 1,450,956 at order 40. These are not complete censuses.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#fibred-extensions-and-class-lower-bounds">Class-bound evidence</a>
+          </article>
+          <article class="evidence-row">
+            <div class="evidence-kind written">Proof + finite premises</div>
+            <div><h3>Cross-view triangles and normal forms</h3><p>For orders n = 2 (mod 4), n at least 6, near-type triangles force an odd companion-view cycle. Each near pair has one 4-cycle and otherwise 2-cycles. The order-18 anchor choices give 31 dual-positive or 13 longest-cycle cases, not solved cases; column positivity is not imposed on the latter.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#exceptional-core-triangles-and-anchor-normal-forms">Structural proofs</a>
+          </article>
+          <article class="evidence-row">
+            <div class="evidence-kind written">Proof + finite controls</div>
+            <div><h3>Binary two-plex lifts</h3><p>Component parity exactly characterizes transversal lifts and their count for binary-fibre Latin bases. Standard double prolongation along disjoint transversals with the same projected two-plex is non-FFF. Different-projection pairs are outside this obstruction.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#binary-fibre-transversals">Lift proof &amp; scope</a>
+          </article>
+          <article class="evidence-row">
+            <div class="evidence-kind computed">Exact fixed-base count</div>
+            <div><h3>A count is not mate coverage</h3><p>One fixed FFF16 base has 72,474,624 labelled first transversals / 18,118,656 free-four representatives, not main classes. Only 18 selected supports / 9,216 labelled firsts have arbitrary-mate exclusions; 138,468 liftable supports remain unexcluded by those packages.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md#important-unnumbered-computational-statements">Count &amp; coverage limits</a>
+          </article>
+          <article class="evidence-row open-row">
+            <div class="evidence-kind open">Open question</div>
+            <div><h3>Unrestricted order 18</h3><p>Order 18 remains open, as does the complete order spectrum. Restricted-family exclusions, partial SAT models and timeouts do not settle this existence problem.</p></div>
+            <a class="evidence-reference" href="https://github.com/Noetheon/fff-latin-squares/blob/main/EVIDENCE_STATUS.md#outstanding-work">Open questions</a>
+          </article>
         </div>
         <a class="text-link" href="https://github.com/Noetheon/fff-latin-squares/blob/main/EVIDENCE_STATUS.md">Read the complete evidence status</a>
       </section>
@@ -158,7 +224,18 @@
       </section>
     </div>
 
-    <section id="review" class="review-band" aria-labelledby="review-title"><div class="container review-inner"><div><span class="section-number">05 / CRITICAL FEEDBACK</span><h2 id="review-title">A record to examine,<br>not a claim to take on trust.</h2><p>Counterexamples, missing assumptions, prior literature and reproducibility failures are welcome. Please identify the exact statement and provide a minimal check.</p></div><div class="review-actions"><a class="button button-light" href="https://github.com/Noetheon/fff-latin-squares/discussions/1">Join the focused review</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/blob/main/REVIEW_TASKS.md">Three focused review questions</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/issues">Report an issue</a></div></div></section>
+    <section id="review" class="review-band" aria-labelledby="review-title">
+      <div class="container review-inner">
+        <div><span class="section-number">05 / CRITICAL FEEDBACK</span><h2 id="review-title">Start with one check.</h2><p>A whole-paper review is not expected. One incorrect cycle, missing assumption or precise earlier reference is useful. Choose a bounded question:</p>
+          <ul class="review-questions">
+            <li><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/REVIEW_TASKS.md#1-check-the-two-illustrated-cycles">Do the two illustrated cycles match the tables?</a></li>
+            <li><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/REVIEW_TASKS.md#2-check-one-step-in-the-product-proof">Does the identity-factor step in the product proof hold?</a></li>
+            <li><a href="https://github.com/Noetheon/fff-latin-squares/blob/main/REVIEW_TASKS.md#3-identify-an-earlier-fff-criterion">Is the stated round-robin FFF criterion already known?</a></li>
+          </ul>
+        </div>
+        <div class="review-actions"><a class="button button-light" href="https://github.com/Noetheon/fff-latin-squares/discussions/1">Join the focused review</a><a class="review-discussion" href="https://github.com/Noetheon/fff-latin-squares/issues">Report an issue</a></div>
+      </div>
+    </section>
   </main>
 
   <footer class="container footer"><p>Odd-cycle-free Latin squares<br><span>Public research dossier / 30 September 2026</span></p><p>No journal acceptance, DOI or institutional endorsement is asserted.<br>No analytics, tracking or external scripts.</p></footer>

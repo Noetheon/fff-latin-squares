@@ -5,6 +5,46 @@ English-language interface to the same research dossier. It works by opening
 `index.html` locally or through GitHub Pages, with no build step, JavaScript,
 third-party fonts, external scripts or analytics.
 
+## Reader Navigation Revision: 30 September 2026
+
+This editorial update keeps the **2026-09-30T12:54:17Z / C280** evidence cutoff,
+all three PDFs and the scientific payloads unchanged. It does not import later
+working results or constitute a new mathematical audit.
+
+- The introduction defines a Latin square before introducing the cycle question.
+  The example now precedes the PDF catalogue, with direct routes to both.
+- The order-8 example explains the two-step column cycle `0 -> 1 -> 0`.
+  A visible order-3 negative control explains `0 -> 2 -> 1 -> 0` using the same
+  matching rule. Both printed tables and both paths are tested against the
+  frozen examples; a single pair is explicitly not a complete FFF check.
+- Every result has a direct statement/evidence link, including on narrow screens.
+  Existing existence results and the general lift bound precede specialist search
+  details. The latter retains its upper-bound, non-minimality and order-18 limits.
+- [Review tasks](REVIEW_TASKS.md) start with one cycle check, one product-proof
+  step or one precise literature question. Deeper audits remain optional.
+- Mobile body text and metadata are larger. The page remains static and usable
+  without JavaScript, external fonts or third-party services.
+
+The standard-library site tests also resolve same-repository GitHub document
+links and their Markdown heading anchors locally. Optional browser checks verify
+that all result links remain visible and focusable at every tested width.
+Fresh browser screenshots and reports are local QA artifacts, not proof evidence.
+
+Validation of this revision:
+
+- 79 standard-library unit tests passed, including 15 website tests.
+- Browser layout checks passed at widths 320, 360, 390, 640, 768, 1024, 1440
+  and 1920 pixels: no horizontal overflow or clipped text, all six PDF preview
+  images loaded, and all nine result links remained visible and focusable.
+- Keyboard checks passed for the skip link and disclosure toggles; anchor
+  navigation worked and no browser console warnings or errors were observed.
+  This is targeted QA, not a complete accessibility certification.
+- The public manifest and known-identifier/private-path scan passed for 2782
+  files. The three PDF hashes are unchanged. The local `pdfdetach` executable
+  was unavailable; `pypdf` confirmed empty author fields, no embedded files,
+  no document JavaScript name tree and only an internal page-fit opening action.
+  This is a scoped privacy check, not a universal anonymity guarantee.
+
 ## Paper Update: 30 September 2026
 
 The current edition has a **12-page Compact**, **44-page Selected Results**,
