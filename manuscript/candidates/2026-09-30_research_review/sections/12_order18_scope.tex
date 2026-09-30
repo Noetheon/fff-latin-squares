@@ -1,0 +1,142 @@
+\section{The precisely bounded order-18 frontier}
+\label{sec:order18-scope}
+
+None of the results in this section decides unrestricted order-$18$
+FFF existence. They distinguish a lossless normalization from
+exclusions of particular construction families and local contexts.
+
+\begin{proposition}[A free-column same-sign normalization]
+\label{prop:same-sign-normalization}
+Every row-F Latin square of even order $n\geq4$ is isotopic to a
+reduced square whose second row is a canonical even-cycle
+permutation of positive sign, with zero in a longest cycle.
+At order $18$ this gives a complete family of $14$ row-1 cases.
+\end{proposition}
+
+\begin{proof}
+Among the row bijections $\rho_r:C\to S$, two, say $\rho_a,\rho_b$,
+have the same sign. Their relative permutation
+$\phi=\rho_a^{-1}\rho_b$ has positive sign, no fixed point,
+and only even cycles. Choose a column $c_0$ on a longest cycle,
+and a column labelling $\kappa$ taking its successive points to
+$0,1,\ldots$. Label the other cycles on consecutive intervals
+in decreasing order of length. Put
+\[
+ \sigma=\kappa\rho_a^{-1},\qquad
+ \alpha(r)=\sigma(L(r,c_0)),\qquad
+ L'(\alpha(r),\kappa(c))=\sigma(L(r,c)).
+\]
+All maps are bijections. The first row and column of $L'$ are
+identity lines, $\alpha(a)=0$, $\alpha(b)=1$, and row 1 is
+$\kappa\phi\kappa^{-1}$. This isotopy preserves all three pattern
+bits. Conversely, a square in any retained case is an unrestricted
+square. The even partitions of $18$ are twice the partitions of
+$9$; exactly $14$ of the $30$ have an even number of parts and
+therefore positive permutation sign.
+\end{proof}
+
+The first column is chosen freely before reduction. A model with
+previously pinned cells or a distinguished column cannot use this
+normalization without transporting those anchors. None of the
+$14$ complete cases is excluded by the bounded model-size probes.
+For full FFF, the later cross-view refinement in
+Corollary~\ref{cor:nonnear-anchors} reduces this longest-cycle family
+to $13$; that refinement does not hold merely from the row-F hypothesis
+of the proposition above.
+
+\paragraph{Completed construction exclusions.}
+The following are exact scoped results in the frozen research
+archive; they are not substitutions for the $14$ unrestricted cases.
+One dependency needed for arbitrary transversals deserves an explicit
+statement. It is not the standard-prolongation criterion of
+Section~\ref{sec:affine-prime}.
+
+\begin{proposition}[The cyclic-base dependency, C225]
+\label{prop:cyclic17-transversal}
+No standard one-point prolongation of the addition table of
+$\mathbb F_{17}$ along any transversal is FFF.
+\end{proposition}
+
+\begin{proof}
+Write a transversal as $(r,f(r),r+f(r))$, so both $f$ and $r+f(r)$
+are permutations. For two old rows $r,s$, put
+$t=(f(s)-f(r))/(r-s)$ in $\mathbb F_{17}$, using its representative
+in $\{2,\ldots,16\}$. Cutting the two selected arrows in the original
+$17$-cycle and inserting the new point gives cycles of lengths
+$t$ and $18-t$. Thus row-F forces $t$ even for every pair.
+All secant directions of the graph of $f$ lie among the eight
+values $-\{2,4,\ldots,16\}$. The R\'edei--Megyesi direction theorem
+requires at least ten directions for a noncollinear set of
+$17$ points \cite[Theorem~1.1]{Somlai2022Directions}.
+Consequently $f(r)=ar+b$ with $a\notin\{0,-1\}$.
+
+Translations remove $b$. The old-row and old-column even-cycle
+tests require the least positive residues of $-a$ and $-a^{-1}$
+to be even; they leave only $a=1,5,7$. In the symbol view the
+base operation is $r=s-c$. Replacing $c$ by $-c$ turns it into
+addition and gives transversal coefficient $-a/(a+1)$.
+The same old-line cycle test therefore requires the residue of
+$a/(a+1)$ to be even. For $a=1,5,7$ those residues are respectively
+$9,15,3$, all odd. Already these old-line pairs exclude FFF.
+No claim about an arbitrary order-$18$ square is used.
+\end{proof}
+
+\begin{description}
+\item[Translation-equivariant one-point family (C221).]
+For complete maps $f:\mathbb F_{17}\to\mathbb F_{17}$ with
+$f(0)=0$, the standard prolongation of $x+f(y-x)$ contains no
+FFF square. A complete parastrophe/scaling reduction has three
+nonaffine cases. The final case-2 conditional-lex CNF is UNSAT
+with an independently checked DRAT trace, joining the previously
+checked cases 3 and 4 and the finite affine exclusion.
+Translation equivariance is an additional hypothesis.
+
+\item[Arbitrary transversals of odd-map bases (C235).]
+Among the $12513$ odd complete mappings, $12450$ bases fail a
+necessary old-line-pair cycle screen, $15$ affine survivors reduce
+to Proposition~\ref{prop:cyclic17-transversal}, and all $48$ nonaffine
+survivors have individually checked UNSAT certificates for the
+necessary transversal model. This covers every transversal for
+these odd-map bases, not nonodd maps or arbitrary order-$17$ bases.
+Indeed, for an affine complete map $f(t)=at$, relabelling rows
+by $(1-a)x$ and columns by $ay$ turns $x+f(y-x)$ into addition.
+These relabellings extend over the new point and transport every
+transversal prolongation. The C225 proof and its finite controls
+are retained explicitly in the companion snapshot.
+
+\item[Fixed-remainder contraction of represented FFF20 classes (C251).]
+For the $514$ represented classes of
+Computational Theorem~\ref{cthm:fff20-514}, delete an order-two
+Latin subsquare and refill only holes left by its deleted symbols,
+keeping all other surviving triples fixed. This produces no FFF18
+square. The finite screen covers all $1024$ trade masks and the two
+quadratic controls. All $9728$ base completions are TTT; proper-mask
+completion spaces coincide with a base case, and the quadratic
+controls have no Latin completion. The rule is invariant under
+isotopy and parastrophy because it is stated on the three sorts
+and their retained triples. It excludes neither other FFF20
+classes nor repairs that change retained entries.
+\end{description}
+
+\paragraph{A genuinely three-view local conflict.}
+One frozen reduced ten-row prefix in case 14 has the five further
+conditions
+\[
+ L(11,6)=2,\quad L(11,9)=7,\quad L(11,10)=6,\quad
+ L(11,11)=13,\quad L(11,16)=3,
+\]
+with zero-based indexing. At the thirteen-row stage, each of the
+seven proper subsets of the three view constraints has a separately
+validated partial Latin solution with no closed odd cycle in its
+active views. All three views together are UNSAT with a verified
+DRAT trace. The seven solutions need not be the same table. This
+is an exact joint obstruction for that prefix and those five cells,
+not a whole-case exclusion or a universal claim that two views
+never suffice.
+
+The full row-fibred and affine-orbit constructions do not resolve
+these open searches. In particular, the explicit FFF98 control
+already rules out any universal obstruction based solely on
+$n\equiv2\pmod8$. More computation on a selected source is not
+coverage of all Latin squares; an eventual negative decision must
+close an exhaustive, justified search space.

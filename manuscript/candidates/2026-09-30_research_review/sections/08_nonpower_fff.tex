@@ -1,0 +1,314 @@
+\section{Explicit non-power-of-two witnesses and a dyadic lift bound}
+\label{sec:nonpower-fff}
+
+The computational nonexistence result at order $10$ does not extend to all even
+non-powers of two.  The following finite claims are checked by direct
+three-view cycle scans, not by an uncompleted solver search.
+
+\begin{computationaltheorem}[Explicit non-power-of-two witnesses]
+\label{cthm:nonpower-witnesses}
+There are FFF Latin squares of orders $12$, $14$, and $36$.  The displayed
+order-$12$ table is reduced.  Thus the former conjecture that FFF squares
+of order greater than one exist only at powers of two is false.
+\end{computationaltheorem}
+
+\begin{table}[ht]
+\centering
+\begingroup\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{r|*{12}{r}}
+$L_{12}$ & 0&1&2&3&4&5&6&7&8&9&10&11 \\ \hline
+0  & 0&1&2&3&4&5&6&7&8&9&10&11 \\
+1  & 1&0&3&2&5&4&7&6&10&11&8&9 \\
+2  & 2&3&0&1&7&6&5&4&9&8&11&10 \\
+3  & 3&2&1&0&6&7&4&5&11&10&9&8 \\
+4  & 4&7&5&6&8&11&9&10&3&0&2&1 \\
+5  & 5&6&4&7&9&10&8&11&2&1&3&0 \\
+6  & 6&5&7&4&10&9&11&8&1&2&0&3 \\
+7  & 7&4&6&5&11&8&10&9&0&3&1&2 \\
+8  & 8&9&10&11&3&2&1&0&6&7&4&5 \\
+9  & 9&8&11&10&0&1&2&3&4&5&6&7 \\
+10 & 10&11&8&9&2&3&0&1&5&4&7&6 \\
+11 & 11&10&9&8&1&0&3&2&7&6&5&4 \\
+\end{tabular}
+\endgroup
+\caption{An explicit reduced order-$12$ FFF witness.  Every row and column
+is a permutation; all $198$ induced line-pair permutations across the three
+views have only even cycles.}
+\label{tab:order12-witness}
+\end{table}
+
+For odd $m>1$, let $h(m)$ be the least $a\geq0$ for which an FFF square of
+order $m2^a$ exists.  The odd-order obstruction, the order-$6$ computation,
+and Computational Theorem~\ref{cthm:nonpower-witnesses} give
+$h(3)=2$ and $h(7)=1$; the order-$36$ table gives $h(9)\leq2$.
+Nothing here decides existence at order $18$.
+
+The classical polygon-and-centre round-robin factorisation gives a separate,
+particularly simple family. Cheng and Sgueglia~\cite[Introduction]{ChengSgueglia2026Perfect}
+recall this factorisation and its prime-order perfectness; the following
+three-view FFF criterion is proved directly, without claiming priority for
+the construction or an exhaustive literature classification.
+
+\begin{theorem}[Prime round-robin family]
+\label{thm:prime-round-robin-fff}
+Let $p$ be an odd prime and $X=\mathbb F_p\cup\{\infty\}$. Define $M$ by
+$M(\infty,\infty)=\infty$,
+$M(\infty,x)=M(x,\infty)=x$ for finite $x$,
+$M(x,x)=\infty$ for finite $x$, and
+$M(x,y)=(x+y)/2$ for distinct finite $x,y$.
+Then $M$ is Latin and is FFF if and only if $p\equiv3\pmod 8$.
+\end{theorem}
+
+\begin{proof}
+In each finite row $a$, the affine map $y\mapsto(a+y)/2$ takes the value
+$a$ only at $y=a$. Replacing that entry with $\infty$ and placing $a$ at
+column $\infty$ makes the row a permutation. The infinity row is the
+identity. Symmetry gives the Latin property for columns as well.
+
+Write $R_a$ for a row permutation and $d=\operatorname{ord}_p(2)$.
+$R_\infty$ is the identity, while $R_a$ swaps $a$ and $\infty$ and acts,
+after translating $a$ to zero, as multiplication by $1/2$ on
+$\mathbb F_p^*$. Hence an infinity/finite row pair has type
+$2\,d^{(p-1)/d}$. For distinct finite $a,b$, put $P=R_b^{-1}R_a$.
+Apart from $a$, $2b-a$, and $\infty$, the map is translation
+$x\mapsto x+a-b$. At the exceptional inputs,
+\[
+ P(a)=b,\qquad P(2b-a)=\infty,\qquad P(\infty)=2a-b,
+\]
+and $P(b)=a$. In the single $p$-cycle of the translation, the segment
+$2b-a\to b\to a\to2a-b$ is replaced by the $2$-cycle $(a,b)$ and
+the connection $2b-a\to\infty\to2a-b$. The remaining cycle has length
+$p-1$, including when $p=3$. Thus all finite/finite row pairs have type
+$(2,p-1)$, and the row view is F exactly when $d$ is even. Symmetry gives
+the identical column condition.
+
+For a symbol $s$, let $T_s$ send a column to the row containing $s$ in it.
+Then $T_\infty$ is the identity; for finite $s$,
+\[
+ T_s(\infty)=s,\qquad T_s(s)=\infty,\qquad
+ T_s(x)=2s-x\quad(x\in\mathbb F_p\setminus\{s\}).
+\]
+Thus each $T_s$ is a fixed-point-free involution. An infinity/finite
+symbol pair has type $2^{(p+1)/2}$. Affine relabelling of the finite
+points reduces any two distinct finite symbols to $0,1$.
+The relative permutation $T_1T_0$ has precisely the cycles
+\[
+ (0,1,3,5,\ldots,p-2),\qquad
+ (\infty,2,4,6,\ldots,p-1),
+\]
+both of length $(p+1)/2$. Hence the symbol view is F exactly when
+$p\equiv3\pmod4$.
+
+For $p\equiv7\pmod8$, the supplement $(2/p)=1$ and Euler's criterion
+make $d$ divide the odd number $(p-1)/2$, so the row and column views
+are T. For $p\equiv3\pmod8$, $(2/p)=-1$ makes $d$ even; the symbol view
+is also F. Primes $p\equiv1\pmod4$ already fail in the symbol view.
+This proves the equivalence.
+\end{proof}
+
+By Dirichlet's theorem, infinitely many primes satisfy $p\equiv3\pmod8$;
+apart from $p=3$, their orders $p+1$ are not powers of two. At $p=19$ the
+table has order $20$. Together with the odd-order obstruction
+Proposition~\ref{prop:odd-order} and the separately audited computational
+exclusion of order $10$, this gives the
+sharp threshold $h(5)=2$. This last equality depends on the exact
+order-$10$ computation, whereas Theorem~\ref{thm:prime-round-robin-fff}
+is algebraic.
+
+\par\smallskip
+\noindent\begin{minipage}{\linewidth}
+\textbf{A second class at order $20$.}
+The classical no-hexagon STS(19), with explicit starters in
+Erskine--Griggs~\cite[Section 3.2]{ErskineGriggs2024CycleSwitch} and
+classification context in Colbourn et al.~\cite{ColbournEtAl2010STS19}, yields a
+Steiner loop whose 570 two-line permutations have only even cycles.
+Its three-view cycle profile has no $18$-cycle, whereas the midpoint
+table at $p=19$ has type $(2,18)$ in every row pair. Since the combined
+cycle-type profile is invariant under paratopy, these two examples are
+not in the same main class. This initial two-class control does not
+reproduce the external STS classification. The separate trade-family
+audit in Section~\ref{sec:fibred-growth} strengthens the represented
+class lower bound to $514$.
+\end{minipage}
+\par\smallskip
+
+\begin{theorem}[Three-point lift bound]
+\label{thm:three-point-bound}
+For every odd integer $m>1$, there is an FFF Latin square of order
+$m2^{\operatorname{ord}_m(2)}$.  Consequently
+\[
+ h(m)\leq\operatorname{ord}_m(2),
+\]
+and FFF squares exist at every order $m2^a$ with
+$a\geq\operatorname{ord}_m(2)$.
+\end{theorem}
+
+\begin{proof}
+The case $m=3$ is supplied by the order-$12$ table above, since
+$\operatorname{ord}_3(2)=2$.  Suppose $m>3$.  Set
+$e=\operatorname{ord}_m(2)$, take $K=\mathbb F_{2^e}$, and choose
+$r\in K^\times$ of multiplicative order $m$.  Its existence follows from
+$m\mid(2^e-1)$ and cyclicity of $K^\times$.
+
+For coefficients $s_i\in K$, $i\in\mathbb Z_m$, define a multiplication on
+$\mathbb Z_m\times K$ by
+\begin{equation}\label{eq:three-point-lift}
+ (i,a)*(j,b)=(i+j,\ a+r^i b+s_i r^j).
+\end{equation}
+The quotient coordinate and the nonzero coefficient $r^i$ make this a Latin
+square.  Put $t_i=r^{-i}s_i$ and regard $t_i$ as a function $t(r^i)$ on
+$H=\langle r\rangle$.  For a coset $C$ of any nontrivial subgroup of $H$,
+write
+\[
+ S_C=\sum_{x\in C}x\,t(x),\qquad
+ T_C=\sum_{x\in C}x^{-1}t(x).
+\]
+We first verify that pairwise distinct $t_i$ and nonzero $S_C,T_C$ for all
+such cosets imply FFF in all three views.
+
+Two distinct lines in the same quotient fiber have relative permutations
+that are nonzero translations of $K$: for rows the translation is
+$r^{-i}(a+a')$, for columns it is $r^i(b+b')$, and for symbols it is
+$r^{-(k-j)}(u+u')$ in each column fiber.  Each is an involution without
+fixed points.  For distinct quotient rows $i,k$, put $d=i-k$ and let
+$\ell$ be the order of $d$ in $\mathbb Z_m$.  Directly composing their row
+maps gives
+\[
+ R_{(k,a')}^{-1}R_{(i,a)}(j,b)
+ =\bigl(j+d,\ r^d b+r^{-k}(a+a')
+       +r^{j-k}(s_i+r^d s_k)\bigr).
+\]
+The quotient shifts by $d$; its $\ell$-step fiber return is
+\[
+ b\longmapsto b+r^{j-i}(s_i+r^d s_k)
+              =b+r^j(t_i+t_k).
+\]
+For distinct quotient columns $j,l$, the quotient shift is $j-l$ and the
+one-step map, with $d=j-l$, is
+\[
+ C_{(l,b')}^{-1}C_{(j,b)}(i,a)
+ =\bigl(i+d,\ a+r^i(b+b')+r^j s_i+r^l s_{i+d}\bigr).
+\]
+Its return on the associated coset $C$ is
+\[
+ a\longmapsto a+(r^j+r^l)S_C.
+\]
+For distinct quotient symbols $(k,u),(l,v)$, use the symbol-line map
+\[
+ S_{(k,u)}(j,b)=(k-j,\ u+r^{k-j}b+s_{k-j}r^j).
+\]
+With $d=l-k$, one step of $S_{(l,v)}^{-1}S_{(k,u)}$ is
+\[
+ (j,b)\longmapsto
+ \bigl(j+d,\ b+r^{j-k}(u+v)+(1+r^d)r^j t_{k-j}\bigr).
+\]
+Summing over a quotient cycle gives the return
+\[
+ b\longmapsto b+(1+r^{l-k})r^k T_C.
+\]
+In each calculation the line-label terms vanish because a nontrivial
+quotient cycle has odd length $\ell>1$ and the relevant geometric sum of
+an $\ell$th root other than one is zero.  Every displayed multiplier outside
+$S_C$ or $T_C$ is nonzero.  A nonzero characteristic-two translation has
+order two, so each lifted cycle has even length $2\ell$.  This establishes
+the asserted three-view criterion.
+
+It remains to choose the coefficients.  Put $D=r+1$, $u=D^{-1}$, and start
+with the injective function $t_0(1)=1$ and
+$t_0(x)=(x+1)^{-1}$ for $x\in H\setminus\{1\}$.  Its values at
+$1,r,r^2$ are $1,u,u^2$, which are distinct for $m>3$.  Cyclically permute
+these three values:
+\[
+ t(1)=u,\qquad t(r)=u^2,\qquad t(r^2)=1,
+ \qquad t(x)=(x+1)^{-1}\quad(x\notin\{1,r,r^2\}),
+\]
+and set $s_i=r^i t(r^i)$.  Injectivity is retained.
+
+Let $C=aJ$ be a coset of a subgroup $J$ of odd order $\ell>1$, and write
+$c=a^\ell$.  If $1\notin C$, then
+$\prod_{x\in C}(X+x)=X^\ell+c$ and logarithmic differentiation at $X=1$
+gives $\sum_{x\in C}(1+x)^{-1}=(1+c)^{-1}$.  Also
+$\sum_{x\in C}x^{-1}=0$.  Any coset untouched by the patch therefore has
+\[
+ S_C=\frac{c}{1+c},\qquad T_C=\frac1{1+c},
+\]
+both nonzero.
+
+Now let $J$ be proper, set $z=r^\ell$, and let
+$A=(\ell-1)/2\pmod2$, interpreted as an element of $K$.  Its three
+affected cosets $J,rJ,r^2J$ are distinct.  The value changes relative to
+$t_0$ are $u+1$, $r/D^2$, and $r^2/D^2$, respectively.  Pairing
+$x$ with $x^{-1}$ on $J\setminus\{1\}$ gives
+$\sum_{x\in J\setminus\{1\}}(1+x)^{-1}=A$.  Including
+$t_0(1)=1$, the unpatched moments on $J$ are $S_J(t_0)=A+1$ and
+$T_J(t_0)=A$.  The other two cosets use the preceding unpatched formula.
+Adding the appropriate value changes yields
+\[
+\begin{array}{c|cc}
+ C&S_C&T_C\\ \hline
+ J&A+u&A+1+u\\[2pt]
+ rJ&\dfrac{z+r^2}{(1+z)D^2}&\dfrac{z+r^2}{(1+z)D^2}\\[8pt]
+ r^2J&\dfrac{[z(r^2+r+1)+r^2]^2}{(1+z^2)D^2}
+      &\dfrac{z^2+r^2}{(1+z^2)D^2}
+\end{array}
+\]
+All denominators are nonzero.  The $J$ entries are nonzero because
+$u\notin\{0,1\}$.  The $rJ$ numerator could vanish only if
+$\ell\equiv2\pmod m$, and the last $T$ numerator only if
+$\ell\equiv1\pmod m$; neither is possible for a proper divisor
+$1<\ell<m$.  The only possible failure is therefore
+\begin{equation}\label{eq:bad-three-point-coset}
+ r^\ell(r^2+r+1)=r^2.
+\end{equation}
+At most one exponent modulo $m$ satisfies this equation.  If it holds for
+a proper divisor $\ell$, replace $r$ by $r^{-1}$.  A bad proper divisor
+$j$ for the inverse would require
+$r^2+r+1=r^j=r^{2-\ell}$, so
+$j=m+2-\ell>m/2$.  Every proper divisor of odd $m$ is at most $m/3$;
+there is no such $j$.  Thus either $r$ or its inverse makes every proper
+coset moment nonzero.
+
+For the full-group coset $H$, all three patched points lie together.  With
+$A=(m-1)/2\pmod2$, direct summation gives
+\[
+ S_H=1+A+r^2+\frac r{r+1},\qquad
+ T_H=A+\frac r{r+1}.
+\]
+When $m\equiv3\pmod4$, these are
+$r(r^2+r+1)/(r+1)$ and $1/(r+1)$; the first could vanish only if $r$
+had order three.  When $m\equiv1\pmod4$, they are
+$(r^3+r^2+1)/(r+1)$ and $r/(r+1)$.  The cubic is irreducible over
+$\mathbb F_2$ and its roots have order seven, incompatible with
+$m\equiv1\pmod4$.  Hence both moments are nonzero.  The three-view
+criterion proves that~\eqref{eq:three-point-lift} is FFF.
+
+Finally, multiplying by the table of an elementary abelian $2$-group
+preserves FFF by Corollary~\ref{cor:fff-product}, giving every exponent
+$a\geq e$.
+\end{proof}
+
+\begin{remark}[The exceptional affine base case]
+At $m=3$, over the prescribed minimal field
+$K=\mathbb F_{2^{\operatorname{ord}_3(2)}}=\mathbb F_4$,
+the affine formula~\eqref{eq:three-point-lift} cannot be FFF,
+although Table~\ref{tab:order12-witness} gives an order-$12$ FFF square.
+Put $t_i=r^{-i}s_i$. Row-F requires distinct $t_i$; column-F and symbol-F
+require $S=t_0+rt_1+r^2t_2\ne0$ and $T=t_0+r^2t_1+rt_2\ne0$.
+Common translation and nonzero scaling give $(t_0,t_1)=(0,1)$.
+Since $r^2+r+1=0$, $t_2=r$ forces $T=0$, whereas $t_2=r^2$
+forces $S=0$.
+This argument concerns $\mathbb F_4$, not the same formula over all larger
+binary fields. As a scope control, over
+$\mathbb F_{16}=\mathbb F_2[x]/(x^4+x+1)$ take $r=x^2+x$,
+$(t_0,t_1,t_2)=(0,1,x)$, and $s_i=r^it_i$.
+Direct three-view checks give an FFF square of order $48$.
+This is not a new order-$48$ existence claim: products of the
+order-$12$ witness already supply that order.
+\end{remark}
+
+The finite checks in the associated companion run evaluate all subgroup
+coset moments for $m=5,7,9,15,21$ and all line-pair cycles at orders
+$56$, $80$, and $240$.  They control the implementation; the universal
+quantifier in Theorem~\ref{thm:three-point-bound} rests on the argument
+above.  The theorem does not determine $h(m)$ in general, resolve order
+$18$, classify higher-order main classes, or establish literature priority.

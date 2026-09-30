@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fresh bounded C271 checks with explicit scientific comparison rules."""
+"""Fresh bounded C280 checks with explicit scientific comparison rules."""
 import argparse
 import json
 from pathlib import Path
@@ -9,6 +9,7 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "manuscript/candidates/2026-09-28_research_review"
+CURRENT_SOURCE = ROOT / "manuscript/candidates/2026-09-30_research_review"
 CHECKS = (
     ("audit_snapshot.py", "snapshot_audit.json", ("elapsed_seconds", "sources")),
     ("audit_update.py", "update_audit.json", ("elapsed_seconds", "captured_update_files_verified")),
@@ -18,6 +19,22 @@ CHECKS = (
 
 def scientific(record, ignored):
     return {key: value for key, value in record.items() if key not in ignored}
+
+
+def check_new_results(scratch):
+    script = CURRENT_SOURCE / "scripts/audit_new_results.py"
+    reference = CURRENT_SOURCE / "results/portable_audit.json"
+    report_path = scratch / "portable_audit.json"
+    subprocess.run([sys.executable, "-B", str(script), "--output", str(report_path),
+                    "--compare", str(reference)], check=True, timeout=240)
+    actual = json.loads(report_path.read_text())
+    expected = json.loads(reference.read_text())
+    match = actual["passed"] is True and (
+        json.dumps(actual["scientific"], sort_keys=True, separators=(",", ":"), allow_nan=False)
+        == json.dumps(expected["scientific"], sort_keys=True, separators=(",", ":"), allow_nan=False))
+    return {"script": script.name, "scientific_fields_match": match,
+            "comparison_rules": actual["comparison"],
+            "first_census_replay": actual["first_census_replay"]}
 
 
 def main():
@@ -40,8 +57,9 @@ def main():
         records.append({"script": script, "scientific_fields_match": match,
                         "ignored_fields": list(ignored),
                         "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results."})
+    records.append(check_new_results(scratch))
     result = {"passed": all(row["scientific_fields_match"] for row in records),
-              "cutoff": "C271", "checks": records,
+              "cutoff": "C280", "checks": records,
               "heavy_solvers_run": False, "historical_unsat_proofs_rechecked": False,
               "elapsed_seconds": round(time.monotonic()-start, 3)}
     output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")

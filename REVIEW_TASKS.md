@@ -7,18 +7,23 @@ The maintainer does not claim mathematical expertise. See
 One precise correction or literature reference is useful; a whole-paper review
 is not expected. An automated pass is not a referee endorsement.
 
-## 1. Proof: Intrinsic Layers and the Construction Boundary
+Current scope: **2026-09-30T12:54:17Z**, through C280 and the completed
+binary-first-orbit companion, not later working campaigns.
 
-Read the [current binary quotient/rank argument](manuscript/candidates/2026-09-28_research_review/sections/10_fibred_class_growth.tex)
-and [affine-orbit classification](manuscript/candidates/2026-09-28_research_review/evidence/proofs/fff_affine_orbit_fibre_classification.md).
-Do the quotient-free hypotheses recover the intrinsic layers in all three
-views, and do they justify both directions of the stated within-construction
-classification? Identify any inference that would improperly become a global
-direct-product cancellation claim.
+## 1. Proof: Cross-View and Binary-Fibre Boundaries
+
+Read the [near-type triangle and anchor proofs](manuscript/candidates/2026-09-30_research_review/sections/16_crossview_near_triangles.tex)
+and [binary two-plex lift/count theorem](manuscript/candidates/2026-09-30_research_review/sections/17_binary_transversal_lifts.tex).
+Does the complete finite core premise justify the companion-view obstruction?
+Do the 31 dual-positive and 13 longest-cycle normalizations remain distinct,
+without imposing column positivity on the latter? For binary-fibre lifts, check
+the component-parity equivalence, rank/count proof, same-projection obstruction,
+and free four-element action. Why may only the FIRST transversal be normalized,
+while the disjoint SECOND remains unrestricted?
 
 Useful response: the exact paragraph, the questionable inference, and either a
 replacement argument or an explicit table. Review the precise hypotheses, not a
-claim that all FFF squares belong to this construction.
+claim that all FFF squares belong to this construction or force a near triangle.
 
 ## 2. Reproducibility: Check a Table, Then the Coverage Boundary
 
@@ -31,6 +36,14 @@ and the 1703 represented order-20 classes, including every rank-58 minor?
 The original single-family 512 count remains historical; the new 1703 bound
 uses an enlarged family and does not claim a global order-20 census.
 
+Then follow the [new portable commands](REPRODUCIBILITY.md), optionally adding
+`--with-cpp` to recount the fixed FFF16 base. Can a separate implementation obtain
+72,474,624 labelled firsts / 18,118,656 free-four representatives? Distinguish that
+complete count from the 18 selected supports / 9,216 firsts with arbitrary-mate
+exclusions; 138,468 liftable supports remain unexcluded by those packages. The
+public package covers finite proof premises, not every local radius/mate payload
+or a fresh historical DRAT replay.
+
 For a deeper optional check, inspect the
 [two-master reduction](proof_notes/fff_six_type_master_reduction_degree10.md):
 do the disjoint cases cover the claimed scope, and are the exported records
@@ -40,10 +53,11 @@ do **not** rerun the order-10 searches; that archive gap remains explicit.
 
 ## 3. Literature: Known Results or Earlier Constructions
 
-For the affine corner trade, common-fibre CRT lift, row-fibred pattern formula,
-or intrinsic-layer classification, is there an earlier theorem or equivalent
+For the cross-view triangle obstruction, binary two-plex lift/count theorem,
+affine corner trade, common-fibre CRT lift or intrinsic-layer classification,
+is there an earlier theorem or equivalent
 construction that should be cited or should change the novelty framing?
-See the [current sources and evidence](manuscript/candidates/2026-09-28_research_review/README.md).
+See the [current sources and evidence](manuscript/candidates/2026-09-30_research_review/README.md).
 Unique-intercalate Latin squares are already studied, for example by Wanless;
 the question concerns the additional three-view FFF property, not that classical
 subject's first existence result.

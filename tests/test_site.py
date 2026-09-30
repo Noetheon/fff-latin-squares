@@ -106,10 +106,57 @@ class SiteTests(unittest.TestCase):
                          "not independent studies", "not a solver-free proof"):
             self.assertIn(required, self.source)
         self.assertIn("<details open>", self.source)
-        self.assertIn("38 pages / PDF", self.source)
-        self.assertIn("80 pages / PDF", self.source)
-        self.assertIn("through C271", self.source)
+        self.assertIn("42 pages / PDF", self.source)
+        self.assertIn("88 pages / PDF", self.source)
+        self.assertIn("through C280", self.source)
+        for stale in ("38 pages / PDF", "80 pages / PDF", "87 pages / PDF", "through C271"):
+            self.assertNotIn(stale, self.source)
         self.assertNotIn("The global conjecture remains open", self.source)
+
+    def test_current_snapshot_metadata(self):
+        dates = [attrs.get("datetime") for tag, attrs in self.page.elements if tag == "time"]
+        self.assertIn("2026-09-30", dates)
+        self.assertIn("2026-09-30T12:54:17Z", dates)
+        metadata = {attrs.get("property", attrs.get("name")): attrs.get("content")
+                    for tag, attrs in self.page.elements if tag == "meta"}
+        for key in ("description", "og:description", "twitter:description"):
+            with self.subTest(metadata=key):
+                for required in ("30 September 2026", "C280", "2026-09-30T12:54:17Z",
+                                 "Not peer reviewed", "order 18 remains open"):
+                    self.assertIn(required.lower(), metadata[key].lower())
+
+    def test_structural_and_count_coverage_boundaries(self):
+        for required in ("31 dual-positive or 13 longest-cycle cases, not solved cases",
+                         "column positivity is not imposed on the latter",
+                         "same projected two-plex", "Different-projection pairs",
+                         "72,474,624 labelled first transversals",
+                         "18,118,656 free-four representatives, not main classes",
+                         "Only 18 selected supports / 9,216 labelled firsts",
+                         "138,468 liftable supports remain unexcluded by those packages",
+                         "not every local radius or mate payload or fresh historical DRAT replay",
+                         "1,703 represented classes", "1,450,956 at order 40"):
+            with self.subTest(boundary=required):
+                self.assertIn(required, self.source)
+
+    def test_current_facades_point_to_same_snapshot(self):
+        for filename in ("README.md", "EVIDENCE_STATUS.md", "REPRODUCIBILITY.md",
+                         "WEBSITE.md", "REVIEW_TASKS.md"):
+            with self.subTest(file=filename):
+                source = (ROOT / filename).read_text()
+                self.assertIn("2026-09-30T12:54:17Z", source)
+                self.assertIn("C280", source)
+                self.assertIn("manuscript/candidates/2026-09-30_research_review/", source)
+                self.assertNotIn("/Users/", source)
+                self.assertNotIn("/home/", source)
+        for filename in ("README.md", "REPRODUCIBILITY.md"):
+            with self.subTest(commands=filename):
+                source = (ROOT / filename).read_text()
+                self.assertIn("tools/check_current_snapshot.py", source)
+                self.assertIn("audit_new_results.py", source)
+                self.assertIn("--with-cpp", source)
+        reproduction = (ROOT / "REPRODUCIBILITY.md").read_text()
+        self.assertIn("--compare manuscript/candidates/2026-09-30_research_review/results/portable_audit.json",
+                      reproduction)
 
     def test_preview_and_review_entry_points(self):
         metadata = {attrs.get("property", attrs.get("name")): attrs.get("content")

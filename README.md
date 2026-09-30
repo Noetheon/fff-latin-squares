@@ -9,26 +9,27 @@ length greater than one in any of the row, column and symbol views (FFF).
 ## Read the dossier
 
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
-- [Compact reading version (38-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
-- [Full technical record (80-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Current editable sources and bounded audit](manuscript/candidates/2026-09-28_audit_corrections/README.md)
+- [Compact reading version (42-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
+- [Full technical record (88-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
+- [Current editable sources and bounded audit](manuscript/candidates/2026-09-30_research_review/README.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
 - [Reproducibility and export limitations](REPRODUCIBILITY.md)
-- [28 September release scope and checks](verification/RELEASE_2026-09-28.md)
-- [Audit corrections and fresh verification](verification/RELEASE_2026-09-28_CORRECTIONS.md)
+- [30 September release scope and checks](verification/RELEASE_2026-09-30.md)
+- [Historical 28 September release](verification/RELEASE_2026-09-28.md)
+- [Historical audit corrections](verification/RELEASE_2026-09-28_CORRECTIONS.md)
 
 Read the disclosure at the beginning of either PDF before relying on its claims.
 The two versions overlap; they are not two independent studies.
 
-**Current edition: audit-corrected 28 September 2026 successor; scientific
-intake remains frozen at 10:24:49 UTC through C271.**
+**Current edition: 30 September 2026 snapshot; scientific intake is frozen at
+2026-09-30T12:54:17Z through C280 and the completed binary-first-orbit companion.**
 This is a public research snapshot for critical examination, not a peer-reviewed
 article. The earlier September edition is retained as history; its open-C38 and
 open-order-12 wording is superseded. Subsequent working results are outside this
 edition's reviewed scope.
-The correction adds a missing introductory hypothesis, makes the stronger
-existing family bounds explicit, and hardens the numerical audit against false
-passes. It does not introduce new research claims or human peer review.
+The new structural proofs and bounded finite checks do not establish external
+expert review or decide order 18. Historical DRAT traces are not freshly rerun
+by the public snapshot checks.
 
 ## Start with one table
 
@@ -68,6 +69,21 @@ is the shared starting point for focused feedback.
   explicit fixed-remainder noncontraction obstruction. Its large-prime FFF
   existence corollary depends on a published character-sum estimate; unique
   intercalate squares were already studied in the literature. No priority is claimed.
+- Near-type triangles (one 4-cycle and otherwise 2-cycles on each pair)
+  force an odd companion-view cycle at orders
+  `n >= 6`, `n = 2 (mod 4)`, using an explicit finite core premise. For FFF18,
+  the 31 dual-positive and 13 longest-cycle anchor cases are alternative
+  normalizations, not solved cases; the latter does not impose column positivity.
+- For arbitrary binary-fibre Latin bases, component parity exactly characterizes
+  simple two-plex transversal lifts and their count. Standard double prolongation
+  along disjoint transversals with the same projected two-plex is non-FFF;
+  different-projection pairs are outside that obstruction.
+- For one fixed FFF16 base, the complete count is **72,474,624 labelled first
+  transversals / 18,118,656 free-four representatives**, not main classes or
+  complete mate coverage. Only **18 selected supports / 9,216 labelled firsts**
+  have complete arbitrary-mate exclusions; **138,468 liftable supports remain
+  unexcluded** by those packages. The long dossier also records scoped
+  homogeneous-line, mixed-core and local trade-radius results.
 - Census completeness and the primitive-group classification are cited external
   dependencies. Same-binary decompositions are not independent implementations.
 - A timeout or partial SAT table is never evidence of a complete exclusion or
@@ -95,8 +111,11 @@ python3 -B -m unittest discover -s tests -v
 
 These checks verify the public bytes, cross-check historical numerical records,
 and freshly rerun the current edition's bounded controls. They do not rerun the
-large order-10 searches or historical UNSAT proof checkers. Additional finite
-reruns are documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+large order-10 searches or historical UNSAT proof checkers. The snapshot checker
+also invokes `audit_new_results.py` from the current source package. It binds
+nine exact payloads and includes 131,088 small binary twists and 33,984 selected
+same-projection pair controls. The opt-in `--with-cpp` complete first-count
+recount and comparison rules are documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 ## Distribution scope
 
@@ -104,17 +123,19 @@ This is a curated public edition, not the complete working archive. It contains 
 inherited development history or correspondence. Historical source/result paths
 are preserved where useful for traceability; selected machine-local strings are
 privacy-projected. `PUBLIC_PROJECTION.json` records byte-identical and projected
-files from the original export. `PUBLIC_SNAPSHOT_2026-09-28.json` separately
-records the frozen C271 inputs, sources and privacy projections.
-`PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json` records this successor and explicitly
-reconciles the two superseded PDF aliases; both preceding receipts remain intact.
+files from the original export. `PUBLIC_SNAPSHOT_2026-09-30.json` records the
+current C280 snapshot and PDF-alias succession. The frozen C271 receipt
+`PUBLIC_SNAPSHOT_2026-09-28.json` and its audit-correction successor
+`PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json` remain unchanged, as do earlier receipts.
 `PUBLIC_MANIFEST.sha256` hashes the actual public files. Historical hashes
 inside a report still identify historical bytes, not necessarily the projected
 file beside it. Do not use those historical hashes as the public manifest.
 
 Large generated graphs, checkpoint trees, third-party census archives, solver
-binaries and software environments are not shipped. A complete persistent public
-data deposit remains outstanding. This repository is publicly readable, but is
+binaries and software environments are not shipped. The new portable checker
+covers finite proof premises, but not every local radius or arbitrary-mate payload.
+A complete persistent public data deposit remains outstanding. This repository
+is publicly readable, but is
 not advertised as a fully self-contained research archive or as open-source
 licensed software. [Rights remain reserved](RIGHTS.md) pending a separate decision.
 

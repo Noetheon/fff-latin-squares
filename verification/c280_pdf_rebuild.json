@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "published_bytes_verified": true,
+  "candidate_only": false,
+  "variants": [
+    {
+      "variant": "long",
+      "sha256": "4b3b4b92832e036e37639f16170576887e2a6b69c6b8b20c683bc9046c268a2f",
+      "pages": 88,
+      "byte_identical": true,
+      "warnings": []
+    },
+    {
+      "variant": "compact",
+      "sha256": "0193d0439cb7269037f4e860ce3a5c808abfa0b7a0c87597d1a0d5e9276ee533",
+      "pages": 42,
+      "byte_identical": true,
+      "warnings": []
+    }
+  ],
+  "mathematical_verification": false
+}

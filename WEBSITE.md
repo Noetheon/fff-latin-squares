@@ -5,6 +5,24 @@ English-language interface to the same research dossier. It works by opening
 `index.html` locally or through GitHub Pages, with no build step, JavaScript,
 third-party fonts, external scripts or analytics.
 
+## Paper Update: 30 September 2026
+
+The current edition has a **42-page compact** and **88-page long** dossier,
+with intake frozen at **2026-09-30T12:54:17Z**, through C280 and the completed
+binary-first-orbit companion. See the [current source package](manuscript/candidates/2026-09-30_research_review/README.md)
+and [release scope and checks](verification/RELEASE_2026-09-30.md).
+
+The site now includes the near-type triangle obstruction, alternative anchor
+normal forms and binary two-plex lift/count theorem. The fixed-base count of
+72,474,624 labelled firsts / 18,118,656 free-four representatives is not complete
+mate coverage: only 18 selected supports are excluded, with 138,468 liftable
+supports still unexcluded by those packages. The 1,703 / 1,450,956 constructed-class
+lower bounds are unchanged. Order 18 remains open; no external review is claimed.
+
+This is a content update, not a layout or stylesheet change. The dated sections
+below describe earlier editions and design history, not the current cutoff.
+Frozen receipts and historical verification records remain unchanged.
+
 ## Paper Update: 28 September 2026
 
 The current PDFs and all four page previews use the audit-corrected C271 edition:
@@ -87,14 +105,16 @@ The default standard-library checks remain:
 
 ```sh
 python3 -B tools/verify_public_release.py
+python3 -B tests/test_site.py
 python3 -B -m unittest discover -s tests -v
 python3 -B tools/check_theorem_records.py --output .audit/website-theorem-records
 git diff --check
 ```
 
 The website tests verify relative resources and anchors, PDF read/download links,
-English document semantics, absence of an external runtime, and retained evidence
-boundaries. Browser QA additionally checks eight widths from 320 to 1920 pixels,
+English document semantics, absence of an external runtime, current edition
+metadata, and retained count-versus-coverage boundaries. Historical browser QA
+additionally checked eight widths from 320 to 1920 pixels,
 overflow, rendered images, navigation, keyboard disclosure controls, the skip
 link and operation with JavaScript disabled. The browser observations are saved
 separately in

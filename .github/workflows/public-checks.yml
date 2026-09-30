@@ -29,3 +29,8 @@ jobs:
       - run: >-
           python3 -B verification/audits/2026-09-28_dossier_hardened/scripts/reproduce_all.py
           --work-dir .audit/external-finite-audit
+      - run: >-
+          python3 -B manuscript/candidates/2026-09-30_research_review/scripts/audit_new_results.py
+          --with-cpp
+          --compare manuscript/candidates/2026-09-30_research_review/results/portable_audit.json
+          --output .audit/binary-first-count.json

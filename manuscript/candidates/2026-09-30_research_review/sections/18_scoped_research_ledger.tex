@@ -1,0 +1,176 @@
+\section{Further finite structural results and local search boundaries}
+\label{sec:september30-ledger}
+
+This section records completed results at the fixed intake, not progress
+towards a known total number of unrestricted order-$18$ cases. The
+finite prerequisites below are supplied as executable certificates.
+Historical solver exclusions are distinguished from fresh finite replays.
+
+\begin{corollary}[Homogeneous near-type families]
+\label{cor:near-six-bound}
+For $n\geq6$, $n\equiv2\pmod4$, a permutation family with all distinct
+relative types $\lambda_n$ has at most six members. The bound is sharp
+at six. At order eighteen the maximum is exactly four.
+\end{corollary}
+\begin{proof}
+Normalize two members to $\mathrm{id},A$ and fix the four-point support
+$S$ of $A$'s four-cycle. By Theorem~\ref{thm:near-core}, any other
+member preserves a six-point component containing $S$, so sends at
+most two of its points outside $S$. For a family of size $k$, its
+images at each point are distinct. Consequently
+$4(k-4)\leq2(k-2)$, hence $k\leq6$.
+The following Latin6 table attains six:
+\[
+\begin{pmatrix}
+0&1&2&3&4&5\\1&2&3&0&5&4\\2&0&4&5&1&3\\
+3&4&5&1&0&2\\4&5&0&2&3&1\\5&3&1&4&2&0
+\end{pmatrix}.
+\]
+This control has pattern FTF, not FFF.
+
+At eighteen the complete third-line domain has
+$7\cdot16\cdot15\cdot2^3=13440$ members: choose the transposition
+pair which joins $S$, a six-point template, a pairing of the remaining
+six transposition pairs, and their two transverse orientations.
+Root-centralizing conjugations partition it into two orbits of size
+$6720$. For each representative exactly $39$ of all $13440$ possible
+fourth lines are compatible, and each has the same exceptional core.
+The independent physical-matching checker verifies this complete
+finite common-core premise, not just sample neighbors.
+
+If $k\geq5$, every member therefore preserves one six-point core
+and its twelve-point complement. Each normalized nonidentity core
+restriction has type $4+2$, hence positive sign. Every relative core
+restriction is fixed-point-free, has only even-length cycles, and has
+positive sign; therefore its type is $4+2$. On the complement all relatives are
+fixed-point-free involutions. The normalized restrictions consequently
+commute and generate an elementary abelian $2$-group. Each orbit
+contains the $k$ distinct images of any one point, so its power-of-two
+size is at least eight. Twelve cannot be a sum of such orbit sizes.
+Thus $k\leq4$. For sharpness take the first four rows of the displayed
+table and adjoin three four-point blocks on which row $i$ acts as
+$x\mapsto x\mathbin{\mathrm{xor}}i$, $0\leq i<4$.
+This is a Latin rectangle, not an FFF18 table.
+\end{proof}
+
+The four-line bound applies to any Latin square in each physical view.
+Under full FFF, Theorem~\ref{thm:near-triangle} is stronger: already
+three pairwise near lines are impossible. An exact one-view diamond
+spectrum is retained in the certificate, but its five-near-edge
+antecedent is therefore not a surviving FFF search branch.
+
+\begin{computationaltheorem}[A conditional mixed-core family]
+\label{thm:mixed-core}
+Let $n=6+4t$, $t\geq0$, and fix a fixed-point-free involution $A$.
+The permutations $B$ with types
+\[
+ B:4+2^{(n-4)/2},\qquad A^{-1}B:6+2^{(n-6)/2}
+\]
+have one six-point component and $t$ four-point components. They form
+one orbit under the centralizer of $A$, with
+\[
+ \binom{3+2t}{3}\,24(2t-1)!!\,2^t
+\]
+members and stabilizer order $2\cdot4^t t!$, where $(-1)!!=1$.
+Their three-row rectangles have no already-closed odd companion cycle.
+\end{computationaltheorem}
+\begin{proof}
+Use the three-matching component inequality from
+Theorem~\ref{thm:near-core}, now counting deficit from involutions.
+The four-cycle contributes one and the six-cycle two. They cannot
+occur in different components: the product of two fixed-point-free
+involutions has paired equal-length cycles and cannot contain the
+isolated exceptional cycle. For a component of size $d$ and total
+cycle deficit $\delta$, the inequality and sign identity give
+\[
+d\leq2\delta+4,\qquad \delta\equiv d/2\pmod2,\qquad d\geq4\text{ even}.
+\]
+Thus the component with deficit three has size six or ten; components
+with deficit zero have size four. A connected ten-point component,
+if present, would restrict to a candidate in the complete enumeration below.
+
+At degree ten a complete forward enumeration of $18900$ near
+permutations and a separate reverse enumeration of $75600$
+single-six-cycle permutations give exactly the same $480$ candidates.
+All have component sizes $6+4$. At degree six there are exactly
+$24$ candidates, one orbit of the $48$-element matching centralizer.
+These finite premises are explicitly replayed in the package.
+
+Choose three of $A$'s $3+2t$ pairs for the exceptional core, one
+of the $24$ local templates, and a pairing of the other $2t$ pairs
+into four-point blocks, each with two orientations. This is unique
+and exhaustive. The centralizer transports all choices to one another;
+its local stabilizers have orders two and four, with the $t$ ordinary
+blocks freely permutable. This proves the count and stabilizer.
+
+All $24$ six-point cores and both ordinary four-point blocks have
+no closed odd column or symbol cycle, as checked by direct physical
+matchings. For a pair across two distinct components, each specified
+arrow runs from one disjoint component to the other and cannot close.
+Thus their union has no already-closed odd companion cycle.
+\end{proof}
+
+At eighteen the count is $241920$ and the stabilizer order is $768$.
+This gives a canonical prefix only \emph{if} a square contains the
+specified triple; it does not force its occurrence or prove completion.
+Its involutive second row is negative and cannot be combined with the
+positive-anchor normalizations in Corollary~\ref{cor:nonnear-anchors}.
+A retained clean $12\times18$ rectangle has a proof-checked exclusion
+of extension to thirteen rows with all twelve rows fixed. This is a
+dead leaf, not an exclusion of the three-row family. Relaxed and full
+completion pilots time out. No clean thirteen-row extension or FFF18
+square is established by this intake.
+
+\subsection{Reusable first-touch argument and numerical applications}
+\begin{lemma}[First-touch support bound]
+Fix a labelled Latin table and a collection of its odd-cycle cell
+supports. During a sequence of two-line cycle-union trades, a support
+which is touched for the first time must meet one of the two selected
+view-tagged line labels $(\text{view},\text{label})$, evaluated on the original
+support. If every possible set of the at most $2k$ selected line
+labels leaves an original support uncovered, $k$ such trades cannot
+reach FFF.
+\end{lemma}
+\begin{proof}
+Before its first touch every cell and entry of the support is unchanged.
+A row or column trade affects only its two chosen rows or columns.
+A symbol trade affects only occurrences of its two selected symbols;
+on the untouched support these are still the original symbols.
+Therefore the first touch is incident with one of the corresponding
+original labels. A support missed by every selected label is never
+touched, so all arrows of its original odd cycle persist. This argument
+allows adaptive trades in mixed views and overlapping changed regions.
+\end{proof}
+
+For one frozen FTF18 source, thirty-six pairwise disjoint column
+three-cycle supports are retained. Each row or symbol label meets
+six, and each column label four. Exhausting all $\binom{36}{6}=1947792$
+six-label row/symbol selections gives maximum coverage $33$, by two
+independent incidence calculations. Three moves including a column
+move cover at most $4\cdot6+2\cdot4=32$. Hence at most three moves
+cannot make even its column view F: distance is \emph{at least four},
+not exactly four. A static four-move support cover is not a valid
+trade sequence or a construction.
+
+Two further retained applications concern precisely the $12513$ odd
+translation-equivariant $\mathbb F_{17}$ complete-mapping one-point
+tables, not all order-$18$ squares. Their unchanged-line vertex-cover
+bounds exclude up to six intercalate trades from every source, and
+up to seven from $9537$ of them. A separate one-step argument excludes
+every proper two-line cycle-union trade: the residual affine F-view
+domain has $8160$ moves and $7599$ distinct labelled outputs, none FFF.
+The reported minimum of $64$ failing pairs pertains only to those
+enumerated outputs, not to every source ruled out by the reduction.
+These are bounded negative applications; neither more general moves
+nor other starting families are excluded.
+
+\paragraph{Verification and open complement.}
+The new palette, mixed-core and lift results have fresh finite replays.
+The retained source-specific trade-radius computations have fresh
+rechecks in the private research checkpoint; the public numerical
+ledger labels their original source and coverage rather than presenting
+them as new global theorems. The historical DRAT leaf above is not
+freshly recertified by the portable paper checker. Timeouts, necessary
+conditions, and complete counts without mate coverage do not decide
+unrestricted order $18$. Literature priority and independent expert
+review remain separate, uncompleted tasks.

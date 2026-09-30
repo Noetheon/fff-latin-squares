@@ -1,6 +1,7 @@
 # Evidence Status
 
-Edition cutoff: 28 September 2026, 10:24:49 UTC, through C271.
+Edition cutoff: 30 September 2026, **2026-09-30T12:54:17Z**, through C280
+and the completed binary-first-orbit companion.
 These are classifications in the research record,
 not independent referee endorsements.
 
@@ -18,6 +19,12 @@ not independent referee endorsements.
 | C252/C269: enlarged represented family | Fresh exact dual-scanner validation, exact spectrum separation and 1703 rank-58 minors | Lower bounds 1703 at order 20 and 1450956 at order 40; not complete censuses. This fixed-family route needs no C157. |
 | C260/C262-C264: block returns, common-fibre CRT and ansatz boundaries | Written proofs, internal adversarial audit and 91134 compact return checks | 364536 separated physical probes; shared field arithmetic is disclosed. No enormous full-table scan or optimal threshold claim. |
 | C269-C271: corner trade, unique intercalate and noncontraction | Written three-view proof; 253 pattern and 216 generic domain/intercalate controls | Analytic FFF existence at large primes uses the cited Katz estimate; no new order-18 decision or established novelty. |
+| C272-C274: local trade-radius exclusions | Unchanged-line and first-touch proofs plus source-specific finite checks | Only the stated odd order-17 complete-mapping sources and one frozen FTF18 table, in specified move metrics. Lower bounds are not exact distances or global exclusions; not all local payloads are shipped. |
+| C275-C277: homogeneous-line bounds and cross-view triangle obstruction | Written deductions with complete finite core/orbit premises | For `n >= 6`, `n = 2 (mod 4)`, a triangle of pair type `4+2^((n-4)/2)` in one view forces a companion-view odd cycle. No near pair or triangle is forced in a hypothetical FFF18 square. |
+| C278: non-near anchor normal forms | Written lossless normalization plus exact partition counts | 31 dual-positive cases, or 13 longest-cycle cases without column positivity. These are alternatives, not solved cases or jointly imposed constraints. |
+| C279: mixed-core orbit/count theorem | Conditional structural proof and complete bounded finite premises | The specified triple has one six-point core and four-point components; 241920 third permutations at order 18. Neither occurrence nor an FFF completion is asserted; a fixed-leaf exclusion remains local. |
+| C280: binary-fibre two-plex lift/count and same-projection obstruction | General component-parity/rank proof; 131088 small twists and 33984 selected pair controls | Arbitrary Latin quotient of order `q >= 2` and binary offsets; standard double prolongation of disjoint same-projection transversals is non-FFF. Different-projection pairs are outside the obstruction, not ruled out by it. |
+| C280 companion: complete first-transversal count for one fixed FFF16 base | Exact quotient enumeration and separately implemented recount | 181768 simple two-plexes, 138486 liftable; 72474624 labelled firsts / 18118656 free-four representatives, not main classes. Only 18 supports / 9216 labelled firsts have arbitrary-mate exclusions; 138468 liftable supports remain unexcluded by those packages. |
 | C221/C225/C235/C251 and the five-cell conflict | Restricted-family proofs and historical finite/certificate records | None excludes all order-18 squares. The new public audit does not rerun these historical solver/certificate checks. |
 | Unrestricted order 18 and the complete order spectrum | Open | Timeouts, construction-specific exclusions and partial tables do not decide them. |
 | Historical partial SAT models and timeouts | Diagnostic evidence only | They do not establish an FFF example or complete nonexistence. |
@@ -30,8 +37,12 @@ The compact PDF is a reading aid with a smaller theorem set. Consult the long
 dossier for the order-10 reduction and computational evidence. No mathematical
 claim is established merely by public hosting. This edition incorporates later
 proof text and finite evidence, with a fresh, bounded audit described in the
-[current source package](manuscript/candidates/2026-09-28_audit_corrections/README.md).
+[current source package](manuscript/candidates/2026-09-30_research_review/README.md).
 The initial September edition and frozen historical outputs are not rewritten.
+The new public finite checker covers general proof premises, not all source-local
+radius reports or arbitrary-mate certificates. A complete first count is not
+complete mate coverage. No fresh historical DRAT replay or external human review
+is claimed by these snapshot checks.
 
 ## Outstanding work
 

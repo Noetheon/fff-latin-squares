@@ -1,0 +1,69 @@
+{
+  "scope": "Explicit portable finite-check inputs; not the entire private research archive",
+  "files": [
+    {
+      "source": "repro_runs/2026-09-29_fff18_near_palette_four_line/scripts/independent_core_check.py",
+      "payload": "checkers/near_independent.py",
+      "bytes": 43366,
+      "sha256": "0b150b7f006c6c01545fec469b3ef9191c080c0063419d60cd66670344f4b911",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-29_fff18_near_palette_four_line/results/core_certificate.json",
+      "payload": "data/near_core_certificate.json",
+      "bytes": 27058,
+      "sha256": "96f3389595b971cb905cd0f3386475d3a49ecdf761364c07b6f760d4f95710ee",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-29_fff18_near_palette_four_line/results/triangle_crossview_certificate.json",
+      "payload": "data/near_triangle_certificate.json",
+      "bytes": 39395,
+      "sha256": "0fcbcd766b9399dd8589a36ad150e556dffebdcb4e40050cbac5f5f79e829e0b",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-30_fff18_mixed_core_completion/scripts/independent_mixed_core.py",
+      "payload": "checkers/mixed_independent.py",
+      "bytes": 17710,
+      "sha256": "57f7352bf4821806db649be0293c32b5438e66fb66c2c613937d2057d28ac1b7",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-30_fff18_mixed_core_completion/results/mixed_core_certificate.json",
+      "payload": "data/mixed_certificate.json",
+      "bytes": 77376,
+      "sha256": "6d93f66c537c1db6c8c2eeaee9413d1a90f5ccdf92a1af5469e31c8835245fe2",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-30_fff18_two_plex_voltage_lifts/scripts/independent_check.py",
+      "payload": "checkers/two_plex_independent.py",
+      "bytes": 29638,
+      "sha256": "8995220b54cce7a35fc8e9fddd6800d28da5c918ad5c1b340decc88cc1255171",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-30_fff18_two_plex_voltage_lifts/results/voltage_lifts.json",
+      "payload": "data/two_plex_certificate.json",
+      "bytes": 1815201,
+      "sha256": "b33aeb189398650d5d17ce312c803191a72b1281a4e665d62214bcfbe4cd9b7d",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-30_fff18_complete_binary_first_orbits/scripts/independent_count.cpp",
+      "payload": "checkers/independent_count.cpp",
+      "bytes": 14545,
+      "sha256": "d91ba5d95ad0e8be75a99f4acf66d8b8b49dd7668dc4a260db516b1f23321e14",
+      "byte_identical": true
+    },
+    {
+      "source": "repro_runs/2026-09-25_fff18_nongroup16_c190_targeted_pilot/results/selected_fff16_base.json",
+      "payload": "data/source21_base.json",
+      "bytes": 3182,
+      "sha256": "a002d1e82b936e332c710c0b85cf709010ef88572992ffb1dd723ce6de42e1e6",
+      "byte_identical": true
+    }
+  ],
+  "adaptation": "Checkers copied unchanged; the dated audit wrapper calls pure functions, not their original path-dependent CLIs."
+}

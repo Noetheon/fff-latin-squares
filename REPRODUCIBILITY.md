@@ -1,5 +1,8 @@
 # Reproducibility of This Public Export
 
+Current intake: **2026-09-30T12:54:17Z**, through C280 and the completed
+binary-first-orbit companion. Later working campaigns are outside this snapshot.
+
 ## Supported portable checks
 
 For a first, bounded check of one explicit table and a negative control, start
@@ -21,7 +24,8 @@ isolated output directory. It reports mathematical count/status comparisons
 separately from the deliberately incomplete historical package-layout checks.
 It is a consistency audit of records, not a fresh proof of all theorems.
 
-The current-snapshot checker freshly checks explicit FFF12/14/36/98 tables
+The current-snapshot checker retains the preceding edition's fresh checks of
+explicit FFF12/14/36/98 tables
 using two algorithms, all eight order-8 pattern controls, 672 coloring truth
 tables, 16 fibred controls, 253 affine parameters, all 1024 masks of the selected
 order-20 trade family, exact affine-group/Burnside counts through dimension four,
@@ -31,13 +35,48 @@ order-20 representatives and rank minors, checks both FFF12 block-return control
 separated coefficient/slope probes. The CRT arithmetic and form enumerator are
 shared dependencies, not a wholly independent implementation.
 
-Every scientific result must equal the frozen reference. The comparison report
-explicitly names ignored fields: elapsed_seconds for the first two reports,
+Every scientific result must equal the frozen reference. For the inherited
+checks, the comparison report explicitly names ignored fields:
+elapsed_seconds for the first two reports,
 runtime_seconds for CRT, and the two capture-inventory fields that differ because
 the public subset is narrower. Actual public source hashes are checked afresh;
 no count, spectrum, certificate, pattern or status is normalized away.
 The audit does not call external solvers or access the network. It is not a proof
 assistant or a complete order spectrum. Its source and input hashes are public.
+
+The same default snapshot command also invokes the new portable
+`audit_new_results.py` checker. It verifies exactly nine hash-bound payloads
+and freshly checks the near-type core/triangle premises, alternative 31/13 anchor
+counts, mixed-core finite domains, **131,088 small binary twists** and **33,984
+selected same-projection pair controls**. Its serialized `scientific` object
+must agree exactly with the frozen reference. Only per-twist timings at
+`two_plex.full_twist_census_checked[*].seconds` are removed before comparison;
+object-key order and tuple/array representation are normalized. No mathematical
+count, witness, status or scope flag is ignored. Runtime/provenance metadata is
+reported separately from the scientific comparison.
+
+The complete fixed-base first-transversal recount is opt-in and needs a C++17
+compiler available as `c++`. This command reruns just the new finite checks plus
+that recount; omit `--with-cpp` to replay only the new Python checks:
+
+```sh
+python3 -B manuscript/candidates/2026-09-30_research_review/scripts/audit_new_results.py \
+  --with-cpp \
+  --compare manuscript/candidates/2026-09-30_research_review/results/portable_audit.json \
+  --output .audit/new-results-with-cpp.json
+```
+
+Use fresh output paths. The temporary binary is deleted after the run. Requested
+C++ checks must finish and match all four totals: 181,768 simple two-plexes,
+138,486 liftable supports, 72,474,624 labelled first transversals and 18,118,656
+free-four representatives. Without `--with-cpp`, the report explicitly marks the
+recount as not rerun. This is a complete first count, not complete mate coverage:
+only 18 selected supports / 9,216 labelled firsts have separate arbitrary-mate
+exclusions; 138,468 liftable supports remain unexcluded by those packages.
+The portable checker does not ship or replay all local radius/mate payloads,
+historical DRAT traces, or an unrestricted FFF18 search. See the
+[new source README](manuscript/candidates/2026-09-30_research_review/README.md)
+for the exact commands and evidence boundary.
 
 ## Hardened external audit derivative
 
@@ -84,7 +123,8 @@ Some write into their run folders. Do not run them in place on frozen evidence.
 ## PDFs
 
 The current build uses only the dated
-[28 September corrected sources](manuscript/candidates/2026-09-28_audit_corrections/README.md).
+[30 September sources](manuscript/candidates/2026-09-30_research_review/README.md):
+42 compact and 88 long pages.
 The original `manuscript/main.tex` and `main_core.tex` are historical September
 sources, not the entry points for the current PDFs. Do not rebuild them and
 label their open-C38 narrative current.
@@ -92,7 +132,8 @@ label their open-C38 narrative current.
 With a local TeX Live installation providing `latexmk`, `pdflatex` and BibTeX:
 
 ```sh
-python3 -B tools/build_pdfs.py --output .audit/pdf-rebuild
+python3 -B manuscript/candidates/2026-09-30_research_review/scripts/build_pdfs.py \
+  --output .audit/pdf-rebuild
 ```
 
 The script uses no shell escape and builds in scratch directories. It compares
@@ -101,6 +142,13 @@ recorded TeX Live 2026 toolchain; another TeX distribution may produce a byte dr
 without changing mathematical content. Such a drift is a failure of byte identity,
 not silently normalized as success. No build log containing a local path is part
 of the public export. The release PDFs were visually inspected separately.
+
+Optional metadata checks use `tools/verify_public_release.py --pdf-metadata`
+with Poppler `pdfinfo` and `pdfdetach`. An alternative is
+`python3 -B tools/check_pdf_metadata.py --output .audit/pdf-metadata.json`,
+which requires `pypdf` outside the default standard-library audit environment.
+The release used pypdf 6.10.0 and separately checked text for personal identifiers.
+Neither metadata check is a mathematical proof check or a general PDF security audit.
 
 ## Privacy projection and hashes
 
@@ -114,8 +162,11 @@ mathematical strings such as cycle types and permutations are not translated.
 `PUBLIC_PROJECTION.json` records source-file and public-file hashes and whether
 bytes agree for the initial export. `PUBLIC_SNAPSHOT_2026-09-28.json` records the
 frozen C271 edition. `PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json` names its public
-base commit, unchanged scientific cutoff, new source hashes and the exact old/new
-digests of the two PDF aliases. Earlier receipts remain unchanged. No historical
+base commit, unchanged C271 scientific cutoff, new source hashes and the exact old/new
+digests of the two PDF aliases. `PUBLIC_SNAPSHOT_2026-09-30.json` records the
+current C280 intake and its PDF-alias succession; the corresponding release
+record is [RELEASE_2026-09-30.md](verification/RELEASE_2026-09-30.md).
+Earlier receipts remain unchanged. No historical
 digest is silently replaced and no private development history is imported. Historical output
 records can refer to omitted dependencies or historical hashes. The authoritative
 manifest for this release is `PUBLIC_MANIFEST.sha256`, not an old embedded digest.

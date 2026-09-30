@@ -1,0 +1,147 @@
+\section{Binary-fibre transversals and equal-projection obstruction}
+\label{sec:binary-transversals}
+
+Let $Q:A\times C\to S$ be any Latin square of order $q$, and let
+$h:A\times C\to\mathbb F_2$ be arbitrary. The table
+\[
+ B((a,x),(b,y))=(Q(a,b),x+y+h(a,b))
+\]
+is Latin of order $2q$. All bit arithmetic is in $\mathbb F_2$.
+These are fibres of size two over an order-$q$
+quotient, not an assumed quotient onto an order-two square.
+A \emph{simple two-plex} $P$ is a set of $2q$ distinct quotient
+cells, meeting each quotient row, column and symbol twice.
+
+Every physical transversal of $B$ projects to such a $P$.
+Indeed, a repeated quotient cell would use opposite row bits and
+opposite column bits, hence equal symbol bits, repeating a physical
+symbol. On the cells of $P$ form three perfect matchings by equal
+quotient row, column and symbol. They are edge-disjoint by Latinness.
+Let $G_P$ be their union and let $c(P)$ be its number of components.
+For $e=(a,b,Q(a,b))$ write $h_e=h(a,b)$.
+Each matching restricts to a perfect matching on every component,
+whose number of vertices is therefore even.
+
+\begin{theorem}[Component-parity lift criterion and exact count]
+\label{thm:binary-lift-count}
+The simple two-plex $P$ lifts to a physical transversal of $B$ if and
+only if, for every component $K$ of $G_P$,
+\[
+ \sum_{e\in V(K)}h_e=|V(K)|/2\pmod2.
+\]
+If consistent, it has exactly $2^{q+c(P)}$ distinct labelled lifts.
+\end{theorem}
+\begin{proof}
+For each selected cell $e=(a,b,Q(a,b))$, choose row and column bits
+$x_e,y_e$, and set $z_e=x_e+y_e+h_e$. The transversal equations are
+\[
+\begin{aligned}
+ x_e+x_f&=1 &&\text{on a row edge},\\
+ y_e+y_f&=1 &&\text{on a column edge},\\
+ x_e+x_f+y_e+y_f&=1+h_e+h_f &&\text{on a symbol edge}.
+\end{aligned}
+\]
+Summing within a component cancels all variables and gives exactly
+the displayed parity condition.
+
+There are $4q$ variables and $3q$ equations. A linear dependency with
+coefficients $u_a,v_b,w_s$ requires $u_a=w_s=v_b$ at each selected
+cell. Equality propagates over the three matchings, so a dependency
+is precisely a choice of one constant per connected component.
+The left kernel therefore has dimension $c(P)$ and the matrix has
+rank $3q-c(P)$. The component conditions test a basis of that left
+kernel, so they are sufficient as well as necessary. The solution
+space has dimension $q+c(P)$. Distinct solutions give distinct
+physical transversals, and every transversal supplies one solution.
+Independent bit relabelling of any quotient row, column or symbol
+adds twice to each component sum, so the criterion is label-invariant.
+\end{proof}
+
+Standard double prolongation along two disjoint transversals $T_0,T_1$
+replaces each selected triple $(r,c,s)\in T_t$ by
+$(r,c,N_t),(r,N_t,s),(N_t,c,s)$ and fills the new $2\times2$ corner
+with either Latin order-two table.
+
+\begin{theorem}[Equal-projection obstruction in three views]
+\label{thm:same-projection-obstruction}
+For every Latin $Q$ of order $q\geq2$ and every $h$, a standard double
+prolongation of $B$ along disjoint transversals with the same simple
+two-plex projection is not FFF, for either corner.
+No FFF hypothesis on $Q$ or $B$ is needed.
+\end{theorem}
+\begin{proof}
+At each projected cell compare the two lifts and put
+$d_x=x'_e+x_e$, $d_y=y'_e+y_e$, $d_z=z'_e+z_e=d_x+d_y$.
+The transversal equations make $d_x$ constant on row-matching edges,
+$d_y$ on column edges, and $d_z$ on symbol edges.
+Disjointness forbids $d_x=d_y=0$.
+
+Suppose $d_x=0$ on one quotient row. Write its physical rows as
+$r,r^*$ and let $\beta$ interchange the two columns of every column
+fibre. If $T_0$ selects columns $u,v$ in $r,r^*$, then $T_1$ selects
+$\beta(u),\beta(v)$ there. The two $\beta$-orbits are distinct.
+Originally the induced row permutation is $\beta$. After prolongation
+its arrows contain
+\[
+ u\longmapsto v\longmapsto N_1\longmapsto u,\qquad
+ \beta(u)\longmapsto\beta(v)\longmapsto N_0
+       \longmapsto\beta(u).
+\]
+These follow directly by matching the replaced symbols and the displaced
+old entries; other column fibres stay transpositions. The exact pair
+type is $3^2 2^{q-2}$, independently of the corner. Thus row-F requires
+$d_x=1$ on every selected cell.
+
+The triple description of prolongation commutes with permutations
+of row, column and symbol coordinates. Each order-two corner has
+equation $i+j+k=\kappa$ over $\mathbb F_2$ and is likewise symmetric.
+The binary-fibre equation remains of the same form in every view,
+with the transported quotient and the same projected triple set.
+The identical paired-line argument therefore makes column-F require
+$d_y=1$ everywhere and symbol-F require $d_z=1$ everywhere.
+But $d_z=d_x+d_y=0$ if the first two requirements hold. All three
+views cannot be F.
+\end{proof}
+
+\begin{proposition}[Canonical first transversal, arbitrary second]
+\label{prop:free-first-orbits}
+The four global bit autotopies, with $u,v\in\mathbb F_2$,
+$(a,x)\mapsto(a,x+u)$, $(b,y)\mapsto(b,y+v)$,
+$(s,z)\mapsto(s,z+u+v)$ act freely on physical transversals.
+With numeric labels $2a+x,2b+y$, each orbit has exactly one column
+tuple $f$ with $\lfloor f(0)/2\rfloor<\lfloor f(1)/2\rfloor$ and
+$f(0)$ even. Restricting only the first transversal to this form
+loses no standard double-prolongation FFF candidate of the fixed base.
+\end{proposition}
+\begin{proof}
+The transformed tuple is $f'(r)=f(r\mathbin{\mathrm{xor}}u)
+\mathbin{\mathrm{xor}}v$. A nonzero $v$ with $u=0$ changes every
+column. A fixed tuple with $u=1$ would put both physical rows of
+each quotient row in the same quotient column, which a transversal
+cannot do. Thus the action is free. The two quotient columns at
+rows $0,1$ are distinct: a unique $u$ orders them and a unique $v$
+makes the first column even.
+Extend the three coordinate bijections by fixing $N_0,N_1$.
+They transport every replacement triple and fix either corner.
+Once the first is normalized, they bijectively transport all disjoint
+second transversals. The second must remain unrestricted; demanding
+that it too be canonical would need another justification.
+\end{proof}
+
+\paragraph{A count is not mate coverage.}
+For the frozen non-group FFF16 binary-fibre base \texttt{source21 comm}
+in \nolinkurl{evidence/data/source21_base.json}, the complete quotient
+census is $181768$ simple two-plexes, of which $138486$ lift.
+The lift formula gives $72474624$ labelled first transversals and
+$18118656$ representatives under the four autotopies, not main classes.
+An independently implemented count agrees. At this edition's cutoff,
+only $18$ selected supports, comprising $9216$ labelled firsts, have
+separate complete arbitrary-mate exclusions: two previously closed
+supports and sixteen newly checked whole supports.
+The remaining $138468$
+liftable support domains are not excluded by that package.
+Different-projection pairs lie outside
+Theorem~\ref{thm:same-projection-obstruction}. That theorem applies to
+every binary-fibre base satisfying its hypotheses; the finite census
+and arbitrary-mate exclusions above concern only this specified base.
+Unrestricted FFF18 remains open.

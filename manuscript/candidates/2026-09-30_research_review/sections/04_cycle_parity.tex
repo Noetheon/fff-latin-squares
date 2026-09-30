@@ -1,0 +1,55 @@
+\section{A cycle-parity obstruction}
+
+There is a useful necessary condition weaker than FFF.  For a
+fixed-point-free permutation $\pi$ of even degree $n$, let
+\[
+ q(\pi)=\#\{\text{cycles of length }2\pmod 4\}\pmod 2.
+\]
+
+\begin{proposition}[Cycle-parity obstruction]
+\label{prop:q-obstruction}
+If $\pi$ has only even cycles, then
+\[
+ q(\pi)=n/2\pmod 2.
+\]
+Consequently, every FFF Latin square satisfies this identity for every pair
+of lines in all three views.
+\end{proposition}
+
+\begin{proof}
+Write the cycle lengths as $2d_1,\ldots,2d_s$.  Dividing their sum by two
+gives
+\[
+ n/2=d_1+\cdots+d_s\pmod 2.
+\]
+The summand $d_i$ is odd precisely when the corresponding cycle has length
+$2$ modulo $4$.  This proves the identity.  Induced two-line permutations
+are fixed-point-free by Lemma~\ref{lem:fixed-point-free}, so the assertion
+applies independently to every row, column, and symbol pair.
+\end{proof}
+
+Call a square \emph{QQQ} when every line-pair permutation in all three views
+satisfies Proposition~\ref{prop:q-obstruction}.  This is auxiliary notation,
+not a replacement for the failure pattern.  At degree $6$, the
+fixed-point-free partitions are
+\[
+ 6,\quad4+2,\quad3+3,\quad2+2+2.
+\]
+The Q condition rejects exactly $3+3$, so QQQ is equivalent to FFF at order
+$6$.  At degree $10$, the Q-inadmissible partitions are
+\[
+ 7+3,\quad5+5,\quad4+3+3,\quad3+3+2+2.
+\]
+Among the admissible partitions, $5+3+2$ is the only one with odd cycles.
+Equivalently, Q-admissibility in degree $10$ excludes precisely
+\[
+ \operatorname{fix}(\pi^3)=6,\qquad
+ \operatorname{fix}(\pi^5)=10,\qquad
+ \operatorname{fix}(\pi^7)=7.
+\]
+
+The exact order-$8$ census contains $1285$ QQQ representatives: all $230$
+FFF representatives and $1055$ further representatives.  Thus QQQ is
+strictly weaker than FFF.  Nevertheless, a certified QQQ-unsatisfiability
+result at order $10$ would immediately exclude FFF and uses a smaller cycle
+classification than the full even-cycle coloring model.

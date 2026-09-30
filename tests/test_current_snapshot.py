@@ -4,11 +4,17 @@ from itertools import permutations
 import json
 from pathlib import Path
 import runpy
+import subprocess
 import sys
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "manuscript/candidates/2026-09-28_research_review"
+CURRENT_SOURCE = ROOT / "manuscript/candidates/2026-09-30_research_review"
+PDF_ALIASES = {"papers/FFF_Compact_Research_Dossier.pdf",
+               "papers/FFF_Long_Research_Dossier.pdf"}
+CORRECTIONS_SHA256 = "7f359799f6b97bb14e512e90483221c92bb4b7848548423a547d2b3844de42a9"
 sys.path.insert(0, str(SOURCE / "scripts"))
 AUDIT = runpy.run_path(str(SOURCE / "scripts/audit_snapshot.py"))
 UPDATE = runpy.run_path(str(SOURCE / "scripts/audit_update.py"))
@@ -17,27 +23,129 @@ sys.path.pop(0)
 
 
 class CurrentSnapshotTests(unittest.TestCase):
+    def receipt_rows(self, records, digest_key):
+        self.assertIsInstance(records, list)
+        self.assertTrue(records, "receipt inventory must not be empty")
+        indexed = {}
+        for row in records:
+            self.assertIsInstance(row, dict)
+            self.assertIsInstance(row["path"], str)
+            relative = Path(row["path"])
+            self.assertTrue(relative.parts)
+            self.assertFalse(relative.is_absolute())
+            self.assertNotIn("..", relative.parts)
+            self.assertEqual(relative.as_posix(), row["path"])
+            self.assertNotIn(row["path"], indexed, "duplicate receipt path")
+            self.assertRegex(row[digest_key], r"^[0-9a-f]{64}$")
+            indexed[row["path"]] = row
+        return indexed
+
+    def receipt_chain(self, capture_bytes, correction_bytes, current):
+        capture = json.loads(capture_bytes)
+        correction = json.loads(correction_bytes)
+        self.assertEqual(capture["last_in_scope_claim"], "C271")
+        self.assertEqual(correction["last_in_scope_claim"], "C271")
+        self.assertEqual(current["last_in_scope_claim"], "C280")
+        self.assertEqual(correction["previous_receipt_sha256"],
+                         hashlib.sha256(capture_bytes).hexdigest())
+        self.assertEqual(current["previous_receipt_sha256"],
+                         hashlib.sha256(correction_bytes).hexdigest())
+        expected = {path: row["public_sha256"] for path, row in
+                    self.receipt_rows(capture["files"], "public_sha256").items()}
+        for receipt in (correction, current):
+            replacements = self.receipt_rows(receipt["superseded_aliases"], "public_sha256")
+            self.assertEqual(set(replacements), PDF_ALIASES)
+            for path, row in replacements.items():
+                self.assertEqual(row["previous_sha256"], expected[path], path)
+                expected[path] = row["public_sha256"]
+            for path, row in self.receipt_rows(receipt["files"], "sha256").items():
+                self.assertIn(set(row), ({"path", "sha256"}, {"path", "bytes", "sha256"}))
+                if "bytes" in row:
+                    self.assertIs(type(row["bytes"]), int, path)
+                    self.assertGreaterEqual(row["bytes"], 0, path)
+                    self.assertEqual((ROOT / path).stat().st_size, row["bytes"], path)
+                if path in expected:
+                    self.assertEqual(row["sha256"], expected[path],
+                                     "receipt attempts to rewrite frozen bytes: " + path)
+                expected[path] = row["sha256"]
+        return expected
+
     def test_selected_input_inventory(self):
         self.assertGreater(AUDIT["audit_sources"]()["immutable_files_checked"], 35)
-        capture = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-09-28.json").read_text())
-        self.assertEqual(capture["last_in_scope_claim"], "C271")
-        correction = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json").read_text())
-        self.assertEqual(correction["last_in_scope_claim"], "C271")
-        self.assertEqual(correction["previous_receipt_sha256"],
-                         hashlib.sha256((ROOT / "PUBLIC_SNAPSHOT_2026-09-28.json").read_bytes()).hexdigest())
-        replacements = {row["path"]: row for row in correction["superseded_aliases"]}
-        self.assertEqual(set(replacements), {"papers/FFF_Compact_Research_Dossier.pdf",
-                                            "papers/FFF_Long_Research_Dossier.pdf"})
-        self.assertEqual(len(correction["superseded_aliases"]), 2)
-        for row in capture["files"]:
-            expected = row["public_sha256"]
-            if row["path"] in replacements:
-                replacement = replacements[row["path"]]
-                self.assertEqual(replacement["previous_sha256"], expected)
-                expected = replacement["public_sha256"]
-            self.assertEqual(hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest(), expected)
-        for row in correction["files"]:
-            self.assertEqual(hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest(), row["sha256"])
+        capture = (ROOT / "PUBLIC_SNAPSHOT_2026-09-28.json").read_bytes()
+        correction = (ROOT / "PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json").read_bytes()
+        self.assertEqual(hashlib.sha256(correction).hexdigest(), CORRECTIONS_SHA256)
+        current = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-09-30.json").read_text())
+        for relative, expected in self.receipt_chain(capture, correction, current).items():
+            path = ROOT / relative
+            self.assertFalse(path.is_symlink(), relative)
+            self.assertTrue(path.resolve().is_relative_to(ROOT), relative)
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), expected, relative)
+        self.assertTrue(CURRENT_SOURCE.is_dir())
+        prefix = CURRENT_SOURCE.relative_to(ROOT).as_posix() + "/"
+        recorded = {row["path"] for row in current["files"] if row["path"].startswith(prefix)}
+        shipped = {path.relative_to(ROOT).as_posix() for path in CURRENT_SOURCE.rglob("*")
+                   if path.is_file()}
+        self.assertTrue(shipped)
+        self.assertEqual(recorded, shipped, "new candidate receipt coverage differs")
+
+    def receipt_fixture(self):
+        capture = {"last_in_scope_claim": "C271", "files": [
+            {"path": path, "public_sha256": "1" * 64}
+            for path in sorted(PDF_ALIASES | {"frozen-original.txt"})]}
+        capture_bytes = json.dumps(capture).encode()
+        correction = {"last_in_scope_claim": "C271",
+                      "previous_receipt_sha256": hashlib.sha256(capture_bytes).hexdigest(),
+                      "files": [{"path": "frozen-correction.txt", "sha256": "2" * 64}],
+                      "superseded_aliases": [
+                          {"path": path, "previous_sha256": "1" * 64, "public_sha256": "2" * 64}
+                          for path in sorted(PDF_ALIASES)]}
+        correction_bytes = json.dumps(correction).encode()
+        current = {"last_in_scope_claim": "C280",
+                   "previous_receipt_sha256": hashlib.sha256(correction_bytes).hexdigest(),
+                   "files": [{"path": "new-source.txt", "sha256": "3" * 64}],
+                   "superseded_aliases": [
+                       {"path": path, "previous_sha256": "2" * 64, "public_sha256": "3" * 64}
+                       for path in sorted(PDF_ALIASES)]}
+        return capture_bytes, correction_bytes, current
+
+    def test_receipt_chain_preserves_both_frozen_generations(self):
+        expected = self.receipt_chain(*self.receipt_fixture())
+        self.assertEqual(expected["frozen-original.txt"], "1" * 64)
+        self.assertEqual(expected["frozen-correction.txt"], "2" * 64)
+        self.assertEqual(expected["new-source.txt"], "3" * 64)
+        for alias in PDF_ALIASES:
+            self.assertEqual(expected[alias], "3" * 64)
+
+    def test_receipt_chain_rejects_broken_links_and_aliases(self):
+        for fault in ("receipt_hash", "alias_predecessor", "missing_alias", "duplicate_alias", "other_alias"):
+            capture, correction, current = self.receipt_fixture()
+            if fault == "receipt_hash":
+                current["previous_receipt_sha256"] = "0" * 64
+            elif fault == "alias_predecessor":
+                current["superseded_aliases"][0]["previous_sha256"] = "1" * 64
+            elif fault == "missing_alias":
+                current["superseded_aliases"].pop()
+            elif fault == "duplicate_alias":
+                current["superseded_aliases"].append(current["superseded_aliases"][0])
+            else:
+                current["superseded_aliases"][0]["path"] = "frozen-original.txt"
+            with self.subTest(fault=fault), self.assertRaises(AssertionError):
+                self.receipt_chain(capture, correction, current)
+
+    def test_receipt_cannot_redeclare_changed_historical_files(self):
+        for path in ("frozen-original.txt", "frozen-correction.txt"):
+            capture, correction, current = self.receipt_fixture()
+            current["files"].append({"path": path, "sha256": "3" * 64})
+            with self.subTest(path=path), self.assertRaises(AssertionError):
+                self.receipt_chain(capture, correction, current)
+
+    def test_receipt_rejects_duplicate_and_unsafe_paths(self):
+        for path in ("new-source.txt", "../outside", "/outside", "./noncanonical"):
+            capture, correction, current = self.receipt_fixture()
+            current["files"].append({"path": path, "sha256": "3" * 64})
+            with self.subTest(path=path), self.assertRaises(AssertionError):
+                self.receipt_chain(capture, correction, current)
 
     def test_expanded_certificate_scope_and_corner_positive(self):
         table = UPDATE["corner_table"](19, 7)

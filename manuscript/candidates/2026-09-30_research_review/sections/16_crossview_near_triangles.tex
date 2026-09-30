@@ -1,0 +1,140 @@
+\section{Near-involutive triangles force a companion-view witness}
+\label{sec:near-triangles}
+
+Put $\lambda_n=4+2^{(n-4)/2}$ for $n\geq6$ with $n\equiv2\pmod4$.
+Call a pair of lines \emph{near} if its relative permutation has this
+cycle type. The following reduction uses a small exhaustive enumeration,
+not a classification of order-$18$ Latin squares.
+
+\begin{computationaltheorem}[Complete exceptional-core reduction]
+\label{thm:near-core}
+Suppose $\mathrm{id},A,B$ are permutations on $n$ points and each of
+$A,B,A^{-1}B$ has type $\lambda_n$. Then $\langle A,B\rangle$ has
+one orbit of size six containing all three exceptional four-cycles;
+all other orbits have size four.
+\end{computationaltheorem}
+\begin{proof}
+The three permutations define three disjoint perfect matchings in a
+simple bipartite graph. Contracting the identity matching identifies
+its connected components with the orbits of $\langle A,B\rangle$.
+Consider a component on $d$ points in each part. Let $e$ count the
+four-cycles among its three restricted relative permutations,
+equivalently the eight-cycles in the two-color unions.
+Its cycle space over $\mathbb F_2$ has dimension
+$d+1$. The two-color cycle vectors have exactly one dependence: at
+each edge the coefficients of the two containing cycles agree, and
+connectedness propagates this equality. Thus their number, $3d/2-e$,
+is at most $d+2$, giving $d\leq2e+4$. Here $d$ is even and at least
+four. The product of the three relative signs is positive, hence
+$e\equiv d/2\pmod2$.
+
+If $e=1$, then $d=6$. The two involutive relatives on this component
+have a union of alternating matching cycles. Their product has paired
+cycles of equal lengths; on six points an odd cycle is unavoidable,
+contrary to the prescribed even types. Since the total exceptional
+count is three, all three exceptions belong to one component with
+$e=3$ and $d=6$ or $10$; every other component has $e=0,d=4$.
+
+For the remaining size-ten case fix
+$A=(0\,1\,2\,3)(4\,5)(6\,7)(8\,9)$.
+Enumerate every $B$ of type $4+2^3$ by its four-element support,
+one of six four-cycles, and one of fifteen matchings on the other
+six points: $\binom{10}{4}6\cdot15=18900$ cases.
+Exactly $96$ satisfy $\operatorname{type}(A^{-1}B)=4+2^3$.
+Every one has component sizes $6+4$, not $10$. The supplied finite
+checker reconstructs this full domain; this exact check is an explicit
+premise of the theorem. It excludes a size-ten exceptional component
+at any ambient order and completes the reduction.
+\end{proof}
+
+\begin{computationaltheorem}[Three-view triangle obstruction]
+\label{thm:near-triangle}
+In any Latin square of order $n\geq6$, $n\equiv2\pmod4$, three lines
+in one view whose three pair types are $\lambda_n$ force an odd
+three-cycle in another view. Consequently the near-pair graph in
+every view of an FFF square is triangle-free.
+\end{computationaltheorem}
+\begin{proof}
+First consider rows. An isotopy normalizes the three rows to
+$\mathrm{id},A,B$. Theorem~\ref{thm:near-core} gives their common
+six-point orbit $D$. Put $A_D=A|_D$, $B_D=B|_D$, and relabel it so
+$A_D=(0\,1\,2\,3)(4\,5)$.
+Among the $90$ permutations of type $4+2$ on $D$, precisely $16$
+also have $\operatorname{type}(A_D^{-1}B_D)=4+2$. They are two orbits of
+size eight under conjugation by $(0\,1\,2\,3)$ and $(4\,5)$,
+represented by the image tuples
+\[
+ B_1=(2,0,4,5,1,3),\qquad B_2=(2,4,1,5,0,3).
+\]
+The complete local enumeration checks both the membership and coverage.
+
+For $B_1$, columns $0,1$ have symbol arrows
+$0\to1$, $1\to2$, $2\to0$ in these three rows. For $B_2$, symbols
+$1,2$ have column-position arrows $1\to2$, $0\to1$, $2\to0$.
+These are already closed three-cycles. Conjugation transports them
+over all sixteen local cases, eight of each companion-view kind.
+Adding other rows cannot change an existing arrow in these partial
+injective matchings, so neither closed cycle can disappear.
+The six-column rectangle need not be a subsquare or a congruence block.
+
+Transposition transports the result to a column triangle. Exchanging
+row and symbol coordinates transports it to a symbol triangle;
+isotopies preserve cycle types and parastrophes permute the views.
+This proves the statement in all three views. The finite premise is
+the one in Theorem~\ref{thm:near-core}, together with the sixteen-case
+local cover, not an unbounded search.
+\end{proof}
+
+\begin{corollary}[Edge bounds and lossless anchor choices]
+\label{cor:nonnear-anchors}
+The near-pair graph of any physical FFF view of order $18$ has at most
+$81$ edges. If its line-sign classes have sizes $a$ and $18-a$, the
+bound is
+\[
+ \left\lfloor a^2/4\right\rfloor+
+ \left\lfloor(18-a)^2/4\right\rfloor;
+\]
+it is $40$ for a $9+9$ split. Every such view has at least $32$
+positive non-near pair occurrences. A hypothetical FFF18 square has
+a reduced isotope with positive non-near row~1 and positive column~1:
+there are $31$ complete row~1 anchor cases. Without imposing positive
+column~1, a longest-zero-cycle alternative has $13$ cases.
+\end{corollary}
+\begin{proof}
+For a triangle-free graph on $k$ vertices with $E>0$ edges,
+$\sum_v d(v)^2\leq kE$ and Cauchy--Schwarz give
+$4E^2/k\leq kE$, hence $E\leq\lfloor k^2/4\rfloor$.
+Near relatives have positive sign, so all their edges lie inside
+line-sign classes. Subtracting the two class bounds from
+$\binom a2+\binom{18-a}2$ has minimum $32$ over $0\leq a\leq18$.
+
+At least nine rows have the same sign. On them the near graph is
+triangle-free. Also triangle-free is the graph joining rows whose
+relative permutation reverses the sign of every column: two reversing
+relations compose to a preserving relation. Two triangle-free graphs
+cannot cover a six-clique, by the elementary red/blue triangle argument.
+Thus some same-sign row pair is neither near nor everywhere reversing.
+Its relative permutation $\phi=r_a^{-1}r_b$ has an edge
+$x\mapsto y$ with equal column signs at $x,y$.
+
+Choose a column relabelling $\kappa$ which canonicalizes all cycles,
+listing this cycle first, starting $x,y$, and the remaining cycles
+by decreasing length. Put $\sigma=\kappa r_a^{-1}$ and
+$\alpha(r)=\sigma(L(r,x))$. The isotope
+$L'(\alpha(r),\kappa(c))=\sigma(L(r,c))$ is reduced, with
+$\alpha(a)=0,\alpha(b)=1$, and row~1 is $\kappa\phi\kappa^{-1}$.
+Column signs acquire a common factor. The equal signs at $x,y$,
+together with identity column~0, force positive column~1.
+Of the fourteen positive-sign even-cycle partitions of eighteen, delete
+$4+2^7$; retaining every distinct possible zero-cycle length leaves
+$31$ cases. If no column-sign condition is imposed, a non-near
+same-sign pair permits choosing a longest cycle and gives $13$ cases.
+The supplied partition checker verifies these small counts.
+\end{proof}
+
+These are alternative complete normalizations, not $31$ or $13$ solved
+cases. Do not impose column positivity on the $13$-case normalization
+without another coverage proof, or infer that a previously fixed near
+anchor is UNSAT. A hypothetical FFF18 square may avoid near pairs
+entirely. Thus the triangle obstruction is a necessary cross-view
+restriction, not an order-$18$ existence decision.

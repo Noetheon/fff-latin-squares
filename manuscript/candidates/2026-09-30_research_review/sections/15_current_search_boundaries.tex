@@ -1,0 +1,81 @@
+\section{Current search boundaries and research priorities}
+\label{sec:current-boundaries}
+
+Order $18$ remains undecided. A fixed input, permitted transformation,
+and complete finite search space must accompany every local negative
+result. The following developments are not a cumulative percentage of
+an unrestricted search.
+
+\begin{proposition}[Intercalates forced by paired blocks]
+\label{prop:pairblock-intercalates}
+If a normalized line family in any view of an order-$2m$ Latin square
+preserves a partition into $m$ pairs, then its intercalate count is
+$I=m^2+2K$ for some nonnegative integer $K$.
+\end{proposition}
+
+\begin{proof}
+Normalize a row view by its base row, identifying columns and symbols.
+Every row has the form
+$L(g,(x,t))=(\phi_g(x),t+f_g(x))$ on $[m]\times\mathbb F_2$.
+Let $J$ flip every symbol pair. The two column maps of block $x$
+satisfy $C_{x,1}=JC_{x,0}$. Thus their relative permutation is
+conjugate to $J$ and has $m$ transpositions. The $m$ within-block
+column pairs contribute exactly $m^2$ intercalates. Between two distinct
+blocks, the relative maps for column bits $(0,0),(1,1)$ are identical,
+as are those for $(0,1),(1,0)$. Their two-cycle contributions are
+therefore even. Parastrophy gives the other views without changing
+the intercalate count.
+\end{proof}
+
+At order $18$ a paired-block view therefore requires at least 81
+intercalates and an odd total. This is a necessary condition, not
+a proof that a hypothetical FFF18 square cannot have such a view.
+
+\paragraph{Local distance certificates.}
+One frozen FFT18 source has a certified same-label lower bound of
+35 changed cells for even a symbol-F Latin target. A different frozen
+FTF18 source has a bound of 37 cells for even a column-F target.
+The supporting reductions use physical odd-cycle supports and Latin
+replacement constraints; their retained UNSAT records have independently
+checked DRAT traces. This paper update does not rerun those historical
+proof checkers. Neither bound constructs a target at the stated distance
+or excludes a more distant target. A small number of failing pairs
+is not evidence of a small cell-edit distance to FFF.
+
+\paragraph{Distinct normalizations with different coverage proofs.}
+The earlier 14-case longest-zero-cycle normalization and alternative
+33-case dual-positive normalization have now been refined to 13 and
+31 cases, respectively, by Corollary~\ref{cor:nonnear-anchors}.
+These are still alternatives: the extra column-sign constraint must not
+be added to the 13 cases without another coverage proof. A further
+three-positive-sign shortcut is false even on a frozen FFF8 control.
+The paired baseline/overlay order-18 tests time out; they establish
+neither a case exclusion nor a runtime improvement.
+
+\paragraph{Other finite-family exclusions.}
+The fixed-remainder contraction audit now covers the entire frozen
+22-row-pair trade-mask family and the two quadratic controls, with
+no FFF18 output. A separate theorem excludes FFF completions of principal
+fixed-remainder two-point contractions of Steiner loops of order
+$n\geq8$ divisible by four: their Latin completions are symmetric
+of order $n-2\equiv2\pmod4$ and greater than two. Neither statement covers arbitrary
+parents, nonprincipal Steiner contractions, or repairs changing
+retained cells. The new unique-intercalate family has its different,
+direct noncontraction obstruction in Corollary~\ref{cor:corner-noncontraction}.
+
+Free-order-three incidence conditions and affine quotient no-goods
+constrain specified symmetry subclasses only. The recent Mendelsohn,
+four-transversal and repair pilots do not decide them. These model
+derivations can be useful without being a breakthrough on unrestricted
+existence. A shorter equivalent CNF is not, by itself, evidence of
+a faster solver.
+
+\paragraph{How further searches will be evaluated.}
+Before extending a computation, specify its mathematical hypothesis,
+covered space, baseline, resource limit and decisive outcome. Separate
+general theorems, complete finite exclusions and heuristic observations.
+Use positive and negative physical controls, compare genuinely different
+methods, and require evidence of benefit before expanding a sequence
+of similar timeout pilots. Literature comparison and external expert
+review remain independent tasks. CPU utilization, file counts and
+claim identifiers are not measures of distance to an order-$18$ solution.
