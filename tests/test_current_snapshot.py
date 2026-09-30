@@ -76,7 +76,12 @@ class CurrentSnapshotTests(unittest.TestCase):
         correction = (ROOT / "PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json").read_bytes()
         self.assertEqual(hashlib.sha256(correction).hexdigest(), CORRECTIONS_SHA256)
         current = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-09-30.json").read_text())
-        for relative, expected in self.receipt_chain(capture, correction, current).items():
+        expected_files = self.receipt_chain(capture, correction, current)
+        typography = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-09-30_TYPOGRAPHY.json").read_text())
+        expected_files = self.typography_receipt(
+            expected_files, (ROOT / "PUBLIC_SNAPSHOT_2026-09-30.json").read_bytes(),
+            typography)
+        for relative, expected in expected_files.items():
             path = ROOT / relative
             self.assertFalse(path.is_symlink(), relative)
             self.assertTrue(path.resolve().is_relative_to(ROOT), relative)
@@ -88,6 +93,47 @@ class CurrentSnapshotTests(unittest.TestCase):
                    if path.is_file()}
         self.assertTrue(shipped)
         self.assertEqual(recorded, shipped, "new candidate receipt coverage differs")
+
+    def typography_receipt(self, expected, previous_bytes, successor):
+        self.assertEqual(successor["previous_receipt_sha256"],
+                         hashlib.sha256(previous_bytes).hexdigest())
+        self.assertEqual(successor["last_in_scope_claim"], "C280")
+        self.assertIs(successor["mathematical_claims_changed"], False)
+        result = dict(expected)
+        replacements = self.receipt_rows(successor["superseded_aliases"], "public_sha256")
+        self.assertEqual(set(replacements), PDF_ALIASES)
+        for path, row in replacements.items():
+            self.assertEqual(row["previous_sha256"], result[path])
+            result[path] = row["public_sha256"]
+        for path, row in self.receipt_rows(successor["files"], "sha256").items():
+            if path in result:
+                self.assertEqual(row["sha256"], result[path], "Frozen source changed: " + path)
+            result[path] = row["sha256"]
+        return result
+
+    def test_typography_successor_does_not_relax_frozen_payload_checks(self):
+        previous = b"frozen receipt"
+        expected = {path: "1" * 64 for path in PDF_ALIASES | {"frozen.txt"}}
+        successor = {"previous_receipt_sha256": hashlib.sha256(previous).hexdigest(),
+                     "last_in_scope_claim": "C280", "mathematical_claims_changed": False,
+                     "superseded_aliases": [
+                         {"path": path, "previous_sha256": "1" * 64, "public_sha256": "2" * 64}
+                         for path in sorted(PDF_ALIASES)],
+                     "files": [{"path": "layout.txt", "sha256": "3" * 64}]}
+        result = self.typography_receipt(expected, previous, successor)
+        self.assertEqual(result["frozen.txt"], "1" * 64)
+        for fault in ("chain", "alias", "science", "frozen"):
+            changed = json.loads(json.dumps(successor))
+            if fault == "chain":
+                changed["previous_receipt_sha256"] = "0" * 64
+            elif fault == "alias":
+                changed["superseded_aliases"][0]["previous_sha256"] = "0" * 64
+            elif fault == "science":
+                changed["mathematical_claims_changed"] = True
+            else:
+                changed["files"].append({"path": "frozen.txt", "sha256": "9" * 64})
+            with self.subTest(fault=fault), self.assertRaises(AssertionError):
+                self.typography_receipt(expected, previous, changed)
 
     def receipt_fixture(self):
         capture = {"last_in_scope_claim": "C271", "files": [

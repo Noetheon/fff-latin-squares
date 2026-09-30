@@ -106,10 +106,11 @@ class SiteTests(unittest.TestCase):
                          "not independent studies", "not a solver-free proof"):
             self.assertIn(required, self.source)
         self.assertIn("<details open>", self.source)
-        self.assertIn("42 pages / PDF", self.source)
-        self.assertIn("88 pages / PDF", self.source)
+        self.assertIn("44 pages / PDF", self.source)
+        self.assertIn("89 pages / PDF", self.source)
         self.assertIn("through C280", self.source)
-        for stale in ("38 pages / PDF", "80 pages / PDF", "87 pages / PDF", "through C271"):
+        for stale in ("38 pages / PDF", "42 pages / PDF", "80 pages / PDF",
+                      "87 pages / PDF", "88 pages / PDF", "through C271"):
             self.assertNotIn(stale, self.source)
         self.assertNotIn("The global conjecture remains open", self.source)
 

@@ -5,8 +5,8 @@
   "method": "HTML/CSS composition with an unaltered public PDF page preview; no generated scientific imagery",
   "input_sha256": {
     "assets/social-preview.html": "73eaa60a157d38783ef4d2d247556f809d6b883cc25bb26cb115b160fde22d6e",
-    "assets/compact-cover.png": "e9496e66ac1846ae25c0bd282f9f4c8e8f5eabecc22fbe1906fc1d70fa7eddae",
-    "papers/FFF_Compact_Research_Dossier.pdf": "0193d0439cb7269037f4e860ce3a5c808abfa0b7a0c87597d1a0d5e9276ee533"
+    "assets/compact-cover.png": "18e35ee45264ae29f7a8b9c3d3a053e7fcacd62ef433e09e3c6278ade8cbfa69",
+    "papers/FFF_Compact_Research_Dossier.pdf": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6"
   },
-  "output_sha256": "c5b4fd890364912465f9228a24d2a6b13791c0ed3c7679f444aeff406c426dcf"
+  "output_sha256": "80484e009b2c7960ca450695de019a7fe38043b973ce68f016d6482d79e78b33"
 }

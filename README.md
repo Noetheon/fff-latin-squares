@@ -9,9 +9,11 @@ length greater than one in any of the row, column and symbol views (FFF).
 ## Read the dossier
 
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
-- [Compact reading version (42-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
-- [Full technical record (88-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Current editable sources and bounded audit](manuscript/candidates/2026-09-30_research_review/README.md)
+- [Compact reading version (44-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
+- [Full technical record (89-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
+- [Current layout sources](manuscript/candidates/2026-09-30_typography_review/README.md)
+- [Unchanged C280 scientific sources and bounded audit](manuscript/candidates/2026-09-30_research_review/README.md)
+- [Typography and scholarly-presentation audit](verification/TYPOGRAPHY_AND_SCHOLARLY_AUDIT_2026-09-30.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
 - [Reproducibility and export limitations](REPRODUCIBILITY.md)
 - [30 September release scope and checks](verification/RELEASE_2026-09-30.md)

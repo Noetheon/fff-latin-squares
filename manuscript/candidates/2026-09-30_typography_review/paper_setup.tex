@@ -1,0 +1,62 @@
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+\usepackage[a4paper,margin=30mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,booktabs,enumitem,microtype,xurl}
+\usepackage[titles]{tocloft}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={},pdfsubject={Evidence-bounded research draft on FFF Latin squares},
+pdfkeywords={Latin squares, quasigroups, direct products, main classes, reproducible research}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{computationaltheorem}[theorem]{Computational Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\pat}{\operatorname{pat}}
+\newcommand{\rowv}{\mathrm{row}}
+\newcommand{\colv}{\mathrm{col}}
+\newcommand{\symv}{\mathrm{sym}}
+\newcommand{\FFF}{\mathsf{FFF}}
+\newcommand{\TTT}{\mathsf{TTT}}
+\setcounter{tocdepth}{1}
+\setlength{\cftsecnumwidth}{2.6em}
+\setlength{\cftbeforesecskip}{4pt}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\emergencystretch}{1em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\raggedbottom
+
+% Front matter is deliberately separate from the numbered mathematical text.
+\newcommand{\dossierfrontmatter}{%
+  \pagenumbering{roman}
+  \maketitle
+  \thispagestyle{empty}
+  \input{sections/00_abstract}
+  \clearpage
+  \pdfbookmark[0]{Status, attribution, and evidence boundary}{status}
+  \input{sections/00_status_note}
+  \clearpage
+  \pdfbookmark[0]{Contents}{contents}
+  \tableofcontents
+  \clearpage
+  \pagenumbering{arabic}
+}
+\newcommand{\dossierreferences}{%
+  \clearpage
+  \phantomsection
+  \addcontentsline{toc}{section}{References}
+  \begingroup
+  \small
+  \bibliographystyle{alpha}
+  \bibliography{references,references_nonpower}
+  \endgroup
+}

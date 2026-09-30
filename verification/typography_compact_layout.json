@@ -1,0 +1,43 @@
+{
+  "sha256": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6",
+  "pages": 44,
+  "introduction_pdf_page": 4,
+  "introduction_printed_page": "1",
+  "references_pdf_page": 44,
+  "front_matter_page_labels": [
+    "i",
+    "ii",
+    "iii",
+    "1"
+  ],
+  "contents_is_separate_page": true,
+  "outline_destinations": {
+    "Status, attribution, and evidence boundary": 1,
+    "Contents": 2,
+    "Introduction": 3,
+    "Definitions and invariance": 4,
+    "Elementary structural results": 7,
+    "Subsquare and congruence obstructions": 9,
+    "Direct products": 13,
+    "Computational results": 14,
+    "Explicit non-power-of-two witnesses and a dyadic lift bound": 15,
+    "A common binary fiber over prime-square quotients": 19,
+    "Affine prime-successor loops": 21,
+    "Row-fibred extensions and represented main classes": 24,
+    "Block return maps and a common-fibre construction": 28,
+    "A pattern-preserving affine corner trade": 31,
+    "Near-involutive triangles force a companion-view witness": 33,
+    "Binary-fibre transversals and equal-projection obstruction": 35,
+    "Current search boundaries and research priorities": 37,
+    "An exact position\u2013value coloring formulation": 38,
+    "Computational reproducibility": 39,
+    "Discussion and open problems": 42,
+    "References": 43
+  },
+  "glyph_margin_failures": [],
+  "errors": [],
+  "passed": true,
+  "visual_review_still_required": true,
+  "mathematical_verification": false,
+  "pdf_ua_certification": false
+}

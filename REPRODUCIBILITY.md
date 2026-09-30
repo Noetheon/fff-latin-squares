@@ -122,9 +122,12 @@ Some write into their run folders. Do not run them in place on frozen evidence.
 
 ## PDFs
 
-The current build uses only the dated
-[30 September sources](manuscript/candidates/2026-09-30_research_review/README.md):
-42 compact and 88 long pages.
+The current build assembles the frozen
+[30 September scientific sources](manuscript/candidates/2026-09-30_research_review/README.md)
+with the [typography correction](manuscript/candidates/2026-09-30_typography_review/README.md):
+44 compact and 89 long pages. All mathematical body sections and bibliographies
+are inherited byte-for-byte; four explicit entry/style/abstract overrides
+correct the front matter. The correction does not extend the evidence cutoff.
 The original `manuscript/main.tex` and `main_core.tex` are historical September
 sources, not the entry points for the current PDFs. Do not rebuild them and
 label their open-C38 narrative current.
@@ -132,8 +135,7 @@ label their open-C38 narrative current.
 With a local TeX Live installation providing `latexmk`, `pdflatex` and BibTeX:
 
 ```sh
-python3 -B manuscript/candidates/2026-09-30_research_review/scripts/build_pdfs.py \
-  --output .audit/pdf-rebuild
+python3 -B tools/build_pdfs.py --output .audit/pdf-rebuild
 ```
 
 The script uses no shell escape and builds in scratch directories. It compares
@@ -166,6 +168,13 @@ base commit, unchanged C271 scientific cutoff, new source hashes and the exact o
 digests of the two PDF aliases. `PUBLIC_SNAPSHOT_2026-09-30.json` records the
 current C280 intake and its PDF-alias succession; the corresponding release
 record is [RELEASE_2026-09-30.md](verification/RELEASE_2026-09-30.md).
+The successor PUBLIC_SNAPSHOT_2026-09-30_TYPOGRAPHY.json records only the layout
+correction and its PDF replacements. Page-flow checks are independently
+replayable with tools/check_paper_layout.py, requiring optional pypdf and
+pypdfium2 packages.
+A separate CI job installs pinned PDF-check dependencies and checks the actual
+committed PDFs for page flow, page labels, glyph margins and metadata.
+The default verify job and standard-library test suite remain dependency-free.
 Earlier receipts remain unchanged. No historical
 digest is silently replaced and no private development history is imported. Historical output
 records can refer to omitted dependencies or historical hashes. The authoritative

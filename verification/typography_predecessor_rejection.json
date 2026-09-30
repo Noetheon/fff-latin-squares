@@ -1,0 +1,53 @@
+{
+  "sha256": "4b3b4b92832e036e37639f16170576887e2a6b69c6b8b20c683bc9046c268a2f",
+  "pages": 88,
+  "introduction_pdf_page": 3,
+  "introduction_printed_page": "3",
+  "references_pdf_page": null,
+  "front_matter_page_labels": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "contents_is_separate_page": false,
+  "outline_destinations": {
+    "Introduction": 2,
+    "Definitions and invariance": 5,
+    "Elementary structural results": 8,
+    "Subsquare and congruence obstructions": 9,
+    "Direct products": 13,
+    "A cycle-parity obstruction": 15,
+    "Computational results": 15,
+    "Explicit non-power-of-two witnesses and a dyadic lift bound": 17,
+    "A common binary fiber over prime-square quotients": 21,
+    "Affine prime-successor loops": 23,
+    "Row-fibred extensions and represented main classes": 26,
+    "Block return maps and a common-fibre construction": 30,
+    "A pattern-preserving affine corner trade": 33,
+    "Odd-subset lift characterization": 35,
+    "A primitive-group reduction at order ten": 36,
+    "The three-coloured flag surface": 38,
+    "The order-10 computational exclusion": 61,
+    "An exact position\u2013value coloring formulation": 65,
+    "The precisely bounded order-18 frontier": 66,
+    "Near-involutive triangles force a companion-view witness": 68,
+    "Binary-fibre transversals and equal-projection obstruction": 69,
+    "Further finite structural results and local search boundaries": 71,
+    "Current search boundaries and research priorities": 74,
+    "Computational reproducibility": 75,
+    "Discussion and open problems": 85
+  },
+  "glyph_margin_failures": [],
+  "errors": [
+    "Status declaration shares a page with contents or introduction",
+    "Contents do not start on the third page",
+    "Introduction is not on its own fourth PDF page",
+    "Front matter / Arabic body page numbering differs",
+    "Missing separate references destination"
+  ],
+  "passed": false,
+  "visual_review_still_required": true,
+  "mathematical_verification": false,
+  "pdf_ua_certification": false
+}

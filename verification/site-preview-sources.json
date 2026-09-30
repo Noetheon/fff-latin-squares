@@ -6,38 +6,38 @@
     {
       "asset": "assets/compact-cover.png",
       "source": "papers/FFF_Compact_Research_Dossier.pdf",
-      "source_sha256": "0193d0439cb7269037f4e860ce3a5c808abfa0b7a0c87597d1a0d5e9276ee533",
+      "source_sha256": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6",
       "page": 1,
       "width": 536,
       "height": 759,
-      "sha256": "e9496e66ac1846ae25c0bd282f9f4c8e8f5eabecc22fbe1906fc1d70fa7eddae"
+      "sha256": "18e35ee45264ae29f7a8b9c3d3a053e7fcacd62ef433e09e3c6278ade8cbfa69"
     },
     {
       "asset": "assets/compact-abstract.png",
       "source": "papers/FFF_Compact_Research_Dossier.pdf",
-      "source_sha256": "0193d0439cb7269037f4e860ce3a5c808abfa0b7a0c87597d1a0d5e9276ee533",
-      "page": 3,
+      "source_sha256": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6",
+      "page": 4,
       "width": 721,
       "height": 1019,
-      "sha256": "94e5053ceded3e8a71a9068726b4c2a2173b35709d043c46049e39f25dd6e455"
+      "sha256": "f27fefb30bf88efc6a8f82eb4b4ed02c556c197c3f0f0f3ca2d3e6674d3f3410"
     },
     {
       "asset": "assets/long-cover.png",
       "source": "papers/FFF_Long_Research_Dossier.pdf",
-      "source_sha256": "4b3b4b92832e036e37639f16170576887e2a6b69c6b8b20c683bc9046c268a2f",
+      "source_sha256": "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a",
       "page": 1,
       "width": 536,
       "height": 759,
-      "sha256": "517532a62255a4135abe5ed63303dd19b9a6065e143cc162aed23a014b91e063"
+      "sha256": "46322f9b4d75a6e3ce79f25385576b83eaf301672030f9c2cb92b76039b1c3d7"
     },
     {
       "asset": "assets/long-abstract.png",
       "source": "papers/FFF_Long_Research_Dossier.pdf",
-      "source_sha256": "4b3b4b92832e036e37639f16170576887e2a6b69c6b8b20c683bc9046c268a2f",
-      "page": 3,
+      "source_sha256": "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a",
+      "page": 4,
       "width": 721,
       "height": 1019,
-      "sha256": "57be3fd91d6f863a653c192469ff270cad3599ae16364cd339b8ea13e15684ec"
+      "sha256": "845cc4a879459ae6ef059802ea4cbb5632ce9ba77a66789e9a8fd2e5548ec174"
     }
   ]
 }

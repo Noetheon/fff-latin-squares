@@ -1,0 +1,325 @@
+{
+  "passed": true,
+  "browser": "154.0.8037.92",
+  "target": "local-static-page",
+  "page_sha256": "21258fb1bb7f9783b61aa2418128a78babef777728dc93a6f6e6bcc8142c86e1",
+  "css_sha256": "5e09b4f60ed5a5ee3c744acd531791c3ff795d6ba5db8415713af73ffb63e18c",
+  "pdf_sha256": {
+    "FFF_Compact_Research_Dossier.pdf": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6",
+    "FFF_Long_Research_Dossier.pdf": "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a"
+  },
+  "records": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 640,
+        "height": 450
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "language": "en",
+      "overflow": false,
+      "images": [
+        {
+          "source": "assets/compact-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/compact-abstract.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-cover.png",
+          "loaded": true
+        },
+        {
+          "source": "assets/long-abstract.png",
+          "loaded": true
+        }
+      ],
+      "overflowingText": [],
+      "downloads": [
+        "papers/FFF_Compact_Research_Dossier.pdf",
+        "papers/FFF_Long_Research_Dossier.pdf",
+        "examples/order8_fff.json"
+      ],
+      "inlineScripts": 0,
+      "keyboardSkipLink": true,
+      "keyboardDisclosureToggles": true,
+      "navigationAnchor": true,
+      "worksWithoutJavaScript": true,
+      "externalRequests": 0,
+      "errors": []
+    }
+  ]
+}

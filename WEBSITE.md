@@ -7,9 +7,10 @@ third-party fonts, external scripts or analytics.
 
 ## Paper Update: 30 September 2026
 
-The current edition has a **42-page compact** and **88-page long** dossier,
+The current edition has a **44-page compact** and **89-page long** dossier,
 with intake frozen at **2026-09-30T12:54:17Z**, through C280 and the completed
-binary-first-orbit companion. See the [current source package](manuscript/candidates/2026-09-30_research_review/README.md)
+binary-first-orbit companion. The [typography successor](manuscript/candidates/2026-09-30_typography_review/README.md)
+keeps this scientific cutoff unchanged. See the [scientific source package](manuscript/candidates/2026-09-30_research_review/README.md)
 and [release scope and checks](verification/RELEASE_2026-09-30.md).
 
 The site now includes the near-type triangle obstruction, alternative anchor

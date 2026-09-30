@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "ignored_fields": [
+        "elapsed_seconds",
+        "sources"
+      ],
+      "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results.",
+      "scientific_fields_match": true,
+      "script": "audit_snapshot.py"
+    },
+    {
+      "ignored_fields": [
+        "elapsed_seconds",
+        "captured_update_files_verified"
+      ],
+      "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results.",
+      "scientific_fields_match": true,
+      "script": "audit_update.py"
+    },
+    {
+      "ignored_fields": [
+        "runtime_seconds"
+      ],
+      "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results.",
+      "scientific_fields_match": true,
+      "script": "audit_crt_update.py"
+    },
+    {
+      "comparison_rules": {
+        "first_census_policy": "when requested, complete=true and all four exact counts are checked separately",
+        "metadata_outside_scientific_comparison": [
+          "python",
+          "elapsed_seconds",
+          "first_census_replay"
+        ],
+        "normalizations": [
+          "tuple arrays serialized as JSON arrays; object key order"
+        ],
+        "precomparison_ignored_paths": [
+          "two_plex.full_twist_census_checked[*].seconds"
+        ],
+        "scientific_fields_ignored": []
+      },
+      "first_census_replay": {
+        "status": "not rerun; use --with-cpp"
+      },
+      "scientific_fields_match": true,
+      "script": "audit_new_results.py"
+    }
+  ],
+  "cutoff": "C280",
+  "elapsed_seconds": 69.212,
+  "heavy_solvers_run": false,
+  "historical_unsat_proofs_rechecked": false,
+  "passed": true
+}

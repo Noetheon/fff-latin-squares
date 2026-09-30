@@ -13,9 +13,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {
     "compact": ("FFF_Compact_Research_Dossier.pdf",
-                "0193d0439cb7269037f4e860ce3a5c808abfa0b7a0c87597d1a0d5e9276ee533"),
+                "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6"),
     "long": ("FFF_Long_Research_Dossier.pdf",
-             "4b3b4b92832e036e37639f16170576887e2a6b69c6b8b20c683bc9046c268a2f"),
+             "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a"),
 }
 
 
@@ -28,7 +28,8 @@ def main():
         if hashlib.sha256(source.read_bytes()).hexdigest() != expected:
             raise ValueError(f"Unexpected source PDF hash: {filename}")
         with pdfium.PdfDocument(source) as document:
-            for label, index, width in (("cover", 0, 536), ("abstract", 2, 720)):
+            # Preserve the legacy asset name; the second image shows Introduction.
+            for label, index, width in (("cover", 0, 536), ("abstract", 3, 720)):
                 page = document[index]
                 try:
                     bitmap = page.render(scale=width / page.get_width())
