@@ -7,7 +7,8 @@ third-party fonts, external scripts or analytics.
 
 ## Paper Update: 30 September 2026
 
-The current edition has a **44-page compact** and **89-page long** dossier,
+The current edition has a **12-page Compact**, **44-page Selected Results**,
+and **89-page Full Research Report**,
 with intake frozen at **2026-09-30T12:54:17Z**, through C280 and the completed
 binary-first-orbit companion. The [typography successor](manuscript/candidates/2026-09-30_typography_review/README.md)
 keeps this scientific cutoff unchanged. See the [scientific source package](manuscript/candidates/2026-09-30_research_review/README.md)

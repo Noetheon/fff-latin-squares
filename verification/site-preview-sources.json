@@ -6,16 +6,34 @@
     {
       "asset": "assets/compact-cover.png",
       "source": "papers/FFF_Compact_Research_Dossier.pdf",
-      "source_sha256": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6",
+      "source_sha256": "f51d47b9adb9546307a7ef4ae678956208c42acba376eaf0ff605b0600a53dd9",
       "page": 1,
       "width": 536,
       "height": 759,
-      "sha256": "18e35ee45264ae29f7a8b9c3d3a053e7fcacd62ef433e09e3c6278ade8cbfa69"
+      "sha256": "3b23afe85ad7b9b5f3a7a957fad4b7c08b210625da401dd6632668f92802f246"
     },
     {
       "asset": "assets/compact-abstract.png",
       "source": "papers/FFF_Compact_Research_Dossier.pdf",
-      "source_sha256": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6",
+      "source_sha256": "f51d47b9adb9546307a7ef4ae678956208c42acba376eaf0ff605b0600a53dd9",
+      "page": 4,
+      "width": 721,
+      "height": 1019,
+      "sha256": "1c52ff8b3a8403f27556a8e593b1ea8d9e50aa265beb76dec018969385bdb080"
+    },
+    {
+      "asset": "assets/selected-cover.png",
+      "source": "papers/FFF_Selected_Research_Dossier.pdf",
+      "source_sha256": "78e438894d072bdbf2b7dd25376f237c2e6620e650ac59229cb9d6ed41b0bab1",
+      "page": 1,
+      "width": 536,
+      "height": 759,
+      "sha256": "972656f29be66d89ab36083b950fbb1d2da2a31032290b790c396cb173190c93"
+    },
+    {
+      "asset": "assets/selected-abstract.png",
+      "source": "papers/FFF_Selected_Research_Dossier.pdf",
+      "source_sha256": "78e438894d072bdbf2b7dd25376f237c2e6620e650ac59229cb9d6ed41b0bab1",
       "page": 4,
       "width": 721,
       "height": 1019,
@@ -24,16 +42,16 @@
     {
       "asset": "assets/long-cover.png",
       "source": "papers/FFF_Long_Research_Dossier.pdf",
-      "source_sha256": "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a",
+      "source_sha256": "74e499f82ab636bee6a55159ba3c6fe5e6b3bb71683e17bcec148c9370c91209",
       "page": 1,
       "width": 536,
       "height": 759,
-      "sha256": "46322f9b4d75a6e3ce79f25385576b83eaf301672030f9c2cb92b76039b1c3d7"
+      "sha256": "662bce312ffdbdde0b6367fe4ab5c0e7119d4b67e67eeff8d09fcc26385256a3"
     },
     {
       "asset": "assets/long-abstract.png",
       "source": "papers/FFF_Long_Research_Dossier.pdf",
-      "source_sha256": "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a",
+      "source_sha256": "74e499f82ab636bee6a55159ba3c6fe5e6b3bb71683e17bcec148c9370c91209",
       "page": 4,
       "width": 721,
       "height": 1019,

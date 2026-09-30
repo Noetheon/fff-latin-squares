@@ -1,0 +1,1421 @@
+{
+  "last_in_scope_claim": "C280",
+  "compiled_label_count": 103,
+  "records": [
+    {
+      "label": "lem:fixed-point-free",
+      "editions": {
+        "compact": {
+          "number": "2.1",
+          "printed_page": "1",
+          "section": "02_short_definitions.tex"
+        },
+        "selected": {
+          "number": "2.1",
+          "printed_page": "2",
+          "section": "02_definitions.tex"
+        },
+        "long": {
+          "number": "2.1",
+          "printed_page": "3",
+          "section": "02_definitions.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:invariance",
+      "editions": {
+        "compact": {
+          "number": "2.3",
+          "printed_page": "2",
+          "section": "02_short_definitions.tex"
+        },
+        "selected": {
+          "number": "2.9",
+          "printed_page": "5",
+          "section": "02_definitions.tex"
+        },
+        "long": {
+          "number": "2.9",
+          "printed_page": "6",
+          "section": "02_definitions.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:odd-order",
+      "editions": {
+        "compact": {
+          "number": "3.1",
+          "printed_page": "2",
+          "section": "03_structural_results.tex"
+        },
+        "selected": {
+          "number": "3.1",
+          "printed_page": "5",
+          "section": "03_structural_results.tex"
+        },
+        "long": {
+          "number": "3.1",
+          "printed_page": "6",
+          "section": "03_structural_results.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:group-tables",
+      "editions": {
+        "compact": {
+          "number": "3.2",
+          "printed_page": "2",
+          "section": "03_structural_results.tex"
+        },
+        "selected": {
+          "number": "3.2",
+          "printed_page": "6",
+          "section": "03_structural_results.tex"
+        },
+        "long": {
+          "number": "3.2",
+          "printed_page": "7",
+          "section": "03_structural_results.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:group-fff",
+      "editions": {
+        "compact": {
+          "number": "3.3",
+          "printed_page": "2",
+          "section": "03_structural_results.tex"
+        },
+        "selected": {
+          "number": "3.3",
+          "printed_page": "6",
+          "section": "03_structural_results.tex"
+        },
+        "long": {
+          "number": "3.3",
+          "printed_page": "7",
+          "section": "03_structural_results.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:closure",
+      "editions": {
+        "compact": {
+          "number": "3.4",
+          "printed_page": "3",
+          "section": "03_structural_results.tex"
+        },
+        "selected": {
+          "number": "3.4",
+          "printed_page": "6",
+          "section": "03_structural_results.tex"
+        },
+        "long": {
+          "number": "3.4",
+          "printed_page": "7",
+          "section": "03_structural_results.tex"
+        }
+      }
+    },
+    {
+      "label": "lem:product-cycle",
+      "editions": {
+        "compact": {
+          "number": "4.1",
+          "printed_page": "3",
+          "section": "04_direct_products.tex"
+        },
+        "selected": {
+          "number": "5.1",
+          "printed_page": "11",
+          "section": "04_direct_products.tex"
+        },
+        "long": {
+          "number": "5.1",
+          "printed_page": "12",
+          "section": "04_direct_products.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:pattern-product",
+      "editions": {
+        "compact": {
+          "number": "4.2",
+          "printed_page": "3",
+          "section": "04_direct_products.tex"
+        },
+        "selected": {
+          "number": "5.2",
+          "printed_page": "11",
+          "section": "04_direct_products.tex"
+        },
+        "long": {
+          "number": "5.2",
+          "printed_page": "12",
+          "section": "04_direct_products.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:fff-product",
+      "editions": {
+        "compact": {
+          "number": "4.3",
+          "printed_page": "4",
+          "section": "04_direct_products.tex"
+        },
+        "selected": {
+          "number": "5.3",
+          "printed_page": "12",
+          "section": "04_direct_products.tex"
+        },
+        "long": {
+          "number": "5.3",
+          "printed_page": "13",
+          "section": "04_direct_products.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:group-product",
+      "editions": {
+        "compact": {
+          "number": "4.4",
+          "printed_page": "4",
+          "section": "04_direct_products.tex"
+        },
+        "selected": {
+          "number": "5.4",
+          "printed_page": "12",
+          "section": "04_direct_products.tex"
+        },
+        "long": {
+          "number": "5.4",
+          "printed_page": "13",
+          "section": "04_direct_products.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:inflation",
+      "editions": {
+        "compact": {
+          "number": "4.5",
+          "printed_page": "4",
+          "section": "04_direct_products.tex"
+        },
+        "selected": {
+          "number": "5.5",
+          "printed_page": "12",
+          "section": "04_direct_products.tex"
+        },
+        "long": {
+          "number": "5.5",
+          "printed_page": "13",
+          "section": "04_direct_products.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:congruence-obstructions",
+      "editions": {
+        "compact": {
+          "number": "5.1",
+          "printed_page": "4",
+          "section": "05_short_congruences.tex"
+        },
+        "selected": {
+          "number": "4.5",
+          "printed_page": "9",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.5",
+          "printed_page": "10",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:explicit-nongroup-loop",
+      "editions": {
+        "compact": {
+          "number": "5.2",
+          "printed_page": "5",
+          "section": "05_short_congruences.tex"
+        },
+        "selected": {
+          "number": "4.9",
+          "printed_page": "11",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.9",
+          "printed_page": "12",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:small-orders",
+      "editions": {
+        "compact": {
+          "number": "6.1",
+          "printed_page": "5",
+          "section": "06_short_computational.tex"
+        },
+        "selected": {
+          "number": "6.1",
+          "printed_page": "12",
+          "section": "05_computational_core.tex"
+        },
+        "long": {
+          "number": "7.1",
+          "printed_page": "14",
+          "section": "05_computational_results.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:order8",
+      "editions": {
+        "compact": {
+          "number": "6.2",
+          "printed_page": "6",
+          "section": "06_short_computational.tex"
+        },
+        "selected": {
+          "number": "6.2",
+          "printed_page": "12",
+          "section": "05_computational_core.tex"
+        },
+        "long": {
+          "number": "7.2",
+          "printed_page": "14",
+          "section": "05_computational_results.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:all-patterns",
+      "editions": {
+        "compact": {
+          "number": "6.3",
+          "printed_page": "6",
+          "section": "06_short_computational.tex"
+        },
+        "selected": {
+          "number": "6.4",
+          "printed_page": "13",
+          "section": "05_computational_core.tex"
+        },
+        "long": {
+          "number": "7.5",
+          "printed_page": "15",
+          "section": "05_computational_results.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:nonpower-witnesses",
+      "editions": {
+        "compact": {
+          "number": "7.1",
+          "printed_page": "6",
+          "section": "07_short_order12.tex"
+        },
+        "selected": {
+          "number": "7.1",
+          "printed_page": "13",
+          "section": "08_nonpower_fff.tex"
+        },
+        "long": {
+          "number": "8.1",
+          "printed_page": "16",
+          "section": "08_nonpower_fff.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:trade",
+      "editions": {
+        "selected": {
+          "number": "2.4",
+          "printed_page": "3",
+          "section": "02_definitions.tex"
+        },
+        "long": {
+          "number": "2.4",
+          "printed_page": "4",
+          "section": "02_definitions.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:tripartite-links",
+      "editions": {
+        "selected": {
+          "number": "2.5",
+          "printed_page": "4",
+          "section": "02_definitions.tex"
+        },
+        "long": {
+          "number": "2.5",
+          "printed_page": "5",
+          "section": "02_definitions.tex"
+        }
+      }
+    },
+    {
+      "label": "lem:global-three-view-sign",
+      "editions": {
+        "selected": {
+          "number": "2.6",
+          "printed_page": "4",
+          "section": "02_definitions.tex"
+        },
+        "long": {
+          "number": "2.6",
+          "printed_page": "5",
+          "section": "02_definitions.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:aggregate-profile-baseline",
+      "editions": {
+        "selected": {
+          "number": "2.7",
+          "printed_page": "4",
+          "section": "02_definitions.tex"
+        },
+        "long": {
+          "number": "2.7",
+          "printed_page": "5",
+          "section": "02_definitions.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:line-sign-cut",
+      "editions": {
+        "selected": {
+          "number": "2.8",
+          "printed_page": "5",
+          "section": "02_definitions.tex"
+        },
+        "long": {
+          "number": "2.8",
+          "printed_page": "6",
+          "section": "02_definitions.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:subsquare-monotonicity",
+      "editions": {
+        "selected": {
+          "number": "4.1",
+          "printed_page": "7",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.1",
+          "printed_page": "8",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:no-odd-subsquare",
+      "editions": {
+        "selected": {
+          "number": "4.2",
+          "printed_page": "7",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.2",
+          "printed_page": "8",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:binary-kernel-subsquares",
+      "editions": {
+        "selected": {
+          "number": "4.3",
+          "printed_page": "7",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.3",
+          "printed_page": "8",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:prime-field-line-quotients",
+      "editions": {
+        "selected": {
+          "number": "4.4",
+          "printed_page": "9",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.4",
+          "printed_page": "10",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:2p-simple",
+      "editions": {
+        "selected": {
+          "number": "4.6",
+          "printed_page": "10",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.6",
+          "printed_page": "11",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:2p-line-saturation",
+      "editions": {
+        "selected": {
+          "number": "4.7",
+          "printed_page": "10",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.7",
+          "printed_page": "11",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:prime-congruence-series",
+      "editions": {
+        "selected": {
+          "number": "4.8",
+          "printed_page": "10",
+          "section": "04_congruence_obstructions.tex"
+        },
+        "long": {
+          "number": "4.8",
+          "printed_page": "11",
+          "section": "04_congruence_obstructions.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:prime-round-robin-fff",
+      "editions": {
+        "selected": {
+          "number": "7.2",
+          "printed_page": "14",
+          "section": "08_nonpower_fff.tex"
+        },
+        "long": {
+          "number": "8.2",
+          "printed_page": "16",
+          "section": "08_nonpower_fff.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:three-point-bound",
+      "editions": {
+        "selected": {
+          "number": "7.3",
+          "printed_page": "15",
+          "section": "08_nonpower_fff.tex"
+        },
+        "long": {
+          "number": "8.3",
+          "printed_page": "17",
+          "section": "08_nonpower_fff.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:quadratic-norm-lift",
+      "editions": {
+        "selected": {
+          "number": "8.1",
+          "printed_page": "17",
+          "section": "09_prime_square_norm_lift.tex"
+        },
+        "long": {
+          "number": "9.1",
+          "printed_page": "20",
+          "section": "09_prime_square_norm_lift.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:prime-square-almost-all",
+      "editions": {
+        "selected": {
+          "number": "8.2",
+          "printed_page": "19",
+          "section": "09_prime_square_norm_lift.tex"
+        },
+        "long": {
+          "number": "9.2",
+          "printed_page": "21",
+          "section": "09_prime_square_norm_lift.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:affine-criterion",
+      "editions": {
+        "selected": {
+          "number": "9.1",
+          "printed_page": "19",
+          "section": "09_affine_prime_successors.tex"
+        },
+        "long": {
+          "number": "10.1",
+          "printed_page": "21",
+          "section": "09_affine_prime_successors.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:fff98",
+      "editions": {
+        "selected": {
+          "number": "9.2",
+          "printed_page": "19",
+          "section": "09_affine_prime_successors.tex"
+        },
+        "long": {
+          "number": "10.2",
+          "printed_page": "22",
+          "section": "09_affine_prime_successors.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:affine-large-prime",
+      "editions": {
+        "selected": {
+          "number": "9.3",
+          "printed_page": "20",
+          "section": "09_affine_prime_successors.tex"
+        },
+        "long": {
+          "number": "10.3",
+          "printed_page": "22",
+          "section": "09_affine_prime_successors.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:affine-anharmonic",
+      "editions": {
+        "selected": {
+          "number": "9.4",
+          "printed_page": "21",
+          "section": "09_affine_prime_successors.tex"
+        },
+        "long": {
+          "number": "10.4",
+          "printed_page": "23",
+          "section": "09_affine_prime_successors.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:row-fibred-pattern",
+      "editions": {
+        "selected": {
+          "number": "10.1",
+          "printed_page": "22",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.1",
+          "printed_page": "24",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:product-spectrum",
+      "editions": {
+        "selected": {
+          "number": "10.2",
+          "printed_page": "23",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.2",
+          "printed_page": "25",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:fff20-514",
+      "editions": {
+        "selected": {
+          "number": "10.3",
+          "printed_page": "23",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.3",
+          "printed_page": "26",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "lem:binary-descent",
+      "editions": {
+        "selected": {
+          "number": "10.4",
+          "printed_page": "24",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.4",
+          "printed_page": "26",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:affine-fibre-orbits",
+      "editions": {
+        "selected": {
+          "number": "10.5",
+          "printed_page": "24",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.5",
+          "printed_page": "26",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:affine-class-count",
+      "editions": {
+        "selected": {
+          "number": "10.6",
+          "printed_page": "25",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.6",
+          "printed_page": "27",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "lem:binary-rank-certificate",
+      "editions": {
+        "selected": {
+          "number": "10.7",
+          "printed_page": "25",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.7",
+          "printed_page": "27",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:dyadic-fff20-bound",
+      "editions": {
+        "selected": {
+          "number": "10.8",
+          "printed_page": "25",
+          "section": "10_fibred_class_growth.tex"
+        },
+        "long": {
+          "number": "11.8",
+          "printed_page": "28",
+          "section": "10_fibred_class_growth.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:block-return",
+      "editions": {
+        "selected": {
+          "number": "11.1",
+          "printed_page": "26",
+          "section": "13_block_returns_and_crt.tex"
+        },
+        "long": {
+          "number": "12.1",
+          "printed_page": "29",
+          "section": "13_block_returns_and_crt.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:cubefree-crt",
+      "editions": {
+        "selected": {
+          "number": "11.2",
+          "printed_page": "27",
+          "section": "13_block_returns_and_crt.tex"
+        },
+        "long": {
+          "number": "12.2",
+          "printed_page": "29",
+          "section": "13_block_returns_and_crt.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:scalar-boundary",
+      "editions": {
+        "selected": {
+          "number": "11.3",
+          "printed_page": "28",
+          "section": "13_block_returns_and_crt.tex"
+        },
+        "long": {
+          "number": "12.3",
+          "printed_page": "30",
+          "section": "13_block_returns_and_crt.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:matrix-boundary",
+      "editions": {
+        "selected": {
+          "number": "11.4",
+          "printed_page": "28",
+          "section": "13_block_returns_and_crt.tex"
+        },
+        "long": {
+          "number": "12.4",
+          "printed_page": "31",
+          "section": "13_block_returns_and_crt.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:corner-trade",
+      "editions": {
+        "selected": {
+          "number": "12.1",
+          "printed_page": "29",
+          "section": "14_affine_corner_trade.tex"
+        },
+        "long": {
+          "number": "13.1",
+          "printed_page": "31",
+          "section": "14_affine_corner_trade.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:corner-noncontraction",
+      "editions": {
+        "selected": {
+          "number": "12.2",
+          "printed_page": "30",
+          "section": "14_affine_corner_trade.tex"
+        },
+        "long": {
+          "number": "13.2",
+          "printed_page": "32",
+          "section": "14_affine_corner_trade.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:fff20-1703",
+      "editions": {
+        "selected": {
+          "number": "12.3",
+          "printed_page": "30",
+          "section": "14_affine_corner_trade.tex"
+        },
+        "long": {
+          "number": "13.3",
+          "printed_page": "33",
+          "section": "14_affine_corner_trade.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:near-core",
+      "editions": {
+        "selected": {
+          "number": "13.1",
+          "printed_page": "31",
+          "section": "16_crossview_near_triangles.tex"
+        },
+        "long": {
+          "number": "20.1",
+          "printed_page": "66",
+          "section": "16_crossview_near_triangles.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:near-triangle",
+      "editions": {
+        "selected": {
+          "number": "13.2",
+          "printed_page": "31",
+          "section": "16_crossview_near_triangles.tex"
+        },
+        "long": {
+          "number": "20.2",
+          "printed_page": "66",
+          "section": "16_crossview_near_triangles.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:nonnear-anchors",
+      "editions": {
+        "selected": {
+          "number": "13.3",
+          "printed_page": "32",
+          "section": "16_crossview_near_triangles.tex"
+        },
+        "long": {
+          "number": "20.3",
+          "printed_page": "67",
+          "section": "16_crossview_near_triangles.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:binary-lift-count",
+      "editions": {
+        "selected": {
+          "number": "14.1",
+          "printed_page": "33",
+          "section": "17_binary_transversal_lifts.tex"
+        },
+        "long": {
+          "number": "21.1",
+          "printed_page": "68",
+          "section": "17_binary_transversal_lifts.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:same-projection-obstruction",
+      "editions": {
+        "selected": {
+          "number": "14.2",
+          "printed_page": "34",
+          "section": "17_binary_transversal_lifts.tex"
+        },
+        "long": {
+          "number": "21.2",
+          "printed_page": "68",
+          "section": "17_binary_transversal_lifts.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:free-first-orbits",
+      "editions": {
+        "selected": {
+          "number": "14.3",
+          "printed_page": "34",
+          "section": "17_binary_transversal_lifts.tex"
+        },
+        "long": {
+          "number": "21.3",
+          "printed_page": "69",
+          "section": "17_binary_transversal_lifts.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:pairblock-intercalates",
+      "editions": {
+        "selected": {
+          "number": "15.1",
+          "printed_page": "35",
+          "section": "15_current_search_boundaries.tex"
+        },
+        "long": {
+          "number": "23.1",
+          "printed_page": "72",
+          "section": "15_current_search_boundaries.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:value-color-channel",
+      "editions": {
+        "selected": {
+          "number": "16.1",
+          "printed_page": "36",
+          "section": "11_exact_encoding.tex"
+        },
+        "long": {
+          "number": "18.1",
+          "printed_page": "63",
+          "section": "11_exact_encoding.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:q-obstruction",
+      "editions": {
+        "long": {
+          "number": "6.1",
+          "printed_page": "13",
+          "section": "04_cycle_parity.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:affine-profile-saturation",
+      "editions": {
+        "long": {
+          "number": "7.4",
+          "printed_page": "15",
+          "section": "05_computational_results.tex"
+        }
+      }
+    },
+    {
+      "label": "lem:invariant-odd-subset",
+      "editions": {
+        "long": {
+          "number": "14.1",
+          "printed_page": "33",
+          "section": "04_odd_subset_lifts.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:odd-subset-collision",
+      "editions": {
+        "long": {
+          "number": "14.2",
+          "printed_page": "34",
+          "section": "04_odd_subset_lifts.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:primitive-view",
+      "editions": {
+        "long": {
+          "number": "15.1",
+          "printed_page": "35",
+          "section": "04_primitive_degree10.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:at-least-one-s10",
+      "editions": {
+        "long": {
+          "number": "15.2",
+          "printed_page": "36",
+          "section": "04_primitive_degree10.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:flag-surface",
+      "editions": {
+        "long": {
+          "number": "16.1",
+          "printed_page": "36",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:flag-traces",
+      "editions": {
+        "long": {
+          "number": "16.2",
+          "printed_page": "37",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:flag-atom-projection",
+      "editions": {
+        "long": {
+          "number": "16.3",
+          "printed_page": "37",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:flag-topological-sign-cut",
+      "editions": {
+        "long": {
+          "number": "16.4",
+          "printed_page": "38",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:labelled-pair-gram",
+      "editions": {
+        "long": {
+          "number": "16.5",
+          "printed_page": "39",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:pair-label-tensor",
+      "editions": {
+        "long": {
+          "number": "16.6",
+          "printed_page": "40",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:pair-tensor-smith",
+      "editions": {
+        "long": {
+          "number": "16.7",
+          "printed_page": "40",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:triple-endpoint-parity",
+      "editions": {
+        "long": {
+          "number": "16.8",
+          "printed_page": "41",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:colour-parity-holonomy",
+      "editions": {
+        "long": {
+          "number": "16.9",
+          "printed_page": "42",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:holonomy-profile",
+      "editions": {
+        "long": {
+          "number": "16.11",
+          "printed_page": "43",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:holonomy-cell-lift",
+      "editions": {
+        "long": {
+          "number": "16.12",
+          "printed_page": "43",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:exact-mask-cell-pushforward",
+      "editions": {
+        "long": {
+          "number": "16.13",
+          "printed_page": "44",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:cellwise-holonomy-fourier",
+      "editions": {
+        "long": {
+          "number": "16.14",
+          "printed_page": "44",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:cell-role-affine-transport",
+      "editions": {
+        "long": {
+          "number": "16.15",
+          "printed_page": "45",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:cross-component-cell-parity",
+      "editions": {
+        "long": {
+          "number": "16.16",
+          "printed_page": "45",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:gauge-invariant-cell-lift",
+      "editions": {
+        "long": {
+          "number": "16.17",
+          "printed_page": "46",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:quadratic-gram-gauge-obstruction",
+      "editions": {
+        "long": {
+          "number": "16.19",
+          "printed_page": "47",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:component-cell-edge-partition",
+      "editions": {
+        "long": {
+          "number": "16.20",
+          "printed_page": "48",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:cell-companion-surface",
+      "editions": {
+        "long": {
+          "number": "16.21",
+          "printed_page": "49",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:normalized-cell-rank",
+      "editions": {
+        "long": {
+          "number": "16.22",
+          "printed_page": "50",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:joint-atom-cell-rank",
+      "editions": {
+        "long": {
+          "number": "16.23",
+          "printed_page": "51",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:common-mode-gradient",
+      "editions": {
+        "long": {
+          "number": "16.24",
+          "printed_page": "52",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:global-common-mode",
+      "editions": {
+        "long": {
+          "number": "16.25",
+          "printed_page": "53",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:order6-common-mode-lattice",
+      "editions": {
+        "long": {
+          "number": "16.26",
+          "printed_page": "54",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:order6-intrinsic-exchange-parity",
+      "editions": {
+        "long": {
+          "number": "16.27",
+          "printed_page": "55",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:exchange-defect-decomposition",
+      "editions": {
+        "long": {
+          "number": "16.28",
+          "printed_page": "56",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:order8-exchange-parity-controls",
+      "editions": {
+        "long": {
+          "number": "16.29",
+          "printed_page": "56",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:endpoint-characterization",
+      "editions": {
+        "long": {
+          "number": "16.31",
+          "printed_page": "57",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:intrinsic-edge-lift",
+      "editions": {
+        "long": {
+          "number": "16.32",
+          "printed_page": "58",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:rainbow-classifier",
+      "editions": {
+        "long": {
+          "number": "16.34",
+          "printed_page": "59",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:pair-triangle-classifier",
+      "editions": {
+        "long": {
+          "number": "16.35",
+          "printed_page": "59",
+          "section": "02_flag_surface.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:order10-palettes",
+      "editions": {
+        "long": {
+          "number": "17.2",
+          "printed_page": "60",
+          "section": "07_order10_exclusion.tex"
+        }
+      }
+    },
+    {
+      "label": "cthm:order10-nonexistence",
+      "editions": {
+        "long": {
+          "number": "17.3",
+          "printed_page": "62",
+          "section": "07_order10_exclusion.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:same-sign-normalization",
+      "editions": {
+        "long": {
+          "number": "19.1",
+          "printed_page": "64",
+          "section": "12_order18_scope.tex"
+        }
+      }
+    },
+    {
+      "label": "prop:cyclic17-transversal",
+      "editions": {
+        "long": {
+          "number": "19.2",
+          "printed_page": "64",
+          "section": "12_order18_scope.tex"
+        }
+      }
+    },
+    {
+      "label": "cor:near-six-bound",
+      "editions": {
+        "long": {
+          "number": "22.1",
+          "printed_page": "70",
+          "section": "18_scoped_research_ledger.tex"
+        }
+      }
+    },
+    {
+      "label": "thm:mixed-core",
+      "editions": {
+        "long": {
+          "number": "22.2",
+          "printed_page": "70",
+          "section": "18_scoped_research_ledger.tex"
+        }
+      }
+    }
+  ]
+}

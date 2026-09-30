@@ -93,8 +93,8 @@ class SiteTests(unittest.TestCase):
         digest = hashlib.sha256((ROOT / link.path).read_bytes()).hexdigest()[:12]
         self.assertEqual(parse_qs(link.query), {"v": [digest]})
 
-    def test_both_pdf_read_and_download_links(self):
-        for filename in ("FFF_Compact_Research_Dossier.pdf", "FFF_Long_Research_Dossier.pdf"):
+    def test_three_pdf_read_and_download_links(self):
+        for filename in ("FFF_Compact_Research_Dossier.pdf", "FFF_Selected_Research_Dossier.pdf", "FFF_Long_Research_Dossier.pdf"):
             links = [attrs for tag, attrs in self.page.elements
                      if tag == "a" and attrs.get("href") == f"papers/{filename}"]
             self.assertTrue(any("download" in attrs for attrs in links))
@@ -107,6 +107,8 @@ class SiteTests(unittest.TestCase):
             self.assertIn(required, self.source)
         self.assertIn("<details open>", self.source)
         self.assertIn("44 pages / PDF", self.source)
+        self.assertIn("12 pages / PDF", self.source)
+        self.assertIn("THEOREM_EVIDENCE.md", self.source)
         self.assertIn("89 pages / PDF", self.source)
         self.assertIn("through C280", self.source)
         for stale in ("38 pages / PDF", "42 pages / PDF", "80 pages / PDF",

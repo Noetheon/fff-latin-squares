@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "evidence_cutoff_utc": "2026-09-30T12:54:17Z",
+  "scientific_source": "2026-09-30_research_review",
+  "layout_source": "2026-09-30_typography_review",
+  "new_mathematical_claims": false,
+  "editions": [
+    {
+      "id": "compact",
+      "label": "Compact",
+      "role": "Focused, self-contained introduction to the product theorems and small-order examples",
+      "entry": "main_compact.tex",
+      "pdf": "FFF_Compact_Research_Dossier.pdf",
+      "page_range_including_front_matter_and_references": [12, 18]
+    },
+    {
+      "id": "selected",
+      "label": "Selected Results",
+      "role": "The former extended compact companion, with its mathematical contents retained",
+      "entry": "main_core.tex",
+      "pdf": "FFF_Selected_Research_Dossier.pdf",
+      "page_range_including_front_matter_and_references": null
+    },
+    {
+      "id": "long",
+      "label": "Full Research Report",
+      "role": "The unchanged comprehensive C280 report, including scoped computational dependencies",
+      "entry": "main.tex",
+      "pdf": "FFF_Long_Research_Dossier.pdf",
+      "page_range_including_front_matter_and_references": null
+    }
+  ]
+}

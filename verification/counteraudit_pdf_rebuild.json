@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "edition": "compact",
+      "pages": 12,
+      "sha256": "f51d47b9adb9546307a7ef4ae678956208c42acba376eaf0ff605b0600a53dd9",
+      "byte_identical": true,
+      "warnings": []
+    },
+    {
+      "edition": "selected",
+      "pages": 44,
+      "sha256": "78e438894d072bdbf2b7dd25376f237c2e6620e650ac59229cb9d6ed41b0bab1",
+      "byte_identical": true,
+      "warnings": []
+    },
+    {
+      "edition": "long",
+      "pages": 89,
+      "sha256": "74e499f82ab636bee6a55159ba3c6fe5e6b3bb71683e17bcec148c9370c91209",
+      "byte_identical": true,
+      "warnings": []
+    }
+  ],
+  "mathematical_claims_changed": false
+}

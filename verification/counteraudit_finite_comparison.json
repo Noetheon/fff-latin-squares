@@ -1,0 +1,276 @@
+{
+  "passed": true,
+  "comparisons": [
+    {
+      "path": "results/expanded_representatives.jsonl",
+      "comparison": "bytes",
+      "ignored_fields": [],
+      "normalization": [],
+      "reference_sha256": "a64d2df3f5ec19acf504f1779b423e9216716dea85038df9e88ff2610df26272",
+      "fresh_sha256": "a64d2df3f5ec19acf504f1779b423e9216716dea85038df9e88ff2610df26272",
+      "matched": true
+    },
+    {
+      "path": "results/corner_parameters.csv",
+      "comparison": "bytes",
+      "ignored_fields": [],
+      "normalization": [],
+      "reference_sha256": "38988ca28d5780ddf1082a06ca58663326f4eabd0e3f61ef98c0cf1b8f0fea16",
+      "fresh_sha256": "38988ca28d5780ddf1082a06ca58663326f4eabd0e3f61ef98c0cf1b8f0fea16",
+      "matched": true
+    },
+    {
+      "path": "results/exchange_parity.csv",
+      "comparison": "bytes",
+      "ignored_fields": [],
+      "normalization": [],
+      "reference_sha256": "b88725b9e91dbe8058905d9533293f69ec47c2877ee34ac106673e16f7cd5b97",
+      "fresh_sha256": "b88725b9e91dbe8058905d9533293f69ec47c2877ee34ac106673e16f7cd5b97",
+      "matched": true
+    },
+    {
+      "path": "results/master_inventory.txt",
+      "comparison": "bytes",
+      "ignored_fields": [],
+      "normalization": [],
+      "reference_sha256": "5922cecad04e6a3738f801d4ba701148551532998aa654db36e0ef7ce51d8562",
+      "fresh_sha256": "5922cecad04e6a3738f801d4ba701148551532998aa654db36e0ef7ce51d8562",
+      "matched": true
+    },
+    {
+      "path": "results/expanded_summary.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "d9cfec526be68fc750856d43f0d56f1049e4df627cd170adf2149dcb306bd7c2",
+      "fresh_sha256": "d9cfec526be68fc750856d43f0d56f1049e4df627cd170adf2149dcb306bd7c2",
+      "matched": true
+    },
+    {
+      "path": "results/verified_certificates.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "6afdc2c17eb3e0e1036e1c7ef5578d44402e607cf9cb9391fe2202e5d79961ac",
+      "fresh_sha256": "6afdc2c17eb3e0e1036e1c7ef5578d44402e607cf9cb9391fe2202e5d79961ac",
+      "matched": true
+    },
+    {
+      "path": "results/secondary_verification.json",
+      "comparison": "JSON",
+      "ignored_fields": [
+        "$.seconds"
+      ],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "dda1c1b01a334502aa76baf7e3c10efdc864400e04ca313c76834f1661e7eb22",
+      "fresh_sha256": "a193726e979187b9b8a7eb2fb90d09088329d603e71699cecc1bdbef75565d2e",
+      "matched": true
+    },
+    {
+      "path": "results/crt_N9.json",
+      "comparison": "JSON",
+      "ignored_fields": [
+        "$.seconds"
+      ],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "5066375cca4bdfb0797ba9dd2f4d3073881f22191aff02efd1627d64e50d21b9",
+      "fresh_sha256": "b9144c9016f64d6f758f2bfb5cd0c7a0059371989ccbbefd53ad1ad7f01eac94",
+      "matched": true
+    },
+    {
+      "path": "results/crt_N15.json",
+      "comparison": "JSON",
+      "ignored_fields": [
+        "$.seconds"
+      ],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "cc85622d9ab868f01b2231c3f28aaa33f1fd9fdb73287c0d142a048862effacf",
+      "fresh_sha256": "ec8428e8a47fc6f57d312e283bc8ed1d647f5c78a8f8de82618467929ace26a6",
+      "matched": true
+    },
+    {
+      "path": "results/crt_N45.json",
+      "comparison": "JSON",
+      "ignored_fields": [
+        "$.seconds"
+      ],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "d4cf28f34685ee37f35250220424af6742eb0980c76b37109aca0417db5537e6",
+      "fresh_sha256": "65d85134fa2e764515c731563cc2211515b96a9249f29842b6ca2cc08c83a7e4",
+      "matched": true
+    },
+    {
+      "path": "results/crt_N75.json",
+      "comparison": "JSON",
+      "ignored_fields": [
+        "$.seconds"
+      ],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "6e58a918a8ebe25c0f4577ffa42e7836ee909689d3214d9fe306079eae654db8",
+      "fresh_sha256": "b363eeb75cf492b30fdb4eb63a4c1cd275479311c7d03e57bd94df8f278c7dd1",
+      "matched": true
+    },
+    {
+      "path": "results/burnside_and_arithmetic.json",
+      "comparison": "JSON",
+      "ignored_fields": [
+        "$.seconds"
+      ],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "77e3806986f73b83d8794265717ec70d896063fcccd68f0ccf1b4e3baa07072e",
+      "fresh_sha256": "92e5fe2ad41ffe7d260205aadf01754962f65cf643a0dde0bbb98ebb9b762a8e",
+      "matched": true
+    },
+    {
+      "path": "results/additional_controls.json",
+      "comparison": "JSON",
+      "ignored_fields": [
+        "$.seconds"
+      ],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "e4c3e8e8bac7332180a4795b1db763db713fae408aeb6a32dfd87bd3c91bd201",
+      "fresh_sha256": "38b6009af2bd65a8866b626c9912ed6ed9cc6b8cddd8a4d7562ec0a4433bcd44",
+      "matched": true
+    },
+    {
+      "path": "results/trade_parity.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "5138e9cd0a646dc4b8fb6e29aeb0227dc613784f746517db2024af6e9e534c63",
+      "fresh_sha256": "5138e9cd0a646dc4b8fb6e29aeb0227dc613784f746517db2024af6e9e534c63",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/burnside.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "7b67287273f5409577a5b62b09ec5407cad6b18f3e80f8b0ebb1f9ac9fdc364c",
+      "fresh_sha256": "7b67287273f5409577a5b62b09ec5407cad6b18f3e80f8b0ebb1f9ac9fdc364c",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/core_results.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "0c0ed99c6297328b3e749db293279637a14c7771b1658391b25788c34f7d5aeb",
+      "fresh_sha256": "0c0ed99c6297328b3e749db293279637a14c7771b1658391b25788c34f7d5aeb",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/formulation_scope.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "9108794d05c826e1fb2194b9c7a4c00cbbb1d14a496b3a3e686fa16c3c50c5fe",
+      "fresh_sha256": "9108794d05c826e1fb2194b9c7a4c00cbbb1d14a496b3a3e686fa16c3c50c5fe",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/norm_and_36.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "88396fb419b3bbaeb4de386d403de95927fb0d291b53a393f9aec255168197fb",
+      "fresh_sha256": "88396fb419b3bbaeb4de386d403de95927fb0d291b53a393f9aec255168197fb",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/order20_rank_certificates.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "f177ee64cdc6f8b867493fe0af7807a66d22579a540d405903438df0a60b8a31",
+      "fresh_sha256": "f177ee64cdc6f8b867493fe0af7807a66d22579a540d405903438df0a60b8a31",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/order8_230_checks.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "fcaaf2308c6b3fe479a75182a8f74ce8ab8ec474632bcd2dccf2ee6616f6463c",
+      "fresh_sha256": "fcaaf2308c6b3fe479a75182a8f74ce8ab8ec474632bcd2dccf2ee6616f6463c",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/report_value_checks.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "b39c191c1a919f02dc350063a85e62fdd47a78bac584ffe8c9a627672f9ac610",
+      "fresh_sha256": "b39c191c1a919f02dc350063a85e62fdd47a78bac584ffe8c9a627672f9ac610",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/smallorders_and_flags.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "8d42d377070950a9e31174bf71e40b09e833329dd6b5eb357a63de05c2550e8a",
+      "fresh_sha256": "8d42d377070950a9e31174bf71e40b09e833329dd6b5eb357a63de05c2550e8a",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/threepoint_checks.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "1527e25fd146fac39c4b7963f4376350620c9c6442ec1558bf7315592e68b4b9",
+      "fresh_sha256": "1527e25fd146fac39c4b7963f4376350620c9c6442ec1558bf7315592e68b4b9",
+      "matched": true
+    },
+    {
+      "path": "rerun/results/trade_19_0.json",
+      "comparison": "JSON",
+      "ignored_fields": [],
+      "normalization": [
+        "JSON object key order only"
+      ],
+      "reference_sha256": "2b5245d2ff03b9323b5c2903c698c1f1473ec11ce4aecf580aeeea2fab9730b8",
+      "fresh_sha256": "2b5245d2ff03b9323b5c2903c698c1f1473ec11ce4aecf580aeeea2fab9730b8",
+      "matched": true
+    }
+  ],
+  "scope": "24 fixed finite outputs, not whole-manuscript correctness or human peer review"
+}

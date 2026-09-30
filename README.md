@@ -9,9 +9,12 @@ length greater than one in any of the row, column and symbol views (FFF).
 ## Read the dossier
 
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
-- [Compact reading version (44-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
+- [Compact starting point (12-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
+- [Selected Results (44-page PDF)](papers/FFF_Selected_Research_Dossier.pdf)
 - [Full technical record (89-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Current layout sources](manuscript/candidates/2026-09-30_typography_review/README.md)
+- [Current revision and reproduction](manuscript/candidates/2026-09-30_counteraudit_revision/README.md)
+- [Theorem numbers, proof sources and evidence](manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md)
+- [Critical counteraudit: confirmed findings and limits](manuscript/candidates/2026-09-30_counteraudit_revision/REVIEW_AND_LIMITATIONS.md)
 - [Unchanged C280 scientific sources and bounded audit](manuscript/candidates/2026-09-30_research_review/README.md)
 - [Typography and scholarly-presentation audit](verification/TYPOGRAPHY_AND_SCHOLARLY_AUDIT_2026-09-30.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
@@ -20,8 +23,12 @@ length greater than one in any of the row, column and symbol views (FFF).
 - [Historical 28 September release](verification/RELEASE_2026-09-28.md)
 - [Historical audit corrections](verification/RELEASE_2026-09-28_CORRECTIONS.md)
 
-Read the disclosure at the beginning of either PDF before relying on its claims.
-The two versions overlap; they are not two independent studies.
+Read the disclosure at the beginning of each PDF before relying on its claims.
+The three reading editions overlap; they are not independent studies.
+The former 44-page Compact is now **Selected Results**. The new Compact
+contains complete selected proofs and stays within 12-18 total pages.
+This counteraudit revision clarifies dependencies and references without
+extending the scientific cutoff or adding a mathematical claim.
 
 **Current edition: 30 September 2026 snapshot; scientific intake is frozen at
 2026-09-30T12:54:17Z through C280 and the completed binary-first-orbit companion.**

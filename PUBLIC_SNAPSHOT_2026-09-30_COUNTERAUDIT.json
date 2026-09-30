@@ -1,0 +1,213 @@
+{
+  "edition": "2026-09-30 counteraudit revision and three reading editions",
+  "evidence_cutoff_utc": "2026-09-30T12:54:17Z",
+  "files": [
+    {
+      "bytes": 3719,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/FINAL_AUDIT.md",
+      "sha256": "e12b3735c6bff3860e95953bb57529527f9188cc6ed61c5ce94fb233a5cd0102"
+    },
+    {
+      "bytes": 7810,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/INPUTS.sha256",
+      "sha256": "a7b7ad87e223c05895e7c0663f530beb1e508f238a017072f002655a2d782a70"
+    },
+    {
+      "bytes": 1311,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/MANIFEST.sha256",
+      "sha256": "fedcd2b4831aa686a02eac81a5820b849377c9e9dd38d0b086598c0e1a2f04d8"
+    },
+    {
+      "bytes": 295,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/OUTPUTS.sha256",
+      "sha256": "f8814bb91574299e4b0ba5155daae569d2f031612a7cc75574abc8a6f3fec7e8"
+    },
+    {
+      "bytes": 4264,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/README.md",
+      "sha256": "ce4d9695b4cbc0b76e8b8cdc941f9f01730e15d8eddf1f2a4a5a360735e63efc"
+    },
+    {
+      "bytes": 5734,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/REVIEW_AND_LIMITATIONS.md",
+      "sha256": "0b4e10ce6677d981571e87101014b7c5bcdbd0dd8ea93ce29ceb066862beb22e"
+    },
+    {
+      "bytes": 33374,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.json",
+      "sha256": "7905e12c7bc7d9378c2bad18e867dd32b443848a4e21c22922420ebdcb44cbff"
+    },
+    {
+      "bytes": 19968,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md",
+      "sha256": "41bf3bfd98a0efa7e5dabb1f211b2e80b78d3a585b9c327be4851eab123208a8"
+    },
+    {
+      "bytes": 2740,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/UNNUMBERED_EVIDENCE.md",
+      "sha256": "9b521b00634f8957dfd1f9f20971bcf7ab08881dba6adfad3923d06db30dd346"
+    },
+    {
+      "bytes": 921,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/commands.sh",
+      "sha256": "ead016b3440b4a8aeb9ce37921377d31c8a694da3d919e22feefb57765682b64"
+    },
+    {
+      "bytes": 9156,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/evidence_groups.json",
+      "sha256": "5688263052319381184b5379d6b80484c4d5ce2a8271f561b1b06de69fbf03e3"
+    },
+    {
+      "bytes": 27747,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/results/compact_examples.json",
+      "sha256": "deb18deb4174e6be9614fa87e9474824410610b681e3ea321ad07d59ffcbfb85"
+    },
+    {
+      "bytes": 57231,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/results/edition_build.json",
+      "sha256": "8ae02ad67718c21d184d155153fc78309a8f3337d983c2bb6a6e09ea1bd89698"
+    },
+    {
+      "bytes": 7960,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/results/edition_checks.json",
+      "sha256": "52386bd9e4da854c82e032de86612787d483f5a1271b9721b3d6d19f0a0be169"
+    },
+    {
+      "bytes": 8132,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/scripts/build_editions.py",
+      "sha256": "de8b41ad4aaca1041bd798840a2dada604ec075cac0b5149b7414aa3d6122e67"
+    },
+    {
+      "bytes": 5381,
+      "path": "manuscript/candidates/2026-09-30_counteraudit_revision/scripts/build_evidence_index.py",
+      "sha256": "1eade5b7ba30434fa2e968096c4a72ce841642d08149f730f25c75881c35f0c0"
+    },
+    {
+      "bytes": 5396,
+      "path": "manuscript/candidates/2026-09-30_three_editions/FINAL_AUDIT.md",
+      "sha256": "2db6613705d03d21b4072a802875597b3f6b34b5c0db924378f6dc8f2768f4d1"
+    },
+    {
+      "bytes": 6541,
+      "path": "manuscript/candidates/2026-09-30_three_editions/INPUTS.sha256",
+      "sha256": "55ef6e9889eef69ee3d8826374b6c4f63c49b1b083f517de742706ae7d51b498"
+    },
+    {
+      "bytes": 1724,
+      "path": "manuscript/candidates/2026-09-30_three_editions/MANIFEST.sha256",
+      "sha256": "da2e55a9d79588ce070bd864b3720c2e9eb35fef9668486ee5799451fd84ec56"
+    },
+    {
+      "bytes": 295,
+      "path": "manuscript/candidates/2026-09-30_three_editions/OUTPUTS.sha256",
+      "sha256": "c7bbde01cff6188b4141349982692b820fc22292a1a7b7061879dbf7e55aae05"
+    },
+    {
+      "bytes": 4560,
+      "path": "manuscript/candidates/2026-09-30_three_editions/README.md",
+      "sha256": "078483515141a4e5ff69be70f4f8cee8d4b47ddf209bd0fc9b5e335d997a231e"
+    },
+    {
+      "bytes": 843,
+      "path": "manuscript/candidates/2026-09-30_three_editions/commands.sh",
+      "sha256": "4a4a9c7d6e12ec31816beb7ebc0eb35015693df9b9fc574e5c997e747eef58e2"
+    },
+    {
+      "bytes": 1174,
+      "path": "manuscript/candidates/2026-09-30_three_editions/editions.json",
+      "sha256": "fd4e1a661896e05dbd5b80ce70702f4a60720d499d23ceadb7dc58321cf21dee"
+    },
+    {
+      "bytes": 752,
+      "path": "manuscript/candidates/2026-09-30_three_editions/main_compact.tex",
+      "sha256": "33aa8d22f24208533750db9ed6967d4a49396736291a5769af4b72521f1357f7"
+    },
+    {
+      "bytes": 27748,
+      "path": "manuscript/candidates/2026-09-30_three_editions/results/compact_examples.json",
+      "sha256": "a2dcd5f85eb4e8afdee528f4e3ba234d77eddaa3879f37210e75df740c0ec54d"
+    },
+    {
+      "bytes": 32762,
+      "path": "manuscript/candidates/2026-09-30_three_editions/results/edition_build.json",
+      "sha256": "cc74d87a6a32e28864dfcef2265138b9408bd39c0343931b30ef9b3b9fc8a967"
+    },
+    {
+      "bytes": 7960,
+      "path": "manuscript/candidates/2026-09-30_three_editions/results/edition_checks.json",
+      "sha256": "4c242654b65e794934dd72c32b09a97210c8a340c86ef2aab224ccbed27ed395"
+    },
+    {
+      "bytes": 1815,
+      "path": "manuscript/candidates/2026-09-30_three_editions/results/repository_and_rebuild_summary.json",
+      "sha256": "868339ef3ed6679210f6f927013585f1ad57c7d314edb905a4103b3d2dc4dcb8"
+    },
+    {
+      "bytes": 11302,
+      "path": "manuscript/candidates/2026-09-30_three_editions/scripts/build_editions.py",
+      "sha256": "efd0808abd1175e892162450e6b77a8ea5936738e49f68ea8cf47a62a33d20c9"
+    },
+    {
+      "bytes": 7739,
+      "path": "manuscript/candidates/2026-09-30_three_editions/scripts/check_compact_examples.py",
+      "sha256": "b08e2747a74a04bb657127bb2d24931bd783ed14be1938351279327614042302"
+    },
+    {
+      "bytes": 3583,
+      "path": "manuscript/candidates/2026-09-30_three_editions/scripts/record_checks.py",
+      "sha256": "8e7025faaa34e8322d0da7249bd621e7f940c223575b2740b95334ffe1beaa12"
+    },
+    {
+      "bytes": 1181,
+      "path": "manuscript/candidates/2026-09-30_three_editions/sections/00_abstract.tex",
+      "sha256": "cc381f3c800bbc8ca3ac94fb6a2fa287a976fb496c754eeac05743c210ad1860"
+    },
+    {
+      "bytes": 2116,
+      "path": "manuscript/candidates/2026-09-30_three_editions/sections/00_status_note.tex",
+      "sha256": "885cf654fa3fb04dfa7fa85a00eeb5757691229875ff7588a1daf237620f5955"
+    },
+    {
+      "bytes": 2552,
+      "path": "manuscript/candidates/2026-09-30_three_editions/sections/01_short_introduction.tex",
+      "sha256": "7417d6b043b4d62e06b8cd54d6f3fd2dce95d788eac70d024ae8acb54cc11aa7"
+    },
+    {
+      "bytes": 2740,
+      "path": "manuscript/candidates/2026-09-30_three_editions/sections/08_short_reproducibility.tex",
+      "sha256": "ebb1ce3feb8974818b76d2a928047740bdb7871d2c98fecb9d26e508024649a7"
+    },
+    {
+      "bytes": 1583,
+      "path": "manuscript/candidates/2026-09-30_three_editions/sections/09_short_discussion.tex",
+      "sha256": "53bf1b48a064cbca1fa682686052c1022971012a0d8adf14b29524d0323d125f"
+    }
+  ],
+  "historical_receipts_modified": false,
+  "last_in_scope_claim": "C280",
+  "mathematical_claims_changed": false,
+  "new_aliases": [
+    {
+      "path": "papers/FFF_Selected_Research_Dossier.pdf",
+      "public_sha256": "78e438894d072bdbf2b7dd25376f237c2e6620e650ac59229cb9d6ed41b0bab1"
+    }
+  ],
+  "non_payload_reconciliation": {
+    "field": "predecessor INPUTS.sha256",
+    "policy": "Original input hashes are preserved. The public C280 builder is a previously recorded adapter; current public bytes are bound by the receipt and public manifest. No scientific hash is silently replaced."
+  },
+  "previous_receipt_sha256": "d0dc28334e7a4f7d75a03dd1af10e37f5d12316fd1a7b924a5394e3147eb4bba",
+  "private_history_imported": false,
+  "superseded_aliases": [
+    {
+      "path": "papers/FFF_Compact_Research_Dossier.pdf",
+      "previous_sha256": "f6cc0b56641b220323c23984eaaf5d6b2c09de8ce715fb02aeefaa9dbbb0d3e6",
+      "public_sha256": "f51d47b9adb9546307a7ef4ae678956208c42acba376eaf0ff605b0600a53dd9"
+    },
+    {
+      "path": "papers/FFF_Long_Research_Dossier.pdf",
+      "previous_sha256": "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a",
+      "public_sha256": "74e499f82ab636bee6a55159ba3c6fe5e6b3bb71683e17bcec148c9370c91209"
+    }
+  ]
+}

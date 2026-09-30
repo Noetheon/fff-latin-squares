@@ -124,10 +124,13 @@ Some write into their run folders. Do not run them in place on frozen evidence.
 
 The current build assembles the frozen
 [30 September scientific sources](manuscript/candidates/2026-09-30_research_review/README.md)
-with the [typography correction](manuscript/candidates/2026-09-30_typography_review/README.md):
-44 compact and 89 long pages. All mathematical body sections and bibliographies
-are inherited byte-for-byte; four explicit entry/style/abstract overrides
-correct the front matter. The correction does not extend the evidence cutoff.
+with the [counteraudit revision](manuscript/candidates/2026-09-30_counteraudit_revision/README.md):
+12 Compact, 44 Selected Results and 89 Full Report pages. A counted editorial
+overlay clarifies the order-10 abstract, the former conjecture's provenance and
+two bibliography entries. Complete shared proof blocks are retained; Compact
+selects only a coherent subset and narrows the witness statement to order 12.
+The correction does not extend the evidence cutoff. The previous typography
+sources and their historical output hashes remain unchanged.
 The original `manuscript/main.tex` and `main_core.tex` are historical September
 sources, not the entry points for the current PDFs. Do not rebuild them and
 label their open-C38 narrative current.
@@ -139,7 +142,7 @@ python3 -B tools/build_pdfs.py --output .audit/pdf-rebuild
 ```
 
 The script uses no shell escape and builds in scratch directories. It compares
-both generated PDFs with the shipped bytes. Byte identity is expected with the
+all three generated PDFs with the shipped bytes. Byte identity is expected with the
 recorded TeX Live 2026 toolchain; another TeX distribution may produce a byte drift
 without changing mathematical content. Such a drift is a failure of byte identity,
 not silently normalized as success. No build log containing a local path is part
@@ -174,6 +177,14 @@ replayable with tools/check_paper_layout.py, requiring optional pypdf and
 pypdfium2 packages.
 A separate CI job installs pinned PDF-check dependencies and checks the actual
 committed PDFs for page flow, page labels, glyph margins and metadata.
+`PUBLIC_SNAPSHOT_2026-09-30_COUNTERAUDIT.json` adds the third reading edition
+and the counted editorial amendments. The three-edition predecessor records
+are preserved as historical build records, not claims of current public hashes.
+Its `INPUTS.sha256` names the original source collection; the existing public
+C280 builder is a privacy/reproduction adapter rather than that original file.
+This non-payload difference does not change scientific section bytes. Public
+inputs are bound by the current receipt and manifest, not by silently replacing
+the predecessor input hash. Use the current successor's reproduction commands.
 The default verify job and standard-library test suite remain dependency-free.
 Earlier receipts remain unchanged. No historical
 digest is silently replaced and no private development history is imported. Historical output

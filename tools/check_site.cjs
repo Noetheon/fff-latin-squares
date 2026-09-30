@@ -59,7 +59,7 @@ async function main() {
       assert.equal(record.overflow, false);
       assert.deepEqual(record.overflowingText, []);
       assert(record.images.every(i => i.loaded));
-      assert.equal(record.downloads.length, 3);
+      assert.equal(record.downloads.length, 4);
       assert(record.downloads.includes('examples/order8_fff.json'));
       assert.equal(record.inlineScripts, 0);
       assert.deepEqual(errors, []);
@@ -72,7 +72,7 @@ async function main() {
     const report = { passed: true, browser: browser.version(),
       target: new URL(url).protocol === 'file:' ? 'local-static-page' : 'published-page',
       page_sha256: digest('index.html'), css_sha256: digest('assets/site.css'),
-      pdf_sha256: Object.fromEntries(['FFF_Compact_Research_Dossier.pdf', 'FFF_Long_Research_Dossier.pdf'].map(f => [f, digest('papers/' + f)])),
+      pdf_sha256: Object.fromEntries(['FFF_Compact_Research_Dossier.pdf', 'FFF_Selected_Research_Dossier.pdf', 'FFF_Long_Research_Dossier.pdf'].map(f => [f, digest('papers/' + f)])),
       records };
     fs.writeFileSync(path.join(output, 'site-checks.json'), JSON.stringify(report, null, 2) + '\n');
     console.log(JSON.stringify({ passed: true, viewports: records.length, browser: report.browser }));

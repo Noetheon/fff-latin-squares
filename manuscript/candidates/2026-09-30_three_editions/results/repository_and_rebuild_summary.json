@@ -1,0 +1,79 @@
+{
+  "source_report_sha256": "9cf67f272bb8bc9cb6b1b7d0f21159fbae14ac43c4c472fa54fd473ded703b1c",
+  "passed": true,
+  "timestamp_utc": "2026-09-30T15:23:14.312044+00:00",
+  "publication_ready": false,
+  "paper_currency_status": "blocked_historical_manuscript",
+  "checks": [
+    {
+      "name": "tracked-file hygiene",
+      "passed": true
+    },
+    {
+      "name": "release PDF hashes",
+      "passed": true
+    },
+    {
+      "name": "maintained documentation links",
+      "passed": true
+    },
+    {
+      "name": "unit_tests",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 266.955
+    },
+    {
+      "name": "manifests",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 71.477
+    },
+    {
+      "name": "snapshot",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.13
+    },
+    {
+      "name": "nonpower_draft",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 4.452
+    },
+    {
+      "name": "semantic",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.183
+    },
+    {
+      "name": "computational",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.234
+    },
+    {
+      "name": "diff",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.039
+    },
+    {
+      "name": "staged_diff",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.02
+    },
+    {
+      "name": "tracked_evidence_preserved",
+      "passed": true
+    }
+  ],
+  "fresh_build_pdf_hashes_agree": true,
+  "pdf_sha256": {
+    "compact": "470d15cd42f4b2d876f6d4afd8a83ff8a0d535359d2ca8aec544899b90ca75e5",
+    "selected": "bb872f055edb1de0d22c5f90cb6d3f3f223750fc1e5daf53f6ea9677ca995ced",
+    "long": "836864560ee69c4bbfce14ebbcb848c983f39d0f006c1454c5c22eb58d7be81a"
+  }
+}

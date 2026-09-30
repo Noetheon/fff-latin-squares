@@ -81,6 +81,10 @@ class CurrentSnapshotTests(unittest.TestCase):
         expected_files = self.typography_receipt(
             expected_files, (ROOT / "PUBLIC_SNAPSHOT_2026-09-30.json").read_bytes(),
             typography)
+        counteraudit_bytes = (ROOT / "PUBLIC_SNAPSHOT_2026-09-30_COUNTERAUDIT.json").read_bytes()
+        expected_files = self.counteraudit_receipt(
+            expected_files, (ROOT / "PUBLIC_SNAPSHOT_2026-09-30_TYPOGRAPHY.json").read_bytes(),
+            json.loads(counteraudit_bytes))
         for relative, expected in expected_files.items():
             path = ROOT / relative
             self.assertFalse(path.is_symlink(), relative)
@@ -93,6 +97,55 @@ class CurrentSnapshotTests(unittest.TestCase):
                    if path.is_file()}
         self.assertTrue(shipped)
         self.assertEqual(recorded, shipped, "new candidate receipt coverage differs")
+
+    def counteraudit_receipt(self, expected, previous_bytes, successor):
+        self.assertEqual(successor["previous_receipt_sha256"],
+                         hashlib.sha256(previous_bytes).hexdigest())
+        self.assertEqual(successor["last_in_scope_claim"], "C280")
+        self.assertIs(successor["mathematical_claims_changed"], False)
+        result = dict(expected)
+        replacements = self.receipt_rows(successor["superseded_aliases"], "public_sha256")
+        self.assertEqual(set(replacements), PDF_ALIASES)
+        for path, row in replacements.items():
+            self.assertEqual(row["previous_sha256"], result[path])
+            result[path] = row["public_sha256"]
+        added = self.receipt_rows(successor["new_aliases"], "public_sha256")
+        self.assertEqual(set(added), {"papers/FFF_Selected_Research_Dossier.pdf"})
+        for path, row in added.items():
+            self.assertNotIn(path, result)
+            result[path] = row["public_sha256"]
+        for path, row in self.receipt_rows(successor["files"], "sha256").items():
+            if path in result:
+                self.assertEqual(row["sha256"], result[path], "Frozen source changed: " + path)
+            result[path] = row["sha256"]
+        return result
+
+    def test_counteraudit_receipt_keeps_frozen_sources_and_single_new_alias(self):
+        old = {path: "1" * 64 for path in PDF_ALIASES | {"immutable.txt"}}
+        previous = b"frozen predecessor"
+        receipt = {"previous_receipt_sha256": hashlib.sha256(previous).hexdigest(),
+                   "last_in_scope_claim": "C280", "mathematical_claims_changed": False,
+                   "superseded_aliases": [{"path": path, "previous_sha256": "1" * 64,
+                                           "public_sha256": "2" * 64} for path in sorted(PDF_ALIASES)],
+                   "new_aliases": [{"path": "papers/FFF_Selected_Research_Dossier.pdf",
+                                    "public_sha256": "3" * 64}],
+                   "files": [{"path": "counteraudit-source.txt", "sha256": "4" * 64}]}
+        result = self.counteraudit_receipt(old, previous, receipt)
+        self.assertEqual(result["immutable.txt"], old["immutable.txt"])
+        for fault in ("missing", "unexpected", "overwrite", "frozen", "claim"):
+            changed = json.loads(json.dumps(receipt))
+            if fault == "missing":
+                changed["new_aliases"] = []
+            elif fault == "unexpected":
+                changed["new_aliases"][0]["path"] = "papers/Unreviewed.pdf"
+            elif fault == "overwrite":
+                changed["new_aliases"][0]["path"] = "immutable.txt"
+            elif fault == "frozen":
+                changed["files"] = [{"path": "immutable.txt", "sha256": "0" * 64}]
+            else:
+                changed["mathematical_claims_changed"] = True
+            with self.subTest(fault=fault), self.assertRaises(AssertionError):
+                self.counteraudit_receipt(old, previous, changed)
 
     def typography_receipt(self, expected, previous_bytes, successor):
         self.assertEqual(successor["previous_receipt_sha256"],

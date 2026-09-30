@@ -1,0 +1,695 @@
+{
+  "passed": true,
+  "evidence_cutoff_utc": "2026-09-30T12:54:17Z",
+  "new_mathematical_claims": false,
+  "independent_human_peer_review": false,
+  "variants": [
+    {
+      "id": "compact",
+      "pages": 12,
+      "pdf": "pdfs/FFF_Compact_Research_Dossier.pdf",
+      "sha256": "f51d47b9adb9546307a7ef4ae678956208c42acba376eaf0ff605b0600a53dd9",
+      "page_budget_passed": true,
+      "warnings": [],
+      "source_record": {
+        "predecessor": {
+          "frozen_layout": {
+            "body_and_bibliography_byte_preserved": true,
+            "preserved_sources_sha256": {
+              "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+              "references_nonpower.bib": "fb2c87462fad40c01379c079860731884b9979b7b76bfcb48ce2d625a26445ad",
+              "sections/00_status_note.tex": "3d1cf0f6656fe822ab6a1e369e8297868039f075d43b55dfdb424c053d0d1965",
+              "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+              "sections/01_introduction_core.tex": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7",
+              "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+              "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+              "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+              "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+              "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+              "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+              "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+              "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+              "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+              "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+              "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+              "sections/06_reproducibility_core.tex": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f",
+              "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+              "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+              "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+              "sections/07_order10_exclusion.tex": "7dc08e68dd500807cd9e6e02768226b481252406a8ab70d068b314ff1fcec197",
+              "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+              "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+              "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+              "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+              "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+              "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+              "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+              "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+              "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+              "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+              "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+              "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+            },
+            "editorial_overrides": [
+              "main.tex",
+              "main_core.tex",
+              "paper_setup.tex",
+              "sections/00_abstract.tex"
+            ]
+          },
+          "editorial_changes": [],
+          "excerpts": [
+            {
+              "source": "manuscript/candidates/2026-09-30_research_review/sections/02_definitions.tex",
+              "source_sha256": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+              "start": "\\section{Definitions and invariance}",
+              "end": "\\begin{definition}\nFix two rows",
+              "include_end": false,
+              "excerpt_sha256": "550e4ccfe30a08bac5a074b08314474ccd6c9678c67d2e215a2ce72224366324"
+            },
+            {
+              "source": "manuscript/candidates/2026-09-30_research_review/sections/02_definitions.tex",
+              "source_sha256": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+              "start": "An \\emph{isotopy}",
+              "end": null,
+              "include_end": false,
+              "excerpt_sha256": "d4aa2c35dda9a62fee13bbfd4becfb510669b87d53d0818e7a9a8e936098c89e"
+            },
+            {
+              "source": "manuscript/candidates/2026-09-30_research_review/sections/04_congruence_obstructions.tex",
+              "source_sha256": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+              "start": "We next use congruences",
+              "end": "\\begin{corollary}[Order-$2p$ simplicity]",
+              "include_end": false,
+              "excerpt_sha256": "30a9e45a821bb647f3c3057451698515d35e4b55d59367f1d6d5013faa3dcb76"
+            },
+            {
+              "source": "manuscript/candidates/2026-09-30_research_review/sections/04_congruence_obstructions.tex",
+              "source_sha256": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+              "start": "The same theorem also gives a census-free nongroup example.",
+              "end": null,
+              "include_end": false,
+              "excerpt_sha256": "4ed09b48869026e1d9bfc7de831aae53cb9ec0f05b3640520d883cf43bd69166"
+            },
+            {
+              "source": "manuscript/candidates/2026-09-30_research_review/sections/05_computational_core.tex",
+              "source_sha256": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+              "start": "\\section{Computational results}",
+              "end": "\\begin{computationaltheorem}[Subsquare census of the FFF classes]",
+              "include_end": false,
+              "excerpt_sha256": "a2d69ef75758946cabfeedf4cee7df8e9f7db18589073912ad109b7d6d3febb0"
+            },
+            {
+              "source": "manuscript/candidates/2026-09-30_research_review/sections/05_computational_core.tex",
+              "source_sha256": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+              "start": "The ordered non-symmetric labels",
+              "end": null,
+              "include_end": false,
+              "excerpt_sha256": "8b68acd8c567b52fa908dc615d1812bb27c1cf8a49b87b5f49f9d6b228a4f88c"
+            },
+            {
+              "source": "manuscript/candidates/2026-09-30_research_review/sections/08_nonpower_fff.tex",
+              "source_sha256": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+              "start": "\\begin{table}[ht]",
+              "end": "\\end{table}",
+              "include_end": true,
+              "excerpt_sha256": "0856cfae28bcb9d669542ae26675784548ca475b814b37befd9d8f5951c648fe"
+            }
+          ],
+          "new_source_sha256": {
+            "manuscript/candidates/2026-09-30_three_editions/main_compact.tex": "33aa8d22f24208533750db9ed6967d4a49396736291a5769af4b72521f1357f7",
+            "manuscript/candidates/2026-09-30_three_editions/sections/00_abstract.tex": "cc381f3c800bbc8ca3ac94fb6a2fa287a976fb496c754eeac05743c210ad1860",
+            "manuscript/candidates/2026-09-30_three_editions/sections/00_status_note.tex": "885cf654fa3fb04dfa7fa85a00eeb5757691229875ff7588a1daf237620f5955",
+            "manuscript/candidates/2026-09-30_three_editions/sections/01_short_introduction.tex": "7417d6b043b4d62e06b8cd54d6f3fd2dce95d788eac70d024ae8acb54cc11aa7",
+            "manuscript/candidates/2026-09-30_three_editions/sections/08_short_reproducibility.tex": "ebb1ce3feb8974818b76d2a928047740bdb7871d2c98fecb9d26e508024649a7",
+            "manuscript/candidates/2026-09-30_three_editions/sections/09_short_discussion.tex": "53bf1b48a064cbca1fa682686052c1022971012a0d8adf14b29524d0323d125f"
+          },
+          "presentation_adjustments": [
+            "Keep the order-8 census statement and table on one page with samepage",
+            "Enlarge order-12 table from scriptsize to small; retain all entries"
+          ],
+          "assembled_sources_sha256": {
+            "main.tex": "7561ff58281d6023fc548a2c60912040bfa2dda95c470dd1d52fa92588cc1657",
+            "main_compact.tex": "33aa8d22f24208533750db9ed6967d4a49396736291a5769af4b72521f1357f7",
+            "main_core.tex": "c75e4010d0dc92c74a74d2076cf8f66e92376dc1eb3f32c9e068b6dd7b3dbafe",
+            "paper_setup.tex": "8b0dad4dc60163c4a13bf0c091cededbf220cd58058a9394aa5f25fb07de1a02",
+            "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+            "references_nonpower.bib": "fb2c87462fad40c01379c079860731884b9979b7b76bfcb48ce2d625a26445ad",
+            "sections/00_abstract.tex": "cc381f3c800bbc8ca3ac94fb6a2fa287a976fb496c754eeac05743c210ad1860",
+            "sections/00_status_note.tex": "885cf654fa3fb04dfa7fa85a00eeb5757691229875ff7588a1daf237620f5955",
+            "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+            "sections/01_introduction_core.tex": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7",
+            "sections/01_short_introduction.tex": "7417d6b043b4d62e06b8cd54d6f3fd2dce95d788eac70d024ae8acb54cc11aa7",
+            "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+            "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+            "sections/02_short_definitions.tex": "e50ad2bf16ebd6af86d964e88314e156690e513651c80c8f7d28b1189ffcedb4",
+            "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+            "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+            "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+            "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+            "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+            "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+            "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+            "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+            "sections/05_short_congruences.tex": "5fabd7facf6fc6280e851663e7c51ed56cb6a09fd68f79daf45d5f00a24d600b",
+            "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+            "sections/06_reproducibility_core.tex": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f",
+            "sections/06_short_computational.tex": "7267f5f457ba222af720da18bf05e39653380eab0655c3dbf72ac17f7f39c508",
+            "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+            "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+            "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+            "sections/07_order10_exclusion.tex": "7dc08e68dd500807cd9e6e02768226b481252406a8ab70d068b314ff1fcec197",
+            "sections/07_short_order12.tex": "9e4c751653196972acaa892e7024f3150161e50517edbc7f2ebbb9664bd55934",
+            "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+            "sections/08_short_reproducibility.tex": "ebb1ce3feb8974818b76d2a928047740bdb7871d2c98fecb9d26e508024649a7",
+            "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+            "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+            "sections/09_short_discussion.tex": "53bf1b48a064cbca1fa682686052c1022971012a0d8adf14b29524d0323d125f",
+            "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+            "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+            "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+            "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+            "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+            "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+            "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+            "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+            "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+          }
+        },
+        "counteraudit_changes": [
+          {
+            "file": "sections/00_abstract.tex",
+            "before": "disproves the former power-of-two-only conjecture.",
+            "after": "disproves this project's former power-of-two-only conjecture.",
+            "count": 1
+          },
+          {
+            "file": "sections/00_status_note.tex",
+            "before": "refutes the former power-of-two-only conjecture.",
+            "after": "refutes this project's former power-of-two-only conjecture.",
+            "count": 1
+          },
+          {
+            "file": "sections/07_short_order12.tex",
+            "before": "is FFF. Thus the conjecture that nontrivial FFF squares exist only\nat powers of two is false.",
+            "after": "is FFF. Thus this project's earlier working conjecture that\nnontrivial FFF squares exist only at powers of two is false.",
+            "count": 1
+          },
+          {
+            "file": "sections/08_short_reproducibility.tex",
+            "before": "\\begin{center}\\small\n\\texttt{python3 -B tools/build\\_paper\\_editions.py}\\\\\n\\texttt{--output .audit/three-editions-check}\n\\end{center}",
+            "after": "\\begin{quote}\\small\n\\begin{verbatim}\npython3 -B tools/build_paper_editions.py \\\n  --output .audit/three-editions-check\n\\end{verbatim}\n\\end{quote}",
+            "count": 1
+          },
+          {
+            "file": "sections/08_short_reproducibility.tex",
+            "before": "\\nolinkurl{manuscript/candidates/2026-09-30_three_editions/}.",
+            "after": "\\nolinkurl{manuscript/candidates/2026-09-30_counteraudit_revision/}.\nIts finite checker is retained in the three-edition predecessor.",
+            "count": 1
+          },
+          {
+            "file": "sections/07_order10_exclusion.tex",
+            "before": "condition simultaneously in all three coordinate views.  The nearby strict\nclassification historically suggested a stronger existence conjecture, now\nknown to be false.",
+            "after": "condition simultaneously in all three coordinate views. The nearby strict\nclassification motivated an earlier working conjecture of this project,\nnow known to be false; the weaker FFF assertion is not a theorem or\nconjecture attributed to Kobayashi and Nakamura.",
+            "count": 1
+          },
+          {
+            "file": "sections/07_order10_exclusion.tex",
+            "before": "The assertion that FFF Latin squares of order $n>1$ exist exactly at powers\nof two is false.",
+            "after": "This project's earlier working conjecture that FFF Latin squares of\norder $n>1$ exist exactly at powers of two is false.",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  eprint        = {2607.09459},",
+            "after": "  eprint        = {2607.09459},\n  howpublished  = {Preprint, \\url{https://arxiv.org/abs/2607.09459}},",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "@misc{ErskineGriggs2024CycleSwitch,",
+            "after": "@article{ErskineGriggs2024CycleSwitch,",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  year          = {2024},\n  eprint        = {2405.07750},\n  howpublished  = {Preprint, \\url{https://arxiv.org/abs/2405.07750}},",
+            "after": "  year          = {2025},\n  journal       = {Journal of Combinatorial Designs},\n  volume        = {33},\n  number        = {5},\n  pages         = {195--204},\n  doi           = {10.1002/jcd.21975},\n  eprint        = {2405.07750},",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  note          = {Section 3.2 prints the 11 rotational starters of the no-6-cycle STS(19)}",
+            "after": "  note          = {\\url{https://doi.org/10.1002/jcd.21975}. Preprint arXiv:2405.07750, Section 3.2, prints the 11 rotational starters of the no-6-cycle STS(19)}",
+            "count": 1
+          }
+        ],
+        "assembled_sources_sha256": {
+          "main.tex": "7561ff58281d6023fc548a2c60912040bfa2dda95c470dd1d52fa92588cc1657",
+          "main_compact.tex": "33aa8d22f24208533750db9ed6967d4a49396736291a5769af4b72521f1357f7",
+          "main_core.tex": "c75e4010d0dc92c74a74d2076cf8f66e92376dc1eb3f32c9e068b6dd7b3dbafe",
+          "paper_setup.tex": "8b0dad4dc60163c4a13bf0c091cededbf220cd58058a9394aa5f25fb07de1a02",
+          "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+          "references_nonpower.bib": "104a0af66b2d08c19e9f0d037ad43d5195c40574fd269d35650492dbad29f289",
+          "sections/00_abstract.tex": "c05d9c13706669d993c151981232c1c2d1ddf06c7858cf62123b72dc0b70b90b",
+          "sections/00_status_note.tex": "5908d8259395fb1bab0e89752dd4c468adee3125a31b05d18f77ba66b7260765",
+          "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+          "sections/01_introduction_core.tex": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7",
+          "sections/01_short_introduction.tex": "7417d6b043b4d62e06b8cd54d6f3fd2dce95d788eac70d024ae8acb54cc11aa7",
+          "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+          "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+          "sections/02_short_definitions.tex": "e50ad2bf16ebd6af86d964e88314e156690e513651c80c8f7d28b1189ffcedb4",
+          "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+          "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+          "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+          "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+          "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+          "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+          "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+          "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+          "sections/05_short_congruences.tex": "5fabd7facf6fc6280e851663e7c51ed56cb6a09fd68f79daf45d5f00a24d600b",
+          "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+          "sections/06_reproducibility_core.tex": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f",
+          "sections/06_short_computational.tex": "7267f5f457ba222af720da18bf05e39653380eab0655c3dbf72ac17f7f39c508",
+          "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+          "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+          "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+          "sections/07_order10_exclusion.tex": "f523066abebe166a5da824d0f3c8e40c31383f4a2343e47ca8be2a0258c7e198",
+          "sections/07_short_order12.tex": "43097093c3b0c9fc9474bf47fc287362c1284d4a612a92390a35975e5e75953b",
+          "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+          "sections/08_short_reproducibility.tex": "b380d2fa3abf427dfd846d36436972d0f8fef3e80f3721d7ce5d008022ac410f",
+          "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+          "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+          "sections/09_short_discussion.tex": "53bf1b48a064cbca1fa682686052c1022971012a0d8adf14b29524d0323d125f",
+          "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+          "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+          "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+          "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+          "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+          "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+          "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+          "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+          "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+        }
+      }
+    },
+    {
+      "id": "selected",
+      "pages": 44,
+      "pdf": "pdfs/FFF_Selected_Research_Dossier.pdf",
+      "sha256": "78e438894d072bdbf2b7dd25376f237c2e6620e650ac59229cb9d6ed41b0bab1",
+      "page_budget_passed": true,
+      "warnings": [],
+      "source_record": {
+        "predecessor": {
+          "frozen_layout": {
+            "body_and_bibliography_byte_preserved": true,
+            "preserved_sources_sha256": {
+              "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+              "references_nonpower.bib": "fb2c87462fad40c01379c079860731884b9979b7b76bfcb48ce2d625a26445ad",
+              "sections/00_status_note.tex": "3d1cf0f6656fe822ab6a1e369e8297868039f075d43b55dfdb424c053d0d1965",
+              "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+              "sections/01_introduction_core.tex": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7",
+              "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+              "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+              "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+              "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+              "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+              "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+              "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+              "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+              "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+              "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+              "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+              "sections/06_reproducibility_core.tex": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f",
+              "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+              "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+              "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+              "sections/07_order10_exclusion.tex": "7dc08e68dd500807cd9e6e02768226b481252406a8ab70d068b314ff1fcec197",
+              "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+              "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+              "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+              "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+              "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+              "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+              "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+              "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+              "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+              "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+              "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+              "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+            },
+            "editorial_overrides": [
+              "main.tex",
+              "main_core.tex",
+              "paper_setup.tex",
+              "sections/00_abstract.tex"
+            ]
+          },
+          "editorial_changes": [
+            {
+              "file": "main_core.tex",
+              "before": "Research dossier: compact companion",
+              "after": "Research dossier: Selected Results",
+              "count": 1
+            },
+            {
+              "file": "00_status_note.tex",
+              "before": "compact",
+              "after": "selected-results",
+              "count": 1
+            },
+            {
+              "file": "01_introduction_core.tex",
+              "before": "compact",
+              "after": "selected-results",
+              "count": 1
+            },
+            {
+              "file": "06_reproducibility_core.tex",
+              "before": "compact",
+              "after": "selected-results",
+              "count": 3
+            }
+          ],
+          "excerpts": [],
+          "new_source_sha256": {},
+          "assembled_sources_sha256": {
+            "main.tex": "7561ff58281d6023fc548a2c60912040bfa2dda95c470dd1d52fa92588cc1657",
+            "main_core.tex": "26c36731d0b71a0bd4c783930f03c3f2b28c67b95470527e66815fc3105ff5a0",
+            "paper_setup.tex": "8b0dad4dc60163c4a13bf0c091cededbf220cd58058a9394aa5f25fb07de1a02",
+            "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+            "references_nonpower.bib": "fb2c87462fad40c01379c079860731884b9979b7b76bfcb48ce2d625a26445ad",
+            "sections/00_abstract.tex": "6fac68105db3d80c20e1088e97a95dcaf0f85b7de7c0b7072d9fd0d9f4079df4",
+            "sections/00_status_note.tex": "105947fb386c4052ac6d39ab860eb42343ac1f6b33b4604766f6b11c8f013ae0",
+            "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+            "sections/01_introduction_core.tex": "f529ad91ba6961ded97a71ce4b1f8c6edb4772bed8b58f7dfd6bf9b8e16bcfc6",
+            "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+            "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+            "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+            "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+            "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+            "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+            "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+            "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+            "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+            "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+            "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+            "sections/06_reproducibility_core.tex": "399b1d79374c631c17a948b58171741cce7076056d0b803519ff29de15eb1f04",
+            "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+            "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+            "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+            "sections/07_order10_exclusion.tex": "7dc08e68dd500807cd9e6e02768226b481252406a8ab70d068b314ff1fcec197",
+            "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+            "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+            "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+            "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+            "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+            "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+            "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+            "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+            "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+            "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+            "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+            "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+          }
+        },
+        "counteraudit_changes": [
+          {
+            "file": "sections/00_abstract.tex",
+            "before": "disprove the former power-of-two existence conjecture.\nThe order-$10$ exclusion combines a group-theoretic reduction with exact\nfinite computation.",
+            "after": "disprove this project's former power-of-two existence conjecture.\nThe order-$10$ exclusion uses a complete cycle-type palette reduction,\nresidual-group orbit covers, and exact finite searches, without a\nprimitive-group filter.",
+            "count": 1
+          },
+          {
+            "file": "sections/07_order10_exclusion.tex",
+            "before": "condition simultaneously in all three coordinate views.  The nearby strict\nclassification historically suggested a stronger existence conjecture, now\nknown to be false.",
+            "after": "condition simultaneously in all three coordinate views. The nearby strict\nclassification motivated an earlier working conjecture of this project,\nnow known to be false; the weaker FFF assertion is not a theorem or\nconjecture attributed to Kobayashi and Nakamura.",
+            "count": 1
+          },
+          {
+            "file": "sections/07_order10_exclusion.tex",
+            "before": "The assertion that FFF Latin squares of order $n>1$ exist exactly at powers\nof two is false.",
+            "after": "This project's earlier working conjecture that FFF Latin squares of\norder $n>1$ exist exactly at powers of two is false.",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  eprint        = {2607.09459},",
+            "after": "  eprint        = {2607.09459},\n  howpublished  = {Preprint, \\url{https://arxiv.org/abs/2607.09459}},",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "@misc{ErskineGriggs2024CycleSwitch,",
+            "after": "@article{ErskineGriggs2024CycleSwitch,",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  year          = {2024},\n  eprint        = {2405.07750},\n  howpublished  = {Preprint, \\url{https://arxiv.org/abs/2405.07750}},",
+            "after": "  year          = {2025},\n  journal       = {Journal of Combinatorial Designs},\n  volume        = {33},\n  number        = {5},\n  pages         = {195--204},\n  doi           = {10.1002/jcd.21975},\n  eprint        = {2405.07750},",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  note          = {Section 3.2 prints the 11 rotational starters of the no-6-cycle STS(19)}",
+            "after": "  note          = {\\url{https://doi.org/10.1002/jcd.21975}. Preprint arXiv:2405.07750, Section 3.2, prints the 11 rotational starters of the no-6-cycle STS(19)}",
+            "count": 1
+          }
+        ],
+        "assembled_sources_sha256": {
+          "main.tex": "7561ff58281d6023fc548a2c60912040bfa2dda95c470dd1d52fa92588cc1657",
+          "main_core.tex": "26c36731d0b71a0bd4c783930f03c3f2b28c67b95470527e66815fc3105ff5a0",
+          "paper_setup.tex": "8b0dad4dc60163c4a13bf0c091cededbf220cd58058a9394aa5f25fb07de1a02",
+          "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+          "references_nonpower.bib": "104a0af66b2d08c19e9f0d037ad43d5195c40574fd269d35650492dbad29f289",
+          "sections/00_abstract.tex": "15e691762a6b9b1349c214adea8ecfb22d1426f5153c543cf8bd8af2f2d7553f",
+          "sections/00_status_note.tex": "105947fb386c4052ac6d39ab860eb42343ac1f6b33b4604766f6b11c8f013ae0",
+          "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+          "sections/01_introduction_core.tex": "f529ad91ba6961ded97a71ce4b1f8c6edb4772bed8b58f7dfd6bf9b8e16bcfc6",
+          "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+          "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+          "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+          "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+          "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+          "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+          "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+          "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+          "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+          "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+          "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+          "sections/06_reproducibility_core.tex": "399b1d79374c631c17a948b58171741cce7076056d0b803519ff29de15eb1f04",
+          "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+          "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+          "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+          "sections/07_order10_exclusion.tex": "f523066abebe166a5da824d0f3c8e40c31383f4a2343e47ca8be2a0258c7e198",
+          "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+          "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+          "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+          "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+          "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+          "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+          "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+          "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+          "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+          "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+          "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+          "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+        }
+      }
+    },
+    {
+      "id": "long",
+      "pages": 89,
+      "pdf": "pdfs/FFF_Long_Research_Dossier.pdf",
+      "sha256": "74e499f82ab636bee6a55159ba3c6fe5e6b3bb71683e17bcec148c9370c91209",
+      "page_budget_passed": true,
+      "warnings": [],
+      "source_record": {
+        "predecessor": {
+          "frozen_layout": {
+            "body_and_bibliography_byte_preserved": true,
+            "preserved_sources_sha256": {
+              "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+              "references_nonpower.bib": "fb2c87462fad40c01379c079860731884b9979b7b76bfcb48ce2d625a26445ad",
+              "sections/00_status_note.tex": "3d1cf0f6656fe822ab6a1e369e8297868039f075d43b55dfdb424c053d0d1965",
+              "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+              "sections/01_introduction_core.tex": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7",
+              "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+              "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+              "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+              "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+              "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+              "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+              "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+              "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+              "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+              "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+              "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+              "sections/06_reproducibility_core.tex": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f",
+              "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+              "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+              "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+              "sections/07_order10_exclusion.tex": "7dc08e68dd500807cd9e6e02768226b481252406a8ab70d068b314ff1fcec197",
+              "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+              "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+              "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+              "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+              "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+              "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+              "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+              "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+              "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+              "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+              "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+              "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+            },
+            "editorial_overrides": [
+              "main.tex",
+              "main_core.tex",
+              "paper_setup.tex",
+              "sections/00_abstract.tex"
+            ]
+          },
+          "editorial_changes": [],
+          "excerpts": [],
+          "new_source_sha256": {},
+          "assembled_sources_sha256": {
+            "main.tex": "7561ff58281d6023fc548a2c60912040bfa2dda95c470dd1d52fa92588cc1657",
+            "main_core.tex": "c75e4010d0dc92c74a74d2076cf8f66e92376dc1eb3f32c9e068b6dd7b3dbafe",
+            "paper_setup.tex": "8b0dad4dc60163c4a13bf0c091cededbf220cd58058a9394aa5f25fb07de1a02",
+            "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+            "references_nonpower.bib": "fb2c87462fad40c01379c079860731884b9979b7b76bfcb48ce2d625a26445ad",
+            "sections/00_abstract.tex": "6fac68105db3d80c20e1088e97a95dcaf0f85b7de7c0b7072d9fd0d9f4079df4",
+            "sections/00_status_note.tex": "3d1cf0f6656fe822ab6a1e369e8297868039f075d43b55dfdb424c053d0d1965",
+            "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+            "sections/01_introduction_core.tex": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7",
+            "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+            "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+            "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+            "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+            "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+            "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+            "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+            "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+            "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+            "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+            "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+            "sections/06_reproducibility_core.tex": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f",
+            "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+            "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+            "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+            "sections/07_order10_exclusion.tex": "7dc08e68dd500807cd9e6e02768226b481252406a8ab70d068b314ff1fcec197",
+            "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+            "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+            "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+            "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+            "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+            "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+            "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+            "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+            "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+            "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+            "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+            "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+          }
+        },
+        "counteraudit_changes": [
+          {
+            "file": "sections/00_abstract.tex",
+            "before": "disprove the former power-of-two existence conjecture.\nThe order-$10$ exclusion combines a group-theoretic reduction with exact\nfinite computation.",
+            "after": "disprove this project's former power-of-two existence conjecture.\nThe order-$10$ exclusion uses a complete cycle-type palette reduction,\nresidual-group orbit covers, and exact finite searches, without a\nprimitive-group filter.",
+            "count": 1
+          },
+          {
+            "file": "sections/00_status_note.tex",
+            "before": "The compact\ncompanion imports",
+            "after": "The Selected Results\ncompanion imports",
+            "count": 1
+          },
+          {
+            "file": "sections/07_order10_exclusion.tex",
+            "before": "condition simultaneously in all three coordinate views.  The nearby strict\nclassification historically suggested a stronger existence conjecture, now\nknown to be false.",
+            "after": "condition simultaneously in all three coordinate views. The nearby strict\nclassification motivated an earlier working conjecture of this project,\nnow known to be false; the weaker FFF assertion is not a theorem or\nconjecture attributed to Kobayashi and Nakamura.",
+            "count": 1
+          },
+          {
+            "file": "sections/07_order10_exclusion.tex",
+            "before": "The assertion that FFF Latin squares of order $n>1$ exist exactly at powers\nof two is false.",
+            "after": "This project's earlier working conjecture that FFF Latin squares of\norder $n>1$ exist exactly at powers of two is false.",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  eprint        = {2607.09459},",
+            "after": "  eprint        = {2607.09459},\n  howpublished  = {Preprint, \\url{https://arxiv.org/abs/2607.09459}},",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "@misc{ErskineGriggs2024CycleSwitch,",
+            "after": "@article{ErskineGriggs2024CycleSwitch,",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  year          = {2024},\n  eprint        = {2405.07750},\n  howpublished  = {Preprint, \\url{https://arxiv.org/abs/2405.07750}},",
+            "after": "  year          = {2025},\n  journal       = {Journal of Combinatorial Designs},\n  volume        = {33},\n  number        = {5},\n  pages         = {195--204},\n  doi           = {10.1002/jcd.21975},\n  eprint        = {2405.07750},",
+            "count": 1
+          },
+          {
+            "file": "references_nonpower.bib",
+            "before": "  note          = {Section 3.2 prints the 11 rotational starters of the no-6-cycle STS(19)}",
+            "after": "  note          = {\\url{https://doi.org/10.1002/jcd.21975}. Preprint arXiv:2405.07750, Section 3.2, prints the 11 rotational starters of the no-6-cycle STS(19)}",
+            "count": 1
+          }
+        ],
+        "assembled_sources_sha256": {
+          "main.tex": "7561ff58281d6023fc548a2c60912040bfa2dda95c470dd1d52fa92588cc1657",
+          "main_core.tex": "c75e4010d0dc92c74a74d2076cf8f66e92376dc1eb3f32c9e068b6dd7b3dbafe",
+          "paper_setup.tex": "8b0dad4dc60163c4a13bf0c091cededbf220cd58058a9394aa5f25fb07de1a02",
+          "references.bib": "c4d7d28f4dd495fe4f2df5b85ceecb273994e90ffb9049bebfd48668e26697d3",
+          "references_nonpower.bib": "104a0af66b2d08c19e9f0d037ad43d5195c40574fd269d35650492dbad29f289",
+          "sections/00_abstract.tex": "15e691762a6b9b1349c214adea8ecfb22d1426f5153c543cf8bd8af2f2d7553f",
+          "sections/00_status_note.tex": "9b5bd52c00549979433ab716838eb87f361b30a084810088658558af9b4ef48d",
+          "sections/01_introduction.tex": "fe90842721200afe36390734532de2e201685a23831bdc6f006271799a376c29",
+          "sections/01_introduction_core.tex": "858a0fc6d2975e8ddf8120dc4d54470fe28e683c6b33f0d9b696df6d3db35ec7",
+          "sections/02_definitions.tex": "d70cee3f36414aa5f3ee704fe582124e4d9405db7277a5fdb842fe411392ccd7",
+          "sections/02_flag_surface.tex": "44e524c7bd865c0badf80a098618eb356203abc26d051990558a2bf1e21f66ed",
+          "sections/03_structural_results.tex": "48bdc208101860f52f59a1db6c80a8d6fcbf7ac83c3926fce74e8d26d6c192a3",
+          "sections/04_congruence_obstructions.tex": "ccfca0e8ecf9e5d38679f734d645b01a9cc8681051c42c435052a242adb21918",
+          "sections/04_cycle_parity.tex": "e5102fa5722b4784ef6bfff32ed9a3f38d8808714c9c8a636a2099cfb08cb019",
+          "sections/04_direct_products.tex": "5a4171a6cc942be24f31ce22835316ba38eb234bf1b3ce71d54d978591551219",
+          "sections/04_odd_subset_lifts.tex": "5bccb2c59c1e94c5de1676cf5788e50f6094918784ab2c9634203e3b09eb888a",
+          "sections/04_primitive_degree10.tex": "5d6e9410d156eaf583773e8b1560800deb7c5c293581efd10a30523916ff150a",
+          "sections/05_computational_core.tex": "3ce3dd0e3dd927e99c57b34c3896b5ec1e1f867669280497ae573d11053cfac0",
+          "sections/05_computational_results.tex": "c235e8779c3510a3525d8eab641a78ae94636cbac4bccda2b100a168635a2594",
+          "sections/06_reproducibility.tex": "513e4d15b926fe1bb72f76ec3694596cf9145ceb4967dbf3f4b2b98af881410c",
+          "sections/06_reproducibility_core.tex": "1de0cd7953183bbf3e7a63db94a7946b578476cc806d32cef5f078977543648f",
+          "sections/06_snapshot_evidence.tex": "3b9bcac8c937a6f6bfecacaed3843f1d8c3c89f66352b469b798542230560a66",
+          "sections/07_open_problems.tex": "a172ef11704bebfd7134e65018e291097e8913c6f0d87202edf8d78454b40bca",
+          "sections/07_open_problems_core.tex": "7288fb3640eceff1a2a717a3f68b196de3dffb4a6ad23fc53f7d6ffc575f59c2",
+          "sections/07_order10_exclusion.tex": "f523066abebe166a5da824d0f3c8e40c31383f4a2343e47ca8be2a0258c7e198",
+          "sections/08_nonpower_fff.tex": "4863f55e91edbd0820ba79bc5dff0b753c904f326308398fe4fd4136d4965c9a",
+          "sections/09_affine_prime_successors.tex": "44a1b6efbca8d6a33ccb2a6ca7d83c8168603dceac647e17e63a8cac198bf827",
+          "sections/09_prime_square_norm_lift.tex": "d2ba1a85c8f9b56ba2eb0bfa525fae74304aea42c1b6e434b96b87c220f567e4",
+          "sections/10_fibred_class_growth.tex": "cada11d8381d5bca8c750dc51c416e1690db87a9f05bf2f2b5f392071d89e2bf",
+          "sections/11_exact_encoding.tex": "7b22f0a3a59656e91976ea121b70d37688be5da501790630027db50aa1864573",
+          "sections/12_order18_scope.tex": "92a4962966bb2c8623a02e297eace0e468f855a9f7419122d7d4d567d81b8b2b",
+          "sections/13_block_returns_and_crt.tex": "fd87abe15889a23abc3792882fc7f792729477775a6ac3226bc241a296100e85",
+          "sections/14_affine_corner_trade.tex": "ae292eba0052065be5d34a2c5c41207d7a927213da4828386dc2aec54c01ecd6",
+          "sections/15_current_search_boundaries.tex": "bce28bd2011026f47d42efe5cffd450ff67816e0e8727b3a53065bc39fbc51e8",
+          "sections/16_crossview_near_triangles.tex": "02b583fbe0801300fe105d459f8794a39131416109714fe4444eaa4cdd2a90f6",
+          "sections/17_binary_transversal_lifts.tex": "4aefdacdbc60764b604118ccbefddf4b92a41ebea0b9070784fca751535cf219",
+          "sections/18_scoped_research_ledger.tex": "c8b179beaf7d11a5f4b625d1814aa2311839b40d87e3f69053251b167487145f"
+        }
+      }
+    }
+  ],
+  "environment": {
+    "source_date_epoch": 1790772857,
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+    "latexmk": "Latexmk, John Collins, 9 March 2026. Version 4.88"
+  }
+}

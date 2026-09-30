@@ -29,7 +29,7 @@ def main():
     if not out.is_relative_to(root / ".audit") or out.exists():
         ap.error("Use a new .audit output")
     records = []
-    for variant in ("Compact", "Long"):
+    for variant in ("Compact", "Selected", "Long"):
         path = root / "papers" / f"FFF_{variant}_Research_Dossier.pdf"
         reader = PdfReader(path)
         catalog = reader.trailer["/Root"]

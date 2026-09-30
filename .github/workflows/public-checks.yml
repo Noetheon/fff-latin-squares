@@ -23,6 +23,10 @@ jobs:
           python3 -B tools/check_paper_layout.py
           --pdf papers/FFF_Long_Research_Dossier.pdf
           --output .audit/pdf-layout/long.json
+      - run: >-
+          python3 -B tools/check_paper_layout.py
+          --pdf papers/FFF_Selected_Research_Dossier.pdf
+          --output .audit/pdf-layout/selected.json
       - run: python3 -B tools/check_pdf_metadata.py --output .audit/pdf-layout/metadata.json
   verify:
     runs-on: ubuntu-latest

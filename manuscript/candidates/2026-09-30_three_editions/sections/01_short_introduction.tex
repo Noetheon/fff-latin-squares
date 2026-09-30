@@ -1,0 +1,45 @@
+\section{Introduction}
+
+A Latin square has three interchangeable coordinate roles: row, column,
+and symbol. Comparing two lines in one role gives a permutation of a
+complementary coordinate set. The question considered here is whether any
+such permutation has a nontrivial odd cycle. Recording the answer in all
+three views gives an ordered pattern in $\{F,T\}^3$, where $T$ denotes the
+presence of an odd-cycle witness. The designation FFF means that no view
+has such a witness. Testing only rows, or only rows and columns, does not
+establish this condition.
+
+The central structural statements concern direct products. Their induced
+permutations factor coordinatewise, and product-cycle lengths are least
+common multiples of the factor lengths. This yields the exact rule
+\[
+ \pat(L\times K)=\pat(L)\mathbin{\mathrm{OR}}\pat(K).
+\]
+A separate closure criterion shows that the product is group-isotopic
+if and only if both factors are. Both assertions include converses, and
+neither relies on a finite census. In particular, an FFF factor preserves
+the pattern of its partner, and a nongroup factor cannot become
+group-isotopic by taking a direct product.
+
+Two small examples make the scope concrete. A binary extension of the
+cyclic group of order $4$ gives a nonassociative FFF loop of order $8$.
+Its properties are proved, rather than inferred from an exhaustive scan.
+At order $12$, an explicit table supplies a computationally checked FFF
+example. Consequently, existence is not confined to powers of two, even
+though every group-isotopic FFF square has power-of-two order.
+
+For comparison, the finite data record contains no FFF square of order $6$
+and exactly $230$ FFF main classes at order $8$, of which $225$ are not
+group-isotopic. The census is relative to the external classification and
+data of McKay, Meynert, and Myrvold~\cite{McKayMeynertMyrvold2007,McKayLatinData}.
+These counts and the written proofs are different types of evidence.
+The product construction gives higher-order existence, not injectivity on
+main classes or a higher-order classification.
+
+This paper is a focused reading edition of a larger research dossier.
+It does not claim priority for standard permutation arguments, group-isotopy
+criteria, or their formulations. The \emph{Selected Results} edition adds
+further constructions and structural results; the \emph{Full Research
+Report} supplies the detailed order-$10$ computational exclusion and
+precisely bounded order-$18$ search results. Those dependencies are not
+silently replaced by shorter arguments here.

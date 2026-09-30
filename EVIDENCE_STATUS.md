@@ -33,7 +33,11 @@ The two master-search decompositions use the same search implementation and must
 not be described as two independent search implementations. External census and
 PrimGrp completeness assumptions are retained explicitly in the technical text.
 
-The compact PDF is a reading aid with a smaller theorem set. Consult the long
+The 12-page Compact contains a smaller, complete selected proof chain; the
+44-page Selected Results retains the former extended compact material.
+The [current theorem-to-evidence index](manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md)
+maps compiled statement numbers in all three editions to their evidence.
+Consult the long
 dossier for the order-10 reduction and computational evidence. No mathematical
 claim is established merely by public hosting. This edition incorporates later
 proof text and finite evidence, with a fresh, bounded audit described in the

@@ -1,0 +1,51 @@
+\section{Reproducibility and evidence}\label{sec:reproducibility}
+
+The source package separates general proofs from finite controls. Every
+mathematical block reused in this edition is selected from the frozen
+30 September source, with its source hash recorded by the edition builder.
+The longer editions reuse those sources rather than maintaining competing
+versions of a theorem. The editorial selection does not upgrade a claim.
+
+\paragraph{Finite computational dependencies.}
+The small-order enumeration is recorded in
+\nolinkurl{repro_runs/2026-04-26_small_order_witness_reruns/}.
+Its generator constructs the reduced tables rather than loading a cached
+result, and checks Latinness, reduction, and uniqueness. The order-$8$
+census is recorded in \nolinkurl{repro_runs/2026-04-26_order8_core/},
+with a separate group-isotopy reconstruction in
+\nolinkurl{repro_runs/2026-04-26_order8_closure_reconstruction/}.
+The frozen compressed census input has SHA-256
+\nolinkurl{e5980ff5bc4ac46cbbefd1f1333258d0905724c42a976c4afe61ea501a4ccf87}.
+Matching this hash identifies the input; it does not independently prove
+that the external census is complete.
+
+\paragraph{Displayed examples and product controls.}
+The order-$12$ table is the frozen \nolinkurl{data/order12_first.json}
+from the non-power-of-two witness intake, SHA-256
+\nolinkurl{8b71d6ecaa6ab86a806a0660529b404d8f3667db2b58b82bf5c72fed010fa416}.
+The edition check compares the displayed table with that input and traverses
+all $198$ line-pair permutations. It also constructs the order-$8$ loop
+directly from its formula, checks its closure failure, tests products with
+$C_2$ and $C_2^2$, and checks the eight frozen pattern controls.
+These are small checks of the selected content, not fresh exhaustive
+order-$8$ or order-$10$ computations. The general product results rest on
+the proof of Theorem~\ref{thm:pattern-product} and the subsequent results,
+not on these tests.
+
+\paragraph{Rebuilding this edition.}
+From the research repository root, the command
+\begin{center}\small
+\texttt{python3 -B tools/build\_paper\_editions.py}\\
+\texttt{--output .audit/three-editions-check}
+\end{center}
+builds all three editions using the fixed evidence date, with shell escape
+disabled. The output includes source-selection records, PDF hashes, page
+counts, and compiler diagnostics. The companion
+\nolinkurl{scripts/check_compact_examples.py} runs the finite checks above.
+The source package is
+\nolinkurl{manuscript/candidates/2026-09-30_three_editions/}.
+
+The project is distributed for critical examination at
+\url{https://noetheon.github.io/fff-latin-squares/}.
+Repository checks establish specified file and computation properties,
+not peer review, novelty, or a complete order spectrum.
