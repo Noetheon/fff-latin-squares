@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "scope": "18 bounded result comparisons only",
+  "external_manifest_sha256": "571062bcd9ac17bbd5a2c0f779a3967474b7bdc1059c03933a1aedecfadbd659",
+  "sealed_payload_files_checked": 60,
+  "comparisons": [
+    {
+      "scope": "baseline",
+      "file": "binary_lift_checks.json",
+      "reference_sha256": "edb40bb96dbcdea451e7e443f6d7c1817a0cc9f0033e57590e5d5d49ccb828c1",
+      "actual_sha256": "edb40bb96dbcdea451e7e443f6d7c1817a0cc9f0033e57590e5d5d49ccb828c1",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "binary_mate_checks.json",
+      "reference_sha256": "384f8d60ea948add2c17f1f3f123b37abb23cce09782e85d87519eeb056fd09b",
+      "actual_sha256": "384f8d60ea948add2c17f1f3f123b37abb23cce09782e85d87519eeb056fd09b",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "core_checks.json",
+      "reference_sha256": "95ac7df7175578b53d7341b068b0e9677f49c85ab8cfd6cb833ab1da2a1cf339",
+      "actual_sha256": "bc7cf2498e659ad6ea90fc30e99d284ca79209f4d9287719063ef826fc6c330c",
+      "ignored_fields": [
+        "seconds"
+      ]
+    },
+    {
+      "scope": "baseline",
+      "file": "finite_field_checks.json",
+      "reference_sha256": "a8239d1ef4162c94201a1aa78f6bef74e6568706a3c2d4e7248cf8ad7161b81a",
+      "actual_sha256": "a8239d1ef4162c94201a1aa78f6bef74e6568706a3c2d4e7248cf8ad7161b81a",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "minor_certificates.jsonl",
+      "reference_sha256": "4a49985fe6ad2ffd7485a4767954d29ffd117d695ad1fa7813166b73fcb2d038",
+      "actual_sha256": "4a49985fe6ad2ffd7485a4767954d29ffd117d695ad1fa7813166b73fcb2d038",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "minor_checks.json",
+      "reference_sha256": "6e8a995782a97d09f657fb5ec0f9796aab4592e12d12d22af8109501ddd8b2ad",
+      "actual_sha256": "6e8a995782a97d09f657fb5ec0f9796aab4592e12d12d22af8109501ddd8b2ad",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "near18_checks.json",
+      "reference_sha256": "d81ab5db714a3b0d0cf63c2eba5f5a331047728e8f29862e14ecee95908d0130",
+      "actual_sha256": "d81ab5db714a3b0d0cf63c2eba5f5a331047728e8f29862e14ecee95908d0130",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "order10_inventory_checks.json",
+      "reference_sha256": "a8e5c852a78a31a708fd8e3346d3732327d731291012e26c99ca98f6aa44a0a5",
+      "actual_sha256": "a8e5c852a78a31a708fd8e3346d3732327d731291012e26c99ca98f6aa44a0a5",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "order20_checks.json",
+      "reference_sha256": "7bd243918f468f3d732402cb5191b4af8ac9d26b60c61b347797390f4fe35aca",
+      "actual_sha256": "7bd243918f468f3d732402cb5191b4af8ac9d26b60c61b347797390f4fe35aca",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "order20_representatives.jsonl",
+      "reference_sha256": "915a1f66bd5ffb8191724032e55776a38d9d5c5009324e91fe742bc49e652faa",
+      "actual_sha256": "915a1f66bd5ffb8191724032e55776a38d9d5c5009324e91fe742bc49e652faa",
+      "ignored_fields": []
+    },
+    {
+      "scope": "baseline",
+      "file": "suite_checks.json",
+      "reference_sha256": "e542d8f5898eb1b885c12dfce305fd5f7880f6c2c14c046afff889ae86248930",
+      "actual_sha256": "e542d8f5898eb1b885c12dfce305fd5f7880f6c2c14c046afff889ae86248930",
+      "ignored_fields": []
+    },
+    {
+      "scope": "current",
+      "file": "compact_new_controls.json",
+      "reference_sha256": "73024338f718f4afacbfd826a16a3f1ec2e405a5dd111e8c28884040b766a3f9",
+      "actual_sha256": "d5b2eec530b7ef63f23609230b660c95e86e6298c65546b264262907dedcbf28",
+      "ignored_fields": [
+        "displayed_L12_bindings: excluded, requires separate PDF verification"
+      ]
+    },
+    {
+      "scope": "current",
+      "file": "e9_independent.json",
+      "reference_sha256": "be562e8dbf59b5324cfc09ec2dcc9aa1d9d6be249710840942d9ddfc502af930",
+      "actual_sha256": "f70deb5b8622c2bc4e42e120706a6dcb9f2a7ddaafe53e01dc17c3cdf9d7037a",
+      "ignored_fields": [
+        "seconds"
+      ]
+    },
+    {
+      "scope": "current",
+      "file": "eight_pattern_witnesses.json",
+      "reference_sha256": "f8c66b8e600d422f914d86ab9c9ec569c895a5cf734c3b995a96098e6870bb4a",
+      "actual_sha256": "f8c66b8e600d422f914d86ab9c9ec569c895a5cf734c3b995a96098e6870bb4a",
+      "ignored_fields": []
+    },
+    {
+      "scope": "current",
+      "file": "order36.json",
+      "reference_sha256": "7bfb02c70e08069804cca69f9e573224f2693cbd1bcbb1dab40188d4f38f4742",
+      "actual_sha256": "7bfb02c70e08069804cca69f9e573224f2693cbd1bcbb1dab40188d4f38f4742",
+      "ignored_fields": []
+    },
+    {
+      "scope": "current",
+      "file": "public_table_checks.json",
+      "reference_sha256": "9bd5dfd55b6acf5b3284a75b6df0e8a40d8ce67cbb5816114ebb834dcc1dd4ba",
+      "actual_sha256": "9bd5dfd55b6acf5b3284a75b6df0e8a40d8ce67cbb5816114ebb834dcc1dd4ba",
+      "ignored_fields": []
+    },
+    {
+      "scope": "current",
+      "file": "source21_physical.json",
+      "reference_sha256": "eb5b59ffdfe24f33739058616033ec761f9a6f5f7b9be2dfe5a62cbf1a8507ed",
+      "actual_sha256": "e74b7100cb52d296ab8773736807d98f22f2a3a0c870ad0c17a031dfdb6fa391",
+      "ignored_fields": [
+        "seconds"
+      ]
+    },
+    {
+      "scope": "current",
+      "file": "source21_quotient.json",
+      "reference_sha256": "9a3728cb71b25c708ecc18f185afef0f6753d7725d1f1a3930bfa3254d7267d5",
+      "actual_sha256": "fc286b3acc3ec4ae1f58d034964689e06a26154db3b0b8890fcba74bf506a1d6",
+      "ignored_fields": [
+        "seconds"
+      ]
+    }
+  ],
+  "optional_pdf_validation": "not certified by this comparator",
+  "full_order8_census_replayed": false,
+  "full_order10_master_replayed": false,
+  "independent_human_peer_review": false
+}

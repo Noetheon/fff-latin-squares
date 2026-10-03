@@ -1,12 +1,17 @@
 # Manuscript Editions
 
-Use the [28 September audit-corrected edition](candidates/2026-09-28_audit_corrections/README.md)
+Use the [3 October counterreview revision](candidates/2026-10-03_counteraudit_revision/README.md)
 for the current public PDFs and bounded reproduction commands.
 
-The [preceding C271 source](candidates/2026-09-28_research_review/README.md) and
-[27 September source](candidates/2026-09-27_research_snapshot/README.md) remain
-frozen. The correction retains the C271 scientific cutoff; later private work
-is not part of this edition.
+The scientific baseline is frozen at 2026-09-30T12:54:17Z through C280, plus
+only the E9 two-free-coordinate theorem included at 2026-10-02T14:03:38Z.
+The 3 October corrections add no research coverage. Compact has 12 total
+pages, Selected Results 47 and the Full Report 92; they overlap.
+
+The [E9 predecessor](candidates/2026-10-02_e9_symmetry_review/README.md),
+[C280 baseline](candidates/2026-09-30_research_review/README.md),
+[C271 corrections](candidates/2026-09-28_audit_corrections/README.md) and
+earlier sources remain frozen. Later private work is outside this edition.
 
 The files `main.tex`, `main_core.tex` and `sections/` directly in this directory
 are the original September edition. They are retained unchanged for historical

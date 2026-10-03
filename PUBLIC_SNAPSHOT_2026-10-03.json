@@ -1,0 +1,105 @@
+{
+  "previous_receipt_sha256": "3cf8aa7c2b7a4ed62b2f8cfb6ba4834cb4e862f355a7606807fc964b01424217",
+  "baseline_claim_cutoff": "C280",
+  "baseline_evidence_cutoff_utc": "2026-09-30T12:54:17Z",
+  "selected_evidence_cutoff_utc": "2026-10-02T14:03:38Z",
+  "selected_addition": "E9 two-free-coordinate theorem only",
+  "revision_scope": "Counterreview wording, explicit pattern witnesses and comparison hardening",
+  "mathematical_claims_changed": false,
+  "proof_dependencies_changed": true,
+  "unrestricted_order18": "open",
+  "superseded_aliases": [
+    {
+      "path": "papers/FFF_Compact_Research_Dossier.pdf",
+      "previous_sha256": "68904c6d64f14655b9c695b3072d3eb4a752c6babad245d142b1032a5fa5c059",
+      "public_sha256": "e3828b93f302f9f2bfe8ec10e988a9d3e3f34ab8e102855e1789c76bb8bc8a96"
+    },
+    {
+      "path": "papers/FFF_Long_Research_Dossier.pdf",
+      "previous_sha256": "a89426096eaf4207fbabfc4018c3cb42a674fa1df31867bf4ec84ccb44f4ac5a",
+      "public_sha256": "48b96fd2f745cd1865fd97e0462599c34c1a1671d86d5c9d3ef2a58c74b1e428"
+    },
+    {
+      "path": "papers/FFF_Selected_Research_Dossier.pdf",
+      "previous_sha256": "eca614c605d038e0ae041106dce4d31ed568647ee154e12fce5700b50d778db3",
+      "public_sha256": "874076ee6a2e48a1bbafd922703bb7b502c1291a647a8a11ccd4e5f6d0f9dc3e"
+    }
+  ],
+  "files": [
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/LITERATURE_SCOPE.md",
+      "bytes": 3553,
+      "sha256": "5152edf6244918af68e1505a954f712d3bd7640bf2479c04d6414818b81a4d6d"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/README.md",
+      "bytes": 4034,
+      "sha256": "e4963b87bcadb0185e81cf664d55b5fa1c3e273d6b237e6e2689c6e68890d452"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/REVIEW_AND_LIMITATIONS.md",
+      "bytes": 3264,
+      "sha256": "c3d739bb9ec7cd1177c129f8a68c31b4c02f99c3679ef197fc95219fa67a7798"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/SOURCE_PROVENANCE.json",
+      "bytes": 14669,
+      "sha256": "6b701226c471e8b05870893ba4370e0d955144eeb7a7e47bbc05dcaa4f8d2c06"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/THEOREM_EVIDENCE.json",
+      "bytes": 34529,
+      "sha256": "cf7b86ac5a98e92010e80510acbcaa56f4aa7a17ef0e396096d5a2d8a36737b7"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/THEOREM_EVIDENCE.md",
+      "bytes": 20141,
+      "sha256": "cdbe32cb8c73ac51c1bc55a5de6a45cc9ac8887fc996c09a08aea8ab95bcd0c0"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/editions.json",
+      "bytes": 941,
+      "sha256": "866c62fc1e5cd606bd61f3b1cbb83b266e416b44c4d846d0702012666b2db753"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/evidence/pattern_witnesses.json",
+      "bytes": 619,
+      "sha256": "2588c7a31ff27f664f85434de9a969a98f8298a3f76bc0b7ded975623f5b48eb"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/references_review.bib",
+      "bytes": 392,
+      "sha256": "e2a77b29c183694f37ef033539840a2b20bd6fd7a093ae0101b800a89a9bc902"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/results/external_comparison.json",
+      "bytes": 5847,
+      "sha256": "22b81376081e7bd1af3df2b41e3d3d82966c1af542adaffaebf7fc2ea4d5106e"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/results/review_controls.json",
+      "bytes": 10443,
+      "sha256": "694cbb1e9b52b97f4d7c2007fa93b0b03aea7d4072ae86aa44730e1bf794f376"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/scripts/build_editions.py",
+      "bytes": 7328,
+      "sha256": "94e873d7023cdcb5dad1fb4fe7c5311b0b64b38932f27c0d823345f1f6b36b2c"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/scripts/build_evidence_index.py",
+      "bytes": 4315,
+      "sha256": "a07f8fce38a3877e46520714d04ac395022be8d907e060907f9c8726be3c2c3a"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/scripts/check_review_controls.py",
+      "bytes": 8295,
+      "sha256": "1cf0d433b9e0ab8bd502b606e1151e35b207588d35246d59eb41a717d7a160fc"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-03_counteraudit_revision/sections/pattern_witnesses.tex",
+      "bytes": 1386,
+      "sha256": "a835b14462e78d338f0d97931b95f3ed0910ce4ea8ba0a13ec39a24982de31b7"
+    }
+  ]
+}

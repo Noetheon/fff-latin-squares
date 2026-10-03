@@ -1,8 +1,8 @@
 # Reproducibility of This Public Export
 
-Current edition: **2 October 2026 selected extension**. Baseline:
+Current edition: **3 October 2026 counterreview revision**. Baseline:
 **2026-09-30T12:54:17Z**, through C280 and the completed binary-first-orbit
-companion. Only the E9 theorem accepted at **2026-10-02T14:03:38Z** is added.
+companion. Only the E9 theorem internally included at **2026-10-02T14:03:38Z** is added.
 Other later working campaigns are outside this snapshot.
 
 The new standard-library-only control runs with
@@ -10,6 +10,15 @@ The new standard-library-only control runs with
 It compares all scientific fields with a pinned independent internal audit;
 only Python version and measured runtime are omitted from comparison.
 This is a permutation/quotient sanity check, not a full Latin18 enumeration.
+
+The [current counterreview controls](manuscript/candidates/2026-10-03_counteraudit_revision/README.md)
+independently scan the eight printed pattern witnesses and their products,
+check sign-trade support in all three views, and test finite symmetry premises.
+Normal and optimized Python outputs must agree. The strict optional external
+audit comparator checks exactly 18 already-replayed outputs against a pinned
+60-file source package; the third-party archive is not redistributed. Its
+named runtime/PDF-status exclusions do not certify the omitted PDF check.
+See the source package for exact commands and limitations.
 
 ## Supported portable checks
 
@@ -133,13 +142,18 @@ Some write into their run folders. Do not run them in place on frozen evidence.
 The current build assembles the frozen
 [30 September scientific sources](manuscript/candidates/2026-09-30_research_review/README.md)
 with the [counteraudit revision](manuscript/candidates/2026-09-30_counteraudit_revision/README.md)
-and [selected E9 extension](manuscript/candidates/2026-10-02_e9_symmetry_review/README.md):
-12 Compact, 46 Selected Results and 91 Full Report pages. The earlier counted editorial
+and [selected E9 extension](manuscript/candidates/2026-10-02_e9_symmetry_review/README.md),
+then applies the [3 October counterreview](manuscript/candidates/2026-10-03_counteraudit_revision/README.md):
+12 Compact, 47 Selected Results and 92 Full Report pages. The earlier counted editorial
 overlay clarifies the order-10 abstract, the former conjecture's provenance and
 two bibliography entries. Complete shared proof blocks are retained; Compact
 selects only a coherent subset and narrows the witness statement to order 12.
 The E9 successor adds a complete shared proof only to Selected and Full;
 Compact keeps its proof selection and identifies the extension in its status note.
+The current overlay prints eight explicit pattern witnesses instead of using
+the full census for the all-pattern existence corollary. Separate census counts
+retain their external completeness dependency. It also clarifies k cycle
+positions versus 2k changed cells and updates source and literature pointers.
 The previous typography
 sources and their historical output hashes remain unchanged.
 The original `manuscript/main.tex` and `main_core.tex` are historical September
@@ -196,6 +210,11 @@ C280 builder is a privacy/reproduction adapter rather than that original file.
 This non-payload difference does not change scientific section bytes. Public
 inputs are bound by the current receipt and manifest, not by silently replacing
 the predecessor input hash. Use the current successor's reproduction commands.
+`PUBLIC_SNAPSHOT_2026-10-02.json` records the selected E9 extension.
+`PUBLIC_SNAPSHOT_2026-10-03.json` binds the counterreview successor and exact
+three-PDF replacements without changing the evidence cutoff. A strict comparator
+and missing-key/type/duplicate-key mutation tests supplement, not replace,
+the existing scientific checks.
 The default verify job and standard-library test suite remain dependency-free.
 Earlier receipts remain unchanged. No historical
 digest is silently replaced and no private development history is imported. Historical output

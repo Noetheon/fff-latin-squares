@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "revision_date": "2026-10-03",
+  "baseline_evidence_cutoff_utc": "2026-09-30T12:54:17Z",
+  "evidence_cutoff_utc": "2026-10-02T14:03:38Z",
+  "scope": "C280 baseline and selected E9 theorem retained; wording, explicit pattern witnesses, comparison hardening and targeted literature review",
+  "new_mathematical_claims": false,
+  "proof_dependencies_changed": true,
+  "editions": [
+    {"id": "compact", "label": "Compact", "entry": "main_compact.tex", "pdf": "FFF_Compact_Research_Dossier.pdf", "page_range_including_front_matter_and_references": [12, 18]},
+    {"id": "selected", "label": "Selected Results", "entry": "main_core.tex", "pdf": "FFF_Selected_Research_Dossier.pdf", "page_range_including_front_matter_and_references": null},
+    {"id": "long", "label": "Full Research Report", "entry": "main.tex", "pdf": "FFF_Long_Research_Dossier.pdf", "page_range_including_front_matter_and_references": null}
+  ]
+}

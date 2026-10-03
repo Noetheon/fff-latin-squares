@@ -28,6 +28,7 @@ jobs:
           --pdf papers/FFF_Selected_Research_Dossier.pdf
           --output .audit/pdf-layout/selected.json
       - run: python3 -B tools/check_pdf_metadata.py --output .audit/pdf-layout/metadata.json
+      - run: python3 -B tools/check_printed_witnesses.py --output .audit/pdf-layout/witnesses.json
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 5
@@ -38,6 +39,11 @@ jobs:
           python-version: '3.11'
       - run: python3 -B tools/verify_public_release.py
       - run: python3 -B -m unittest discover -s tests -v
+      - name: Check counterreview controls with and without assertions
+        run: |
+          python3 -B manuscript/candidates/2026-10-03_counteraudit_revision/scripts/check_review_controls.py --output .audit/review-controls.json
+          python3 -O -B manuscript/candidates/2026-10-03_counteraudit_revision/scripts/check_review_controls.py --output .audit/review-controls-optimized.json
+          cmp .audit/review-controls.json .audit/review-controls-optimized.json
       - run: python3 -B tools/check_theorem_records.py --output .audit/theorem-records
       - run: python3 -B tools/check_current_snapshot.py --output .audit/current-snapshot.json
   external-finite-audit:

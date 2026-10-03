@@ -46,7 +46,7 @@ def check(output):
                     if actual is not None else None,
                "ignored_fields": ["runtime." + key for key in sorted(RUNTIME_KEYS)],
                "command_template": "python3 -I -B COPIED_SCRIPT", "timeout_seconds": 10,
-               "scope": "Finite controls for the analytic theorem only; no Latin18 enumeration, solver or external peer review"}
+               "scope": "Finite controls for the combinatorial and group-theoretic theorem only; no Latin18 enumeration, solver or external peer review"}
     (output / "receipt.json").write_text(json.dumps(receipt, indent=2) + "\n")
     return receipt
 

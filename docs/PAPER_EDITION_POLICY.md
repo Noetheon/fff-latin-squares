@@ -8,8 +8,8 @@ Editorial selection is not a new mathematical claim or external peer review.
 | Edition | Reader and purpose | Size policy | Inclusion rule |
 | --- | --- | --- | --- |
 | **Compact** | A first mathematical reading or a manageable initial review | **12-18 total PDF pages, including front matter and references** | One coherent argument, complete prerequisites and proofs for the selected theorems, a few explicit examples, clear evidence limits |
-| **Selected Results** | Readers examining a broader collection of constructions and structural results | No artificial page limit; currently 46 pages | Important established results with their dependencies; not every search campaign |
-| **Full Research Report** | Detailed technical inspection and reproduction | No artificial page limit; currently 91 pages | Full proofs, finite computational reductions, dependency descriptions and precisely scoped research boundaries |
+| **Selected Results** | Readers examining a broader collection of constructions and structural results | No artificial page limit; currently 47 pages | Important established results with their dependencies; not every search campaign |
+| **Full Research Report** | Detailed technical inspection and reproduction | No artificial page limit; currently 92 pages | Full proofs, finite computational reductions, dependency descriptions and precisely scoped research boundaries |
 
 The previous 44-page "compact companion" becomes **Selected Results**. Its
 mathematical content is retained. The new Compact is a focused selection, not
@@ -44,7 +44,7 @@ a second condensed technical report. The full report is not shortened.
    not silently present overlapping editions as independent publications.
 
 The current implementation and reproduction instructions are in the
-[selected E9 successor](../manuscript/candidates/2026-10-02_e9_symmetry_review/README.md).
+[3 October counterreview successor](../manuscript/candidates/2026-10-03_counteraudit_revision/README.md).
 Its edition catalogue is the executable page-budget contract. Local build
 outputs do not replace the historical curated PDFs in the private research archive.
 The public repository publishes three named PDF aliases through an explicitly

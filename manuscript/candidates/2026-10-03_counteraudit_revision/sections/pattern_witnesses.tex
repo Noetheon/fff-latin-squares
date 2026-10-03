@@ -1,0 +1,25 @@
+\paragraph{Eight explicit witnesses.}
+The following strings encode Latin squares of order $8$: split each string
+into eight consecutive rows of eight symbols, labelled $0,\ldots,7$.
+Direct inspection of their $84$ line pairs per square gives the indicated
+patterns. These are existence witnesses, not a census or distinctness claim.
+\begin{center}
+\small
+\begin{tabular}{cl}
+\toprule
+Pattern & Row-major encoding\\
+\midrule
+$\mathsf{FFF}$ & \texttt{0123456710325476230176543210674545760132546710236754320176452310}\\
+$\mathsf{FFT}$ & \texttt{0123456710325476231467503241760545672013547602316705314276501324}\\
+$\mathsf{FTF}$ & \texttt{0123456710325476234576103254670146071235571603246470215375613042}\\
+$\mathsf{FTT}$ & \texttt{0123456710325476234576103254670147061253561703426571302474602135}\\
+$\mathsf{TFF}$ & \texttt{0123456710325476235476013245671046072153571630426470123575610324}\\
+$\mathsf{TFT}$ & \texttt{0123456710326475241736503506174243715026526071346754230176450213}\\
+$\mathsf{TTF}$ & \texttt{0123456710325746236470513276041545106273570126346457130276453120}\\
+$\mathsf{TTT}$ & \texttt{0123456710325476231467053241765045672013547602316705132476503142}\\
+\bottomrule
+\end{tabular}
+\end{center}
+The machine-readable strings and a separate matching-component check are
+in the dated source package. Its check imports neither the census scanner
+nor the external audit scanner.

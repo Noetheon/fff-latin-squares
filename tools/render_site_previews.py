@@ -13,11 +13,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {
     "compact": ("FFF_Compact_Research_Dossier.pdf",
-                "68904c6d64f14655b9c695b3072d3eb4a752c6babad245d142b1032a5fa5c059"),
+                "e3828b93f302f9f2bfe8ec10e988a9d3e3f34ab8e102855e1789c76bb8bc8a96"),
     "selected": ("FFF_Selected_Research_Dossier.pdf",
-                 "eca614c605d038e0ae041106dce4d31ed568647ee154e12fce5700b50d778db3"),
+                 "874076ee6a2e48a1bbafd922703bb7b502c1291a647a8a11ccd4e5f6d0f9dc3e"),
     "long": ("FFF_Long_Research_Dossier.pdf",
-             "a89426096eaf4207fbabfc4018c3cb42a674fa1df31867bf4ec84ccb44f4ac5a"),
+             "48b96fd2f745cd1865fd97e0462599c34c1a1671d86d5c9d3ef2a58c74b1e428"),
 }
 
 

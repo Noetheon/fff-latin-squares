@@ -1,8 +1,9 @@
 # Evidence Status
 
-Edition: **2 October 2026 selected extension**. Baseline: **2026-09-30T12:54:17Z**,
+Edition: **3 October 2026 counterreview revision**. Baseline: **2026-09-30T12:54:17Z**,
 through C280 and the completed binary-first-orbit companion. Only the E9 theorem
-accepted at **2026-10-02T14:03:38Z** is added; intervening work is not fully imported.
+internally included at **2026-10-02T14:03:38Z** is added; intervening work is not fully imported.
+The latest corrections change presentation and a proof dependency, not research coverage.
 These are classifications in the research record,
 not independent referee endorsements.
 
@@ -10,6 +11,7 @@ not independent referee endorsements.
 | --- | --- | --- |
 | View-pattern invariance, direct-product OR formula, group-isotopy product criterion | Written rigorous arguments | Inspect hypotheses and all three views in the dossier. |
 | Small orders 2, 4 and 6 | Exact finite computation plus isotopy reduction | Bounded enumeration is reproducible with the supplied generator. |
+| All eight view patterns at order 8 and their dyadic lifts | Eight printed tables, independent finite checks and the product theorem | This existence argument needs no complete census; it does not establish class counts. |
 | Order-8 census, 283657 representatives, 230 FFF, split 5 group-isotopic / 225 not group-isotopic | Exact computation on a cited external census | Census completeness is an external dependency; obtain the hash-identified input from its provider. |
 | Order-10 nonexistence, C157 | Written reduction plus complete exact master computations | Historical evidence, not a new exhaustive run; large graphs/checkpoints are not in this export. No proof-assistant certificate is claimed. |
 | Former power-of-two FFF conjecture, C38 | Disproved by the exactly checked order-12 witness C158 | The explicit table is shipped and freshly checked in all three views; old open-C38 statements are historical. |
@@ -28,7 +30,7 @@ not independent referee endorsements.
 | C280 companion: complete first-transversal count for one fixed FFF16 base | Exact quotient enumeration and separately implemented recount | 181768 simple two-plexes, 138486 liftable; 72474624 labelled firsts / 18118656 free-four representatives, not main classes. Only 18 supports / 9216 labelled firsts have arbitrary-mate exclusions; 138468 liftable supports remain unexcluded by those packages. |
 | C221/C225/C235/C251 and the five-cell conflict | Restricted-family proofs and historical finite/certificate records | None excludes all order-18 squares. The new public audit does not rerun these historical solver/certificate checks. |
 | Unrestricted order 18 and the complete order spectrum | Open | Timeouts, construction-specific exclusions and partial tables do not decide them. |
-| Two free coordinates under an actual E9 action | Complete analytic proof; secondary independently written finite controls | Row-F Latin18 with free column/symbol `C3 x C3` actions has free rows. FFF transports the result to any coordinate placement. Does not force symmetry, classify all actions or decide unrestricted order 18. |
+| Two free coordinates under an actual E9 action | Complete combinatorial and group-theoretic proof; secondary independently written finite controls | Row-F Latin18 with free column/symbol `C3 x C3` actions has free rows. FFF transports the result to any coordinate placement. Does not force symmetry, classify all actions or decide unrestricted order 18. |
 | Historical partial SAT models and timeouts | Diagnostic evidence only | They do not establish an FFF example or complete nonexistence. |
 
 The two master-search decompositions use the same search implementation and must
@@ -36,8 +38,8 @@ not be described as two independent search implementations. External census and
 PrimGrp completeness assumptions are retained explicitly in the technical text.
 
 The 12-page Compact contains a smaller, complete selected proof chain; the
-46-page Selected Results adds the complete E9 proof to the earlier material.
-The [current theorem-to-evidence index](manuscript/candidates/2026-10-02_e9_symmetry_review/THEOREM_EVIDENCE.md)
+47-page Selected Results includes the complete E9 proof and printed pattern witnesses.
+The [current theorem-to-evidence index](manuscript/candidates/2026-10-03_counteraudit_revision/THEOREM_EVIDENCE.md)
 maps compiled statement numbers in all three editions to their evidence.
 Consult the long
 dossier for the order-10 reduction and computational evidence. No mathematical
@@ -50,6 +52,10 @@ The new public finite checker covers general proof premises, not all source-loca
 radius reports or arbitrary-mate certificates. A complete first count is not
 complete mate coverage. No fresh historical DRAT replay or external human review
 is claimed by these snapshot checks.
+
+The [targeted literature comparison](manuscript/candidates/2026-10-03_counteraudit_revision/LITERATURE_SCOPE.md)
+identifies relevant autotopism results without asserting priority or claiming
+that the older theorems alone prove the selected row-F implication.
 
 ## Outstanding work
 

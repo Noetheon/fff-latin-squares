@@ -8,7 +8,7 @@ One precise correction or literature reference is useful; a whole-paper review
 is not expected. An automated pass is not a referee endorsement.
 
 Current scope: baseline **2026-09-30T12:54:17Z**, through C280 and the completed
-binary-first-orbit companion, plus the selected E9 theorem accepted at
+binary-first-orbit companion, plus the selected E9 theorem internally included at
 **2026-10-02T14:03:38Z**. Other later campaigns are not included.
 
 An additional focused review target is the

@@ -5,6 +5,17 @@ English-language interface to the same research dossier. It works by opening
 `index.html` locally or through GitHub Pages, with no build step, JavaScript,
 third-party fonts, external scripts or analytics.
 
+## Counterreview Revision: 3 October 2026
+
+The current PDFs are 12 / 47 / 92 pages. The C280 baseline and selected E9
+evidence cutoff are unchanged. This revision clarifies trade size, prints
+eight pattern witnesses, improves proof-source navigation and records a
+targeted literature comparison. It does not add an order-18 result or claim
+external peer review. Current checks are in the
+[3 October release record](verification/RELEASE_2026-10-03.md).
+
+The dated entries below describe predecessor editions, not current PDF sizes.
+
 ## Selected Extension: 2 October 2026
 
 The current PDFs are 12 / 46 / 91 pages. The site retains its reading interface
@@ -187,14 +198,14 @@ node tools/check_site.cjs .audit/site
 fresh reports stay under `.audit/`. A URL can be supplied as the second argument
 to test the deployed page. The tool never reads a personal browser profile.
 
-Re-rendering all four current previews requires `pypdfium2` (and its Pillow
+Re-rendering all six current previews requires `pypdfium2` (and its Pillow
 rendering dependency) outside the repository:
 
 ```sh
 python3 -B tools/render_site_previews.py
 ```
 
-The renderer checks the two input PDF hashes before rendering. Rendering
+The renderer checks the three input PDF hashes before rendering. Rendering
 dependencies are optional and not part of the standard-library audit contract.
 Regenerate the public manifest and rerun all checks before publishing changed
 assets. Retain neutral publication commit identities and never import the

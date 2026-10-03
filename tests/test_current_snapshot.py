@@ -85,8 +85,10 @@ class CurrentSnapshotTests(unittest.TestCase):
         expected_files = self.counteraudit_receipt(
             expected_files, (ROOT / "PUBLIC_SNAPSHOT_2026-09-30_TYPOGRAPHY.json").read_bytes(),
             json.loads(counteraudit_bytes))
-        expected_files = self.e9_receipt(expected_files, counteraudit_bytes,
-            json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-10-02.json").read_text()))
+        e9_bytes = (ROOT / "PUBLIC_SNAPSHOT_2026-10-02.json").read_bytes()
+        expected_files = self.e9_receipt(expected_files, counteraudit_bytes, json.loads(e9_bytes))
+        expected_files = self.review_receipt(expected_files, e9_bytes,
+            json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-10-03.json").read_text()))
         for relative, expected in expected_files.items():
             path = ROOT / relative
             self.assertFalse(path.is_symlink(), relative)
@@ -99,6 +101,58 @@ class CurrentSnapshotTests(unittest.TestCase):
                    if path.is_file()}
         self.assertTrue(shipped)
         self.assertEqual(recorded, shipped, "new candidate receipt coverage differs")
+
+    def review_receipt(self, expected, previous_bytes, successor):
+        self.assertEqual(successor["previous_receipt_sha256"], hashlib.sha256(previous_bytes).hexdigest())
+        self.assertEqual(successor["baseline_claim_cutoff"], "C280")
+        self.assertEqual(successor["baseline_evidence_cutoff_utc"], "2026-09-30T12:54:17Z")
+        self.assertEqual(successor["selected_evidence_cutoff_utc"], "2026-10-02T14:03:38Z")
+        self.assertIs(successor["mathematical_claims_changed"], False)
+        self.assertIs(successor["proof_dependencies_changed"], True)
+        self.assertEqual(successor["unrestricted_order18"], "open")
+        result = dict(expected)
+        replacements = self.receipt_rows(successor["superseded_aliases"], "public_sha256")
+        self.assertEqual(set(replacements), PDF_ALIASES | {"papers/FFF_Selected_Research_Dossier.pdf"})
+        for path, row in replacements.items():
+            self.assertEqual(row["previous_sha256"], result[path], path)
+            result[path] = row["public_sha256"]
+        prefix = "manuscript/candidates/2026-10-03_counteraudit_revision/"
+        rows = self.receipt_rows(successor["files"], "sha256")
+        for path, row in rows.items():
+            self.assertTrue(path.startswith(prefix), path)
+            self.assertNotIn(path, result, "Attempt to replace frozen science")
+            self.assertEqual(set(row), {"path", "bytes", "sha256"})
+            self.assertIs(type(row["bytes"]), int)
+            self.assertEqual((ROOT / path).stat().st_size, row["bytes"])
+            result[path] = row["sha256"]
+        shipped = {p.relative_to(ROOT).as_posix() for p in (ROOT / prefix).rglob("*") if p.is_file()}
+        self.assertEqual(set(rows), shipped)
+        return result
+
+    def test_review_successor_cannot_change_cutoff_or_frozen_bytes(self):
+        current = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-10-03.json").read_text())
+        previous = (ROOT / "PUBLIC_SNAPSHOT_2026-10-02.json").read_bytes()
+        old = {r["path"]: r["previous_sha256"] for r in current["superseded_aliases"]}
+        for fault in ("chain", "alias", "science", "dependency", "scope", "cutoff", "missing", "frozen"):
+            bad = json.loads(json.dumps(current))
+            if fault == "chain":
+                bad["previous_receipt_sha256"] = "0" * 64
+            elif fault == "alias":
+                bad["superseded_aliases"][0]["previous_sha256"] = "0" * 64
+            elif fault == "science":
+                bad["mathematical_claims_changed"] = True
+            elif fault == "dependency":
+                bad["proof_dependencies_changed"] = False
+            elif fault == "scope":
+                bad["unrestricted_order18"] = "excluded"
+            elif fault == "cutoff":
+                bad["selected_evidence_cutoff_utc"] = "2026-10-03T00:00:00Z"
+            elif fault == "frozen":
+                bad["files"][0]["path"] = "manuscript/main.tex"
+            else:
+                bad["files"].pop()
+            with self.subTest(fault=fault), self.assertRaises(AssertionError):
+                self.review_receipt(old, previous, bad)
 
     def e9_receipt(self, expected, previous_bytes, successor):
         self.assertEqual(successor["previous_receipt_sha256"], hashlib.sha256(previous_bytes).hexdigest())

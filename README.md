@@ -10,17 +10,19 @@ length greater than one in any of the row, column and symbol views (FFF).
 
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
 - [Compact starting point (12-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
-- [Selected Results (46-page PDF)](papers/FFF_Selected_Research_Dossier.pdf)
-- [Full technical record (91-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Current revision and reproduction](manuscript/candidates/2026-10-02_e9_symmetry_review/README.md)
-- [Theorem numbers, proof sources and evidence](manuscript/candidates/2026-10-02_e9_symmetry_review/THEOREM_EVIDENCE.md)
+- [Selected Results (47-page PDF)](papers/FFF_Selected_Research_Dossier.pdf)
+- [Full technical record (92-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
+- [Current revision and reproduction](manuscript/candidates/2026-10-03_counteraudit_revision/README.md)
+- [Theorem numbers, proof sources and evidence](manuscript/candidates/2026-10-03_counteraudit_revision/THEOREM_EVIDENCE.md)
+- [3 October counterreview: corrections and limits](manuscript/candidates/2026-10-03_counteraudit_revision/REVIEW_AND_LIMITATIONS.md)
 - [Selected E9 proof: review and limits](manuscript/candidates/2026-10-02_e9_symmetry_review/REVIEW_AND_LIMITATIONS.md)
 - [Critical counteraudit: confirmed findings and limits](manuscript/candidates/2026-09-30_counteraudit_revision/REVIEW_AND_LIMITATIONS.md)
 - [Unchanged C280 scientific sources and bounded audit](manuscript/candidates/2026-09-30_research_review/README.md)
 - [Typography and scholarly-presentation audit](verification/TYPOGRAPHY_AND_SCHOLARLY_AUDIT_2026-09-30.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
 - [Reproducibility and export limitations](REPRODUCIBILITY.md)
-- [2 October release scope and checks](verification/RELEASE_2026-10-02.md)
+- [3 October release scope and checks](verification/RELEASE_2026-10-03.md)
+- [Historical 2 October release](verification/RELEASE_2026-10-02.md)
 - [Historical 30 September release](verification/RELEASE_2026-09-30.md)
 - [Historical 28 September release](verification/RELEASE_2026-09-28.md)
 - [Historical audit corrections](verification/RELEASE_2026-09-28_CORRECTIONS.md)
@@ -29,12 +31,14 @@ Read the disclosure at the beginning of each PDF before relying on its claims.
 The three reading editions overlap; they are not independent studies.
 The former 44-page Compact is now **Selected Results**. The new Compact
 contains complete selected proofs and stays within 12-18 total pages.
-This edition adds one complete conditional symmetry theorem to Selected and
-Full; Compact retains its focused proof selection.
+Selected and Full include the complete conditional E9 symmetry theorem;
+Compact retains its focused proof selection. The 3 October revision clarifies
+trade size and proof dependencies, prints eight pattern witnesses, and
+hardens comparison checks. It adds no mathematical claim or research coverage.
 
-**Current edition: 2 October 2026 selected extension.** The baseline is frozen at
+**Current edition: 3 October 2026 counterreview revision.** The baseline is frozen at
 2026-09-30T12:54:17Z through C280 and the completed binary-first-orbit companion.
-Only the E9 two-free-coordinate theorem, accepted at 2026-10-02T14:03:38Z, is
+Only the E9 two-free-coordinate theorem, internally included at 2026-10-02T14:03:38Z, is
 added. This is not a complete intake of intervening research.
 This is a public research snapshot for critical examination, not a peer-reviewed
 article. The earlier September edition is retained as history; its open-C38 and
@@ -149,6 +153,8 @@ earlier alias succession remain in `PUBLIC_SNAPSHOT_2026-09-30.json`. The frozen
 `PUBLIC_MANIFEST.sha256` hashes the actual public files. Historical hashes
 inside a report still identify historical bytes, not necessarily the projected
 file beside it. Do not use those historical hashes as the public manifest.
+`PUBLIC_SNAPSHOT_2026-10-03.json` records the editorial successor, its changed
+all-pattern existence proof dependency, and the three current PDF hashes.
 
 Large generated graphs, checkpoint trees, third-party census archives, solver
 binaries and software environments are not shipped. The new portable checker

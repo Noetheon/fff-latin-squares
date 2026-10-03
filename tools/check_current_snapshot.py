@@ -63,7 +63,7 @@ def main():
     records.append({"script": "check_e9_symmetry.py", "scientific_fields_match": e9["passed"],
                     "receipt": e9})
     result = {"passed": all(row["scientific_fields_match"] for row in records),
-              "cutoff": "C280 baseline plus selected E9 theorem accepted 2026-10-02T14:03:38Z", "checks": records,
+              "cutoff": "C280 baseline plus selected E9 theorem internally included 2026-10-02T14:03:38Z", "checks": records,
               "heavy_solvers_run": False, "historical_unsat_proofs_rechecked": False,
               "elapsed_seconds": round(time.monotonic()-start, 3)}
     output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
