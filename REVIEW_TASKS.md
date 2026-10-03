@@ -7,8 +7,16 @@ The maintainer does not claim mathematical expertise. See
 One precise correction or literature reference is useful; a whole-paper review
 is not expected. An automated pass is not a referee endorsement.
 
-Current scope: **2026-09-30T12:54:17Z**, through C280 and the completed
-binary-first-orbit companion, not later working campaigns.
+Current scope: baseline **2026-09-30T12:54:17Z**, through C280 and the completed
+binary-first-orbit companion, plus the selected E9 theorem accepted at
+**2026-10-02T14:03:38Z**. Other later campaigns are not included.
+
+An additional focused review target is the
+[two-free-coordinate proof](manuscript/candidates/2026-10-02_e9_symmetry_review/sections/19_e9_free_coordinates.tex):
+does the odd-fibre argument justify a row-F three-row rectangle without
+assuming that it is a full Latin quotient? The displayed mixed rectangle
+limits the stronger interpretation. This does not replace the three entry
+questions below or request a whole-paper review.
 
 ## 1. Check the Two Illustrated Cycles
 

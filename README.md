@@ -10,16 +10,18 @@ length greater than one in any of the row, column and symbol views (FFF).
 
 - [Project website](https://noetheon.github.io/fff-latin-squares/)
 - [Compact starting point (12-page PDF)](papers/FFF_Compact_Research_Dossier.pdf)
-- [Selected Results (44-page PDF)](papers/FFF_Selected_Research_Dossier.pdf)
-- [Full technical record (89-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
-- [Current revision and reproduction](manuscript/candidates/2026-09-30_counteraudit_revision/README.md)
-- [Theorem numbers, proof sources and evidence](manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md)
+- [Selected Results (46-page PDF)](papers/FFF_Selected_Research_Dossier.pdf)
+- [Full technical record (91-page PDF)](papers/FFF_Long_Research_Dossier.pdf)
+- [Current revision and reproduction](manuscript/candidates/2026-10-02_e9_symmetry_review/README.md)
+- [Theorem numbers, proof sources and evidence](manuscript/candidates/2026-10-02_e9_symmetry_review/THEOREM_EVIDENCE.md)
+- [Selected E9 proof: review and limits](manuscript/candidates/2026-10-02_e9_symmetry_review/REVIEW_AND_LIMITATIONS.md)
 - [Critical counteraudit: confirmed findings and limits](manuscript/candidates/2026-09-30_counteraudit_revision/REVIEW_AND_LIMITATIONS.md)
 - [Unchanged C280 scientific sources and bounded audit](manuscript/candidates/2026-09-30_research_review/README.md)
 - [Typography and scholarly-presentation audit](verification/TYPOGRAPHY_AND_SCHOLARLY_AUDIT_2026-09-30.md)
 - [Evidence and open questions](EVIDENCE_STATUS.md)
 - [Reproducibility and export limitations](REPRODUCIBILITY.md)
-- [30 September release scope and checks](verification/RELEASE_2026-09-30.md)
+- [2 October release scope and checks](verification/RELEASE_2026-10-02.md)
+- [Historical 30 September release](verification/RELEASE_2026-09-30.md)
 - [Historical 28 September release](verification/RELEASE_2026-09-28.md)
 - [Historical audit corrections](verification/RELEASE_2026-09-28_CORRECTIONS.md)
 
@@ -27,11 +29,13 @@ Read the disclosure at the beginning of each PDF before relying on its claims.
 The three reading editions overlap; they are not independent studies.
 The former 44-page Compact is now **Selected Results**. The new Compact
 contains complete selected proofs and stays within 12-18 total pages.
-This counteraudit revision clarifies dependencies and references without
-extending the scientific cutoff or adding a mathematical claim.
+This edition adds one complete conditional symmetry theorem to Selected and
+Full; Compact retains its focused proof selection.
 
-**Current edition: 30 September 2026 snapshot; scientific intake is frozen at
-2026-09-30T12:54:17Z through C280 and the completed binary-first-orbit companion.**
+**Current edition: 2 October 2026 selected extension.** The baseline is frozen at
+2026-09-30T12:54:17Z through C280 and the completed binary-first-orbit companion.
+Only the E9 two-free-coordinate theorem, accepted at 2026-10-02T14:03:38Z, is
+added. This is not a complete intake of intervening research.
 This is a public research snapshot for critical examination, not a peer-reviewed
 article. The earlier September edition is retained as history; its open-C38 and
 open-order-12 wording is superseded. Subsequent working results are outside this
@@ -97,6 +101,11 @@ is the shared starting point for focused feedback.
   dependencies. Same-binary decompositions are not independent implementations.
 - A timeout or partial SAT table is never evidence of a complete exclusion or
   an FFF example.
+- The selected extension proves: in a row-F Latin18 square with an actual
+  coordinate-preserving `C3 x C3` action, freeness on columns and symbols
+  forces freeness on rows. FFF permits all three coordinate placements.
+  The proof does not force this symmetry or exclude free/asymmetric cases.
+  Its separately written finite control is secondary, not a Latin18 search.
 
 ## Origin and authorship
 
@@ -132,8 +141,9 @@ This is a curated public edition, not the complete working archive. It contains 
 inherited development history or correspondence. Historical source/result paths
 are preserved where useful for traceability; selected machine-local strings are
 privacy-projected. `PUBLIC_PROJECTION.json` records byte-identical and projected
-files from the original export. `PUBLIC_SNAPSHOT_2026-09-30.json` records the
-current C280 snapshot and PDF-alias succession. The frozen C271 receipt
+files from the original export. `PUBLIC_SNAPSHOT_2026-10-02.json` records the
+selected E9 extension and three PDF-alias replacements. The C280 baseline and
+earlier alias succession remain in `PUBLIC_SNAPSHOT_2026-09-30.json`. The frozen C271 receipt
 `PUBLIC_SNAPSHOT_2026-09-28.json` and its audit-correction successor
 `PUBLIC_SNAPSHOT_2026-09-28_CORRECTIONS.json` remain unchanged, as do earlier receipts.
 `PUBLIC_MANIFEST.sha256` hashes the actual public files. Historical hashes

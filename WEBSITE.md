@@ -5,6 +5,18 @@ English-language interface to the same research dossier. It works by opening
 `index.html` locally or through GitHub Pages, with no build step, JavaScript,
 third-party fonts, external scripts or analytics.
 
+## Selected Extension: 2 October 2026
+
+The current PDFs are 12 / 46 / 91 pages. The site retains its reading interface
+and the C280 baseline (**2026-09-30T12:54:17Z**), adding only the E9 theorem
+accepted at **2026-10-02T14:03:38Z**. It does not present every later research
+campaign as reviewed. Current proof and checks:
+[selected extension](manuscript/candidates/2026-10-02_e9_symmetry_review/README.md).
+
+The entries below describe the frozen predecessor's website work, not the
+current PDF sizes. New source-bound checks appear in
+[the release receipt](verification/RELEASE_2026-10-02.md).
+
 ## Reader Navigation Revision: 30 September 2026
 
 This editorial update keeps the **2026-09-30T12:54:17Z / C280** evidence cutoff,

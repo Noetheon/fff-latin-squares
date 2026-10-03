@@ -1,7 +1,8 @@
 # Evidence Status
 
-Edition cutoff: 30 September 2026, **2026-09-30T12:54:17Z**, through C280
-and the completed binary-first-orbit companion.
+Edition: **2 October 2026 selected extension**. Baseline: **2026-09-30T12:54:17Z**,
+through C280 and the completed binary-first-orbit companion. Only the E9 theorem
+accepted at **2026-10-02T14:03:38Z** is added; intervening work is not fully imported.
 These are classifications in the research record,
 not independent referee endorsements.
 
@@ -27,6 +28,7 @@ not independent referee endorsements.
 | C280 companion: complete first-transversal count for one fixed FFF16 base | Exact quotient enumeration and separately implemented recount | 181768 simple two-plexes, 138486 liftable; 72474624 labelled firsts / 18118656 free-four representatives, not main classes. Only 18 supports / 9216 labelled firsts have arbitrary-mate exclusions; 138468 liftable supports remain unexcluded by those packages. |
 | C221/C225/C235/C251 and the five-cell conflict | Restricted-family proofs and historical finite/certificate records | None excludes all order-18 squares. The new public audit does not rerun these historical solver/certificate checks. |
 | Unrestricted order 18 and the complete order spectrum | Open | Timeouts, construction-specific exclusions and partial tables do not decide them. |
+| Two free coordinates under an actual E9 action | Complete analytic proof; secondary independently written finite controls | Row-F Latin18 with free column/symbol `C3 x C3` actions has free rows. FFF transports the result to any coordinate placement. Does not force symmetry, classify all actions or decide unrestricted order 18. |
 | Historical partial SAT models and timeouts | Diagnostic evidence only | They do not establish an FFF example or complete nonexistence. |
 
 The two master-search decompositions use the same search implementation and must
@@ -34,14 +36,15 @@ not be described as two independent search implementations. External census and
 PrimGrp completeness assumptions are retained explicitly in the technical text.
 
 The 12-page Compact contains a smaller, complete selected proof chain; the
-44-page Selected Results retains the former extended compact material.
-The [current theorem-to-evidence index](manuscript/candidates/2026-09-30_counteraudit_revision/THEOREM_EVIDENCE.md)
+46-page Selected Results adds the complete E9 proof to the earlier material.
+The [current theorem-to-evidence index](manuscript/candidates/2026-10-02_e9_symmetry_review/THEOREM_EVIDENCE.md)
 maps compiled statement numbers in all three editions to their evidence.
 Consult the long
 dossier for the order-10 reduction and computational evidence. No mathematical
-claim is established merely by public hosting. This edition incorporates later
-proof text and finite evidence, with a fresh, bounded audit described in the
-[current source package](manuscript/candidates/2026-09-30_research_review/README.md).
+claim is established merely by public hosting. The
+[C280 baseline](manuscript/candidates/2026-09-30_research_review/README.md) and
+[selected extension](manuscript/candidates/2026-10-02_e9_symmetry_review/README.md)
+document their separate bounded controls.
 The initial September edition and frozen historical outputs are not rewritten.
 The new public finite checker covers general proof premises, not all source-local
 radius reports or arbitrary-mate certificates. A complete first count is not

@@ -174,10 +174,10 @@ class SiteTests(unittest.TestCase):
                          "not independent studies", "not a solver-free proof"):
             self.assertIn(required, self.source)
         self.assertIn("<details open>", self.source)
-        self.assertIn("44 pages / PDF", self.source)
+        self.assertIn("46 pages / PDF", self.source)
         self.assertIn("12 pages / PDF", self.source)
         self.assertIn("THEOREM_EVIDENCE.md", self.source)
-        self.assertIn("89 pages / PDF", self.source)
+        self.assertIn("91 pages / PDF", self.source)
         self.assertIn("through C280", self.source)
         for stale in ("38 pages / PDF", "42 pages / PDF", "80 pages / PDF",
                       "87 pages / PDF", "88 pages / PDF", "through C271"):
@@ -186,13 +186,14 @@ class SiteTests(unittest.TestCase):
 
     def test_current_snapshot_metadata(self):
         dates = [attrs.get("datetime") for tag, attrs in self.page.elements if tag == "time"]
-        self.assertIn("2026-09-30", dates)
+        self.assertIn("2026-10-02", dates)
+        self.assertIn("2026-10-02T14:03:38Z", dates)
         self.assertIn("2026-09-30T12:54:17Z", dates)
         metadata = {attrs.get("property", attrs.get("name")): attrs.get("content")
                     for tag, attrs in self.page.elements if tag == "meta"}
         for key in ("description", "og:description", "twitter:description"):
             with self.subTest(metadata=key):
-                for required in ("30 September 2026", "C280", "2026-09-30T12:54:17Z",
+                for required in ("2 October 2026", "C280", "2026-09-30T12:54:17Z", "2026-10-02T14:03:38Z",
                                  "Not peer reviewed", "order 18 remains open"):
                     self.assertIn(required.lower(), metadata[key].lower())
 
@@ -216,6 +217,7 @@ class SiteTests(unittest.TestCase):
                 source = (ROOT / filename).read_text()
                 self.assertIn("2026-09-30T12:54:17Z", source)
                 self.assertIn("C280", source)
+                self.assertIn("2026-10-02T14:03:38Z", source)
                 self.assertIn("manuscript/candidates/2026-09-30_research_review/", source)
                 self.assertNotIn("/Users/", source)
                 self.assertNotIn("/home/", source)

@@ -1,7 +1,15 @@
 # Reproducibility of This Public Export
 
-Current intake: **2026-09-30T12:54:17Z**, through C280 and the completed
-binary-first-orbit companion. Later working campaigns are outside this snapshot.
+Current edition: **2 October 2026 selected extension**. Baseline:
+**2026-09-30T12:54:17Z**, through C280 and the completed binary-first-orbit
+companion. Only the E9 theorem accepted at **2026-10-02T14:03:38Z** is added.
+Other later working campaigns are outside this snapshot.
+
+The new standard-library-only control runs with
+`python3 -B tools/check_e9_symmetry.py --output .audit/e9-control`.
+It compares all scientific fields with a pinned independent internal audit;
+only Python version and measured runtime are omitted from comparison.
+This is a permutation/quotient sanity check, not a full Latin18 enumeration.
 
 ## Supported portable checks
 
@@ -124,12 +132,15 @@ Some write into their run folders. Do not run them in place on frozen evidence.
 
 The current build assembles the frozen
 [30 September scientific sources](manuscript/candidates/2026-09-30_research_review/README.md)
-with the [counteraudit revision](manuscript/candidates/2026-09-30_counteraudit_revision/README.md):
-12 Compact, 44 Selected Results and 89 Full Report pages. A counted editorial
+with the [counteraudit revision](manuscript/candidates/2026-09-30_counteraudit_revision/README.md)
+and [selected E9 extension](manuscript/candidates/2026-10-02_e9_symmetry_review/README.md):
+12 Compact, 46 Selected Results and 91 Full Report pages. The earlier counted editorial
 overlay clarifies the order-10 abstract, the former conjecture's provenance and
 two bibliography entries. Complete shared proof blocks are retained; Compact
 selects only a coherent subset and narrows the witness statement to order 12.
-The correction does not extend the evidence cutoff. The previous typography
+The E9 successor adds a complete shared proof only to Selected and Full;
+Compact keeps its proof selection and identifies the extension in its status note.
+The previous typography
 sources and their historical output hashes remain unchanged.
 The original `manuscript/main.tex` and `main_core.tex` are historical September
 sources, not the entry points for the current PDFs. Do not rebuild them and

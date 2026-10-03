@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fresh bounded C280 checks with explicit scientific comparison rules."""
+"""Fresh C280 baseline and selected E9 controls with explicit comparison rules."""
 import argparse
 import json
 from pathlib import Path
@@ -58,8 +58,12 @@ def main():
                         "ignored_fields": list(ignored),
                         "inventory_policy": "Selected public source hashes are checked independently by each auditor; private capture counts are not mathematical results."})
     records.append(check_new_results(scratch))
+    from check_e9_symmetry import check as check_e9
+    e9 = check_e9(scratch / "e9")
+    records.append({"script": "check_e9_symmetry.py", "scientific_fields_match": e9["passed"],
+                    "receipt": e9})
     result = {"passed": all(row["scientific_fields_match"] for row in records),
-              "cutoff": "C280", "checks": records,
+              "cutoff": "C280 baseline plus selected E9 theorem accepted 2026-10-02T14:03:38Z", "checks": records,
               "heavy_solvers_run": False, "historical_unsat_proofs_rechecked": False,
               "elapsed_seconds": round(time.monotonic()-start, 3)}
     output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")

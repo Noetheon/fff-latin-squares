@@ -1,0 +1,136 @@
+\section{Two free coordinates under an order-nine action}
+\label{sec:e9-free-coordinates}
+
+This section gives a conditional obstruction, not a forced-symmetry theorem.
+An action by \emph{coordinate-preserving autotopies} of a group $E$ consists
+of actions on the row, column and symbol sets $R,C,S$ such that
+\[
+ L(gr,gc)=gL(r,c)\qquad(g\in E).
+\]
+An action is \emph{free} if every point stabilizer is trivial. A view is
+\emph{F} when all its two-line permutations have only even cycles.
+The following elementary six-point observation supplies the obstruction.
+Products of permutations act from right to left.
+
+\begin{lemma}\label{lem:e9-six-point-product}
+If $\beta,\gamma\in S_6$ both have cycle type $3+3$, then
+$\gamma\beta^{-1}$ cannot be fixed-point-free with only even cycles.
+\end{lemma}
+\begin{proof}
+Conjugate $\beta$ to $(0\,1\,2)(3\,4\,5)$. The unordered supports of
+$\gamma$ are a partition into two triples. If they agree with those of
+$\beta$, each restriction of $\gamma$ is that of $\beta$ or its inverse.
+The product therefore has only cycles of lengths one or three.
+
+Otherwise, exactly one support contains two points of $\{0,1,2\}$ and
+one of $\{3,4,5\}$. The independent rotations of these two triples
+centralize $\beta$ and act transitively on the nine possible mixed
+partitions. We may consequently use supports $\{0,1,3\}$ and $\{2,4,5\}$.
+Their four orientations give the following products:
+\[
+\begin{array}{c|c}
+\gamma & \gamma\beta^{-1}\\ \hline
+(0\,1\,3)(2\,4\,5)&(0\,4)(2\,3)(1)(5)\\
+(0\,1\,3)(2\,5\,4)&(0\,5\,2\,3\,4)(1)\\
+(0\,3\,1)(2\,4\,5)&(0\,4\,1\,3\,2)(5)\\
+(0\,3\,1)(2\,5\,4)&(0\,5\,2)(1\,3\,4).
+\end{array}
+\]
+Every case has a fixed point or an odd cycle. This covers all support
+partitions and orientations, proving the assertion.
+\end{proof}
+
+\begin{theorem}\label{thm:e9-two-free-coordinates}
+Let $L$ be a row-F Latin square of order $18$. Suppose
+$E=C_3\times C_3$ acts on $L$ by coordinate-preserving autotopies,
+freely on columns and symbols. Then its action on rows is also free.
+\end{theorem}
+\begin{proof}
+Each free coordinate has two regular nine-point $E$-orbits. The possible
+row-orbit sizes are $1,3,9$. We exclude the first two separately.
+
+Suppose first that there is a row orbit $E/H$ of size three. The subgroup
+$H$ of order three fixes all three of these rows because $E$ is abelian.
+For each such row $r$, its bijection $f_r:C\to S$ is $H$-equivariant,
+so it induces a bijection $\bar f_r:C/H\to S/H$ between six-point sets.
+For two distinct selected rows, $p=f_r^{-1}f_t$ commutes with $H$.
+Over a cycle of length $\ell$ of its induced permutation on $C/H$,
+the return map $p^\ell$ is a translation of a regular three-point
+$H$-orbit. Thus the physical cycles are either three cycles of length
+$\ell$ or one cycle of length $3\ell$. In particular, an odd quotient
+cycle would give an odd physical cycle. A quotient fixed point would
+give a physical fixed point or a three-cycle, contrary respectively
+to Latinness or row-F. Hence the three quotient rows form a row-F
+$3\times6$ Latin rectangle. No column-F or symbol-F quotient is asserted.
+
+The group $E/H$ rotates these three rows and has type $3+3$ on both
+$C/H$ and $S/H$. For one generator, call the latter permutations
+$\beta$ and $\gamma$. If $f$ is one quotient row, its successor is
+$f_1=\gamma f\beta^{-1}$. The relative permutation is
+\[
+ f^{-1}f_1=(f^{-1}\gamma f)\beta^{-1}.
+\]
+Both factors have type $3+3$, contradicting
+Lemma~\ref{lem:e9-six-point-product}. There is no size-three row orbit.
+
+Finally, let $t$ be the number of globally $E$-fixed rows. Each such
+row induces a bijection between the two regular column orbits and the
+two regular symbol orbits. If two fixed rows induced the same bijection,
+their relative map would preserve each regular column orbit and commute
+with $E$. On a regular $E$-orbit it is a right translation. Since $E$
+has exponent three, its cycles have length one or three, again impossible.
+There are only two bijections of the orbit sets, so $t\leq2$. All other
+row orbits have size divisible by three; therefore $t\equiv18\pmod3$,
+giving $t=0$. All row orbits have size nine, as required.
+\end{proof}
+
+\begin{corollary}\label{cor:e9-three-view-freeness}
+In an FFF Latin square of order $18$ with an actual
+coordinate-preserving $C_3\times C_3$ action, freeness on any two
+coordinate sets implies freeness on the third.
+\end{corollary}
+\begin{proof}
+Permuting rows, columns and symbols transports the autotopy action and
+FFF. Put the unspecified coordinate in the row position and apply
+Theorem~\ref{thm:e9-two-free-coordinates}. This uses all three F views;
+it does not assert arbitrary parastrophy invariance of row-F alone.
+\end{proof}
+
+\paragraph{Why both free coordinates are essential to this argument.}
+Put $\alpha=(0\,3\,1)$, fixing $2,4,5$, and
+$\beta=(0\,1\,2)(3\,4\,5)$. Then
+$\alpha\beta^{-1}=(0\,2)(1\,3\,5\,4)$ has only even cycles.
+More strongly, the following rectangle has row-F, with every relative
+row map of type $4+2$:
+\[
+\begin{pmatrix}
+0&1&2&3&4&5\\
+2&4&0&1&5&3\\
+5&2&1&0&3&4
+\end{pmatrix}.
+\]
+Its rows $f_i$ satisfy $f_{i+1}(\alpha(c))=\beta(f_i(c))$, with row
+indices modulo three. The column action has type $3+1+1+1$, outside
+the lemma's hypotheses. This is a partial rectangle, not an FFF18 table.
+
+\paragraph{Evidence and remaining scope.}
+The proofs above are analytic. A separately implemented finite control
+checks all $1600$ ordered pairs of type-$3+3$ factors using two product
+conventions and two cycle calculations. It also checks $1600$ mixed
+factor pairs, the displayed rectangle, literal quotient actions and
+$18$ odd-fibre return maps. These checks are secondary to the proof,
+not an enumeration of Latin squares. The elementary lemma and its
+application carry no claim of literature priority. No assumption forces
+an arbitrary FFF18 square to admit this symmetry: free actions, other
+symmetry types and asymmetric squares are not decided. Unrestricted
+order $18$ remains open.
+
+The public control and its exact comparison target are in
+\nolinkurl{manuscript/candidates/2026-10-02_e9_symmetry_review/}.
+It can be rerun with Python 3.11+:
+\begin{quote}\small
+\begin{verbatim}
+python3 -B tools/check_e9_symmetry.py \
+  --output .audit/e9-symmetry-check
+\end{verbatim}
+\end{quote}

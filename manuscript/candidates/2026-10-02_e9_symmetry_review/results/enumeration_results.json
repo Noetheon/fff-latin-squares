@@ -1,0 +1,4131 @@
+{
+  "adversarial_witness": {
+    "delta_cycles_including_fixed_points": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        5,
+        4
+      ]
+    ],
+    "delta_images": [
+      2,
+      3,
+      0,
+      5,
+      1,
+      4
+    ],
+    "delta_type": "4+2",
+    "fixed_point_free_even_cycled": true,
+    "gamma_cycles_including_fixed_points": [
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        2
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "gamma_images": [
+      3,
+      0,
+      2,
+      1,
+      4,
+      5
+    ]
+  },
+  "all_S6_fixed_beta_histogram": {
+    "1+1+1+1+1+1": 1,
+    "2+1+1+1+1": 15,
+    "2+2+1+1": 45,
+    "2+2+2": 15,
+    "3+1+1+1": 40,
+    "3+2+1": 120,
+    "3+3": 40,
+    "4+1+1": 90,
+    "4+2": 90,
+    "5+1": 144,
+    "6": 120
+  },
+  "beta_images": [
+    1,
+    2,
+    0,
+    4,
+    5,
+    3
+  ],
+  "composition": "gamma * beta^{-1}; rightmost acts first; images indexed from zero",
+  "coverage": {
+    "S6": 720,
+    "all_fixed_beta_products": 720,
+    "class_3+1+1+1": 40,
+    "class_3+3": 40,
+    "independent_class_generation": "cycle supports versus all S6",
+    "independent_cycle_check": "orbit tracing versus fixed points of powers",
+    "independent_product_check": "inverse composition versus edge equation",
+    "ordered_3+3_pairs": 1600,
+    "ordered_mixed_pairs": 1600
+  },
+  "literal_E9_free_coordinate": {
+    "H_orbit_lengths": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "H_orbits": 6,
+    "group_elements": 9,
+    "group_law_checks": 81,
+    "physical_points": 18,
+    "residual_images": [
+      1,
+      2,
+      0,
+      4,
+      5,
+      3
+    ],
+    "residual_type": "3+3"
+  },
+  "literal_E9_mixed_A21_coordinate": {
+    "H_orbit_lengths": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "H_orbits": 6,
+    "group_elements": 9,
+    "group_law_checks": 81,
+    "physical_points": 18,
+    "residual_images": [
+      1,
+      2,
+      0,
+      3,
+      4,
+      5
+    ],
+    "residual_type": "3+1+1+1"
+  },
+  "literal_selected_E9_H_row_orbit": {
+    "group_law_checks": 81,
+    "residual_action": [
+      1,
+      2,
+      0
+    ],
+    "rows": 3,
+    "stabilizer_H": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  },
+  "mixed_fixed_beta_histogram": {
+    "3+1+1+1": 2,
+    "3+3": 2,
+    "4+2": 18,
+    "5+1": 18
+  },
+  "mixed_fixed_beta_records": [
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "delta_type": "3+1+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        1,
+        4,
+        5,
+        3
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          5,
+          4
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          5,
+          2,
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        3,
+        0,
+        1,
+        5,
+        4,
+        2
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        3,
+        0,
+        1,
+        2,
+        5,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          2,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "delta_images": [
+        4,
+        0,
+        1,
+        5,
+        2,
+        3
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          4,
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        4,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        4,
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          4,
+          2,
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        5,
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          5,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "delta_images": [
+        5,
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "gamma_images": [
+        0,
+        1,
+        5,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          5,
+          4,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "delta_images": [
+        3,
+        0,
+        2,
+        5,
+        1,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        2,
+        3,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          3,
+          5,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "delta_images": [
+        4,
+        0,
+        2,
+        5,
+        3,
+        1
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        2,
+        4,
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          4,
+          3,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "delta_images": [
+        5,
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        0,
+        2,
+        5,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          5,
+          4
+        ]
+      ],
+      "delta_images": [
+        1,
+        0,
+        3,
+        5,
+        2,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        3,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          3,
+          5,
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        3,
+        2,
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        3,
+        1,
+        5,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        0,
+        3,
+        2,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4,
+          3,
+          5
+        ]
+      ],
+      "delta_images": [
+        1,
+        0,
+        4,
+        5,
+        3,
+        2
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        4,
+        1,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        4,
+        5,
+        1,
+        3
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          4,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        0,
+        4,
+        2,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          4,
+          3,
+          1
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        4,
+        1,
+        3,
+        5
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "gamma_images": [
+        0,
+        4,
+        2,
+        3,
+        5,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5,
+          4,
+          3
+        ]
+      ],
+      "delta_images": [
+        1,
+        0,
+        5,
+        2,
+        3,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        0,
+        5,
+        1,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          5,
+          4,
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        5,
+        3,
+        1,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        0,
+        5,
+        2,
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          5,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "delta_images": [
+        2,
+        0,
+        5,
+        4,
+        3,
+        1
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "gamma_images": [
+        0,
+        5,
+        2,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          5,
+          4
+        ]
+      ],
+      "delta_images": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ],
+      "delta_type": "3+1+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          3,
+          5,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "delta_images": [
+        2,
+        1,
+        3,
+        5,
+        0,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        1,
+        3,
+        2,
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        [
+          1
+        ]
+      ],
+      "delta_images": [
+        2,
+        1,
+        4,
+        5,
+        3,
+        0
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        1,
+        4,
+        2,
+        3,
+        0,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          5,
+          4,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "delta_images": [
+        2,
+        1,
+        5,
+        0,
+        3,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        1,
+        5,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5,
+          4
+        ]
+      ],
+      "delta_images": [
+        1,
+        2,
+        0,
+        5,
+        3,
+        4
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          5,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "delta_images": [
+        3,
+        2,
+        1,
+        5,
+        0,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          3,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "delta_images": [
+        4,
+        2,
+        1,
+        5,
+        3,
+        0
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        2,
+        1,
+        4,
+        3,
+        0,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          4,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "delta_images": [
+        5,
+        2,
+        1,
+        0,
+        3,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        2,
+        1,
+        5,
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          5,
+          4
+        ]
+      ],
+      "delta_images": [
+        2,
+        3,
+        0,
+        5,
+        1,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        3,
+        0,
+        2,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          5,
+          4,
+          2
+        ]
+      ],
+      "delta_images": [
+        0,
+        3,
+        1,
+        5,
+        2,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        3,
+        1,
+        0,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1,
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        2,
+        3,
+        1,
+        5,
+        4,
+        0
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        3,
+        1,
+        2,
+        4,
+        0,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        3,
+        1,
+        0,
+        5,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        3,
+        1,
+        2,
+        5,
+        4,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4,
+          3,
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        4,
+        0,
+        5,
+        3,
+        1
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        4,
+        0,
+        2,
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          4,
+          3,
+          5,
+          2
+        ]
+      ],
+      "delta_images": [
+        0,
+        4,
+        1,
+        5,
+        3,
+        2
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        4,
+        1,
+        0,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        4,
+        1,
+        5,
+        0,
+        3
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "gamma_images": [
+        4,
+        1,
+        2,
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1,
+          4,
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        2,
+        4,
+        1,
+        0,
+        3,
+        5
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "gamma_images": [
+        4,
+        1,
+        2,
+        3,
+        5,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5,
+          4,
+          3
+        ]
+      ],
+      "delta_images": [
+        2,
+        5,
+        0,
+        1,
+        3,
+        4
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        5,
+        0,
+        2,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          4,
+          3,
+          2
+        ]
+      ],
+      "delta_images": [
+        0,
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        5,
+        1,
+        0,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1,
+          5,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        2,
+        5,
+        1,
+        3,
+        0,
+        4
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "gamma_images": [
+        5,
+        1,
+        2,
+        0,
+        4,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "delta_images": [
+        2,
+        5,
+        1,
+        4,
+        3,
+        0
+      ],
+      "delta_type": "4+2",
+      "fixed_point_free_even_cycled": true,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "gamma_images": [
+        5,
+        1,
+        2,
+        3,
+        0,
+        4
+      ]
+    }
+  ],
+  "mixed_ordered_even_cycled_count": 720,
+  "mixed_ordered_pair_histogram": {
+    "3+1+1+1": 80,
+    "3+3": 80,
+    "4+2": 720,
+    "5+1": 720
+  },
+  "mixed_row_F_rectangle": {
+    "column_action_images": [
+      3,
+      0,
+      2,
+      1,
+      4,
+      5
+    ],
+    "pair_controls": [
+      {
+        "relative_images": [
+          2,
+          4,
+          0,
+          1,
+          5,
+          3
+        ],
+        "relative_type": "4+2",
+        "rows": [
+          0,
+          1
+        ]
+      },
+      {
+        "relative_images": [
+          5,
+          2,
+          1,
+          0,
+          3,
+          4
+        ],
+        "relative_type": "4+2",
+        "rows": [
+          0,
+          2
+        ]
+      },
+      {
+        "relative_images": [
+          4,
+          0,
+          3,
+          2,
+          5,
+          1
+        ],
+        "relative_type": "4+2",
+        "rows": [
+          1,
+          2
+        ]
+      }
+    ],
+    "residual_autotopy_cell_checks": 18,
+    "rows": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        4,
+        0,
+        1,
+        5,
+        3
+      ],
+      [
+        5,
+        2,
+        1,
+        0,
+        3,
+        4
+      ]
+    ],
+    "scope": "row-F 3x6 rectangle only; not a Latin18 square or FFF witness",
+    "symbol_action_images": [
+      1,
+      2,
+      0,
+      4,
+      5,
+      3
+    ]
+  },
+  "odd_fiber_cycle_controls": [
+    {
+      "physical_cycle_type": "1+1+1",
+      "quotient_length": 1,
+      "voltage": 0
+    },
+    {
+      "physical_cycle_type": "3",
+      "quotient_length": 1,
+      "voltage": 1
+    },
+    {
+      "physical_cycle_type": "3",
+      "quotient_length": 1,
+      "voltage": 2
+    },
+    {
+      "physical_cycle_type": "2+2+2",
+      "quotient_length": 2,
+      "voltage": 0
+    },
+    {
+      "physical_cycle_type": "6",
+      "quotient_length": 2,
+      "voltage": 1
+    },
+    {
+      "physical_cycle_type": "6",
+      "quotient_length": 2,
+      "voltage": 2
+    },
+    {
+      "physical_cycle_type": "3+3+3",
+      "quotient_length": 3,
+      "voltage": 0
+    },
+    {
+      "physical_cycle_type": "9",
+      "quotient_length": 3,
+      "voltage": 1
+    },
+    {
+      "physical_cycle_type": "9",
+      "quotient_length": 3,
+      "voltage": 2
+    },
+    {
+      "physical_cycle_type": "4+4+4",
+      "quotient_length": 4,
+      "voltage": 0
+    },
+    {
+      "physical_cycle_type": "12",
+      "quotient_length": 4,
+      "voltage": 1
+    },
+    {
+      "physical_cycle_type": "12",
+      "quotient_length": 4,
+      "voltage": 2
+    },
+    {
+      "physical_cycle_type": "5+5+5",
+      "quotient_length": 5,
+      "voltage": 0
+    },
+    {
+      "physical_cycle_type": "15",
+      "quotient_length": 5,
+      "voltage": 1
+    },
+    {
+      "physical_cycle_type": "15",
+      "quotient_length": 5,
+      "voltage": 2
+    },
+    {
+      "physical_cycle_type": "6+6+6",
+      "quotient_length": 6,
+      "voltage": 0
+    },
+    {
+      "physical_cycle_type": "18",
+      "quotient_length": 6,
+      "voltage": 1
+    },
+    {
+      "physical_cycle_type": "18",
+      "quotient_length": 6,
+      "voltage": 2
+    }
+  ],
+  "runtime": {
+    "elapsed_seconds_before_serialization": 0.03768279199721292,
+    "implementation": "CPython",
+    "native_solver": false,
+    "processes": 1,
+    "python": "3.14.6",
+    "repository_imports": false,
+    "source_sha256": "7cf0f0939b8b6944f60d7a6f7b9940dbc944b8d342ac58f1b9d67dd7bce52495",
+    "wall_timer_seconds": 4.5
+  },
+  "scope": "independent internal finite permutation and quotient controls; no full Latin18 enumeration",
+  "status": "PASS",
+  "two_3+3_fixed_beta_histogram": {
+    "1+1+1+1+1+1": 1,
+    "2+2+1+1": 9,
+    "3+1+1+1": 2,
+    "3+3": 10,
+    "5+1": 18
+  },
+  "two_3+3_fixed_beta_records": [
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "delta_type": "1+1+1+1+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "gamma_images": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "delta_type": "3+1+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          5,
+          4
+        ]
+      ],
+      "gamma_images": [
+        1,
+        2,
+        0,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        4,
+        1,
+        3,
+        2,
+        0,
+        5
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          5
+        ]
+      ],
+      "gamma_images": [
+        1,
+        3,
+        4,
+        0,
+        5,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "delta_images": [
+        5,
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          5,
+          4
+        ]
+      ],
+      "gamma_images": [
+        1,
+        3,
+        5,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          2,
+          4,
+          5
+        ],
+        [
+          1
+        ]
+      ],
+      "delta_images": [
+        3,
+        1,
+        4,
+        2,
+        5,
+        0
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "gamma_images": [
+        1,
+        4,
+        3,
+        5,
+        0,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        5,
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          5,
+          3
+        ]
+      ],
+      "gamma_images": [
+        1,
+        4,
+        5,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        3,
+        1,
+        5,
+        0,
+        4,
+        2
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "gamma_images": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          2,
+          5,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "delta_images": [
+        4,
+        1,
+        5,
+        0,
+        2,
+        3
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          4,
+          3
+        ]
+      ],
+      "gamma_images": [
+        1,
+        5,
+        4,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        5
+      ],
+      "delta_type": "3+1+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "gamma_images": [
+        2,
+        0,
+        1,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        3
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          5,
+          4
+        ]
+      ],
+      "gamma_images": [
+        2,
+        0,
+        1,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "delta_images": [
+        4,
+        2,
+        3,
+        1,
+        5,
+        0
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "gamma_images": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        5,
+        2,
+        3,
+        0,
+        4,
+        1
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "gamma_images": [
+        2,
+        3,
+        5,
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        3,
+        2,
+        4,
+        1,
+        0,
+        5
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "gamma_images": [
+        2,
+        4,
+        3,
+        0,
+        5,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "delta_images": [
+        5,
+        2,
+        4,
+        0,
+        1,
+        3
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          4,
+          3
+        ]
+      ],
+      "gamma_images": [
+        2,
+        4,
+        5,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ]
+      ],
+      "delta_images": [
+        3,
+        2,
+        5,
+        4,
+        0,
+        1
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          5,
+          4
+        ]
+      ],
+      "gamma_images": [
+        2,
+        5,
+        3,
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          1,
+          2,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        4,
+        2,
+        5,
+        3,
+        1,
+        0
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          5,
+          3
+        ]
+      ],
+      "gamma_images": [
+        2,
+        5,
+        4,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          1,
+          3,
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        4,
+        3,
+        0,
+        2,
+        1,
+        5
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          2,
+          4,
+          5
+        ]
+      ],
+      "gamma_images": [
+        3,
+        0,
+        4,
+        1,
+        5,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "delta_images": [
+        5,
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          2,
+          5,
+          4
+        ]
+      ],
+      "gamma_images": [
+        3,
+        0,
+        5,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          5,
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "delta_images": [
+        4,
+        3,
+        2,
+        0,
+        5,
+        1
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "gamma_images": [
+        3,
+        2,
+        4,
+        5,
+        1,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        5,
+        3,
+        2,
+        1,
+        4,
+        0
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ]
+      ],
+      "gamma_images": [
+        3,
+        2,
+        5,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        5
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "gamma_images": [
+        3,
+        4,
+        0,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        1,
+        3,
+        4,
+        0,
+        5,
+        2
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          2
+        ]
+      ],
+      "gamma_images": [
+        3,
+        4,
+        1,
+        5,
+        2,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          4,
+          2,
+          5
+        ]
+      ],
+      "delta_images": [
+        0,
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          5,
+          4
+        ]
+      ],
+      "gamma_images": [
+        3,
+        5,
+        0,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          3,
+          2,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        1,
+        3,
+        5,
+        2,
+        4,
+        0
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          5,
+          2
+        ]
+      ],
+      "gamma_images": [
+        3,
+        5,
+        1,
+        4,
+        0,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "delta_images": [
+        3,
+        4,
+        0,
+        2,
+        5,
+        1
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "gamma_images": [
+        4,
+        0,
+        3,
+        5,
+        1,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          1,
+          4,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        5,
+        4,
+        0,
+        3,
+        2,
+        1
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          2,
+          5,
+          3
+        ]
+      ],
+      "gamma_images": [
+        4,
+        0,
+        5,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        3,
+        4,
+        2,
+        0,
+        1,
+        5
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "gamma_images": [
+        4,
+        2,
+        3,
+        1,
+        5,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          3,
+          1,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "delta_images": [
+        5,
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          3
+        ],
+        [
+          1,
+          2,
+          5
+        ]
+      ],
+      "gamma_images": [
+        4,
+        2,
+        5,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          4,
+          5,
+          2,
+          3
+        ]
+      ],
+      "delta_images": [
+        0,
+        4,
+        3,
+        1,
+        5,
+        2
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "gamma_images": [
+        4,
+        3,
+        0,
+        5,
+        2,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          5
+        ]
+      ],
+      "delta_images": [
+        1,
+        4,
+        3,
+        0,
+        2,
+        5
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          2
+        ]
+      ],
+      "gamma_images": [
+        4,
+        3,
+        1,
+        2,
+        5,
+        0
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        0,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          1,
+          5,
+          3
+        ]
+      ],
+      "gamma_images": [
+        4,
+        5,
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          5,
+          3
+        ]
+      ],
+      "delta_images": [
+        1,
+        4,
+        5,
+        2,
+        0,
+        3
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          3
+        ],
+        [
+          1,
+          5,
+          2
+        ]
+      ],
+      "gamma_images": [
+        4,
+        5,
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          1,
+          5,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        3,
+        5,
+        0,
+        1,
+        4,
+        2
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "gamma_images": [
+        5,
+        0,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          1,
+          5,
+          3
+        ]
+      ],
+      "delta_images": [
+        4,
+        5,
+        0,
+        1,
+        2,
+        3
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          2,
+          4,
+          3
+        ]
+      ],
+      "gamma_images": [
+        5,
+        0,
+        4,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          3,
+          4,
+          1,
+          5
+        ],
+        [
+          2
+        ]
+      ],
+      "delta_images": [
+        3,
+        5,
+        2,
+        4,
+        1,
+        0
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "gamma_images": [
+        5,
+        2,
+        3,
+        1,
+        0,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        4,
+        5,
+        2,
+        3,
+        0,
+        1
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "gamma_images": [
+        5,
+        2,
+        4,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "delta_images": [
+        0,
+        5,
+        3,
+        2,
+        4,
+        1
+      ],
+      "delta_type": "2+2+1+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "gamma_images": [
+        5,
+        3,
+        0,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "delta_images": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ],
+      "delta_type": "3+3",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          4
+        ],
+        [
+          1,
+          3,
+          2
+        ]
+      ],
+      "gamma_images": [
+        5,
+        3,
+        1,
+        2,
+        0,
+        4
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          3,
+          2,
+          4
+        ]
+      ],
+      "delta_images": [
+        0,
+        5,
+        4,
+        2,
+        1,
+        3
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          4,
+          3
+        ]
+      ],
+      "gamma_images": [
+        5,
+        4,
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "delta_cycles_including_fixed_points": [
+        [
+          0,
+          1,
+          5,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "delta_images": [
+        1,
+        5,
+        4,
+        3,
+        0,
+        2
+      ],
+      "delta_type": "5+1",
+      "fixed_point_free_even_cycled": false,
+      "gamma_cycles_including_fixed_points": [
+        [
+          0,
+          5,
+          3
+        ],
+        [
+          1,
+          4,
+          2
+        ]
+      ],
+      "gamma_images": [
+        5,
+        4,
+        1,
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "two_3+3_fixed_point_free_even_cycled_count": 0,
+  "two_3+3_mixed_partition_histogram": {
+    "2+2+1+1": 9,
+    "3+3": 9,
+    "5+1": 18
+  },
+  "two_3+3_ordered_pair_histogram": {
+    "1+1+1+1+1+1": 40,
+    "2+2+1+1": 360,
+    "3+1+1+1": 80,
+    "3+3": 400,
+    "5+1": 720
+  },
+  "two_3+3_shared_partition_histogram": {
+    "1+1+1+1+1+1": 1,
+    "3+1+1+1": 2,
+    "3+3": 1
+  }
+}

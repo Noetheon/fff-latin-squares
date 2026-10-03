@@ -1,0 +1,88 @@
+{
+  "previous_receipt_sha256": "e81cfcaca21c46af77f2d29da2176868d104a9f132a975bebbb01ca5217d315b",
+  "baseline_claim_cutoff": "C280",
+  "baseline_evidence_cutoff_utc": "2026-09-30T12:54:17Z",
+  "selected_evidence_cutoff_utc": "2026-10-02T14:03:38Z",
+  "selected_addition": "E9 two-free-coordinate theorem only",
+  "mathematical_claims_changed": true,
+  "unrestricted_order18": "open",
+  "superseded_aliases": [
+    {
+      "path": "papers/FFF_Compact_Research_Dossier.pdf",
+      "previous_sha256": "f51d47b9adb9546307a7ef4ae678956208c42acba376eaf0ff605b0600a53dd9",
+      "public_sha256": "68904c6d64f14655b9c695b3072d3eb4a752c6babad245d142b1032a5fa5c059"
+    },
+    {
+      "path": "papers/FFF_Long_Research_Dossier.pdf",
+      "previous_sha256": "74e499f82ab636bee6a55159ba3c6fe5e6b3bb71683e17bcec148c9370c91209",
+      "public_sha256": "a89426096eaf4207fbabfc4018c3cb42a674fa1df31867bf4ec84ccb44f4ac5a"
+    },
+    {
+      "path": "papers/FFF_Selected_Research_Dossier.pdf",
+      "previous_sha256": "78e438894d072bdbf2b7dd25376f237c2e6620e650ac59229cb9d6ed41b0bab1",
+      "public_sha256": "eca614c605d038e0ae041106dce4d31ed568647ee154e12fce5700b50d778db3"
+    }
+  ],
+  "files": [
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/README.md",
+      "bytes": 3532,
+      "sha256": "d753a41d405e277094c8f0603f95cbf167e9989a65f27162a03500d71f91ca37"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/REVIEW_AND_LIMITATIONS.md",
+      "bytes": 3164,
+      "sha256": "8456541c06ae00f0766beb774be666a5f292cb22f652bec5324a1bd051157090"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/SOURCE_PROVENANCE.json",
+      "bytes": 1074,
+      "sha256": "00f30ee567556c148df36ddb3a7f938348ccd2e90bde5f2205509579d3f80137"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/THEOREM_EVIDENCE.json",
+      "bytes": 34510,
+      "sha256": "37db18b79b7cf6a516005cab2e4d6d354db84a04972e56d91537378116d6d976"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/THEOREM_EVIDENCE.md",
+      "bytes": 19908,
+      "sha256": "6edb0edcf24959994bf82dca7172d15196fa4e530ac5c49999ec1b6290407879"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/editions.json",
+      "bytes": 824,
+      "sha256": "0c2bce6947bbace9bee8bd7cbef9e4715f9ca2ff4bd1c52735eaf7ff9b4a6477"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/results/enumeration_results.json",
+      "bytes": 59007,
+      "sha256": "51b3a9e76f43a59a786f9aea94abda8156de2413fdd27163e52fcc066e11dcd7"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/results/public_replay.json",
+      "bytes": 597,
+      "sha256": "c34703cee87dea40f7058d9aa27ba8261ca581cdd2697050b868dd569d2c97b3"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/scripts/build_editions.py",
+      "bytes": 4015,
+      "sha256": "39c0e84c79a783f5efa1fe8e04b164da688104142a576d8be4a6549beabdbdb9"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/scripts/build_evidence_index.py",
+      "bytes": 3653,
+      "sha256": "dd2f684714dfdda77edff6459699c3958f93d7a0595065865b7a5fc77e3886fd"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/scripts/enumerate_s6.py",
+      "bytes": 14962,
+      "sha256": "7cf0f0939b8b6944f60d7a6f7b9940dbc944b8d342ac58f1b9d67dd7bce52495"
+    },
+    {
+      "path": "manuscript/candidates/2026-10-02_e9_symmetry_review/sections/19_e9_free_coordinates.tex",
+      "bytes": 6274,
+      "sha256": "6ebc922c2e352e2151639e1e822fd0571e9097e36be6b745595c2bb8c30b6c38"
+    }
+  ]
+}

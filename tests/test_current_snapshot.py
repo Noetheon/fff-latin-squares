@@ -85,6 +85,8 @@ class CurrentSnapshotTests(unittest.TestCase):
         expected_files = self.counteraudit_receipt(
             expected_files, (ROOT / "PUBLIC_SNAPSHOT_2026-09-30_TYPOGRAPHY.json").read_bytes(),
             json.loads(counteraudit_bytes))
+        expected_files = self.e9_receipt(expected_files, counteraudit_bytes,
+            json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-10-02.json").read_text()))
         for relative, expected in expected_files.items():
             path = ROOT / relative
             self.assertFalse(path.is_symlink(), relative)
@@ -97,6 +99,49 @@ class CurrentSnapshotTests(unittest.TestCase):
                    if path.is_file()}
         self.assertTrue(shipped)
         self.assertEqual(recorded, shipped, "new candidate receipt coverage differs")
+
+    def e9_receipt(self, expected, previous_bytes, successor):
+        self.assertEqual(successor["previous_receipt_sha256"], hashlib.sha256(previous_bytes).hexdigest())
+        self.assertEqual(successor["baseline_claim_cutoff"], "C280")
+        self.assertIs(successor["mathematical_claims_changed"], True)
+        self.assertEqual(successor["unrestricted_order18"], "open")
+        self.assertEqual(successor["selected_addition"], "E9 two-free-coordinate theorem only")
+        result = dict(expected)
+        aliases = PDF_ALIASES | {"papers/FFF_Selected_Research_Dossier.pdf"}
+        replacements = self.receipt_rows(successor["superseded_aliases"], "public_sha256")
+        self.assertEqual(set(replacements), aliases)
+        for path, row in replacements.items():
+            self.assertEqual(row["previous_sha256"], result[path], path)
+            result[path] = row["public_sha256"]
+        prefix = "manuscript/candidates/2026-10-02_e9_symmetry_review/"
+        rows = self.receipt_rows(successor["files"], "sha256")
+        for path, row in rows.items():
+            self.assertTrue(path.startswith(prefix), path)
+            self.assertNotIn(path, result, "Attempt to replace frozen science")
+            self.assertEqual((ROOT / path).stat().st_size, row["bytes"])
+            result[path] = row["sha256"]
+        shipped = {p.relative_to(ROOT).as_posix() for p in (ROOT / prefix).rglob("*") if p.is_file()}
+        self.assertEqual(set(rows), shipped, "Selected extension coverage differs")
+        return result
+
+    def test_e9_successor_rejects_wrong_alias_or_scope(self):
+        current = json.loads((ROOT / "PUBLIC_SNAPSHOT_2026-10-02.json").read_text())
+        previous = (ROOT / "PUBLIC_SNAPSHOT_2026-09-30_COUNTERAUDIT.json").read_bytes()
+        old = {r["path"]: r["previous_sha256"] for r in current["superseded_aliases"]}
+        for fault in ("chain", "alias", "science", "scope", "missing"):
+            bad = json.loads(json.dumps(current))
+            if fault == "chain":
+                bad["previous_receipt_sha256"] = "0" * 64
+            elif fault == "alias":
+                bad["superseded_aliases"][0]["previous_sha256"] = "0" * 64
+            elif fault == "science":
+                bad["mathematical_claims_changed"] = False
+            elif fault == "scope":
+                bad["unrestricted_order18"] = "excluded"
+            else:
+                bad["files"].pop()
+            with self.subTest(fault=fault), self.assertRaises(AssertionError):
+                self.e9_receipt(old, previous, bad)
 
     def counteraudit_receipt(self, expected, previous_bytes, successor):
         self.assertEqual(successor["previous_receipt_sha256"],

@@ -26,7 +26,9 @@ if __name__ == "__main__":
                         "byte_identical": generated.read_bytes() == published.read_bytes(),
                         "warnings": edition["warnings"]})
     report = {"passed": result["passed"] and all(r["byte_identical"] for r in records),
-              "variants": records, "mathematical_claims_changed": False}
+              "variants": records,
+              "edition_adds_mathematical_claims": result["new_mathematical_claims"],
+              "rebuild_changes_mathematical_claims": False}
     (build / "pdf_rebuild.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
     raise SystemExit(0 if report["passed"] else 1)

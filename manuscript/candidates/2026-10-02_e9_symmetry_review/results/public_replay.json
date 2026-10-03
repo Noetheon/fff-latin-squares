@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "source_sha256": "7cf0f0939b8b6944f60d7a6f7b9940dbc944b8d342ac58f1b9d67dd7bce52495",
+  "reference_sha256": "51b3a9e76f43a59a786f9aea94abda8156de2413fdd27163e52fcc066e11dcd7",
+  "actual_sha256": "cb012e91e3b30dcf0b474bdf449d991a513ac80109838f30e5b65e04d02e5fe4",
+  "ignored_fields": [
+    "runtime.elapsed_seconds_before_serialization",
+    "runtime.python"
+  ],
+  "command_template": "python3 -I -B COPIED_SCRIPT",
+  "timeout_seconds": 10,
+  "scope": "Finite controls for the analytic theorem only; no Latin18 enumeration, solver or external peer review"
+}
